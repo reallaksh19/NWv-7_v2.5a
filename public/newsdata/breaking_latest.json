@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783524545653,
-  "contentHash": "196cdab72e57",
+  "fetchedAt": 1783529956454,
+  "contentHash": "a1f4e511c7a6",
   "breaking": [
     {
-      "title": "West Asia War LIVE: Trump threatens to strike Iran's civilian infrastructure",
-      "summary": "\"I'll ​give ‌a little warning, We're going ‌to hit ​them hard tonight,\" Mr. Trump ⁠told reporters at the ‌NATO summit",
-      "source": "The Hindu International",
+      "title": "Trump says ‘ceasefire is over’, after U.S., Iran exchange strikes",
+      "summary": "U.S. President vows to strike Iran “hard” again, but says he will let negotiators keep talking; IRGC hits Gulf targets after U.S. air strikes follow attacks on three ships using Omani route in the Strait of Hormuz",
+      "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-after-iran-strikes-strait-of-hormuz-donald-trump-netanyahu-mojtaba-lebanon-hezboallah-peace-deal/article71196409.ece",
-      "publishedAt": 1783522540000,
-      "category": "world",
+      "url": "https://www.thehindu.com/news/international/trump-says-iran-ceasefire-over-after-fighting-flares/article71197341.ece",
+      "publishedAt": 1783529328000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "e00582ec868423a1",
+      "id": "51d07193727801fd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.954,
+      "breakingScore": 5.485,
       "breakingReasons": [
-        "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "allSources": [
-        "ndtv",
-        "the_hindu"
+        "bbc",
+        "the_hindu",
+        "times_of_india"
       ],
-      "firstSeen": 1783521821000
+      "firstSeen": 1783516930000
     },
     {
       "title": "Teenager arrested after two girls, 13, seriously injured in German school attack",
@@ -41,7 +41,7 @@
       "id": "69105eb659b0b850",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.472,
+      "breakingScore": 5.347,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -64,7 +64,7 @@
       "id": "8167f97fad845c16",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.181,
+      "breakingScore": 5.056,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -73,6 +73,31 @@
         "the_hindu"
       ],
       "firstSeen": 1783510777000
+    },
+    {
+      "title": "Violence at Trinamool rally in Kolkata; Mamata accuses BJP government of allowing lawlessness",
+      "summary": "Former CM claims police failed to prevent attacks on Trinamool workers during protest against Baruipur minor rape and murder case",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/west-bengal/violence-at-trinamoolrallyin-kolkata-mamata-accuses-bjp-government-of-allowing-lawlessness/article71198436.ece",
+      "publishedAt": 1783529538000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "f3b825b1e6899dcb",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 4.49,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1783524296000
     },
     {
       "title": "'Lust for murder': German doctor who killed 15 patients gets life term; suspected in 76 more deaths",
@@ -87,7 +112,7 @@
       "id": "6eb8a77397386bc0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.422,
+      "breakingScore": 4.297,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -98,6 +123,29 @@
         "times_of_india"
       ],
       "firstSeen": 1783520725000
+    },
+    {
+      "title": "West Asia War LIVE: Trump threatens to strike Iran's civilian infrastructure",
+      "summary": "\"I'll ​give ‌a little warning, We're going ‌to hit ​them hard tonight,\" Mr. Trump ⁠told reporters at the ‌NATO summit",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-after-iran-strikes-strait-of-hormuz-donald-trump-netanyahu-mojtaba-lebanon-hezboallah-peace-deal/article71196409.ece",
+      "publishedAt": 1783529095000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "e00582ec868423a1",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.98,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1783529095000
     },
     {
       "title": "US To Let Ukraine Make Patriot Missiles To Fight Russia, Says Trump",
@@ -112,7 +160,7 @@
       "id": "9a2876dc1b45a028",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.96,
+      "breakingScore": 3.835,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -121,29 +169,6 @@
         "ndtv"
       ],
       "firstSeen": 1783522831000
-    },
-    {
-      "title": "Several Feared Trapped As Under-Construction Building Collapses In Delhi",
-      "summary": "Residents rushed to the site after hearing a loud crash from the collapse.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/several-feared-trapped-as-under-construction-house-collapses-in-delhi-11744601#publisher=newsstand",
-      "publishedAt": 1783519791000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "e572622222edd658",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.89,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783519791000
     },
     {
       "title": "Eight killed after landslide hits girls' school in Bangladesh",
@@ -158,7 +183,7 @@
       "id": "230ea7d77560633b",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.88,
+      "breakingScore": 3.755,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -167,29 +192,6 @@
         "bbc"
       ],
       "firstSeen": 1783519374000
-    },
-    {
-      "title": "Tow-truck driver shot during California freeway service call remains in critical condition as family speaks out",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132263013.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />A towing operator in California has sustained critical injuries following a shooting incident on a busy freeway. Authorities are actively probing the circumstances surrounding the attack as the driver’s family rallies for community assistance to cover escalating medical and daily expenses. Meanwhile, the alleged shooter perished following a police chase that ensued. This unfortunate event underscores the perilous conditions under which tow truck drivers operate.",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/us/tow-truck-driver-shot-during-california-freeway-service-call-remains-in-critical-condition-as-family-speaks-out/articleshow/132263013.cms",
-      "publishedAt": 1783513553000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "5ff1bbab280874c7",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.746,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "times_of_india"
-      ],
-      "firstSeen": 1783513553000
     }
   ]
 }
