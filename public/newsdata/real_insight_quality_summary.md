@@ -5,14 +5,14 @@
 - Grade: `C`
 - Parents: `10`
 - Average angles: `1.5`
-- Average temporal tiers: `1.9`
+- Average temporal tiers: `2`
 - Average evolution roles: `1.9`
-- Base report share: `0.38095238095238093`
+- Base report share: `0.2857142857142857`
 - Multi-angle parents: `5`
 - Weak parents: `5`
-- Story count: `609`
+- Story count: `591`
 - Source groups: `9`
-- Content hash: `474021cf567007ec`
+- Content hash: `c4f89c3387f7a9f5`
 
 ## Top parents
 
@@ -26,8 +26,8 @@
 | 6 | HUL's three-month return signals market strength | 2 | fact_update | YES | 0.6814967197849984 |
 | 7 | Why Pakistan-based Hafiz Saeed is wanted in India? / Explained | 2 | base_report | YES | 0.6365800531183317 |
 | 8 | PM Modi conferred with Indonesia's highest honour ‘Bintang Adipurna' in Jakarta | 2 | official_response | YES | 0.61351 |
-| 9 | Woman suspected of Monaco bomb attack found dead in Ukraine | 2 | fact_update | YES | 0.60616 |
-| 10 | US accuses Iran of attacking 2 commercial ships; mulls action | 2 | base_report | YES | 0.6098300531183317 |
+| 9 | Baruipur rape-murder case: One key accused killed in police encounter | 2 | fact_update | YES | 0.6325800531183317 |
+| 10 | Woman suspected of Monaco bomb attack found dead in Ukraine | 2 | fact_update | YES | 0.60616 |
 
 ## Real Snapshot Ratchet Gate
 
@@ -37,9 +37,9 @@
 - Score: `100`
 - Parents: `10`
 - Average angles: `1.5`
-- Average temporal tiers: `1.9`
+- Average temporal tiers: `2`
 - Average evolution roles: `1.9`
-- Base report share: `0.381`
+- Base report share: `0.286`
 - Multi-angle parents: `5`
 - Top parent angles: `2`
 - Top parent children: `2`
@@ -53,9 +53,9 @@
 - Real snapshot grade floor: `C` / `A/B/C`
 - Parent cluster count: `10` / `>= 3`
 - Average visible angle count: `1.5` / `>= 1.4`
-- Average temporal tier count: `1.9` / `>= 1.8`
+- Average temporal tier count: `2` / `>= 1.8`
 - Average evolution role count: `1.9` / `>= 1.6`
-- Base report share: `0.381` / `<= 0.55`
+- Base report share: `0.286` / `<= 0.55`
 - Multi-angle parent count: `5` / `>= 1`
 - Top parent angle count: `2` / `>= 2`
 - Top parent child depth: `2` / `>= 2`
