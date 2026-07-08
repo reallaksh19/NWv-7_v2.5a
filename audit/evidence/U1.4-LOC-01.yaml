@@ -1,0 +1,33 @@
+check_id: U1.4-LOC-01
+invariant: >
+  Location alias sets carry no collision risk that would mis-attribute an item to a city:
+  no alias that is a common word, no alias that is a substring/shared-token of another city's
+  aliases. (Catalogue feeding U2.4, where the locationAware match ladder is executed.)
+source_of_truth: >
+  audit/UPAHEAD_AUDIT_PLAN.md §U1 (location library) + §U2.4 (score ladder 1.0 exact /
+  0.95 word-boundary / 0.82 substring); src/config/locationLibrary.js:1-27 (DEFAULT_LOCATION_LIBRARY),
+  :55-66 (buildLocationAliasIndex).
+input:
+  snapshot: "locationLibrary.js at git HEAD (3 cities, 55 aliases)"
+  asOfDate: "N/A — alias sets are clock-invariant"
+  mode: { mode: offline (location-strict path is where this bites), host: both, locale: Chennai/Trichy/Muscat }
+procedure: >
+  Static review of every alias against two collision tests: (1) is it a common English/generic
+  word that appears in unrelated text? (mechanism-INDEPENDENT — fires even on exact/word-boundary
+  match); (2) is it a substring or shared token of another city's alias? (mechanism-DEPENDENT —
+  only bites if locationAware uses the 0.82 substring rung). Impact measurement deferred to U2.4.
+result:
+  mechanism_independent_HIGH:
+    - "'cantonment' (Trichy) is a generic military-area term — Chennai (St Thomas Mount), Delhi, Pune, Secunderabad, etc. all have cantonments. ANY 'X cantonment' item is mis-attributed to Trichy on an exact alias hit. Confirmed false-positive vector regardless of match rung."
+  mechanism_dependent_UNVERIFIED_pending_U2.4:
+    - "short aliases prone to substring hits: 'omr','ecr' (Chennai, 3 chars); 'ruwi','seeb' (Muscat, 4 chars) — risky only if the 0.82 substring rung is used"
+    - "shared token 'nagar' across Chennai ('anna nagar','annanagar','thyagaraya nagar') AND Trichy ('thillai nagar','kk nagar trichy') -> token-overlap contamination risk between two TN cities"
+    - "'al hail' (Muscat) contains the weather token 'hail' (a weather_alerts context keyword) -> cross-domain risk if tokenized"
+  benign_variants: "intentional spelling variants are NOT collisions: alkhuwair/al khuwair/khuwair, maabela/mabela, bowshar/bousher, muttrah/matrah, ghubra/gubra, thiruvallur/tiruvallur, annanagar/anna nagar"
+verdict: FAIL (>=1 confirmed mechanism-independent collision: 'cantonment') with UNVERIFIED tail (mechanism-dependent risks pending U2.4 execution)
+user_impact: >
+  'cantonment' mis-routes non-Trichy cantonment items into the Trichy locale (a P004 falseLocation
+  surface). The 'nagar' / short-alias / 'al hail' risks depend on the locationAware match rung and
+  are quantified in U2.4 against the falseLocationAcceptance 0.05 gate.
+benchmark_hook: "U2.4 executes these probes on real data per locale; §V4 location false-acceptance metric catches regressions. This record is the U2.4 input list."
+issue_matrix_id: I018

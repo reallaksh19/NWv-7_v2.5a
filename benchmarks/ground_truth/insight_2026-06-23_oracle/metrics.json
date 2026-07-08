@@ -1,0 +1,106 @@
+{
+  "corpus": "insight_2026-06-23",
+  "oracle": "claude-opus-4-8 (uncalibrated)",
+  "calibration": "NONE — single uncalibrated LLM oracle. INDICATIVE, not certified.",
+  "clustering_precision_pairs": 1,
+  "merged_pairs": 6,
+  "false_merges": [],
+  "cluster_level": {
+    "clusters": 10,
+    "with_false_merge": 0,
+    "clean": 10
+  },
+  "angle_accuracy": 0.25,
+  "angle_evaluated": 28,
+  "angle_correct": 7,
+  "top_miss_patterns": [
+    [
+      "base_report→official_response",
+      5
+    ],
+    [
+      "base_report→fact_update",
+      3
+    ],
+    [
+      "background_context→official_response",
+      2
+    ],
+    [
+      "fact_update→regional_followup",
+      2
+    ],
+    [
+      "base_report→regional_followup",
+      2
+    ],
+    [
+      "background_context→regional_followup",
+      1
+    ]
+  ],
+  "ranking": {
+    "minor_in_top3": 0,
+    "conformance_pass": true,
+    "top3_importance": [
+      null,
+      "major",
+      null
+    ],
+    "majors_outside_top3": []
+  },
+  "dedup_recall_nearident": 0.677,
+  "near_identical_pairs": 31,
+  "caught": 21,
+  "missed": 10,
+  "missed_examples": [
+    {
+      "a": "4dbb3b184644730b",
+      "b": "7631a543cef899fa",
+      "shared": 5,
+      "t": "Bengal Budget: FM proposes to support revival of Calcutta St"
+    },
+    {
+      "a": "95a0110d6f7525ff",
+      "b": "f3b8e1c1334f8ec9",
+      "shared": 5,
+      "t": "Rebel BJP Leader Defeats Eknath Shinde Nominee In Maharashtr"
+    },
+    {
+      "a": "bdf23ff01173831d",
+      "b": "f614f9d008536f6d",
+      "shared": 5,
+      "t": "Tamil Nadu: Death toll in ammonia gas leak raises to nine at"
+    },
+    {
+      "a": "82ecaa14a82a2872",
+      "b": "dea8b42900bfade7",
+      "shared": 6,
+      "t": "12 Indians among 13 killed in explosion at factory in Ras La"
+    },
+    {
+      "a": "41106178f6bf3bb9",
+      "b": "e69d70e553a73b5f",
+      "shared": 6,
+      "t": "India News LIVE Updates, 22 June 2026: Uddhav calls all-part"
+    },
+    {
+      "a": "514f9df0f354069e",
+      "b": "cf0f62e9bdc58c24",
+      "shared": 5,
+      "t": "Centre tightens FCRA rules for NGOs receiving foreign funds"
+    },
+    {
+      "a": "2260914d28bdfb3c",
+      "b": "ad6d3cce592f431c",
+      "shared": 5,
+      "t": "Explosion at Dakshin Energy unit in Visakhapatnam’s Pharma C"
+    },
+    {
+      "a": "68e7d1d535929ecf",
+      "b": "ceb1e70f0d8e71b4",
+      "shared": 5,
+      "t": "Inquiry ordered after building fire kills 15 in north India "
+    }
+  ]
+}

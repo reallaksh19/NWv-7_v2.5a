@@ -1,0 +1,57 @@
+check_id: A0.1-DET-01
+invariant: >
+  "A fixed snapshot input produces byte-identical pipeline output (parent IDs, scores,
+  cluster membership, child trees) across N=10 repeated runs, given a fixed clock and a
+  cleared in-process cache. (Plan §A0 exit gate.)"
+source_of_truth:
+  - "audit/INSIGHT_AUDIT_PLAN.md §A0"
+  - "src/insight/src/pipeline/pipeline.ts (runInsightPipeline)"
+  - "harness: audit/evidence/a0_determinism.harness.test.ts (+ a0.vitest.config.ts)"
+input:
+  snapshot: "public/newsdata/insight_2026-05-19.json"
+  fileSha256: "ade1430dd96bb5f1"
+  contentHash: "40f989d5da9c"
+  stories: 877
+  slotMeta: { now: 99, minus4h: 80, minus12h: 39, minus24h: 20 }   # unslotted stories default to "now"
+  node: "v22.22.2"   # NB: CI/workflow uses Node 20 — cross-version identity UNVERIFIED here
+procedure: >
+  Headless vitest harness builds embeddings + normalized stories ONCE (deterministic;
+  118ms), then runs runInsightPipeline(fetcher, DEFAULT_CONFIG) N=10 times under the real
+  clock and N=10 times under a pinned Date.now (virtual-clock shim), clearing all 6 slot
+  caches (invalidateSlot) before each run. Each run is projected to the A0 exit-gate
+  surface — per parent: parentId, finalParentScore, clusterStoryIds, childStoryIds,
+  hiddenDuplicateIds, weakTree, and 9 component scores — then sha256'd. ranAt (a Date.now
+  metadata field on the run result) is intentionally excluded from the projection.
+  Full per-run log: audit/evidence/A0-progress.log; machine output: A0-run-projection.json.
+result:
+  parents_per_run: 10
+  real_clock:   { runs: 10, unique_hashes: 1, hash: "37616c2e99ccca69", identical: true,
+                  wallclock_drift_across_runs: "~24 min (17:29Z→17:51Z)", per_run_ms: "~140-145k" }
+  frozen_clock: { runs: 10, unique_hashes: 1, hash: "d803a31bed6982eb", identical: true,
+                  pinned_epoch_ms: 1747645200000 }
+  real_vs_frozen_hash_differs: true
+verdict: PASS
+verdict_detail: >
+  In-process reproducibility for a fixed (snapshot, clock) pair is CONFIRMED: 10/10
+  identical under the real clock AND 10/10 identical under the pinned clock. Notably the
+  real-clock runs stayed byte-identical despite ~24 min of wall-clock drift, because on a
+  >30-day-stale snapshot every story falls below the temporal-tier window and the tiers
+  collapse stably. The real≠frozen hash proves the output is genuinely clock-coupled, so
+  CROSS-TIME replay (benchmark B3) on dated snapshots REQUIRES a virtual clock. Virtual-
+  clock feasibility is DEMONSTRATED (pinning Date.now yields a stable, distinct result);
+  see I004 for the un-plumbed injection points that make the shim necessary today.
+caveats:
+  - "Frozen constant 1747645200000 resolves to 2025-05-19T09:00Z, not 2026 as the harness
+     comment intended (off-by-one-year). This does NOT affect the verdict — a fixed clock
+     is a fixed clock and the load-bearing result is the 10/10 real-clock identity — but the
+     frozen hash represents 'an arbitrary fixed clock', NOT 'the snapshot capture time'."
+  - "Node 20 (CI) vs Node 22 (this run) byte-identity is UNVERIFIED (no Node 20 available)."
+user_impact: >
+  Determinism is a prerequisite, not a user-facing defect. Its absence would invalidate
+  every later audit verdict and make the B3 replay benchmark meaningless. Establishing
+  PASS here unblocks A1–A5 evidence and the benchmark.
+benchmark_hook: >
+  Directly enables benchmarks/INSIGHT_BENCHMARK_PLAN.md §B3 (36h replay) — but only once a
+  real virtual clock is wired (I004). B4 stability metric inherits this determinism bound.
+issue_matrix_id: "I004 (clock-injection gap); A0 itself PASSES"
+gate_status: "A0 EXIT GATE MET → A1, A2.x, A3, A4(remainder), A5 are now unblocked."

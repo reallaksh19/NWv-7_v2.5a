@@ -1,0 +1,258 @@
+{
+  "corpus": "insight_synth_36h_v1",
+  "git_sha": "13a3943",
+  "kappa": 1,
+  "label_method": "construction-time (generator)",
+  "clustering_pairwise": {
+    "evaluable": 12,
+    "tp": 10,
+    "fp": 0,
+    "fn": 1,
+    "tn": 1,
+    "precision": 1,
+    "recall": 0.909,
+    "f1": 0.952
+  },
+  "oov_stratum_clustering": {
+    "evaluable": 2,
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1
+  },
+  "dedup": {
+    "recall_known_dups": 0,
+    "known_dup_groups": 2,
+    "precision_proxy": 0.8,
+    "hidden_total": 30
+  },
+  "angle": {
+    "accuracy": 0.395,
+    "evaluated": 38,
+    "unknown_rate": 0,
+    "top_confusions": [
+      [
+        "base_report->official_response",
+        5
+      ],
+      [
+        "fact_update->correction",
+        4
+      ],
+      [
+        "base_report->market_reaction",
+        3
+      ],
+      [
+        "fact_update->market_reaction",
+        3
+      ],
+      [
+        "unknown->official_response",
+        2
+      ]
+    ]
+  },
+  "ranking_bucket_conformance": {
+    "evaluated_cycle": 22,
+    "top3_importance": [
+      "notable",
+      "major",
+      "minor"
+    ],
+    "top5_importance": [
+      "notable",
+      "major",
+      "minor",
+      "notable",
+      "major"
+    ],
+    "minor_in_top3": 1,
+    "conformance_pass": false
+  },
+  "time_to_surface": {
+    "median_latency_cycles": 1,
+    "breaking_event": {
+      "cluster": "C_EVT_BREAKING",
+      "importance": "major",
+      "firstSeenCycle": 14,
+      "firstTopCycle": 15,
+      "latency": 1,
+      "challenges": [
+        "breaking_new_event",
+        "breaking_vs_important",
+        "persistence_multi_cycle"
+      ]
+    },
+    "all": [
+      {
+        "cluster": "C_EVT_RBI",
+        "importance": "major",
+        "firstSeenCycle": 2,
+        "firstTopCycle": 3,
+        "latency": 1,
+        "challenges": [
+          "dedup_layer3_event",
+          "persistence_multi_cycle",
+          "angle_confusable"
+        ]
+      },
+      {
+        "cluster": "C_EVT_ELECTION",
+        "importance": "major",
+        "firstSeenCycle": 1,
+        "firstTopCycle": 2,
+        "latency": 1,
+        "challenges": [
+          "dedup_layer3_event",
+          "persistence_multi_cycle"
+        ]
+      },
+      {
+        "cluster": "C_EVT_COURT",
+        "importance": "notable",
+        "firstSeenCycle": 5,
+        "firstTopCycle": 6,
+        "latency": 1,
+        "challenges": [
+          "dedup_layer3_event",
+          "angle_confusable"
+        ]
+      },
+      {
+        "cluster": "C_EVT_URLDUP",
+        "importance": "notable",
+        "firstSeenCycle": 3,
+        "firstTopCycle": 4,
+        "latency": 1,
+        "challenges": [
+          "dedup_layer1_url"
+        ]
+      },
+      {
+        "cluster": "C_EVT_HASHDUP",
+        "importance": "notable",
+        "firstSeenCycle": 4,
+        "firstTopCycle": 5,
+        "latency": 1,
+        "challenges": [
+          "dedup_layer2_hash"
+        ]
+      },
+      {
+        "cluster": "C_EVT_VIRAL",
+        "importance": "minor",
+        "firstSeenCycle": 8,
+        "firstTopCycle": 9,
+        "latency": 1,
+        "challenges": [
+          "wire_syndication",
+          "rank_minor_trap"
+        ]
+      },
+      {
+        "cluster": "C_EVT_TRICHY",
+        "importance": "notable",
+        "firstSeenCycle": 6,
+        "firstTopCycle": 7,
+        "latency": 1,
+        "challenges": [
+          "location_oov",
+          "dedup_layer3_event"
+        ]
+      },
+      {
+        "cluster": "C_EVT_CIVIC",
+        "importance": "minor",
+        "firstSeenCycle": 9,
+        "firstTopCycle": 10,
+        "latency": 1,
+        "challenges": [
+          "location_oov"
+        ]
+      },
+      {
+        "cluster": "C_EVT_HOMONYM",
+        "importance": "notable",
+        "firstSeenCycle": 7,
+        "firstTopCycle": 8,
+        "latency": 1,
+        "challenges": [
+          "location_homonym"
+        ]
+      },
+      {
+        "cluster": "C_EVT_BREAKING",
+        "importance": "major",
+        "firstSeenCycle": 14,
+        "firstTopCycle": 15,
+        "latency": 1,
+        "challenges": [
+          "breaking_new_event",
+          "breaking_vs_important",
+          "persistence_multi_cycle"
+        ]
+      },
+      {
+        "cluster": "C_EVT_PERSIST_MINOR",
+        "importance": "minor",
+        "firstSeenCycle": 1,
+        "firstTopCycle": 2,
+        "latency": 1,
+        "challenges": [
+          "persistence_multi_cycle",
+          "breaking_vs_important"
+        ]
+      },
+      {
+        "cluster": "C_EVT_DATEZOO",
+        "importance": "notable",
+        "firstSeenCycle": 3,
+        "firstTopCycle": 4,
+        "latency": 1,
+        "challenges": [
+          "date_format_zoo",
+          "date_tz_mixed",
+          "date_headline_vs_meta"
+        ]
+      },
+      {
+        "cluster": "C_EVT_VAGUE",
+        "importance": "minor",
+        "firstSeenCycle": 10,
+        "firstTopCycle": 12,
+        "latency": 2,
+        "challenges": [
+          "angle_unknown_floor"
+        ]
+      }
+    ]
+  },
+  "incremental_vs_full_divergence": [
+    {
+      "cycle": 8,
+      "cold_clusters": 10,
+      "warm_clusters": 10,
+      "present_in_full_absent_in_incremental": []
+    },
+    {
+      "cycle": 16,
+      "cold_clusters": 9,
+      "warm_clusters": 9,
+      "present_in_full_absent_in_incremental": [
+        "C_EVT_CIVIC"
+      ]
+    },
+    {
+      "cycle": 23,
+      "cold_clusters": 9,
+      "warm_clusters": 10,
+      "present_in_full_absent_in_incremental": [
+        "C_EVT_VIRAL"
+      ]
+    }
+  ]
+}

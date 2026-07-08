@@ -1,0 +1,50 @@
+check_id: U1.1-KWD-01
+invariant: >
+  The Up Ahead keyword tables contain no contradictions that corrupt classification:
+  (i) no term in both a category's positive and its own negative list; (ii) no positive
+  term cancelled by an un-stripped global negative; (iii) no global negative silently dead;
+  (iv) cross-category positive collisions catalogued. Tested against the SHIPPED matcher,
+  NOT the plan's assumed pure-substring matcher (plan §U1 U9-2 premise re-tested).
+source_of_truth: >
+  audit/UPAHEAD_AUDIT_PLAN.md §U1 (keyword-list integrity / U9-2 class);
+  src/config/settings_upahead.js:48-67 (keywords); src/intelligence/classification.js:9-39
+  (matcher), :107-152 (scoring), :110+:49-52 (removeScheduleSignalNegatives signal-strip);
+  wired live via src/utils/storage.js:142 (upAhead: DEFAULT_UPAHEAD_SETTINGS).
+input:
+  snapshot: "static config — settings_upahead.js at git HEAD; no data snapshot required"
+  contentHash: "git-tracked src/config/settings_upahead.js (see HEAD)"
+  asOfDate: "N/A — keyword tables are clock-invariant; verdict identical at any reference date"
+  mode: { mode: n/a, host: both (same JS table static+live; Python-table parity is U2.7), locale: n/a }
+procedure: >
+  audit/evidence/u1_keyword_collision_scan.mjs replicates classification.js countMatches
+  EXACTLY (single-word -> \bword\b regex; multi-word -> substring includes()), then for every
+  ordered keyword pair tests whether the literal text of one co-fires the other, bucketed by
+  list membership and signal-strip status. Run: `node audit/evidence/u1_keyword_collision_scan.mjs`.
+  Deterministic output: audit/evidence/U1-keyword-collision-report.json.
+result:
+  matcher_reframes_U9-2: >
+    Plan §U1 assumed includes() everywhere ("'launches' hits 'launch'"). FALSE for single
+    tokens: 7 feared substring pairs are neutralized by \b and do NOT co-fire
+    (premiere/premieres, holi/holiday, schedule/scheduled, review/{preview,reviewed,reviews},
+    prediction/predictions). Substring risk is confined to MULTI-WORD phrases only.
+  CLASS1_intraCategory_exact: ["events: 'webinar' is in BOTH events positives and events_negative -> net 0 on a lone match (1 - 1.0); contradictory intent, fragile"]
+  CLASS2_positiveVsGlobal_exact: ["weather_alerts: 'fog' is a positive AND a global negative (NOT signal-stripped) -> a real fog weather alert is scored +1 -0.65 = +0.35; the global negative erodes a legitimate safety-category term"]
+  CLASS2_positiveVsGlobal_cofire: ["airlines positive 'flight deal' co-fires global negative 'deal' (-0.65); 'deal' is an over-broad bare global negative that also nicks shopping/offer language"]
+  CLASS3_crossCategory_exact: ["'trade fair' in events AND shopping positives -> deterministic tie resolved to events by categoryList iteration order (arbitrary, not by confidence)"]
+  CLASS3_crossCategory_cofire_7: ["movies 'streaming from'/'now streaming' -> sports 'streaming'", "alerts 'traffic advisory'/'boil water advisory' -> weather_alerts 'advisory'", "alerts 'bus route change' -> civic 'route change'", "shopping 'exhibition sale' -> events 'exhibition'", "airlines 'fare sale' -> shopping 'sale'"]
+  CLASS4_dead_global_negative: ["'launches' — present in BOTH global negatives and signals, so removeScheduleSignalNegatives strips it on every match; the intended corporate-launch-PR suppression NEVER fires (dead config)"]
+  artifacts: ["audit/evidence/U1-keyword-collision-report.json", "audit/evidence/u1_keyword_collision_scan.mjs"]
+verdict: FAIL
+user_impact: >
+  (1) 'fog' weather alerts under-scored on a safety-relevant category. (2) dead 'launches'
+  negative -> corporate "X launches Y" PR can leak into movies/events pools. (3) cross-category
+  co-fires split scores and risk mis-routing (movie "now streaming" gains a sports point;
+  traffic / boil-water advisories gain a weather point; exhibition-sale and fare-sale straddle
+  two tabs). (4) 'webinar' contradiction nets 0 (benign but fragile). The catastrophic
+  single-token substring class the plan feared does NOT exist — the matcher is safer than assumed.
+  Net: a SMALL, itemized set of real contradictions, not a pervasive failure.
+benchmark_hook: >
+  Feeds U2.2: quantify how many REAL frozen items flip category if each collision is fixed
+  (sizes the U9-2 risk per plan §U2.2 exit). UPAHEAD_BENCHMARK_PLAN §V4 per-category precision
+  + a classification-stability stratum catch regressions. The JSON report is the durable input.
+issue_matrix_id: I014

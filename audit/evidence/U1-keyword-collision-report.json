@@ -1,0 +1,127 @@
+{
+  "generated": "deterministic (no clock/mode dependence)",
+  "source_of_truth": "src/config/settings_upahead.js (DEFAULT_UPAHEAD_SETTINGS.keywords); matcher: src/intelligence/classification.js:9-39",
+  "matcher_model": "single-word -> \\bword\\b regex; multi-word -> substring includes()",
+  "counts": {
+    "categories": 9,
+    "positivesTotal": 199,
+    "globalNegatives": 148,
+    "signals": 56
+  },
+  "class1_intraCategory_exact": [
+    {
+      "category": "events",
+      "term": "webinar"
+    }
+  ],
+  "class1_intraCategory_cofire": [],
+  "class2_positiveVsGlobal_exact": [
+    {
+      "category": "weather_alerts",
+      "term": "fog",
+      "signalStripped": false
+    }
+  ],
+  "class2_positiveVsGlobal_cofire": [
+    {
+      "category": "airlines",
+      "positive": "flight deal",
+      "firesGlobalNegative": "deal",
+      "signalStripped": false
+    }
+  ],
+  "class3_crossCategory_exactInMultiplePositiveLists": [
+    {
+      "term": "trade fair",
+      "categories": [
+        "events",
+        "shopping"
+      ]
+    }
+  ],
+  "class3_crossCategory_cofire": [
+    {
+      "fromCategory": "movies",
+      "trigger": "streaming from",
+      "firesCategory": "sports",
+      "firedPositive": "streaming"
+    },
+    {
+      "fromCategory": "movies",
+      "trigger": "now streaming",
+      "firesCategory": "sports",
+      "firedPositive": "streaming"
+    },
+    {
+      "fromCategory": "alerts",
+      "trigger": "traffic advisory",
+      "firesCategory": "weather_alerts",
+      "firedPositive": "advisory"
+    },
+    {
+      "fromCategory": "alerts",
+      "trigger": "bus route change",
+      "firesCategory": "civic",
+      "firedPositive": "route change"
+    },
+    {
+      "fromCategory": "alerts",
+      "trigger": "boil water advisory",
+      "firesCategory": "weather_alerts",
+      "firedPositive": "advisory"
+    },
+    {
+      "fromCategory": "shopping",
+      "trigger": "exhibition sale",
+      "firesCategory": "events",
+      "firedPositive": "exhibition"
+    },
+    {
+      "fromCategory": "airlines",
+      "trigger": "fare sale",
+      "firesCategory": "shopping",
+      "firedPositive": "sale"
+    }
+  ],
+  "class4_deadGlobalNegatives_strippedBySignals": [
+    "launches"
+  ],
+  "class5_substringPairs_neutralizedByWordBoundary": [
+    {
+      "substring": "premiere",
+      "container": "premieres",
+      "neutralizedBy": "word-boundary"
+    },
+    {
+      "substring": "holi",
+      "container": "holiday",
+      "neutralizedBy": "word-boundary"
+    },
+    {
+      "substring": "schedule",
+      "container": "scheduled",
+      "neutralizedBy": "word-boundary"
+    },
+    {
+      "substring": "review",
+      "container": "preview",
+      "neutralizedBy": "word-boundary"
+    },
+    {
+      "substring": "review",
+      "container": "reviewed",
+      "neutralizedBy": "word-boundary"
+    },
+    {
+      "substring": "review",
+      "container": "reviews",
+      "neutralizedBy": "word-boundary"
+    },
+    {
+      "substring": "prediction",
+      "container": "predictions",
+      "neutralizedBy": "word-boundary"
+    }
+  ],
+  "selfCancellingPositives_netScore_LE_0": []
+}

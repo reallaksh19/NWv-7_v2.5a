@@ -1,0 +1,293 @@
+# Insight ground-truth records — corpus insight_4slot_2026-05-19 (BOOTSTRAP seed)
+#
+# STATUS: B2 calibration-seed, NOT a frozen final benchmark. The prescribed B1 36h/24-cycle
+# corpus is absent (see ../GATE_STATUS.md); these records are labeled against the FROZEN
+# archive snapshot insight_2026-05-19.json (immutable, sha256:ade1430dd96bb5f1) so they do not
+# violate the "no moving corpus" rule, but temporal strata cannot be covered here.
+#
+# Judge = claude-opus-4-8 acting as the B2.3 LLM judge (prompt JUDGE_PROMPT_gtp-v1.0.md),
+# temperature 0, labeling from title+summary+source+timestamp only (pipeline output used ONLY
+# to sample strata, never shown as the answer). human.adjudicated=false → calibration PENDING:
+# these labels are NOT yet trusted; a human must compute Cohen's κ before any metric uses them.
+#
+# Records are append-only. Corrections add a superseding record (supersedes: GT-…).
+
+records:
+  - gt_id: GT-GROUP-0001
+    corpus: insight_4slot_2026-05-19
+    unit: cluster_membership
+    stories:
+      - { id: "d9bd3af2288ac75b", hash: "sha256:9c4c6d228e2b", publishedAt: 1779184935000, source: "The Hindu" }
+      - { id: "70d77d1e33d12bd9", hash: "sha256:114991b1f78d", publishedAt: 1779185634000, source: "Hindustan Times" }
+      - { id: "6ba0d727207a4db3", hash: "sha256:1c588407b42d", publishedAt: 1779183088000, source: "NDTV India" }
+    label: { same_group: true, parent: "6ba0d727207a4db3", children: ["d9bd3af2288ac75b", "70d77d1e33d12bd9"], angles: { "6ba0d727207a4db3": base_report, "d9bd3af2288ac75b": base_report, "70d77d1e33d12bd9": fact_update } }
+    stratum: system_merged
+    challenges: [dedup_layer3_event]
+    reasoning: >
+      All three report the SAME discrete event: TMC candidate Jahangir Khan withdrawing from the
+      Falta assembly re-poll. Shared named entities (Jahangir Khan, Falta, TMC) and the same action
+      (withdraws/pulls out). Parent = the NDTV story (earliest publishedAt 1779183088000, Tier-A
+      wire) per "earliest/highest authority" rule. The HT story adds the new fact that Khan cites
+      "CM Adhikari's promise" → fact_update relative to the bare withdrawal report.
+    expected_pipeline_behavior: "eventSimilarity >= SAME_EVENT_THRESHOLD(0.88) for all pairs → one cluster of 3; one parent, two children; no shatter."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.93, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: []
+    linked_metrics: [clustering_pairwise_F1, clustering_bcubed, angle_accuracy]
+
+  - gt_id: GT-PAIR-0002
+    corpus: insight_4slot_2026-05-19
+    unit: pair
+    stories:
+      - { id: "70d77d1e33d12bd9", hash: "sha256:114991b1f78d", publishedAt: 1779185634000, source: "Hindustan Times" }
+      - { id: "d9bd3af2288ac75b", hash: "sha256:9c4c6d228e2b", publishedAt: 1779184935000, source: "The Hindu" }
+    label: same_event
+    stratum: system_merged
+    challenges: [dedup_layer3_event]
+    reasoning: "Same withdrawal event, two outlets within ~12 min. Distinct wording/summary (not a byte duplicate) → must be caught at layer-3 eventSimilarity, not layer-1/2."
+    expected_pipeline_behavior: "same cluster; NOT hidden as a hard duplicate (titles differ enough that titleSim<0.96)."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.95, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: []
+    linked_metrics: [clustering_pairwise_F1, dedup_recall]
+
+  - gt_id: GT-PAIR-0003
+    corpus: insight_4slot_2026-05-19
+    unit: pair
+    stories:
+      - { id: "e47a6177319a3483", hash: "sha256:1022846cb88d", publishedAt: 1779159303000, source: "Hindustan Times" }
+      - { id: "f7463472a26d1d31", hash: "sha256:946d97972c82", publishedAt: 1779079550000, source: "Business Line" }
+    label: related_not_same
+    stratum: near_threshold
+    challenges: [dedup_layer3_event, date_tz_mixed]
+    reasoning: >
+      Both concern the US sanctions waiver on Russian seaborne oil, but they describe DIFFERENT
+      developments: HT "US extends sanctions waiver" vs Business Line "US Treasury allows waiver to
+      LAPSE". Same macro topic, opposite/sequential developments ~22h apart → related, not the same
+      report. A naive entity/topic merge (US, sanctions, Russian oil) would wrongly fuse them; the
+      ~22h gap and contradictory verbs are the discriminator. High information: tests the POSSIBLE band.
+    expected_pipeline_behavior: "eventSimilarity in the 0.55–0.75 POSSIBLE band → NOT merged; if merged, dedup precision must be penalized."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.7, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: []
+    linked_metrics: [dedup_precision, clustering_pairwise_F1]
+
+  - gt_id: GT-PAIR-0004
+    corpus: insight_4slot_2026-05-19
+    unit: pair
+    stories:
+      - { id: "9df36b44e85e925c", hash: "sha256:63541ce69f7a", publishedAt: 1779108959000, source: "Business Line" }
+      - { id: "e86e6492c49a88eb", hash: "sha256:a2992c2e9d46", publishedAt: 1779094822000, source: "Hindustan Times" }
+    label: same_event
+    stratum: cross_cluster_similar
+    challenges: [dedup_layer3_event]
+    reasoning: "Both report Defence Minister Rajnath Singh's 4-day Vietnam + South Korea tour. Same actor, same trip, same window. The BL variant adds the BrahMos angle but it is the same event."
+    expected_pipeline_behavior: "same cluster (recall test); BrahMos detail attaches as a child, angle≈fact_update."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.92, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: []
+    linked_metrics: [clustering_pairwise_F1, dedup_recall]
+
+  - gt_id: GT-PAIR-0005
+    corpus: insight_4slot_2026-05-19
+    unit: pair
+    stories:
+      - { id: "1ab8e35ae335caf1", hash: "sha256:0765e403db8c", publishedAt: 1779159204000, source: "Hindustan Times" }
+      - { id: "838be04bdb4e35fc", hash: "sha256:08cf9da74c70", publishedAt: 1779099109000, source: "Business Line" }
+    label: same_event
+    stratum: cross_cluster_similar
+    challenges: [dedup_layer3_event]
+    reasoning: "Both report the CBI arrest of the Latur coaching-centre founder in the NEET-UG paper-leak case, both citing the 'organised gang' link. Same arrest event, two outlets ~17h apart."
+    expected_pipeline_behavior: "same cluster; angle official_response (CBI is the acting authority)."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.9, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: []
+    linked_metrics: [clustering_pairwise_F1, angle_accuracy]
+
+  - gt_id: GT-PAIR-0006
+    corpus: insight_4slot_2026-05-19
+    unit: pair
+    stories:
+      - { id: "b405e72581536962", hash: "sha256:ce2c03049fc0", publishedAt: 1779097583000, source: "NDTV" }
+      - { id: "67d5862c82c311cb", hash: "sha256:a982573eafaa", publishedAt: 1779087600000, source: "Google News" }
+    label: same_event
+    stratum: hidden_duplicate
+    challenges: [dedup_layer2_hash, wire_syndication, location_oov]
+    reasoning: >
+      Both are the same NDTV story about the Noida woman ("Trapped, Lonely, Unhappy" / "had asked
+      her mother to take her home") — the Google News row is a syndication of the NDTV original.
+      This is a near-duplicate that should be hidden, NOT shown twice. Also OOV: "Noida" and the
+      personal-tragedy vocabulary fall outside the 200/269-term vocab, so embeddings are near-zero —
+      the system must catch this via title/hash, not embedding.
+    expected_pipeline_behavior: "hidden as duplicate (layer 1/2); only one survives; provenance retained."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.82, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: [F5-1]
+    linked_metrics: [dedup_precision, dedup_recall, oov_stratum_clustering_F1]
+
+  - gt_id: GT-PAIR-0007
+    corpus: insight_4slot_2026-05-19
+    unit: pair
+    stories:
+      - { id: "ce3e3e8673d32719", hash: "sha256:b1fa6b4c4e1b", publishedAt: 1779097004000, source: "NDTV" }
+      - { id: "9ab271b3fe6628ff", hash: "sha256:13e3a5723f99", publishedAt: 1779120205000, source: "NDTV" }
+    label: same_event
+    stratum: oov_heavy
+    challenges: [location_oov, dedup_layer3_event]
+    reasoning: >
+      Same event: a woman in UP dies saving her 3 children from a fire. "On Camera, Woman Saves 3
+      Children From Burning Building. She Doesn't Make It" and "Woman Dies While Saving Her 3
+      Children From Fire In UP" are the same incident, ~6.5h apart. Vocabulary (fire, rescue,
+      children, UP locality) is largely OOV → embeddings near-zero → the F5-1 regime where the
+      pipeline is predicted to SHATTER this pair. This record is direct evidence for the OOV-stratum F1.
+    expected_pipeline_behavior: "should be one cluster; under F5-1 (pre-fix) likely split → OOV-stratum F1 drops. Post-I010 fallback embedding should recover it."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.84, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: [F5-1, I010]
+    linked_metrics: [oov_stratum_clustering_F1, clustering_pairwise_F1]
+
+  - gt_id: GT-ANGLE-0008
+    corpus: insight_4slot_2026-05-19
+    unit: story_angle
+    stories:
+      - { id: "6ca8564860b5fd2d", hash: "sha256:3beebd4c8dd7", publishedAt: null, source: "Economic Times" }
+    label: market_reaction
+    stratum: angle_confusable
+    challenges: [angle_confusable]
+    reasoning: >
+      "Tata Steel shares crack 4% after Q4 results. Why did JPMorgan downgrade the stock?" The
+      driver is the share-price MOVE and analyst reaction → market_reaction. Confusable because "Q4
+      results" tempts fact_update and "downgrade"/"JPMorgan" tempt official/expert_analysis; a
+      keyword classifier at threshold 0.9 can flip. Judge labels from the full headline: the subject
+      is the market move, not the results release itself.
+    expected_pipeline_behavior: "angle = market_reaction; feeds angle_accuracy (expected weakest stage)."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.78, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: [RCA-R1]
+    linked_metrics: [angle_accuracy, angle_unknown_rate]
+
+  - gt_id: GT-ANGLE-0009
+    corpus: insight_4slot_2026-05-19
+    unit: story_angle
+    stories:
+      - { id: "6a48115970e2cd98", hash: "sha256:3060d807cad8", publishedAt: null, source: "Economic Times" }
+    label: market_reaction
+    stratum: angle_confusable
+    challenges: [angle_confusable]
+    reasoning: >
+      "ICICI Pru Life shares crash nearly 9% after Prudential plans stake cut below 10%." The
+      headline subject is the share crash (a market reaction to a corporate-action announcement).
+      "Prudential plans stake cut" could be read as official_response/fact_update, but the framing
+      and lead is the price move → market_reaction.
+    expected_pipeline_behavior: "angle = market_reaction."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.8, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: [RCA-R1]
+    linked_metrics: [angle_accuracy]
+
+  - gt_id: GT-ANGLE-0010
+    corpus: insight_4slot_2026-05-19
+    unit: story_angle
+    stories:
+      - { id: "1ab8e35ae335caf1", hash: "sha256:0765e403db8c", publishedAt: 1779159204000, source: "Hindustan Times" }
+    label: official_response
+    stratum: angle_confusable
+    challenges: [angle_confusable, angle_unknown_floor]
+    reasoning: >
+      "NEET-UG paper leak: Arrested coaching centre boss was linked to 'organised gang', says CBI."
+      The acting authority (CBI) makes a statement/finding → official_response. Confusable with
+      investigative_detail (it IS about an investigation) and base_report. The "says CBI" attribution
+      is the discriminator toward official_response.
+    expected_pipeline_behavior: "angle = official_response; a keyword classifier may emit investigative_detail or unknown."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.66, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: [RCA-R1]
+    linked_metrics: [angle_accuracy, angle_unknown_rate]
+
+  - gt_id: GT-RANK-0011
+    corpus: insight_4slot_2026-05-19
+    unit: cluster_rank
+    stories:
+      - { id: "ce3e3e8673d32719", hash: "sha256:b1fa6b4c4e1b", publishedAt: 1779097004000, source: "NDTV" }
+    label: { importance: minor }
+    stratum: rank_minor_trap
+    challenges: [rank_minor_trap, wire_syndication]
+    reasoning: >
+      The "woman saves children from fire" human-interest story is emotionally salient and
+      syndicated, giving it high freshness and (via syndication) apparent source diversity — exactly
+      the signals the 12-factor formula rewards (freshness 0.16 + sourceDiversity 0.14). Editorially
+      it is a MINOR national story, not a top event. If it lands in the top-3, the bucket-conformance
+      alarm ("no minor in top-3") must fire. Tests whether ranking encodes importance or amplification.
+    expected_pipeline_behavior: "must NOT appear in top-3; wire penalty (−0.06) is the only counterweight."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.72, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: []
+    linked_metrics: [ranking_bucket_conformance, ndcg_at_10]
+
+  - gt_id: GT-PAIR-0012
+    corpus: insight_4slot_2026-05-19
+    unit: pair
+    stories:
+      - { id: "9df36b44e85e925c", hash: "sha256:63541ce69f7a", publishedAt: 1779108959000, source: "Business Line" }
+      - { id: "1ab8e35ae335caf1", hash: "sha256:0765e403db8c", publishedAt: 1779159204000, source: "Hindustan Times" }
+    label: unrelated
+    stratum: control
+    challenges: [control]
+    reasoning: "Rajnath's Vietnam tour vs the NEET paper-leak CBI arrest — no shared entities, event, or topic. Calibration-floor control: the system must keep these in different clusters."
+    expected_pipeline_behavior: "different clusters; eventSimilarity well below 0.55."
+    provenance:
+      judge: { model: "claude-opus-4-8", prompt_version: "gtp-v1.0", confidence: 0.99, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-calibration", agrees: null }
+    linked_findings: []
+    linked_metrics: [clustering_pairwise_F1]
+
+  # ── synthetic_probe: temporal strata the single-snapshot corpus cannot produce (clearly tagged) ──
+  - gt_id: GT-GROUP-0013
+    corpus: insight_4slot_2026-05-19
+    unit: cluster_membership
+    synthetic_probe: true
+    stories: []   # no real stories — structural probe only; replace with real cycle-14 event under the B1 36h corpus
+    label: { same_group: true, importance: major, angles_expected: [base_report, fact_update, official_response] }
+    stratum: breaking_new_event
+    challenges: [breaking_new_event, persistence_multi_cycle]
+    reasoning: >
+      SYNTHETIC PROBE (F5-2): a genuinely new major event whose first story enters mid-corpus
+      (cycle 14 of 24) with follow-ups at cycles 15–17. The single 4-slot snapshot cannot represent
+      24 cycles, so this is a placeholder documenting the required structure. Under the real B1 36h
+      corpus the replay must surface this cluster within ≤2 cycles of first ingestion.
+    expected_pipeline_behavior: "time-to-surface ≤2 cycles; cluster present in incremental run, not only the cold checkpoint (F5-2)."
+    provenance:
+      judge: { model: "n/a-synthetic-probe", prompt_version: "gtp-v1.0", confidence: 0, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-36h-corpus", agrees: null }
+    linked_findings: [F5-2, I011]
+    linked_metrics: [time_to_surface, incremental_vs_full_divergence]
+
+  - gt_id: GT-RANK-0014
+    corpus: insight_4slot_2026-05-19
+    unit: cluster_rank
+    synthetic_probe: true
+    stories: []
+    label: { importance: major, must_outrank: "persistent_minor" }
+    stratum: breaking_vs_important
+    challenges: [breaking_vs_important, persistence_multi_cycle]
+    reasoning: >
+      SYNTHETIC PROBE: a major-but-new event (low persistence score, single cycle of history) must
+      outrank a persistent-but-minor event (high persistence from many cycles). Requires multi-cycle
+      history → uncoverable in a single snapshot; documented for the B1 corpus.
+    expected_pipeline_behavior: "new-major outranks persistent-minor despite a low persistence component."
+    provenance:
+      judge: { model: "n/a-synthetic-probe", prompt_version: "gtp-v1.0", confidence: 0, temperature: 0 }
+      human: { adjudicated: false, by: "PENDING-36h-corpus", agrees: null }
+    linked_findings: [F5-2, I011]
+    linked_metrics: [ranking_bucket_conformance, time_to_surface]

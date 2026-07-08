@@ -1,0 +1,24 @@
+export const H_MS = 60 * 60 * 1000;
+export const DAY_MS = 24 * H_MS;
+
+export const NEWS_RETAIN_HOURS = 36;
+
+export const UPAHEAD_LOOKAHEAD_DAYS = 7;
+export const UPAHEAD_EVENT_PAST_GRACE_HOURS = 24;
+export const PLANNER_PAST_GRACE_HOURS = 6;
+
+export const ALERT_FALLBACK_HOURS = 24;
+export const OFFER_FALLBACK_HOURS = 48;
+
+export const HORIZON_POLICY = Object.freeze({
+  H_MS,
+  DAY_MS,
+  NEWS_RETAIN_HOURS,
+  UPAHEAD_LOOKAHEAD_DAYS,
+  UPAHEAD_EVENT_PAST_GRACE_HOURS,
+  PLANNER_PAST_GRACE_HOURS,
+  ALERT_FALLBACK_HOURS,
+  OFFER_FALLBACK_HOURS,
+});
+
+export default HORIZON_POLICY;

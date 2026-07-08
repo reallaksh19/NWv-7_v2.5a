@@ -1,0 +1,31 @@
+check_id: A6.2-CI-WORKFLOW
+invariant: "A CI workflow runs the remediation locks + Insight cert suite + build, and passes on real CI."
+source_of_truth:
+  - ".github/workflows/audit_regression.yml"
+  - "src/insight/src/quality/auditRemediation.cert.test.ts"
+artifact:
+  workflow: "Audit Regression (.github/workflows/audit_regression.yml)"
+  steps: ["npm ci", "npm run lint", "remediation locks (auditRemediation.cert.test.ts)", "insight cert suite (src/insight)", "npm run build"]
+  locks: "I001 (deploy workflow_run trigger), I002 (sections stale fallback), I004 (injectable clock), I007 (12-factor breakdown sums to score), I008 (angle-aware weak tree), I010 (OOV embedding non-zero, no collapse)"
+outcome_audit:
+  local_run:
+    lint: PASS
+    remediation_locks: "6/6 PASS"
+    insight_cert_suite: "89 passed (83 baseline + 6 new)"
+    build: "OK (vite built in 5.22s)"
+  real_ci_run:
+    workflow_run_id: 27998680836
+    run_number: 1
+    event: push
+    head_sha: "8846c0165cd16420cfc8b02a6c06f2b07dec8ba0"
+    branch: "claude/fervent-keller-wwf7pb"
+    status: completed
+    conclusion: SUCCESS
+    duration: "~96s (2026-06-23T02:47:53Z → 02:49:29Z)"
+    url: "https://github.com/reallaksh19/NWv-7/actions/runs/27998680836"
+verdict: PASS
+notes: >
+  Both the local replay of the workflow steps and the actual GitHub Actions run are green.
+  The remediation locks now guard I001/I002/I004/I007/I008/I010 on every push/PR, so these
+  fixes cannot silently regress. (I011 remains deferred — needs a breaking-news latency
+  harness, not a lock.)

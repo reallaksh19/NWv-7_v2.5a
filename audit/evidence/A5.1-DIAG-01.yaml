@@ -1,0 +1,41 @@
+check_id: A5.1-DIAG-01
+invariant: "Every UI-displayed Insight diagnostic equals an independent recomputation from raw pipeline output."
+source_of_truth:
+  - "audit/INSIGHT_AUDIT_PLAN.md §A5"
+  - "src/pages/InsightPage.jsx (373-387 getScoreBreakdownEntries, 838/852-853 ranking panel), src/viewModels/useInsightTabViewModel.js:181"
+  - "src/insight/src/diagnostics/insightCoreQuality.ts (49,81,107-131), src/insight/src/ranking/ranking.ts (attachRankingReasonDiagnostics)"
+  - "recompute basis: audit/evidence/A2-dump.json + A2-analysis-output.txt"
+input: { snapshot: "public/newsdata/insight_2026-05-19.json", contentHash: "40f989d5da9c", node: "v22.22.2" }
+results:
+  ranked_popup_score_breakdown:
+    verdict: FAIL (misleading by representation) → I007
+    detail: >
+      The Ranked popup renders getScoreBreakdownEntries(parent) = the RAW values in
+      debug.scoreBreakdown (12 component scores, finalParentScore key stripped, sorted by value),
+      shown beside "Final score {finalParentScore}". Recompute: Σ(displayed raw values) differs
+      from finalParentScore by up to 5.983 across the 10 parents — i.e. the panel's numbers do not
+      reconcile to the score it sits next to. MEANWHILE the pipeline already computes the CORRECT
+      decomposition in debug.rankingFormulaDiagnostics.contributionBreakdown (weightedContribution
+      per factor, contributionSum, formulaDelta) which reproduces finalParentScore exactly
+      (Σ weighted, max |Δ| = 0.000, per A2.5). The UI shows the wrong object. Data values are
+      individually truthful (they equal the recomputed raw components) but the framing is
+      misleading and the available correct breakdown is unused.
+  final_parent_score_display:
+    verdict: PASS
+    detail: "useInsightTabViewModel.js:181 displays finalParentScore.toFixed(3); equals the dump value exactly. InsightPage:544 shows the same to 2dp."
+  angle_metrics (dashboard):
+    verdict: PASS (independent recompute consistent)
+    detail: "Independent recompute from the frozen dump: avgVisibleAngles 1.90, multiAngleParents 9/10, unknown rate 0 — consistent with the dashboard's getVisibleChildAngles-based method and the RCA-reported 1.8/8 targets."
+  hidden_duplicate_count:
+    verdict: UNVERIFIED (partial)
+    detail: >
+      insightCoreQuality.ts:128 totals safeArray(parent.hiddenDuplicateIds).length +
+      parent.debug.hiddenCount. Per I009 hiddenDuplicateIds is empty on all parents, so the
+      displayed total depends entirely on debug.hiddenCount — a field NOT captured in the A2 dump.
+      The aggregate may well be correct (provenance lost ≠ count lost), but verifying it requires
+      re-dumping debug.hiddenCount. Marked UNVERIFIED rather than assumed PASS.
+verdict: FAIL (one displayed diagnostic — the score breakdown — does not reconcile; one UNVERIFIED)
+user_impact: "A user opening the Ranked 'why this score' popup sees factor values that don't add up to the displayed score, undermining the tab's core explainability promise."
+benchmark_hook: "I007 needs a dedicated diagnostics cert (recompute displayed breakdown == contributionBreakdown); B4 ranking metrics will not catch it. Re-dump debug.hiddenCount to close the hidden-count check."
+issue_matrix_id: "I007 (confirmed at UI layer); hidden-count UNVERIFIED noted"
+gate_status: "A5 substantially done: displayed diagnostics recomputed; breakdown mismatch ticketed (I007); hidden-count flagged UNVERIFIED."

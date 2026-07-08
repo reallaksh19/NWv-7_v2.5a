@@ -1,0 +1,37 @@
+check_id: U0.4-TZ-01
+invariant: >
+  A single, consistent date-key convention is used to file an event under a calendar
+  day across the display and planner surfaces (MODE_MATRIX:56: "Date keys … must stay
+  on YYYY-MM-DD local convention"). The day an item lands on must not depend on which
+  code path touched it.
+source_of_truth: "reports/MODE_MATRIX.md:56; src/services/upAheadService.js:350-351 (transformPythonItemsToDisplay); src/utils/dateKey.js:11-15 (toLocalDateKey); src/utils/plannerStorage.js:35,65; walkthrough_09 U9-3"
+input:
+  snapshot: "synthetic event at 2026-06-25T20:30:00Z == 02:00 IST Fri 2026-06-26 (the 00:00–05:29 IST window where UTC day != IST day)"
+  contentHash: "n/a (inline synthetic; see harness)"
+  asOfDate: "fixed now = 2026-06-20T12:00:00Z (event is future, survives past-date filter)"
+  mode: { sourceMode: snapshot }
+  host: static (display transform) vs planner (toLocalDateKey)
+  locale: Chennai
+  tz_runs: [Asia/Kolkata, UTC]
+procedure: >
+  audit/evidence/u0_clockprobe.harness.test.mjs. Runs the SAME instant through (A) the
+  real static-host transform sanitizeUpAheadData({items:[event]}) -> timeline[0].date, and
+  (B) the planner/dateAware convention toLocalDateKey(new Date(event)). Compares keys under
+  TZ=Asia/Kolkata (production intent) and TZ=UTC.
+result:
+  "TZ=Asia/Kolkata": { staticDisplayKey: "2026-06-25", plannerKey: "2026-06-26", keysAgree: false }
+  "TZ=UTC":          { staticDisplayKey: "2026-06-25", plannerKey: "2026-06-25", keysAgree: true }
+  root_cause: >
+    static path uses new Date(eventStartAt).toISOString().slice(0,10) = UTC calendar day
+    (TZ-independent); planner/dateAware use toLocalDateKey = process-local day. They disagree
+    by one day for events timed 00:00–05:29 IST. Under TZ=UTC they spuriously agree (both UTC).
+  artifacts: ["audit/evidence/U0-clockprobe.Asia_Kolkata.json", "audit/evidence/U0-clockprobe.UTC.json"]
+verdict: FAIL
+user_impact: >
+  Wrong-day placement for events scheduled 00:00–05:29 IST (late-night shows, midnight sales,
+  early-morning civic notices): the Up Ahead timeline files them one day EARLY and under a
+  different key than the planner stores them, so the same event can appear on two different
+  days across the timeline vs the planner. Narrow window but a correctness defect on the
+  product's core surface. Contradicts the MODE_MATRIX local-key invariant.
+benchmark_hook: "UPAHEAD_BENCHMARK_PLAN §V4 wrong-day rate + a date_relative/near-midnight stratum will catch regressions. Full verdict deferred to U2.3 (extraction) + U2.8 (planner keys); U2.7 covers the JS↔Python convention parity."
+issue_matrix_id: I013

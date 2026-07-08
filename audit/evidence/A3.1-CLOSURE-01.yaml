@@ -1,0 +1,53 @@
+check_id: A3.1-CLOSURE-01
+invariant: "Every prior finding (F5-1…F5-7, RCA-R1) reaches a terminal state: VERIFIED-FIXED / CONFIRMED-OPEN(I0xx) / RISK-ACCEPTED(reason)."
+source_of_truth:
+  - "reports/walkthrough_05_insight_engine.md (F5-1..F5-7); reports/INSIGHT_ANGLE_RCA.md (RCA-R1)"
+  - "audit/INSIGHT_AUDIT_PLAN.md §A3"
+input: { snapshot: "public/newsdata/insight_2026-05-19.json", contentHash: "40f989d5da9c", clock: "2026-06-22", basis: "A0/A1/A2 evidence + targeted code reads" }
+results:
+  F5-1_vocab_misses_hyperlocal:
+    state: CONFIRMED-OPEN (I010)
+    evidence: "A2.2 — 134/877 (15.3%) stories OOV vs 200-term vocab → all-zero embedding → embedding-invisible. Per-locale breakdown still pending (B4 OOV metric)."
+  F5-2_incremental_drops_new_events:
+    state: CONFIRMED-OPEN (I011) — High candidate
+    evidence: >
+      Mechanism confirmed by code+weights: mergeSlotStories (cacheManager.ts) includes fresh
+      'now' + cached older slots, so new events enter the corpus — BUT ranking weights
+      persistence 0.20 + crossSnapshotMomentum 0.08 (=0.28) favor established multi-snapshot
+      events, and a brand-new event forms a thin/weak tree which selectTopParentsWithWeakTreeCheck
+      (pipeline.ts:490-493) demotes ([...strongTrees, ...weakTrees].slice(0,TOP_PARENTS)). A new
+      low-history event is thus likely pushed out of the top-10 → not surfaced. Exact surfacing
+      LATENCY is UNVERIFIED (needs a 2-snapshot incremental harness — deferred).
+  F5-3_shared_object_mutation:
+    state: RISK-ACCEPTED (single-owner mutations; no observed corruption)
+    evidence: >
+      Mutation map: pipeline.ts:237-239 (informationDelta*), :548-550 (temporalTier/evolutionRole),
+      treeBuilder.ts:598-599 (s.parentId, s.angle) — all mutate shared InsightStory objects in
+      storiesById in place. Each story is single-owner post greedy clustering, so no cross-parent
+      bleed; A0 (10/10 identical) and A2.4 (reversed-order 14/14 stable) would have surfaced
+      order-dependent corruption. Low risk; documented rather than fixed.
+  F5-4_full_tree_build_before_slice:
+    state: CONFIRMED-OPEN (Low) — over-computation only
+    evidence: "selectTopParentsWithWeakTreeCheck (pipeline.ts:470-493) builds child trees for EVERY ranked parent, then slices to TOP_PARENTS. Correctness fine; wasted compute. Latency-relevant only at scale."
+  F5-5_zero_vector_cosine:
+    state: VERIFIED-FIXED
+    evidence: "cosineSimilarity (dedup.ts:228) returns 0 when denom===0 — no 0/0→NaN/1. Exercised by the 134 zero-vectors with no false-merge."
+  F5-6_three_similarity_engines:
+    state: RISK-ACCEPTED (layered by design; divergence documented)
+    evidence: >
+      cosineSimilarity (embedding), titleSimilarity (trigram Jaccard), and composite eventSimilarity
+      (0.24 emb + 0.17 ent + 0.12 verb + 0.09 num + 0.09 time + 0.08 place + 0.05 cat + 0.16 topic).
+      Hard-dup uses raw cosine≥0.985 OR title≥0.96; clustering uses eventSimilarity≥0.88. Different
+      layers by design; a 4th engine (src/utils/similarity.js) serves the Main tab. Maintenance risk,
+      not a correctness bug.
+  F5-7_in_process_map_cache:
+    state: RISK-ACCEPTED (acceptable for static single-process; flagged)
+    evidence: "cacheManager.ts:16 module-level Map ('swap for Redis/DB in production'). A0 proved it is clearable (invalidateSlot) and determinism holds when cleared. Production-scaling note, not a correctness defect on static host."
+  RCA_R1_angle09_infogain010:
+    state: VERIFIED (targets met)
+    evidence: "A2.3 — classifyAngle threshold 0.9 + MIN_CHILD_INFO_GAIN 0.10 in effect; avgVisibleAngles 1.90 (≥1.8), multiAngle 9 (≥8), unknown rate 0. No single-angle dominance crisis (though base_report+official_response = 67% — distribution-skew note)."
+verdict: PASS (every row terminal-stated)
+user_impact: "F5-2 (High) is the user-facing one: genuinely breaking news may not surface promptly. Others are resolved or low-risk."
+benchmark_hook: "F5-1→B4 OOV metric (I010); F5-2→dedicated breaking-news surfacing-latency cert (I011); others no B4 hook."
+issue_matrix_id: "I011 (F5-2 new); F5-1→I010; F5-5 fixed"
+gate_status: "A3 exit gate MET — all F5-x/RCA rows terminal."

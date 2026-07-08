@@ -1,0 +1,34 @@
+check_id: U0.5-MID-01
+invariant: >
+  Audit-plan §U0 activity: run the same projection at two simulated wall-clock times
+  either side of midnight IST and diff (catches U9-3-class date-key drift). The diff
+  must be explained or ticketed.
+source_of_truth: "audit/UPAHEAD_AUDIT_PLAN.md §U0; src/services/upAheadService.js:39-43,77; src/viewModels/useUpAheadPageViewModel.js:281-364"
+input:
+  snapshot: "audit/evidence/frozen/up_ahead_2026-06-24.json"
+  contentHash: "sha256:52e90023b5150af6ecc50193c616f1036524a5032e8bb13954173fcdc6f9d378"
+  asOfDate:
+    Asia_Kolkata: ["2026-06-24T18:25:00Z (23:55 IST)", "2026-06-24T18:35:00Z (00:05 IST next day)"]
+    UTC:          ["2026-06-24T23:55:00Z", "2026-06-25T00:05:00Z"]
+  mode: { sourceMode: snapshot }
+  host: static
+  locale: [Chennai, Muscat]
+procedure: >
+  audit/evidence/u0_determinism.harness.test.mjs (midnightStraddle block). Pins the clock
+  (vitest fake timers) to ±5min around local midnight in the active TZ; projects at each;
+  diffs per-tab item-IDs/lengths and briefing counts.
+result:
+  "TZ=Asia/Kolkata": { changed: false, tabDiff: {}, briefingDiff: {} }
+  "TZ=UTC":          { changed: false, tabDiff: {}, briefingDiff: {} }
+  explanation: >
+    The frozen snapshot's visible tabs are dominated by dateless awareness items
+    (alerts/offers/civic) gated by DURATION age-caps (36h/48h/30d/365d from publishedAt),
+    not calendar-day cutoffs, so a ±5min midnight shift crosses no cap boundary. The
+    calendar-COUPLED surfaces (timeline Today/Tomorrow labels, weekly_plan 7-day window,
+    getDayLabel) live on the `data` object consumed by MyPlannerPage, NOT in the
+    getVisibleUpAheadProjection output this harness hashes — they are exercised by
+    U0.4-TZ-01 (date-key drift) and deferred to U2.6/U2.8.
+verdict: PASS
+user_impact: "None at the tab-projection level for this snapshot. The real midnight/TZ risk is the date-key convention divergence captured in U0.4-TZ-01 / I013, not a tab-count rollover."
+benchmark_hook: "Near-midnight stratum in UPAHEAD_BENCHMARK_PLAN §V4 (shared with U0.4-TZ-01)."
+issue_matrix_id: n/a (PASS; risk routed to I013)

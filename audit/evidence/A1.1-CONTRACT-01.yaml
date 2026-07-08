@@ -1,0 +1,56 @@
+check_id: A1.1-CONTRACT-01
+invariant: >
+  "What the pipeline emits and the constants it uses match what the contracts/docs say:
+  (a) 12 ranking weights, (b) dedup/event/angle/info-gain thresholds, (c) cache TTLs,
+  (d) collector vs adapter retention, (e) UI consumes no field absent from InsightParent."
+source_of_truth:
+  - "audit/INSIGHT_AUDIT_PLAN.md §A1"
+  - "src/insight/src/ranking/ranking.ts:23-36; src/insight/src/types/index.ts:189-228,304-364"
+  - "src/insight/src/cache/cacheManager.ts:16; config/insight_policy.json"
+  - "scripts/fetch_sections_stories.py:30-32,128; src/adapters/sectionsSnapshotFetcher.js:4"
+  - "reports/action_3_deep.md:450-451; reports/INSIGHT_ANGLE_RCA.md:26-37"
+  - "reports/destination_contract_baseline.md:8,35,97-101"
+input: { snapshot: "n/a (static constant + schema comparison)", clock: "2026-06-22" }
+procedure: "side-by-side constant comparison; grep of UI-consumed parent fields vs the InsightParent type; cross-check of every 'documented value' against the project's own tuning docs, not only the audit plan."
+results:
+  ranking_weights:
+    verdict: PASS
+    detail: "RANKING_SCORE_WEIGHTS == plan-documented all 12 (impact .28, persistence .20, diversity .14, novelty .12, freshness .16, momentum .08, clarity .05, region .03, timeline .04, evolution .08, infoDelta .10, wire -.06). Sum = 1.22 (NOT normalized to 1; intentional — weights are applied as raw multipliers, finalParentScore is not a convex combination)."
+  dedup_event_angle_infogain_thresholds:
+    verdict: PASS
+    detail: >
+      Code DEFAULT_CONFIG: HARD_DUP_TITLE_SIM=0.96, HARD_DUP_EMBED_SIM=0.985,
+      SAME_EVENT_THRESHOLD=0.88, POSSIBLE_EVENT_THRESHOLD=0.75, MIN_CHILD_INFO_GAIN=0.10;
+      classifyAngle threshold 0.9. These MATCH the project's authoritative tuning docs
+      (action_3_deep.md:450-451 pins 0.985 & 0.88 as deliberate; INSIGHT_ANGLE_RCA pins
+      0.9 & 0.10). NOTE: the audit PLAN §A2.2 (0.92/0.85) and §A2.4 (0.75) quote STALE
+      values — see I005. Code is correct; the plan text is out of date.
+  cache_ttl:
+    verdict: PASS
+    detail: >
+      CACHE_TTL single-sourced in DEFAULT_CONFIG (now 0, -4h 1h, -12h 1.5h, -24h 2h,
+      -36h 2.5h, -48h 3h). insight_policy.json holds SNAPSHOT freshness (8h fresh / 48h
+      stale / 3h heartbeat) — a distinct concern (snapshot age vs slot cache TTL), not a
+      duplicated value. The plan's "-4h 2h/-12h 3h/-24h 4h" description is stale (I005).
+  collector_vs_adapter_retention:
+    verdict: PASS
+    detail: >
+      fetch_sections_stories.py STORY_RETAIN_HOURS=36 (with an explicit in-code comment to
+      keep it synced to the adapter) == sectionsSnapshotFetcher SECTION_ITEM_MAX_AGE_MS=36h.
+      The 24h/36h GAP reported by destination_contract_baseline.md is ALREADY FIXED in code;
+      the baseline doc is STALE (also still warns that quality_dashboard.json /
+      insight_quality_report.json are "not staged by any workflow", but news_prefetch.yml:205
+      stages both). See I006.
+  ui_field_vs_type_conformance:
+    verdict: PASS
+    detail: "Every parent field read by InsightPage.jsx / useInsightTabViewModel.js (parentId, canonicalHeadline, finalParentScore, childStoryIds, clusterStoryIds, hiddenDuplicateIds, weakTree, isRising, debug) is declared in InsightParent (types/index.ts:189-228). No undocumented-field dependency."
+verdict: PASS
+verdict_detail: >
+  Config/contract truthfulness of the CODE is sound: weights, thresholds, TTLs, retention
+  and UI field usage are internally consistent and match the project's authoritative tuning
+  docs. The only drift is in STALE AUDIT/CONTRACT SCAFFOLDING DOCS (audit plan threshold
+  quotes → I005; destination_contract_baseline.md → I006), not in shipped behavior.
+user_impact: "None user-facing. Risk is to maintainers/auditors who trust the stale docs and mis-tune (e.g., 'lower HARD_DUP to 0.85' would over-merge)."
+benchmark_hook: "No B4 metric; doc-reconciliation items. A6 should regenerate destination_contract_baseline and correct the plan's quoted constants."
+issue_matrix_id: "I005 (plan stale), I006 (baseline stale); A1 itself PASSES"
+gate_status: "A1 exit gate MET (zero unexplained code drift; the two doc-drift items are ticketed)."

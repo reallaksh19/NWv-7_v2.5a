@@ -1,0 +1,83 @@
+# Deploy to GitHub Pages
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main, master ]
+    paths-ignore:
+      - 'scripts/.last_content_hash'
+  workflow_dispatch:
+  # Data-refresh workflows commit as github-actions[bot] via GITHUB_TOKEN, and
+  # GITHUB_TOKEN pushes do NOT raise `push` events (GitHub's recursion guard) —
+  # so `push` above never fires for data commits and the published site goes
+  # stale. `workflow_run` DOES fire on workflow completion regardless of how the
+  # upstream run was triggered, so this is what actually keeps Pages fresh.
+  workflow_run:
+    workflows:
+      - "News Prefetch"
+      - "Market Refresh"
+      - "Weather Refresh"
+      - "UpAhead Refresh"
+      - "Daily News Brief"
+      - "Breaking Refresh"
+      - "Travel local news prefetch"
+    types: [completed]
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    # For workflow_run, only publish when the upstream data run succeeded; push /
+    # manual dispatch always build.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        env:
+          VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL }}
+          VITE_BACKEND_URL: ${{ vars.VITE_BACKEND_URL }}
+        run: npm run build
+
+      - name: Write pages data manifest
+        run: node scripts/write_pages_data_manifest.mjs
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

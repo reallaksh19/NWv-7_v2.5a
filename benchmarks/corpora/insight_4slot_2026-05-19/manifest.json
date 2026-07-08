@@ -1,0 +1,25 @@
+{
+  "corpus": "insight_4slot_2026-05-19",
+  "kind": "BOOTSTRAP — single 4-slot capture (NOT the prescribed B1 36h/24-cycle replay corpus)",
+  "source_snapshot": "public/newsdata/insight_2026-05-19.json",
+  "source_file_sha256_12": "ade1430dd96bb5f1",
+  "embedded_contentHash": "40f989d5da9c",
+  "frozen": true,
+  "story_count": 877,
+  "slot_counts": {
+    "now": 722,
+    "unslotted": 82,
+    "minus12h": 36,
+    "minus24h": 19,
+    "minus4h": 18
+  },
+  "oov_story_count_prefix_vocab": 134,
+  "oov_rate": 0.1528,
+  "b1_acceptance": {
+    "unique_stories_ge_500": true,
+    "cycles_present": 4,
+    "cycles_required_ge_20": false,
+    "note": "Daily rollup with 4 snapshot slots, not 24 hourly cycles. Supports non-temporal tasks (same-event pairs, angle, cluster membership). Persistence/momentum/F5-2 temporal strata are UNCOVERABLE here and require the B1 36h capture."
+  },
+  "generated_at": "2026-06-23T16:02:54.607Z"
+}

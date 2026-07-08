@@ -1,0 +1,48 @@
+check_id: U1.3-FEED-01
+invariant: >
+  (a) the feed registry covers each supported category×location cell; (b) trust levels are
+  consistent with the Agent-10 elevation; (c) the static-host priorityScore filter does NOT
+  empty Events/Shopping (P005 regression check).
+source_of_truth: >
+  audit/UPAHEAD_AUDIT_PLAN.md §U1; src/intelligence/feedSourceRegistry.js:5-90 (registry),
+  :170-177 (rankFeedSource), :179-206 (buildFeedFetchPlan static filter :189-191);
+  reports/MODE_MATRIX.md; agent_instructions/WI_Agent10_UpAhead_Feeds.md:11,21,31;
+  audit/ISSUE_MATRIX.md P005.
+input:
+  snapshot: "feedSourceRegistry.js at git HEAD"
+  asOfDate: "registry static EXCEPT feedSourceRegistry.js:3 CURRENT_YEAR = new Date().getFullYear() which interpolates the year into shopping/airlines/movies/festivals SEARCH queries (a module-load clock read — augments I012's catalogue; affects feed recency, not coverage)"
+  mode: { mode: online+offline, host: static (filter path) AND live, locale: Chennai/Muscat/Trichy }
+procedure: >
+  Enumerate the registry category×location grid; compute rankFeedSource priorityScore for every
+  entry (trust high=3/med=2/low=1 + government sourceType=+2); simulate the buildFeedFetchPlan
+  static-host filter `s.priorityScore>=2 || s.trust!=='low'` then `.slice(0,3)` over Events & Shopping.
+result:
+  coverage_grid:
+    alerts: [Chennai, Muscat, Trichy]
+    weather_alerts: [Chennai, Muscat, Trichy]
+    shopping: [online, Chennai, Trichy, Muscat]
+    events: [Chennai, Muscat, Trichy]
+    civic: [Chennai, Muscat]
+    airlines: [global]
+    movies: [India]
+    festivals: [India, Oman]
+  trust_levels: >
+    ALL 30 registry entries are trust:'high' -> priorityScore = 3 (no 'government' sourceType
+    anywhere -> no +2 path exercised). CONSISTENT with Agent-10 (WI_Agent10:31 "ALL Google News
+    feeds for actionable categories MUST be set to trust:'high'"). No medium/low feeds remain.
+  P005_regression_VERIFIED_clear: >
+    Agent-10:21 documents the OLD regressing filter `priorityScore>=3 || trust==='high'`,`.slice(0,2)`
+    which pruned every trust:'medium' Google-News feed -> Events/Shopping permanently empty. Current
+    code (feedSourceRegistry.js:190) is loosened to `>=2 || !=='low'`,`.slice(0,3)` AND every feed is
+    now high-trust (score 3) -> all pass; Events (1 feed/loc) and Shopping (1-2 feed/loc) are NEVER
+    emptied. P005 trust-filter regression is NOT present (fixed two ways: elevation + looser filter).
+  coverage_gap: >
+    civic/Trichy is ABSENT though Trichy is a first-class locale (in locationLibrary and in 4 other
+    categories) -> Trichy users get no civic Up Ahead feed. Colombo (a travel-local locale) has NO
+    Up Ahead registry coverage at all — but Colombo is out of Up Ahead scope (settings default
+    locations are [Chennai, Muscat]); recorded as scope note, not a defect.
+  minor_code_note: "the `|| s.trust!=='low'` clause is fully redundant: any entry with priorityScore<2 is low-trust non-government, for which trust!=='low' is also false. No behavioral effect."
+verdict: PASS (P005 trust-filter regression clear; trust consistent with Agent-10) with FINDING (civic/Trichy coverage gap)
+user_impact: "P005: none — filter does not empty Events/Shopping. Coverage: Trichy users see no civic Up Ahead content; locale-specific, Low."
+benchmark_hook: "P005 trust-filter aspect -> U3 closure VERIFIED-NOT-PRESENT (full P005 status-flag closure remains U3/MODE). civic/Trichy gap -> I016. Per-feed yield/health over 14 days measured in U4. CURRENT_YEAR clock site folded into I012 scope."
+issue_matrix_id: I016

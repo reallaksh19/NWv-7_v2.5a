@@ -1,0 +1,52 @@
+{
+  "harness": "U0 live intelligence-path clock injection",
+  "tz": "UTC",
+  "node": "v22.22.2",
+  "rawItem": "Big Open-Air Concert on 2026-06-20 in Chennai",
+  "sameClockTwice": {
+    "run1": [
+      {
+        "eventDateKey": "2026-06-20",
+        "windowStatus": "inside_window",
+        "plannerEligible": true,
+        "upAheadEligible": true,
+        "routeTarget": "planner"
+      }
+    ],
+    "run2": [
+      {
+        "eventDateKey": "2026-06-20",
+        "windowStatus": "inside_window",
+        "plannerEligible": true,
+        "upAheadEligible": true,
+        "routeTarget": "planner"
+      }
+    ],
+    "identical": true,
+    "hash": "82cb435067733318"
+  },
+  "injectedClockSweep": {
+    "asOf_2026-06-18_eventInside": {
+      "eventDateKey": "2026-06-20",
+      "windowStatus": "inside_window",
+      "plannerEligible": true,
+      "upAheadEligible": true,
+      "routeTarget": "planner"
+    },
+    "asOf_2026-06-01_eventAfter": {
+      "eventDateKey": "2026-06-20",
+      "windowStatus": "after_window",
+      "plannerEligible": false,
+      "upAheadEligible": true,
+      "routeTarget": "upahead_exact"
+    },
+    "asOf_2026-06-25_eventPast": {
+      "eventDateKey": "2026-06-20",
+      "windowStatus": "before_window",
+      "plannerEligible": false,
+      "upAheadEligible": false,
+      "routeTarget": "dropped"
+    }
+  },
+  "verdictActuallyFlips": true
+}

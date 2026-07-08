@@ -1,0 +1,89 @@
+{
+  "corpus": "insight_2026-05-19",
+  "oracle": "claude-opus-4-8 (uncalibrated)",
+  "calibration": "NONE — single uncalibrated LLM oracle. Numbers are INDICATIVE, not certified (no human kappa).",
+  "clustering_precision": 0.917,
+  "merged_pairs": 12,
+  "confirmed_same_event": 11,
+  "false_merges": [
+    {
+      "parentId": "cluster_267_e47a6177319a3483",
+      "event": "US Russian-oil sanctions waiver (CONTRADICTORY: 'extends' vs 'allows to lapse')",
+      "pairs": 1
+    }
+  ],
+  "angle_accuracy": 0.619,
+  "angle_evaluated": 21,
+  "angle_misses": [
+    {
+      "id": "70d77d1e33d12bd9",
+      "cluster": "cluster_80_70d77d1e33d12bd9",
+      "oracle": "base_report",
+      "pipeline": "official_response"
+    },
+    {
+      "id": "9df36b44e85e925c",
+      "cluster": "cluster_480_9df36b44e85e925c",
+      "oracle": "base_report",
+      "pipeline": "official_response"
+    },
+    {
+      "id": "838be04bdb4e35fc",
+      "cluster": "cluster_268_1ab8e35ae335caf1",
+      "oracle": "base_report",
+      "pipeline": "investigative_detail"
+    },
+    {
+      "id": "895feaf453b52308",
+      "cluster": "cluster_491_e94b3c99cf4d95eb",
+      "oracle": "official_response",
+      "pipeline": "market_reaction"
+    },
+    {
+      "id": "47006dc2c145b5f6",
+      "cluster": "cluster_194_47006dc2c145b5f6",
+      "oracle": "investigative_detail",
+      "pipeline": "market_reaction"
+    },
+    {
+      "id": "f29fa3ed5d43e6f1",
+      "cluster": "cluster_194_47006dc2c145b5f6",
+      "oracle": "investigative_detail",
+      "pipeline": "base_report"
+    },
+    {
+      "id": "df2532958fb264b9",
+      "cluster": "cluster_657_df2532958fb264b9",
+      "oracle": "base_report",
+      "pipeline": "reaction_public"
+    },
+    {
+      "id": "e80fc13e5c11bc0b",
+      "cluster": "cluster_477_e80fc13e5c11bc0b",
+      "oracle": "base_report",
+      "pipeline": "market_reaction"
+    }
+  ],
+  "ranking": {
+    "minor_in_top3": 0,
+    "conformance_pass": true,
+    "top3_importance": [
+      "notable",
+      "notable",
+      "notable"
+    ],
+    "top5_importance": [
+      "notable",
+      "notable",
+      "notable",
+      "major",
+      "notable"
+    ],
+    "majors_outside_top5": [
+      {
+        "event": "US DOJ drops fraud case against Gautam Adani",
+        "rank": 8
+      }
+    ]
+  }
+}

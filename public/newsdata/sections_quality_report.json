@@ -1,0 +1,224 @@
+{
+  "contentHash": "edb4e822eec5",
+  "errors": [],
+  "fetchedAt": 1783468517197,
+  "generatedAt": 1783468529029,
+  "schemaVersion": 2,
+  "sectionCount": 10,
+  "sectionHealth": {
+    "business": {
+      "qualitySourceGroupCount": 3,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 3,
+      "storyCount": 30,
+      "thin": false,
+      "topSources": [
+        {
+          "count": 17,
+          "sourceGroup": "business_line"
+        },
+        {
+          "count": 8,
+          "sourceGroup": "economic_times"
+        },
+        {
+          "count": 5,
+          "sourceGroup": "google_news"
+        }
+      ]
+    },
+    "entertainment": {
+      "qualitySourceGroupCount": 1,
+      "qualityStoryCount": 17,
+      "sourceGroupCount": 1,
+      "storyCount": 17,
+      "thin": true,
+      "topSources": [
+        {
+          "count": 17,
+          "sourceGroup": "google_news"
+        }
+      ]
+    },
+    "india": {
+      "qualitySourceGroupCount": 3,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 3,
+      "storyCount": 30,
+      "thin": false,
+      "topSources": [
+        {
+          "count": 20,
+          "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 5,
+          "sourceGroup": "ndtv"
+        },
+        {
+          "count": 5,
+          "sourceGroup": "times_of_india"
+        }
+      ]
+    },
+    "muscat": {
+      "qualitySourceGroupCount": 2,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
+      "topSources": [
+        {
+          "count": 20,
+          "sourceGroup": "times_of_oman"
+        },
+        {
+          "count": 10,
+          "sourceGroup": "google_news_oman"
+        }
+      ]
+    },
+    "sports": {
+      "qualitySourceGroupCount": 3,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 3,
+      "storyCount": 30,
+      "thin": false,
+      "topSources": [
+        {
+          "count": 15,
+          "sourceGroup": "bbc"
+        },
+        {
+          "count": 12,
+          "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 3,
+          "sourceGroup": "google_news"
+        }
+      ]
+    },
+    "technology": {
+      "qualitySourceGroupCount": 3,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 3,
+      "storyCount": 30,
+      "thin": false,
+      "topSources": [
+        {
+          "count": 16,
+          "sourceGroup": "gadgets360"
+        },
+        {
+          "count": 11,
+          "sourceGroup": "google_news"
+        },
+        {
+          "count": 3,
+          "sourceGroup": "the_hindu"
+        }
+      ]
+    },
+    "tn": {
+      "qualitySourceGroupCount": 2,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
+      "topSources": [
+        {
+          "count": 15,
+          "sourceGroup": "google_news"
+        },
+        {
+          "count": 15,
+          "sourceGroup": "the_hindu"
+        }
+      ]
+    },
+    "topStories": {
+      "qualitySourceGroupCount": 3,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 3,
+      "storyCount": 30,
+      "thin": false,
+      "topSources": [
+        {
+          "count": 19,
+          "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 10,
+          "sourceGroup": "ndtv"
+        },
+        {
+          "count": 1,
+          "sourceGroup": "economic_times"
+        }
+      ]
+    },
+    "trichy": {
+      "qualitySourceGroupCount": 2,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
+      "topSources": [
+        {
+          "count": 15,
+          "sourceGroup": "google_news"
+        },
+        {
+          "count": 15,
+          "sourceGroup": "the_hindu"
+        }
+      ]
+    },
+    "world": {
+      "qualitySourceGroupCount": 2,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
+      "topSources": [
+        {
+          "count": 23,
+          "sourceGroup": "bbc"
+        },
+        {
+          "count": 7,
+          "sourceGroup": "the_hindu"
+        }
+      ]
+    }
+  },
+  "sourceGroupCount": 10,
+  "status": "WARN",
+  "storyCount": 287,
+  "thresholds": {
+    "expectedRetainHours": 36,
+    "minSectionSourceGroups": 2,
+    "minSectionStories": 4,
+    "minTotalStories": 45,
+    "requiredSections": [
+      "topStories",
+      "india",
+      "tn",
+      "trichy",
+      "muscat",
+      "world",
+      "business",
+      "technology",
+      "sports",
+      "entertainment"
+    ]
+  },
+  "warnings": [
+    "Section entertainment has weak source diversity: 1 source group(s)"
+  ],
+  "window": {
+    "cutoffAt": 1783338917197,
+    "retainHours": 36
+  }
+}

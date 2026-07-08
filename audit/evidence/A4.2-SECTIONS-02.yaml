@@ -1,0 +1,44 @@
+check_id: A4.2-SECTIONS-02
+invariant: >
+  "Hybrid mode on a static host must surface section stories whenever the prefetched
+  sections snapshot contains usable data; when it does not, behavior must degrade in a
+  user-legible way rather than silently emptying the Main tab."
+source_of_truth:
+  - "src/adapters/sectionsSnapshotFetcher.js:3-5 (SECTION_SNAPSHOT_MAX_AGE_MS=12h, SECTION_ITEM_MAX_AGE_MS=36h)"
+  - "src/adapters/sectionsSnapshotFetcher.js:210-272 (selectPrefetchedSectionItems: only item-fresh rows survive)"
+  - "src/services/rssAggregator.js:570-657 (hybrid path; static host returns [] when prefetched empty/stale, no live fallback)"
+  - "src/runtime/runtimeCapabilities.js (allowWideFeedFetch=false on static host)"
+  - "src/data/datasets/sectionsDataset.js:226-249 (envelope ok=false -> freshness EMPTY)"
+input:
+  snapshot: "public/newsdata/sections_latest.json (repo HEAD, contentHash 5a6820ccd64f), timestamps aged -10d to replicate the live 2026-06-12 deployed snapshot"
+  clock: "2026-06-22T16:22:35Z (container)"
+procedure: >
+  Loaded the repo sections snapshot, set fetchedAt=1781244728756 and shifted every item
+  publishedAt back 10 days to replicate the deployed-artifact condition proven in
+  A4.1-DEPLOY-01, then called selectPrefetchedSectionItems(snapshot, section, 15) for the
+  Main-tab sections. (Script: /tmp/sec_stale_test.mjs; pure function, no network.)
+result:
+  per_section_items: { world: 0, india: 0, chennai: 0, trichy: 0, local: 0 }
+  stale: true
+  staleReason: "sections_snapshot_stale"
+  staleItems_discarded: { world: 30, india: 30, chennai: 30, trichy: 28, local: 30 }
+  control_run: >
+    Same function on the UN-aged fresh repo snapshot returns 15 items for every Main
+    section (world/india/chennai/trichy/local/social/entertainment/business/technology),
+    confirming the selection logic itself is correct and the emptiness is purely an
+    input-age (deploy-freshness) effect.
+verdict: FAIL
+user_impact: >
+  When the deployed snapshot ages past the 12h snapshot gate / 36h item gate (the state
+  the broken deploy pipeline holds the site in -- see I001), every Main section selects 0
+  rows. The static host has allowWideFeedFetch=false so there is no live RSS fallback;
+  sectionsDataset emits ok=false / freshness=EMPTY and Main renders DataStateBoundary's
+  empty state ("No updates available"). The staleness IS surfaced internally
+  (staleReason, validation warnings) but the user just sees an empty tab.
+benchmark_hook: >
+  This is the rendering mechanism downstream of I001; the same dedicated post-deploy
+  freshness probe (A4.1) covers regression detection. Secondary hardening question for A6:
+  whether static-host hybrid should serve clearly-labelled stale rows instead of empty
+  (MODE_MATRIX 'Ranked Gap #4' already raises this for Insight).
+issue_matrix_id: I002
+notes: "AUDIT FINDING. No fix applied per no-fix rule. Dependent on I001 root cause."

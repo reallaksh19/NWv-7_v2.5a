@@ -1,0 +1,68 @@
+check_id: A2.x-STAGE-01
+invariant: "Per-stage invariants from plan §A2.1–§A2.7, tested on real frozen-snapshot output."
+source_of_truth:
+  - "audit/INSIGHT_AUDIT_PLAN.md §A2.1–§A2.7"
+  - "dump: audit/evidence/A2-dump.json (run via a2_dump.harness.test.ts); analysis: a2_analyze.mjs → A2-analysis-output.txt"
+input:
+  snapshot: "public/newsdata/insight_2026-05-19.json"
+  contentHash: "40f989d5da9c"
+  node: "v22.22.2"
+  corpus: { storiesIn: 877, storiesClustered: 795, hidden: 82, topParents: 10 }
+procedure: "one frozen pipeline run dumped full parents (12 components + debug.scoreBreakdown + cluster/child membership + per-child angle/source) + a reversed-input-order run; a2_analyze.mjs checks each invariant."
+
+results:
+  A2.1_normalize:
+    verdict: PASS
+    detail: "Full accounting: 877 in = 795 clustered + 82 hidden + 0 excluded. 0 clustered stories missing angle/sourceTier/slot. No silent drops."
+  A2.2_dedup:
+    verdict: PASS (with F5-1 quantification)
+    detail: >
+      F5-5 VERIFIED-FIXED: cosineSimilarity (dedup.ts:219-228) returns 0 when denom===0,
+      so zero-vectors never false-merge (no 0/0→NaN/1). BUT 134/877 (15.3%) stories are OOV
+      against the 200-term vocab → all-zero embedding → cosine 0 to everything → they are
+      embedding-invisible and can only cluster via title/other layers. This quantifies F5-1
+      (see I010).
+  A2.3_angle:
+    verdict: PASS
+    detail: >
+      11 of 12 AngleLabel values fire on the corpus; only "unknown" never fires (correct —
+      it is the fallback, unknown rate = 0.000). No dead substantive angle. Distribution is
+      skewed: base_report(273)+official_response(262) = 67% of stories. avgVisibleAngles/parent
+      = 1.90 (≥1.8 ✓), multiAngleParents = 9 (≥8 ✓). RCA targets met.
+  A2.4_cluster_order_sensitivity:
+    verdict: PASS
+    detail: "Normal vs reversed input order: 10 vs 10 parents; co-membership pairs 14 vs 14, 14/14 preserved → stability 1.000 on the top-10 parents. Clustering is order-stable on this corpus (bounds benchmark reproducibility well)."
+  A2.5_ranking:
+    verdict: MIXED — math PASS, breakdown FAIL
+    detail: >
+      All 12 components ∈ [0,1] pre-weighting (0 violations). finalParentScore = Σ(component×weight)
+      reproduced EXACTLY (max |Δ| = 0.000) using the documented 12 weights → ranking math is
+      correct. HOWEVER debug.scoreBreakdown (ranking.ts:360) stores RAW component values plus a
+      `finalParentScore` key (13 entries), NOT weighted contributions; naive sum is off by up to
+      5.983 from the score (and double-counts the total). The plan invariant "scoreBreakdown sums
+      to finalParentScore" is FALSE by construction → I007 (diagnostics-truthfulness, hand to A5).
+      Region boost reachable (1/10 parents > 0). Wire penalty fires on 0/10 parents → positive
+      case UNVERIFIED on this corpus.
+  A2.6_tree:
+    verdict: MIXED — caps PASS, weak-tree definition drift
+    detail: >
+      Child caps respected: max children 3 (≤7), 0 per-angle>3 violations, 0 non-weak parents
+      with <3 source groups. BUT parent.weakTree = isWeakTree() = (<3 QUALITY children:
+      freshness≥0.45 & authority≥0.45), which is ANGLE-BLIND. The plan §A2.6 documents weak =
+      (<3 children OR <2 angles); code ignores angles. cluster_453 (3 children, 1 angle) is
+      non-weak per code, contradicting the RCA's angle-diversity emphasis → I008. Also:
+      parent.hiddenDuplicateIds is empty on all 10 parents (pipeline.ts:452 filters hidden to
+      cluster members, but hard-dups are removed pre-cluster) → provenance not attached → I009.
+  A2.7_quality:
+    verdict: PASS (with tension noted)
+    detail: "Ratchet recompute on frozen corpus: avgVisibleAngles 1.90 (≥1.8 PASS), multiAngleParents 9 (≥8 PASS). BUT 8/10 top parents are weakTree by the child-quality definition — the ratchet passes on angle metrics while 80% of top trees are 'weak', a metric-coverage tension worth noting for A2.7/A5."
+
+verdict: PASS-with-findings
+user_impact: >
+  Ranking order is trustworthy (math exact). The risks are diagnostic/quality: the score
+  breakdown shown in popups is not a decomposition of the score (I007); single-angle event
+  trees aren't flagged weak (I008); 15% of stories are embedding-invisible, weakening
+  hyperlocal clustering (I010, F5-1).
+benchmark_hook: "I007→A5 dedicated diagnostics cert (B4 nDCG won't catch). I008/I010→B4 angle-coverage/diversity metrics. I009→A2.6 recovery-path check."
+issue_matrix_id: "I007, I008, I009, I010; F5-5 VERIFIED-FIXED"
+gate_status: "A2.1–A2.7 each have a ternary verdict → A2 exit gate MET (findings ticketed)."

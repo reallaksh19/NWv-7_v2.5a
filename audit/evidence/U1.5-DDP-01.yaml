@@ -1,0 +1,36 @@
+check_id: U1.5-DDP-01
+invariant: >
+  Deduplication thresholds match their documented intent (plan §U2.5 stack), and the
+  OFFER_CAMPAIGNS regexes correspond to current real campaign names.
+source_of_truth: >
+  audit/UPAHEAD_AUDIT_PLAN.md §U1 + §U2.5 (documented stack "0.82 / 0.58 / token overlap 0.5 /
+  min shared 3 / strong 4"); src/config/settings_upahead.js:35-44 (deduplication);
+  src/viewModels/useUpAheadPageViewModel.js:173-184 (OFFER_CAMPAIGNS), :186-227 (groupOnlineOffers).
+input:
+  snapshot: "settings_upahead.js + useUpAheadPageViewModel.js at git HEAD"
+  asOfDate: "N/A — thresholds and campaign regexes are clock-invariant config"
+  mode: { mode: online (campaign grouping is online-offers path), host: both, locale: n/a }
+procedure: "Compare each documented dedup threshold to code; enumerate OFFER_CAMPAIGNS regexes vs the live 2026 retail-campaign calendar; verify locator references in the plan."
+result:
+  dedup_thresholds_match:
+    - "similarityThreshold 0.82 == documented 0.82 PASS"
+    - "secondarySimilarityThreshold 0.58 == documented 0.58 PASS"
+    - "tokenOverlapThreshold 0.5 == documented 0.5 PASS"
+    - "minimumSharedTokens 3 == documented 'min shared 3' PASS"
+    - "strongSharedTokens 4 == documented 'strong 4' PASS"
+  dedup_extra_undocumented_knobs:
+    - "strongTokenOverlapThreshold 0.52 — NOT in the documented stack; suspiciously close to tokenOverlapThreshold 0.50 (verify in U2.5 that the 'strong' path is meaningfully distinct)"
+    - "maxFingerprintTokens 8 — NOT in the documented stack (fingerprint width knob)"
+  campaign_regexes_current: >
+    OFFER_CAMPAIGNS (10 entries, all word-boundary regex) map to live campaigns: prime day,
+    big billion days, great indian (festival|sale), eoss/end of season sale, target circle
+    (week|deal days), black friday, cyber monday, (diwali|festive) sale, independence day sale,
+    republic day sale. All current for 2026; no obviously stale/dead campaign names. PASS.
+  locator_drift_in_plan: >
+    plan §U2.5 lists groupOnlineOffers under deDuplication.js and §U1 lists OFFER_CAMPAIGNS as a
+    settings regex; both actually live in src/viewModels/useUpAheadPageViewModel.js:173/197. plan
+    §U1 cites settings_upahead.js:35-42 for dedup; actual range is :35-44. Doc-locator drift only.
+verdict: PASS (dedup stack + campaign regexes match intent) with FINDINGS (2 undocumented dedup knobs; plan-locator drift)
+user_impact: "None at config level. The undocumented strongTokenOverlapThreshold 0.52 vs 0.50 closeness could make the 'strong overlap' dedup path a near-no-op — flagged for execution check in U2.5."
+benchmark_hook: "U2.5 executes the full threshold stack on real cycles vs duplicateLeakRate 0.03 (both under- and over-merge); confirms whether strongTokenOverlapThreshold 0.52 ever changes a merge decision. Locator drift -> I017."
+issue_matrix_id: I017

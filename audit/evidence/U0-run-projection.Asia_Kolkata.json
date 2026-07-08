@@ -1,0 +1,94 @@
+{
+  "harness": "U0 Up Ahead static-host display projection",
+  "snapshot": "audit/evidence/frozen/up_ahead_2026-06-24.json",
+  "contentHash": "sha256:52e90023b5150af6ecc50193c616f1036524a5032e8bb13954173fcdc6f9d378",
+  "tz": "Asia/Kolkata",
+  "node": "v22.22.2",
+  "N": 10,
+  "locations": [
+    "Chennai",
+    "Muscat"
+  ],
+  "reproInstantUtc": "2026-06-24T12:00:00.000Z",
+  "realClock": {
+    "hashes": [
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9"
+    ],
+    "uniqueCount": 1,
+    "identical": true
+  },
+  "frozenClock": {
+    "fixedInstantUtc": "2026-06-24T12:00:00.000Z",
+    "hashes": [
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9",
+      "ec4a31491a6492d9"
+    ],
+    "uniqueCount": 1,
+    "identical": true
+  },
+  "realVsFrozenSame": true,
+  "midnightStraddle": {
+    "tz": "Asia/Kolkata",
+    "beforeUtc": "2026-06-24T18:25:00.000Z",
+    "afterUtc": "2026-06-24T18:35:00.000Z",
+    "localMidnightUtc": "2026-06-24T18:30:00.000Z",
+    "changed": false,
+    "tabDiff": {},
+    "briefingDiff": {}
+  },
+  "firstProjectionSample": {
+    "tabs": {
+      "weatherAlerts": 0,
+      "generalAlerts": 20,
+      "civicAlerts": 1,
+      "civicItems": 1,
+      "combinedAlerts": 21,
+      "offerItems": 4,
+      "onlineOffers": 4,
+      "offlineOffers": 0,
+      "movieCards": 0,
+      "festivalCards": 0,
+      "eventItems": 0,
+      "suggestedItems": 5
+    },
+    "briefing": {
+      "status": "urgent",
+      "alertCount": 21,
+      "offerCount": 4,
+      "eventCount": 0,
+      "movieCount": 0,
+      "festivalCount": 0,
+      "todayCount": 0,
+      "next72hCount": 0,
+      "plannerReadyCount": 0
+    },
+    "evidence": {
+      "score": null,
+      "tier": null,
+      "coveredCategories": [
+        "alerts",
+        "shopping",
+        "civic",
+        "airlines"
+      ],
+      "populatedDays": null
+    }
+  }
+}

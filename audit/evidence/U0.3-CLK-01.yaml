@@ -1,0 +1,40 @@
+check_id: U0.3-CLK-01
+invariant: >
+  The reference date is injectable END-TO-END across the projection (audit plan §U0:
+  "every consumer threads it"). Any consumer that calls new Date()/Date.now() directly
+  instead of an injected reference is a finding.
+source_of_truth: "audit/UPAHEAD_AUDIT_PLAN.md §U0; audit/evidence/U0.3-CLOCK-CATALOGUE.md; reports/MODE_MATRIX.md:29 (upAheadMode: limited-live, static-host path)"
+input:
+  snapshot: "audit/evidence/frozen/up_ahead_2026-06-24.json"
+  contentHash: "sha256:52e90023b5150af6ecc50193c616f1036524a5032e8bb13954173fcdc6f9d378"
+  asOfDate: "n/a — the finding is the ABSENCE of an asOfDate parameter on the static path"
+  mode: { sourceMode: snapshot }
+  host: static
+  locale: [Chennai, Muscat]
+procedure: >
+  Static grep+trace over the U0 surface (intelligence/*, services/upAhead*,
+  intelligentUpAheadFetcher.js, utils/planner*, viewModels/useUpAhead*, date utils),
+  test files excluded; each new Date()/Date.now() classified injected/injectable/hardwired
+  (full table: audit/evidence/U0.3-CLOCK-CATALOGUE.md). Cross-checked against the runtime
+  harness, which had to use vitest fake timers (global clock control) to pin the static
+  projection because no asOfDate parameter exists.
+result:
+  live_path: "INJECTED/INJECTABLE — asOfDate threaded (verified by execution, U0.2-INJ-01)"
+  static_display_path: "HARDWIRED — 13+ direct wall-clock reads, no asOfDate parameter"
+  hardwired_sites_examples:
+    - "services/upAheadService.js:40 getStartOfTodayMs (calendar past-drop)"
+    - "services/upAheadService.js:162-166 generateWeeklyPlan (7-day window origin)"
+    - "services/upAheadService.js:84 isStaticUpAheadFresh (12h gate)"
+    - "viewModels/useUpAheadPageViewModel.js:284,289,302,319,343 age caps"
+    - "viewModels/useUpAheadPageViewModel.js:263 buildSuggestedItems upcoming/past split"
+  injectable_but_not_injected:
+    - "viewModels/useUpAheadPageViewModel.js:383-393 -> getUpAheadEvidence/getUpAheadBriefing called with no `now`"
+  replay_requires_global_shim: true   # vitest fake timers / TZ + system clock
+verdict: FAIL
+user_impact: >
+  None in production — in a browser the wall clock IS the intended reference, and runs are
+  deterministic given it (U0.1-DET-01). Impact is on auditability/benchmarking: the static
+  projection (the path most deployed users hit, MODE_MATRIX:29) cannot be replayed at a
+  dated reference without controlling the global clock. Mirrors A0/I004 but broader.
+benchmark_hook: "Blocks UPAHEAD_BENCHMARK_PLAN dated-snapshot replay on the static path until a clock is threaded (or the benchmark adopts a global clock shim)."
+issue_matrix_id: I012

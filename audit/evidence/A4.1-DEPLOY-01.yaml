@@ -1,0 +1,56 @@
+check_id: A4.1-DEPLOY-01
+invariant: >
+  "news_prefetch.yml header (lines 16-18) claims: 'Publishing to GitHub Pages is
+  handled by deploy.yml, which fires automatically when the data commit lands on
+  main.' Therefore the live site must serve newsdata no older than the most recent
+  prefetch commit on main."
+source_of_truth:
+  - ".github/workflows/news_prefetch.yml:16-18 (claim), :198-222 (commit/push step)"
+  - ".github/workflows/deploy.yml:5-10 (triggers: push to main + workflow_dispatch only)"
+input:
+  repo_snapshot: "public/newsdata/sections_latest.json"
+  repo_contentHash: "5a6820ccd64f"
+  repo_fetchedAt: "2026-06-22T13:11:57Z (fresh)"
+  deployed_url: "https://reallaksh19.github.io/NWv-7/newsdata/sections_latest.json"
+  deployed_contentHash: "92bee8cd0344"
+  deployed_fetchedAt: "2026-06-12T06:12:08Z"
+  clock: "2026-06-22T16:22:35Z (container)"
+procedure: >
+  (1) Listed news_prefetch.yml workflow runs via GitHub Actions API: 337 runs, succeeding
+  roughly hourly; latest commit on main 'data: news prefetch 2026-06-22T13:13Z'.
+  (2) Confirmed every data commit author is 'github-actions[bot]
+  <github-actions[bot]@users.noreply.github.com>' (git log -- public/newsdata/sections_latest.json)
+  -> push performed with the default GITHUB_TOKEN.
+  (3) Listed deploy.yml workflow runs via GitHub Actions API: latest run 2026-06-12T10:31:24Z,
+  no run since. (4) Confirmed no human (non-bot) commit to main since 2026-06-12
+  (git log --since=2026-06-12T11:00Z origin/main | grep -v github-actions[bot] -> empty).
+  (5) WebFetch of the live GitHub Pages snapshot returned fetchedAt 1781244728756
+  (2026-06-12T06:12:08Z), contentHash 92bee8cd0344 -- a different, 10-day-old file than the
+  repo HEAD (5a6820ccd64f).
+result:
+  deploy_last_run: "2026-06-12T10:31Z"
+  newest_data_commit_on_main: "2026-06-22T13:13Z"
+  deploy_runs_since_last_data_commit: 0
+  live_site_data_age_days: 10.4
+  root_cause: >
+    GitHub deliberately does NOT raise push/workflow-trigger events for commits pushed
+    with the built-in GITHUB_TOKEN (recursion guard). news_prefetch.yml pushes its data
+    commits as github-actions[bot] via GITHUB_TOKEN, so deploy.yml's `on: push` trigger
+    never fires for those commits. deploy.yml therefore only runs on human pushes; with no
+    human push since 2026-06-12 the published site has been frozen for >10 days. The
+    workflow header comment asserting automatic publishing is factually wrong.
+verdict: FAIL
+user_impact: >
+  The entire deployed (GitHub Pages) site is frozen at 2026-06-12 data for ALL
+  snapshot-backed tabs (Main/Sections, Insight, Market, Weather, Up Ahead, Newspaper,
+  Breaking). In Hybrid (default) mode on the static host the staleness gates reject every
+  item and there is no live fallback (allowWideFeedFetch=false), so tabs render empty
+  ("No updates available"). This is the reported "Main tab not fetching any stories in
+  Hybrid mode" symptom; it is app-wide, not Main-specific.
+benchmark_hook: >
+  B4 quality metrics (nDCG, angle coverage) run on the repo snapshot and will NOT catch
+  this -- they never observe the deployed artifact. Needs a dedicated cert: a post-deploy
+  freshness probe that fetches the live Pages URL and asserts
+  (now - deployed.fetchedAt) <= snapshot max-age. Flag in A6.
+issue_matrix_id: I001
+notes: "AUDIT FINDING (not an audit-enabling change). No fix applied per no-fix rule."

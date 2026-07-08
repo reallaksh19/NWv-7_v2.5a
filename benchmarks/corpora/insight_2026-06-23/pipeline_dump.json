@@ -1,0 +1,6709 @@
+{
+  "snapshot": "public/newsdata/insight_2026-05-19.json",
+  "contentHash": "40f989d5da9c",
+  "node": "v22.22.2",
+  "config": {
+    "TOP_PARENTS": 10,
+    "MAX_CHILDREN_PER_PARENT": 7,
+    "MAX_PER_ANGLE": 3,
+    "MIN_SOURCES_PER_TREE": 3,
+    "WEAK_TREE_CHILD_MIN": 3,
+    "MIN_CHILD_INFO_GAIN": 0.1,
+    "SAME_EVENT_THRESHOLD": 0.88,
+    "REGION_TAGS": [
+      "chennai",
+      "trichy",
+      "tamil nadu",
+      "tn",
+      "muscat",
+      "oman"
+    ]
+  },
+  "storiesIn": 678,
+  "storiesClustered": 619,
+  "hiddenCount": 64,
+  "run1": {
+    "parents": [
+      {
+        "parentId": "cluster_236_6bdbe258f2e3da0e",
+        "finalParentScore": 0.7096271246498396,
+        "weakTree": false,
+        "isRising": true,
+        "clusterStoryIds": [
+          "6bdbe258f2e3da0e",
+          "64cb05959ffbdd7d",
+          "35c02051817754b4",
+          "12d9a19c56904376",
+          "81c3371cd33fd56b",
+          "94482d8e050fa762",
+          "4219a53517d633e9",
+          "70152b048b7488eb",
+          "a6f582581d772b8b",
+          "4bf5614bd5c50e34",
+          "2753a8c3878d08a7"
+        ],
+        "childStoryIds": [
+          "6bdbe258f2e3da0e",
+          "a6f582581d772b8b",
+          "94482d8e050fa762",
+          "12d9a19c56904376",
+          "64cb05959ffbdd7d",
+          "2753a8c3878d08a7"
+        ],
+        "hiddenDuplicateIds": [
+          "4bf5614bd5c50e34",
+          "70152b048b7488eb",
+          "4219a53517d633e9",
+          "81c3371cd33fd56b",
+          "35c02051817754b4"
+        ],
+        "components": {
+          "impactScore": 0.5041978816574343,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.7151515151515151,
+          "noveltyScore": 0.4,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.7109495026250039,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.6,
+          "informationDeltaScore": 0.29454545454545455,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.5041978816574343,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.7151515151515151,
+          "noveltyScore": 0.4,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.7109495026250039,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.6,
+          "informationDeltaScore": 0.29454545454545455,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.7096271246498396
+        },
+        "childAngles": [
+          "base_report",
+          "fact_update",
+          "official_response",
+          "official_response",
+          "regional_followup",
+          "official_response"
+        ],
+        "childSourceGroups": [
+          "times_of_india",
+          "ndtv",
+          "business_line",
+          "the_hindu",
+          "the_hindu",
+          "ndtv"
+        ]
+      },
+      {
+        "parentId": "cluster_126_ceb1e70f0d8e71b4",
+        "finalParentScore": 0.6581906546249832,
+        "weakTree": false,
+        "isRising": false,
+        "clusterStoryIds": [
+          "ceb1e70f0d8e71b4",
+          "68e7d1d535929ecf",
+          "15d405aa9def5362"
+        ],
+        "childStoryIds": [
+          "15d405aa9def5362",
+          "68e7d1d535929ecf",
+          "ceb1e70f0d8e71b4"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.5346154272380998,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.3,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.52497918747894,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.6,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.5346154272380998,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.3,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.52497918747894,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.6,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.6581906546249832
+        },
+        "childAngles": [
+          "fact_update",
+          "regional_followup",
+          "regional_followup"
+        ],
+        "childSourceGroups": [
+          "the_hindu",
+          "bbc",
+          "google_news"
+        ]
+      },
+      {
+        "parentId": "cluster_259_6f0cf77948c609b5",
+        "finalParentScore": 0.7204133864516651,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "6f0cf77948c609b5",
+          "7631a543cef899fa"
+        ],
+        "childStoryIds": [
+          "6f0cf77948c609b5",
+          "7631a543cef899fa"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.7833333333333333,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.64,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.7833333333333333,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.64,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.7204133864516651
+        },
+        "childAngles": [
+          "market_reaction",
+          "regional_followup"
+        ],
+        "childSourceGroups": [
+          "economic_times",
+          "business_line"
+        ]
+      },
+      {
+        "parentId": "cluster_462_47e6070b9bd9b12e",
+        "finalParentScore": 0.6886300531183316,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "47e6070b9bd9b12e",
+          "9218d0ba4346ad92"
+        ],
+        "childStoryIds": [
+          "9218d0ba4346ad92",
+          "47e6070b9bd9b12e"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.5603333333333333,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.4125,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.2,
+          "informationDeltaScore": 0.74,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.5603333333333333,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.4125,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.2,
+          "informationDeltaScore": 0.74,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.6886300531183316
+        },
+        "childAngles": [
+          "fact_update",
+          "official_response"
+        ],
+        "childSourceGroups": [
+          "the_hindu",
+          "business_line"
+        ]
+      },
+      {
+        "parentId": "cluster_324_c45d89c5e1e6baa2",
+        "finalParentScore": 0.6613933333333334,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "c45d89c5e1e6baa2",
+          "20e98bdb669bfb80"
+        ],
+        "childStoryIds": [
+          "20e98bdb669bfb80",
+          "c45d89c5e1e6baa2"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.5603333333333333,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.725,
+          "noveltyScore": 0.1,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.73,
+          "wirePenaltyScore": 0.5
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.5603333333333333,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.725,
+          "noveltyScore": 0.1,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.73,
+          "wirePenaltyScore": 0.5,
+          "finalParentScore": 0.6613933333333334
+        },
+        "childAngles": [
+          "fact_update",
+          "market_reaction"
+        ],
+        "childSourceGroups": [
+          "reuters",
+          "economic_times"
+        ]
+      },
+      {
+        "parentId": "cluster_346_6672bf59c666f6f0",
+        "finalParentScore": 0.6752467197849983,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "6672bf59c666f6f0",
+          "c6c9cde07d7c222e"
+        ],
+        "childStoryIds": [
+          "c6c9cde07d7c222e",
+          "6672bf59c666f6f0"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.76,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.76,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.6752467197849983
+        },
+        "childAngles": [
+          "official_response",
+          "fact_update"
+        ],
+        "childSourceGroups": [
+          "bbc",
+          "the_hindu"
+        ]
+      },
+      {
+        "parentId": "cluster_144_2260914d28bdfb3c",
+        "finalParentScore": 0.6064100000000001,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "2260914d28bdfb3c",
+          "ad6d3cce592f431c"
+        ],
+        "childStoryIds": [
+          "2260914d28bdfb3c",
+          "ad6d3cce592f431c"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.44,
+          "sourceDiversityScore": 0.4125,
+          "noveltyScore": 0,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0.03,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.67,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.44,
+          "sourceDiversityScore": 0.4125,
+          "noveltyScore": 0,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0.03,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.67,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.6064100000000001
+        },
+        "childAngles": [
+          "regional_followup",
+          "fact_update"
+        ],
+        "childSourceGroups": [
+          "the_hindu",
+          "business_line"
+        ]
+      },
+      {
+        "parentId": "cluster_386_4bcbc7d7efa2eb73",
+        "finalParentScore": 0.5803433333333332,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "4bcbc7d7efa2eb73",
+          "b9dfece1dfa1556f"
+        ],
+        "childStoryIds": [
+          "4bcbc7d7efa2eb73",
+          "b9dfece1dfa1556f"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.35416666666666663,
+          "noveltyScore": 0.1,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.7,
+          "wirePenaltyScore": 0.5
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.35416666666666663,
+          "noveltyScore": 0.1,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.7,
+          "wirePenaltyScore": 0.5,
+          "finalParentScore": 0.5803433333333332
+        },
+        "childAngles": [
+          "fact_update",
+          "investigative_detail"
+        ],
+        "childSourceGroups": [
+          "google_news",
+          "reuters"
+        ]
+      },
+      {
+        "parentId": "cluster_210_454af38cfc199f77",
+        "finalParentScore": 0.5788433333333334,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "454af38cfc199f77",
+          "fede08a7aeb73f2f"
+        ],
+        "childStoryIds": [
+          "fede08a7aeb73f2f",
+          "454af38cfc199f77"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.37916666666666665,
+          "noveltyScore": 0,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.67,
+          "wirePenaltyScore": 0.5
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.37916666666666665,
+          "noveltyScore": 0,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.67,
+          "wirePenaltyScore": 0.5,
+          "finalParentScore": 0.5788433333333334
+        },
+        "childAngles": [
+          "base_report",
+          "official_response"
+        ],
+        "childSourceGroups": [
+          "reuters",
+          "gadgets360"
+        ]
+      },
+      {
+        "parentId": "cluster_420_95a0110d6f7525ff",
+        "finalParentScore": 0.6621467197849983,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "95a0110d6f7525ff",
+          "f3b8e1c1334f8ec9"
+        ],
+        "childStoryIds": [
+          "f3b8e1c1334f8ec9",
+          "95a0110d6f7525ff"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.629,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.629,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.6621467197849983
+        },
+        "childAngles": [
+          "regional_followup",
+          "regional_followup"
+        ],
+        "childSourceGroups": [
+          "the_hindu",
+          "ndtv"
+        ]
+      }
+    ]
+  },
+  "run2_reversed": {
+    "parentCount": 10,
+    "parents": [
+      {
+        "parentId": "cluster_236_6bdbe258f2e3da0e",
+        "finalParentScore": 0.7096271246498396,
+        "weakTree": false,
+        "isRising": true,
+        "clusterStoryIds": [
+          "6bdbe258f2e3da0e",
+          "64cb05959ffbdd7d",
+          "35c02051817754b4",
+          "12d9a19c56904376",
+          "81c3371cd33fd56b",
+          "94482d8e050fa762",
+          "4219a53517d633e9",
+          "70152b048b7488eb",
+          "a6f582581d772b8b",
+          "4bf5614bd5c50e34",
+          "2753a8c3878d08a7"
+        ],
+        "childStoryIds": [
+          "6bdbe258f2e3da0e",
+          "a6f582581d772b8b",
+          "94482d8e050fa762",
+          "12d9a19c56904376",
+          "64cb05959ffbdd7d",
+          "2753a8c3878d08a7"
+        ],
+        "hiddenDuplicateIds": [
+          "4bf5614bd5c50e34",
+          "70152b048b7488eb",
+          "4219a53517d633e9",
+          "81c3371cd33fd56b",
+          "35c02051817754b4"
+        ],
+        "components": {
+          "impactScore": 0.5041978816574343,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.7151515151515151,
+          "noveltyScore": 0.4,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.7109495026250039,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.6,
+          "informationDeltaScore": 0.29454545454545455,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.5041978816574343,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.7151515151515151,
+          "noveltyScore": 0.4,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.7109495026250039,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.6,
+          "informationDeltaScore": 0.29454545454545455,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.7096271246498396
+        },
+        "childAngles": [
+          "base_report",
+          "fact_update",
+          "official_response",
+          "official_response",
+          "regional_followup",
+          "official_response"
+        ],
+        "childSourceGroups": [
+          "times_of_india",
+          "ndtv",
+          "business_line",
+          "the_hindu",
+          "the_hindu",
+          "ndtv"
+        ]
+      },
+      {
+        "parentId": "cluster_126_ceb1e70f0d8e71b4",
+        "finalParentScore": 0.6581906546249832,
+        "weakTree": false,
+        "isRising": false,
+        "clusterStoryIds": [
+          "ceb1e70f0d8e71b4",
+          "68e7d1d535929ecf",
+          "15d405aa9def5362"
+        ],
+        "childStoryIds": [
+          "15d405aa9def5362",
+          "68e7d1d535929ecf",
+          "ceb1e70f0d8e71b4"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.5346154272380998,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.3,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.52497918747894,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.6,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.5346154272380998,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.3,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.52497918747894,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.6,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.6581906546249832
+        },
+        "childAngles": [
+          "fact_update",
+          "regional_followup",
+          "regional_followup"
+        ],
+        "childSourceGroups": [
+          "the_hindu",
+          "bbc",
+          "google_news"
+        ]
+      },
+      {
+        "parentId": "cluster_259_6f0cf77948c609b5",
+        "finalParentScore": 0.7204133864516651,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "6f0cf77948c609b5",
+          "7631a543cef899fa"
+        ],
+        "childStoryIds": [
+          "6f0cf77948c609b5",
+          "7631a543cef899fa"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.7833333333333333,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.64,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.7833333333333333,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.64,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.7204133864516651
+        },
+        "childAngles": [
+          "market_reaction",
+          "regional_followup"
+        ],
+        "childSourceGroups": [
+          "economic_times",
+          "business_line"
+        ]
+      },
+      {
+        "parentId": "cluster_462_47e6070b9bd9b12e",
+        "finalParentScore": 0.6886300531183316,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "47e6070b9bd9b12e",
+          "9218d0ba4346ad92"
+        ],
+        "childStoryIds": [
+          "9218d0ba4346ad92",
+          "47e6070b9bd9b12e"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.5603333333333333,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.4125,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.2,
+          "informationDeltaScore": 0.74,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.5603333333333333,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.4125,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.2,
+          "informationDeltaScore": 0.74,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.6886300531183316
+        },
+        "childAngles": [
+          "fact_update",
+          "official_response"
+        ],
+        "childSourceGroups": [
+          "the_hindu",
+          "business_line"
+        ]
+      },
+      {
+        "parentId": "cluster_324_c45d89c5e1e6baa2",
+        "finalParentScore": 0.6613933333333334,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "c45d89c5e1e6baa2",
+          "20e98bdb669bfb80"
+        ],
+        "childStoryIds": [
+          "20e98bdb669bfb80",
+          "c45d89c5e1e6baa2"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.5603333333333333,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.725,
+          "noveltyScore": 0.1,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.73,
+          "wirePenaltyScore": 0.5
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.5603333333333333,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.725,
+          "noveltyScore": 0.1,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.73,
+          "wirePenaltyScore": 0.5,
+          "finalParentScore": 0.6613933333333334
+        },
+        "childAngles": [
+          "fact_update",
+          "market_reaction"
+        ],
+        "childSourceGroups": [
+          "reuters",
+          "economic_times"
+        ]
+      },
+      {
+        "parentId": "cluster_346_6672bf59c666f6f0",
+        "finalParentScore": 0.6752467197849983,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "6672bf59c666f6f0",
+          "c6c9cde07d7c222e"
+        ],
+        "childStoryIds": [
+          "c6c9cde07d7c222e",
+          "6672bf59c666f6f0"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.76,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.76,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.6752467197849983
+        },
+        "childAngles": [
+          "official_response",
+          "fact_update"
+        ],
+        "childSourceGroups": [
+          "bbc",
+          "the_hindu"
+        ]
+      },
+      {
+        "parentId": "cluster_144_2260914d28bdfb3c",
+        "finalParentScore": 0.6064100000000001,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "2260914d28bdfb3c",
+          "ad6d3cce592f431c"
+        ],
+        "childStoryIds": [
+          "2260914d28bdfb3c",
+          "ad6d3cce592f431c"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.44,
+          "sourceDiversityScore": 0.4125,
+          "noveltyScore": 0,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0.03,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.67,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.44,
+          "sourceDiversityScore": 0.4125,
+          "noveltyScore": 0,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0.03,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.67,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.6064100000000001
+        },
+        "childAngles": [
+          "regional_followup",
+          "fact_update"
+        ],
+        "childSourceGroups": [
+          "the_hindu",
+          "business_line"
+        ]
+      },
+      {
+        "parentId": "cluster_386_4bcbc7d7efa2eb73",
+        "finalParentScore": 0.5803433333333332,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "4bcbc7d7efa2eb73",
+          "b9dfece1dfa1556f"
+        ],
+        "childStoryIds": [
+          "4bcbc7d7efa2eb73",
+          "b9dfece1dfa1556f"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.35416666666666663,
+          "noveltyScore": 0.1,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.7,
+          "wirePenaltyScore": 0.5
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.35416666666666663,
+          "noveltyScore": 0.1,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.7,
+          "wirePenaltyScore": 0.5,
+          "finalParentScore": 0.5803433333333332
+        },
+        "childAngles": [
+          "fact_update",
+          "investigative_detail"
+        ],
+        "childSourceGroups": [
+          "google_news",
+          "reuters"
+        ]
+      },
+      {
+        "parentId": "cluster_210_454af38cfc199f77",
+        "finalParentScore": 0.5788433333333334,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "454af38cfc199f77",
+          "fede08a7aeb73f2f"
+        ],
+        "childStoryIds": [
+          "fede08a7aeb73f2f",
+          "454af38cfc199f77"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.37916666666666665,
+          "noveltyScore": 0,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.67,
+          "wirePenaltyScore": 0.5
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.48,
+          "sourceDiversityScore": 0.37916666666666665,
+          "noveltyScore": 0,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.5,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.5,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.67,
+          "wirePenaltyScore": 0.5,
+          "finalParentScore": 0.5788433333333334
+        },
+        "childAngles": [
+          "base_report",
+          "official_response"
+        ],
+        "childSourceGroups": [
+          "reuters",
+          "gadgets360"
+        ]
+      },
+      {
+        "parentId": "cluster_420_95a0110d6f7525ff",
+        "finalParentScore": 0.6621467197849983,
+        "weakTree": true,
+        "isRising": false,
+        "clusterStoryIds": [
+          "95a0110d6f7525ff",
+          "f3b8e1c1334f8ec9"
+        ],
+        "childStoryIds": [
+          "f3b8e1c1334f8ec9",
+          "95a0110d6f7525ff"
+        ],
+        "hiddenDuplicateIds": [],
+        "components": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.629,
+          "wirePenaltyScore": 0
+        },
+        "scoreBreakdown": {
+          "impactScore": 0.467,
+          "persistenceScore": 0.32,
+          "sourceDiversityScore": 0.375,
+          "noveltyScore": 0.8,
+          "freshnessScore": 0.75,
+          "crossSnapshotMomentum": 0.549833997312478,
+          "editorialClarityScore": 1,
+          "regionBoost": 0,
+          "timelineCompletenessScore": 0.25,
+          "evolutionDiversityScore": 0.4,
+          "informationDeltaScore": 0.629,
+          "wirePenaltyScore": 0,
+          "finalParentScore": 0.6621467197849983
+        },
+        "childAngles": [
+          "regional_followup",
+          "regional_followup"
+        ],
+        "childSourceGroups": [
+          "the_hindu",
+          "ndtv"
+        ]
+      }
+    ]
+  },
+  "storyFacts": {
+    "ab8c46327510299d": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "f5617b5891f1fcb5": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.4572
+    },
+    "69de2cefc9e30af7": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 5.0859
+    },
+    "76f66cfde0d7fa1f": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "9cd86f0328642e9a": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.4495
+    },
+    "e894a3e89f2b1429": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "0f73db6647c1c1f1": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1
+    },
+    "8081efd7539e9608": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 5.6332
+    },
+    "200bfcc1d74c1792": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.9777
+    },
+    "ea043ec4793a9aa7": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "dd15cdd5713f0a93": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.9664
+    },
+    "e5862d315dc329cb": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.7321
+    },
+    "1d229785b7d58f22": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "background_context",
+      "embedNorm": 4.4121
+    },
+    "a4cb6cfcea68aeac": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "b2cc0a2d58dad675": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 2.4221
+    },
+    "b1bb0876acd06bcf": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.2361
+    },
+    "7e9ae66c1f69a31e": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "37dd530925dea5ae": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "4166689be86e63bc": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.4142
+    },
+    "1d16189577734bf1": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "expert_analysis",
+      "embedNorm": 2.6204
+    },
+    "b478abfce406bc93": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "expert_analysis",
+      "embedNorm": 3.873
+    },
+    "47afb87693adbdd6": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.7321
+    },
+    "72d71d02905144c7": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.568
+    },
+    "9913406a471b975d": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.8284
+    },
+    "9326f365f327b8f9": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "0015c5ca18c85a6f": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.2256
+    },
+    "6ae3ba97296bc260": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "54630197043ff8b0": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "10297560f1688096": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1
+    },
+    "290accb8433bfc75": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 3.6056
+    },
+    "3065cabe38752659": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "e2524e49cc49e475": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "f53268b3755aa28c": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.6965
+    },
+    "60eace9232377399": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.6204
+    },
+    "fdd0f73ecfa1e40d": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.7809
+    },
+    "77972c5acde7e7b9": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.3945
+    },
+    "eaecfe34e6101a2a": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "702e23c6d068e5ca": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.9664
+    },
+    "8374cefbace29e95": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2
+    },
+    "250e2ec460e8bb57": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.6644
+    },
+    "5ad49433f24f4933": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "correction",
+      "embedNorm": 2
+    },
+    "d26b33f0e21a90f9": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "e57e05a4266e4d2b": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.873
+    },
+    "b9217d49dc8d68c4": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.3373
+    },
+    "4ccb4e24d76f8b95": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.9664
+    },
+    "832078aa456e4dac": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 5.7796
+    },
+    "8034cc3f3a9caf25": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "f3b1bdfc7d105524": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.8048
+    },
+    "70eab6c40df524a5": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "background_context",
+      "embedNorm": 1
+    },
+    "875f76c57f3e9961": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.4142
+    },
+    "cb0eca01ba7f537f": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "063531e740fcd351": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.8685
+    },
+    "5cc11feddf43a1ae": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1.9664
+    },
+    "5c8b0be0e0a93beb": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.9078
+    },
+    "82fca9a30b9e627d": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "6ca234b5fbb4a78b": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.9664
+    },
+    "8612970fea100595": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.3436
+    },
+    "d0c9134a79e116bd": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "21f611f5fa34e3f6": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.2256
+    },
+    "36caede610bb7bb4": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 2.9552
+    },
+    "aef0e244daf8ea60": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 6.2439
+    },
+    "6b136aec26e83d69": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "2fc335b96cf16170": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 4.1231
+    },
+    "b57cf782dd41520c": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 3.873
+    },
+    "4aa007fd7b45734a": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "b6f055599bddb45c": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "54b2f96e15ec8e23": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "7d1db7a18ab32b36": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "correction",
+      "embedNorm": 1.4142
+    },
+    "73da16644378ada8": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.2061
+    },
+    "4c7dd0c61cd08e4b": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "5224a1524514644d": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.9664
+    },
+    "6c8445336b070fce": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 2.2061
+    },
+    "cde477d4db25e690": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 2.8284
+    },
+    "9d660695136f9e66": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 5.8595
+    },
+    "8706648f4e0fe319": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.4142
+    },
+    "7ef648552e2492e9": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "577359578a62ccbc": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "5376f5847cdddbb1": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 2
+    },
+    "64d040ac6fa43e16": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "af6cb2057b8ffa79": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.5949
+    },
+    "6d966903acd3d952": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.3166
+    },
+    "e39407480044a453": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.7809
+    },
+    "0a9a211b296deed0": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.9326
+    },
+    "28ad668f2863f0b0": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.4221
+    },
+    "a3c37383c2b97a67": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "7d12cd2b3eea9344": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "128b12b1753e58f0": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "9b9655ef692cb17c": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "a171aa1f9a86d583": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "debc4469ece69679": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "233e6de1b04a5ab5": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1.4142
+    },
+    "d7a915ab5e522442": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 6.0351
+    },
+    "7851e93b25b2c8e1": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.7417
+    },
+    "191637327b7f6299": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 5.4336
+    },
+    "151b3a6666877932": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2
+    },
+    "f8efb46e5dda53b2": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 4.8717
+    },
+    "c42297e2341c7980": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.4142
+    },
+    "e035e445ed3ef7ff": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.6204
+    },
+    "b415c6844ad92e0e": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 4.2269
+    },
+    "c476a12ae1b0780b": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.8048
+    },
+    "1000512dd435b7db": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.1411
+    },
+    "ccd245b7490dc82e": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.6931
+    },
+    "791caec236c37c17": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.8048
+    },
+    "d25d29630b9c7a8b": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.522
+    },
+    "7175fbc4dc1b20a5": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.821
+    },
+    "67125f1aa317679b": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3
+    },
+    "4255d5669b0c1fd5": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.3247
+    },
+    "9d69d8b79a7e4f54": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.7321
+    },
+    "ea0801e3f2e385dc": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "860052af649f08f6": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.2061
+    },
+    "71d81bff270e8ccf": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "3175d6ddc1c09f8d": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.9326
+    },
+    "a1f2fad9a9856033": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.9552
+    },
+    "d51ff5b47eb0783d": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 2
+    },
+    "34e6b9b27ea5d856": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "045d205ea2d19c49": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "background_context",
+      "embedNorm": 5.3028
+    },
+    "4a3b9e7bfc30f388": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.4495
+    },
+    "af49cdb3895e95f6": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.4221
+    },
+    "d8460423fddb6e64": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.7321
+    },
+    "e993be4afd217ac0": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.0448
+    },
+    "eb1b2ca322ecdf83": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "fe32f7aef3731729": {
+      "slot": "minus4h",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "b7a7fa95d5fac491": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "expert_analysis",
+      "embedNorm": 3.6429
+    },
+    "d884c3d7a2a6dde7": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 4.754
+    },
+    "1bfa3cc1d85b9250": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.8048
+    },
+    "ceb1e70f0d8e71b4": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "reaction",
+      "angle": "regional_followup",
+      "embedNorm": 2.3945
+    },
+    "68e7d1d535929ecf": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "reaction",
+      "angle": "regional_followup",
+      "embedNorm": 1.7321
+    },
+    "15d405aa9def5362": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.1411
+    },
+    "08fef202798b2be0": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "expert_analysis",
+      "embedNorm": 2.4221
+    },
+    "e0ae89d3ffb38610": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.821
+    },
+    "4a3cab51adf364e0": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2
+    },
+    "050826cd3268e17b": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.0984
+    },
+    "8ecd0fdbabf9a9f5": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.2965
+    },
+    "c9ccbf20db0081ee": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.4121
+    },
+    "c8fa1e0af2d6633b": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 5.7954
+    },
+    "434b18b57499472e": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.1411
+    },
+    "c1a0828047b6b05b": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 4.0415
+    },
+    "bdf23ff01173831d": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.2361
+    },
+    "df54ee00c00c0479": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.9326
+    },
+    "7d3f5c148a79fc85": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.0448
+    },
+    "37c055a76d297ecf": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.8557
+    },
+    "b5a2ea5fab749694": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.0448
+    },
+    "0db70cbba103573b": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.8048
+    },
+    "26e9e36802e3de81": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.9664
+    },
+    "ceeccddb486cc225": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "established",
+      "angle": "official_response",
+      "embedNorm": 5.4532
+    },
+    "fb6f45f884474f25": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "2260914d28bdfb3c": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "developing",
+      "angle": "regional_followup",
+      "embedNorm": 1.4142
+    },
+    "ad6d3cce592f431c": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.6458
+    },
+    "5792be3bc0d37528": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.6204
+    },
+    "f72f45546118c52e": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "8a560235df97f071": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.5949
+    },
+    "7d4e3e70c1b1c534": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "5d456d3f70662808": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "background_context",
+      "embedNorm": 1.6931
+    },
+    "9d5295ae21ed3005": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1
+    },
+    "1ddc7a51b060b8c5": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "c7e480b0ea47169d": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.3945
+    },
+    "e39b0e73f74fac42": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "93b6c45d5e0bcdb9": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2
+    },
+    "1cf4e5b4a51c06e1": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.0666
+    },
+    "974e2596f9ac2745": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 2.6204
+    },
+    "fd71d5a9170dad12": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.4495
+    },
+    "71bcc710170c26e5": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1
+    },
+    "f41db543ea26095c": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1
+    },
+    "a2acae6a3409bd52": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "7213bfd006a95b72": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "9a8e1ec9a23453d8": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 4.2928
+    },
+    "02660479bf525398": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.9552
+    },
+    "70e064a6fc956078": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.6931
+    },
+    "697782779a278792": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 2.3247
+    },
+    "06268d17de20ba4b": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "67f5d063991c5d61": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "61a2796ba57862e7": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.1199
+    },
+    "b5fa88b9b78d0dbe": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 4.9599
+    },
+    "20f9f6ded4d778fd": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.2361
+    },
+    "da93528579d01e59": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 4.3726
+    },
+    "c813ffb9b5bc560a": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.3282
+    },
+    "556769e122991d0e": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "4cabecdce541fe7a": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 5.1833
+    },
+    "332dcdb5be869817": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.2702
+    },
+    "534e74e42c5d5c57": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.3166
+    },
+    "32dd537a5bf59d51": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.4254
+    },
+    "7e905d3ab08f52c6": {
+      "slot": "minus24h",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 2.2361
+    },
+    "aba7eb6db634941a": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.5309
+    },
+    "dacb124200999902": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.522
+    },
+    "7e247d0712f10eef": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.1411
+    },
+    "d9b060a2b65295df": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.0448
+    },
+    "64c4dc2b275c94d0": {
+      "slot": "minus12h",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.6931
+    },
+    "510846e1acfb39da": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.3945
+    },
+    "75a552c5cc8a2a53": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.7059
+    },
+    "418ecba7574a4c38": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.8759
+    },
+    "4bfe05ad933969cf": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.9552
+    },
+    "6bfec8d4a683b6e3": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1
+    },
+    "0bcb397db70c1201": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.4221
+    },
+    "0b0bf6d87f61327c": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.7809
+    },
+    "d404b711fe720581": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.2361
+    },
+    "ea729ff125b875c5": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 4.8854
+    },
+    "c2577a8f8e937134": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "8b1d801a9d9c225a": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.5306
+    },
+    "6288ccbf821d5c20": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "6c4ac766b9437189": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.4495
+    },
+    "d0ca504d30ea80e8": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2
+    },
+    "8162230170f9e34c": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2
+    },
+    "4f9ca28afbff3058": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.6931
+    },
+    "02bfd530b67686b6": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.6429
+    },
+    "27bc662e8580e02b": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 4.1231
+    },
+    "514f9df0f354069e": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.6762
+    },
+    "fa29ea738853fef3": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.8759
+    },
+    "d9b293eee33449f1": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.3863
+    },
+    "4bb4cc2ff835764c": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "dea8b42900bfade7": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "925567d3d9d93603": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 4.6762
+    },
+    "01463b342c43f3f5": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1
+    },
+    "e5ade691b3bd0db4": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "454af38cfc199f77": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "established",
+      "angle": "official_response",
+      "embedNorm": 4.6476
+    },
+    "fede08a7aeb73f2f": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.6931
+    },
+    "806221a069434917": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "3d3e8b30b8597923": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "0c0a9178e3ad444f": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 4.6619
+    },
+    "1969346363bb40b1": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "expert_analysis",
+      "embedNorm": 2.5949
+    },
+    "f28d7f25dc35f7c3": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.5949
+    },
+    "47e4def6e70851e1": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "18f9b57ba570a273": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.3247
+    },
+    "eba46753e1a4bfc9": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2
+    },
+    "352cd5f2e9f06c5d": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.9664
+    },
+    "37e589cde6630c54": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.8048
+    },
+    "0f3fd23332edcb1d": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.4142
+    },
+    "575d2ffecc28e7f9": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 4.2269
+    },
+    "5a79163712cd02e3": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.2061
+    },
+    "f9a04bc23aea4650": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 4.824
+    },
+    "6e1c63be4ee9cf31": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 2.7809
+    },
+    "0cca5b93960e0b3b": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1
+    },
+    "16ee0599ef2b43fd": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "06ef11ac22543f10": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "03859ae1ff421e63": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 3.7417
+    },
+    "cf0f62e9bdc58c24": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "correction",
+      "embedNorm": 1.4142
+    },
+    "22f2d0b850143cd7": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.8557
+    },
+    "5e8e12b132f72f50": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.4495
+    },
+    "919b08bf5c786a81": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "77c072a563c731dc": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.1623
+    },
+    "33ae460664b9b329": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.6931
+    },
+    "6bdbe258f2e3da0e": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "developing",
+      "angle": "base_report",
+      "embedNorm": 1.7321
+    },
+    "64cb05959ffbdd7d": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 2.4495
+    },
+    "35c02051817754b4": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2
+    },
+    "12d9a19c56904376": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.3945
+    },
+    "81c3371cd33fd56b": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "94482d8e050fa762": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "4219a53517d633e9": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 3.6879
+    },
+    "70152b048b7488eb": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "a6f582581d772b8b": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "4bf5614bd5c50e34": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.8384
+    },
+    "2753a8c3878d08a7": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 4.6619
+    },
+    "3aac0fae85d01314": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.4142
+    },
+    "f16dc0d64ff769b0": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.3166
+    },
+    "d6e2f539bce74178": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "7fa0a9197e3ecb4d": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 3.4839
+    },
+    "2da03bc2937e4c9b": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 1
+    },
+    "a57169cf50e1275f": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 3.2762
+    },
+    "18db41e682603c8d": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 2
+    },
+    "8a0d61e548c77d08": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "f4cf7bb70fb314a8": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.873
+    },
+    "b85a678d17bd5885": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "4bbb040c89097777": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.6056
+    },
+    "56f812d0a53ffa0f": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.3572
+    },
+    "a19bc21e0a3cecbc": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.6931
+    },
+    "ad52926ac2b405d9": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1
+    },
+    "8326402753fb40a2": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1
+    },
+    "1d8ed517f2b0c05f": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1
+    },
+    "86abc8f3edfc7adb": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 8.494
+    },
+    "2baa3111a3dff134": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.7417
+    },
+    "9a1099f68cb91f05": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.7211
+    },
+    "5e5419e3aa67ff09": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "3280bf5e209aa1ab": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.4495
+    },
+    "dbf60b81bbae9e16": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "6f0cf77948c609b5": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.4254
+    },
+    "7631a543cef899fa": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 2.6458
+    },
+    "95082a63822e4df4": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.4495
+    },
+    "6021bf18ce122f16": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "12d457c79218b0f6": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "8a6d8062005d639b": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "10f71a9a1067b1f4": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "82ecaa14a82a2872": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "551b846fe594496b": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.7809
+    },
+    "bfb5652c74abab8b": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2
+    },
+    "9f5e336d4a77761b": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.4495
+    },
+    "2bb0a42eef2c190a": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.7321
+    },
+    "ed167483cd56d7ea": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "correction",
+      "embedNorm": 2.7809
+    },
+    "f4950dca7ad049d8": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.4142
+    },
+    "beb0d48ccb5f8aa8": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 1
+    },
+    "545af92af03a6ea4": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "2721696f0a721308": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.4495
+    },
+    "8d802c0032df90bd": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.2361
+    },
+    "faf00692ea6da1f8": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.3945
+    },
+    "b1c084900f34ca12": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.5306
+    },
+    "3efc3576b1d53fbd": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.4221
+    },
+    "ab37c147d622ee47": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3
+    },
+    "1742018077e53e5c": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "2e0990e05cd7609e": {
+      "slot": "minus12h",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "expert_analysis",
+      "embedNorm": 1.7321
+    },
+    "609d3b4b8a1c60ab": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.873
+    },
+    "22aed8f1c2948b23": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1
+    },
+    "fd5dc337e0daeee2": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 3.3863
+    },
+    "ddb716e2b77dd734": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.9664
+    },
+    "6fda3ed94d3d8281": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "075f176c9eaea933": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.568
+    },
+    "0f545632c3d1c9f5": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.6931
+    },
+    "a02930dfeb320377": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.9664
+    },
+    "1af0f902d38a4d39": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.0448
+    },
+    "ddfae776127eaf0e": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 4.1231
+    },
+    "4dbb3b184644730b": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.2965
+    },
+    "0cbbdf68198fd239": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.4221
+    },
+    "01dd2922b917415c": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.4142
+    },
+    "349a5931cb7ffd0d": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.5497
+    },
+    "10336717072e4674": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "6f90cacf07f98b23": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.3436
+    },
+    "70ad54a19176cfb3": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.873
+    },
+    "694dbeec709afdef": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1
+    },
+    "3c142e659f56a90a": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "9dd4b00c3be97575": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.6204
+    },
+    "5ccc3e270efd77b3": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "468ab470f46ed4bc": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 4.3589
+    },
+    "37dd9f34c5b77461": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.6204
+    },
+    "aa02f1049b8873fc": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.2762
+    },
+    "252f2f758b0a5956": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 2
+    },
+    "8a6687785d58f340": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "9381bec0f3cbcd99": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "3f7b2f159a765af1": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "f67111007d4501f1": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.899
+    },
+    "05a82acb4358fc80": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.0448
+    },
+    "a2d26cccad25cfe0": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1
+    },
+    "2d420377caba056e": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.9664
+    },
+    "64f38642fa90331b": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.9733
+    },
+    "12b52ebb6283175c": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.8048
+    },
+    "f01a5c5e06d2b25e": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.3282
+    },
+    "cef556806e29583e": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.3945
+    },
+    "4f9268a5437b5cb8": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.9664
+    },
+    "c5c58fc004ddd664": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "63e69370861b90e2": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 2.2361
+    },
+    "eb01dfc78107d0c4": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.6931
+    },
+    "4f3d627e7de4933b": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.9326
+    },
+    "143774512e9acba1": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.4641
+    },
+    "c45d89c5e1e6baa2": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.821
+    },
+    "20e98bdb669bfb80": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.9326
+    },
+    "0c24ada844344500": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1
+    },
+    "6b08705175026201": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "4e89211838c0fbdf": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "712e92b575a1129e": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.6931
+    },
+    "f15b805ca2361853": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "f8e4be4b940589f9": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.4221
+    },
+    "c0c56c732a891805": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2
+    },
+    "27fae7ed0e6c9843": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 5.2094
+    },
+    "e306dedc9213ab0a": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.8759
+    },
+    "25d36116d9c5f75d": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 1
+    },
+    "292902b24ef3e34a": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.9664
+    },
+    "3e6447f96db65410": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1
+    },
+    "e07b68c2122c831b": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.3589
+    },
+    "75816ad539469c90": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.6931
+    },
+    "0a59995103b8e0d0": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.9326
+    },
+    "5472a2424a8a4f3d": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2
+    },
+    "3de88526a612152b": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 4.568
+    },
+    "cc68c8b7efecc04f": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "3114a63637bd1dd4": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.7238
+    },
+    "1da2dd8c8672cd41": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1
+    },
+    "fadbdbb4fc39aedf": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "6672bf59c666f6f0": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "c6c9cde07d7c222e": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "4171cbea21322d06": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.9777
+    },
+    "1c369c7c0705f758": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 3.3166
+    },
+    "c6f7018f6222abe1": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "9d5a652031e160dc": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "462a255cbb5dad28": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "69ff19eca74e3983": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "5709049c365f1a75": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "33a925ab076ba386": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.5949
+    },
+    "c0e76400b82fd1f0": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "836cd56014585499": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.4221
+    },
+    "02b4b33ab4d66237": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3
+    },
+    "94e3b159209034a2": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 1
+    },
+    "2bc2047e77f51dd6": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.5497
+    },
+    "0abc0228b1efc7d1": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "69e89aa0254bcc6a": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 2.6965
+    },
+    "9232e4a57c1f7e7b": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "93af76129758485b": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 3.0984
+    },
+    "1003a2f938f838b9": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1.4142
+    },
+    "773a5b183a729f70": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "410f5f9470128aea": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.6619
+    },
+    "244a870bca7cabbc": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "da595c5699411f8d": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.5497
+    },
+    "2e14036b971db707": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.4641
+    },
+    "df88443eb1c56558": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.9552
+    },
+    "209b5853c2efc0dd": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.2361
+    },
+    "7c81bbeb4ac88875": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "d74e16b69f639b22": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.4142
+    },
+    "39718db8f7b173bf": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "c56828d73c8b9bac": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "13cfe663bd1ec273": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "68506780ad72d7f3": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.4142
+    },
+    "f2082edd0a8e5af1": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 4.7819
+    },
+    "380fbb39d9f6500f": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 3.8557
+    },
+    "ede5a5e32dfeb9fb": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.2361
+    },
+    "c10b1f9d305bed9c": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.4142
+    },
+    "ba27471de085183f": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.6246
+    },
+    "1e58124bcad02998": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "1852d8e194ebb909": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.4254
+    },
+    "dc51179e591b870e": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "4bcbc7d7efa2eb73": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.3945
+    },
+    "b9dfece1dfa1556f": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1.6931
+    },
+    "c98aa05799f1e84b": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.5949
+    },
+    "d7076cdff8e99746": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "expert_analysis",
+      "embedNorm": 3
+    },
+    "314efb4c178e2d1e": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 5.7166
+    },
+    "6d3d7e4526f323af": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.2061
+    },
+    "f57fd3537f8c370d": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.4221
+    },
+    "373b14fdfe10da77": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1
+    },
+    "d17b474345ed0f6b": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 4.3436
+    },
+    "b23041911bbeda64": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "9841ced4d3b80c29": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.9664
+    },
+    "4aca97ab5cf0e7ab": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "8e046fbf4d8c9c19": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "ce443c1eec1a5b62": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.4142
+    },
+    "8fe3e3aeb65580dd": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.9664
+    },
+    "89662ac350e3962f": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "c63e44b8374990ff": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "61fbea54ee128c34": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "6869c7e96ad386b6": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.6931
+    },
+    "1ac453c4e2df093b": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.2061
+    },
+    "80fd3eb9b5869f08": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "23a9dff05561f7b0": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.5949
+    },
+    "6ee92ed288635d3c": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "117b442c29fec530": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "8cf37ed460125d32": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "9a7ba99c5fa762c7": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "b8282cd0f3fb46d1": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2
+    },
+    "f179be67e5d9a12c": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.9665
+    },
+    "60c1d2bebd74772a": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.7321
+    },
+    "01076e83a95a4ded": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.2426
+    },
+    "2004368b4e57adc9": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.786
+    },
+    "c8d46578e19c16d1": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "239063096ea2ba0b": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 5.02
+    },
+    "b5b1b74b371af92a": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2
+    },
+    "b1cd7d7ae9d7d3d6": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2
+    },
+    "95a0110d6f7525ff": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.4142
+    },
+    "f3b8e1c1334f8ec9": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 6.5635
+    },
+    "73c2d823c3d03630": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.6458
+    },
+    "145a2bc4fb86483d": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.0986
+    },
+    "9b04400f49def357": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.7809
+    },
+    "6195dbed0516d779": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 4.524
+    },
+    "5063d135af931715": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.3945
+    },
+    "d37ac04268f788a8": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.4641
+    },
+    "f83e1a3c2c070235": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 5.1389
+    },
+    "52220904f675e014": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.2061
+    },
+    "2ba6791de53f2545": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.7211
+    },
+    "9a0f91b5e7231be3": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.5949
+    },
+    "50d4eb5f8641d249": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "d29728578d26a77d": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1.4142
+    },
+    "257722787a144c9a": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "expert_analysis",
+      "embedNorm": 3.6056
+    },
+    "542da99d1073b67e": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.9664
+    },
+    "b0b672839930b6d4": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.2361
+    },
+    "0932df879ff6f818": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "bc258f737c68226d": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "7bdfa0add7276e33": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.3945
+    },
+    "b93d664899f0b722": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1.7321
+    },
+    "7f27b34e1807ec77": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2
+    },
+    "da5858fd4b419dd2": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "b0080b9c3372ba95": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.3945
+    },
+    "93582575b8ad95e3": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "85d5dbf9767cb95e": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.4142
+    },
+    "9e9e01bba15478d5": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3
+    },
+    "ce66df581f887ab3": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.4142
+    },
+    "9c29632e2393a03f": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 2.9326
+    },
+    "8d9e83f81dc30c4a": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.873
+    },
+    "e203c39c8892e3db": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "background_context",
+      "embedNorm": 1.4142
+    },
+    "42a7879017a41701": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.3166
+    },
+    "8404438f4b3a78fe": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "8d712db71066594c": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.6204
+    },
+    "0d8ad498366535f1": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 2.2361
+    },
+    "19e6c3f5045c1bac": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "f41bc7ccdc003a26": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.9326
+    },
+    "f26f8f56c94fee10": {
+      "slot": "now",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 3.3805
+    },
+    "ee98f386984da2ea": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1
+    },
+    "de1127da0bbc5fb7": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.4495
+    },
+    "131d4e9d73a7e85b": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1
+    },
+    "81fc44de26be60bc": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 4.9599
+    },
+    "70e59a52250b9931": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.4142
+    },
+    "47e6070b9bd9b12e": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 3.4059
+    },
+    "9218d0ba4346ad92": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.6204
+    },
+    "76cbceb50ef51ea4": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 4.8794
+    },
+    "586e4f5c77f56fbc": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1
+    },
+    "45274fcc83f43dad": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.0907
+    },
+    "7714147959c86140": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.6931
+    },
+    "151bd53b8018afc7": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.2061
+    },
+    "515505822691f967": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.6879
+    },
+    "4ce3181b03f45796": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.8048
+    },
+    "80de5cfe30ae439d": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.9664
+    },
+    "eed81ebf0e2764d0": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "ff4349ff726ac3c9": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "4d551d7ba9ae62c7": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 5.6439
+    },
+    "c6c753210dc86457": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "d3536606204277de": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "fedf6b1632256930": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 5.0465
+    },
+    "04ee4f232c8bb19d": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "891e645f52f3b583": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 3.6062
+    },
+    "e05ac9b331c291ce": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "6152c191140cf41a": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 1.6931
+    },
+    "5fcab6dfaade44b2": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 4.1231
+    },
+    "907c6a0c96670d78": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.6931
+    },
+    "f36b33f57dd38d17": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "b1132cd6281dc071": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "5f24e4e7d78736b7": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.9664
+    },
+    "949ceebc0a4e626a": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.9777
+    },
+    "5c1861f24255ddf2": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.2061
+    },
+    "f614f9d008536f6d": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "4eb902e567677e81": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.8284
+    },
+    "b62071f67e899d3c": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.5949
+    },
+    "50ef32c042291fca": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "c6ea0ef086083904": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.7321
+    },
+    "db80b1ce80fb809c": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.6062
+    },
+    "a58aa6b83519f03a": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "4678e0cab18cd769": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "556fdf5f6c6624f3": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2
+    },
+    "4e66ad237389fc4e": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 4.8717
+    },
+    "8c9f25bc1aa657f6": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.3945
+    },
+    "369c1b712a96eb88": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "4fee1c1016a86fe8": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 4.3589
+    },
+    "7d11e00c131e3448": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.6931
+    },
+    "75104d37cc310a6e": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.6931
+    },
+    "b1c819659e9bfa12": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.6931
+    },
+    "e246e41823fed452": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.7809
+    },
+    "28655d92b28f97e6": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2
+    },
+    "a92b54cc06f5bdd3": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.9664
+    },
+    "9f1d8acbcfaa332c": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 4.524
+    },
+    "783f3035d644c9c0": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.7321
+    },
+    "3a868b90b94668cb": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.4142
+    },
+    "ed1ba1b0214cba3b": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.9664
+    },
+    "3490c52496129d8e": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.4221
+    },
+    "b3a3d3cd4fe19b82": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.7321
+    },
+    "ced22392130141b2": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "f9c7270e24db159f": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 3.3572
+    },
+    "6639ec50120c8404": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.5949
+    },
+    "9003e3a74d81d85d": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 2.0986
+    },
+    "98c6ecef8490a3a8": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.5442
+    },
+    "fd5fc420d05ff9ed": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.9259
+    },
+    "a360890855296ca2": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 4.9871
+    },
+    "a8adcf5bf740fb29": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.7321
+    },
+    "0593688adca4ee00": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 4.1069
+    },
+    "7e657dc4ea70720e": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 1.9664
+    },
+    "82908590c33ef873": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.3945
+    },
+    "3d5156a220363d6a": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1
+    },
+    "34e7052cc07d770b": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.3572
+    },
+    "ec96bb143629174d": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "2910c606649188a4": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 4.0367
+    },
+    "004a43002e1e724a": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "d3c5c531e1adbdae": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.3247
+    },
+    "d968c7284b137904": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "expert_analysis",
+      "embedNorm": 1.9664
+    },
+    "8620ada9bb990fd2": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.5306
+    },
+    "48aa2ff16ac567e7": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.6204
+    },
+    "0e68cab2b6acf85c": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.8048
+    },
+    "e8a0c96e4c0e2edc": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 4.4533
+    },
+    "b3c9d4405c6ac9ec": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 1.4142
+    },
+    "15b8539a60e37ca5": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.9328
+    },
+    "8eecdbb8932092b3": {
+      "slot": "minus24h",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.9664
+    },
+    "4032edcf9a2260b6": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.2965
+    },
+    "2d73e6b1f36913a9": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "6a26b193f047fdaf": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "937cb6dc06990ad4": {
+      "slot": "now",
+      "sourceGroup": "economic_times",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.1199
+    },
+    "9e7c14cf7594491f": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.0984
+    },
+    "f31fc372aa40862e": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "45c81d63aeae7fd5": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 5.4406
+    },
+    "44eaaef8d56c157b": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 5.3542
+    },
+    "aaedc1509665cc28": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.7321
+    },
+    "a1cbe4f32af7c0f0": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.5602
+    },
+    "41106178f6bf3bb9": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 3.3863
+    },
+    "e69d70e553a73b5f": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.9326
+    },
+    "2acd743d4a3802a0": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "dbc464eca1117984": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "background_context",
+      "embedNorm": 1
+    },
+    "88c617eeb976fe98": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 2
+    },
+    "23ab3af683a4948e": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.9664
+    },
+    "c6365a72b6ecabdc": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "expert_analysis",
+      "embedNorm": 1
+    },
+    "7071a6c047797340": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1
+    },
+    "43208c92e7cbaae4": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 4.612
+    },
+    "f66254c13b6dcc90": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2
+    },
+    "bb6ab187fa4a68de": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2
+    },
+    "d8ad1ebbb7ddec5c": {
+      "slot": "now",
+      "sourceGroup": "business_line",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.4221
+    },
+    "912c9d7a6e00ba96": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.7321
+    },
+    "e445a0d4ba917363": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "98f96c1556914100": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1.9664
+    },
+    "c5cd04899cfa79eb": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "reaction_public",
+      "embedNorm": 2.2061
+    },
+    "ed59e3f9c1488cb8": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.4495
+    },
+    "a138c83d455bb282": {
+      "slot": "now",
+      "sourceGroup": "espn",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 4.1069
+    },
+    "8ae2d5049df3b1c3": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1.4142
+    },
+    "2d23645af0d09e3f": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "1b67178d739369eb": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 1.7321
+    },
+    "b443afa702639571": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 1
+    },
+    "bcab9ecac07a3633": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "f7632bd5171ac99b": {
+      "slot": "now",
+      "sourceGroup": "gadgets360",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 3.7417
+    },
+    "56cb84260cf6dcd4": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "2efaa73d484a55ab": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.4142
+    },
+    "c04b3b660e011e99": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1.4142
+    },
+    "93e3366dd53cd41e": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.6931
+    },
+    "78acb7d3f5eb90f8": {
+      "slot": "now",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.3945
+    },
+    "9ba7fc71d175f73c": {
+      "slot": "now",
+      "sourceGroup": "times_of_india",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.9552
+    },
+    "b4224d4a25e4f848": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2
+    },
+    "2997d31c5bffb776": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1.4142
+    },
+    "2c9efe43b8efd402": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.6204
+    },
+    "89bc1c323a0ab5c2": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.3945
+    },
+    "63c0d528eeb12406": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.9664
+    },
+    "0ef43e713c628dca": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.6204
+    },
+    "7358a6ca1d43cf0b": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 2.7809
+    },
+    "fe7e5c341f824f54": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "12c3dbfcf15a79a1": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 1.9664
+    },
+    "96ef6512725629f9": {
+      "slot": "now",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 1.9664
+    },
+    "d8326d2d0cb5d176": {
+      "slot": "now",
+      "sourceGroup": "ndtv",
+      "sourceTier": "B",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 4.884
+    },
+    "8da17fff3cd573ce": {
+      "slot": "now",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 3.3863
+    },
+    "0eea332fb1208990": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "base_report",
+      "embedNorm": 2.3945
+    },
+    "0fd6e94340f77587": {
+      "slot": "now",
+      "sourceGroup": "the_hindu",
+      "sourceTier": "C",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 1
+    },
+    "1f10830a2439894a": {
+      "slot": "minus12h",
+      "sourceGroup": "bbc",
+      "sourceTier": "A",
+      "sourceDistributionType": "publisher",
+      "temporalTier": "breaking",
+      "angle": "regional_followup",
+      "embedNorm": 2.2061
+    },
+    "19a9a8ce05ea264c": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "market_reaction",
+      "embedNorm": 2.3945
+    },
+    "344d3032f88e59f8": {
+      "slot": "minus12h",
+      "sourceGroup": "reuters",
+      "sourceTier": "A",
+      "sourceDistributionType": "wire",
+      "temporalTier": "breaking",
+      "angle": "investigative_detail",
+      "embedNorm": 2.3945
+    },
+    "20656037b1b7e34c": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "official_response",
+      "embedNorm": 3.3863
+    },
+    "fb3c6669dde3a2a9": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 4.1473
+    },
+    "c0b89c693126f623": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.3945
+    },
+    "55cf58dd032da79f": {
+      "slot": "now",
+      "sourceGroup": "google_news",
+      "sourceTier": "C",
+      "sourceDistributionType": "aggregator",
+      "temporalTier": "breaking",
+      "angle": "fact_update",
+      "embedNorm": 2.9326
+    }
+  }
+}

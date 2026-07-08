@@ -1,0 +1,122 @@
+{
+  "snapshot": "public/newsdata/insight_2026-05-19.json",
+  "contentHash": "40f989d5da9c",
+  "fileSha256": "ade1430dd96bb5f1",
+  "node": "v22.22.2",
+  "N": 10,
+  "parentCount": 10,
+  "realClock": {
+    "hashes": [
+      "37616c2e99ccca69",
+      "37616c2e99ccca69",
+      "37616c2e99ccca69",
+      "37616c2e99ccca69",
+      "37616c2e99ccca69",
+      "37616c2e99ccca69",
+      "37616c2e99ccca69",
+      "37616c2e99ccca69",
+      "37616c2e99ccca69",
+      "37616c2e99ccca69"
+    ],
+    "uniqueCount": 1,
+    "identical": true
+  },
+  "frozenClock": {
+    "fixedEpochMs": 1747645200000,
+    "hashes": [
+      "d803a31bed6982eb",
+      "d803a31bed6982eb",
+      "d803a31bed6982eb",
+      "d803a31bed6982eb",
+      "d803a31bed6982eb",
+      "d803a31bed6982eb",
+      "d803a31bed6982eb",
+      "d803a31bed6982eb",
+      "d803a31bed6982eb",
+      "d803a31bed6982eb"
+    ],
+    "uniqueCount": 1,
+    "identical": true
+  },
+  "firstProjectionSample": [
+    {
+      "parentId": "cluster_80_70d77d1e33d12bd9",
+      "finalParentScore": 0.7024143876382674,
+      "clusterStoryIds": [
+        "70d77d1e33d12bd9",
+        "d9bd3af2288ac75b",
+        "6ba0d727207a4db3"
+      ],
+      "childStoryIds": [
+        "6ba0d727207a4db3",
+        "d9bd3af2288ac75b",
+        "70d77d1e33d12bd9"
+      ],
+      "hiddenDuplicateIds": [],
+      "weakTree": false,
+      "scores": {
+        "impact": 0.48794876057143316,
+        "persistence": 0.32,
+        "novelty": 0.8,
+        "freshness": 0.75,
+        "momentum": 0.574442516811659,
+        "region": 0,
+        "evolution": 0.4,
+        "infoDelta": 0.48666666666666664,
+        "wire": 0
+      }
+    },
+    {
+      "parentId": "cluster_453_8a97d7ecaf0e065a",
+      "finalParentScore": 0.7001477209716007,
+      "clusterStoryIds": [
+        "8a97d7ecaf0e065a",
+        "6a3a2a856ff00209",
+        "b58019f079b7d3bd"
+      ],
+      "childStoryIds": [
+        "b58019f079b7d3bd",
+        "6a3a2a856ff00209",
+        "8a97d7ecaf0e065a"
+      ],
+      "hiddenDuplicateIds": [],
+      "weakTree": false,
+      "scores": {
+        "impact": 0.48794876057143316,
+        "persistence": 0.32,
+        "novelty": 0.8,
+        "freshness": 0.75,
+        "momentum": 0.574442516811659,
+        "region": 0,
+        "evolution": 0.4,
+        "infoDelta": 0.46399999999999997,
+        "wire": 0
+      }
+    },
+    {
+      "parentId": "cluster_480_9df36b44e85e925c",
+      "finalParentScore": 0.7190633864516651,
+      "clusterStoryIds": [
+        "9df36b44e85e925c",
+        "e86e6492c49a88eb"
+      ],
+      "childStoryIds": [
+        "e86e6492c49a88eb",
+        "9df36b44e85e925c"
+      ],
+      "hiddenDuplicateIds": [],
+      "weakTree": true,
+      "scores": {
+        "impact": 0.467,
+        "persistence": 0.32,
+        "novelty": 0.8,
+        "freshness": 0.75,
+        "momentum": 0.549833997312478,
+        "region": 0.03,
+        "evolution": 0.4,
+        "infoDelta": 0.67,
+        "wire": 0
+      }
+    }
+  ]
+}

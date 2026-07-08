@@ -1,0 +1,39 @@
+check_id: U1.2-THR-01
+invariant: >
+  Benchmark thresholds, ISSUE_MATRIX P001/P004 prose, and any in-code constants form a single
+  source of truth — identical values, no silent drift (plan §U1: "values must match").
+source_of_truth: >
+  audit/UPAHEAD_AUDIT_PLAN.md §U1; benchmarks/upahead/thresholds.js:1-19; audit/ISSUE_MATRIX.md
+  P001 (line 8) + P004 (line 29); scripts/run_upahead_benchmarks.js:101-107 (the actual enforcer).
+input:
+  snapshot: "static constants at git HEAD"
+  asOfDate: "N/A — numeric constants, clock-invariant"
+  mode: { mode: n/a, host: n/a, locale: n/a }
+procedure: >
+  Tabulate every documented threshold against thresholds.js and against the metric
+  run_upahead_benchmarks.js actually asserts (assertMetric calls at :101-107).
+result:
+  PASS_matches:
+    - "P001 planner precision >=0.85  ==  thresholds.offline.plannerPrecision 0.85  ==  enforced (:101)"
+    - "P004 online precision >=0.82   ==  thresholds.online.upAheadPrecision 0.82   ==  enforced (:106)"
+    - "plan duplicateLeakRate 0.03    ==  thresholds.offline.duplicateLeakRate 0.03 (gate consumed in U2.5)"
+    - "plan falseLocationAcceptance 0.05 == thresholds.offline.falseLocationAcceptance 0.05 (gate consumed in U2.4)"
+  DRIFT:
+    - >
+      P004 exit gate documents 'offline planner recall >= 0.75'. thresholds.offline.plannerRecall
+      = 0.65; the 0.75 in code is upAheadRecall (a DIFFERENT metric). run_upahead_benchmarks.js:102
+      asserts planner.recall against 0.65. => the documented contract (0.75) is NOT the enforced
+      gate (0.65); they disagree by 10 points on the planner surface.
+  undocumented_extra_gates_not_in_P00x_prose:
+    - "offline.plannerF1 0.70, offline.upAheadPrecision 0.80, offline.upAheadRecall 0.75, online.upAheadRecall 0.72, online.airlinePrecision 0.88, online.shoppingPrecision 0.82 — present in code, un-contracted in the matrix (not drift, but undocumented)"
+  no_competing_code_constant: "grep found no duplicate hard-coded copy of these numbers outside thresholds.js (single file consumed by the runner) — good; the only divergence is doc-vs-code, not code-vs-code"
+verdict: FAIL
+user_impact: >
+  A planner-recall regression anywhere in [0.65, 0.75) passes CI yet violates the P004 exit
+  gate of record. Planner is a user-data surface; the enforced gate under-protects the
+  documented bar by 10 points. No runtime user impact; this is a contract-integrity defect.
+benchmark_hook: >
+  U3 P004 closure re-runs the offline fixtures and records the CURRENT planner recall against
+  BOTH 0.65 and 0.75; thresholds.js and P004 must be reconciled to ONE value before the
+  benchmark baseline is trusted (the benchmark inherits whichever number survives).
+issue_matrix_id: I015

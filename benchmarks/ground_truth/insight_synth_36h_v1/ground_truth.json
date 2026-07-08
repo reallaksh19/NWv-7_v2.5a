@@ -1,0 +1,1364 @@
+{
+  "corpus": "insight_synth_36h_v1",
+  "provenance": {
+    "method": "construction-time (generator)",
+    "judge": "n/a-generated",
+    "kappa": 1,
+    "note": "labels are the generator's design intent; no judge/human needed"
+  },
+  "pairs": [
+    {
+      "gt_id": "GT-PAIR-S1",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_RBI_0_0",
+        "synth_EVT_RBI_1_1"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle",
+        "angle_confusable"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S2",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_ELECTION_0_5",
+        "synth_EVT_ELECTION_1_6"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S3",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_COURT_0_9",
+        "synth_EVT_COURT_1_a"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "dedup_layer3_event",
+        "angle_confusable"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S4",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_URLDUP_0_c",
+        "synth_EVT_URLDUP_1_d"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "dedup_layer1_url"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S5",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_HASHDUP_0_e",
+        "synth_EVT_HASHDUP_1_f"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "dedup_layer2_hash"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S6",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_VIRAL_0_g",
+        "synth_EVT_VIRAL_1_h"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "wire_syndication",
+        "rank_minor_trap"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S7",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_TRICHY_0_m",
+        "synth_EVT_TRICHY_1_n"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "location_oov",
+        "dedup_layer3_event"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S8",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_CIVIC_0_p",
+        "synth_EVT_CIVIC_1_q"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "location_oov"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S9",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_HOMONYM_0_r",
+        "synth_EVT_HOMONYM_1_s"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "location_homonym"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S10",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_BREAKING_0_t",
+        "synth_EVT_BREAKING_1_u"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "breaking_new_event",
+        "breaking_vs_important",
+        "persistence_multi_cycle"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S11",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_PERSIST_MINOR_0_x",
+        "synth_EVT_PERSIST_MINOR_1_y"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "persistence_multi_cycle",
+        "breaking_vs_important"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S12",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_DATEZOO_0_15",
+        "synth_EVT_DATEZOO_1_16"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "date_format_zoo",
+        "date_tz_mixed",
+        "date_headline_vs_meta"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S13",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_VAGUE_0_1b",
+        "synth_EVT_VAGUE_1_1c"
+      ],
+      "label": "same_event",
+      "stratum": "system_merged",
+      "challenges": [
+        "angle_unknown_floor"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S14",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_CTRL_0_0_1d",
+        "synth_EVT_CTRL_1_0_1e"
+      ],
+      "label": "unrelated",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S15",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_CTRL_2_0_1f",
+        "synth_EVT_CTRL_3_0_1g"
+      ],
+      "label": "unrelated",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S16",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_CTRL_4_0_1h",
+        "synth_EVT_CTRL_5_0_1i"
+      ],
+      "label": "unrelated",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    },
+    {
+      "gt_id": "GT-PAIR-S17",
+      "unit": "pair",
+      "stories": [
+        "synth_EVT_CTRL_6_0_1j",
+        "synth_EVT_CTRL_7_0_1k"
+      ],
+      "label": "unrelated",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "gt_id": "GT-GROUP-S1",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_RBI",
+      "members": [
+        "synth_EVT_RBI_0_0",
+        "synth_EVT_RBI_1_1",
+        "synth_EVT_RBI_2_2",
+        "synth_EVT_RBI_3_3",
+        "synth_EVT_RBI_4_4"
+      ],
+      "parent": "synth_EVT_RBI_0_0",
+      "importance": "major",
+      "firstSeenCycle": 2,
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle",
+        "angle_confusable"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S2",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_ELECTION",
+      "members": [
+        "synth_EVT_ELECTION_0_5",
+        "synth_EVT_ELECTION_1_6",
+        "synth_EVT_ELECTION_2_7",
+        "synth_EVT_ELECTION_3_8"
+      ],
+      "parent": "synth_EVT_ELECTION_0_5",
+      "importance": "major",
+      "firstSeenCycle": 1,
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S3",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_COURT",
+      "members": [
+        "synth_EVT_COURT_0_9",
+        "synth_EVT_COURT_1_a",
+        "synth_EVT_COURT_2_b"
+      ],
+      "parent": "synth_EVT_COURT_0_9",
+      "importance": "notable",
+      "firstSeenCycle": 5,
+      "challenges": [
+        "dedup_layer3_event",
+        "angle_confusable"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S4",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_URLDUP",
+      "members": [
+        "synth_EVT_URLDUP_0_c",
+        "synth_EVT_URLDUP_1_d"
+      ],
+      "parent": "synth_EVT_URLDUP_0_c",
+      "importance": "notable",
+      "firstSeenCycle": 3,
+      "challenges": [
+        "dedup_layer1_url"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S5",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_HASHDUP",
+      "members": [
+        "synth_EVT_HASHDUP_0_e",
+        "synth_EVT_HASHDUP_1_f"
+      ],
+      "parent": "synth_EVT_HASHDUP_0_e",
+      "importance": "notable",
+      "firstSeenCycle": 4,
+      "challenges": [
+        "dedup_layer2_hash"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S6",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_VIRAL",
+      "members": [
+        "synth_EVT_VIRAL_0_g",
+        "synth_EVT_VIRAL_1_h",
+        "synth_EVT_VIRAL_2_i",
+        "synth_EVT_VIRAL_3_j",
+        "synth_EVT_VIRAL_4_k",
+        "synth_EVT_VIRAL_5_l"
+      ],
+      "parent": "synth_EVT_VIRAL_0_g",
+      "importance": "minor",
+      "firstSeenCycle": 8,
+      "challenges": [
+        "wire_syndication",
+        "rank_minor_trap"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S7",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_TRICHY",
+      "members": [
+        "synth_EVT_TRICHY_0_m",
+        "synth_EVT_TRICHY_1_n",
+        "synth_EVT_TRICHY_2_o"
+      ],
+      "parent": "synth_EVT_TRICHY_0_m",
+      "importance": "notable",
+      "firstSeenCycle": 6,
+      "challenges": [
+        "location_oov",
+        "dedup_layer3_event"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S8",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_CIVIC",
+      "members": [
+        "synth_EVT_CIVIC_0_p",
+        "synth_EVT_CIVIC_1_q"
+      ],
+      "parent": "synth_EVT_CIVIC_0_p",
+      "importance": "minor",
+      "firstSeenCycle": 9,
+      "challenges": [
+        "location_oov"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S9",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_HOMONYM",
+      "members": [
+        "synth_EVT_HOMONYM_0_r",
+        "synth_EVT_HOMONYM_1_s"
+      ],
+      "parent": "synth_EVT_HOMONYM_0_r",
+      "importance": "notable",
+      "firstSeenCycle": 7,
+      "challenges": [
+        "location_homonym"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S10",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_BREAKING",
+      "members": [
+        "synth_EVT_BREAKING_0_t",
+        "synth_EVT_BREAKING_1_u",
+        "synth_EVT_BREAKING_2_v",
+        "synth_EVT_BREAKING_3_w"
+      ],
+      "parent": "synth_EVT_BREAKING_0_t",
+      "importance": "major",
+      "firstSeenCycle": 14,
+      "challenges": [
+        "breaking_new_event",
+        "breaking_vs_important",
+        "persistence_multi_cycle"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S11",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_PERSIST_MINOR",
+      "members": [
+        "synth_EVT_PERSIST_MINOR_0_x",
+        "synth_EVT_PERSIST_MINOR_1_y",
+        "synth_EVT_PERSIST_MINOR_2_z",
+        "synth_EVT_PERSIST_MINOR_3_10",
+        "synth_EVT_PERSIST_MINOR_4_11",
+        "synth_EVT_PERSIST_MINOR_5_12",
+        "synth_EVT_PERSIST_MINOR_6_13",
+        "synth_EVT_PERSIST_MINOR_7_14"
+      ],
+      "parent": "synth_EVT_PERSIST_MINOR_0_x",
+      "importance": "minor",
+      "firstSeenCycle": 1,
+      "challenges": [
+        "persistence_multi_cycle",
+        "breaking_vs_important"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S12",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_DATEZOO",
+      "members": [
+        "synth_EVT_DATEZOO_0_15",
+        "synth_EVT_DATEZOO_1_16",
+        "synth_EVT_DATEZOO_2_17",
+        "synth_EVT_DATEZOO_3_18",
+        "synth_EVT_DATEZOO_4_19",
+        "synth_EVT_DATEZOO_5_1a"
+      ],
+      "parent": "synth_EVT_DATEZOO_0_15",
+      "importance": "notable",
+      "firstSeenCycle": 3,
+      "challenges": [
+        "date_format_zoo",
+        "date_tz_mixed",
+        "date_headline_vs_meta"
+      ]
+    },
+    {
+      "gt_id": "GT-GROUP-S13",
+      "unit": "cluster_membership",
+      "cluster": "C_EVT_VAGUE",
+      "members": [
+        "synth_EVT_VAGUE_0_1b",
+        "synth_EVT_VAGUE_1_1c"
+      ],
+      "parent": "synth_EVT_VAGUE_0_1b",
+      "importance": "minor",
+      "firstSeenCycle": 10,
+      "challenges": [
+        "angle_unknown_floor"
+      ]
+    }
+  ],
+  "angles": [
+    {
+      "gt_id": "GT-ANGLE-S1",
+      "unit": "story_angle",
+      "story": "synth_EVT_RBI_0_0",
+      "hash": "sha256:115cdde90f8b",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle",
+        "angle_confusable"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_RBI"
+    },
+    {
+      "gt_id": "GT-ANGLE-S2",
+      "unit": "story_angle",
+      "story": "synth_EVT_RBI_1_1",
+      "hash": "sha256:5d02865895fd",
+      "label": "market_reaction",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle",
+        "angle_confusable"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_RBI"
+    },
+    {
+      "gt_id": "GT-ANGLE-S3",
+      "unit": "story_angle",
+      "story": "synth_EVT_RBI_2_2",
+      "hash": "sha256:4d1f3fa8750e",
+      "label": "expert_analysis",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle",
+        "angle_confusable"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_RBI"
+    },
+    {
+      "gt_id": "GT-ANGLE-S4",
+      "unit": "story_angle",
+      "story": "synth_EVT_RBI_3_3",
+      "hash": "sha256:cdef3f3ae7cf",
+      "label": "fact_update",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle",
+        "angle_confusable"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_RBI"
+    },
+    {
+      "gt_id": "GT-ANGLE-S5",
+      "unit": "story_angle",
+      "story": "synth_EVT_RBI_4_4",
+      "hash": "sha256:50414752e635",
+      "label": "official_response",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle",
+        "angle_confusable"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_RBI"
+    },
+    {
+      "gt_id": "GT-ANGLE-S6",
+      "unit": "story_angle",
+      "story": "synth_EVT_ELECTION_0_5",
+      "hash": "sha256:f12a9850167c",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_ELECTION"
+    },
+    {
+      "gt_id": "GT-ANGLE-S7",
+      "unit": "story_angle",
+      "story": "synth_EVT_ELECTION_1_6",
+      "hash": "sha256:2c0d9703b852",
+      "label": "fact_update",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_ELECTION"
+    },
+    {
+      "gt_id": "GT-ANGLE-S8",
+      "unit": "story_angle",
+      "story": "synth_EVT_ELECTION_2_7",
+      "hash": "sha256:19aa4598a5c4",
+      "label": "official_response",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_ELECTION"
+    },
+    {
+      "gt_id": "GT-ANGLE-S9",
+      "unit": "story_angle",
+      "story": "synth_EVT_ELECTION_3_8",
+      "hash": "sha256:30a6fde1d466",
+      "label": "reaction_public",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_ELECTION"
+    },
+    {
+      "gt_id": "GT-ANGLE-S10",
+      "unit": "story_angle",
+      "story": "synth_EVT_COURT_0_9",
+      "hash": "sha256:8ea5e66e2c4c",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "angle_confusable"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_COURT"
+    },
+    {
+      "gt_id": "GT-ANGLE-S11",
+      "unit": "story_angle",
+      "story": "synth_EVT_COURT_1_a",
+      "hash": "sha256:f3ed84bc3f41",
+      "label": "official_response",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "angle_confusable"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_COURT"
+    },
+    {
+      "gt_id": "GT-ANGLE-S12",
+      "unit": "story_angle",
+      "story": "synth_EVT_COURT_2_b",
+      "hash": "sha256:61b549965327",
+      "label": "expert_analysis",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer3_event",
+        "angle_confusable"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_COURT"
+    },
+    {
+      "gt_id": "GT-ANGLE-S13",
+      "unit": "story_angle",
+      "story": "synth_EVT_URLDUP_0_c",
+      "hash": "sha256:6e36f3a2aa52",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer1_url"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_URLDUP"
+    },
+    {
+      "gt_id": "GT-ANGLE-S14",
+      "unit": "story_angle",
+      "story": "synth_EVT_HASHDUP_0_e",
+      "hash": "sha256:b3172addd5b4",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "dedup_layer2_hash"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_HASHDUP"
+    },
+    {
+      "gt_id": "GT-ANGLE-S15",
+      "unit": "story_angle",
+      "story": "synth_EVT_VIRAL_0_g",
+      "hash": "sha256:b3172addd5b4",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "wire_syndication",
+        "rank_minor_trap"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_VIRAL"
+    },
+    {
+      "gt_id": "GT-ANGLE-S16",
+      "unit": "story_angle",
+      "story": "synth_EVT_VIRAL_1_h",
+      "hash": "sha256:b3172addd5b4",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "wire_syndication",
+        "rank_minor_trap"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_VIRAL"
+    },
+    {
+      "gt_id": "GT-ANGLE-S17",
+      "unit": "story_angle",
+      "story": "synth_EVT_VIRAL_2_i",
+      "hash": "sha256:b3172addd5b4",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "wire_syndication",
+        "rank_minor_trap"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_VIRAL"
+    },
+    {
+      "gt_id": "GT-ANGLE-S18",
+      "unit": "story_angle",
+      "story": "synth_EVT_VIRAL_3_j",
+      "hash": "sha256:b3172addd5b4",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "wire_syndication",
+        "rank_minor_trap"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_VIRAL"
+    },
+    {
+      "gt_id": "GT-ANGLE-S19",
+      "unit": "story_angle",
+      "story": "synth_EVT_VIRAL_4_k",
+      "hash": "sha256:b3172addd5b4",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "wire_syndication",
+        "rank_minor_trap"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_VIRAL"
+    },
+    {
+      "gt_id": "GT-ANGLE-S20",
+      "unit": "story_angle",
+      "story": "synth_EVT_VIRAL_5_l",
+      "hash": "sha256:b3172addd5b4",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "wire_syndication",
+        "rank_minor_trap"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_VIRAL"
+    },
+    {
+      "gt_id": "GT-ANGLE-S21",
+      "unit": "story_angle",
+      "story": "synth_EVT_TRICHY_0_m",
+      "hash": "sha256:d2da66b4f4d0",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "location_oov",
+        "dedup_layer3_event"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_TRICHY"
+    },
+    {
+      "gt_id": "GT-ANGLE-S22",
+      "unit": "story_angle",
+      "story": "synth_EVT_TRICHY_1_n",
+      "hash": "sha256:3b61573b69d0",
+      "label": "regional_followup",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "location_oov",
+        "dedup_layer3_event"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_TRICHY"
+    },
+    {
+      "gt_id": "GT-ANGLE-S23",
+      "unit": "story_angle",
+      "story": "synth_EVT_TRICHY_2_o",
+      "hash": "sha256:399ddfa8933e",
+      "label": "official_response",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "location_oov",
+        "dedup_layer3_event"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_TRICHY"
+    },
+    {
+      "gt_id": "GT-ANGLE-S24",
+      "unit": "story_angle",
+      "story": "synth_EVT_CIVIC_0_p",
+      "hash": "sha256:e79bebc12bab",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "location_oov"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_CIVIC"
+    },
+    {
+      "gt_id": "GT-ANGLE-S25",
+      "unit": "story_angle",
+      "story": "synth_EVT_CIVIC_1_q",
+      "hash": "sha256:0f65ca2d5794",
+      "label": "reaction_public",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "location_oov"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_CIVIC"
+    },
+    {
+      "gt_id": "GT-ANGLE-S26",
+      "unit": "story_angle",
+      "story": "synth_EVT_HOMONYM_0_r",
+      "hash": "sha256:750a859d401a",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "location_homonym"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_HOMONYM"
+    },
+    {
+      "gt_id": "GT-ANGLE-S27",
+      "unit": "story_angle",
+      "story": "synth_EVT_HOMONYM_1_s",
+      "hash": "sha256:0beda67682ab",
+      "label": "fact_update",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "location_homonym"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_HOMONYM"
+    },
+    {
+      "gt_id": "GT-ANGLE-S28",
+      "unit": "story_angle",
+      "story": "synth_EVT_BREAKING_0_t",
+      "hash": "sha256:9bb6b200df99",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "breaking_new_event",
+        "breaking_vs_important",
+        "persistence_multi_cycle"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_BREAKING"
+    },
+    {
+      "gt_id": "GT-ANGLE-S29",
+      "unit": "story_angle",
+      "story": "synth_EVT_BREAKING_1_u",
+      "hash": "sha256:33a22f4d85bd",
+      "label": "fact_update",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "breaking_new_event",
+        "breaking_vs_important",
+        "persistence_multi_cycle"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_BREAKING"
+    },
+    {
+      "gt_id": "GT-ANGLE-S30",
+      "unit": "story_angle",
+      "story": "synth_EVT_BREAKING_2_v",
+      "hash": "sha256:ca6276fbf24c",
+      "label": "official_response",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "breaking_new_event",
+        "breaking_vs_important",
+        "persistence_multi_cycle"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_BREAKING"
+    },
+    {
+      "gt_id": "GT-ANGLE-S31",
+      "unit": "story_angle",
+      "story": "synth_EVT_BREAKING_3_w",
+      "hash": "sha256:33a22f4d85bd",
+      "label": "fact_update",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "breaking_new_event",
+        "breaking_vs_important",
+        "persistence_multi_cycle"
+      ],
+      "importance": "major",
+      "cluster": "C_EVT_BREAKING"
+    },
+    {
+      "gt_id": "GT-ANGLE-S32",
+      "unit": "story_angle",
+      "story": "synth_EVT_PERSIST_MINOR_0_x",
+      "hash": "sha256:280d9ca846eb",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "persistence_multi_cycle",
+        "breaking_vs_important"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_PERSIST_MINOR"
+    },
+    {
+      "gt_id": "GT-ANGLE-S33",
+      "unit": "story_angle",
+      "story": "synth_EVT_PERSIST_MINOR_1_y",
+      "hash": "sha256:66e916b15434",
+      "label": "fact_update",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "persistence_multi_cycle",
+        "breaking_vs_important"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_PERSIST_MINOR"
+    },
+    {
+      "gt_id": "GT-ANGLE-S34",
+      "unit": "story_angle",
+      "story": "synth_EVT_PERSIST_MINOR_2_z",
+      "hash": "sha256:280d9ca846eb",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "persistence_multi_cycle",
+        "breaking_vs_important"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_PERSIST_MINOR"
+    },
+    {
+      "gt_id": "GT-ANGLE-S35",
+      "unit": "story_angle",
+      "story": "synth_EVT_PERSIST_MINOR_3_10",
+      "hash": "sha256:66e916b15434",
+      "label": "fact_update",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "persistence_multi_cycle",
+        "breaking_vs_important"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_PERSIST_MINOR"
+    },
+    {
+      "gt_id": "GT-ANGLE-S36",
+      "unit": "story_angle",
+      "story": "synth_EVT_PERSIST_MINOR_4_11",
+      "hash": "sha256:280d9ca846eb",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "persistence_multi_cycle",
+        "breaking_vs_important"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_PERSIST_MINOR"
+    },
+    {
+      "gt_id": "GT-ANGLE-S37",
+      "unit": "story_angle",
+      "story": "synth_EVT_PERSIST_MINOR_5_12",
+      "hash": "sha256:66e916b15434",
+      "label": "fact_update",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "persistence_multi_cycle",
+        "breaking_vs_important"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_PERSIST_MINOR"
+    },
+    {
+      "gt_id": "GT-ANGLE-S38",
+      "unit": "story_angle",
+      "story": "synth_EVT_PERSIST_MINOR_6_13",
+      "hash": "sha256:280d9ca846eb",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "persistence_multi_cycle",
+        "breaking_vs_important"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_PERSIST_MINOR"
+    },
+    {
+      "gt_id": "GT-ANGLE-S39",
+      "unit": "story_angle",
+      "story": "synth_EVT_PERSIST_MINOR_7_14",
+      "hash": "sha256:66e916b15434",
+      "label": "fact_update",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "persistence_multi_cycle",
+        "breaking_vs_important"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_PERSIST_MINOR"
+    },
+    {
+      "gt_id": "GT-ANGLE-S40",
+      "unit": "story_angle",
+      "story": "synth_EVT_DATEZOO_0_15",
+      "hash": "sha256:a6ce544c33c8",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "date_format_zoo",
+        "date_tz_mixed",
+        "date_headline_vs_meta"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_DATEZOO"
+    },
+    {
+      "gt_id": "GT-ANGLE-S41",
+      "unit": "story_angle",
+      "story": "synth_EVT_DATEZOO_1_16",
+      "hash": "sha256:ca40b33c11e9",
+      "label": "fact_update",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "date_format_zoo",
+        "date_tz_mixed",
+        "date_headline_vs_meta"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_DATEZOO"
+    },
+    {
+      "gt_id": "GT-ANGLE-S42",
+      "unit": "story_angle",
+      "story": "synth_EVT_DATEZOO_2_17",
+      "hash": "sha256:a6ce544c33c8",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "date_format_zoo",
+        "date_tz_mixed",
+        "date_headline_vs_meta"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_DATEZOO"
+    },
+    {
+      "gt_id": "GT-ANGLE-S43",
+      "unit": "story_angle",
+      "story": "synth_EVT_DATEZOO_3_18",
+      "hash": "sha256:a6ce544c33c8",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "date_format_zoo",
+        "date_tz_mixed",
+        "date_headline_vs_meta"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_DATEZOO"
+    },
+    {
+      "gt_id": "GT-ANGLE-S44",
+      "unit": "story_angle",
+      "story": "synth_EVT_DATEZOO_4_19",
+      "hash": "sha256:a6ce544c33c8",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "date_format_zoo",
+        "date_tz_mixed",
+        "date_headline_vs_meta"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_DATEZOO"
+    },
+    {
+      "gt_id": "GT-ANGLE-S45",
+      "unit": "story_angle",
+      "story": "synth_EVT_DATEZOO_5_1a",
+      "hash": "sha256:d16e30ceec29",
+      "label": "base_report",
+      "stratum": "angle_confusable",
+      "challenges": [
+        "date_format_zoo",
+        "date_tz_mixed",
+        "date_headline_vs_meta"
+      ],
+      "importance": "notable",
+      "cluster": "C_EVT_DATEZOO"
+    },
+    {
+      "gt_id": "GT-ANGLE-S46",
+      "unit": "story_angle",
+      "story": "synth_EVT_VAGUE_0_1b",
+      "hash": "sha256:8fa739241485",
+      "label": "unknown",
+      "stratum": "angle_unknown_floor",
+      "challenges": [
+        "angle_unknown_floor"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_VAGUE"
+    },
+    {
+      "gt_id": "GT-ANGLE-S47",
+      "unit": "story_angle",
+      "story": "synth_EVT_VAGUE_1_1c",
+      "hash": "sha256:8fa739241485",
+      "label": "unknown",
+      "stratum": "angle_unknown_floor",
+      "challenges": [
+        "angle_unknown_floor"
+      ],
+      "importance": "minor",
+      "cluster": "C_EVT_VAGUE"
+    }
+  ],
+  "ranks": [
+    {
+      "gt_id": "GT-RANK-S1",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_RBI",
+      "importance": "major",
+      "stratum": "control",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle",
+        "angle_confusable"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S2",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_ELECTION",
+      "importance": "major",
+      "stratum": "control",
+      "challenges": [
+        "dedup_layer3_event",
+        "persistence_multi_cycle"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S3",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_COURT",
+      "importance": "notable",
+      "stratum": "control",
+      "challenges": [
+        "dedup_layer3_event",
+        "angle_confusable"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S4",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_URLDUP",
+      "importance": "notable",
+      "stratum": "control",
+      "challenges": [
+        "dedup_layer1_url"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S5",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_HASHDUP",
+      "importance": "notable",
+      "stratum": "control",
+      "challenges": [
+        "dedup_layer2_hash"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S6",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_VIRAL",
+      "importance": "minor",
+      "stratum": "rank_minor_trap",
+      "challenges": [
+        "wire_syndication",
+        "rank_minor_trap"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S7",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_TRICHY",
+      "importance": "notable",
+      "stratum": "control",
+      "challenges": [
+        "location_oov",
+        "dedup_layer3_event"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S8",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_CIVIC",
+      "importance": "minor",
+      "stratum": "control",
+      "challenges": [
+        "location_oov"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S9",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_HOMONYM",
+      "importance": "notable",
+      "stratum": "control",
+      "challenges": [
+        "location_homonym"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S10",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_BREAKING",
+      "importance": "major",
+      "stratum": "breaking_vs_important",
+      "challenges": [
+        "breaking_new_event",
+        "breaking_vs_important",
+        "persistence_multi_cycle"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S11",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_PERSIST_MINOR",
+      "importance": "minor",
+      "stratum": "breaking_vs_important",
+      "challenges": [
+        "persistence_multi_cycle",
+        "breaking_vs_important"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S12",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_DATEZOO",
+      "importance": "notable",
+      "stratum": "control",
+      "challenges": [
+        "date_format_zoo",
+        "date_tz_mixed",
+        "date_headline_vs_meta"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S13",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_VAGUE",
+      "importance": "minor",
+      "stratum": "control",
+      "challenges": [
+        "angle_unknown_floor"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S14",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_CTRL_0",
+      "importance": "notable",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S15",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_CTRL_1",
+      "importance": "notable",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S16",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_CTRL_2",
+      "importance": "minor",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S17",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_CTRL_3",
+      "importance": "notable",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S18",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_CTRL_4",
+      "importance": "notable",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S19",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_CTRL_5",
+      "importance": "minor",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S20",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_CTRL_6",
+      "importance": "minor",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    },
+    {
+      "gt_id": "GT-RANK-S21",
+      "unit": "cluster_rank",
+      "cluster": "C_EVT_CTRL_7",
+      "importance": "notable",
+      "stratum": "control",
+      "challenges": [
+        "control"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+check_id: U0.1-DET-01
+invariant: >
+  The static-host Up Ahead display projection (up_ahead.json items[] ->
+  sanitizeUpAheadData -> getVisibleUpAheadProjection -> visible per-tab arrays)
+  is byte-reproducible for a fixed (input snapshot, clock): N=10 runs identical.
+source_of_truth: "audit/UPAHEAD_AUDIT_PLAN.md §U0; src/services/upAheadService.js:336-410; src/viewModels/useUpAheadPageViewModel.js:277-394"
+input:
+  snapshot: "audit/evidence/frozen/up_ahead_2026-06-24.json"
+  contentHash: "sha256:52e90023b5150af6ecc50193c616f1036524a5032e8bb13954173fcdc6f9d378"
+  asOfDate: "2026-06-24T12:00:00Z (frozen variant, via vi.setSystemTime); real-clock variant = container wall clock"
+  mode: { sourceMode: snapshot }
+  host: static
+  locale: [Chennai, Muscat]   # DEFAULT_SETTINGS.upAhead.locations
+  tz_runs: [Asia/Kolkata, UTC]
+  node: v22.22.2
+procedure: >
+  audit/evidence/u0_determinism.harness.test.mjs. Re-parses the frozen bytes inside
+  every iteration (no shared mutable state), runs the full clock-coupled chain
+  sanitizeUpAheadData()->getVisibleUpAheadProjection(), projects the user-visible
+  content surface (per-tab item-IDs+lengths, briefing counts, evidence coverage;
+  volatile lastUpdated excluded), sha256s each run. N=10 under the real clock and
+  N=10 under a pinned clock (vitest fake timers pin both new Date() and Date.now()).
+  Run under TZ=Asia/Kolkata and TZ=UTC.
+  Re-run: TZ=Asia/Kolkata node_modules/.bin/vitest run --config audit/evidence/u0.vitest.config.ts
+result:
+  real_clock: { runs: 10, uniqueHashes: 1, hash: "ec4a31491a6492d9", identical: true }
+  frozen_clock: { runs: 10, uniqueHashes: 1, hash: "ec4a31491a6492d9", identical: true }
+  real_equals_frozen: true       # at midday, content does not depend on the clock for this snapshot
+  tz_invariant: true             # Asia/Kolkata and UTC produce the SAME content hash at midday
+  artifacts: ["audit/evidence/U0-run-projection.Asia_Kolkata.json", "audit/evidence/U0-run-projection.UTC.json"]
+verdict: PASS
+user_impact: "None — establishes the reproducible substrate U1–U5 and the benchmark replay depend on."
+benchmark_hook: "UPAHEAD_BENCHMARK_PLAN replay determinism precondition; satisfied for the static path under controlled clock."
+issue_matrix_id: n/a (PASS)

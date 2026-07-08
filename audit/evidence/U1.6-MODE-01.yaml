@@ -1,0 +1,27 @@
+check_id: U1.6-MODE-01
+invariant: >
+  MODE_MATRIX claims about Up Ahead match the code: upAheadMode limited-live(static)/full-live(live),
+  the documented cache TTLs, and the static fallback behavior.
+source_of_truth: >
+  audit/UPAHEAD_AUDIT_PLAN.md §U1; reports/MODE_MATRIX.md:18,29,45,56; src/runtime/runtimeCapabilities.js:76,84;
+  src/services/upAheadService.js:9 (CACHE_MAX_AGE_MS), :10 (STATIC_UPAHEAD_MAX_AGE_MS), :81,:419,:455.
+input:
+  snapshot: "runtimeCapabilities.js + upAheadService.js at git HEAD"
+  asOfDate: "N/A for the constants; TTL SEMANTICS (12h/6h freshness) are exercised against a clock in U0/U4, not here"
+  mode: { mode: n/a, host: static + live, locale: n/a }
+procedure: "Cross-read each MODE_MATRIX Up Ahead claim against the corresponding code constant/branch."
+result:
+  upAheadMode: "MODE_MATRIX:18 limited-live(static)/full-live(live) == runtimeCapabilities.js:76 `preferSnapshots ? 'limited-live' : 'full-live'`. PASS (note duplicate emit at :84 capabilities.upAhead — harmless redundancy)"
+  cache_TTLs:
+    - "CACHE_MAX_AGE_MS = 6h (upAheadService.js:9) == plan 'cache max-age (6h)'. PASS"
+    - "STATIC_UPAHEAD_MAX_AGE_MS = 12h (upAheadService.js:10), isStaticUpAheadFresh gate == plan 'isStaticUpAheadFresh (12h)'. PASS (cert: upAheadFreshness.cert.test.js asserts 12h boundary)"
+  static_fallback: "MODE_MATRIX:29 Up Ahead static fallback = 'Empty state' — consistent with the silent-empty class already ticketed (I012/I002 family); no new contradiction"
+  drift_doc_comment: >
+    upAheadService.js:9 comment says CACHE_MAX_AGE_MS '6h — aligned to 5×/day pre-fetch cadence',
+    but MODE_MATRIX:45 says upahead_refresh.yml runs 'Hourly daytime' (~16×/day). The '5×/day'
+    cadence claim in the comment is inconsistent with the documented workflow cadence — doc drift,
+    actual cadence to be measured in U4.
+verdict: PASS (mode flags + cache TTLs match) with FINDING (cache-comment cadence drift "5x/day" vs hourly)
+user_impact: "None — the constants and mode flags are truthful. The cadence comment is internally inconsistent with MODE_MATRIX; cosmetic/doc, but it mis-describes refresh frequency."
+benchmark_hook: "U4 measures the ACTUAL upahead_refresh cadence over 14 days and resolves the 5x/day-vs-hourly comment; cache-coherence (6h live vs 12h static vs refresh) cross-checked there. Comment drift -> I017."
+issue_matrix_id: I017

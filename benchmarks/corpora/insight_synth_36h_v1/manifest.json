@@ -1,0 +1,37 @@
+{
+  "corpus": "insight_synth_36h_v1",
+  "kind": "SYNTHETIC-STRUCTURAL (construction-time ground truth; complements, does not replace, the real-data benchmark)",
+  "seed": 20260615,
+  "templateVersion": "synth-tpl-v1",
+  "generator": "benchmarks/synthetic/generate_corpus.mjs",
+  "frozen_by": "seed + templateVersion",
+  "story_count": 57,
+  "template_count": 21,
+  "cycles": 24,
+  "oov_story_count": 5,
+  "content_hash": "sha256:feecf185c3c5",
+  "challenge_tag_counts": {
+    "dedup_layer3_event": 15,
+    "persistence_multi_cycle": 21,
+    "angle_confusable": 8,
+    "dedup_layer1_url": 2,
+    "dedup_layer2_hash": 2,
+    "wire_syndication": 6,
+    "rank_minor_trap": 6,
+    "location_oov": 5,
+    "location_homonym": 2,
+    "breaking_new_event": 4,
+    "breaking_vs_important": 12,
+    "date_format_zoo": 6,
+    "date_tz_mixed": 6,
+    "date_headline_vs_meta": 6,
+    "angle_unknown_floor": 2,
+    "control": 8
+  },
+  "ground_truth_counts": {
+    "pairs": 17,
+    "groups": 13,
+    "angles": 47,
+    "ranks": 21
+  }
+}

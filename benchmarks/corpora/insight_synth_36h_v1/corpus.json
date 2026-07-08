@@ -1,0 +1,1477 @@
+{
+  "corpus": "insight_synth_36h_v1",
+  "seed": 20260615,
+  "templateVersion": "synth-tpl-v1",
+  "kind": "SYNTHETIC-STRUCTURAL (construction-time ground truth; complements, does not replace, the real-data benchmark)",
+  "cycles": [
+    {
+      "cycle": 0,
+      "fetchedAt": 1781488800000
+    },
+    {
+      "cycle": 1,
+      "fetchedAt": 1781494200000
+    },
+    {
+      "cycle": 2,
+      "fetchedAt": 1781499600000
+    },
+    {
+      "cycle": 3,
+      "fetchedAt": 1781505000000
+    },
+    {
+      "cycle": 4,
+      "fetchedAt": 1781510400000
+    },
+    {
+      "cycle": 5,
+      "fetchedAt": 1781515800000
+    },
+    {
+      "cycle": 6,
+      "fetchedAt": 1781521200000
+    },
+    {
+      "cycle": 7,
+      "fetchedAt": 1781526600000
+    },
+    {
+      "cycle": 8,
+      "fetchedAt": 1781532000000
+    },
+    {
+      "cycle": 9,
+      "fetchedAt": 1781537400000
+    },
+    {
+      "cycle": 10,
+      "fetchedAt": 1781542800000
+    },
+    {
+      "cycle": 11,
+      "fetchedAt": 1781548200000
+    },
+    {
+      "cycle": 12,
+      "fetchedAt": 1781553600000
+    },
+    {
+      "cycle": 13,
+      "fetchedAt": 1781559000000
+    },
+    {
+      "cycle": 14,
+      "fetchedAt": 1781564400000
+    },
+    {
+      "cycle": 15,
+      "fetchedAt": 1781569800000
+    },
+    {
+      "cycle": 16,
+      "fetchedAt": 1781575200000
+    },
+    {
+      "cycle": 17,
+      "fetchedAt": 1781580600000
+    },
+    {
+      "cycle": 18,
+      "fetchedAt": 1781586000000
+    },
+    {
+      "cycle": 19,
+      "fetchedAt": 1781591400000
+    },
+    {
+      "cycle": 20,
+      "fetchedAt": 1781596800000
+    },
+    {
+      "cycle": 21,
+      "fetchedAt": 1781602200000
+    },
+    {
+      "cycle": 22,
+      "fetchedAt": 1781607600000
+    },
+    {
+      "cycle": 23,
+      "fetchedAt": 1781613000000
+    }
+  ],
+  "story_count": 57,
+  "virtual_window": {
+    "start": "2026-06-15T02:00:00.000Z",
+    "cycles": 24,
+    "spacing_h": 1.5
+  },
+  "stories": [
+    {
+      "id": "synth_EVT_RBI_0_0",
+      "url": "https://synth.example/EVT_RBI/0-synth_EVT_RBI_0_0",
+      "title": "Rbi reported: repo rate",
+      "summary": "Rbi reported: repo rate. rbi repo rate inflation sensex nifty .",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "publishedAt": 1781500565753,
+      "pubDateRaw": "2026-06-15T05:16:05.753Z",
+      "category": "rbi",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_RBI",
+        "angle": "base_report",
+        "importance": "major",
+        "firstSeenCycle": 2,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "persistence_multi_cycle",
+          "angle_confusable"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_RBI_1_1",
+      "url": "https://synth.example/EVT_RBI/1-synth_EVT_RBI_1_1",
+      "title": "Rbi rattles markets: repo rate sensex shares",
+      "summary": "Rbi rattles markets: repo rate sensex shares. rbi repo rate inflation sensex nifty sensex shares stock rally.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "publishedAt": 1781500196533,
+      "pubDateRaw": "2026-06-15T05:09:56.533Z",
+      "category": "rbi",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_RBI",
+        "angle": "market_reaction",
+        "importance": "major",
+        "firstSeenCycle": 2,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "persistence_multi_cycle",
+          "angle_confusable"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_RBI_2_2",
+      "url": "https://synth.example/EVT_RBI/2-synth_EVT_RBI_2_2",
+      "title": "Rbi analysis: repo rate analysis economists",
+      "summary": "Rbi analysis: repo rate analysis economists. rbi repo rate inflation sensex nifty analysis economists.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "publishedAt": 1781505605252,
+      "pubDateRaw": "2026-06-15T06:40:05.252Z",
+      "category": "rbi",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_RBI",
+        "angle": "expert_analysis",
+        "importance": "major",
+        "firstSeenCycle": 2,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "persistence_multi_cycle",
+          "angle_confusable"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_RBI_3_3",
+      "url": "https://synth.example/EVT_RBI/3-synth_EVT_RBI_3_3",
+      "title": "Rbi update: repo rate update revised",
+      "summary": "Rbi update: repo rate update revised. rbi repo rate inflation sensex nifty update revised new.",
+      "source": "Indian Express",
+      "sourceGroup": "indian_express",
+      "publishedAt": 1781521701467,
+      "pubDateRaw": "2026-06-15T11:08:21.467Z",
+      "category": "rbi",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_RBI",
+        "angle": "fact_update",
+        "importance": "major",
+        "firstSeenCycle": 2,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "persistence_multi_cycle",
+          "angle_confusable"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_RBI_4_4",
+      "url": "https://synth.example/EVT_RBI/4-synth_EVT_RBI_4_4",
+      "title": "Rbi statement issued: repo rate minister statement",
+      "summary": "Rbi statement issued: repo rate minister statement. rbi repo rate inflation sensex nifty minister statement official government.",
+      "source": "Hindustan Times",
+      "sourceGroup": "hindustan_times",
+      "publishedAt": 1781532172041,
+      "pubDateRaw": "2026-06-15T14:02:52.041Z",
+      "category": "rbi",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_RBI",
+        "angle": "official_response",
+        "importance": "major",
+        "firstSeenCycle": 2,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "persistence_multi_cycle",
+          "angle_confusable"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_ELECTION_0_5",
+      "url": "https://synth.example/EVT_ELECTION/0-synth_EVT_ELECTION_0_5",
+      "title": "Election reported: vote party",
+      "summary": "Election reported: vote party. election vote party minister congress bjp .",
+      "source": "Moneycontrol",
+      "sourceGroup": "moneycontrol",
+      "publishedAt": 1781494364542,
+      "pubDateRaw": "2026-06-15T03:32:44.542Z",
+      "category": "election",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_ELECTION",
+        "angle": "base_report",
+        "importance": "major",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "persistence_multi_cycle"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_ELECTION_1_6",
+      "url": "https://synth.example/EVT_ELECTION/1-synth_EVT_ELECTION_1_6",
+      "title": "Election update: vote party update revised",
+      "summary": "Election update: vote party update revised. election vote party minister congress bjp update revised new.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "publishedAt": 1781505098796,
+      "pubDateRaw": "2026-06-15T06:31:38.796Z",
+      "category": "election",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_ELECTION",
+        "angle": "fact_update",
+        "importance": "major",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "persistence_multi_cycle"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_ELECTION_2_7",
+      "url": "https://synth.example/EVT_ELECTION/2-synth_EVT_ELECTION_2_7",
+      "title": "Election statement issued: vote party minister statement",
+      "summary": "Election statement issued: vote party minister statement. election vote party minister congress bjp minister statement official government.",
+      "source": "Moneycontrol",
+      "sourceGroup": "moneycontrol",
+      "publishedAt": 1781511549568,
+      "pubDateRaw": "2026-06-15T08:19:09.568Z",
+      "category": "election",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_ELECTION",
+        "angle": "official_response",
+        "importance": "major",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "persistence_multi_cycle"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_ELECTION_3_8",
+      "url": "https://synth.example/EVT_ELECTION/3-synth_EVT_ELECTION_3_8",
+      "title": "Election sparks reaction: vote party protest residents",
+      "summary": "Election sparks reaction: vote party protest residents. election vote party minister congress bjp protest residents public.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "publishedAt": 1781521663051,
+      "pubDateRaw": "2026-06-15T11:07:43.051Z",
+      "category": "election",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_ELECTION",
+        "angle": "reaction_public",
+        "importance": "major",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "persistence_multi_cycle"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_COURT_0_9",
+      "url": "https://synth.example/EVT_COURT/0-synth_EVT_COURT_0_9",
+      "title": "Court reported: supreme verdict",
+      "summary": "Court reported: supreme verdict. court supreme verdict bail law .",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "publishedAt": 1781516405928,
+      "pubDateRaw": "2026-06-15T09:40:05.928Z",
+      "category": "court",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_COURT",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 5,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "angle_confusable"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_COURT_1_a",
+      "url": "https://synth.example/EVT_COURT/1-synth_EVT_COURT_1_a",
+      "title": "Court statement issued: supreme verdict minister statement",
+      "summary": "Court statement issued: supreme verdict minister statement. court supreme verdict bail law minister statement official government.",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "publishedAt": 1781522045753,
+      "pubDateRaw": "2026-06-15T11:14:05.753Z",
+      "category": "court",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_COURT",
+        "angle": "official_response",
+        "importance": "notable",
+        "firstSeenCycle": 5,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "angle_confusable"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_COURT_2_b",
+      "url": "https://synth.example/EVT_COURT/2-synth_EVT_COURT_2_b",
+      "title": "Court analysis: supreme verdict analysis economists",
+      "summary": "Court analysis: supreme verdict analysis economists. court supreme verdict bail law analysis economists.",
+      "source": "Business Line",
+      "sourceGroup": "business_line",
+      "publishedAt": 1781526957578,
+      "pubDateRaw": "2026-06-15T12:35:57.578Z",
+      "category": "court",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_COURT",
+        "angle": "expert_analysis",
+        "importance": "notable",
+        "firstSeenCycle": 5,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer3_event",
+          "angle_confusable"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_URLDUP_0_c",
+      "url": "https://synth.example/EVT_URLDUP/0-synth_EVT_URLDUP_0_c",
+      "title": "Isro reported: satellite launch",
+      "summary": "Isro reported: satellite launch. isro satellite launch mission orbit .",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "publishedAt": 1781505684092,
+      "pubDateRaw": "2026-06-15T06:41:24.092Z",
+      "category": "space",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_URLDUP",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 3,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer1_url"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_URLDUP_1_d",
+      "url": "https://synth.example/EVT_URLDUP/canonical",
+      "title": "Isro reported: satellite launch",
+      "summary": "Isro reported: satellite launch. isro satellite launch mission orbit .",
+      "source": "Business Line",
+      "sourceGroup": "business_line",
+      "publishedAt": 1781505302229,
+      "pubDateRaw": "2026-06-15T06:35:02.229Z",
+      "category": "space",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_URLDUP",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 3,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer1_url"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_HASHDUP_0_e",
+      "url": "https://synth.example/EVT_HASHDUP/0-synth_EVT_HASHDUP_0_e",
+      "title": "Cricket reported: match captain",
+      "summary": "Cricket reported: match captain. cricket match captain ipl win .",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "publishedAt": 1781510524797,
+      "pubDateRaw": "2026-06-15T08:02:04.797Z",
+      "category": "cricket",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_HASHDUP",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 4,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer2_hash"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_HASHDUP_1_f",
+      "url": "https://synth.example/EVT_HASHDUP/1-synth_EVT_HASHDUP_1_f",
+      "title": "Cricket reported: match captain",
+      "summary": "Cricket reported: match captain. cricket match captain ipl win .",
+      "source": "Indian Express",
+      "sourceGroup": "indian_express",
+      "publishedAt": 1781511460819,
+      "pubDateRaw": "2026-06-15T08:17:40.819Z",
+      "category": "cricket",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_HASHDUP",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 4,
+        "vocabMode": "in",
+        "challenges": [
+          "dedup_layer2_hash"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_VIRAL_0_g",
+      "url": "https://synth.example/EVT_VIRAL/0-synth_EVT_VIRAL_0_g",
+      "title": "Cricket reported: match captain",
+      "summary": "Cricket reported: match captain. cricket match captain ipl win .",
+      "source": "PTI",
+      "sourceGroup": "pti",
+      "publishedAt": 1781532139422,
+      "pubDateRaw": "2026-06-15T14:02:19.422Z",
+      "category": "cricket",
+      "region": "India",
+      "isWire": true,
+      "truth": {
+        "cluster": "C_EVT_VIRAL",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 8,
+        "vocabMode": "in",
+        "challenges": [
+          "wire_syndication",
+          "rank_minor_trap"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_VIRAL_1_h",
+      "url": "https://synth.example/EVT_VIRAL/1-synth_EVT_VIRAL_1_h",
+      "title": "Cricket reported: match captain",
+      "summary": "Cricket reported: match captain. cricket match captain ipl win .",
+      "source": "ANI",
+      "sourceGroup": "ani",
+      "publishedAt": 1781532458512,
+      "pubDateRaw": "2026-06-15T14:07:38.512Z",
+      "category": "cricket",
+      "region": "India",
+      "isWire": true,
+      "truth": {
+        "cluster": "C_EVT_VIRAL",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 8,
+        "vocabMode": "in",
+        "challenges": [
+          "wire_syndication",
+          "rank_minor_trap"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_VIRAL_2_i",
+      "url": "https://synth.example/EVT_VIRAL/2-synth_EVT_VIRAL_2_i",
+      "title": "Cricket reported: match captain",
+      "summary": "Cricket reported: match captain. cricket match captain ipl win .",
+      "source": "ANI",
+      "sourceGroup": "ani",
+      "publishedAt": 1781533162142,
+      "pubDateRaw": "2026-06-15T14:19:22.142Z",
+      "category": "cricket",
+      "region": "India",
+      "isWire": true,
+      "truth": {
+        "cluster": "C_EVT_VIRAL",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 8,
+        "vocabMode": "in",
+        "challenges": [
+          "wire_syndication",
+          "rank_minor_trap"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_VIRAL_3_j",
+      "url": "https://synth.example/EVT_VIRAL/3-synth_EVT_VIRAL_3_j",
+      "title": "Cricket reported: match captain",
+      "summary": "Cricket reported: match captain. cricket match captain ipl win .",
+      "source": "Reuters Wire",
+      "sourceGroup": "reuters_wire",
+      "publishedAt": 1781532060648,
+      "pubDateRaw": "2026-06-15T14:01:00.648Z",
+      "category": "cricket",
+      "region": "India",
+      "isWire": true,
+      "truth": {
+        "cluster": "C_EVT_VIRAL",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 8,
+        "vocabMode": "in",
+        "challenges": [
+          "wire_syndication",
+          "rank_minor_trap"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_VIRAL_4_k",
+      "url": "https://synth.example/EVT_VIRAL/4-synth_EVT_VIRAL_4_k",
+      "title": "Cricket reported: match captain",
+      "summary": "Cricket reported: match captain. cricket match captain ipl win .",
+      "source": "AP Wire",
+      "sourceGroup": "ap_wire",
+      "publishedAt": 1781532968224,
+      "pubDateRaw": "2026-06-15T14:16:08.224Z",
+      "category": "cricket",
+      "region": "India",
+      "isWire": true,
+      "truth": {
+        "cluster": "C_EVT_VIRAL",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 8,
+        "vocabMode": "in",
+        "challenges": [
+          "wire_syndication",
+          "rank_minor_trap"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_VIRAL_5_l",
+      "url": "https://synth.example/EVT_VIRAL/5-synth_EVT_VIRAL_5_l",
+      "title": "Cricket reported: match captain",
+      "summary": "Cricket reported: match captain. cricket match captain ipl win .",
+      "source": "AP Wire",
+      "sourceGroup": "ap_wire",
+      "publishedAt": 1781532453732,
+      "pubDateRaw": "2026-06-15T14:07:33.732Z",
+      "category": "cricket",
+      "region": "India",
+      "isWire": true,
+      "truth": {
+        "cluster": "C_EVT_VIRAL",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 8,
+        "vocabMode": "in",
+        "challenges": [
+          "wire_syndication",
+          "rank_minor_trap"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_TRICHY_0_m",
+      "url": "https://synth.example/EVT_TRICHY/0-synth_EVT_TRICHY_0_m",
+      "title": "Trichy reported: srirangam woraiyur in Trichy",
+      "summary": "Trichy reported: srirangam woraiyur in Trichy. trichy srirangam woraiyur flyover manapparai .",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "publishedAt": 1781521663560,
+      "pubDateRaw": "2026-06-15T11:07:43.560Z",
+      "category": "trichy_flyover",
+      "region": "Tamil Nadu",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_TRICHY",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 6,
+        "vocabMode": "oov",
+        "challenges": [
+          "location_oov",
+          "dedup_layer3_event"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_TRICHY_1_n",
+      "url": "https://synth.example/EVT_TRICHY/1-synth_EVT_TRICHY_1_n",
+      "title": "Trichy local update: srirangam woraiyur district local in Trichy",
+      "summary": "Trichy local update: srirangam woraiyur district local in Trichy. trichy srirangam woraiyur flyover manapparai district local.",
+      "source": "Moneycontrol",
+      "sourceGroup": "moneycontrol",
+      "publishedAt": 1781526660189,
+      "pubDateRaw": "2026-06-15T12:31:00.189Z",
+      "category": "trichy_flyover",
+      "region": "Tamil Nadu",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_TRICHY",
+        "angle": "regional_followup",
+        "importance": "notable",
+        "firstSeenCycle": 6,
+        "vocabMode": "oov",
+        "challenges": [
+          "location_oov",
+          "dedup_layer3_event"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_TRICHY_2_o",
+      "url": "https://synth.example/EVT_TRICHY/2-synth_EVT_TRICHY_2_o",
+      "title": "Trichy statement issued: srirangam woraiyur minister statement in Trichy",
+      "summary": "Trichy statement issued: srirangam woraiyur minister statement in Trichy. trichy srirangam woraiyur flyover manapparai minister statement official government.",
+      "source": "Hindustan Times",
+      "sourceGroup": "hindustan_times",
+      "publishedAt": 1781532062454,
+      "pubDateRaw": "2026-06-15T14:01:02.454Z",
+      "category": "trichy_flyover",
+      "region": "Tamil Nadu",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_TRICHY",
+        "angle": "official_response",
+        "importance": "notable",
+        "firstSeenCycle": 6,
+        "vocabMode": "oov",
+        "challenges": [
+          "location_oov",
+          "dedup_layer3_event"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_CIVIC_0_p",
+      "url": "https://synth.example/EVT_CIVIC/0-synth_EVT_CIVIC_0_p",
+      "title": "Kollidam reported: thillai panchayat in Kollidam",
+      "summary": "Kollidam reported: thillai panchayat in Kollidam. kollidam thillai panchayat collectorate thanjavur .",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "publishedAt": 1781538060770,
+      "pubDateRaw": "2026-06-15T15:41:00.770Z",
+      "category": "local_civic",
+      "region": "Tamil Nadu",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_CIVIC",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 9,
+        "vocabMode": "oov",
+        "challenges": [
+          "location_oov"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_CIVIC_1_q",
+      "url": "https://synth.example/EVT_CIVIC/1-synth_EVT_CIVIC_1_q",
+      "title": "Kollidam sparks reaction: thillai panchayat protest residents in Kollidam",
+      "summary": "Kollidam sparks reaction: thillai panchayat protest residents in Kollidam. kollidam thillai panchayat collectorate thanjavur protest residents public.",
+      "source": "Indian Express",
+      "sourceGroup": "indian_express",
+      "publishedAt": 1781543167681,
+      "pubDateRaw": "2026-06-15T17:06:07.681Z",
+      "category": "local_civic",
+      "region": "Tamil Nadu",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_CIVIC",
+        "angle": "reaction_public",
+        "importance": "minor",
+        "firstSeenCycle": 9,
+        "vocabMode": "oov",
+        "challenges": [
+          "location_oov"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_HOMONYM_0_r",
+      "url": "https://synth.example/EVT_HOMONYM/0-synth_EVT_HOMONYM_0_r",
+      "title": "March reported: march court",
+      "summary": "March reported: march court. march march court supreme .",
+      "source": "Business Line",
+      "sourceGroup": "business_line",
+      "publishedAt": 1781526651919,
+      "pubDateRaw": "2026-06-15T12:30:51.919Z",
+      "category": "court",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_HOMONYM",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 7,
+        "vocabMode": "homonym",
+        "challenges": [
+          "location_homonym"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_HOMONYM_1_s",
+      "url": "https://synth.example/EVT_HOMONYM/1-synth_EVT_HOMONYM_1_s",
+      "title": "March update: march court update revised",
+      "summary": "March update: march court update revised. march march court supreme update revised new.",
+      "source": "Hindustan Times",
+      "sourceGroup": "hindustan_times",
+      "publishedAt": 1781532241750,
+      "pubDateRaw": "2026-06-15T14:04:01.750Z",
+      "category": "court",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_HOMONYM",
+        "angle": "fact_update",
+        "importance": "notable",
+        "firstSeenCycle": 7,
+        "vocabMode": "homonym",
+        "challenges": [
+          "location_homonym"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_BREAKING_0_t",
+      "url": "https://synth.example/EVT_BREAKING/0-synth_EVT_BREAKING_0_t",
+      "title": "Defence reported: border army",
+      "summary": "Defence reported: border army. defence border army minister treaty .",
+      "source": "Moneycontrol",
+      "sourceGroup": "moneycontrol",
+      "publishedAt": 1781565215138,
+      "pubDateRaw": "2026-06-15T23:13:35.138Z",
+      "category": "defence",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_BREAKING",
+        "angle": "base_report",
+        "importance": "major",
+        "firstSeenCycle": 14,
+        "vocabMode": "in",
+        "challenges": [
+          "breaking_new_event",
+          "breaking_vs_important",
+          "persistence_multi_cycle"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_BREAKING_1_u",
+      "url": "https://synth.example/EVT_BREAKING/1-synth_EVT_BREAKING_1_u",
+      "title": "Defence update: border army update revised",
+      "summary": "Defence update: border army update revised. defence border army minister treaty update revised new.",
+      "source": "Moneycontrol",
+      "sourceGroup": "moneycontrol",
+      "publishedAt": 1781570104719,
+      "pubDateRaw": "2026-06-16T00:35:04.719Z",
+      "category": "defence",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_BREAKING",
+        "angle": "fact_update",
+        "importance": "major",
+        "firstSeenCycle": 14,
+        "vocabMode": "in",
+        "challenges": [
+          "breaking_new_event",
+          "breaking_vs_important",
+          "persistence_multi_cycle"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_BREAKING_2_v",
+      "url": "https://synth.example/EVT_BREAKING/2-synth_EVT_BREAKING_2_v",
+      "title": "Defence statement issued: border army minister statement",
+      "summary": "Defence statement issued: border army minister statement. defence border army minister treaty minister statement official government.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "publishedAt": 1781575422175,
+      "pubDateRaw": "2026-06-16T02:03:42.175Z",
+      "category": "defence",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_BREAKING",
+        "angle": "official_response",
+        "importance": "major",
+        "firstSeenCycle": 14,
+        "vocabMode": "in",
+        "challenges": [
+          "breaking_new_event",
+          "breaking_vs_important",
+          "persistence_multi_cycle"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_BREAKING_3_w",
+      "url": "https://synth.example/EVT_BREAKING/3-synth_EVT_BREAKING_3_w",
+      "title": "Defence update: border army update revised",
+      "summary": "Defence update: border army update revised. defence border army minister treaty update revised new.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "publishedAt": 1781581040126,
+      "pubDateRaw": "2026-06-16T03:37:20.126Z",
+      "category": "defence",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_BREAKING",
+        "angle": "fact_update",
+        "importance": "major",
+        "firstSeenCycle": 14,
+        "vocabMode": "in",
+        "challenges": [
+          "breaking_new_event",
+          "breaking_vs_important",
+          "persistence_multi_cycle"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_PERSIST_MINOR_0_x",
+      "url": "https://synth.example/EVT_PERSIST_MINOR/0-synth_EVT_PERSIST_MINOR_0_x",
+      "title": "Sensex reported: nifty shares",
+      "summary": "Sensex reported: nifty shares. sensex nifty shares stock rally crash .",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "publishedAt": 1781495020717,
+      "pubDateRaw": "2026-06-15T03:43:40.717Z",
+      "category": "market",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_PERSIST_MINOR",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "persistence_multi_cycle",
+          "breaking_vs_important"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_PERSIST_MINOR_1_y",
+      "url": "https://synth.example/EVT_PERSIST_MINOR/1-synth_EVT_PERSIST_MINOR_1_y",
+      "title": "Sensex update: nifty shares update revised",
+      "summary": "Sensex update: nifty shares update revised. sensex nifty shares stock rally crash update revised new.",
+      "source": "Moneycontrol",
+      "sourceGroup": "moneycontrol",
+      "publishedAt": 1781505454773,
+      "pubDateRaw": "2026-06-15T06:37:34.773Z",
+      "category": "market",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_PERSIST_MINOR",
+        "angle": "fact_update",
+        "importance": "minor",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "persistence_multi_cycle",
+          "breaking_vs_important"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_PERSIST_MINOR_2_z",
+      "url": "https://synth.example/EVT_PERSIST_MINOR/2-synth_EVT_PERSIST_MINOR_2_z",
+      "title": "Sensex reported: nifty shares",
+      "summary": "Sensex reported: nifty shares. sensex nifty shares stock rally crash .",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "publishedAt": 1781515938841,
+      "pubDateRaw": "2026-06-15T09:32:18.841Z",
+      "category": "market",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_PERSIST_MINOR",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "persistence_multi_cycle",
+          "breaking_vs_important"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_PERSIST_MINOR_3_10",
+      "url": "https://synth.example/EVT_PERSIST_MINOR/3-synth_EVT_PERSIST_MINOR_3_10",
+      "title": "Sensex update: nifty shares update revised",
+      "summary": "Sensex update: nifty shares update revised. sensex nifty shares stock rally crash update revised new.",
+      "source": "Hindustan Times",
+      "sourceGroup": "hindustan_times",
+      "publishedAt": 1781527482185,
+      "pubDateRaw": "2026-06-15T12:44:42.185Z",
+      "category": "market",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_PERSIST_MINOR",
+        "angle": "fact_update",
+        "importance": "minor",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "persistence_multi_cycle",
+          "breaking_vs_important"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_PERSIST_MINOR_4_11",
+      "url": "https://synth.example/EVT_PERSIST_MINOR/4-synth_EVT_PERSIST_MINOR_4_11",
+      "title": "Sensex reported: nifty shares",
+      "summary": "Sensex reported: nifty shares. sensex nifty shares stock rally crash .",
+      "source": "Business Line",
+      "sourceGroup": "business_line",
+      "publishedAt": 1781537582718,
+      "pubDateRaw": "2026-06-15T15:33:02.718Z",
+      "category": "market",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_PERSIST_MINOR",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "persistence_multi_cycle",
+          "breaking_vs_important"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_PERSIST_MINOR_5_12",
+      "url": "https://synth.example/EVT_PERSIST_MINOR/5-synth_EVT_PERSIST_MINOR_5_12",
+      "title": "Sensex update: nifty shares update revised",
+      "summary": "Sensex update: nifty shares update revised. sensex nifty shares stock rally crash update revised new.",
+      "source": "Hindustan Times",
+      "sourceGroup": "hindustan_times",
+      "publishedAt": 1781548569325,
+      "pubDateRaw": "2026-06-15T18:36:09.325Z",
+      "category": "market",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_PERSIST_MINOR",
+        "angle": "fact_update",
+        "importance": "minor",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "persistence_multi_cycle",
+          "breaking_vs_important"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_PERSIST_MINOR_6_13",
+      "url": "https://synth.example/EVT_PERSIST_MINOR/6-synth_EVT_PERSIST_MINOR_6_13",
+      "title": "Sensex reported: nifty shares",
+      "summary": "Sensex reported: nifty shares. sensex nifty shares stock rally crash .",
+      "source": "Hindustan Times",
+      "sourceGroup": "hindustan_times",
+      "publishedAt": 1781559707220,
+      "pubDateRaw": "2026-06-15T21:41:47.220Z",
+      "category": "market",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_PERSIST_MINOR",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "persistence_multi_cycle",
+          "breaking_vs_important"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_PERSIST_MINOR_7_14",
+      "url": "https://synth.example/EVT_PERSIST_MINOR/7-synth_EVT_PERSIST_MINOR_7_14",
+      "title": "Sensex update: nifty shares update revised",
+      "summary": "Sensex update: nifty shares update revised. sensex nifty shares stock rally crash update revised new.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "publishedAt": 1781570759217,
+      "pubDateRaw": "2026-06-16T00:45:59.217Z",
+      "category": "market",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_PERSIST_MINOR",
+        "angle": "fact_update",
+        "importance": "minor",
+        "firstSeenCycle": 1,
+        "vocabMode": "in",
+        "challenges": [
+          "persistence_multi_cycle",
+          "breaking_vs_important"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_DATEZOO_0_15",
+      "url": "https://synth.example/EVT_DATEZOO/0-synth_EVT_DATEZOO_0_15",
+      "title": "Oil reported: crude sanctions",
+      "summary": "Oil reported: crude sanctions. oil crude sanctions russia export .",
+      "source": "Indian Express",
+      "sourceGroup": "indian_express",
+      "publishedAt": 1781505955702,
+      "pubDateRaw": "2026-06-15T06:45:55.702Z",
+      "category": "oil",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_DATEZOO",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 3,
+        "vocabMode": "in",
+        "challenges": [
+          "date_format_zoo",
+          "date_tz_mixed",
+          "date_headline_vs_meta"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_DATEZOO_1_16",
+      "url": "https://synth.example/EVT_DATEZOO/1-synth_EVT_DATEZOO_1_16",
+      "title": "Oil update: crude sanctions update revised",
+      "summary": "Oil update: crude sanctions update revised. oil crude sanctions russia export update revised new.",
+      "source": "Moneycontrol",
+      "sourceGroup": "moneycontrol",
+      "publishedAt": 1781505991908,
+      "pubDateRaw": "2026-06-15T06:46:31.908+05:30",
+      "category": "oil",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_DATEZOO",
+        "angle": "fact_update",
+        "importance": "notable",
+        "firstSeenCycle": 3,
+        "vocabMode": "in",
+        "challenges": [
+          "date_format_zoo",
+          "date_tz_mixed",
+          "date_headline_vs_meta"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_DATEZOO_2_17",
+      "url": "https://synth.example/EVT_DATEZOO/2-synth_EVT_DATEZOO_2_17",
+      "title": "Oil reported: crude sanctions",
+      "summary": "Oil reported: crude sanctions. oil crude sanctions russia export .",
+      "source": "Moneycontrol",
+      "sourceGroup": "moneycontrol",
+      "publishedAt": 1781505822692,
+      "pubDateRaw": "Mon, 15 Jun 2026 06:43:42 GMT",
+      "category": "oil",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_DATEZOO",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 3,
+        "vocabMode": "in",
+        "challenges": [
+          "date_format_zoo",
+          "date_tz_mixed",
+          "date_headline_vs_meta"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_DATEZOO_3_18",
+      "url": "https://synth.example/EVT_DATEZOO/3-synth_EVT_DATEZOO_3_18",
+      "title": "Oil reported: crude sanctions",
+      "summary": "Oil reported: crude sanctions. oil crude sanctions russia export .",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "publishedAt": 1781505791945,
+      "pubDateRaw": "1781505791",
+      "category": "oil",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_DATEZOO",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 3,
+        "vocabMode": "in",
+        "challenges": [
+          "date_format_zoo",
+          "date_tz_mixed",
+          "date_headline_vs_meta"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_DATEZOO_4_19",
+      "url": "https://synth.example/EVT_DATEZOO/4-synth_EVT_DATEZOO_4_19",
+      "title": "Oil reported: crude sanctions",
+      "summary": "Oil reported: crude sanctions. oil crude sanctions russia export .",
+      "source": "Moneycontrol",
+      "sourceGroup": "moneycontrol",
+      "publishedAt": 1781505735073,
+      "pubDateRaw": "2 hours ago",
+      "category": "oil",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_DATEZOO",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 3,
+        "vocabMode": "in",
+        "challenges": [
+          "date_format_zoo",
+          "date_tz_mixed",
+          "date_headline_vs_meta"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_DATEZOO_5_1a",
+      "url": "https://synth.example/EVT_DATEZOO/5-synth_EVT_DATEZOO_5_1a",
+      "title": "[Dated 2026-06-10] Oil reported: crude sanctions",
+      "summary": "[Dated 2026-06-10] Oil reported: crude sanctions. oil crude sanctions russia export .",
+      "source": "Moneycontrol",
+      "sourceGroup": "moneycontrol",
+      "publishedAt": 1781505242301,
+      "pubDateRaw": "2026-06-15T06:34:02.301Z",
+      "category": "oil",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_DATEZOO",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 3,
+        "vocabMode": "in",
+        "challenges": [
+          "date_format_zoo",
+          "date_tz_mixed",
+          "date_headline_vs_meta"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_VAGUE_0_1b",
+      "url": "https://synth.example/EVT_VAGUE/0-synth_EVT_VAGUE_0_1b",
+      "title": "Officials note developments amid ongoing court situation",
+      "summary": "Officials note developments amid ongoing court situation. court supreme verdict bail law situation developments.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "publishedAt": 1781543334745,
+      "pubDateRaw": "2026-06-15T17:08:54.745Z",
+      "category": "court",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_VAGUE",
+        "angle": "unknown",
+        "importance": "minor",
+        "firstSeenCycle": 10,
+        "vocabMode": "in",
+        "challenges": [
+          "angle_unknown_floor"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_VAGUE_1_1c",
+      "url": "https://synth.example/EVT_VAGUE/1-synth_EVT_VAGUE_1_1c",
+      "title": "Officials note developments amid ongoing court situation",
+      "summary": "Officials note developments amid ongoing court situation. court supreme verdict bail law situation developments.",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "publishedAt": 1781549131998,
+      "pubDateRaw": "2026-06-15T18:45:31.998Z",
+      "category": "court",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_VAGUE",
+        "angle": "unknown",
+        "importance": "minor",
+        "firstSeenCycle": 10,
+        "vocabMode": "in",
+        "challenges": [
+          "angle_unknown_floor"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_CTRL_0_0_1d",
+      "url": "https://synth.example/EVT_CTRL_0/0-synth_EVT_CTRL_0_0_1d",
+      "title": "Rbi reported: repo rate",
+      "summary": "Rbi reported: repo rate. rbi repo rate inflation sensex nifty .",
+      "source": "Hindustan Times",
+      "sourceGroup": "hindustan_times",
+      "publishedAt": 1781489123068,
+      "pubDateRaw": "2026-06-15T02:05:23.068Z",
+      "category": "rbi",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_CTRL_0",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 0,
+        "vocabMode": "in",
+        "challenges": [
+          "control"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_CTRL_1_0_1e",
+      "url": "https://synth.example/EVT_CTRL_1/0-synth_EVT_CTRL_1_0_1e",
+      "title": "Defence reported: border army",
+      "summary": "Defence reported: border army. defence border army minister treaty .",
+      "source": "Business Line",
+      "sourceGroup": "business_line",
+      "publishedAt": 1781505725130,
+      "pubDateRaw": "2026-06-15T06:42:05.130Z",
+      "category": "defence",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_CTRL_1",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 3,
+        "vocabMode": "in",
+        "challenges": [
+          "control"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_CTRL_2_0_1f",
+      "url": "https://synth.example/EVT_CTRL_2/0-synth_EVT_CTRL_2_0_1f",
+      "title": "Defence reported: border army",
+      "summary": "Defence reported: border army. defence border army minister treaty .",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "publishedAt": 1781521404293,
+      "pubDateRaw": "2026-06-15T11:03:24.293Z",
+      "category": "defence",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_CTRL_2",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 6,
+        "vocabMode": "in",
+        "challenges": [
+          "control"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_CTRL_3_0_1g",
+      "url": "https://synth.example/EVT_CTRL_3/0-synth_EVT_CTRL_3_0_1g",
+      "title": "Sensex reported: nifty shares",
+      "summary": "Sensex reported: nifty shares. sensex nifty shares stock rally crash .",
+      "source": "Business Line",
+      "sourceGroup": "business_line",
+      "publishedAt": 1781538233369,
+      "pubDateRaw": "2026-06-15T15:43:53.369Z",
+      "category": "market",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_CTRL_3",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 9,
+        "vocabMode": "in",
+        "challenges": [
+          "control"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_CTRL_4_0_1h",
+      "url": "https://synth.example/EVT_CTRL_4/0-synth_EVT_CTRL_4_0_1h",
+      "title": "Rbi reported: repo rate",
+      "summary": "Rbi reported: repo rate. rbi repo rate inflation sensex nifty .",
+      "source": "Hindustan Times",
+      "sourceGroup": "hindustan_times",
+      "publishedAt": 1781554217411,
+      "pubDateRaw": "2026-06-15T20:10:17.411Z",
+      "category": "rbi",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_CTRL_4",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 12,
+        "vocabMode": "in",
+        "challenges": [
+          "control"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_CTRL_5_0_1i",
+      "url": "https://synth.example/EVT_CTRL_5/0-synth_EVT_CTRL_5_0_1i",
+      "title": "Court reported: supreme verdict",
+      "summary": "Court reported: supreme verdict. court supreme verdict bail law .",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "publishedAt": 1781570324184,
+      "pubDateRaw": "2026-06-16T00:38:44.184Z",
+      "category": "court",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_CTRL_5",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 15,
+        "vocabMode": "in",
+        "challenges": [
+          "control"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_CTRL_6_0_1j",
+      "url": "https://synth.example/EVT_CTRL_6/0-synth_EVT_CTRL_6_0_1j",
+      "title": "Court reported: supreme verdict",
+      "summary": "Court reported: supreme verdict. court supreme verdict bail law .",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "publishedAt": 1781586823548,
+      "pubDateRaw": "2026-06-16T05:13:43.548Z",
+      "category": "court",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_CTRL_6",
+        "angle": "base_report",
+        "importance": "minor",
+        "firstSeenCycle": 18,
+        "vocabMode": "in",
+        "challenges": [
+          "control"
+        ]
+      }
+    },
+    {
+      "id": "synth_EVT_CTRL_7_0_1k",
+      "url": "https://synth.example/EVT_CTRL_7/0-synth_EVT_CTRL_7_0_1k",
+      "title": "Cricket reported: match captain",
+      "summary": "Cricket reported: match captain. cricket match captain ipl win .",
+      "source": "Moneycontrol",
+      "sourceGroup": "moneycontrol",
+      "publishedAt": 1781602934174,
+      "pubDateRaw": "2026-06-16T09:42:14.174Z",
+      "category": "cricket",
+      "region": "India",
+      "isWire": false,
+      "truth": {
+        "cluster": "C_EVT_CTRL_7",
+        "angle": "base_report",
+        "importance": "notable",
+        "firstSeenCycle": 21,
+        "vocabMode": "in",
+        "challenges": [
+          "control"
+        ]
+      }
+    }
+  ]
+}

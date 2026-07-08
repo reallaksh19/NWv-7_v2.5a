@@ -1,0 +1,31 @@
+check_id: U0.2-INJ-01
+invariant: >
+  On the LIVE intelligence path, the injected asOfDate is threaded end-to-end
+  (fetcher -> canonicalItemBuilder -> dateAware/eligibilityWindowing) and actually
+  drives the eligibility verdict — proven by execution, not code-reading.
+source_of_truth: "audit/UPAHEAD_AUDIT_PLAN.md §U0; src/services/intelligentUpAheadFetcher.js:38; src/intelligence/canonicalItemBuilder.js:92-97,160-163; src/intelligence/dateAware.js:28-30; src/intelligence/eligibilityWindowing.js:27"
+input:
+  snapshot: "synthetic single raw feed item: 'Big Open-Air Concert on 2026-06-20 in Chennai' (pubDate 2026-06-10)"
+  contentHash: "n/a (inline synthetic; see harness)"
+  asOfDate: ["2026-06-18 (event +2d)", "2026-06-01 (event +19d)", "2026-06-25 (event past)"]
+  mode: offline
+  host: live
+  locale: Chennai (from item text)
+  tz_runs: [Asia/Kolkata, UTC]
+procedure: >
+  audit/evidence/u0_injection.harness.test.mjs. (1) Runs buildCanonicalItems(RAW,{asOfDate})
+  twice at the same asOfDate and sha256-compares. (2) Sweeps asOfDate across three values
+  with the event fixed at 2026-06-20 and records windowStatus/plannerEligible/routeTarget.
+result:
+  same_clock_twice_identical: true   # hash 82cb435067733318
+  sweep:
+    "asOf_2026-06-18": { windowStatus: inside_window, plannerEligible: true,  upAheadEligible: true,  routeTarget: planner }
+    "asOf_2026-06-01": { windowStatus: after_window,  plannerEligible: false, upAheadEligible: true,  routeTarget: upahead_exact }
+    "asOf_2026-06-25": { windowStatus: before_window, plannerEligible: false, upAheadEligible: false, routeTarget: dropped }
+  verdictActuallyFlips: true
+  tz_invariant: true   # ISO date key 2026-06-20 stable across both TZs for this case
+  artifacts: ["audit/evidence/U0-injection.Asia_Kolkata.json", "audit/evidence/U0-injection.UTC.json"]
+verdict: PASS
+user_impact: "None — confirms the live path can be replayed at an arbitrary reference date (the static path cannot; see U0.3-CLK-01 / I012)."
+benchmark_hook: "UPAHEAD_BENCHMARK_PLAN dated-replay: the live path is replayable by injection; the static path is the gap (I012)."
+issue_matrix_id: n/a (PASS)

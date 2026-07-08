@@ -1,0 +1,38 @@
+# A2 ANALYSIS — public/newsdata/insight_2026-05-19.json (contentHash 40f989d5da9c, node v22.22.2)
+config: {"TOP_PARENTS":10,"MAX_CHILDREN_PER_PARENT":7,"MAX_PER_ANGLE":3,"MIN_SOURCES_PER_TREE":3,"WEAK_TREE_CHILD_MIN":3,"MIN_CHILD_INFO_GAIN":0.1,"SAME_EVENT_THRESHOLD":0.88,"REGION_TAGS":["chennai","trichy","tamil nadu","tn","muscat","oman"]}
+parents=10 storiesIn=877 storiesClustered=795 hidden=82
+
+## A2.1 intake
+  accounting: in 877 = clustered 795 + hidden 82 + excluded 0 (tier-D/stale/tier-C fallback)
+  storiesClustered missing angle=0 sourceTier=0 slot=0
+
+## A2.2 dedup
+  zero-vector embeddings (F5-5 guard relevance): 0
+  hiddenDuplicateIds carried on parents: 0 (vs pipeline hiddenCount 82)
+
+## A2.3 angle
+  per-angle firing: {"official_response":262,"base_report":273,"regional_followup":9,"expert_analysis":12,"reaction_public":17,"investigative_detail":45,"fact_update":68,"market_reaction":101,"correction":5,"opinion_editorial":2,"background_context":1}
+  angle labels never seen on this corpus: ["unknown"]
+  unknown rate=0.000  avgVisibleAngles/parent=2.000 (RCA target >=1.8)  multiAngleParents=10 (target >=8)
+
+## A2.4 cluster order-sensitivity (normal vs reversed input)
+  parents: normal=10 reversed=10
+  co-membership pairs: normal=12 reversed=12 preserved=12 -> stability=1.000
+
+## A2.5 ranking
+  components in [0,1] pre-weight: violations=0 
+  scoreBreakdown key count (first parent)=13 of 12 components
+  |sum(scoreBreakdown) - finalParentScore|: max=5.983 (does displayed breakdown explain the score?)
+  |sum(all 12 weighted) - finalParentScore|: max=0.000 (does full weighted model reproduce the score?)
+  region boost reachable: 1/10 parents have regionBoost>0 (F5-1 Trichy interaction)
+  wire penalty firing: 0/10 parents have wirePenaltyScore>0
+
+## A2.6 tree
+  max children any parent=3 (cap 7)  per-angle>cap violations=0
+  non-weak parents with <3 source groups: 0 
+  weak-tree flag mismatches (flag != [children<3 or angles<2]): 0
+    
+
+## A2.7 quality (ratchet recompute on frozen corpus)
+  avgVisibleAngles=2.000 (ratchet >=1.8: PASS)  multiAngleParents=10 (ratchet >=8: PASS)
+  weakParents=9/10
