@@ -1,18 +1,18 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1783528185385,
-  "contentHash": "d2b647615bf74a50",
+  "generatedAt": 1783534651511,
+  "contentHash": "f0642cd539836476",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 710,
+  "storyCount": 705,
   "sourceGroupCount": 9,
   "grade": "C",
   "parentCount": 10,
   "avgAngles": 1.6,
-  "avgTemporalTiers": 2.1,
+  "avgTemporalTiers": 2,
   "avgEvolutionRoles": 1.9,
-  "baseReportShare": 0.19047619047619047,
+  "baseReportShare": 0.18181818181818182,
   "multiAngleCount": 6,
   "weakParentCount": 4,
   "runtimeQualityGate": {
@@ -23,60 +23,60 @@
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 48,
+      "signalScore": 51,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 641,
-      "risingCount": 0,
+      "storyCount": 639,
+      "risingCount": 1,
       "thinCount": 4,
       "multiAngleCount": 6,
       "lowAngleCount": 4,
       "strongAngleCount": 0,
       "avgAngles": 1.6,
-      "avgChildren": 2.1,
-      "avgScore": 0.6484466428156119,
+      "avgChildren": 2.2,
+      "avgScore": 0.641345177638272,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 2,
+      "snapshotCoverage": 4,
       "coverageLabel": "6/10",
       "warnings": [
         "4 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "8 cluster(s) have weak snapshot coverage.",
+        "6 cluster(s) have weak snapshot coverage.",
         "4 cluster(s) are marked thin.",
-        "691 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "661 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 48,
+      "signalScore": 51,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 641,
-      "risingCount": 0,
+      "storyCount": 639,
+      "risingCount": 1,
       "thinCount": 4,
       "multiAngleCount": 6,
       "lowAngleCount": 4,
       "strongAngleCount": 0,
       "avgAngles": 1.6,
-      "avgChildren": 2.1,
-      "avgScore": 0.6484466428156119,
+      "avgChildren": 2.2,
+      "avgScore": 0.641345177638272,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 2,
+      "snapshotCoverage": 4,
       "coverageLabel": "6/10",
       "warnings": [
         "4 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "8 cluster(s) have weak snapshot coverage.",
+        "6 cluster(s) have weak snapshot coverage.",
         "4 cluster(s) are marked thin.",
-        "691 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "661 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_132_9ee978a2bc32e8fb",
+      "parentId": "cluster_166_9ee978a2bc32e8fb",
       "headline": "Tehran targets Bahrain, Kuwait after US strikes and limits Iran's oil sales over ship attacks",
       "score": 0.6934967197849984,
       "postTreeScore": 1.0735,
@@ -97,28 +97,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_266_d7a85ce7d4c1167e",
-      "headline": "US official says latest attacks on Iran \"4-5 times bigger\" than last strikes: Report",
-      "score": 0.6934967197849984,
-      "postTreeScore": 1.0735,
-      "childCount": 2,
-      "angles": [
-        "base_report",
-        "official_response"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "reaction"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "fact_update"
-      ],
-      "baseReportShare": 0.5,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_288_295caf0cfb2c8fac",
+      "parentId": "cluster_321_295caf0cfb2c8fac",
       "headline": "Nato showcases big arms deals as Trump sulks",
       "score": 0.6769967197849983,
       "postTreeScore": 1.057,
@@ -139,10 +118,51 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_280_5ca320c610bfe906",
+      "parentId": "cluster_155_1b10261cf8ec84d2",
+      "headline": "New U.S. attacks on Iran were absolutely necessary, NATO chief says",
+      "score": 0.6052599999999999,
+      "postTreeScore": 1.0053,
+      "childCount": 2,
+      "angles": [
+        "market_reaction",
+        "official_response"
+      ],
+      "temporalTiers": [
+        "breaking",
+        "established"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "corroboration"
+      ],
+      "baseReportShare": 0,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_52_6eb8a77397386bc0",
+      "headline": "'Lust for murder': German doctor who killed 15 patients gets life term; suspected in 76 more deaths",
+      "score": 0.59211,
+      "postTreeScore": 0.9921,
+      "childCount": 2,
+      "angles": [
+        "base_report",
+        "fact_update"
+      ],
+      "temporalTiers": [
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "corroboration"
+      ],
+      "baseReportShare": 0.5,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_312_5ca320c610bfe906",
       "headline": "BREAKING | Lawrence Bishnoi, Goldy Brar Charged In US Over Killing Of Hardeep Singh Nijjar | News18 - News18",
-      "score": 0.6325800531183317,
-      "postTreeScore": 1.0126,
+      "score": 0.5765933333333333,
+      "postTreeScore": 0.9766,
       "childCount": 2,
       "angles": [
         "official_response",
@@ -160,7 +180,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_513_2461d5f072ec0fa1",
+      "parentId": "cluster_547_2461d5f072ec0fa1",
       "headline": "India, Indonesia expand defence ties; New Delhi to supply BrahMos missiles",
       "score": 0.5517727761127958,
       "postTreeScore": 0.9718,
@@ -182,28 +202,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_121_1b10261cf8ec84d2",
-      "headline": "New U.S. attacks on Iran were absolutely necessary, NATO chief says",
-      "score": 0.5492732802150018,
-      "postTreeScore": 0.9293,
-      "childCount": 2,
-      "angles": [
-        "market_reaction",
-        "official_response"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "established"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "corroboration"
-      ],
-      "baseReportShare": 0,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_73_6e34de537b5024bc",
+      "parentId": "cluster_104_6e34de537b5024bc",
       "headline": "Nuvama, Cushman & Wakefield-backed realty fund raises Rs 4,000 cr",
       "score": 0.7666133864516651,
       "postTreeScore": 0.6566,
@@ -222,13 +221,13 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_570_6435737a710295c9",
-      "headline": "PM Modi conferred with Indonesia's highest honour ‘Bintang Adipurna' in Jakarta",
-      "score": 0.6814967197849984,
-      "postTreeScore": 0.5715,
+      "parentId": "cluster_432_9f96d52233c6f8d1",
+      "headline": "Woman suspected of Monaco bomb attack found dead in Ukraine",
+      "score": 0.6741467197849984,
+      "postTreeScore": 0.5641,
       "childCount": 2,
       "angles": [
-        "official_response"
+        "fact_update"
       ],
       "temporalTiers": [
         "developing",
@@ -236,13 +235,33 @@
       ],
       "evolutionRoles": [
         "corroboration",
-        "official_response"
+        "cause_claim"
       ],
       "baseReportShare": 0,
       "weakTree": true
     },
     {
-      "parentId": "cluster_202_032f42d741ee26aa",
+      "parentId": "cluster_91_b590bcbb384b724e",
+      "headline": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times - The Economic Times",
+      "score": 0.6438820680115994,
+      "postTreeScore": 0.5539,
+      "childCount": 3,
+      "angles": [
+        "fact_update"
+      ],
+      "temporalTiers": [
+        "established",
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "fact_update",
+        "market_reaction"
+      ],
+      "baseReportShare": 0,
+      "weakTree": true
+    },
+    {
+      "parentId": "cluster_236_032f42d741ee26aa",
       "headline": "Baruipur rape-murder case: One key accused killed in police encounter",
       "score": 0.6325800531183317,
       "postTreeScore": 0.5226,
@@ -257,26 +276,6 @@
       "evolutionRoles": [
         "first_report",
         "corroboration"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_398_9f96d52233c6f8d1",
-      "headline": "Woman suspected of Monaco bomb attack found dead in Ukraine",
-      "score": 0.60616,
-      "postTreeScore": 0.5162,
-      "childCount": 2,
-      "angles": [
-        "fact_update"
-      ],
-      "temporalTiers": [
-        "developing",
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "corroboration",
-        "cause_claim"
       ],
       "baseReportShare": 0,
       "weakTree": true
@@ -311,7 +310,7 @@
       {
         "id": "avg-temporal-tier-count",
         "label": "Average temporal tier count",
-        "actual": 2.1,
+        "actual": 2,
         "required": ">= 1.8"
       },
       {
@@ -323,7 +322,7 @@
       {
         "id": "base-report-share",
         "label": "Base report share",
-        "actual": 0.19,
+        "actual": 0.182,
         "required": "<= 0.55"
       },
       {
@@ -355,15 +354,15 @@
     "summary": {
       "parentCount": 10,
       "avgAngles": 1.6,
-      "avgTemporalTiers": 2.1,
+      "avgTemporalTiers": 2,
       "avgEvolutionRoles": 1.9,
-      "baseReportShare": 0.19,
+      "baseReportShare": 0.182,
       "multiAngleCount": 6,
       "weakParentCount": 4,
       "weakParentRatio": 0.4,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 710,
+      "storyCount": 705,
       "sourceGroupCount": 9
     }
   }
