@@ -1,8 +1,56 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783515606630,
-  "contentHash": "24324f3c8a26",
+  "fetchedAt": 1783524545653,
+  "contentHash": "196cdab72e57",
   "breaking": [
+    {
+      "title": "West Asia War LIVE: Trump threatens to strike Iran's civilian infrastructure",
+      "summary": "\"I'll ​give ‌a little warning, We're going ‌to hit ​them hard tonight,\" Mr. Trump ⁠told reporters at the ‌NATO summit",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-after-iran-strikes-strait-of-hormuz-donald-trump-netanyahu-mojtaba-lebanon-hezboallah-peace-deal/article71196409.ece",
+      "publishedAt": 1783522540000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "e00582ec868423a1",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.954,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1783521821000
+    },
+    {
+      "title": "Teenager arrested after two girls, 13, seriously injured in German school attack",
+      "summary": "Police said a major operation was under way in the area of Welfen-Gymnasium secondary school in Schongau, Bavaria.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783523348000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "69105eb659b0b850",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.472,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1783523348000
+    },
     {
       "title": "Russian attacks kill three across Ukraine, strike Kyiv for second consecutive night",
       "summary": "Russia's Defence Ministry said the military carried out a strike on arms industry facilities in Kyiv overnight, hitting a Flamingo cruise missiles plant and a facility assembling mid and long range drones",
@@ -16,7 +64,7 @@
       "id": "8167f97fad845c16",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.388,
+      "breakingScore": 5.181,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -24,162 +72,93 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1783507764000
+      "firstSeen": 1783510777000
     },
     {
-      "title": "New U.S. attacks on Iran were absolutely necessary, NATO chief says",
-      "summary": "The ​U.S. military unleashed a ⁠new wave of strikes against Iran after three tankers were hit by projectiles in the ‌Strait of Hormuz, putting pressure on ‌an ⁠already fragile ceasefire",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/new-us-attacks-on-iran-were-absolutely-necessary-nato-chief-says/article71196996.ece",
-      "publishedAt": 1783506744000,
-      "category": "world",
+      "title": "'Lust for murder': German doctor who killed 15 patients gets life term; suspected in 76 more deaths",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132266276.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/europe/lust-for-murder-german-doctor-who-killed-15-patients-gets-life-term-suspected-in-76-more-deaths/articleshow/132266276.cms",
+      "publishedAt": 1783521190000,
+      "category": "india",
       "region": "in",
       "language": "en",
-      "id": "1b10261cf8ec84d2",
+      "id": "6eb8a77397386bc0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.295,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783506744000
-    },
-    {
-      "title": "Sena Corporator Who Assaulted Doctor, Staff At Thane Hospital Arrested",
-      "summary": "Police registered a case against Ramesh Mhatre and five others on Tuesday night. He was taken into custody from his residence on Wednesday.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/sena-corporator-who-assaulted-doctor-staff-at-thane-hospital-arrested-11744148#publisher=newsstand",
-      "publishedAt": 1783514890000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "d8006b2b923717fc",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 4.483,
+      "breakingScore": 4.422,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
       ],
       "sourceCount": 2,
       "allSources": [
-        "ndtv",
-        "the_hindu"
+        "bbc",
+        "times_of_india"
       ],
-      "firstSeen": 1783509731000
+      "firstSeen": 1783520725000
     },
     {
-      "title": "Israeli strike kills World Cup screening organiser in Gaza just before kickoff",
-      "summary": "Health authorities in Gaza say an Israeli strike killed an organizer of public screenings of World Cup matches in the enclave",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/israeli-strike-kills-world-cup-screening-organiser-in-gaza-just-before-kickoff/article71197551.ece",
-      "publishedAt": 1783511643000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "676673b1a67296c2",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.908,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783511643000
-    },
-    {
-      "title": "Trump blasts Spain, targets Greenland at NATO summit",
-      "summary": "With tensions peaking after an overnight flareup between U.S. and Iranian forces, Mr. Trump declared the Iran ceasefire was “over”, then took aim at NATO allies who failed to back his campaign against Tehran",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/nato-summit-in-turkiye-trump-lashes-out-at-allies/article71197466.ece",
-      "publishedAt": 1783507409000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "cc56ea9d5aaf948f",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.81,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783507409000
-    },
-    {
-      "title": "Under-construction house collapses in Delhi's Rohini; several feared trapped",
-      "summary": "Two people were pulled out of the rubble as police, NDRF and other emergency teams rushed to the site and were joined by locals in the search and rescue efforts",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/Delhi/delhi-rohini-under-construction-house-collapse-updates-july-8-2026/article71198216.ece",
-      "publishedAt": 1783515425000,
+      "title": "US To Let Ukraine Make Patriot Missiles To Fight Russia, Says Trump",
+      "summary": "Ukraine has been conducting strikes deep into Russia. (File)",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-to-let-ukraine-make-patriot-missiles-to-fight-russia-says-trump-11745233#publisher=newsstand",
+      "publishedAt": 1783522831000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "c45a29452ed22f29",
+      "id": "9a2876dc1b45a028",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.496,
+      "breakingScore": 3.96,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "the_hindu"
+        "ndtv"
       ],
-      "firstSeen": 1783515425000
+      "firstSeen": 1783522831000
     },
     {
-      "title": "Is the U.S.-Iran agreement falling apart?",
-      "summary": "There were two major hurdles in the implementation of the MoU signed on June 17. One was the war in Lebanon and the other was the status of the Strait of Hormuz.",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/us-iran-mou-agreement-falling-apart-trump-strait-of-hormuz-israel-lebanon-analysis/article71197993.ece",
-      "publishedAt": 1783515169000,
+      "title": "Several Feared Trapped As Under-Construction Building Collapses In Delhi",
+      "summary": "Residents rushed to the site after hearing a loud crash from the collapse.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/several-feared-trapped-as-under-construction-house-collapses-in-delhi-11744601#publisher=newsstand",
+      "publishedAt": 1783519791000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "c2294d6b888a54a8",
+      "id": "e572622222edd658",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.49,
+      "breakingScore": 3.89,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "the_hindu"
+        "ndtv"
       ],
-      "firstSeen": 1783515169000
+      "firstSeen": 1783519791000
     },
     {
-      "title": "Neo-Nazi who planned gun attack jailed after MI5 sting",
-      "summary": "Alfie Coleman, 22, is sentenced at the Old Bailey after being found guilty in April.",
-      "source": "BBC",
+      "title": "Eight killed after landslide hits girls' school in Bangladesh",
+      "summary": "Rescuers pull bodies from the mud after heavy monsoon rains batter the south-eastern coast.",
+      "source": "BBC World",
       "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c39yex3v1ryo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783514911000,
+      "url": "https://www.bbc.co.uk/news/articles/cx2wkzww20ro?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783519374000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "4c0af0df2cb94969",
+      "id": "230ea7d77560633b",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.484,
+      "breakingScore": 3.88,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -187,7 +166,30 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1783514911000
+      "firstSeen": 1783519374000
+    },
+    {
+      "title": "Tow-truck driver shot during California freeway service call remains in critical condition as family speaks out",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132263013.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />A towing operator in California has sustained critical injuries following a shooting incident on a busy freeway. Authorities are actively probing the circumstances surrounding the attack as the driver’s family rallies for community assistance to cover escalating medical and daily expenses. Meanwhile, the alleged shooter perished following a police chase that ensued. This unfortunate event underscores the perilous conditions under which tow truck drivers operate.",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/us/tow-truck-driver-shot-during-california-freeway-service-call-remains-in-critical-condition-as-family-speaks-out/articleshow/132263013.cms",
+      "publishedAt": 1783513553000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "5ff1bbab280874c7",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.746,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "times_of_india"
+      ],
+      "firstSeen": 1783513553000
     }
   ]
 }
