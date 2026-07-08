@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1783512134493,
+  "generatedAt": 1783522078630,
   "windowDays": 7,
   "latest": {
     "insightGrade": "C",
     "insightScore": 0,
-    "totalStories": 650,
-    "usableStories36h": 643,
-    "sourceGroups": 9,
+    "totalStories": 742,
+    "usableStories36h": 712,
+    "sourceGroups": 10,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.3156,
+    "rankingOverallScore": 0.3099,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.3156,
+    "overallScore": 0.3099,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1783512133516,
+    "generatedAt": 1783522077413,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.4046,
+      "insight": 0.3931,
       "localTravel": 0,
-      "upAhead": 0.8579
+      "upAhead": 0.8466
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.4046,
+        "score": 0.3931,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.8579,
+        "score": 0.8466,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -74,8 +74,8 @@
         "oneSourceCappedCount": 0
       },
       "insight": {
-        "parentClusters": 9,
-        "strongParents": 9,
+        "parentClusters": 11,
+        "strongParents": 11,
         "weakParentsDemoted": 0,
         "avgAnglesPerParent": 0,
         "baseReportHeavyParents": 2,
@@ -92,11 +92,11 @@
       },
       "upAhead": {
         "rankedItemCount": 30,
-        "suppressedItemCount": 20,
+        "suppressedItemCount": 17,
         "events": 0,
         "onlineOffers": 0,
-        "offlineOffers": 0,
-        "alerts": 30,
+        "offlineOffers": 3,
+        "alerts": 27,
         "festivals": 0,
         "locationsCovered": [
           "chennai",
@@ -108,19 +108,18 @@
       "Amazon to raise $25 billion from bond sale - Lapaas Voice: location failed — offline/local item lacks configured location match",
       "Amazon Raises at Least $25 Billion Through Bond Sale - Let's Data Science: location failed — offline/local item lacks configured location match",
       "The implications of Amazon's $25B bond sale, and Microsoft's evolving AI model strategy - CNBC: location failed — offline/local item lacks configured location match",
-      "Plastic godown gutted at Ariyamangalam in Tiruchi: futureValidity failed — expired display window",
-      "Plastic godown gutted at Ariyamangalam in Tiruchi: alertUrgency failed — alert expired",
-      "12 companies seek plots at upcoming seaweed park in Pudukottai district: futureValidity failed — expired display window",
-      "12 companies seek plots at upcoming seaweed park in Pudukottai district: alertUrgency failed — alert expired",
-      "Motorist killed by speeding car on ECR near Chennai: futureValidity failed — expired display window",
-      "Motorist killed by speeding car on ECR near Chennai: alertUrgency failed — alert expired",
-      "MGMGH doctors treat patient with uterine malformation successfully: futureValidity failed — expired display window",
-      "MGMGH doctors treat patient with uterine malformation successfully: alertUrgency failed — alert expired",
-      "Karur stampede: TVK chief Vijay speaks to victims’ families on video calls: futureValidity failed — expired display window"
+      "Bodies of two men found in well near Lalgudi: futureValidity failed — expired display window",
+      "Bodies of two men found in well near Lalgudi: alertUrgency failed — alert expired",
+      "Polytechnic colleges in Tiruchi district face closure amid dwindling admissions: futureValidity failed — expired display window",
+      "Polytechnic colleges in Tiruchi district face closure amid dwindling admissions: alertUrgency failed — alert expired",
+      "Residents raise concerns over the irregular drinking water supply in several parts of Tiruchi: futureValidity failed — expired display window",
+      "Residents raise concerns over the irregular drinking water supply in several parts of Tiruchi: alertUrgency failed — alert expired",
+      "Water level in Mettur Dam stands at 76.48 feet: futureValidity failed — expired display window",
+      "Water level in Mettur Dam stands at 76.48 feet: alertUrgency failed — alert expired",
+      "No drinking water supply in some parts of Tiruchi on July 9: futureValidity failed — expired display window"
     ],
     "actionRequired": [
-      "20 invalid/expired/duplicate Up Ahead item(s) suppressed",
-      "no active offer items in ranked Up Ahead set",
+      "17 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no ranked Up Ahead item for muscat",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
@@ -130,7 +129,8 @@
       "no ranked local/travel item for chennai",
       "no ranked local/travel item for trichy",
       "2 base-report-heavy Insight parent(s) demoted",
-      "buzz: no local Buzz item in ranked set"
+      "buzz: no local Buzz item in ranked set",
+      "buzz: no travel Buzz item in ranked set"
     ]
   },
   "sourceHealth": {
@@ -256,16 +256,16 @@
     },
     {
       "date": "2026-07-08",
-      "generatedAt": 1783512134493,
+      "generatedAt": 1783522078630,
       "insightGrade": "C",
       "insightScore": 0,
-      "totalStories": 650,
-      "usableStories36h": 643,
-      "sourceGroups": 9,
+      "totalStories": 742,
+      "usableStories36h": 712,
+      "sourceGroups": 10,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.3156,
+      "rankingOverallScore": 0.3099,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,
