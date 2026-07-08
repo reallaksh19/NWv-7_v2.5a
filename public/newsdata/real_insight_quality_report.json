@@ -1,20 +1,20 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1783493108883,
-  "contentHash": "c4f89c3387f7a9f5",
+  "generatedAt": 1783503939898,
+  "contentHash": "1959bdcf9342b377",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 591,
-  "sourceGroupCount": 9,
+  "storyCount": 646,
+  "sourceGroupCount": 10,
   "grade": "C",
   "parentCount": 10,
-  "avgAngles": 1.5,
+  "avgAngles": 1.6,
   "avgTemporalTiers": 2,
   "avgEvolutionRoles": 1.9,
-  "baseReportShare": 0.2857142857142857,
-  "multiAngleCount": 5,
-  "weakParentCount": 5,
+  "baseReportShare": 0.3333333333333333,
+  "multiAngleCount": 6,
+  "weakParentCount": 4,
   "runtimeQualityGate": {
     "attempted": false,
     "recovered": false,
@@ -23,60 +23,60 @@
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 47,
+      "signalScore": 50,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 539,
+      "storyCount": 583,
       "risingCount": 0,
-      "thinCount": 5,
-      "multiAngleCount": 5,
-      "lowAngleCount": 5,
+      "thinCount": 4,
+      "multiAngleCount": 6,
+      "lowAngleCount": 4,
       "strongAngleCount": 0,
-      "avgAngles": 1.5,
+      "avgAngles": 1.6,
       "avgChildren": 2.1,
-      "avgScore": 0.6263779708371121,
+      "avgScore": 0.6319129708371122,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 6,
-      "coverageLabel": "5/10",
+      "snapshotCoverage": 5,
+      "coverageLabel": "6/10",
       "warnings": [
-        "5 cluster(s) have fewer than two visible child angles.",
+        "4 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "4 cluster(s) have weak snapshot coverage.",
-        "5 cluster(s) are marked thin.",
-        "521 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "5 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) are marked thin.",
+        "631 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 47,
+      "signalScore": 50,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 539,
+      "storyCount": 583,
       "risingCount": 0,
-      "thinCount": 5,
-      "multiAngleCount": 5,
-      "lowAngleCount": 5,
+      "thinCount": 4,
+      "multiAngleCount": 6,
+      "lowAngleCount": 4,
       "strongAngleCount": 0,
-      "avgAngles": 1.5,
+      "avgAngles": 1.6,
       "avgChildren": 2.1,
-      "avgScore": 0.6263779708371121,
+      "avgScore": 0.6319129708371122,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 6,
-      "coverageLabel": "5/10",
+      "snapshotCoverage": 5,
+      "coverageLabel": "6/10",
       "warnings": [
-        "5 cluster(s) have fewer than two visible child angles.",
+        "4 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "4 cluster(s) have weak snapshot coverage.",
-        "5 cluster(s) are marked thin.",
-        "521 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "5 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) are marked thin.",
+        "631 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_89_295caf0cfb2c8fac",
+      "parentId": "cluster_154_295caf0cfb2c8fac",
       "headline": "Nato showcases big arms deals as Trump sulks",
       "score": 0.7209967197849984,
       "postTreeScore": 1.121,
@@ -97,7 +97,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_68_d7a85ce7d4c1167e",
+      "parentId": "cluster_133_d7a85ce7d4c1167e",
       "headline": "US official says latest attacks on Iran \"4-5 times bigger\" than last strikes: Report",
       "score": 0.61751,
       "postTreeScore": 1.0175,
@@ -118,7 +118,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_447_643d18269d89aec7",
+      "parentId": "cluster_520_643d18269d89aec7",
       "headline": "Trump says there will either be a deal with Iran or U.S. will ‘finish the job’",
       "score": 0.6265800531183316,
       "postTreeScore": 1.0066,
@@ -139,7 +139,28 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_82_5ca320c610bfe906",
+      "parentId": "cluster_1_9ee978a2bc32e8fb",
+      "headline": "Tehran targets Bahrain, Kuwait after US strikes and limits Iran's oil sales over ship attacks",
+      "score": 0.5935232802150019,
+      "postTreeScore": 0.9935,
+      "childCount": 2,
+      "angles": [
+        "fact_update",
+        "base_report"
+      ],
+      "temporalTiers": [
+        "developing",
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "fact_update",
+        "cause_claim"
+      ],
+      "baseReportShare": 0.5,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_147_5ca320c610bfe906",
       "headline": "BREAKING | Lawrence Bishnoi, Goldy Brar Charged In US Over Killing Of Hardeep Singh Nijjar | News18 - News18",
       "score": 0.5765933333333333,
       "postTreeScore": 0.9766,
@@ -160,7 +181,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_308_2461d5f072ec0fa1",
+      "parentId": "cluster_379_2461d5f072ec0fa1",
       "headline": "India, Indonesia expand defence ties; New Delhi to supply BrahMos missiles",
       "score": 0.5517727761127958,
       "postTreeScore": 0.9718,
@@ -182,7 +203,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_77_49c17873547aeb16",
+      "parentId": "cluster_142_49c17873547aeb16",
       "headline": "HUL's three-month return signals market strength",
       "score": 0.6814967197849984,
       "postTreeScore": 0.5715,
@@ -202,7 +223,27 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_421_70fb448d9468c0bd",
+      "parentId": "cluster_435_6435737a710295c9",
+      "headline": "PM Modi conferred with Indonesia's highest honour ‘Bintang Adipurna' in Jakarta",
+      "score": 0.6814967197849984,
+      "postTreeScore": 0.5715,
+      "childCount": 2,
+      "angles": [
+        "official_response"
+      ],
+      "temporalTiers": [
+        "developing",
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "corroboration",
+        "official_response"
+      ],
+      "baseReportShare": 0,
+      "weakTree": true
+    },
+    {
+      "parentId": "cluster_494_70fb448d9468c0bd",
       "headline": "Why Pakistan-based Hafiz Saeed is wanted in India? | Explained",
       "score": 0.6365800531183317,
       "postTreeScore": 0.5266,
@@ -220,27 +261,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_362_6435737a710295c9",
-      "headline": "PM Modi conferred with Indonesia's highest honour ‘Bintang Adipurna' in Jakarta",
-      "score": 0.61351,
-      "postTreeScore": 0.5235,
-      "childCount": 2,
-      "angles": [
-        "official_response"
-      ],
-      "temporalTiers": [
-        "developing",
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "corroboration",
-        "official_response"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_14_032f42d741ee26aa",
+      "parentId": "cluster_69_032f42d741ee26aa",
       "headline": "Baruipur rape-murder case: One key accused killed in police encounter",
       "score": 0.6325800531183317,
       "postTreeScore": 0.5226,
@@ -255,26 +276,6 @@
       "evolutionRoles": [
         "first_report",
         "corroboration"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_194_9f96d52233c6f8d1",
-      "headline": "Woman suspected of Monaco bomb attack found dead in Ukraine",
-      "score": 0.60616,
-      "postTreeScore": 0.5162,
-      "childCount": 2,
-      "angles": [
-        "fact_update"
-      ],
-      "temporalTiers": [
-        "developing",
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "corroboration",
-        "cause_claim"
       ],
       "baseReportShare": 0,
       "weakTree": true
@@ -303,7 +304,7 @@
       {
         "id": "avg-angle-count",
         "label": "Average visible angle count",
-        "actual": 1.5,
+        "actual": 1.6,
         "required": ">= 1.4"
       },
       {
@@ -321,13 +322,13 @@
       {
         "id": "base-report-share",
         "label": "Base report share",
-        "actual": 0.286,
+        "actual": 0.333,
         "required": "<= 0.55"
       },
       {
         "id": "multi-angle-parent-count",
         "label": "Multi-angle parent count",
-        "actual": 5,
+        "actual": 6,
         "required": ">= 1"
       },
       {
@@ -345,24 +346,24 @@
       {
         "id": "weak-parent-ratio",
         "label": "Weak parent ratio",
-        "actual": 0.5,
+        "actual": 0.4,
         "required": "<= 0.5"
       }
     ],
     "failed": [],
     "summary": {
       "parentCount": 10,
-      "avgAngles": 1.5,
+      "avgAngles": 1.6,
       "avgTemporalTiers": 2,
       "avgEvolutionRoles": 1.9,
-      "baseReportShare": 0.286,
-      "multiAngleCount": 5,
-      "weakParentCount": 5,
-      "weakParentRatio": 0.5,
+      "baseReportShare": 0.333,
+      "multiAngleCount": 6,
+      "weakParentCount": 4,
+      "weakParentRatio": 0.4,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 591,
-      "sourceGroupCount": 9
+      "storyCount": 646,
+      "sourceGroupCount": 10
     }
   }
 }

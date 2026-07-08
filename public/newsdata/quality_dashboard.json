@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1783493110370,
+  "generatedAt": 1783503941457,
   "windowDays": 7,
   "latest": {
     "insightGrade": "C",
     "insightScore": 0,
-    "totalStories": 591,
-    "usableStories36h": 575,
-    "sourceGroups": 9,
+    "totalStories": 646,
+    "usableStories36h": 618,
+    "sourceGroups": 10,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.3103,
+    "rankingOverallScore": 0.3144,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.3103,
+    "overallScore": 0.3144,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1783493109613,
+    "generatedAt": 1783503940603,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.4,
+      "insight": 0.3983,
       "localTravel": 0,
-      "upAhead": 0.8413
+      "upAhead": 0.8592
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.4,
+        "score": 0.3983,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.8413,
+        "score": 0.8592,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -78,7 +78,7 @@
         "strongParents": 10,
         "weakParentsDemoted": 0,
         "avgAnglesPerParent": 0,
-        "baseReportHeavyParents": 3,
+        "baseReportHeavyParents": 2,
         "duplicateChildrenSuppressed": 0
       },
       "localTravel": {
@@ -92,36 +92,36 @@
       },
       "upAhead": {
         "rankedItemCount": 30,
-        "suppressedItemCount": 33,
+        "suppressedItemCount": 20,
         "events": 0,
-        "onlineOffers": 1,
-        "offlineOffers": 6,
-        "alerts": 23,
+        "onlineOffers": 0,
+        "offlineOffers": 0,
+        "alerts": 30,
         "festivals": 0,
         "locationsCovered": [
           "chennai",
-          "muscat",
-          "online",
           "trichy"
         ]
       }
     },
     "topFindings": [
-      "Crack in railway track slows down operation of suburban trains in Chennai: futureValidity failed — expired display window",
-      "Crack in railway track slows down operation of suburban trains in Chennai: alertUrgency failed — alert expired",
-      "A legacy of musical instrumentation flows quietly in Srirangam: futureValidity failed — expired display window",
-      "A legacy of musical instrumentation flows quietly in Srirangam: alertUrgency failed — alert expired",
+      "Amazon Raises at Least $25 Billion Through Bond Sale - Let's Data Science: location failed — offline/local item lacks configured location match",
+      "The implications of Amazon's $25B bond sale, and Microsoft's evolving AI model strategy - CNBC: location failed — offline/local item lacks configured location match",
+      "Al Buraimi expands internal road network, civic spaces - Oman Observer: futureValidity failed — expired display window",
+      "Al Buraimi expands internal road network, civic spaces - Oman Observer: alertUrgency failed — alert expired",
+      "Lakeside snack stall in Madipakkam bolstered by an indomitable spirit: futureValidity failed — expired display window",
+      "Lakeside snack stall in Madipakkam bolstered by an indomitable spirit: alertUrgency failed — alert expired",
       "Riyadh Air Opens Mumbai Ticket Sales as India and Saudi Arabia Strengthen Daily Boeing 787-9 Connectivity with Faster Access to Europe, Business Travel and Tourism Opportunities—What Travellers Should Know Before Booking - Travel And Tour World: location failed — offline/local item lacks configured location match",
-      "Assisted by his wife, curd pot maker in Chennai supplies stock regularly to star hotel: futureValidity failed — expired display window",
-      "Assisted by his wife, curd pot maker in Chennai supplies stock regularly to star hotel: alertUrgency failed — alert expired",
-      "Chief Minister Vijay visits desalination plants and drinks water: futureValidity failed — expired display window",
-      "Chief Minister Vijay visits desalination plants and drinks water: alertUrgency failed — alert expired",
-      "Attempt to ‘bribe’ TVK MLA: Senthilbalaji, his brother fail to appear for inquiry: futureValidity failed — expired display window",
-      "Attempt to ‘bribe’ TVK MLA: Senthilbalaji, his brother fail to appear for inquiry: alertUrgency failed — alert expired",
-      "Chief Minister Vijay visits desalination plants at Nemmeli: futureValidity failed — expired display window"
+      "Air India launches “Priceless Journey Sale” with Business Class fares from INR 15,000 and Economy from INR 1,499 - Live From A Lounge: location failed — offline/local item lacks configured location match",
+      "Amazon Prime Day Bluetooth and Party Speaker Deals 2026: Best Offers on JBL, Sony and Boat Speakers - Gadgets 360: location failed — offline/local item lacks configured location match",
+      "Air India Express Launches Xplore More Sale With 15 Percent Discounts on Asia and Middle East Flights 2026 - Nomad Lawyer: location failed — offline/local item lacks configured location match",
+      "Amazon Prime Day sale 2026: From OnePlus to Xiaomi, here are top 5 Android tablets deals - Business Today: futureValidity failed — expired display window",
+      "Amazon Prime Day sale 2026: From OnePlus to Xiaomi, here are top 5 Android tablets deals - Business Today: location failed — offline/local item lacks configured location match"
     ],
     "actionRequired": [
-      "33 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "20 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "no active offer items in ranked Up Ahead set",
+      "no ranked Up Ahead item for muscat",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
       "no active local/travel disruption item",
@@ -129,10 +129,8 @@
       "no ranked local/travel item for muscat",
       "no ranked local/travel item for chennai",
       "no ranked local/travel item for trichy",
-      "3 base-report-heavy Insight parent(s) demoted",
-      "buzz: no local Buzz item in ranked set",
-      "buzz: no travel Buzz item in ranked set",
-      "insight: 3 base-report-heavy Insight parent(s) demoted"
+      "2 base-report-heavy Insight parent(s) demoted",
+      "buzz: no local Buzz item in ranked set"
     ]
   },
   "sourceHealth": {
@@ -258,16 +256,16 @@
     },
     {
       "date": "2026-07-08",
-      "generatedAt": 1783493110370,
+      "generatedAt": 1783503941457,
       "insightGrade": "C",
       "insightScore": 0,
-      "totalStories": 591,
-      "usableStories36h": 575,
-      "sourceGroups": 9,
+      "totalStories": 646,
+      "usableStories36h": 618,
+      "sourceGroups": 10,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.3103,
+      "rankingOverallScore": 0.3144,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,
