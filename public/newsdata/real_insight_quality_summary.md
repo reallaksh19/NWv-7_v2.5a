@@ -10,15 +10,15 @@
 - Base report share: `0.3333333333333333`
 - Multi-angle parents: `6`
 - Weak parents: `4`
-- Story count: `646`
-- Source groups: `10`
-- Content hash: `1959bdcf9342b377`
+- Story count: `650`
+- Source groups: `9`
+- Content hash: `649108e77d544df1`
 
 ## Top parents
 
 | # | Headline | Children | Angles | Weak | Score |
 |---:|---|---:|---|---|---:|
-| 1 | Nato showcases big arms deals as Trump sulks | 2 | base_report, official_response | NO | 0.7209967197849984 |
+| 1 | Nato showcases big arms deals as Trump sulks | 2 | base_report, official_response | NO | 0.6769967197849983 |
 | 2 | US official says latest attacks on Iran "4-5 times bigger" than last strikes: Report | 2 | base_report, official_response | NO | 0.61751 |
 | 3 | Trump says there will either be a deal with Iran or U.S. will ‘finish the job’ | 2 | base_report, official_response | NO | 0.6265800531183316 |
 | 4 | Tehran targets Bahrain, Kuwait after US strikes and limits Iran's oil sales over ship attacks | 2 | fact_update, base_report | NO | 0.5935232802150019 |
