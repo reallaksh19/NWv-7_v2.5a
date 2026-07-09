@@ -1,22 +1,115 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783591537919,
-  "contentHash": "5f6ecbf09839",
+  "fetchedAt": 1783612045098,
+  "contentHash": "bb87ea237e00",
   "breaking": [
     {
-      "title": "US and Iran trade strikes for second night in a row after Trump declares ceasefire 'over'",
-      "summary": "Traffic through the Strait of Hormuz has dropped 'dramatically' since the lastest attacks began.",
+      "title": "Target vs target: What US hit in Iran, and what Tehran struck in response",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132289879.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />The fragile ceasefire between the United States and Iran has collapsed after fresh military strikes. Both nations launched attacks, expanding the conflict across the Gulf region. Iran targeted US air defence systems and facilities in several Middle Eastern countries. The United States struck approximately ninety military sites across Iran. These exchanges marked the biggest breach of the truce since April.",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/target-vs-target-what-us-hit-in-iran-and-what-tehran-struck-in-response/articleshow/132289879.cms",
+      "publishedAt": 1783611252000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "b60641ba91ccc861",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 6.982,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "times_of_india"
+      ],
+      "firstSeen": 1783611252000
+    },
+    {
+      "title": "Tehran launches more strikes after explosions reported in southern Iran",
+      "summary": "Centcom says it hit 90 Iranian targets in the latest round of strikes, with the Iranian health ministry saying 14 people were killed since Tuesday.",
       "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783590801000,
+      "publishedAt": 1783603796000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "88234a74264f389b",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.483,
+      "breakingScore": 5.309,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "the_hindu"
+      ],
+      "firstSeen": 1783587863000
+    },
+    {
+      "title": "Iran Health Ministry says 14 killed in two days of U.S. strikes",
+      "summary": "Tehran's Health Ministry reported that 14 people were killed and 78 injured",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/iran-health-ministry-reports-casualities-over-us-strikes/article71201364.ece",
+      "publishedAt": 1783597007000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "f96b767fa7c0fd2a",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.152,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1783597007000
+    },
+    {
+      "title": "Six delivery boys killed, three injured in MUV-truck collision in Uttara Kannada district in Karnataka",
+      "summary": "The deceased have been identified as the driver Sanjeev Angadi (33), Basappa (38), Abhishek Eshwar (28), Akshay( 26), Abhishek (27), Manjunath Chulaki(33), all from Dharwad",
+      "source": "The Hindu National",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/karnataka/six-killed-three-injured-in-muv-truck-collision-in-karnatakas-uttara-kannada/article71200827.ece",
+      "publishedAt": 1783610542000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "e39334512970f266",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.965,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1783610542000
+    },
+    {
+      "title": "Ukraine strikes Russian ships near Crimea, escalating attacks on fuel supplies",
+      "summary": "The attacks appear to be the latest phase of Ukraine's bid to choke off supplies and routes into and out of occupied Crimea.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783610477000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "7b72243c3a2e79ba",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.964,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -24,168 +117,76 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1783590801000
+      "firstSeen": 1783610477000
     },
     {
-      "title": "West Asia war LIVE: Iran to bury slain Supreme Leader Khamenei in culmination of mass funeral",
-      "summary": "The U.S. launches new airstrikes on Iran, while Tehran fires back at three Gulf Arab states in the fight over the Strait of Hormuz",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-missile-strikes-strait-of-hormuz-oil-price-donald-trump-mojtaba-khamenei-netanyahu-peace-deal/article71200749.ece",
-      "publishedAt": 1783590119000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "7c6f69450472864c",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.467,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783590119000
-    },
-    {
-      "title": "2 Dead, 4 Injured After Massive Landslide Near Tezu In Arunachal Pradesh",
-      "summary": "The victims are believed to be labourers engaged in a local construction project in the area.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/2-dead-4-injured-after-massive-landslide-near-tezu-in-arunachal-pradesh-11747527#publisher=newsstand",
-      "publishedAt": 1783577556000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "0d0cbdc9099c99e5",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.176,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783577556000
-    },
-    {
-      "title": "Six killed, three injured in MUV-truck collision in Uttara Kannada district in Karnataka",
-      "summary": "The deceased have been identified as the driver Sanjeev Angadi (33), Basappa (38), Abhishek Eshwar (28), Akshay( 26), Abhishek (27), Manjunath Chulaki(33), all from Dharwad",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/karnataka/six-killed-three-injured-in-muv-truck-collision-in-karnatakas-uttara-kannada/article71200827.ece",
-      "publishedAt": 1783591464000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "e39334512970f266",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.998,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783591464000
-    },
-    {
-      "title": "Navy's Drishti-10 UAV crashes near Gujarat’s Porbandar; inquiry ordered",
-      "summary": "No reports of injuries or casualties on the ground; the mishap is the second involving the Hermes-900-based platform in about 18 months",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/navys-drishti-10-uav-crashes-near-gujarats-porbandar-inquiry-ordered/article71201737.ece",
-      "publishedAt": 1783591338000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "d620186ce897001e",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.995,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783591338000
-    },
-    {
-      "title": "Century-old clock tower partially collapses at Kozhikode railway station; none injured",
-      "summary": "Though there were people on the platform at the time, a major disaster was narrowly averted as no one was directly beneath the structure when it gave way",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/kerala/century-old-clock-tower-partially-collapses-at-kozhikode-railway-station-no-injuries/article71201233.ece",
-      "publishedAt": 1783590960000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "c403aa2b8916b203",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.987,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783590960000
-    },
-    {
-      "title": "\"US Bases Our Problem, Not Neighbours\": Iranian Experts On Middle East Attacks",
-      "summary": "Iranian experts said that Khamenei's death in the US-Israel strikes has \"united the people of Iran\".",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-bases-our-problem-not-neighbours-iranian-experts-on-middle-east-attacks-us-iran-war-ali-khamenei-funeral-11747881#publisher=newsstand",
-      "publishedAt": 1783581891000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "daa4524e429fc6a5",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.777,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783581891000
-    },
-    {
-      "title": "Bandar Abbas: The port city at the centre of the Iran-U.S. war",
-      "summary": "Why is Bandar Abbas under attack? Iran’s naval hub and commercial gateway handling nearly 90% of its maritime trade has become a focal point in the Iran-U.S. war. Here’s why the port city matters",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/bandar-abbas-port-city-explainer-us-iran-war-west-asia-conflict-strait-of-hormuz-economic-significance/article71201075.ece",
-      "publishedAt": 1783577759000,
+      "title": "Big drop in ships going through Strait of Hormuz after latest strikes",
+      "summary": "Data shows a decline in the number of ships - many carrying oil and gas - going through the waterway after attacks this week.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c621k5r8764o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783608114000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "45439f71639486a1",
+      "id": "736f2018f7a2842d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.681,
+      "breakingScore": 3.909,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "the_hindu"
+        "bbc"
       ],
-      "firstSeen": 1783577759000
+      "firstSeen": 1783608114000
+    },
+    {
+      "title": "Woman Doctor Slapped By Corporator Resigns After Colleague Quit Due To \"Fear\"",
+      "summary": "KDMC (Kalyan-Dombivli Municipal Corporation) Chief Medical Officer Dr. Deepa Shukla, however, said doctors Vaibhav Salunkhe and Srushti Baviskar have not submitted their resignations.",
+      "source": "NDTV India",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/ramesh-mhatre-dombivali-thane-woman-doctor-assaulted-by-sena-man-resigns-after-colleague-quits-due-to-fear-11749287#publisher=newsstand",
+      "publishedAt": 1783604948000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "0a0d33c1112fa90e",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.836,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1783604948000
+    },
+    {
+      "title": "Video: Over 900 Snakes Break Free Amid China Floods, Woman Dead, Many Bitten",
+      "summary": "The snakes that escaped from the farms include venomous species, including cobras.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/china-snake-escape-video-over-900-snakes-break-free-amid-china-floods-woman-dead-many-bitten-11749569#publisher=newsstand",
+      "publishedAt": 1783601811000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "0210a2c042642b4f",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.763,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1783601811000
     }
   ]
 }
