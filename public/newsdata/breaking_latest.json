@@ -1,33 +1,102 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783554425048,
-  "contentHash": "43810a525126",
+  "fetchedAt": 1783564600162,
+  "contentHash": "1f8f57f26c0c",
   "breaking": [
     {
-      "title": "US-Iran War Live Updates: US Launches New Strikes Against Iran",
-      "summary": "The US also revoked a sanctions waiver for Iranian oil.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-live-updates-us-strikes-iran-after-tanker-attacks-in-hormuz-donald-trump-nato-israel-lebanon-hezbollah-ceasefire-11741497#publisher=newsstand",
-      "publishedAt": 1783550291000,
+      "title": "US launches more strikes on Iran with blasts reported in south of country",
+      "summary": "Trump says the attacks are \"retribution for yesterday's bombing of ships by Iran\". Iran earlier promised strong retaliation.",
+      "source": "BBC",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783562274000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "88234a74264f389b",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 6.946,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1783562274000
+    },
+    {
+      "title": "West Asia War highlights: Trump says fresh strikes on Iran retribution for attacks on ships",
+      "summary": "Donald Trump said U.S. would hit Iran \"hard\", though he expected the latest military flare-up to end quickly and left the door open to more talks",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-after-iran-strikes-strait-of-hormuz-donald-trump-netanyahu-mojtaba-lebanon-hezboallah-peace-deal/article71196409.ece",
+      "publishedAt": 1783564001000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "1c525fef0b22450e",
+      "id": "e00582ec868423a1",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.904,
+      "breakingScore": 5.486,
       "breakingReasons": [
-        "multi_source_velocity",
         "severity_lexicon"
       ],
       "sourceCount": 3,
       "allSources": [
-        "bbc",
+        "economic_times",
         "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1783546763000
+      "firstSeen": 1783536990000
+    },
+    {
+      "title": "2 girls attacked with weapon at Germany school, teenager arrested",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132275189.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/europe/2-girls-attacked-with-weapon-at-germany-school-teenager-arrested/articleshow/132275189.cms",
+      "publishedAt": 1783562475000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "3ef9490213562868",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.951,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "times_of_india"
+      ],
+      "firstSeen": 1783523348000
+    },
+    {
+      "title": "Iran To Bury Supreme Leader Ali Khamenei Today In Hometown Amid US Strikes",
+      "summary": "Khamenei was killed on February 28, the first day of the US-Israeli strikes that started the war.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/iran-to-bury-supreme-leader-ali-khamenei-today-in-hometown-amid-us-strikes-11746632#publisher=newsstand",
+      "publishedAt": 1783557071000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "249a94d8958a45a1",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.826,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1783557071000
     },
     {
       "title": "US Ramps Up Attacks On Iran Amid Ongoing Talks. What Next?",
@@ -42,7 +111,7 @@
       "id": "6fce9db392e26ff5",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.961,
+      "breakingScore": 3.726,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -51,54 +120,6 @@
         "ndtv"
       ],
       "firstSeen": 1783552750000
-    },
-    {
-      "title": "US Bombing To \"Get Much Worse\" If Iran Doesn't Halt Attacks, Warns Trump",
-      "summary": "Trump returns from NATO Summit in Turkey, Wednesday.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/iran-war-us-bombing-to-get-much-worse-if-iran-doesnt-halt-attacks-warns-trump-11746555#publisher=newsstand",
-      "publishedAt": 1783551043000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "4e02a2b7d2f4b0df",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.922,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 3,
-      "allSources": [
-        "ndtv",
-        "the_hindu",
-        "times_of_india"
-      ],
-      "firstSeen": 1783532948000
-    },
-    {
-      "title": "One killed in Rohini building collapse; more feared trapped",
-      "summary": "Owner’s husband also suspected to be trapped under rubble of under-construction building; rescue operation will continue through night, at least 4-5 construction workers feared trapped, say police",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/Delhi/one-killed-in-rohini-building-collapse-more-feared-trapped/article71199837.ece",
-      "publishedAt": 1783539545000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "123b04b4cc5fb4df",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.656,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783539545000
     },
     {
       "title": "Keir Starmer Claims Turkey's Erdogan Gifted Pistols To Fellow NATO Leaders",
@@ -113,7 +134,7 @@
       "id": "fe13f7724a76b082",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.848,
+      "breakingScore": 2.612,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -137,7 +158,7 @@
       "id": "ba82a2b1e765116a",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.715,
+      "breakingScore": 2.479,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -149,51 +170,27 @@
       "firstSeen": 1783538939000
     },
     {
-      "title": "In US' Major H-1B Fraud Probe, Trump Official's Cognizant Mention",
-      "summary": "H-1B visa refers to a non-immigrant work permit that US employers use to hire professionals.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/in-us-major-h-1b-fraud-probe-trump-officials-cognizant-mention-11746201#publisher=newsstand",
-      "publishedAt": 1783535602000,
+      "title": "Chandigarh police bust Pakistan -linked narco terror network after raids in border districts, 3 held",
+      "summary": "Chandigarh Police have also formally arrested the main conspirator of narco terror network, members of which were allegedly involved in the cashier's killing",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/punjab/chandigarh-police-bust-pakistan-linked-narco-terror-network-after-raids-in-border-districts-3-held/article71200746.ece",
+      "publishedAt": 1783559392000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "fa2df1af64c43e8f",
+      "id": "03c31c48a466a4f8",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.564,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "times_of_india"
-      ],
-      "firstSeen": 1783533586000
-    },
-    {
-      "title": "Who was Pedro Alexander Díaz Franco? Teen streamer’s body found in trash bags after alleged kidnapping in Honduras",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132273001.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Pedro Alexander Díaz Franco, a 15-year-old TikTok streamer from Honduras, was found dead a day after he was reported missing. According to Dexerto and local reports, he was allegedly taken by armed men from a soccer field. Authorities later identified him through physical markers. No motive has been confirmed, and the investigation remains ongoing.",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/us-streamers/who-was-pedro-alexander-daz-franco-teen-streamers-body-found-in-trash-bags-after-alleged-kidnapping-in-honduras/articleshow/132273001.cms",
-      "publishedAt": 1783548174000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "e9eb73cd0b20b553",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.355,
+      "breakingScore": 2.379,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "times_of_india"
+        "the_hindu"
       ],
-      "firstSeen": 1783548174000
+      "firstSeen": 1783559392000
     }
   ]
 }
