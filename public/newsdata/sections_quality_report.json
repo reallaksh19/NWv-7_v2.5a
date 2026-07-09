@@ -1,8 +1,8 @@
 {
-  "contentHash": "d620e62ac452",
+  "contentHash": "611b46423b9d",
   "errors": [],
-  "fetchedAt": 1783626019799,
-  "generatedAt": 1783626030937,
+  "fetchedAt": 1783632035876,
+  "generatedAt": 1783632046714,
   "schemaVersion": 2,
   "sectionCount": 10,
   "sectionHealth": {
@@ -18,24 +18,24 @@
           "sourceGroup": "business_line"
         },
         {
-          "count": 9,
+          "count": 11,
           "sourceGroup": "economic_times"
         },
         {
-          "count": 6,
+          "count": 4,
           "sourceGroup": "google_news"
         }
       ]
     },
     "entertainment": {
       "qualitySourceGroupCount": 1,
-      "qualityStoryCount": 20,
+      "qualityStoryCount": 19,
       "sourceGroupCount": 1,
-      "storyCount": 20,
+      "storyCount": 19,
       "thin": true,
       "topSources": [
         {
-          "count": 20,
+          "count": 19,
           "sourceGroup": "google_news"
         }
       ]
@@ -52,11 +52,11 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 5,
+          "count": 7,
           "sourceGroup": "times_of_india"
         },
         {
-          "count": 5,
+          "count": 3,
           "sourceGroup": "ndtv"
         }
       ]
@@ -86,15 +86,15 @@
       "thin": false,
       "topSources": [
         {
-          "count": 14,
+          "count": 17,
           "sourceGroup": "bbc"
         },
         {
-          "count": 12,
+          "count": 11,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 4,
+          "count": 2,
           "sourceGroup": "google_news"
         }
       ]
@@ -199,7 +199,7 @@
   },
   "sourceGroupCount": 11,
   "status": "WARN",
-  "storyCount": 290,
+  "storyCount": 289,
   "thresholds": {
     "expectedRetainHours": 36,
     "minSectionSourceGroups": 2,
@@ -222,7 +222,7 @@
     "Section entertainment has weak source diversity: 1 source group(s)"
   ],
   "window": {
-    "cutoffAt": 1783496419799,
+    "cutoffAt": 1783502435876,
     "retainHours": 36
   }
 }
