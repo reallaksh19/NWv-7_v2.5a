@@ -1,28 +1,28 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1783544733299,
+  "generatedAt": 1783555666690,
   "windowDays": 7,
   "latest": {
     "insightGrade": "D",
     "insightScore": 0,
-    "totalStories": 695,
-    "usableStories36h": 687,
+    "totalStories": 640,
+    "usableStories36h": 625,
     "sourceGroups": 9,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.3105,
+    "rankingOverallScore": 0.3122,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.3105,
+    "overallScore": 0.3122,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1783544732508,
+    "generatedAt": 1783555665947,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.3918,
+      "insight": 0.3988,
       "localTravel": 0,
       "upAhead": 0.8502
     },
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.3918,
+        "score": 0.3988,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -92,7 +92,7 @@
       },
       "upAhead": {
         "rankedItemCount": 30,
-        "suppressedItemCount": 17,
+        "suppressedItemCount": 18,
         "events": 0,
         "onlineOffers": 0,
         "offlineOffers": 2,
@@ -119,7 +119,7 @@
       "Suspended police Inspector held for alleged role in investment fraud: alertUrgency failed — alert expired"
     ],
     "actionRequired": [
-      "17 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "18 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no ranked Up Ahead item for muscat",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
@@ -152,23 +152,6 @@
     "avgRankingWeakDestinations7d": 4
   },
   "history": [
-    {
-      "date": "2026-07-02",
-      "generatedAt": 1783026208699,
-      "insightGrade": "D",
-      "insightScore": 0,
-      "totalStories": 674,
-      "usableStories36h": 651,
-      "sourceGroups": 10,
-      "angleHintCoverage": 1,
-      "sectionsTotalStories": 0,
-      "sectionsCount": 10,
-      "rankingOverallScore": 0.3043,
-      "rankingOverallStatus": "FAIL",
-      "sourceUptimePercent": 0,
-      "angleDiversityScore": 0,
-      "rankingWeakDestinationCount": 4
-    },
     {
       "date": "2026-07-03",
       "generatedAt": 1783112590124,
@@ -266,6 +249,23 @@
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
       "rankingOverallScore": 0.3105,
+      "rankingOverallStatus": "FAIL",
+      "sourceUptimePercent": 0,
+      "angleDiversityScore": 0,
+      "rankingWeakDestinationCount": 4
+    },
+    {
+      "date": "2026-07-09",
+      "generatedAt": 1783555666690,
+      "insightGrade": "D",
+      "insightScore": 0,
+      "totalStories": 640,
+      "usableStories36h": 625,
+      "sourceGroups": 9,
+      "angleHintCoverage": 1,
+      "sectionsTotalStories": 0,
+      "sectionsCount": 10,
+      "rankingOverallScore": 0.3122,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,

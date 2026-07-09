@@ -10,9 +10,9 @@
 - Base report share: `0.09523809523809523`
 - Multi-angle parents: `4`
 - Weak parents: `6`
-- Story count: `695`
+- Story count: `640`
 - Source groups: `9`
-- Content hash: `1b133bf38f3d86f9`
+- Content hash: `924e2c6400bcbae4`
 
 ## Top parents
 
@@ -26,7 +26,7 @@
 | 6 | Woman suspected of Monaco bomb attack found dead in Ukraine | 2 | fact_update | YES | 0.6741467197849984 |
 | 7 | Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times - The Economic Times | 3 | fact_update | YES | 0.6438820680115994 |
 | 8 | Baruipur rape-murder case: One key accused killed in police encounter | 2 | fact_update | YES | 0.6325800531183317 |
-| 9 | Trump says ceasefire is 'over' after US and Iran trade strikes | 2 | official_response | YES | 0.5492732802150018 |
+| 9 | Trump says ceasefire is 'over' after US and Iran trade strikes | 2 | official_response | YES | 0.6052599999999999 |
 | 10 | Trump's Board of Peace planning pilot humanitarian zone in Gaza, official says | 2 | official_response | YES | 0.5195933333333334 |
 
 ## Warnings

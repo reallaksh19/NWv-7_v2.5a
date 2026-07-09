@@ -1,11 +1,11 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1783544731793,
-  "contentHash": "1b133bf38f3d86f9",
+  "generatedAt": 1783555665260,
+  "contentHash": "924e2c6400bcbae4",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 695,
+  "storyCount": 640,
   "sourceGroupCount": 9,
   "grade": "D",
   "parentCount": 10,
@@ -23,10 +23,10 @@
       "grade": "D",
       "tone": "danger",
       "title": "Weak insight signal",
-      "signalScore": 43,
+      "signalScore": 44,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 635,
+      "storyCount": 585,
       "risingCount": 1,
       "thinCount": 6,
       "multiAngleCount": 4,
@@ -34,26 +34,26 @@
       "strongAngleCount": 0,
       "avgAngles": 1.4,
       "avgChildren": 2.1,
-      "avgScore": 0.6253548894033262,
+      "avgScore": 0.6309535613818259,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 4,
+      "snapshotCoverage": 5,
       "coverageLabel": "4/10",
       "warnings": [
         "6 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "6 cluster(s) have weak snapshot coverage.",
+        "5 cluster(s) have weak snapshot coverage.",
         "6 cluster(s) are marked thin.",
-        "601 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "551 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "D",
       "tone": "danger",
       "title": "Weak insight signal",
-      "signalScore": 43,
+      "signalScore": 44,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 635,
+      "storyCount": 585,
       "risingCount": 1,
       "thinCount": 6,
       "multiAngleCount": 4,
@@ -61,14 +61,14 @@
       "strongAngleCount": 0,
       "avgAngles": 1.4,
       "avgChildren": 2.1,
-      "avgScore": 0.6253548894033262,
+      "avgScore": 0.6309535613818259,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 4,
+      "snapshotCoverage": 5,
       "coverageLabel": "4/10",
       "warnings": [
         "6 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "6 cluster(s) have weak snapshot coverage.",
+        "5 cluster(s) have weak snapshot coverage.",
         "6 cluster(s) are marked thin.",
         "1 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
@@ -84,7 +84,7 @@
   },
   "parents": [
     {
-      "parentId": "cluster_206_9ee978a2bc32e8fb",
+      "parentId": "cluster_223_9ee978a2bc32e8fb",
       "headline": "Tehran targets Bahrain, Kuwait after US strikes and limits Iran's oil sales over ship attacks",
       "score": 0.6934967197849984,
       "postTreeScore": 1.0735,
@@ -105,7 +105,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_195_1b10261cf8ec84d2",
+      "parentId": "cluster_211_1b10261cf8ec84d2",
       "headline": "New U.S. attacks on Iran were absolutely necessary, NATO chief says",
       "score": 0.6052599999999999,
       "postTreeScore": 1.0053,
@@ -126,7 +126,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_90_6eb8a77397386bc0",
+      "parentId": "cluster_105_6eb8a77397386bc0",
       "headline": "'Lust for murder': German doctor who killed 15 patients gets life term; suspected in 76 more deaths",
       "score": 0.59211,
       "postTreeScore": 0.9921,
@@ -146,7 +146,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_355_5ca320c610bfe906",
+      "parentId": "cluster_373_5ca320c610bfe906",
       "headline": "BREAKING | Lawrence Bishnoi, Goldy Brar Charged In US Over Killing Of Hardeep Singh Nijjar | News18 - News18",
       "score": 0.5765933333333333,
       "postTreeScore": 0.9766,
@@ -167,7 +167,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_142_6e34de537b5024bc",
+      "parentId": "cluster_157_6e34de537b5024bc",
       "headline": "Nuvama, Cushman & Wakefield-backed realty fund raises Rs 4,000 cr",
       "score": 0.7666133864516651,
       "postTreeScore": 0.6566,
@@ -186,7 +186,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_476_9f96d52233c6f8d1",
+      "parentId": "cluster_498_9f96d52233c6f8d1",
       "headline": "Woman suspected of Monaco bomb attack found dead in Ukraine",
       "score": 0.6741467197849984,
       "postTreeScore": 0.5641,
@@ -206,7 +206,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_129_b590bcbb384b724e",
+      "parentId": "cluster_144_b590bcbb384b724e",
       "headline": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times - The Economic Times",
       "score": 0.6438820680115994,
       "postTreeScore": 0.5539,
@@ -226,7 +226,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_278_032f42d741ee26aa",
+      "parentId": "cluster_296_032f42d741ee26aa",
       "headline": "Baruipur rape-murder case: One key accused killed in police encounter",
       "score": 0.6325800531183317,
       "postTreeScore": 0.5226,
@@ -246,10 +246,10 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_176_848546e594a7304f",
+      "parentId": "cluster_191_848546e594a7304f",
       "headline": "Trump says ceasefire is 'over' after US and Iran trade strikes",
-      "score": 0.5492732802150018,
-      "postTreeScore": 0.4393,
+      "score": 0.6052599999999999,
+      "postTreeScore": 0.5153,
       "childCount": 2,
       "angles": [
         "official_response"
@@ -266,7 +266,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_45_3300dd31e0455d75",
+      "parentId": "cluster_60_3300dd31e0455d75",
       "headline": "Trump's Board of Peace planning pilot humanitarian zone in Gaza, official says",
       "score": 0.5195933333333334,
       "postTreeScore": 0.4296,
@@ -372,7 +372,7 @@
       "weakParentRatio": 0.6,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 695,
+      "storyCount": 640,
       "sourceGroupCount": 9
     }
   }
