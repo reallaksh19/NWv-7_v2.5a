@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1783617669804,
+  "generatedAt": 1783626030875,
   "policyVersion": "section-source-policy-v1",
   "reportVersion": "section-source-policy-report-v1",
   "schemaVersion": 1,
   "sectionQuality": {
     "business": {
-      "sourceGroupCount": 2,
+      "sourceGroupCount": 3,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -16,12 +16,16 @@
       ],
       "topSources": [
         {
-          "count": 18,
+          "count": 15,
           "sourceGroup": "business_line"
         },
         {
-          "count": 12,
+          "count": 9,
           "sourceGroup": "economic_times"
+        },
+        {
+          "count": 6,
+          "sourceGroup": "google_news"
         }
       ]
     },
@@ -100,11 +104,11 @@
       ],
       "topSources": [
         {
-          "count": 16,
+          "count": 14,
           "sourceGroup": "bbc"
         },
         {
-          "count": 10,
+          "count": 12,
           "sourceGroup": "the_hindu"
         },
         {
@@ -125,11 +129,11 @@
       ],
       "topSources": [
         {
-          "count": 17,
+          "count": 18,
           "sourceGroup": "gadgets360"
         },
         {
-          "count": 11,
+          "count": 10,
           "sourceGroup": "google_news"
         },
         {
@@ -175,12 +179,12 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 8,
-          "sourceGroup": "economic_times"
+          "count": 9,
+          "sourceGroup": "ndtv"
         },
         {
-          "count": 2,
-          "sourceGroup": "ndtv"
+          "count": 1,
+          "sourceGroup": "economic_times"
         }
       ]
     },
@@ -401,7 +405,7 @@
       "configuredFeeds": 3,
       "health": {
         "feedUrl": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "items": 19,
+        "items": 20,
         "ok": true,
         "section": "sports"
       },
@@ -674,7 +678,7 @@
       "configuredFeeds": 1,
       "health": {
         "feedUrl": "https://www.moneycontrol.com/rss/latestnews.xml",
-        "items": 0,
+        "items": 15,
         "ok": true,
         "section": "business"
       },
