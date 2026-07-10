@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783719320835,
-  "contentHash": "1d2cf80be646",
+  "fetchedAt": 1783723182678,
+  "contentHash": "55a8e089c941",
   "breaking": [
     {
       "title": "Pakistan launches crackdown after Balochistan attacks, claims 75 BLA militants killed",
@@ -16,7 +16,7 @@
       "id": "d69832056ab49a80",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.167,
+      "breakingScore": 5.078,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -25,6 +25,29 @@
         "times_of_india"
       ],
       "firstSeen": 1783704950000
+    },
+    {
+      "title": "Iran Must End Hormuz Ship Attacks, Keep Lanes Open: US Officials",
+      "summary": "Three ships were attacked this week, prompting Trump to respond with US strikes on Iranian targets.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/iran-must-end-hormuz-ship-attacks-keep-lanes-open-us-officials-11756170#publisher=newsstand",
+      "publishedAt": 1783719098000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "74ee969fd77e1fee",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.905,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1783719098000
     },
     {
       "title": "NIA names three more accused in supplementary charge sheet in Red Fort area blast case",
@@ -39,7 +62,7 @@
       "id": "8b92b06b6b307bff",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.881,
+      "breakingScore": 3.792,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -62,7 +85,7 @@
       "id": "681fad2deaf76d4d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.707,
+      "breakingScore": 3.618,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -85,7 +108,7 @@
       "id": "9074c1f7b461462f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.702,
+      "breakingScore": 3.612,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -108,7 +131,7 @@
       "id": "333d114643518966",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.68,
+      "breakingScore": 3.59,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -117,29 +140,6 @@
         "the_hindu"
       ],
       "firstSeen": 1783705489000
-    },
-    {
-      "title": "1 Killed, 11,000 In Relief Camps As Flash Floods Batter Tripura",
-      "summary": "The floods have damaged 4,027 houses",
-      "source": "NDTV India",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/1-killed-11-000-in-relief-camps-as-flash-floods-batter-tripura-11755449#publisher=newsstand",
-      "publishedAt": 1783701904000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "ffe3fecb13515070",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.597,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783701904000
     },
     {
       "title": "Prince Harry And Family Meet King Charles For First Time In 4 Years: Report",
@@ -154,7 +154,7 @@
       "id": "c9df97d33de3cf46",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.855,
+      "breakingScore": 2.765,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -166,27 +166,27 @@
       "firstSeen": 1783709454000
     },
     {
-      "title": "CPI questions PM Modi’s silence over Ram Temple case",
-      "summary": "Union government ‘betrayed trust of the people’, resignations alone would not suffice, says party general secretary Raja",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/cpi-questions-pm-modis-silence-over-ram-temple-case/article71207638.ece",
-      "publishedAt": 1783718426000,
-      "category": "topStories",
+      "title": "Man arrested on suspicion of murder after death of Ann Widdecombe",
+      "summary": "There was initially no suggestion of suspicious circumstances when her death was announced on Friday morning.",
+      "source": "BBC",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cvg50lk22jpo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783719500000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "18e4c5ede956b34a",
+      "id": "6739e4fe05df5daa",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.479,
+      "breakingScore": 2.415,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "the_hindu"
+        "bbc"
       ],
-      "firstSeen": 1783718426000
+      "firstSeen": 1783703080000
     }
   ]
 }
