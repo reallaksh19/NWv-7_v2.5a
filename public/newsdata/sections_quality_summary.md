@@ -2,7 +2,7 @@
 
 - Status: **WARN**
 - Schema: `2`
-- Content hash: `c36ecefb630c`
+- Content hash: `ab074dfcf03d`
 - Sections: `10`
 - Stories: `289`
 - Source groups: `10`
@@ -16,9 +16,9 @@
 | india | 30 | 3 | False |
 | tn | 30 | 2 | False |
 | trichy | 30 | 2 | False |
-| muscat | 30 | 2 | False |
+| muscat | 30 | 3 | False |
 | world | 30 | 2 | False |
-| business | 30 | 2 | False |
+| business | 30 | 3 | False |
 | technology | 30 | 3 | False |
 | sports | 30 | 3 | False |
 | entertainment | 19 | 1 | True |

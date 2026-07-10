@@ -1,11 +1,11 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1783702514315,
-  "contentHash": "57bf78c0943bb4e0",
+  "generatedAt": 1783707768883,
+  "contentHash": "bf11fd881faeda28",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 694,
+  "storyCount": 700,
   "sourceGroupCount": 10,
   "grade": "C",
   "parentCount": 10,
@@ -26,7 +26,7 @@
       "signalScore": 63,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 645,
+      "storyCount": 649,
       "risingCount": 1,
       "thinCount": 1,
       "multiAngleCount": 9,
@@ -43,7 +43,7 @@
         "No cluster currently exposes three or more visible child angles.",
         "7 cluster(s) have weak snapshot coverage.",
         "1 cluster(s) are marked thin.",
-        "496 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "516 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
@@ -53,7 +53,7 @@
       "signalScore": 63,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 645,
+      "storyCount": 649,
       "risingCount": 1,
       "thinCount": 1,
       "multiAngleCount": 9,
@@ -70,13 +70,13 @@
         "No cluster currently exposes three or more visible child angles.",
         "7 cluster(s) have weak snapshot coverage.",
         "1 cluster(s) are marked thin.",
-        "496 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "516 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_35_23dd97b84ea99826",
+      "parentId": "cluster_62_23dd97b84ea99826",
       "headline": "Emirates to launch flagship airbus A380 on Dubai–Delhi route from October 25, expands premium economy in India",
       "score": 0.7314967197849983,
       "postTreeScore": 1.1315,
@@ -97,7 +97,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_391_d01c3dcb9a72988c",
+      "parentId": "cluster_425_d01c3dcb9a72988c",
       "headline": "Three former Trinamool Congress Rajya Sabha MPs join BJP",
       "score": 0.734163386451665,
       "postTreeScore": 1.1142,
@@ -118,7 +118,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_100_d875ef6b25996b0d",
+      "parentId": "cluster_133_d875ef6b25996b0d",
       "headline": "India-Australia Roadmap for Sports Collaboration - orissadiary.com",
       "score": 0.6758967197849983,
       "postTreeScore": 1.0559,
@@ -139,7 +139,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_352_1debb58b04b8b28d",
+      "parentId": "cluster_386_1debb58b04b8b28d",
       "headline": "Inside Ali Khamenei's final journey",
       "score": 0.6721467197849983,
       "postTreeScore": 1.0521,
@@ -160,7 +160,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_228_32a995562db90c82",
+      "parentId": "cluster_262_32a995562db90c82",
       "headline": "Government Removes Import Duty on Some Electronics, Smartphone Parts",
       "score": 0.62791,
       "postTreeScore": 1.0279,
@@ -181,7 +181,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_375_e46e226f8ea4abcd",
+      "parentId": "cluster_409_e46e226f8ea4abcd",
       "headline": "India and Australia Deepen Defence Ties: What It Means for the Indo-Pacific | Above the Fold | 09.07.2026",
       "score": 0.6445487346782661,
       "postTreeScore": 1.0245,
@@ -202,7 +202,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_200_cc98cab5e48224ef",
+      "parentId": "cluster_234_cc98cab5e48224ef",
       "headline": "China successfully tests sea-based rocket booster recovery system, says state media",
       "score": 0.61351,
       "postTreeScore": 1.0135,
@@ -223,7 +223,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_551_f1fc3c147523059b",
+      "parentId": "cluster_585_f1fc3c147523059b",
       "headline": "How undercover agents and informants helped the FBI unravel Lawrence Bishnoi’s gang | Explained",
       "score": 0.6225800531183316,
       "postTreeScore": 1.0026,
@@ -243,7 +243,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_289_560f011490ebf24f",
+      "parentId": "cluster_323_560f011490ebf24f",
       "headline": "Bonnie Tyler, who topped the charts with epic 'Total Eclipse of the Heart', dies",
       "score": 0.6187300531183317,
       "postTreeScore": 0.9987,
@@ -264,7 +264,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_166_77d51433538e551c",
+      "parentId": "cluster_199_77d51433538e551c",
       "headline": "E20 may cut mileage by up to 5% but offers cleaner combustion, energy security benefits: Oil Minister",
       "score": 0.6602133864516649,
       "postTreeScore": 0.5502,
@@ -363,7 +363,7 @@
       "weakParentRatio": 0.1,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 694,
+      "storyCount": 700,
       "sourceGroupCount": 10
     }
   }
