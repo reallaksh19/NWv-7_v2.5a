@@ -1,12 +1,12 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1783632093997,
-  "contentHash": "9198aa469bc58872",
+  "generatedAt": 1783641774677,
+  "contentHash": "54c714c34dd9f8e1",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 651,
-  "sourceGroupCount": 10,
+  "storyCount": 631,
+  "sourceGroupCount": 11,
   "grade": "C",
   "parentCount": 10,
   "avgAngles": 1.7,
@@ -23,10 +23,10 @@
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 57,
+      "signalScore": 55,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 611,
+      "storyCount": 587,
       "risingCount": 0,
       "thinCount": 3,
       "multiAngleCount": 7,
@@ -34,26 +34,26 @@
       "strongAngleCount": 0,
       "avgAngles": 1.7,
       "avgChildren": 2,
-      "avgScore": 0.6301925161019976,
+      "avgScore": 0.6425898600589972,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 8,
+      "snapshotCoverage": 6,
       "coverageLabel": "7/10",
       "warnings": [
         "3 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "2 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) have weak snapshot coverage.",
         "3 cluster(s) are marked thin.",
-        "404 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "444 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 57,
+      "signalScore": 55,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 611,
+      "storyCount": 587,
       "risingCount": 0,
       "thinCount": 3,
       "multiAngleCount": 7,
@@ -61,22 +61,22 @@
       "strongAngleCount": 0,
       "avgAngles": 1.7,
       "avgChildren": 2,
-      "avgScore": 0.6301925161019976,
+      "avgScore": 0.6425898600589972,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 8,
+      "snapshotCoverage": 6,
       "coverageLabel": "7/10",
       "warnings": [
         "3 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "2 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) have weak snapshot coverage.",
         "3 cluster(s) are marked thin.",
-        "404 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "444 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_31_1debb58b04b8b28d",
+      "parentId": "cluster_50_1debb58b04b8b28d",
       "headline": "Inside Ali Khamenei's final journey",
       "score": 0.7161467197849983,
       "postTreeScore": 1.1161,
@@ -97,7 +97,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_67_d01c3dcb9a72988c",
+      "parentId": "cluster_87_d01c3dcb9a72988c",
       "headline": "Three former Trinamool Congress Rajya Sabha MPs join BJP",
       "score": 0.6701766666666666,
       "postTreeScore": 1.0702,
@@ -118,10 +118,10 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_461_6eb8a77397386bc0",
+      "parentId": "cluster_490_6eb8a77397386bc0",
       "headline": "'Lust for murder': German doctor who killed 15 patients gets life term; suspected in 76 more deaths",
-      "score": 0.61211,
-      "postTreeScore": 1.0121,
+      "score": 0.6680967197849983,
+      "postTreeScore": 1.0481,
       "childCount": 2,
       "angles": [
         "base_report",
@@ -138,7 +138,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_336_3c468d6d762e0fa6",
+      "parentId": "cluster_362_3c468d6d762e0fa6",
       "headline": "Trump",
       "score": 0.60191,
       "postTreeScore": 1.0019,
@@ -159,7 +159,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_332_3ef9490213562868",
+      "parentId": "cluster_358_3ef9490213562868",
       "headline": "2 girls attacked with weapon at Germany school, teenager arrested",
       "score": 0.60111,
       "postTreeScore": 1.0011,
@@ -179,7 +179,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_52_e46e226f8ea4abcd",
+      "parentId": "cluster_71_e46e226f8ea4abcd",
       "headline": "India and Australia Deepen Defence Ties: What It Means for the Indo-Pacific | Above the Fold | 09.07.2026",
       "score": 0.5765916683316485,
       "postTreeScore": 0.9766,
@@ -200,7 +200,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_220_f1fc3c147523059b",
+      "parentId": "cluster_242_f1fc3c147523059b",
       "headline": "How undercover agents and informants helped the FBI unravel Lawrence Bishnoi’s gang | Explained",
       "score": 0.5545933333333333,
       "postTreeScore": 0.9546,
@@ -220,7 +220,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_327_da6090dc5cceba59",
+      "parentId": "cluster_353_da6090dc5cceba59",
       "headline": "India estimates 300 GW power demand next year, backs local clean-energy manufacturing",
       "score": 0.6952467197849983,
       "postTreeScore": 0.5852,
@@ -240,7 +240,26 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_235_0d3caef2cc5b8376",
+      "parentId": "cluster_317_e5076c9e52a83034",
+      "headline": "PM Modi invites Australian businesses to invest in India, seeks early conclusion of CECA",
+      "score": 0.6714967197849984,
+      "postTreeScore": 0.5615,
+      "childCount": 2,
+      "angles": [
+        "official_response"
+      ],
+      "temporalTiers": [
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "official_response"
+      ],
+      "baseReportShare": 0,
+      "weakTree": true
+    },
+    {
+      "parentId": "cluster_258_0d3caef2cc5b8376",
       "headline": "Australia's largest pension fund invests 500 million Australian Dollars in India's infrastructure fund",
       "score": 0.6705300531183316,
       "postTreeScore": 0.5605,
@@ -254,25 +273,6 @@
       ],
       "evolutionRoles": [
         "fact_update"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_292_e5076c9e52a83034",
-      "headline": "PM Modi invites Australian businesses to invest in India, seeks early conclusion of CECA",
-      "score": 0.60351,
-      "postTreeScore": 0.5135,
-      "childCount": 2,
-      "angles": [
-        "official_response"
-      ],
-      "temporalTiers": [
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "official_response"
       ],
       "baseReportShare": 0,
       "weakTree": true
@@ -362,8 +362,8 @@
       "weakParentRatio": 0.3,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 651,
-      "sourceGroupCount": 10
+      "storyCount": 631,
+      "sourceGroupCount": 11
     }
   }
 }

@@ -10,9 +10,9 @@
 - Base report share: `0.25`
 - Multi-angle parents: `7`
 - Weak parents: `3`
-- Story count: `651`
-- Source groups: `10`
-- Content hash: `9198aa469bc58872`
+- Story count: `631`
+- Source groups: `11`
+- Content hash: `54c714c34dd9f8e1`
 
 ## Top parents
 
@@ -20,14 +20,14 @@
 |---:|---|---:|---|---|---:|
 | 1 | Inside Ali Khamenei's final journey | 2 | base_report, fact_update | NO | 0.7161467197849983 |
 | 2 | Three former Trinamool Congress Rajya Sabha MPs join BJP | 2 | official_response, investigative_detail | NO | 0.6701766666666666 |
-| 3 | 'Lust for murder': German doctor who killed 15 patients gets life term; suspected in 76 more deaths | 2 | base_report, fact_update | NO | 0.61211 |
+| 3 | 'Lust for murder': German doctor who killed 15 patients gets life term; suspected in 76 more deaths | 2 | base_report, fact_update | NO | 0.6680967197849983 |
 | 4 | Trump | 2 | official_response, base_report | NO | 0.60191 |
 | 5 | 2 girls attacked with weapon at Germany school, teenager arrested | 2 | official_response, investigative_detail | NO | 0.60111 |
 | 6 | India and Australia Deepen Defence Ties: What It Means for the Indo-Pacific / Above the Fold / 09.07.2026 | 2 | base_report, official_response | NO | 0.5765916683316485 |
 | 7 | How undercover agents and informants helped the FBI unravel Lawrence Bishnoi’s gang / Explained | 2 | base_report, expert_analysis | NO | 0.5545933333333333 |
 | 8 | India estimates 300 GW power demand next year, backs local clean-energy manufacturing | 2 | regional_followup | YES | 0.6952467197849983 |
-| 9 | Australia's largest pension fund invests 500 million Australian Dollars in India's infrastructure fund | 2 | fact_update | YES | 0.6705300531183316 |
-| 10 | PM Modi invites Australian businesses to invest in India, seeks early conclusion of CECA | 2 | official_response | YES | 0.60351 |
+| 9 | PM Modi invites Australian businesses to invest in India, seeks early conclusion of CECA | 2 | official_response | YES | 0.6714967197849984 |
+| 10 | Australia's largest pension fund invests 500 million Australian Dollars in India's infrastructure fund | 2 | fact_update | YES | 0.6705300531183316 |
 
 ## Real Snapshot Ratchet Gate
 
