@@ -1,17 +1,17 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1783685628716,
-  "contentHash": "2c556fd08c70337c",
+  "generatedAt": 1783696221404,
+  "contentHash": "fac9c97e1e0bb9f6",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 655,
-  "sourceGroupCount": 11,
+  "storyCount": 664,
+  "sourceGroupCount": 10,
   "grade": "C",
   "parentCount": 10,
   "avgAngles": 1.9,
   "avgTemporalTiers": 1.8,
-  "avgEvolutionRoles": 1.9,
+  "avgEvolutionRoles": 2,
   "baseReportShare": 0.3,
   "multiAngleCount": 9,
   "weakParentCount": 1,
@@ -23,10 +23,10 @@
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 61,
+      "signalScore": 62,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 600,
+      "storyCount": 615,
       "risingCount": 1,
       "thinCount": 1,
       "multiAngleCount": 9,
@@ -34,7 +34,7 @@
       "strongAngleCount": 0,
       "avgAngles": 1.9,
       "avgChildren": 2,
-      "avgScore": 0.6402105666936591,
+      "avgScore": 0.653249238672159,
       "sourceDiversityCoverage": 10,
       "snapshotCoverage": 2,
       "coverageLabel": "9/10",
@@ -43,17 +43,17 @@
         "No cluster currently exposes three or more visible child angles.",
         "8 cluster(s) have weak snapshot coverage.",
         "1 cluster(s) are marked thin.",
-        "557 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "496 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 61,
+      "signalScore": 62,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 600,
+      "storyCount": 615,
       "risingCount": 1,
       "thinCount": 1,
       "multiAngleCount": 9,
@@ -61,7 +61,7 @@
       "strongAngleCount": 0,
       "avgAngles": 1.9,
       "avgChildren": 2,
-      "avgScore": 0.6402105666936591,
+      "avgScore": 0.653249238672159,
       "sourceDiversityCoverage": 10,
       "snapshotCoverage": 2,
       "coverageLabel": "9/10",
@@ -70,13 +70,34 @@
         "No cluster currently exposes three or more visible child angles.",
         "8 cluster(s) have weak snapshot coverage.",
         "1 cluster(s) are marked thin.",
-        "557 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "496 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_282_d01c3dcb9a72988c",
+      "parentId": "cluster_1_23dd97b84ea99826",
+      "headline": "Emirates to launch flagship airbus A380 on Dubai–Delhi route from October 25, expands premium economy in India",
+      "score": 0.7314967197849983,
+      "postTreeScore": 1.1315,
+      "childCount": 2,
+      "angles": [
+        "regional_followup",
+        "fact_update"
+      ],
+      "temporalTiers": [
+        "reaction",
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "corroboration",
+        "fact_update"
+      ],
+      "baseReportShare": 0,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_332_d01c3dcb9a72988c",
       "headline": "Three former Trinamool Congress Rajya Sabha MPs join BJP",
       "score": 0.734163386451665,
       "postTreeScore": 1.1142,
@@ -97,7 +118,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_3_d875ef6b25996b0d",
+      "parentId": "cluster_47_d875ef6b25996b0d",
       "headline": "India-Australia Roadmap for Sports Collaboration - orissadiary.com",
       "score": 0.6758967197849983,
       "postTreeScore": 1.0559,
@@ -118,7 +139,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_243_1debb58b04b8b28d",
+      "parentId": "cluster_293_1debb58b04b8b28d",
       "headline": "Inside Ali Khamenei's final journey",
       "score": 0.6721467197849983,
       "postTreeScore": 1.0521,
@@ -139,7 +160,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_266_e46e226f8ea4abcd",
+      "parentId": "cluster_316_e46e226f8ea4abcd",
       "headline": "India and Australia Deepen Defence Ties: What It Means for the Indo-Pacific | Above the Fold | 09.07.2026",
       "score": 0.6445487346782661,
       "postTreeScore": 1.0245,
@@ -160,7 +181,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_96_cc98cab5e48224ef",
+      "parentId": "cluster_144_cc98cab5e48224ef",
       "headline": "China successfully tests sea-based rocket booster recovery system, says state media",
       "score": 0.61351,
       "postTreeScore": 1.0135,
@@ -181,7 +202,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_441_f1fc3c147523059b",
+      "parentId": "cluster_490_f1fc3c147523059b",
       "headline": "How undercover agents and informants helped the FBI unravel Lawrence Bishnoi’s gang | Explained",
       "score": 0.6225800531183316,
       "postTreeScore": 1.0026,
@@ -201,27 +222,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_559_3ef9490213562868",
-      "headline": "2 girls attacked with weapon at Germany school, teenager arrested",
-      "score": 0.60111,
-      "postTreeScore": 1.0011,
-      "childCount": 2,
-      "angles": [
-        "official_response",
-        "investigative_detail"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "established"
-      ],
-      "evolutionRoles": [
-        "accountability"
-      ],
-      "baseReportShare": 0,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_182_560f011490ebf24f",
+      "parentId": "cluster_232_560f011490ebf24f",
       "headline": "Bonnie Tyler, who topped the charts with epic 'Total Eclipse of the Heart', dies",
       "score": 0.6187300531183317,
       "postTreeScore": 0.9987,
@@ -242,7 +243,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_122_32a995562db90c82",
+      "parentId": "cluster_171_32a995562db90c82",
       "headline": "Government Removes Import Duty on Some Electronics, Smartphone Parts",
       "score": 0.5479232802150018,
       "postTreeScore": 0.9279,
@@ -263,7 +264,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_517_e5076c9e52a83034",
+      "parentId": "cluster_566_e5076c9e52a83034",
       "headline": "PM Modi invites Australian businesses to invest in India, seeks early conclusion of CECA",
       "score": 0.6714967197849984,
       "postTreeScore": 0.5615,
@@ -317,7 +318,7 @@
       {
         "id": "avg-evolution-role-count",
         "label": "Average evolution role count",
-        "actual": 1.9,
+        "actual": 2,
         "required": ">= 1.6"
       },
       {
@@ -356,15 +357,15 @@
       "parentCount": 10,
       "avgAngles": 1.9,
       "avgTemporalTiers": 1.8,
-      "avgEvolutionRoles": 1.9,
+      "avgEvolutionRoles": 2,
       "baseReportShare": 0.3,
       "multiAngleCount": 9,
       "weakParentCount": 1,
       "weakParentRatio": 0.1,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 655,
-      "sourceGroupCount": 11
+      "storyCount": 664,
+      "sourceGroupCount": 10
     }
   }
 }

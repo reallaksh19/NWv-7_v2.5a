@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1783685630141,
+  "generatedAt": 1783696223790,
   "windowDays": 7,
   "latest": {
     "insightGrade": "C",
     "insightScore": 0,
-    "totalStories": 655,
-    "usableStories36h": 624,
-    "sourceGroups": 11,
+    "totalStories": 664,
+    "usableStories36h": 660,
+    "sourceGroups": 10,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.3111,
+    "rankingOverallScore": 0.3092,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.3111,
+    "overallScore": 0.3092,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1783685629407,
+    "generatedAt": 1783696222481,
     "destinationScores": {
       "buzz": 0,
       "insight": 0.3888,
       "localTravel": 0,
-      "upAhead": 0.8558
+      "upAhead": 0.8481
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.8558,
+        "score": 0.8481,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -91,12 +91,12 @@
         "locationsCovered": []
       },
       "upAhead": {
-        "rankedItemCount": 30,
-        "suppressedItemCount": 21,
+        "rankedItemCount": 21,
+        "suppressedItemCount": 35,
         "events": 0,
         "onlineOffers": 0,
-        "offlineOffers": 0,
-        "alerts": 30,
+        "offlineOffers": 2,
+        "alerts": 19,
         "festivals": 0,
         "locationsCovered": [
           "chennai",
@@ -109,18 +109,17 @@
       "Away Promo Codes: Up to 20% Off in July 2026 - Condé Nast Traveler: location failed — offline/local item lacks configured location match",
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
       "The best Pokémon deals as Prime Day wraps up — Pokémon TCG, books, games, and more on sale - Mashable: location failed — offline/local item lacks configured location match",
-      "CM Vijay conducts surprise inspection at Govt. Hospital for Women and Children in Egmore: futureValidity failed — expired display window",
-      "CM Vijay conducts surprise inspection at Govt. Hospital for Women and Children in Egmore: alertUrgency failed — alert expired",
-      "Special drive to clear passport applications in Tiruchi: futureValidity failed — expired display window",
-      "Special drive to clear passport applications in Tiruchi: alertUrgency failed — alert expired",
-      "Tamil Nadu government issues guidelines for private participation in restoration of waterbodies: futureValidity failed — expired display window",
-      "Tamil Nadu government issues guidelines for private participation in restoration of waterbodies: alertUrgency failed — alert expired",
-      "CMDA plans to shelve projects in Chennai as it grapples with outstanding liabilities up to ₹3,500 crore: futureValidity failed — expired display window",
-      "CMDA plans to shelve projects in Chennai as it grapples with outstanding liabilities up to ₹3,500 crore: alertUrgency failed — alert expired"
+      "Motorists call for urgent widening of Tiruchi-Karaikudi national highway: futureValidity failed — expired display window",
+      "Motorists call for urgent widening of Tiruchi-Karaikudi national highway: alertUrgency failed — alert expired",
+      "CPI opposes govt. jobs for kin of Karur stampede victims: futureValidity failed — expired display window",
+      "CPI opposes govt. jobs for kin of Karur stampede victims: alertUrgency failed — alert expired",
+      "Railway gatekeeper honoured for saving a man’s life at Sirkazi: futureValidity failed — expired display window",
+      "Railway gatekeeper honoured for saving a man’s life at Sirkazi: alertUrgency failed — alert expired",
+      "Look Out Circular issued against key suspect in TVK MLA poaching case: futureValidity failed — expired display window",
+      "Look Out Circular issued against key suspect in TVK MLA poaching case: alertUrgency failed — alert expired"
     ],
     "actionRequired": [
-      "21 invalid/expired/duplicate Up Ahead item(s) suppressed",
-      "no active offer items in ranked Up Ahead set",
+      "35 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no ranked Up Ahead item for muscat",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
@@ -130,7 +129,8 @@
       "no ranked local/travel item for chennai",
       "no ranked local/travel item for trichy",
       "Insight event/angle ranking has no critical demotion finding",
-      "buzz: no local Buzz item in ranked set"
+      "buzz: no local Buzz item in ranked set",
+      "buzz: no travel Buzz item in ranked set"
     ]
   },
   "sourceHealth": {
@@ -256,16 +256,16 @@
     },
     {
       "date": "2026-07-10",
-      "generatedAt": 1783685630141,
+      "generatedAt": 1783696223790,
       "insightGrade": "C",
       "insightScore": 0,
-      "totalStories": 655,
-      "usableStories36h": 624,
-      "sourceGroups": 11,
+      "totalStories": 664,
+      "usableStories36h": 660,
+      "sourceGroups": 10,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.3111,
+      "rankingOverallScore": 0.3092,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,
