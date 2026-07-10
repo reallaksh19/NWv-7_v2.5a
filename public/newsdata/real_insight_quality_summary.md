@@ -6,13 +6,13 @@
 - Parents: `10`
 - Average angles: `1.9`
 - Average temporal tiers: `1.8`
-- Average evolution roles: `2`
+- Average evolution roles: `1.9`
 - Base report share: `0.3`
 - Multi-angle parents: `9`
 - Weak parents: `1`
-- Story count: `664`
+- Story count: `694`
 - Source groups: `10`
-- Content hash: `fac9c97e1e0bb9f6`
+- Content hash: `57bf78c0943bb4e0`
 
 ## Top parents
 
@@ -22,12 +22,12 @@
 | 2 | Three former Trinamool Congress Rajya Sabha MPs join BJP | 2 | official_response, investigative_detail | NO | 0.734163386451665 |
 | 3 | India-Australia Roadmap for Sports Collaboration - orissadiary.com | 2 | official_response, base_report | NO | 0.6758967197849983 |
 | 4 | Inside Ali Khamenei's final journey | 2 | base_report, fact_update | NO | 0.6721467197849983 |
-| 5 | India and Australia Deepen Defence Ties: What It Means for the Indo-Pacific / Above the Fold / 09.07.2026 | 2 | base_report, official_response | NO | 0.6445487346782661 |
-| 6 | China successfully tests sea-based rocket booster recovery system, says state media | 2 | reaction_public, official_response | NO | 0.61351 |
-| 7 | How undercover agents and informants helped the FBI unravel Lawrence Bishnoi’s gang / Explained | 2 | base_report, expert_analysis | NO | 0.6225800531183316 |
-| 8 | Bonnie Tyler, who topped the charts with epic 'Total Eclipse of the Heart', dies | 2 | fact_update, base_report | NO | 0.6187300531183317 |
-| 9 | Government Removes Import Duty on Some Electronics, Smartphone Parts | 2 | base_report, fact_update | NO | 0.5479232802150018 |
-| 10 | PM Modi invites Australian businesses to invest in India, seeks early conclusion of CECA | 2 | official_response | YES | 0.6714967197849984 |
+| 5 | Government Removes Import Duty on Some Electronics, Smartphone Parts | 2 | base_report, fact_update | NO | 0.62791 |
+| 6 | India and Australia Deepen Defence Ties: What It Means for the Indo-Pacific / Above the Fold / 09.07.2026 | 2 | base_report, official_response | NO | 0.6445487346782661 |
+| 7 | China successfully tests sea-based rocket booster recovery system, says state media | 2 | reaction_public, official_response | NO | 0.61351 |
+| 8 | How undercover agents and informants helped the FBI unravel Lawrence Bishnoi’s gang / Explained | 2 | base_report, expert_analysis | NO | 0.6225800531183316 |
+| 9 | Bonnie Tyler, who topped the charts with epic 'Total Eclipse of the Heart', dies | 2 | fact_update, base_report | NO | 0.6187300531183317 |
+| 10 | E20 may cut mileage by up to 5% but offers cleaner combustion, energy security benefits: Oil Minister | 2 | official_response | YES | 0.6602133864516649 |
 
 ## Real Snapshot Ratchet Gate
 
@@ -38,7 +38,7 @@
 - Parents: `10`
 - Average angles: `1.9`
 - Average temporal tiers: `1.8`
-- Average evolution roles: `2`
+- Average evolution roles: `1.9`
 - Base report share: `0.3`
 - Multi-angle parents: `9`
 - Top parent angles: `2`
@@ -54,7 +54,7 @@
 - Parent cluster count: `10` / `>= 3`
 - Average visible angle count: `1.9` / `>= 1.4`
 - Average temporal tier count: `1.8` / `>= 1.8`
-- Average evolution role count: `2` / `>= 1.6`
+- Average evolution role count: `1.9` / `>= 1.6`
 - Base report share: `0.3` / `<= 0.55`
 - Multi-angle parent count: `9` / `>= 1`
 - Top parent angle count: `2` / `>= 2`
