@@ -1,20 +1,20 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1783717542135,
-  "contentHash": "ee0d96f6262dc2b0",
+  "generatedAt": 1783727803048,
+  "contentHash": "04f412bba32ec547",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 698,
-  "sourceGroupCount": 11,
+  "storyCount": 642,
+  "sourceGroupCount": 10,
   "grade": "C",
   "parentCount": 10,
-  "avgAngles": 1.8,
-  "avgTemporalTiers": 1.9,
+  "avgAngles": 1.6,
+  "avgTemporalTiers": 1.8,
   "avgEvolutionRoles": 1.8,
   "baseReportShare": 0.2,
-  "multiAngleCount": 8,
-  "weakParentCount": 2,
+  "multiAngleCount": 6,
+  "weakParentCount": 4,
   "runtimeQualityGate": {
     "attempted": false,
     "recovered": false,
@@ -23,60 +23,60 @@
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 58,
+      "signalScore": 49,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 640,
+      "storyCount": 598,
       "risingCount": 0,
-      "thinCount": 2,
-      "multiAngleCount": 8,
-      "lowAngleCount": 2,
+      "thinCount": 4,
+      "multiAngleCount": 6,
+      "lowAngleCount": 4,
       "strongAngleCount": 0,
-      "avgAngles": 1.8,
+      "avgAngles": 1.6,
       "avgChildren": 2,
-      "avgScore": 0.6507586985376657,
+      "avgScore": 0.6610223705161655,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 4,
-      "coverageLabel": "8/10",
+      "snapshotCoverage": 3,
+      "coverageLabel": "6/10",
       "warnings": [
-        "2 cluster(s) have fewer than two visible child angles.",
+        "4 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "6 cluster(s) have weak snapshot coverage.",
-        "2 cluster(s) are marked thin.",
-        "580 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "7 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) are marked thin.",
+        "440 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 58,
+      "signalScore": 49,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 640,
+      "storyCount": 598,
       "risingCount": 0,
-      "thinCount": 2,
-      "multiAngleCount": 8,
-      "lowAngleCount": 2,
+      "thinCount": 4,
+      "multiAngleCount": 6,
+      "lowAngleCount": 4,
       "strongAngleCount": 0,
-      "avgAngles": 1.8,
+      "avgAngles": 1.6,
       "avgChildren": 2,
-      "avgScore": 0.6507586985376657,
+      "avgScore": 0.6610223705161655,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 4,
-      "coverageLabel": "8/10",
+      "snapshotCoverage": 3,
+      "coverageLabel": "6/10",
       "warnings": [
-        "2 cluster(s) have fewer than two visible child angles.",
+        "4 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "6 cluster(s) have weak snapshot coverage.",
-        "2 cluster(s) are marked thin.",
-        "580 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "7 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) are marked thin.",
+        "440 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_470_d01c3dcb9a72988c",
+      "parentId": "cluster_477_d01c3dcb9a72988c",
       "headline": "Three former Trinamool Congress Rajya Sabha MPs join BJP",
       "score": 0.734163386451665,
       "postTreeScore": 1.1142,
@@ -97,7 +97,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_100_23dd97b84ea99826",
+      "parentId": "cluster_106_23dd97b84ea99826",
       "headline": "Emirates to launch flagship airbus A380 on Dubai–Delhi route from October 25, expands premium economy in India",
       "score": 0.6874967197849983,
       "postTreeScore": 1.0675,
@@ -118,7 +118,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_173_d875ef6b25996b0d",
+      "parentId": "cluster_179_d875ef6b25996b0d",
       "headline": "India-Australia Roadmap for Sports Collaboration - orissadiary.com",
       "score": 0.6758967197849983,
       "postTreeScore": 1.0559,
@@ -139,7 +139,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_430_1debb58b04b8b28d",
+      "parentId": "cluster_437_1debb58b04b8b28d",
       "headline": "Inside Ali Khamenei's final journey",
       "score": 0.6721467197849983,
       "postTreeScore": 1.0521,
@@ -160,28 +160,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_305_32a995562db90c82",
-      "headline": "Government Removes Import Duty on Some Electronics, Smartphone Parts",
-      "score": 0.62791,
-      "postTreeScore": 1.0279,
-      "childCount": 2,
-      "angles": [
-        "base_report",
-        "fact_update"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "reaction"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "fact_update"
-      ],
-      "baseReportShare": 0.5,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_276_cc98cab5e48224ef",
+      "parentId": "cluster_282_cc98cab5e48224ef",
       "headline": "China successfully tests sea-based rocket booster recovery system, says state media",
       "score": 0.61351,
       "postTreeScore": 1.0135,
@@ -202,7 +181,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_22_04b5243c07a775fd",
+      "parentId": "cluster_28_04b5243c07a775fd",
       "headline": "Don’t politicise jobs to families of stampede victims: Vasan",
       "score": 0.60301,
       "postTreeScore": 1.003,
@@ -223,28 +202,27 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_365_560f011490ebf24f",
-      "headline": "Bonnie Tyler, who topped the charts with epic 'Total Eclipse of the Heart', dies",
-      "score": 0.6187300531183317,
-      "postTreeScore": 0.9987,
+      "parentId": "cluster_2_cef4bb98cb3f47e6",
+      "headline": "'One nation, one election' mechanism may be ready for rollout by 2029: Joint panel chief",
+      "score": 0.7266967197849983,
+      "postTreeScore": 0.6167,
       "childCount": 2,
       "angles": [
-        "fact_update",
-        "base_report"
+        "fact_update"
       ],
       "temporalTiers": [
-        "breaking",
-        "reaction"
+        "reaction",
+        "breaking"
       ],
       "evolutionRoles": [
-        "first_report",
-        "corroboration"
+        "corroboration",
+        "cause_claim"
       ],
-      "baseReportShare": 0.5,
-      "weakTree": false
+      "baseReportShare": 0,
+      "weakTree": true
     },
     {
-      "parentId": "cluster_241_77d51433538e551c",
+      "parentId": "cluster_247_77d51433538e551c",
       "headline": "E20 may cut mileage by up to 5% but offers cleaner combustion, energy security benefits: Oil Minister",
       "score": 0.6602133864516649,
       "postTreeScore": 0.5502,
@@ -262,7 +240,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_135_03be58362aa5f03a",
+      "parentId": "cluster_141_03be58362aa5f03a",
       "headline": "CISF recovers 428 tonnes of illegal coal in Jharkhand, West Bengal crackdown",
       "score": 0.6145100000000001,
       "postTreeScore": 0.5245,
@@ -278,6 +256,25 @@
         "legal_or_regulatory"
       ],
       "baseReportShare": 0,
+      "weakTree": true
+    },
+    {
+      "parentId": "cluster_574_c9307bee90b6a4e8",
+      "headline": "Eye on Indo-Pacific: India and Australia deepen ties across nuclear, maritime and mineral sectors",
+      "score": 0.6225800531183316,
+      "postTreeScore": 0.5126,
+      "childCount": 2,
+      "angles": [
+        "base_report"
+      ],
+      "temporalTiers": [
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "corroboration"
+      ],
+      "baseReportShare": 1,
       "weakTree": true
     }
   ],
@@ -304,13 +301,13 @@
       {
         "id": "avg-angle-count",
         "label": "Average visible angle count",
-        "actual": 1.8,
+        "actual": 1.6,
         "required": ">= 1.4"
       },
       {
         "id": "avg-temporal-tier-count",
         "label": "Average temporal tier count",
-        "actual": 1.9,
+        "actual": 1.8,
         "required": ">= 1.8"
       },
       {
@@ -328,7 +325,7 @@
       {
         "id": "multi-angle-parent-count",
         "label": "Multi-angle parent count",
-        "actual": 8,
+        "actual": 6,
         "required": ">= 1"
       },
       {
@@ -346,24 +343,24 @@
       {
         "id": "weak-parent-ratio",
         "label": "Weak parent ratio",
-        "actual": 0.2,
+        "actual": 0.4,
         "required": "<= 0.5"
       }
     ],
     "failed": [],
     "summary": {
       "parentCount": 10,
-      "avgAngles": 1.8,
-      "avgTemporalTiers": 1.9,
+      "avgAngles": 1.6,
+      "avgTemporalTiers": 1.8,
       "avgEvolutionRoles": 1.8,
       "baseReportShare": 0.2,
-      "multiAngleCount": 8,
-      "weakParentCount": 2,
-      "weakParentRatio": 0.2,
+      "multiAngleCount": 6,
+      "weakParentCount": 4,
+      "weakParentRatio": 0.4,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 698,
-      "sourceGroupCount": 11
+      "storyCount": 642,
+      "sourceGroupCount": 10
     }
   }
 }
