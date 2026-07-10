@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783696768903,
-  "contentHash": "9f8e63728639",
+  "fetchedAt": 1783703828687,
+  "contentHash": "8a870c2ee122",
   "breaking": [
     {
-      "title": "One of Spain's deadliest wildfires has killed at least 12 people, with 23 others missing",
-      "summary": "Several victims of the fire in the southern province of Almeria, a popular holiday destination, were found inside burnt-out vehicles and were thought to have died while trying to flee the flames",
-      "source": "The Hindu International",
+      "title": "Monsoon tracker LIVE: Highways blocked after landslides in hill states; floods in Mizoram, Tripura trigger evacuations",
+      "summary": "2 teenagers missing in Bijnor river; 3 injured as Mirzapur road caved-in",
+      "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/one-of-spains-deadliest-wildfires-has-killed-at-least-12-people-with-23-others-missing/article71206655.ece",
-      "publishedAt": 1783690092000,
-      "category": "world",
+      "url": "https://www.thehindu.com/news/national/monsoon-rain-live-updates-delhi-mumbai-india-imd-forecast-train-flight-cancellations-latest-updates-july-10-2026/article71205158.ece",
+      "publishedAt": 1783703240000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "1f98f31a6a3cd8c4",
+      "id": "69e07c176474ba56",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.345,
+      "breakingScore": 6.986,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -24,22 +24,70 @@
       "allSources": [
         "the_hindu"
       ],
+      "firstSeen": 1783703240000
+    },
+    {
+      "title": "Wildfire in southern Spain leaves at least 12 dead and 23 missing",
+      "summary": "A local official said four of the victims may be British after a fire broke out near Los Gallardos, Almería.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c8e2382jk7jo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783692506000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "00d3d0e79098bec7",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.738,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "the_hindu"
+      ],
       "firstSeen": 1783690092000
     },
     {
-      "title": "Truce and fire: The ghost of Versailles haunts Trump. But is Iran overplaying its hand?",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132311423.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />President Trump declared the June 17 ceasefire with Iran over, ordering fresh US strikes. Iran responded by targeting tankers in the Strait of Hormuz, escalating tensions. The conflict's tempo is now largely controlled by Iran's ability to disrupt oil shipments. Both sides face pressures, with neither in a decisive position to end the war. Managed instability with periodic attacks and negotiations is the likely immediate outcome.",
+      "title": "Four alleged gangsters killed in gunfight with police in Gurugram",
+      "summary": "The gang was planning to target the house of businessman to whom they had made several extortion calls, say police; one gang member critically injured, three police personnel wounded",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/haryana/four-shooters-killed-in-gurugram-encounter-after-attack-on-businessmans-house/article71205080.ece",
+      "publishedAt": 1783702458000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "13879bfe17d816e6",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.468,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1783702458000
+    },
+    {
+      "title": "Three held in Greece over deadly bomb attacks targeting ruling party politicians",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132315128.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Greece's anti-terrorism forces have taken swift action, detaining three individuals believed to be behind a wave of firebomb assaults targeting members of the ruling New Democracy party. Among the attacks was a tragic explosion in Thessaloniki, which claimed the life of a parliamentary candidate's mother. These arrests not only demonstrate the government's resolve to seek justice but also underscore Greece's challenging history with political extremism.",
       "source": "Times of India",
       "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/europe/truce-and-fire-the-ghost-of-versailles-haunts-trump-but-is-iran-overplaying-its-hand/articleshow/132311423.cms",
-      "publishedAt": 1783686851000,
+      "url": "https://timesofindia.indiatimes.com/world/europe/three-held-in-greece-over-deadly-bomb-attacks-targeting-ruling-party-politicians/articleshow/132315128.cms",
+      "publishedAt": 1783696834000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "b252db59e85f1079",
+      "id": "05f348e0a7e86253",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.27,
+      "breakingScore": 5.338,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -47,30 +95,7 @@
       "allSources": [
         "times_of_india"
       ],
-      "firstSeen": 1783686851000
-    },
-    {
-      "title": "Manipur couple arrested over killing of 6 Nagas",
-      "summary": "A joint team of Manipur Police, National Investigation Agency, and Central Reserve Police Force caught the two from Leilon Vaiphei village in Kangpokpi district",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/manipur/nia-led-team-arrests-two-in-connection-with-killing-of-six-naga-civilians-in-manipur/article71205444.ece",
-      "publishedAt": 1783696544000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "dca22d5311f8bbb4",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.995,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783696544000
+      "firstSeen": 1783696834000
     },
     {
       "title": "2 Women Killed, 16 Injured After School Bus Hits Tractor-Trolley In UP",
@@ -85,7 +110,7 @@
       "id": "950b20d115134b58",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.905,
+      "breakingScore": 3.741,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -108,7 +133,7 @@
       "id": "3b9ab43ca64d4bf0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.866,
+      "breakingScore": 3.703,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -119,66 +144,19 @@
       "firstSeen": 1783690977000
     },
     {
-      "title": "West Asia war LIVE: Iran will respond against Israel if infrastructure attacked, security official says",
-      "summary": "Fighting picked up again this week between the U.S. and Iran in the most significant exchange of fire since the two sides signed a memorandum of understanding on June 17",
-      "source": "The Hindu International",
+      "title": "Iran has asked to continue talks, and the U.S. agreed, Trump says",
+      "summary": "The two nations reached an interim deal last month to end ‌a four-month conflict that has throttled worldwide energy supplies",
+      "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-ali-khamenei-funeral-ceremony-burial-military-strikes-donald-trump-mojtaba-khamenei-ceasefire-deal/article71205094.ece",
-      "publishedAt": 1783687528000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "9e97f506e48664c4",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.786,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783687528000
-    },
-    {
-      "title": "Head And Shoulders Outside: Man Nearly Sucked Out Of Flight As Window Detaches",
-      "summary": "Passengers had woken up to a sound like that of a tyre bursting and screams",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/head-and-shoulders-outside-man-nearly-sucked-out-of-flight-as-window-detaches-11754065#publisher=newsstand",
-      "publishedAt": 1783690697000,
+      "url": "https://www.thehindu.com/news/international/iran-has-asked-to-continue-talks-and-the-us-agreed-trump-says/article71207807.ece",
+      "publishedAt": 1783702572000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "b5a31c37ccd3896d",
+      "id": "9e71d50c1aa28776",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.859,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "bbc",
-        "ndtv"
-      ],
-      "firstSeen": 1783686668000
-    },
-    {
-      "title": "'May Arrest Or Kill Me': Hasina Says She'll Return To Bangladesh By December",
-      "summary": "Bangladesh has repeatedly urged India to extradite Sheikh Hasina.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/sheikh-hasina-to-return-to-bangladesh-by-december-surrender-with-colleagues-11752841#publisher=newsstand",
-      "publishedAt": 1783689283000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "de7fc95f07fef858",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.827,
+      "breakingScore": 2.971,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -187,7 +165,30 @@
         "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1783684454000
+      "firstSeen": 1783697485000
+    },
+    {
+      "title": "5 things you probably didn’t know about Erling Haaland, the Viking striker who helped Norway make FIFA World Cup history",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132315752.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Erling Haaland is making headlines as he propels Norway to an unforgettable World Cup quarter-final by scoring seven goals. Born in England but raised in Norway, his unique background sparks conversations. Haaland, an advocate for social justice, has a notable online presence. Football runs in his blood, as his father was a pro player, and he famously dabbled in rap.",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/5-things-you-probably-didnt-know-about-erling-haaland-the-viking-striker-who-helped-norway-make-fifa-world-cup-history/articleshow/132315752.cms",
+      "publishedAt": 1783703186000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "6d8bf72b2889085f",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.485,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "times_of_india"
+      ],
+      "firstSeen": 1783703186000
     }
   ]
 }
