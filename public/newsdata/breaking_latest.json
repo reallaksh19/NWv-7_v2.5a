@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783796198836,
-  "contentHash": "e9cfeba1876e",
+  "fetchedAt": 1783800322856,
+  "contentHash": "eb125cd6986d",
   "breaking": [
     {
       "title": "6 killed as Russia rains missiles, drones on Ukraine; Kyiv renews plea for air defences",
@@ -16,7 +16,7 @@
       "id": "31289317b237da76",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.74,
+      "breakingScore": 6.644,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -39,7 +39,7 @@
       "id": "9b9c4624fc3f4c9f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.37,
+      "breakingScore": 5.275,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -62,7 +62,7 @@
       "id": "b731c80d4b53f055",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.314,
+      "breakingScore": 5.218,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -85,7 +85,7 @@
       "id": "eaa30885b3224b2e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.177,
+      "breakingScore": 5.081,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -108,7 +108,7 @@
       "id": "050f2814a2366f67",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.396,
+      "breakingScore": 4.301,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -119,6 +119,30 @@
         "times_of_india"
       ],
       "firstSeen": 1783789516000
+    },
+    {
+      "title": "8 dead, 14 rescued, 1 missing in Moshi waste plant building collapse near Pune",
+      "summary": "Around 15 excavators, including specialised demolition machines, were engaged in the rescue operation being carried out by the National Disaster Response Force (NDRF), the Army and other agencies, officials said.",
+      "source": "The Hindu National",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/maharashtra/pune-building-collapse-72-hours-on-rescuers-fighting-against-time-and-debris-to-pull-out-survivors/article71210200.ece",
+      "publishedAt": 1783796805000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "4660708071ecaa8f",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.919,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1783786084000
     },
     {
       "title": "Iran Officials Admit To \"Mistake\" After Attacks On Ships In Hormuz: Report",
@@ -133,16 +157,15 @@
       "id": "1be0ffec5d5da033",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.969,
+      "breakingScore": 3.874,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "allSources": [
-        "bbc",
         "ndtv"
       ],
-      "firstSeen": 1783788957000
+      "firstSeen": 1783794860000
     },
     {
       "title": "US Lawmaker Ro Khanna Detained By Israeli Settlers During West Bank Visit",
@@ -157,7 +180,7 @@
       "id": "a40c54af8f25c2cc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.932,
+      "breakingScore": 3.837,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -168,29 +191,6 @@
         "the_hindu"
       ],
       "firstSeen": 1783792515000
-    },
-    {
-      "title": "Four of family found dead at house in Bengaluru’s Kottigepalya",
-      "summary": "Police said their preliminary investigation suggests that Prashanth is suspected to have fatally attacked the three family members before his death.",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/karnataka/four-of-family-found-dead-at-house-in-bengalurus-kottigepalya/article71209519.ece",
-      "publishedAt": 1783793135000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "afbf173756842274",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.929,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783793135000
     }
   ]
 }
