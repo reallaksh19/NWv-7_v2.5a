@@ -1,8 +1,8 @@
 {
-  "contentHash": "7093be983f1c",
+  "contentHash": "905767a92b16",
   "errors": [],
-  "fetchedAt": 1783785156993,
-  "generatedAt": 1783785167986,
+  "fetchedAt": 1783792388164,
+  "generatedAt": 1783792398582,
   "schemaVersion": 2,
   "sectionCount": 10,
   "sectionHealth": {
@@ -14,11 +14,11 @@
       "thin": false,
       "topSources": [
         {
-          "count": 14,
+          "count": 15,
           "sourceGroup": "business_line"
         },
         {
-          "count": 11,
+          "count": 10,
           "sourceGroup": "economic_times"
         },
         {
@@ -29,13 +29,13 @@
     },
     "entertainment": {
       "qualitySourceGroupCount": 1,
-      "qualityStoryCount": 16,
+      "qualityStoryCount": 19,
       "sourceGroupCount": 1,
-      "storyCount": 16,
+      "storyCount": 19,
       "thin": true,
       "topSources": [
         {
-          "count": 16,
+          "count": 19,
           "sourceGroup": "google_news"
         }
       ]
@@ -53,11 +53,11 @@
         },
         {
           "count": 6,
-          "sourceGroup": "times_of_india"
+          "sourceGroup": "ndtv"
         },
         {
           "count": 4,
-          "sourceGroup": "ndtv"
+          "sourceGroup": "times_of_india"
         }
       ]
     },
@@ -191,7 +191,7 @@
   },
   "sourceGroupCount": 10,
   "status": "WARN",
-  "storyCount": 286,
+  "storyCount": 289,
   "thresholds": {
     "expectedRetainHours": 36,
     "minSectionSourceGroups": 2,
@@ -214,7 +214,7 @@
     "Section entertainment has weak source diversity: 1 source group(s)"
   ],
   "window": {
-    "cutoffAt": 1783655556993,
+    "cutoffAt": 1783662788164,
     "retainHours": 36
   }
 }
