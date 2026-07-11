@@ -1,20 +1,20 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1783754605175,
-  "contentHash": "93439fbd4a947354",
+  "generatedAt": 1783760757917,
+  "contentHash": "3832a9aa8db75ea7",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 561,
+  "storyCount": 609,
   "sourceGroupCount": 9,
   "grade": "C",
   "parentCount": 10,
-  "avgAngles": 1.5,
+  "avgAngles": 1.6,
   "avgTemporalTiers": 2,
-  "avgEvolutionRoles": 2,
-  "baseReportShare": 0.09090909090909091,
-  "multiAngleCount": 5,
-  "weakParentCount": 5,
+  "avgEvolutionRoles": 1.9,
+  "baseReportShare": 0.13636363636363635,
+  "multiAngleCount": 6,
+  "weakParentCount": 4,
   "runtimeQualityGate": {
     "attempted": false,
     "recovered": false,
@@ -23,63 +23,65 @@
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 46,
+      "signalScore": 51,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 528,
-      "risingCount": 0,
-      "thinCount": 5,
-      "multiAngleCount": 5,
-      "lowAngleCount": 5,
+      "storyCount": 565,
+      "risingCount": 1,
+      "thinCount": 4,
+      "multiAngleCount": 6,
+      "lowAngleCount": 4,
       "strongAngleCount": 0,
-      "avgAngles": 1.5,
+      "avgAngles": 1.6,
       "avgChildren": 2.2,
-      "avgScore": 0.6540337532099996,
-      "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 4,
-      "coverageLabel": "5/10",
+      "avgScore": 0.6605248704722324,
+      "sourceDiversityCoverage": 9,
+      "snapshotCoverage": 5,
+      "coverageLabel": "6/10",
       "warnings": [
-        "5 cluster(s) have fewer than two visible child angles.",
+        "4 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "6 cluster(s) have weak snapshot coverage.",
-        "5 cluster(s) are marked thin.",
-        "330 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "1 cluster(s) are below source-diversity target.",
+        "5 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) are marked thin.",
+        "440 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 46,
+      "signalScore": 51,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 528,
-      "risingCount": 0,
-      "thinCount": 5,
-      "multiAngleCount": 5,
-      "lowAngleCount": 5,
+      "storyCount": 565,
+      "risingCount": 1,
+      "thinCount": 4,
+      "multiAngleCount": 6,
+      "lowAngleCount": 4,
       "strongAngleCount": 0,
-      "avgAngles": 1.5,
+      "avgAngles": 1.6,
       "avgChildren": 2.2,
-      "avgScore": 0.6540337532099996,
-      "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 4,
-      "coverageLabel": "5/10",
+      "avgScore": 0.6605248704722324,
+      "sourceDiversityCoverage": 9,
+      "snapshotCoverage": 5,
+      "coverageLabel": "6/10",
       "warnings": [
-        "5 cluster(s) have fewer than two visible child angles.",
+        "4 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "6 cluster(s) have weak snapshot coverage.",
-        "5 cluster(s) are marked thin.",
-        "330 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "1 cluster(s) are below source-diversity target.",
+        "5 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) are marked thin.",
+        "440 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_63_d7bc951d351abbb5",
+      "parentId": "cluster_102_d7bc951d351abbb5",
       "headline": "It's a mystery who launched latest strikes against Iran",
-      "score": 0.6887373727449997,
-      "postTreeScore": 1.1487,
+      "score": 0.7566456657689977,
+      "postTreeScore": 1.1966,
       "childCount": 4,
       "angles": [
         "official_response",
@@ -100,49 +102,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_375_cc98cab5e48224ef",
-      "headline": "China successfully tests sea-based rocket booster recovery system, says state media",
-      "score": 0.6814967197849984,
-      "postTreeScore": 1.0615,
-      "childCount": 2,
-      "angles": [
-        "reaction_public",
-        "official_response"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "developing"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "corroboration"
-      ],
-      "baseReportShare": 0,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_114_04b5243c07a775fd",
-      "headline": "Don’t politicise jobs to families of stampede victims: Vasan",
-      "score": 0.6789967197849983,
-      "postTreeScore": 1.059,
-      "childCount": 2,
-      "angles": [
-        "official_response",
-        "reaction_public"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "reaction"
-      ],
-      "evolutionRoles": [
-        "official_response",
-        "public_reaction"
-      ],
-      "baseReportShare": 0,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_269_d875ef6b25996b0d",
+      "parentId": "cluster_311_d875ef6b25996b0d",
       "headline": "India-Australia Roadmap for Sports Collaboration - orissadiary.com",
       "score": 0.6758967197849983,
       "postTreeScore": 1.0559,
@@ -163,7 +123,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_37_a38aebece774b044",
+      "parentId": "cluster_76_a38aebece774b044",
       "headline": "Passenger partially sucked out window on Ryanair flight from Greece",
       "score": 0.6281899468816685,
       "postTreeScore": 1.0282,
@@ -184,7 +144,70 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_83_cef4bb98cb3f47e6",
+      "parentId": "cluster_448_32a995562db90c82",
+      "headline": "Government Removes Import Duty on Some Electronics, Smartphone Parts",
+      "score": 0.62791,
+      "postTreeScore": 1.0279,
+      "childCount": 2,
+      "angles": [
+        "base_report",
+        "fact_update"
+      ],
+      "temporalTiers": [
+        "breaking",
+        "reaction"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "fact_update"
+      ],
+      "baseReportShare": 0.5,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_417_cc98cab5e48224ef",
+      "headline": "China successfully tests sea-based rocket booster recovery system, says state media",
+      "score": 0.61351,
+      "postTreeScore": 1.0135,
+      "childCount": 2,
+      "angles": [
+        "reaction_public",
+        "official_response"
+      ],
+      "temporalTiers": [
+        "breaking",
+        "developing"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "corroboration"
+      ],
+      "baseReportShare": 0,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_21_d0c7a28e74c19851",
+      "headline": "PM Modi tours New Zealand sports innovation showcase",
+      "score": 0.5762928264800007,
+      "postTreeScore": 0.9363,
+      "childCount": 2,
+      "angles": [
+        "fact_update",
+        "official_response"
+      ],
+      "temporalTiers": [
+        "developing",
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "fact_update",
+        "official_response"
+      ],
+      "baseReportShare": 0,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_123_cef4bb98cb3f47e6",
       "headline": "'One nation, one election' mechanism may be ready for rollout by 2029: Joint panel chief",
       "score": 0.7266967197849983,
       "postTreeScore": 0.6167,
@@ -204,48 +227,10 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_339_77d51433538e551c",
-      "headline": "E20 may cut mileage by up to 5% but offers cleaner combustion, energy security benefits: Oil Minister",
-      "score": 0.6602133864516649,
-      "postTreeScore": 0.5502,
-      "childCount": 2,
-      "angles": [
-        "official_response"
-      ],
-      "temporalTiers": [
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "official_response"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_87_34265217e8e03181",
-      "headline": "New dinosaur species with neck as long as cricket pitch discovered in Thailand",
-      "score": 0.6363266666666667,
-      "postTreeScore": 0.5463,
-      "childCount": 2,
-      "angles": [
-        "fact_update"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "established"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "fact_update"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_232_03be58362aa5f03a",
+      "parentId": "cluster_274_03be58362aa5f03a",
       "headline": "CISF recovers 428 tonnes of illegal coal in Jharkhand, West Bengal crackdown",
-      "score": 0.6145100000000001,
-      "postTreeScore": 0.5245,
+      "score": 0.6784967197849983,
+      "postTreeScore": 0.5685,
       "childCount": 2,
       "angles": [
         "official_response"
@@ -261,21 +246,38 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_38_eaa30885b3224b2e",
-      "headline": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
-      "score": 0.5492732802150018,
-      "postTreeScore": 0.4393,
+      "parentId": "cluster_17_b6244d10aa711509",
+      "headline": "AIADMK criticises Vijay for visiting Karur with an eye on byelections",
+      "score": 0.6613967197849984,
+      "postTreeScore": 0.5514,
       "childCount": 2,
       "angles": [
-        "fact_update"
+        "official_response"
       ],
       "temporalTiers": [
         "breaking",
-        "reaction"
+        "analysis"
       ],
       "evolutionRoles": [
-        "first_report",
-        "fact_update"
+        "official_response"
+      ],
+      "baseReportShare": 0,
+      "weakTree": true
+    },
+    {
+      "parentId": "cluster_381_77d51433538e551c",
+      "headline": "E20 may cut mileage by up to 5% but offers cleaner combustion, energy security benefits: Oil Minister",
+      "score": 0.6602133864516649,
+      "postTreeScore": 0.5502,
+      "childCount": 2,
+      "angles": [
+        "official_response"
+      ],
+      "temporalTiers": [
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "official_response"
       ],
       "baseReportShare": 0,
       "weakTree": true
@@ -304,7 +306,7 @@
       {
         "id": "avg-angle-count",
         "label": "Average visible angle count",
-        "actual": 1.5,
+        "actual": 1.6,
         "required": ">= 1.4"
       },
       {
@@ -316,19 +318,19 @@
       {
         "id": "avg-evolution-role-count",
         "label": "Average evolution role count",
-        "actual": 2,
+        "actual": 1.9,
         "required": ">= 1.6"
       },
       {
         "id": "base-report-share",
         "label": "Base report share",
-        "actual": 0.091,
+        "actual": 0.136,
         "required": "<= 0.55"
       },
       {
         "id": "multi-angle-parent-count",
         "label": "Multi-angle parent count",
-        "actual": 5,
+        "actual": 6,
         "required": ">= 1"
       },
       {
@@ -346,23 +348,23 @@
       {
         "id": "weak-parent-ratio",
         "label": "Weak parent ratio",
-        "actual": 0.5,
+        "actual": 0.4,
         "required": "<= 0.5"
       }
     ],
     "failed": [],
     "summary": {
       "parentCount": 10,
-      "avgAngles": 1.5,
+      "avgAngles": 1.6,
       "avgTemporalTiers": 2,
-      "avgEvolutionRoles": 2,
-      "baseReportShare": 0.091,
-      "multiAngleCount": 5,
-      "weakParentCount": 5,
-      "weakParentRatio": 0.5,
+      "avgEvolutionRoles": 1.9,
+      "baseReportShare": 0.136,
+      "multiAngleCount": 6,
+      "weakParentCount": 4,
+      "weakParentRatio": 0.4,
       "topParentAngles": 2,
       "topParentChildren": 4,
-      "storyCount": 561,
+      "storyCount": 609,
       "sourceGroupCount": 9
     }
   }
