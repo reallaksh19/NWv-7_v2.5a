@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783800322856,
-  "contentHash": "eb125cd6986d",
+  "fetchedAt": 1783803883010,
+  "contentHash": "9a1740ed2fe0",
   "breaking": [
     {
       "title": "6 killed as Russia rains missiles, drones on Ukraine; Kyiv renews plea for air defences",
@@ -16,7 +16,7 @@
       "id": "31289317b237da76",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.644,
+      "breakingScore": 6.562,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -39,7 +39,7 @@
       "id": "9b9c4624fc3f4c9f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.275,
+      "breakingScore": 5.192,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -62,7 +62,7 @@
       "id": "b731c80d4b53f055",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.218,
+      "breakingScore": 5.136,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -71,29 +71,6 @@
         "times_of_india"
       ],
       "firstSeen": 1783788151000
-    },
-    {
-      "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
-      "summary": "At least four Britons are believed to be among the victims of the blaze, which left another 23 people missing.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783782225000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "eaa30885b3224b2e",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.081,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1783782225000
     },
     {
       "title": "China's second typhoon in a week makes landfall",
@@ -108,7 +85,7 @@
       "id": "050f2814a2366f67",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.301,
+      "breakingScore": 4.218,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -133,7 +110,7 @@
       "id": "4660708071ecaa8f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.919,
+      "breakingScore": 3.836,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -157,7 +134,7 @@
       "id": "1be0ffec5d5da033",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.874,
+      "breakingScore": 3.791,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -180,7 +157,7 @@
       "id": "a40c54af8f25c2cc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.837,
+      "breakingScore": 3.754,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -191,6 +168,29 @@
         "the_hindu"
       ],
       "firstSeen": 1783792515000
+    },
+    {
+      "title": "Polish PM pledges memorial to victims of WW2 'genocide by Ukrainian nationalists'",
+      "summary": "Warsaw and Kyiv have for decades been at loggerheads over the killings of many thousands of civilians during World War Two.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cze94x4361po?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783798327000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "3e7d2d99cb73a0cc",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.371,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1783798327000
     }
   ]
 }
