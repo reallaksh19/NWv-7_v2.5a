@@ -1,30 +1,55 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783751753735,
-  "contentHash": "4b3b0c86002c",
+  "fetchedAt": 1783758455002,
+  "contentHash": "85e71c1eef9a",
   "breaking": [
     {
-      "title": "\"1,000 Missiles Loaded\": Trump Amid Iranians' Call For His Assassination",
-      "summary": "During Khamenei's funeral, mourners repeatedly held posters calling for Trump to be killed.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-iran-us-iran-war-1-000-missiles-loaded-donald-trump-amid-iranians-call-for-his-assassination-11756824#publisher=newsstand",
-      "publishedAt": 1783746274000,
-      "category": "topStories",
+      "title": "Six injured as Russia strikes Kyiv with missiles, officials say",
+      "summary": "The attack damaged a non-residential ​building in ‌one district, while smoke was coming from another and an office building was ‌in flames as a ​result of the strike, the city military ⁠administration said on the Telegram messaging app",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/russias-missile-strike-on-kyiv-leaving-several-injured/article71209623.ece",
+      "publishedAt": 1783755186000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "e9d46c26bee8db5c",
+      "id": "0f35064ed09e6b78",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.373,
+      "breakingScore": 6.924,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "ndtv"
+        "the_hindu"
       ],
-      "firstSeen": 1783746274000
+      "firstSeen": 1783755186000
+    },
+    {
+      "title": "West Asia war LIVE: Iran says Eastern Tehran blast caused by controlled ammunition disposal",
+      "summary": "The ‌official said the operation of controlled disposal ‌of ammunition posed no threat to citizens and ‌that no incident ​had occurred.",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/iran-us-war-donald-trump-washington-tehran-peace-talks-west-asia-conflict-strait-of-hormuz-live-updates-july-11-2026/article71209275.ece",
+      "publishedAt": 1783754168000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "9fc724b668544fdd",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.901,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1783752524000
     },
     {
       "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
@@ -32,14 +57,14 @@
       "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783742816000,
+      "publishedAt": 1783755969000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "eaa30885b3224b2e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.293,
+      "breakingScore": 5.442,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -47,78 +72,7 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1783742816000
-    },
-    {
-      "title": "Venezuela Earthquake Death Count Crosses 4,000, Thousands Still Missing",
-      "summary": "At least 4,118 people were killed and 16,740 injured in the back-to-back June 24 quakes.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/venezuela-earthquake-death-count-rises-to-over-4-000-thousands-still-missing-11756534#publisher=newsstand",
-      "publishedAt": 1783739900000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "794519a06ddba9dd",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.226,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783739900000
-    },
-    {
-      "title": "Publicly declare Strait of Hormuz open, won't attack ships: U.S. demand to Iran",
-      "summary": "U.S. officials said that Donald Trump is giving U.S. negotiators limited time to reach a deal with Iran, but, in a sign of the challenges ahead, they underscored that the President had a wide range of options if talks fall apart",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/publicly-declare-hormuz-open-wont-attack-ships-us-demand-to-iran/article71209260.ece",
-      "publishedAt": 1783748043000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "419c9ba8a41b46dc",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 4.414,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "bbc",
-        "the_hindu"
-      ],
-      "firstSeen": 1783745793000
-    },
-    {
-      "title": "West Asia war LIVE: Trump threatens Iran after Ayatollah Ali Khamenei's funeral saw open calls for his killing",
-      "summary": "While there have been no direct talks between Iran and the United States since last month, Iranian media reported that a delegation from mediator Qatar was in Tehran after the warring sides exchanged strikes again this week.",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/iran-us-war-donald-trump-washington-tehran-peace-talks-west-asia-conflict-strait-of-hormuz-live-updates-july-11-2026/article71209275.ece",
-      "publishedAt": 1783748747000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "9fc724b668544fdd",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.93,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783746946000
+      "firstSeen": 1783755969000
     },
     {
       "title": "Typhoon Bavi lashes Japan's southern islands; landslides kill 15 in Philippines",
@@ -126,14 +80,14 @@
       "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/typhoon-bavi-lashes-japans-southern-islands-landslides-kill-15-in-philippines/article71209413.ece",
-      "publishedAt": 1783746308000,
+      "publishedAt": 1783752886000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "cb3584a9720ddb2d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.874,
+      "breakingScore": 3.871,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -141,22 +95,22 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1783746308000
+      "firstSeen": 1783752886000
     },
     {
-      "title": "Himachal, Uttarakhand Reel From Landslides, Mizoram, Tripura Battle Floods",
-      "summary": "Continuous rainfall also caused Ganga, Yamuna, and their tributaries to swell",
+      "title": "Trump's Iran War Conundrum, Shifting Stance And What's Next",
+      "summary": "The ceasefire calmed down the hostilities that began on February 28 but did nothing to solve the major issues that Washington and Tehran have with each other.",
       "source": "NDTV",
       "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/india-monsoon-weather-news-himachal-pradesh-uttarakhand-reel-from-landslides-mizoram-tripura-battle-floods-11756643#publisher=newsstand",
-      "publishedAt": 1783743864000,
+      "url": "https://www.ndtv.com/world-news/donald-trumps-iran-war-conundrum-shifting-stance-and-whats-next-11756917#publisher=newsstand",
+      "publishedAt": 1783748373000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "089bc906b54e9eff",
+      "id": "b315ae1fc3f900ee",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.817,
+      "breakingScore": 3.767,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -164,30 +118,77 @@
       "allSources": [
         "ndtv"
       ],
-      "firstSeen": 1783743864000
+      "firstSeen": 1783748373000
     },
     {
-      "title": "Foreigners among 12 killed in Spanish wildfire, 23 missing",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132323187.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/europe/foreigners-among-12-killed-in-spanish-wildfire-23-missing/articleshow/132323187.cms",
-      "publishedAt": 1783734062000,
+      "title": "Mother Washed Police Uniforms For 20 Years, Son Clears BPSC, Becomes Revenue Officer",
+      "summary": "Dharmendra Kumar cleared the 70th BPSC Examination and secured the post of Revenue Officer.",
+      "source": "NDTV India",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/education/mother-washed-police-uniforms-for-20-years-son-cracks-bpsc-to-become-revenue-officer-11757323#publisher=newsstand",
+      "publishedAt": 1783757308000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "01d9d20f4a964690",
+      "id": "1b91c46b571bf9da",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.59,
+      "breakingScore": 2.973,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "times_of_india"
+      ],
+      "firstSeen": 1783756713000
+    },
+    {
+      "title": "Security forces launch search operations in Manipur after two Assam Rifles personnel killed",
+      "summary": "On July 10, Assam Rifles said the paramilitary force, in coordination with the Border Security Force and Manipur Police, commenced a large-scale search operation in the Nungshang area",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/manipur/security-forces-launch-search-operations-in-manipur-after-two-assam-rifles-personnel-killed/article71209613.ece",
+      "publishedAt": 1783756619000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "96d560ba0a6dd845",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.457,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "times_of_india"
+        "the_hindu"
       ],
-      "firstSeen": 1783734062000
+      "firstSeen": 1783756619000
+    },
+    {
+      "title": "'No Longer Part Of Probe': Suspect Arrested In Ex-UK MP Murder Case Released",
+      "summary": "Ex-UK MP Ann Widdecombe",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/suspect-arrested-in-ex-uk-mp-ann-widdecombe-murder-case-released-no-longer-part-of-probe-11757188#publisher=newsstand",
+      "publishedAt": 1783754476000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "320641c7bef3ab19",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.408,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1783754476000
     }
   ]
 }
