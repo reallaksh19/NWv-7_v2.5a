@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783777988793,
-  "contentHash": "3a5b730ab8df",
+  "fetchedAt": 1783781359405,
+  "contentHash": "e582b71339b8",
   "breaking": [
     {
       "title": "At least two dead, 19 wounded as Russia strikes Ukraine with missiles, drones",
@@ -16,7 +16,7 @@
       "id": "0f35064ed09e6b78",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.705,
+      "breakingScore": 6.627,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -25,32 +25,6 @@
         "the_hindu"
       ],
       "firstSeen": 1783765227000
-    },
-    {
-      "title": "Indian tourists among 15 killed as speedboat capsizes in Vietnam",
-      "summary": "Local media say 21 people were saved after the boat overturned in rough seas near an island in south Vietnam.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cwyd7x22lp1o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783777443000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "774f5f7bf5170601",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.487,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 3,
-      "allSources": [
-        "bbc",
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1783773619000
     },
     {
       "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
@@ -65,7 +39,7 @@
       "id": "eaa30885b3224b2e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.095,
+      "breakingScore": 5.017,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -74,6 +48,29 @@
         "bbc"
       ],
       "firstSeen": 1783760475000
+    },
+    {
+      "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz",
+      "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783778887000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "65f3b49c39e7e9a7",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.943,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1783778887000
     },
     {
       "title": "‘I’ll play for India’: Popular US streamer IShowSpeed makes bold offer to help nation qualify for 2030 FIFA World Cup",
@@ -88,7 +85,7 @@
       "id": "0282dd8e464b73dd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.952,
+      "breakingScore": 3.874,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -111,7 +108,7 @@
       "id": "a9e3b696e0a42984",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.919,
+      "breakingScore": 3.841,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -134,7 +131,7 @@
       "id": "8479c9aeff5334de",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.823,
+      "breakingScore": 3.745,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -145,19 +142,19 @@
       "firstSeen": 1783770355000
     },
     {
-      "title": "Manipur CM vows arrest of all accused in killing of six Naga civilians",
-      "summary": "Mr. Khemchand Singh’s comments came a day after a team of security officials led by the National Investigation Agency arrested two persons for their alleged involvement in the killings",
+      "title": "Revanth cites danger in lifting floodwaters at Medigadda and challenges BRS and BJP to convince NDSA",
+      "summary": "Let BJP MP Rajender take a delegation to NDSA",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/manipur/manipur-cm-vows-arrest-of-all-accused-in-killing-of-six-naga-civilians/article71210213.ece",
-      "publishedAt": 1783777265000,
+      "url": "https://www.thehindu.com/news/national/telangana/revanth-cites-danger-in-lifting-floodwaters-at-medigadda-and-challenges-brs-and-bjp-to-convince-ndsa/article71210901.ece",
+      "publishedAt": 1783780686000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "655f2508c06344bd",
+      "id": "2f0dbf1812fd5f7b",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.483,
+      "breakingScore": 2.484,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -165,7 +162,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1783777265000
+      "firstSeen": 1783780686000
     },
     {
       "title": "West Asia war LIVE: Iran's supreme leader pledges revenge for slain father and predecessor",
@@ -173,14 +170,14 @@
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/iran-us-war-donald-trump-washington-tehran-peace-talks-west-asia-conflict-strait-of-hormuz-live-updates-july-11-2026/article71209275.ece",
-      "publishedAt": 1783777219000,
+      "publishedAt": 1783780418000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "9fc724b668544fdd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.482,
+      "breakingScore": 2.478,
       "breakingReasons": [
         "severity_lexicon"
       ],
