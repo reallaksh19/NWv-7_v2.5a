@@ -1,32 +1,30 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783744035298,
-  "contentHash": "4f7843652fff",
+  "fetchedAt": 1783751753735,
+  "contentHash": "4b3b0c86002c",
   "breaking": [
     {
-      "title": "Himachal, Uttarakhand Reel From Landslides, Mizoram, Tripura Battle Floods",
-      "summary": "Continuous rainfall also caused Ganga, Yamuna, and their tributaries to swell",
-      "source": "NDTV India",
+      "title": "\"1,000 Missiles Loaded\": Trump Amid Iranians' Call For His Assassination",
+      "summary": "During Khamenei's funeral, mourners repeatedly held posters calling for Trump to be killed.",
+      "source": "NDTV",
       "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/india-monsoon-weather-news-himachal-pradesh-uttarakhand-reel-from-landslides-mizoram-tripura-battle-floods-11756643#publisher=newsstand",
-      "publishedAt": 1783743864000,
-      "category": "india",
+      "url": "https://www.ndtv.com/world-news/us-iran-us-iran-war-1-000-missiles-loaded-donald-trump-amid-iranians-call-for-his-assassination-11756824#publisher=newsstand",
+      "publishedAt": 1783746274000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "089bc906b54e9eff",
+      "id": "e9d46c26bee8db5c",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.996,
+      "breakingScore": 5.373,
       "breakingReasons": [
-        "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "allSources": [
-        "ndtv",
-        "the_hindu"
+        "ndtv"
       ],
-      "firstSeen": 1783743310000
+      "firstSeen": 1783746274000
     },
     {
       "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
@@ -41,7 +39,7 @@
       "id": "eaa30885b3224b2e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.472,
+      "breakingScore": 5.293,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -52,19 +50,19 @@
       "firstSeen": 1783742816000
     },
     {
-      "title": "Venezuela Earthquake Death Count Rises To Over 4,000, Thousands Still Missing",
+      "title": "Venezuela Earthquake Death Count Crosses 4,000, Thousands Still Missing",
       "summary": "At least 4,118 people were killed and 16,740 injured in the back-to-back June 24 quakes.",
       "source": "NDTV",
       "sourceGroup": "ndtv",
       "url": "https://www.ndtv.com/world-news/venezuela-earthquake-death-count-rises-to-over-4-000-thousands-still-missing-11756534#publisher=newsstand",
-      "publishedAt": 1783739460000,
+      "publishedAt": 1783739900000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "794519a06ddba9dd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.394,
+      "breakingScore": 5.226,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -72,30 +70,7 @@
       "allSources": [
         "ndtv"
       ],
-      "firstSeen": 1783739460000
-    },
-    {
-      "title": "Pak Forces Kills 75 Rebels In Balochistan After Cops Blindfolded, Shot Dead",
-      "summary": "Nine police officers and 15 attackers were killed in the initial assault. (Representational)",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/pakistani-forces-kills-75-rebels-in-balochistan-after-cops-blindfolded-shot-dead-11756524#publisher=newsstand",
-      "publishedAt": 1783739082000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "f2ed76d471aa215c",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.385,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783739082000
+      "firstSeen": 1783739900000
     },
     {
       "title": "Publicly declare Strait of Hormuz open, won't attack ships: U.S. demand to Iran",
@@ -103,14 +78,14 @@
       "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/publicly-declare-hormuz-open-wont-attack-ships-us-demand-to-iran/article71209260.ece",
-      "publishedAt": 1783735946000,
+      "publishedAt": 1783748043000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "419c9ba8a41b46dc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.313,
+      "breakingScore": 4.414,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -120,55 +95,76 @@
         "bbc",
         "the_hindu"
       ],
-      "firstSeen": 1783733089000
+      "firstSeen": 1783745793000
     },
     {
-      "title": "West Asia war LIVE: Trump agrees to more Iran talks but insists truce is over",
+      "title": "West Asia war LIVE: Trump threatens Iran after Ayatollah Ali Khamenei's funeral saw open calls for his killing",
       "summary": "While there have been no direct talks between Iran and the United States since last month, Iranian media reported that a delegation from mediator Qatar was in Tehran after the warring sides exchanged strikes again this week.",
-      "source": "The Hindu",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/iran-us-war-donald-trump-washington-tehran-peace-talks-west-asia-conflict-strait-of-hormuz-live-updates-july-11-2026/article71209275.ece",
-      "publishedAt": 1783743513000,
-      "category": "topStories",
+      "publishedAt": 1783748747000,
+      "category": "world",
       "region": "in",
       "language": "en",
       "id": "9fc724b668544fdd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.988,
+      "breakingScore": 3.93,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "allSources": [
-        "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1783702572000
+      "firstSeen": 1783746946000
     },
     {
-      "title": "Ex-UK MP Found Dead At Home With 'Serious Injuries', Murder Suspect Arrested",
-      "summary": "The killing was not believed to be an act of terror.",
+      "title": "Typhoon Bavi lashes Japan's southern islands; landslides kill 15 in Philippines",
+      "summary": "In Taiwan, the government evacuated more than 14,000 people from mainly mountainous areas as the island shut down for the approach of Bavi to the north",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/typhoon-bavi-lashes-japans-southern-islands-landslides-kill-15-in-philippines/article71209413.ece",
+      "publishedAt": 1783746308000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "cb3584a9720ddb2d",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.874,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1783746308000
+    },
+    {
+      "title": "Himachal, Uttarakhand Reel From Landslides, Mizoram, Tripura Battle Floods",
+      "summary": "Continuous rainfall also caused Ganga, Yamuna, and their tributaries to swell",
       "source": "NDTV",
       "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/ex-uk-mp-ann-widdecombe-found-dead-at-home-with-serious-injuries-murder-suspect-arrested-11756504#publisher=newsstand",
-      "publishedAt": 1783738421000,
+      "url": "https://www.ndtv.com/india-news/india-monsoon-weather-news-himachal-pradesh-uttarakhand-reel-from-landslides-mizoram-tripura-battle-floods-11756643#publisher=newsstand",
+      "publishedAt": 1783743864000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "677ae56ee45d2ddd",
+      "id": "089bc906b54e9eff",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.87,
+      "breakingScore": 3.817,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "allSources": [
-        "bbc",
         "ndtv"
       ],
-      "firstSeen": 1783714197000
+      "firstSeen": 1783743864000
     },
     {
       "title": "Foreigners among 12 killed in Spanish wildfire, 23 missing",
@@ -183,7 +179,7 @@
       "id": "01d9d20f4a964690",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.769,
+      "breakingScore": 3.59,
       "breakingReasons": [
         "severity_lexicon"
       ],
