@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783788803555,
-  "contentHash": "eac06cc70572",
+  "fetchedAt": 1783792382103,
+  "contentHash": "71f34435567f",
   "breaking": [
     {
       "title": "6 killed as Russia rains missiles, drones on Ukraine; Kyiv renews plea for air defences",
@@ -16,7 +16,7 @@
       "id": "31289317b237da76",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.911,
+      "breakingScore": 6.828,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -26,6 +26,29 @@
         "times_of_india"
       ],
       "firstSeen": 1783765227000
+    },
+    {
+      "title": "Ann Widdecombe attacked nearly 24 hours before she was found dead, police believe",
+      "summary": "A 26-year-old white British man arrested on suspicion of her murder has been released and is no longer part of the investigation.",
+      "source": "BBC",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cgjx912wxw3o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783790584000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "9b9c4624fc3f4c9f",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.458,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1783790584000
     },
     {
       "title": "Trump threatens Iran with '1000 missiles' as both sides shoot their mouth in Gulf spat",
@@ -40,7 +63,7 @@
       "id": "b731c80d4b53f055",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.485,
+      "breakingScore": 5.402,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -63,7 +86,7 @@
       "id": "eaa30885b3224b2e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.348,
+      "breakingScore": 5.265,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -74,19 +97,44 @@
       "firstSeen": 1783782225000
     },
     {
-      "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz",
+      "title": "China's second typhoon in a week makes landfall",
+      "summary": "Nearly two million people are evacuated from eastern Zhejiang province, with the city of Wenzhou close to the path of the storm.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783791716000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "050f2814a2366f67",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 4.485,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "times_of_india"
+      ],
+      "firstSeen": 1783789516000
+    },
+    {
+      "title": "Iran must pledge to stop shooting at ships in Strait of Hormuz, US officials say",
       "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
       "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783784731000,
+      "publishedAt": 1783788957000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "65f3b49c39e7e9a7",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.906,
+      "breakingScore": 3.921,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -94,7 +142,7 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1783784731000
+      "firstSeen": 1783788957000
     },
     {
       "title": "‘I’ll play for India’: Popular US streamer IShowSpeed makes bold offer to help nation qualify for 2030 FIFA World Cup",
@@ -109,7 +157,7 @@
       "id": "0282dd8e464b73dd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.702,
+      "breakingScore": 3.619,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -132,7 +180,7 @@
       "id": "a9e3b696e0a42984",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.668,
+      "breakingScore": 3.586,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -141,52 +189,6 @@
         "times_of_india"
       ],
       "firstSeen": 1783774482000
-    },
-    {
-      "title": "Watch: 'We escaped Spanish wildfire, but our friends lost their lives'",
-      "summary": "Hundreds of firefighters in Spain have been battling a deadly wildfire in the south of the country.",
-      "source": "BBC",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/videos/c07y357zvl1o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783770355000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "8479c9aeff5334de",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.573,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1783770355000
-    },
-    {
-      "title": "History-sheeter from Andhra Pradesh arrested for matrimonial fraud",
-      "summary": "The accused Chella Narayanan has multiple criminal cases pending against him in Andhra Pradesh, including cases involving murder, theft, cheating, and offences under the POCSO Act",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/chennai/history-sheeter-from-andhra-pradesh-arrested-for-matrimonial-fraud/article71210490.ece",
-      "publishedAt": 1783786868000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "3271fe24d107dad1",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.455,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783786868000
     }
   ]
 }
