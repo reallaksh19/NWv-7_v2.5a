@@ -60,11 +60,11 @@
       "gateResults": [
         {
           "details": {
-            "itemCount": 5
+            "itemCount": 6
           },
           "name": "insightEventPool",
           "reason": "rankable Insight event pool",
-          "score": 0.8333,
+          "score": 1.0,
           "status": "PASS"
         },
         {
@@ -79,14 +79,14 @@
         "avgAnglesPerParent": 0.0,
         "baseReportHeavyParents": 0,
         "duplicateChildrenSuppressed": 0,
-        "inputCandidateCount": 5,
-        "parentClusters": 5,
-        "strongParents": 5,
+        "inputCandidateCount": 6,
+        "parentClusters": 6,
+        "strongParents": 6,
         "suppressedCandidateCount": 0,
         "weakParentsDemoted": 0
       },
       "qualityGrade": "F",
-      "qualityScore": 0.4171,
+      "qualityScore": 0.4045,
       "qualityStatus": "WARN",
       "rankedItems": [
         {
@@ -554,6 +554,116 @@
             },
             {
               "details": {
+                "baseReportRatio": 0.0,
+                "distinctAngles": 1
+              },
+              "name": "angleDiversity",
+              "reason": "weak child angle diversity",
+              "score": 0.25,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "sourceGroupCount": 1
+              },
+              "name": "sourceDiversity",
+              "reason": "one-source event candidate",
+              "score": 0.35,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "baseReportRatio": 0.0
+              },
+              "name": "baseReportCap",
+              "reason": "base-report ratio controlled",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "childCount": 2
+              },
+              "name": "weakTree",
+              "reason": "child tree has enough depth",
+              "score": 0.5,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "duplicateChildren",
+              "reason": "no child objects to dedup",
+              "score": 0.7,
+              "status": "PASS"
+            }
+          ],
+          "id": "sketch:fcde5c7120",
+          "item": {
+            "angleCount": 1,
+            "baseReportRatio": 0.0,
+            "childScores": [],
+            "id": "sketch:fcde5c7120",
+            "representativeId": "cefd0947496f8de7",
+            "representativeTitle": "Buy Bajaj Finance; target of Rs 9000: Emkay Global Financial",
+            "scoreBreakdown": {
+              "angleDiversityScore": 0.25,
+              "eventImportanceScore": 0.59,
+              "freshnessScore": 0.0,
+              "noveltyDeltaScore": 0.44999999999999996,
+              "sourceAuthorityScore": 0.38,
+              "sourceDiversityScore": 0.35,
+              "temporalEvolutionScore": 0.37
+            },
+            "slotCount": 1,
+            "slots": [
+              "minus24h"
+            ],
+            "sourceGroupCount": 1,
+            "sourceGroups": [
+              "moneycontrol"
+            ],
+            "storyCount": 2,
+            "storyIds": [
+              "cefd0947496f8de7",
+              "d0020e471404281a"
+            ],
+            "topAngles": [
+              {
+                "angle": "market_reaction",
+                "count": 2
+              }
+            ],
+            "topTokens": [
+              "bajaj",
+              "finance",
+              "target",
+              "emkay"
+            ],
+            "topicKey": "bajaj|finance|target"
+          },
+          "locationKey": "event",
+          "rankingReasons": [
+            "event sketch has repeated story count",
+            "weak child angle diversity",
+            "one-source event candidate"
+          ],
+          "score": 0.389,
+          "title": "Buy Bajaj Finance; target of Rs 9000: Emkay Global Financial"
+        },
+        {
+          "category": "insightEvent",
+          "gates": [
+            {
+              "details": {
+                "storyCount": 2
+              },
+              "name": "eventCoherence",
+              "reason": "event sketch has repeated story count",
+              "score": 0.62,
+              "status": "PASS"
+            },
+            {
+              "details": {
                 "baseReportRatio": 0.5,
                 "distinctAngles": 1
               },
@@ -660,12 +770,12 @@
       "rankingProfile": "insight-v2-event-angle-tree",
       "scoreBreakdown": {
         "angleDiversityScore": 0.25,
-        "eventImportanceScore": 0.638,
+        "eventImportanceScore": 0.63,
         "freshnessScore": 0.0,
-        "noveltyDeltaScore": 0.47,
-        "sourceAuthorityScore": 0.524,
-        "sourceDiversityScore": 0.572,
-        "temporalEvolutionScore": 0.466
+        "noveltyDeltaScore": 0.4667,
+        "sourceAuthorityScore": 0.5,
+        "sourceDiversityScore": 0.535,
+        "temporalEvolutionScore": 0.45
       }
     },
     "localTravel": {
@@ -725,7 +835,7 @@
     },
     "upAhead": {
       "actionableFindings": [
-        "6 invalid/expired/duplicate Up Ahead item(s) suppressed",
+        "7 invalid/expired/duplicate Up Ahead item(s) suppressed",
         "no active offer items in ranked Up Ahead set",
         "no ranked Up Ahead item for muscat"
       ],
@@ -734,9 +844,13 @@
         "One of Brooks’ most popular running shoes is on sale for under $100 - NBC News: location failed — offline/local item lacks configured location match",
         "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
         "You Can Get Up to 35% Off a Pair of New Balances on Amazon Right Now - Esquire: location failed — offline/local item lacks configured location match",
+        "The uncertain flight of Parandur airport: futureValidity failed — expired display window",
+        "The uncertain flight of Parandur airport: alertUrgency failed — alert expired",
         "Amazon’s $25 Billion Bond Sale: Is the AI-Debt Boom a Warning Sign or a Smart Way to Bankroll a Build-Out? - MarketWise: location failed — offline/local item lacks configured location match",
         "Amazon Prime Day Early Sale Slashes MSI RTX 5060 Ti Graphics Card by 26% to ¥59,800 - finance.biggo.com: location failed — offline/local item lacks configured location match",
-        "Away Promo Codes: Up to 20% Off in July 2026 - Condé Nast Traveler: location failed — offline/local item lacks configured location match"
+        "Away Promo Codes: Up to 20% Off in July 2026 - Condé Nast Traveler: futureValidity failed — expired display window",
+        "Away Promo Codes: Up to 20% Off in July 2026 - Condé Nast Traveler: location failed — offline/local item lacks configured location match",
+        "Away Promo Codes: Up to 20% Off in July 2026 - Condé Nast Traveler: offerValidity failed — offer expired"
       ],
       "gateResults": [
         {
@@ -782,7 +896,7 @@
         "onlineOffers": 0,
         "plannerAdvisoryItems": 30,
         "rankedItemCount": 30,
-        "suppressedItemCount": 6
+        "suppressedItemCount": 7
       },
       "qualityGrade": "B",
       "qualityScore": 0.8606,
@@ -4251,7 +4365,7 @@
       }
     }
   },
-  "generatedAt": 1783792465871,
+  "generatedAt": 1783796325681,
   "implementedDestinations": [
     "upAhead",
     "buzz",
@@ -4270,7 +4384,7 @@
   "schemaVersion": 1,
   "summary": {
     "actionRequired": [
-      "6 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "7 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no active offer items in ranked Up Ahead set",
       "no ranked Up Ahead item for muscat",
       "no local Buzz item in ranked set",
@@ -4284,7 +4398,7 @@
     ],
     "destinationScores": {
       "buzz": 0.0,
-      "insight": 0.4171,
+      "insight": 0.4045,
       "localTravel": 0.0,
       "upAhead": 0.8606
     },
@@ -4294,7 +4408,7 @@
       "localTravel": "FAIL",
       "upAhead": "WARN"
     },
-    "overallScore": 0.3194,
+    "overallScore": 0.3163,
     "overallStatus": "FAIL",
     "rankingProfiles": {
       "buzz": "buzz-v2-trend-local-travel",
@@ -4306,9 +4420,13 @@
       "One of Brooks’ most popular running shoes is on sale for under $100 - NBC News: location failed — offline/local item lacks configured location match",
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
       "You Can Get Up to 35% Off a Pair of New Balances on Amazon Right Now - Esquire: location failed — offline/local item lacks configured location match",
+      "The uncertain flight of Parandur airport: futureValidity failed — expired display window",
+      "The uncertain flight of Parandur airport: alertUrgency failed — alert expired",
       "Amazon’s $25 Billion Bond Sale: Is the AI-Debt Boom a Warning Sign or a Smart Way to Bankroll a Build-Out? - MarketWise: location failed — offline/local item lacks configured location match",
       "Amazon Prime Day Early Sale Slashes MSI RTX 5060 Ti Graphics Card by 26% to ¥59,800 - finance.biggo.com: location failed — offline/local item lacks configured location match",
-      "Away Promo Codes: Up to 20% Off in July 2026 - Condé Nast Traveler: location failed — offline/local item lacks configured location match"
+      "Away Promo Codes: Up to 20% Off in July 2026 - Condé Nast Traveler: futureValidity failed — expired display window",
+      "Away Promo Codes: Up to 20% Off in July 2026 - Condé Nast Traveler: location failed — offline/local item lacks configured location match",
+      "Away Promo Codes: Up to 20% Off in July 2026 - Condé Nast Traveler: offerValidity failed — offer expired"
     ]
   }
 }
