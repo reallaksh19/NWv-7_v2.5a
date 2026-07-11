@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783768292506,
-  "contentHash": "517e2aa7367d",
+  "fetchedAt": 1783771533415,
+  "contentHash": "c65deb586323",
   "breaking": [
     {
       "title": "At least two dead, 19 wounded as Russia strikes Ukraine with missiles, drones",
@@ -16,7 +16,7 @@
       "id": "0f35064ed09e6b78",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.929,
+      "breakingScore": 6.854,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -39,7 +39,7 @@
       "id": "eaa30885b3224b2e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.319,
+      "breakingScore": 5.244,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -50,19 +50,19 @@
       "firstSeen": 1783760475000
     },
     {
-      "title": "At least 15 Indian tourists dead after boat capsizes near island off Vietnam; rescue efforts under way",
-      "summary": "The boat was carrying 32 Indian tourists and four crew members, reports said",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/boat-with-indian-tourists-capsizes-vietnam-phu-quoc-island-rescue-efforts-updates/article71209943.ece",
-      "publishedAt": 1783767855000,
-      "category": "world",
+      "title": "15 Indian Tourists Killed As Boat Overturns In Vietnam",
+      "summary": "The embassy added that local authorities are working to establish the exact details of the incident.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/boat-with-indian-tourists-overturns-in-vietnam-rescue-ops-on-11757669#publisher=newsstand",
+      "publishedAt": 1783770165000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "49ca51fb1a24be7f",
+      "id": "3f2c1303f35498ea",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.49,
+      "breakingScore": 4.468,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -72,32 +72,54 @@
         "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1783766004000
+      "firstSeen": 1783768997000
     },
     {
-      "title": "UK triple murder suspect arrested in South Africa after international manhunt",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132326938.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/uk/man-wanted-for-killing-wife-two-daughters-in-uk-arrested-in-south-africa-after-international-manhunt/articleshow/132326938.cms",
-      "publishedAt": 1783756958000,
-      "category": "india",
+      "title": "Watch: 'We escaped Spanish wildfire, but our friends lost their lives'",
+      "summary": "Hundreds of firefighters in Spain have been battling a deadly wildfire in the south of the country.",
+      "source": "BBC",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/videos/c07y357zvl1o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783770355000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "99b8d953467d9d67",
+      "id": "8479c9aeff5334de",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.238,
+      "breakingScore": 3.973,
       "breakingReasons": [
-        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1783770355000
+    },
+    {
+      "title": "\"Pledge To Avenge His Blood\": Mojtaba Khamenei On Father's Funeral",
+      "summary": "The statement was released on the occasion of the funeral ceremonies of Ali Khamenei, which were held months after he was killed in the US-Israeli strikes on his office in Tehran on February 28.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/pledge-to-avenge-his-blood-mojtaba-khamenei-on-fathers-funeral-11757987#publisher=newsstand",
+      "publishedAt": 1783770223000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "9c3d213cbcc365da",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.97,
+      "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 2,
       "allSources": [
         "ndtv",
-        "times_of_india"
+        "the_hindu"
       ],
-      "firstSeen": 1783754476000
+      "firstSeen": 1783753786000
     },
     {
       "title": "Typhoon Bavi lashes Japan's southern islands; landslides kill 15 in Philippines",
@@ -112,7 +134,7 @@
       "id": "cb3584a9720ddb2d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.643,
+      "breakingScore": 3.568,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -135,7 +157,7 @@
       "id": "1b91c46b571bf9da",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.829,
+      "breakingScore": 2.754,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -147,50 +169,27 @@
       "firstSeen": 1783756713000
     },
     {
-      "title": "West Asia war LIVE: Iran's supreme leader pledges revenge for slain father and predecessor",
-      "summary": "Iran's supreme leader ​Ayatollah Mojtaba Khamenei said ‌that ​avenging his ⁠slain predecessor and father was \"the demand of ‌the nation\" and \"must certainly\" take ‌place, according ‌to ⁠a written ⁠message released on his Telegram account",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/iran-us-war-donald-trump-washington-tehran-peace-talks-west-asia-conflict-strait-of-hormuz-live-updates-july-11-2026/article71209275.ece",
-      "publishedAt": 1783767725000,
-      "category": "topStories",
+      "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz",
+      "summary": "Vice-President JD Vance is among US officials expected to take part in negotiations resuming on Saturday in Oman.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783770166000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "9fc724b668544fdd",
+      "id": "65f3b49c39e7e9a7",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.487,
+      "breakingScore": 2.468,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "the_hindu"
+        "bbc"
       ],
-      "firstSeen": 1783767725000
-    },
-    {
-      "title": "7-Year-Old Girl Found Dead In Basement Of Under-Construction Mall, Several Detained",
-      "summary": "Body was found in the basement of the under construction mall",
-      "source": "NDTV India",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/7-year-old-girl-found-dead-in-basement-of-under-construction-mall-several-detained-11757846#publisher=newsstand",
-      "publishedAt": 1783766423000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "fe6e0c7a8ccf7b8f",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.457,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783766423000
+      "firstSeen": 1783770166000
     }
   ]
 }
