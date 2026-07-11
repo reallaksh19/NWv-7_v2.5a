@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783763941228,
-  "contentHash": "2e613d368a6f",
+  "fetchedAt": 1783768292506,
+  "contentHash": "517e2aa7367d",
   "breaking": [
     {
-      "title": "Six injured as Russia strikes Kyiv with missiles, officials say",
+      "title": "At least two dead, 19 wounded as Russia strikes Ukraine with missiles, drones",
       "summary": "The attack damaged a non-residential ​building in ‌one district, while smoke was coming from another and an office building was ‌in flames as a ​result of the strike, the city military ⁠administration said on the Telegram messaging app",
       "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/russias-missile-strike-on-kyiv-leaving-several-injured/article71209623.ece",
-      "publishedAt": 1783755186000,
+      "publishedAt": 1783765227000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "0f35064ed09e6b78",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.797,
+      "breakingScore": 6.929,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -24,7 +24,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1783755186000
+      "firstSeen": 1783765227000
     },
     {
       "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
@@ -39,7 +39,7 @@
       "id": "eaa30885b3224b2e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.42,
+      "breakingScore": 5.319,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -48,6 +48,31 @@
         "bbc"
       ],
       "firstSeen": 1783760475000
+    },
+    {
+      "title": "At least 15 Indian tourists dead after boat capsizes near island off Vietnam; rescue efforts under way",
+      "summary": "The boat was carrying 32 Indian tourists and four crew members, reports said",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/boat-with-indian-tourists-capsizes-vietnam-phu-quoc-island-rescue-efforts-updates/article71209943.ece",
+      "publishedAt": 1783767855000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "49ca51fb1a24be7f",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 4.49,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1783766004000
     },
     {
       "title": "UK triple murder suspect arrested in South Africa after international manhunt",
@@ -62,7 +87,7 @@
       "id": "99b8d953467d9d67",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.338,
+      "breakingScore": 4.238,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -73,30 +98,6 @@
         "times_of_india"
       ],
       "firstSeen": 1783754476000
-    },
-    {
-      "title": "West Asia war LIVE: Iran says Eastern Tehran blast caused by controlled ammunition disposal",
-      "summary": "The ‌official said the operation of controlled disposal ‌of ammunition posed no threat to citizens and ‌that no incident ​had occurred.",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/iran-us-war-donald-trump-washington-tehran-peace-talks-west-asia-conflict-strait-of-hormuz-live-updates-july-11-2026/article71209275.ece",
-      "publishedAt": 1783763046000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "9fc724b668544fdd",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.979,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1783752524000
     },
     {
       "title": "Typhoon Bavi lashes Japan's southern islands; landslides kill 15 in Philippines",
@@ -111,7 +112,7 @@
       "id": "cb3584a9720ddb2d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.744,
+      "breakingScore": 3.643,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -120,30 +121,6 @@
         "the_hindu"
       ],
       "firstSeen": 1783752886000
-    },
-    {
-      "title": "Two youngsters died after falling into a quarry",
-      "summary": "The incident occurred around 10:26 a.m. at Shaikh Khadan in Ketki Pada, an area under the jurisdiction of the National Park in Mumbai’s Borivali area",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/mumbai/two-youngsters-died-after-falling-in-quarry/article71209957.ece",
-      "publishedAt": 1783763258000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "13aa03e1ef06fe5e",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.984,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1783761446000
     },
     {
       "title": "Mother Washed Police Uniforms For 20 Years, Son Clears BPSC, Becomes Revenue Officer",
@@ -158,7 +135,7 @@
       "id": "1b91c46b571bf9da",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.93,
+      "breakingScore": 2.829,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -170,19 +147,19 @@
       "firstSeen": 1783756713000
     },
     {
-      "title": "Monsoon tracker LIVE: Cloudy skies to persist in Delhi; highways blocked after landslides in hill States",
-      "summary": "Widespread rainfall lashed large parts of Uttar Pradesh on July 10, bringing daytime temperatures below normal at several places, with heavy to very heavy rainfall being forecast at isolated places",
+      "title": "West Asia war LIVE: Iran's supreme leader pledges revenge for slain father and predecessor",
+      "summary": "Iran's supreme leader ​Ayatollah Mojtaba Khamenei said ‌that ​avenging his ⁠slain predecessor and father was \"the demand of ‌the nation\" and \"must certainly\" take ‌place, according ‌to ⁠a written ⁠message released on his Telegram account",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/monsoon-rain-in-india-imd-weather-forecast-flood-rainfall-alerts-live-updates-july-11-2026/article71209337.ece",
-      "publishedAt": 1783763552000,
+      "url": "https://www.thehindu.com/news/international/iran-us-war-donald-trump-washington-tehran-peace-talks-west-asia-conflict-strait-of-hormuz-live-updates-july-11-2026/article71209275.ece",
+      "publishedAt": 1783767725000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "5760b0fd02e79659",
+      "id": "9fc724b668544fdd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.491,
+      "breakingScore": 2.487,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -190,7 +167,30 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1783763552000
+      "firstSeen": 1783767725000
+    },
+    {
+      "title": "7-Year-Old Girl Found Dead In Basement Of Under-Construction Mall, Several Detained",
+      "summary": "Body was found in the basement of the under construction mall",
+      "source": "NDTV India",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/7-year-old-girl-found-dead-in-basement-of-under-construction-mall-several-detained-11757846#publisher=newsstand",
+      "publishedAt": 1783766423000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "fe6e0c7a8ccf7b8f",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.457,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1783766423000
     }
   ]
 }
