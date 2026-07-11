@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783758455002,
-  "contentHash": "85e71c1eef9a",
+  "fetchedAt": 1783763941228,
+  "contentHash": "2e613d368a6f",
   "breaking": [
     {
       "title": "Six injured as Russia strikes Kyiv with missiles, officials say",
@@ -16,7 +16,7 @@
       "id": "0f35064ed09e6b78",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.924,
+      "breakingScore": 6.797,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -27,21 +27,68 @@
       "firstSeen": 1783755186000
     },
     {
+      "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
+      "summary": "At least four Britons are believed to be among the victims of the blaze, which left another 23 people missing.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783760475000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "eaa30885b3224b2e",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.42,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1783760475000
+    },
+    {
+      "title": "UK triple murder suspect arrested in South Africa after international manhunt",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132326938.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/uk/man-wanted-for-killing-wife-two-daughters-in-uk-arrested-in-south-africa-after-international-manhunt/articleshow/132326938.cms",
+      "publishedAt": 1783756958000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "99b8d953467d9d67",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 4.338,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "times_of_india"
+      ],
+      "firstSeen": 1783754476000
+    },
+    {
       "title": "West Asia war LIVE: Iran says Eastern Tehran blast caused by controlled ammunition disposal",
       "summary": "The ‌official said the operation of controlled disposal ‌of ammunition posed no threat to citizens and ‌that no incident ​had occurred.",
-      "source": "The Hindu International",
+      "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/iran-us-war-donald-trump-washington-tehran-peace-talks-west-asia-conflict-strait-of-hormuz-live-updates-july-11-2026/article71209275.ece",
-      "publishedAt": 1783754168000,
-      "category": "world",
+      "publishedAt": 1783763046000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "9fc724b668544fdd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.901,
+      "breakingScore": 3.979,
       "breakingReasons": [
-        "multi_source_velocity",
         "severity_lexicon"
       ],
       "sourceCount": 2,
@@ -50,29 +97,6 @@
         "the_hindu"
       ],
       "firstSeen": 1783752524000
-    },
-    {
-      "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
-      "summary": "At least four Britons are believed to be among the victims of the blaze, which left another 23 people missing.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783755969000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "eaa30885b3224b2e",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.442,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1783755969000
     },
     {
       "title": "Typhoon Bavi lashes Japan's southern islands; landslides kill 15 in Philippines",
@@ -87,7 +111,7 @@
       "id": "cb3584a9720ddb2d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.871,
+      "breakingScore": 3.744,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -98,27 +122,28 @@
       "firstSeen": 1783752886000
     },
     {
-      "title": "Trump's Iran War Conundrum, Shifting Stance And What's Next",
-      "summary": "The ceasefire calmed down the hostilities that began on February 28 but did nothing to solve the major issues that Washington and Tehran have with each other.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/donald-trumps-iran-war-conundrum-shifting-stance-and-whats-next-11756917#publisher=newsstand",
-      "publishedAt": 1783748373000,
+      "title": "Two youngsters died after falling into a quarry",
+      "summary": "The incident occurred around 10:26 a.m. at Shaikh Khadan in Ketki Pada, an area under the jurisdiction of the National Park in Mumbai’s Borivali area",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/cities/mumbai/two-youngsters-died-after-falling-in-quarry/article71209957.ece",
+      "publishedAt": 1783763258000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "b315ae1fc3f900ee",
+      "id": "13aa03e1ef06fe5e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.767,
+      "breakingScore": 2.984,
       "breakingReasons": [
-        "severity_lexicon"
+        "multi_source_velocity"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
-        "ndtv"
+        "ndtv",
+        "the_hindu"
       ],
-      "firstSeen": 1783748373000
+      "firstSeen": 1783761446000
     },
     {
       "title": "Mother Washed Police Uniforms For 20 Years, Son Clears BPSC, Becomes Revenue Officer",
@@ -126,14 +151,14 @@
       "source": "NDTV India",
       "sourceGroup": "ndtv",
       "url": "https://www.ndtv.com/education/mother-washed-police-uniforms-for-20-years-son-cracks-bpsc-to-become-revenue-officer-11757323#publisher=newsstand",
-      "publishedAt": 1783757308000,
+      "publishedAt": 1783760909000,
       "category": "india",
       "region": "in",
       "language": "en",
       "id": "1b91c46b571bf9da",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.973,
+      "breakingScore": 2.93,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -145,19 +170,19 @@
       "firstSeen": 1783756713000
     },
     {
-      "title": "Security forces launch search operations in Manipur after two Assam Rifles personnel killed",
-      "summary": "On July 10, Assam Rifles said the paramilitary force, in coordination with the Border Security Force and Manipur Police, commenced a large-scale search operation in the Nungshang area",
+      "title": "Monsoon tracker LIVE: Cloudy skies to persist in Delhi; highways blocked after landslides in hill States",
+      "summary": "Widespread rainfall lashed large parts of Uttar Pradesh on July 10, bringing daytime temperatures below normal at several places, with heavy to very heavy rainfall being forecast at isolated places",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/manipur/security-forces-launch-search-operations-in-manipur-after-two-assam-rifles-personnel-killed/article71209613.ece",
-      "publishedAt": 1783756619000,
+      "url": "https://www.thehindu.com/news/national/monsoon-rain-in-india-imd-weather-forecast-flood-rainfall-alerts-live-updates-july-11-2026/article71209337.ece",
+      "publishedAt": 1783763552000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "96d560ba0a6dd845",
+      "id": "5760b0fd02e79659",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.457,
+      "breakingScore": 2.491,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -165,30 +190,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1783756619000
-    },
-    {
-      "title": "'No Longer Part Of Probe': Suspect Arrested In Ex-UK MP Murder Case Released",
-      "summary": "Ex-UK MP Ann Widdecombe",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/suspect-arrested-in-ex-uk-mp-ann-widdecombe-murder-case-released-no-longer-part-of-probe-11757188#publisher=newsstand",
-      "publishedAt": 1783754476000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "320641c7bef3ab19",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.408,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783754476000
+      "firstSeen": 1783763552000
     }
   ]
 }
