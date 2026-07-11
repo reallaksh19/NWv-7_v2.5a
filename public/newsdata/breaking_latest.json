@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783792382103,
-  "contentHash": "71f34435567f",
+  "fetchedAt": 1783796198836,
+  "contentHash": "e9cfeba1876e",
   "breaking": [
     {
       "title": "6 killed as Russia rains missiles, drones on Ukraine; Kyiv renews plea for air defences",
@@ -16,16 +16,15 @@
       "id": "31289317b237da76",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.828,
+      "breakingScore": 6.74,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "allSources": [
-        "the_hindu",
         "times_of_india"
       ],
-      "firstSeen": 1783765227000
+      "firstSeen": 1783784954000
     },
     {
       "title": "Ann Widdecombe attacked nearly 24 hours before she was found dead, police believe",
@@ -40,7 +39,7 @@
       "id": "9b9c4624fc3f4c9f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.458,
+      "breakingScore": 5.37,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -52,7 +51,7 @@
     },
     {
       "title": "Trump threatens Iran with '1000 missiles' as both sides shoot their mouth in Gulf spat",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132334422.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />President Trump threatened Iran with massive missile strikes if assassination plots are pursued.  This warning dramatically escalated tensions between the two nations.  Disagreements over a maritime deal's interpretation fueled renewed military exchanges.  Iran vowed revenge for past actions and perceived US treaty violations.  Ambiguity and mistrust now threaten another fragile understanding between them.",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132334422.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />President Trump threatened Iran with massive missile strikes if assassination plots are pursued. This warning dramatically escalated tensions between the two nations. Disagreements over a maritime deal's interpretation fueled renewed military exchanges. Iran vowed revenge for past actions and perceived US treaty violations. Ambiguity and mistrust now threaten another fragile understanding between them.",
       "source": "Times of India",
       "sourceGroup": "times_of_india",
       "url": "https://timesofindia.indiatimes.com/world/us/trump-threatens-iran-with-1000-missiles-as-both-sides-shoot-their-mouth-in-gulf-spat/articleshow/132334422.cms",
@@ -63,7 +62,7 @@
       "id": "b731c80d4b53f055",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.402,
+      "breakingScore": 5.314,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -86,7 +85,7 @@
       "id": "eaa30885b3224b2e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.265,
+      "breakingScore": 5.177,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -109,7 +108,7 @@
       "id": "050f2814a2366f67",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.485,
+      "breakingScore": 4.396,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -122,73 +121,76 @@
       "firstSeen": 1783789516000
     },
     {
-      "title": "Iran must pledge to stop shooting at ships in Strait of Hormuz, US officials say",
-      "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783788957000,
-      "category": "world",
+      "title": "Iran Officials Admit To \"Mistake\" After Attacks On Ships In Hormuz: Report",
+      "summary": "White House wants Iran to acknowledge that the attacks violated the ceasefire",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/iran-officials-admit-to-mistake-after-attacks-on-ships-in-hormuz-report-11759417#publisher=newsstand",
+      "publishedAt": 1783794860000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "65f3b49c39e7e9a7",
+      "id": "1be0ffec5d5da033",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.921,
+      "breakingScore": 3.969,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
-        "bbc"
+        "bbc",
+        "ndtv"
       ],
       "firstSeen": 1783788957000
     },
     {
-      "title": "‘I’ll play for India’: Popular US streamer IShowSpeed makes bold offer to help nation qualify for 2030 FIFA World Cup",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132331427.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />IShowSpeed joked that he would play for India’s national football team and help the country qualify for the 2030 World Cup. The YouTuber made the comments during a livestream while watching Spain vs Belgium. He said he could play as a winger, striker or attacking midfielder. While FIFA rules make the idea unrealistic, his support drew attention from football fans.",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/us-streamers/ill-play-for-india-popular-us-streamer-ishowspeed-makes-bold-offer-to-help-nation-qualify-for-2030-fifa-world-cup/articleshow/132331427.cms",
-      "publishedAt": 1783775931000,
-      "category": "india",
+      "title": "US Lawmaker Ro Khanna Detained By Israeli Settlers During West Bank Visit",
+      "summary": "Most countries and the United Nations regard Israeli settlements in the West Bank as illegal.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-democrat-ro-khanna-detained-by-israeli-settlers-during-west-bank-visit-11758682#publisher=newsstand",
+      "publishedAt": 1783793266000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "0282dd8e464b73dd",
+      "id": "a40c54af8f25c2cc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.619,
+      "breakingScore": 3.932,
       "breakingReasons": [
-        "severity_lexicon"
+        "multi_source_velocity"
       ],
-      "sourceCount": 1,
+      "sourceCount": 3,
       "allSources": [
-        "times_of_india"
+        "bbc",
+        "ndtv",
+        "the_hindu"
       ],
-      "firstSeen": 1783775931000
+      "firstSeen": 1783792515000
     },
     {
-      "title": "Pakistan claims 88 militants killed in ongoing Balochistan crackdown",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132331157.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Pakistan's security forces have killed eighty-eight militants in Balochistan since July fifth.  Operation Shaban involves the army and paramilitary forces targeting militant hideouts.  This operation began after coordinated attacks rocked the province on July fifth.  Militants killed nine police personnel and abducted eighteen others at a checkpoint.  Violence also struck a local tribe, killing five and abducting eleven individuals.",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/pakistan/pakistan-claims-88-militants-killed-in-ongoing-balochistan-crackdown/articleshow/132331157.cms",
-      "publishedAt": 1783774482000,
+      "title": "Four of family found dead at house in Bengaluru’s Kottigepalya",
+      "summary": "Police said their preliminary investigation suggests that Prashanth is suspected to have fatally attacked the three family members before his death.",
+      "source": "The Hindu National",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/karnataka/four-of-family-found-dead-at-house-in-bengalurus-kottigepalya/article71209519.ece",
+      "publishedAt": 1783793135000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "a9e3b696e0a42984",
+      "id": "afbf173756842274",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.586,
+      "breakingScore": 3.929,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "times_of_india"
+        "the_hindu"
       ],
-      "firstSeen": 1783774482000
+      "firstSeen": 1783793135000
     }
   ]
 }
