@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783885815733,
-  "contentHash": "17dc36bbb6e0",
+  "fetchedAt": 1783888839257,
+  "contentHash": "39117525f988",
   "breaking": [
     {
       "title": "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani dies aged 74",
@@ -16,7 +16,7 @@
       "id": "6427f7fe58dbdccb",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.23,
+      "breakingScore": 5.16,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -42,7 +42,7 @@
       "id": "8e70fa3e47c060dd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.22,
+      "breakingScore": 5.15,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -65,7 +65,7 @@
       "id": "95cd8ef91101dfac",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.196,
+      "breakingScore": 5.126,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -88,7 +88,7 @@
       "id": "93c413b30a5b34ae",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.159,
+      "breakingScore": 5.089,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -99,27 +99,29 @@
       "firstSeen": 1783871073000
     },
     {
-      "title": "At least 27 killed in Bangkok bar fire, Thai media report",
-      "summary": "Unverified footage shows flames blasting out of the bar as people flee.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783885505000,
-      "category": "world",
+      "title": "At least 27 killed as fire breaks out at pub in Bangkok",
+      "summary": "Firefighters took about half an hour to bring the fire under control; cause of the fire is unknown and under investigation",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/bangkok-pub-fire-deaths-thailand-july-13-2026/article71215014.ece",
+      "publishedAt": 1783887477000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "9748e80930f983d2",
+      "id": "7f893e6bc56287ac",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.993,
+      "breakingScore": 4.468,
       "breakingReasons": [
+        "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
-        "bbc"
+        "bbc",
+        "the_hindu"
       ],
-      "firstSeen": 1783885505000
+      "firstSeen": 1783887194000
     },
     {
       "title": "West Asia war LIVE: Projectiles hit Iran's Gulf island of Qeshm, state media says",
@@ -134,7 +136,7 @@
       "id": "75b9664bd9ea58c0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.95,
+      "breakingScore": 3.88,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -158,7 +160,7 @@
       "id": "eea1fb76f89aa894",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.935,
+      "breakingScore": 3.865,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -181,7 +183,7 @@
       "id": "282e00a906c0056f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.833,
+      "breakingScore": 3.763,
       "breakingReasons": [
         "severity_lexicon"
       ],
