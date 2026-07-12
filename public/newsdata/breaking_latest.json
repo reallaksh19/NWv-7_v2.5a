@@ -1,47 +1,167 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783837934164,
-  "contentHash": "133a1c4530b4",
+  "fetchedAt": 1783846396909,
+  "contentHash": "02250a1ce79e",
   "breaking": [
     {
       "title": "2 dead and 3 wounded in shooting near Toronto street festival, police say",
       "summary": "Two people have been killed and three others wounded in a shooting near a Toronto street festival, prompting police to warn of an active shooter before later saying the scene had been secured",
-      "source": "The Hindu",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/toronto-salsa-street-festival-shooting-death-injuries-july-2026/article71212979.ece",
       "publishedAt": 1783836820000,
-      "category": "topStories",
+      "category": "world",
       "region": "in",
       "language": "en",
       "id": "64b9ced50466fa88",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.974,
+      "breakingScore": 6.778,
       "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "the_hindu"
+      ],
+      "firstSeen": 1783828562000
+    },
+    {
+      "title": "Indian Missing, 10 Rescued After Iran Attacks Ship In Strait Of Hormuz",
+      "summary": "The Indian Embassy in Oman is closely monitoring the situation",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/indian-missing-after-iran-attacks-ship-in-hormuz-new-delhi-calls-us-iran-escalation-deeply-worrisome-11760481#publisher=newsstand",
+      "publishedAt": 1783841273000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "9015db4bcbf4cfa6",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.381,
+      "breakingReasons": [
+        "multi_source_velocity",
         "severity_lexicon"
       ],
       "sourceCount": 3,
       "allSources": [
         "bbc",
-        "ndtv",
-        "the_hindu"
+        "economic_times",
+        "ndtv"
       ],
-      "firstSeen": 1783827438000
+      "firstSeen": 1783836948000
     },
     {
-      "title": "Cloudburst floods hotels, houses in Pahalgam; no casualties",
-      "summary": "A sudden spell of intense rainfall, possibly caused by a localised cloudburst, struck the forest areas of Awoora and Dehwathu in Pahalgam, in south Kashmir's Anantnag district, says officials",
-      "source": "The Hindu National",
+      "title": "Qatar’s former ruler Sheikh Hamad bin Khalifa Al Thani has died at age 74, state news agency says",
+      "summary": "Sheikh Hamad bin Khalifa Al Thani, former ruler and architect behind Qatar’s stunning ambitions, has died at the age of 74",
+      "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/cloudburst-floods-in-jammu-and-kashmirs-pahalgam-anantnag-district/article71213206.ece",
-      "publishedAt": 1783837490000,
-      "category": "india",
+      "url": "https://www.thehindu.com/news/international/qatars-former-ruler-sheikh-hamad-bin-khalifa-al-thani-has-died-at-age-74-state-news-agency-says/article71213310.ece",
+      "publishedAt": 1783844094000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "a0c45affca87eb13",
+      "id": "bd41f3ba98ec309a",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.99,
+      "breakingScore": 3.947,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 3,
+      "allSources": [
+        "ndtv",
+        "the_hindu",
+        "times_of_india"
+      ],
+      "firstSeen": 1783841333000
+    },
+    {
+      "title": "U.S. Senator Lindsey Graham passes away at 71",
+      "summary": "President Trump’s key ally died on July 11 after a brief and sudden illness, his office said",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/us-senator-lindsey-graham-passes-away-july-12-2026/article71213307.ece",
+      "publishedAt": 1783845349000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "97acd744c2dc316e",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.976,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "the_hindu"
+      ],
+      "firstSeen": 1783844048000
+    },
+    {
+      "title": "Wayanad debris slip: Lone missing project manager’s body recovered; death toll rises to eight",
+      "summary": "The deceased identified as Bikram Singh Rana from Himachal Pradesh; all missing people accounted for",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/kerala/wayanad-debris-slip-death-toll-rises-to-eight-as-lone-project-managers-body-recovered/article71213481.ece",
+      "publishedAt": 1783845120000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "6229d73fd58611ac",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.47,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1783845120000
+    },
+    {
+      "title": "Three publishers arrested over books with 'inappropriate content' in J&K",
+      "summary": "This decision follows coordinated operations in both Jammu and Delhi",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/three-publishers-arrested-over-books-with-inappropriate-content-in-jk/article71213357.ece",
+      "publishedAt": 1783844835000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "38a3cf689cfa2787",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.464,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1783844835000
+    },
+    {
+      "title": "Tiruchi residents among those killed in Vietnam boat accident",
+      "summary": "N. Balaji, A.M. Sheikh Abdullah, and S. Alagurajan, were residents of Tiruchi who were killed in the Vietnam boat accident",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/tiruchi-residents-among-those-killed-in-vietnam-boat-accident/article71211034.ece",
+      "publishedAt": 1783844469000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "e5d20a53ee730776",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.455,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -50,145 +170,30 @@
         "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1783828698000
+      "firstSeen": 1783833704000
     },
     {
-      "title": "US Hits 140 Iranian Targets After Hormuz Closure, Tehran Strikes UAE, Qatar",
-      "summary": "The latest strikes threatened an already fragile interim deal aimed at ending Iran war",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-us-strikes-iran-over-strait-of-hormuz-closure-team-trump-says-made-a-poor-choice-11759873#publisher=newsstand",
-      "publishedAt": 1783831469000,
+      "title": "MEA says 10 Indians rescued, one missing after vessel attacked off Oman",
+      "summary": "The MEA went on to describe as “deeply worrisome”, the “continuing incidents of attacks on commercial shipping in the region”",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/indians-on-ship-vessel-attacked-off-oman-coast-july-12-2026/article71213457.ece",
+      "publishedAt": 1783843643000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "916e7572718d6283",
+      "id": "02443c9236d98d95",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.85,
+      "breakingScore": 2.436,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "ndtv"
+        "the_hindu"
       ],
-      "firstSeen": 1783825152000
-    },
-    {
-      "title": "Indian-Origin Google Techie Shot Dead By Husband At US Home, Son Injured",
-      "summary": "Sheetal Wrzesien was an engineering leader at Google with more than two decades of experience",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/indian-origin-google-techie-sheetal-wrzesien-shot-dead-by-husband-at-us-home-in-georgia-son-injured-11759926#publisher=newsstand",
-      "publishedAt": 1783827314000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "ecaa22f24143ce5f",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.754,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783827314000
-    },
-    {
-      "title": "Iran Shuts Hormuz After Attack On 'Unauthorised' Ship, US Begins New Strikes",
-      "summary": "US is demanding that Iran publicly state it will stop attacks on ships in the strait",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/iran-shuts-hormuz-attacks-ship-over-unauthorised-route-us-begins-new-strikes-11759702#publisher=newsstand",
-      "publishedAt": 1783821108000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "184ec1f6652e18ae",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.611,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783821108000
-    },
-    {
-      "title": "Bangladesh bars media from publishing Hasina statements",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132339829.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Bangladesh's government has ordered all media to stop broadcasting Sheikh Hasina's statements. This directive follows a court ban on publishing content from the former prime minister. Several outlets published an interview with Hasina, which prompted the government's action. A journalist stated Hasina remains the country's paramount leader and should have security. She has been the target of past assassination attempts and attacks.",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/south-asia/bangladesh-bars-media-from-publishing-hasina-statements/articleshow/132339829.cms",
-      "publishedAt": 1783820946000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "1158ecb856af35e2",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.607,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "times_of_india"
-      ],
-      "firstSeen": 1783820946000
-    },
-    {
-      "title": "Russians urged to work from home amid fuel crisis",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132339820.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Russia's Novosibirsk region is urging remote work and reduced car travel. This comes amid a deepening fuel crisis affecting many Russian areas. Ukrainian strikes on oil refineries have significantly impacted fuel supplies. One major facility in Omsk was recently disabled by an attack. This situation has led to fuel shortages and rationing across Russia.",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/europe/russians-urged-to-work-from-home-amid-fuel-crisis/articleshow/132339820.cms",
-      "publishedAt": 1783820817000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "bb12b4aa729f8cbb",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.604,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "times_of_india"
-      ],
-      "firstSeen": 1783820817000
-    },
-    {
-      "title": "Delhi Techie Arrested A Month After Wife Found Dead At Mussoorie Homestay",
-      "summary": "The husband, an IT firm employee, was apprehended from the Madhu Vihar area of east Delhi",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/delhi-techie-arrested-a-month-after-wife-p-radha-gayatri-found-dead-at-mussoorie-homestay-11759798#publisher=newsstand",
-      "publishedAt": 1783819749000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "edc4b236836bf38d",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.579,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783819749000
+      "firstSeen": 1783843325000
     }
   ]
 }
