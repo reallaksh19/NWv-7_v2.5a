@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1783871822191,
+  "generatedAt": 1783879087016,
   "policyVersion": "section-source-policy-v1",
   "reportVersion": "section-source-policy-report-v1",
   "schemaVersion": 1,
@@ -20,28 +20,28 @@
           "sourceGroup": "business_line"
         },
         {
-          "count": 8,
+          "count": 9,
           "sourceGroup": "google_news"
         },
         {
-          "count": 5,
+          "count": 4,
           "sourceGroup": "economic_times"
         }
       ]
     },
     "entertainment": {
       "sourceGroupCount": 1,
-      "storyCount": 18,
+      "storyCount": 17,
       "thin": true,
       "topCategories": [
         {
           "category": "entertainment",
-          "count": 18
+          "count": 17
         }
       ],
       "topSources": [
         {
-          "count": 18,
+          "count": 17,
           "sourceGroup": "google_news"
         }
       ]
@@ -104,11 +104,11 @@
       ],
       "topSources": [
         {
-          "count": 16,
+          "count": 15,
           "sourceGroup": "bbc"
         },
         {
-          "count": 8,
+          "count": 9,
           "sourceGroup": "the_hindu"
         },
         {
@@ -118,7 +118,7 @@
       ]
     },
     "technology": {
-      "sourceGroupCount": 3,
+      "sourceGroupCount": 2,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -129,16 +129,12 @@
       ],
       "topSources": [
         {
-          "count": 16,
+          "count": 18,
           "sourceGroup": "google_news"
         },
         {
-          "count": 13,
+          "count": 12,
           "sourceGroup": "gadgets360"
-        },
-        {
-          "count": 1,
-          "sourceGroup": "the_hindu"
         }
       ]
     },
@@ -186,12 +182,12 @@
     },
     "trichy": {
       "sourceGroupCount": 2,
-      "storyCount": 27,
+      "storyCount": 26,
       "thin": false,
       "topCategories": [
         {
           "category": "trichy",
-          "count": 27
+          "count": 26
         }
       ],
       "topSources": [
@@ -200,7 +196,7 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 7,
+          "count": 6,
           "sourceGroup": "google_news"
         }
       ]
@@ -217,12 +213,12 @@
       ],
       "topSources": [
         {
-          "count": 15,
-          "sourceGroup": "bbc"
+          "count": 16,
+          "sourceGroup": "the_hindu"
         },
         {
-          "count": 15,
-          "sourceGroup": "the_hindu"
+          "count": 14,
+          "sourceGroup": "bbc"
         }
       ]
     }
