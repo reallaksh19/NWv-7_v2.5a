@@ -1,11 +1,11 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1783865021389,
-  "contentHash": "e3018282b5a3de27",
+  "generatedAt": 1783871872724,
+  "contentHash": "fb22242ec095c1c2",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 533,
+  "storyCount": 520,
   "sourceGroupCount": 9,
   "grade": "C",
   "parentCount": 10,
@@ -23,10 +23,10 @@
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 62,
+      "signalScore": 60,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 480,
+      "storyCount": 466,
       "risingCount": 1,
       "thinCount": 2,
       "multiAngleCount": 8,
@@ -34,27 +34,27 @@
       "strongAngleCount": 0,
       "avgAngles": 1.8,
       "avgChildren": 2.4,
-      "avgScore": 0.631841959815338,
+      "avgScore": 0.6478350104069994,
       "sourceDiversityCoverage": 9,
-      "snapshotCoverage": 8,
+      "snapshotCoverage": 6,
       "coverageLabel": "8/10",
       "warnings": [
         "2 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
         "1 cluster(s) are below source-diversity target.",
-        "2 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) have weak snapshot coverage.",
         "2 cluster(s) are marked thin.",
-        "530 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "540 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 62,
+      "signalScore": 60,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 480,
+      "storyCount": 466,
       "risingCount": 1,
       "thinCount": 2,
       "multiAngleCount": 8,
@@ -62,23 +62,86 @@
       "strongAngleCount": 0,
       "avgAngles": 1.8,
       "avgChildren": 2.4,
-      "avgScore": 0.631841959815338,
+      "avgScore": 0.6478350104069994,
       "sourceDiversityCoverage": 9,
-      "snapshotCoverage": 8,
+      "snapshotCoverage": 6,
       "coverageLabel": "8/10",
       "warnings": [
         "2 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
         "1 cluster(s) are below source-diversity target.",
-        "2 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) have weak snapshot coverage.",
         "2 cluster(s) are marked thin.",
-        "530 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "540 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_235_48028dc598af3c94",
+      "parentId": "cluster_81_db39314f1e7f9f94",
+      "headline": "US Senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'",
+      "score": 0.6491939846283528,
+      "postTreeScore": 1.0892,
+      "childCount": 3,
+      "angles": [
+        "base_report",
+        "official_response"
+      ],
+      "temporalTiers": [
+        "breaking",
+        "developing"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "corroboration"
+      ],
+      "baseReportShare": 0.6666666666666666,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_144_a1af5054caf64206",
+      "headline": "China issues red alert for rainstorms as Typhoon Bavi makes landfall",
+      "score": 0.6945633864516649,
+      "postTreeScore": 1.0746,
+      "childCount": 2,
+      "angles": [
+        "regional_followup",
+        "fact_update"
+      ],
+      "temporalTiers": [
+        "reaction",
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "corroboration",
+        "fact_update"
+      ],
+      "baseReportShare": 0,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_114_d8d032e1a9aa8dbf",
+      "headline": "EPFO invites applications from PF trusts for amnesty scheme",
+      "score": 0.6814967197849984,
+      "postTreeScore": 1.0615,
+      "childCount": 2,
+      "angles": [
+        "base_report",
+        "reaction_public"
+      ],
+      "temporalTiers": [
+        "breaking",
+        "reaction"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "corroboration"
+      ],
+      "baseReportShare": 0.5,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_264_48028dc598af3c94",
       "headline": "Trump administration subpoenas New York Times journalists over Air Force One reporting",
       "score": 0.6601766666666666,
       "postTreeScore": 1.0602,
@@ -99,28 +162,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_53_db39314f1e7f9f94",
-      "headline": "US Senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'",
-      "score": 0.6172369182817352,
-      "postTreeScore": 1.0572,
-      "childCount": 3,
-      "angles": [
-        "base_report",
-        "official_response"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "developing"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "corroboration"
-      ],
-      "baseReportShare": 0.6666666666666666,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_199_7ebe0ad70ec7f03c",
+      "parentId": "cluster_228_7ebe0ad70ec7f03c",
       "headline": "US Democrat Ro Khanna says he was detained by armed Israeli settlers",
       "score": 0.6035573212916499,
       "postTreeScore": 1.0436,
@@ -141,28 +183,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_115_a1af5054caf64206",
-      "headline": "China issues red alert for rainstorms as Typhoon Bavi makes landfall",
-      "score": 0.6305766666666668,
-      "postTreeScore": 1.0306,
-      "childCount": 2,
-      "angles": [
-        "regional_followup",
-        "fact_update"
-      ],
-      "temporalTiers": [
-        "reaction",
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "corroboration",
-        "fact_update"
-      ],
-      "baseReportShare": 0,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_123_1c767f3a8bdc4dff",
+      "parentId": "cluster_152_1c767f3a8bdc4dff",
       "headline": "Toll up at 9 as last body recovered; official dubs incident 'act of God' - The Hindu",
       "score": 0.6504967197849982,
       "postTreeScore": 1.0305,
@@ -181,28 +202,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_85_d8d032e1a9aa8dbf",
-      "headline": "EPFO invites applications from PF trusts for amnesty scheme",
-      "score": 0.61751,
-      "postTreeScore": 1.0175,
-      "childCount": 2,
-      "angles": [
-        "base_report",
-        "reaction_public"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "reaction"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "corroboration"
-      ],
-      "baseReportShare": 0.5,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_350_d0c7a28e74c19851",
+      "parentId": "cluster_379_d0c7a28e74c19851",
       "headline": "PM Modi tours New Zealand sports innovation showcase",
       "score": 0.6442795462649991,
       "postTreeScore": 0.9843,
@@ -223,7 +223,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_70_bd41f3ba98ec309a",
+      "parentId": "cluster_99_bd41f3ba98ec309a",
       "headline": "Qatar’s former ruler Sheikh Hamad bin Khalifa Al Thani dies at 74",
       "score": 0.5385933333333333,
       "postTreeScore": 0.9386,
@@ -244,7 +244,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_263_774f5f7bf5170601",
+      "parentId": "cluster_292_774f5f7bf5170601",
       "headline": "Indian tourists among 15 killed as speedboat capsizes in Vietnam",
       "score": 0.6725123727449996,
       "postTreeScore": 0.6225,
@@ -266,7 +266,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_25_44cd2679ca778243",
+      "parentId": "cluster_47_44cd2679ca778243",
       "headline": "24-year-old woman killed, man injured in West London stabbing; Suspect, 44, arrested on suspicion of murder",
       "score": 0.6834800531183316,
       "postTreeScore": 0.5935,
@@ -345,7 +345,7 @@
       {
         "id": "top-parent-child-depth",
         "label": "Top parent child depth",
-        "actual": 2,
+        "actual": 3,
         "required": ">= 2"
       },
       {
@@ -366,8 +366,8 @@
       "weakParentCount": 2,
       "weakParentRatio": 0.2,
       "topParentAngles": 2,
-      "topParentChildren": 2,
-      "storyCount": 533,
+      "topParentChildren": 3,
+      "storyCount": 520,
       "sourceGroupCount": 9
     }
   }

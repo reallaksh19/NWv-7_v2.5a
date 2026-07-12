@@ -1,8 +1,8 @@
 {
-  "contentHash": "51a496d76447",
+  "contentHash": "0ee5e95a1c34",
   "errors": [],
-  "fetchedAt": 1783864956686,
-  "generatedAt": 1783864968105,
+  "fetchedAt": 1783871807816,
+  "generatedAt": 1783871822251,
   "schemaVersion": 2,
   "sectionCount": 10,
   "sectionHealth": {
@@ -86,7 +86,7 @@
       "thin": false,
       "topSources": [
         {
-          "count": 15,
+          "count": 16,
           "sourceGroup": "bbc"
         },
         {
@@ -94,7 +94,7 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 7,
+          "count": 6,
           "sourceGroup": "google_news"
         }
       ]
@@ -156,17 +156,17 @@
     },
     "trichy": {
       "qualitySourceGroupCount": 2,
-      "qualityStoryCount": 25,
+      "qualityStoryCount": 27,
       "sourceGroupCount": 2,
-      "storyCount": 25,
+      "storyCount": 27,
       "thin": false,
       "topSources": [
         {
-          "count": 19,
+          "count": 20,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 6,
+          "count": 7,
           "sourceGroup": "google_news"
         }
       ]
@@ -180,18 +180,18 @@
       "topSources": [
         {
           "count": 15,
-          "sourceGroup": "the_hindu"
+          "sourceGroup": "bbc"
         },
         {
           "count": 15,
-          "sourceGroup": "bbc"
+          "sourceGroup": "the_hindu"
         }
       ]
     }
   },
   "sourceGroupCount": 10,
   "status": "WARN",
-  "storyCount": 283,
+  "storyCount": 285,
   "thresholds": {
     "expectedRetainHours": 36,
     "minSectionSourceGroups": 2,
@@ -214,7 +214,7 @@
     "Section entertainment has weak source diversity: 1 source group(s)"
   ],
   "window": {
-    "cutoffAt": 1783735356686,
+    "cutoffAt": 1783742207816,
     "retainHours": 36
   }
 }
