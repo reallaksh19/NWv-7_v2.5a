@@ -3,40 +3,42 @@
 - Status: **WARN**
 - Schema: `3`
 - Collector: `insight-collector-json-v4`
-- Content hash: `c0b4c8516ffa9ac0`
-- Stories: `518`
-- Usable 36h stories: `503`
-- Source groups: `10`
+- Content hash: `ee12a4420a817f7c`
+- Stories: `500`
+- Usable 36h stories: `467`
+- Source groups: `9`
 - Angle hint coverage: `100%`
-- Non-base angle stories: `343`
+- Non-base angle stories: `328`
 - Event sketches: `11`
-- Multi-source sketches: `6`
+- Multi-source sketches: `5`
 
 ## Slot health
 
 | Slot | Story IDs | Linked | Sources | Thin |
 |---|---:|---:|---:|---|
-| now | 40 | 40 | 2 | True |
+| now | 60 | 60 | 3 | False |
 | minus4h | 40 | 40 | 2 | True |
-| minus12h | 52 | 52 | 4 | False |
-| minus24h | 55 | 55 | 3 | False |
+| minus12h | 80 | 80 | 4 | False |
+| minus24h | 40 | 40 | 2 | True |
 
 ## Warnings
 
-- feed 'ndtv' has returned zero items for 32 consecutive runs
-- feed 'hindustan_times' has returned zero items for 3 consecutive runs
-- feed 'financial_express' has returned zero items for 347 consecutive runs
-- feed 'muscat_daily' has returned zero items for 328 consecutive runs (last zero at 1783883313577)
+- feed 'ndtv' has returned zero items for 33 consecutive runs
+- feed 'hindustan_times' has returned zero items for 4 consecutive runs
+- feed 'financial_express' has returned zero items for 348 consecutive runs
+- feed 'dtnext' has returned zero items for 3 consecutive runs
+- feed 'oman_observer' has returned zero items for 3 consecutive runs (last zero at 1783888879915)
+- feed 'muscat_daily' has returned zero items for 329 consecutive runs (last zero at 1783888879915)
 
 ## Top angles
 
-- base_report: 175
-- official_response: 121
-- fact_update: 90
-- regional_followup: 50
-- market_reaction: 33
-- investigative_detail: 24
-- reaction_public: 14
-- expert_analysis: 8
+- base_report: 172
+- official_response: 113
+- fact_update: 91
+- regional_followup: 49
+- investigative_detail: 23
+- market_reaction: 23
+- reaction_public: 15
+- expert_analysis: 11
 - background_context: 2
 - correction: 1

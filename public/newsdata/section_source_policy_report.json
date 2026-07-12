@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1783888970982,
+  "generatedAt": 1783900249414,
   "policyVersion": "section-source-policy-v1",
   "reportVersion": "section-source-policy-report-v1",
   "schemaVersion": 1,
   "sectionQuality": {
     "business": {
-      "sourceGroupCount": 2,
+      "sourceGroupCount": 3,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -16,21 +16,35 @@
       ],
       "topSources": [
         {
-          "count": 20,
+          "count": 16,
           "sourceGroup": "business_line"
         },
         {
-          "count": 10,
+          "count": 11,
+          "sourceGroup": "google_news"
+        },
+        {
+          "count": 3,
           "sourceGroup": "economic_times"
         }
       ]
     },
     "entertainment": {
-      "sourceGroupCount": 0,
-      "storyCount": 0,
+      "sourceGroupCount": 1,
+      "storyCount": 16,
       "thin": true,
-      "topCategories": [],
-      "topSources": []
+      "topCategories": [
+        {
+          "category": "entertainment",
+          "count": 16
+        }
+      ],
+      "topSources": [
+        {
+          "count": 16,
+          "sourceGroup": "google_news"
+        }
+      ]
     },
     "india": {
       "sourceGroupCount": 3,
@@ -58,24 +72,28 @@
       ]
     },
     "muscat": {
-      "sourceGroupCount": 1,
-      "storyCount": 20,
-      "thin": true,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
       "topCategories": [
         {
           "category": "muscat",
-          "count": 20
+          "count": 30
         }
       ],
       "topSources": [
         {
           "count": 20,
           "sourceGroup": "times_of_oman"
+        },
+        {
+          "count": 10,
+          "sourceGroup": "google_news_oman"
         }
       ]
     },
     "sports": {
-      "sourceGroupCount": 2,
+      "sourceGroupCount": 3,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -86,46 +104,58 @@
       ],
       "topSources": [
         {
-          "count": 17,
+          "count": 14,
           "sourceGroup": "bbc"
         },
         {
-          "count": 13,
+          "count": 11,
           "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 5,
+          "sourceGroup": "google_news"
         }
       ]
     },
     "technology": {
-      "sourceGroupCount": 1,
-      "storyCount": 10,
-      "thin": true,
+      "sourceGroupCount": 2,
+      "storyCount": 27,
+      "thin": false,
       "topCategories": [
         {
           "category": "technology",
-          "count": 10
+          "count": 27
         }
       ],
       "topSources": [
         {
-          "count": 10,
+          "count": 19,
+          "sourceGroup": "google_news"
+        },
+        {
+          "count": 8,
           "sourceGroup": "gadgets360"
         }
       ]
     },
     "tn": {
-      "sourceGroupCount": 1,
-      "storyCount": 20,
-      "thin": true,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
       "topCategories": [
         {
           "category": "tn",
-          "count": 20
+          "count": 30
         }
       ],
       "topSources": [
         {
-          "count": 20,
+          "count": 17,
           "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 13,
+          "sourceGroup": "google_news"
         }
       ]
     },
@@ -151,19 +181,23 @@
       ]
     },
     "trichy": {
-      "sourceGroupCount": 1,
-      "storyCount": 19,
-      "thin": true,
+      "sourceGroupCount": 2,
+      "storyCount": 26,
+      "thin": false,
       "topCategories": [
         {
           "category": "trichy",
-          "count": 19
+          "count": 26
         }
       ],
       "topSources": [
         {
-          "count": 19,
+          "count": 18,
           "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 8,
+          "sourceGroup": "google_news"
         }
       ]
     },
@@ -179,11 +213,11 @@
       ],
       "topSources": [
         {
-          "count": 18,
+          "count": 19,
           "sourceGroup": "bbc"
         },
         {
-          "count": 12,
+          "count": 11,
           "sourceGroup": "the_hindu"
         }
       ]
@@ -539,10 +573,9 @@
     {
       "configuredFeeds": 9,
       "health": {
-        "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=en-IN&gl=IN&ceid=IN:en",
         "feedUrl": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=en-IN&gl=IN&ceid=IN:en",
-        "items": 0,
-        "ok": false,
+        "items": 16,
+        "ok": true,
         "section": "entertainment"
       },
       "sections": [
@@ -574,10 +607,9 @@
     {
       "configuredFeeds": 1,
       "health": {
-        "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Trichy+Tamil+Nadu+today&hl=en-IN&gl=IN&ceid=IN:en",
         "feedUrl": "https://news.google.com/rss/search?q=Trichy+Tamil+Nadu+today&hl=en-IN&gl=IN&ceid=IN:en",
-        "items": 0,
-        "ok": false,
+        "items": 20,
+        "ok": true,
         "section": "trichy"
       },
       "sections": [
@@ -593,10 +625,9 @@
     {
       "configuredFeeds": 1,
       "health": {
-        "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Oman+news&hl=en-IN&gl=IN&ceid=IN:en",
         "feedUrl": "https://news.google.com/rss/search?q=Oman+news&hl=en-IN&gl=IN&ceid=IN:en",
-        "items": 0,
-        "ok": false,
+        "items": 20,
+        "ok": true,
         "section": "muscat"
       },
       "sections": [
