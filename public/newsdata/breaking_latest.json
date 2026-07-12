@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783846396909,
-  "contentHash": "02250a1ce79e",
+  "fetchedAt": 1783851835456,
+  "contentHash": "2aba2459b960",
   "breaking": [
+    {
+      "title": "Indian-origin woman shot dead in U.S.; husband arrested",
+      "summary": "Former Google executive Sheetal Wrzesien’s son was injured in the shootout that took place at the couple’s home at Laurel Creek Trail",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/india-origin-woman-sheetal-wrzesien-former-google-executive-shot-dead-us/article71213529.ece",
+      "publishedAt": 1783846241000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "d46db1ca746e90b0",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 6.87,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1783846241000
+    },
     {
       "title": "2 dead and 3 wounded in shooting near Toronto street festival, police say",
       "summary": "Two people have been killed and three others wounded in a shooting near a Toronto street festival, prompting police to warn of an active shooter before later saying the scene had been secured",
@@ -16,7 +39,7 @@
       "id": "64b9ced50466fa88",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.778,
+      "breakingScore": 6.652,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -26,6 +49,52 @@
         "the_hindu"
       ],
       "firstSeen": 1783828562000
+    },
+    {
+      "title": "Monsoon tracker LIVE: Cloudburst floods hotels, houses in Pahalgam; heavy to very heavy rain lash parts of India",
+      "summary": "Continuous heavy rainfall on July 11 triggered a major landslide scare in Shimla’s Sanjauli area, forcing residents of Bothwell Estate to remain outdoors since around 3 a.m amid fears that their houses could collapse",
+      "source": "The Hindu National",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/india-monsoon-tracker-live-weather-forecast-imd-alerts-flood-rainfall-landslip-july-12-2026-updates/article71213197.ece",
+      "publishedAt": 1783849999000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "d36f98d6389fc5f6",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.457,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1783849999000
+    },
+    {
+      "title": "US-Iran War Live Updates: After US Strikes Iran, Missile Alerts Sounded In UAE, Qatar, Bahrain",
+      "summary": "The US also revoked a sanctions waiver for Iranian oil.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-iran-war-live-updates-us-strikes-iran-after-tanker-attacks-in-hormuz-donald-trump-nato-israel-lebanon-hezbollah-ceasefire-11741497#publisher=newsstand",
+      "publishedAt": 1783846290000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "1c525fef0b22450e",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.372,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1783846290000
     },
     {
       "title": "Indian Missing, 10 Rescued After Iran Attacks Ship In Strait Of Hormuz",
@@ -40,7 +109,7 @@
       "id": "9015db4bcbf4cfa6",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.381,
+      "breakingScore": 5.255,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -54,68 +123,69 @@
       "firstSeen": 1783836948000
     },
     {
-      "title": "Qatar’s former ruler Sheikh Hamad bin Khalifa Al Thani has died at age 74, state news agency says",
-      "summary": "Sheikh Hamad bin Khalifa Al Thani, former ruler and architect behind Qatar’s stunning ambitions, has died at the age of 74",
-      "source": "The Hindu",
+      "title": "Vietnam boat tragedy: Injured A.P. tourist recovering, repatriation of mortal remains of the deceased underway",
+      "summary": "Embassy of India in Vietnam has finalised the authorised agency that will facilitate the repatriation of the mortal remains of the deceased to India",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/qatars-former-ruler-sheikh-hamad-bin-khalifa-al-thani-has-died-at-age-74-state-news-agency-says/article71213310.ece",
-      "publishedAt": 1783844094000,
-      "category": "topStories",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/vietnam-boat-tragedy-ap-tourist-recovering-repatriation-of-mortal-remains-underway/article71213062.ece",
+      "publishedAt": 1783849735000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "bd41f3ba98ec309a",
+      "id": "58bb3093de4a81c4",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.947,
+      "breakingScore": 4.451,
       "breakingReasons": [
-        "multi_source_velocity"
+        "multi_source_velocity",
+        "severity_lexicon"
       ],
-      "sourceCount": 3,
+      "sourceCount": 2,
       "allSources": [
         "ndtv",
-        "the_hindu",
-        "times_of_india"
+        "the_hindu"
       ],
-      "firstSeen": 1783841333000
+      "firstSeen": 1783847006000
     },
     {
-      "title": "U.S. Senator Lindsey Graham passes away at 71",
-      "summary": "President Trump’s key ally died on July 11 after a brief and sudden illness, his office said",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/us-senator-lindsey-graham-passes-away-july-12-2026/article71213307.ece",
-      "publishedAt": 1783845349000,
-      "category": "topStories",
+      "title": "Man arrested in South Yorkshire on suspicion of Ann Widdecombe murder",
+      "summary": "A 28-year-old white British national has been arrested in South Yorkshire, police say.",
+      "source": "BBC",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cz6v5z9zz8jo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783849521000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "97acd744c2dc316e",
+      "id": "746b82bb6162a5cd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.976,
+      "breakingScore": 4.446,
       "breakingReasons": [
-        "multi_source_velocity"
+        "multi_source_velocity",
+        "severity_lexicon"
       ],
       "sourceCount": 2,
       "allSources": [
         "bbc",
-        "the_hindu"
+        "times_of_india"
       ],
-      "firstSeen": 1783844048000
+      "firstSeen": 1783845943000
     },
     {
-      "title": "Wayanad debris slip: Lone missing project manager’s body recovered; death toll rises to eight",
-      "summary": "The deceased identified as Bikram Singh Rana from Himachal Pradesh; all missing people accounted for",
+      "title": "West Asia war LIVE: Iran adviser says Hormuz 'more important' than nuclear bombs",
+      "summary": "10 Indians rescued, one missing after vessel attacked off Oman; Pakistan, Saudi Arabia express concern over escalation",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/kerala/wayanad-debris-slip-death-toll-rises-to-eight-as-lone-project-managers-body-recovered/article71213481.ece",
-      "publishedAt": 1783845120000,
+      "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-ceasefire-donald-trump-tehran-attacks-strait-of-hormuz-ships-live-updates-july-12-2026/article71212951.ece",
+      "publishedAt": 1783850932000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "6229d73fd58611ac",
+      "id": "75b9664bd9ea58c0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.47,
+      "breakingScore": 3.979,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -123,77 +193,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1783845120000
-    },
-    {
-      "title": "Three publishers arrested over books with 'inappropriate content' in J&K",
-      "summary": "This decision follows coordinated operations in both Jammu and Delhi",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/three-publishers-arrested-over-books-with-inappropriate-content-in-jk/article71213357.ece",
-      "publishedAt": 1783844835000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "38a3cf689cfa2787",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.464,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783844835000
-    },
-    {
-      "title": "Tiruchi residents among those killed in Vietnam boat accident",
-      "summary": "N. Balaji, A.M. Sheikh Abdullah, and S. Alagurajan, were residents of Tiruchi who were killed in the Vietnam boat accident",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/tiruchi-residents-among-those-killed-in-vietnam-boat-accident/article71211034.ece",
-      "publishedAt": 1783844469000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "e5d20a53ee730776",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.455,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1783833704000
-    },
-    {
-      "title": "MEA says 10 Indians rescued, one missing after vessel attacked off Oman",
-      "summary": "The MEA went on to describe as “deeply worrisome”, the “continuing incidents of attacks on commercial shipping in the region”",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/indians-on-ship-vessel-attacked-off-oman-coast-july-12-2026/article71213457.ece",
-      "publishedAt": 1783843643000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "02443c9236d98d95",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.436,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783843325000
+      "firstSeen": 1783850932000
     }
   ]
 }
