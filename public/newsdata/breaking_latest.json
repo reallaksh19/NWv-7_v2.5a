@@ -1,93 +1,22 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783828547812,
-  "contentHash": "2d2e0999ae5a",
+  "fetchedAt": 1783837934164,
+  "contentHash": "133a1c4530b4",
   "breaking": [
     {
-      "title": "At least two killed in Toronto street festival shooting",
-      "summary": "Police say there was an exchange of gunfire between two individuals at the festival, and two firearms had been recovered from the scene.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783826666000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "450dc52c2f0eb92d",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.956,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "bbc",
-        "the_hindu"
-      ],
-      "firstSeen": 1783821792000
-    },
-    {
-      "title": "2 Dead, Several Hurt In Shooting At Canada Festival, Attacker On The Run",
-      "summary": "\"Please avoid the area immediately and follow all directions from police,\" Toronto police said.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/2-dead-3-injured-in-mass-shooting-in-canadas-toronto-11759808#publisher=newsstand",
-      "publishedAt": 1783825526000,
+      "title": "2 dead and 3 wounded in shooting near Toronto street festival, police say",
+      "summary": "Two people have been killed and three others wounded in a shooting near a Toronto street festival, prompting police to warn of an active shooter before later saying the scene had been secured",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/toronto-salsa-street-festival-shooting-death-injuries-july-2026/article71212979.ece",
+      "publishedAt": 1783836820000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "83ea583ee078dabe",
+      "id": "64b9ced50466fa88",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.43,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783825526000
-    },
-    {
-      "title": "US-Iran War Live Updates: After US Strikes Iran, Missile Alerts Sounded In UAE, Qatar, Bahrain",
-      "summary": "The US also revoked a sanctions waiver for Iranian oil.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-live-updates-us-strikes-iran-after-tanker-attacks-in-hormuz-donald-trump-nato-israel-lebanon-hezbollah-ceasefire-11741497#publisher=newsstand",
-      "publishedAt": 1783825152000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "1c525fef0b22450e",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.421,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783825152000
-    },
-    {
-      "title": "US launches fresh strikes as Iran closes Strait of Hormuz",
-      "summary": "The strikes follow an attack on a Cyrpus-flagged vessel travelling through the critical waterway.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783828204000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "a61b59bee6176398",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.992,
+      "breakingScore": 6.974,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -97,7 +26,54 @@
         "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1783821108000
+      "firstSeen": 1783827438000
+    },
+    {
+      "title": "Cloudburst floods hotels, houses in Pahalgam; no casualties",
+      "summary": "A sudden spell of intense rainfall, possibly caused by a localised cloudburst, struck the forest areas of Awoora and Dehwathu in Pahalgam, in south Kashmir's Anantnag district, says officials",
+      "source": "The Hindu National",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/cloudburst-floods-in-jammu-and-kashmirs-pahalgam-anantnag-district/article71213206.ece",
+      "publishedAt": 1783837490000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "a0c45affca87eb13",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.99,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1783828698000
+    },
+    {
+      "title": "US Hits 140 Iranian Targets After Hormuz Closure, Tehran Strikes UAE, Qatar",
+      "summary": "The latest strikes threatened an already fragile interim deal aimed at ending Iran war",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-iran-war-us-strikes-iran-over-strait-of-hormuz-closure-team-trump-says-made-a-poor-choice-11759873#publisher=newsstand",
+      "publishedAt": 1783831469000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "916e7572718d6283",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.85,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1783825152000
     },
     {
       "title": "Indian-Origin Google Techie Shot Dead By Husband At US Home, Son Injured",
@@ -112,7 +88,7 @@
       "id": "ecaa22f24143ce5f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.971,
+      "breakingScore": 3.754,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -123,27 +99,27 @@
       "firstSeen": 1783827314000
     },
     {
-      "title": "Police squad attacked in Kozhikode; five suspected goons arrested",
-      "summary": "According to police sources, the confrontation took place at Peruvayal near Mavoor in Kozhikode city around 9 a.m. when the police squad, acting on precise location data, zeroed in on the suspects at a local villa",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/kerala/police-squad-attacked-in-kozhikode-five-suspected-goons-arrested/article71209626.ece",
-      "publishedAt": 1783823576000,
+      "title": "Iran Shuts Hormuz After Attack On 'Unauthorised' Ship, US Begins New Strikes",
+      "summary": "US is demanding that Iran publicly state it will stop attacks on ships in the strait",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/iran-shuts-hormuz-attacks-ship-over-unauthorised-route-us-begins-new-strikes-11759702#publisher=newsstand",
+      "publishedAt": 1783821108000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "735f52d31309fc28",
+      "id": "184ec1f6652e18ae",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.885,
+      "breakingScore": 3.611,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "the_hindu"
+        "ndtv"
       ],
-      "firstSeen": 1783823576000
+      "firstSeen": 1783821108000
     },
     {
       "title": "Bangladesh bars media from publishing Hasina statements",
@@ -158,7 +134,7 @@
       "id": "1158ecb856af35e2",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.824,
+      "breakingScore": 3.607,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -181,7 +157,7 @@
       "id": "bb12b4aa729f8cbb",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.821,
+      "breakingScore": 3.604,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -190,6 +166,29 @@
         "times_of_india"
       ],
       "firstSeen": 1783820817000
+    },
+    {
+      "title": "Delhi Techie Arrested A Month After Wife Found Dead At Mussoorie Homestay",
+      "summary": "The husband, an IT firm employee, was apprehended from the Madhu Vihar area of east Delhi",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/delhi-techie-arrested-a-month-after-wife-p-radha-gayatri-found-dead-at-mussoorie-homestay-11759798#publisher=newsstand",
+      "publishedAt": 1783819749000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "edc4b236836bf38d",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.579,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1783819749000
     }
   ]
 }
