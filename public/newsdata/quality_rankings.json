@@ -60,7 +60,7 @@
       "gateResults": [
         {
           "details": {
-            "itemCount": 8
+            "itemCount": 7
           },
           "name": "insightEventPool",
           "reason": "rankable Insight event pool",
@@ -79,14 +79,14 @@
         "avgAnglesPerParent": 0.0,
         "baseReportHeavyParents": 1,
         "duplicateChildrenSuppressed": 0,
-        "inputCandidateCount": 8,
-        "parentClusters": 8,
-        "strongParents": 8,
+        "inputCandidateCount": 7,
+        "parentClusters": 7,
+        "strongParents": 7,
         "suppressedCandidateCount": 0,
         "weakParentsDemoted": 0
       },
       "qualityGrade": "F",
-      "qualityScore": 0.37,
+      "qualityScore": 0.3706,
       "qualityStatus": "WARN",
       "rankedItems": [
         {
@@ -94,7 +94,7 @@
           "gates": [
             {
               "details": {
-                "storyCount": 6
+                "storyCount": 5
               },
               "name": "eventCoherence",
               "reason": "event sketch has repeated story count",
@@ -131,7 +131,7 @@
             },
             {
               "details": {
-                "childCount": 6
+                "childCount": 5
               },
               "name": "weakTree",
               "reason": "child tree has enough depth",
@@ -156,7 +156,7 @@
             "representativeTitle": "Breaking News Live Updates: SC to hear pleas against MP HC Bhojshala verdict - The Economic Times",
             "scoreBreakdown": {
               "angleDiversityScore": 0.25,
-              "eventImportanceScore": 1.0,
+              "eventImportanceScore": 0.95,
               "freshnessScore": 0.0,
               "noveltyDeltaScore": 0.44999999999999996,
               "sourceAuthorityScore": 0.38,
@@ -171,11 +171,10 @@
             "sourceGroups": [
               "google_news"
             ],
-            "storyCount": 6,
+            "storyCount": 5,
             "storyIds": [
               "d4dced54f21d0335",
               "ff468e02cc84fa44",
-              "0cb025010a9f635e",
               "a47f9861bbd2cc3a",
               "4ee739c53b939a61",
               "c0b89c693126f623"
@@ -183,15 +182,15 @@
             "topAngles": [
               {
                 "angle": "fact_update",
-                "count": 6
+                "count": 5
               }
             ],
             "topTokens": [
               "breaking",
               "live",
               "updates",
-              "july",
               "hear",
+              "july",
               "operation",
               "neelkanth",
               "strong"
@@ -204,7 +203,7 @@
             "weak child angle diversity",
             "one-source event candidate"
           ],
-          "score": 0.4915,
+          "score": 0.479,
           "title": "Breaking News Live Updates: SC to hear pleas against MP HC Bhojshala verdict - The Economic Times"
         },
         {
@@ -664,116 +663,6 @@
             },
             {
               "details": {
-                "baseReportRatio": 0.0,
-                "distinctAngles": 1
-              },
-              "name": "angleDiversity",
-              "reason": "weak child angle diversity",
-              "score": 0.25,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "sourceGroupCount": 1
-              },
-              "name": "sourceDiversity",
-              "reason": "one-source event candidate",
-              "score": 0.35,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "baseReportRatio": 0.0
-              },
-              "name": "baseReportCap",
-              "reason": "base-report ratio controlled",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "childCount": 2
-              },
-              "name": "weakTree",
-              "reason": "child tree has enough depth",
-              "score": 0.5,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "duplicateChildren",
-              "reason": "no child objects to dedup",
-              "score": 0.7,
-              "status": "PASS"
-            }
-          ],
-          "id": "sketch:fcde5c7120",
-          "item": {
-            "angleCount": 1,
-            "baseReportRatio": 0.0,
-            "childScores": [],
-            "id": "sketch:fcde5c7120",
-            "representativeId": "cefd0947496f8de7",
-            "representativeTitle": "Buy Bajaj Finance; target of Rs 9000: Emkay Global Financial",
-            "scoreBreakdown": {
-              "angleDiversityScore": 0.25,
-              "eventImportanceScore": 0.59,
-              "freshnessScore": 0.0,
-              "noveltyDeltaScore": 0.44999999999999996,
-              "sourceAuthorityScore": 0.38,
-              "sourceDiversityScore": 0.35,
-              "temporalEvolutionScore": 0.37
-            },
-            "slotCount": 1,
-            "slots": [
-              "minus24h"
-            ],
-            "sourceGroupCount": 1,
-            "sourceGroups": [
-              "moneycontrol"
-            ],
-            "storyCount": 2,
-            "storyIds": [
-              "cefd0947496f8de7",
-              "d0020e471404281a"
-            ],
-            "topAngles": [
-              {
-                "angle": "market_reaction",
-                "count": 2
-              }
-            ],
-            "topTokens": [
-              "bajaj",
-              "finance",
-              "target",
-              "emkay"
-            ],
-            "topicKey": "bajaj|finance|target"
-          },
-          "locationKey": "event",
-          "rankingReasons": [
-            "event sketch has repeated story count",
-            "weak child angle diversity",
-            "one-source event candidate"
-          ],
-          "score": 0.389,
-          "title": "Buy Bajaj Finance; target of Rs 9000: Emkay Global Financial"
-        },
-        {
-          "category": "insightEvent",
-          "gates": [
-            {
-              "details": {
-                "storyCount": 2
-              },
-              "name": "eventCoherence",
-              "reason": "event sketch has repeated story count",
-              "score": 0.62,
-              "status": "PASS"
-            },
-            {
-              "details": {
                 "baseReportRatio": 0.5,
                 "distinctAngles": 1
               },
@@ -880,7 +769,7 @@
           "gates": [
             {
               "details": {
-                "storyCount": 4
+                "storyCount": 3
               },
               "name": "eventCoherence",
               "reason": "event sketch has repeated story count",
@@ -917,11 +806,11 @@
             },
             {
               "details": {
-                "childCount": 4
+                "childCount": 3
               },
               "name": "weakTree",
               "reason": "child tree has enough depth",
-              "score": 1.0,
+              "score": 0.75,
               "status": "PASS"
             },
             {
@@ -942,7 +831,7 @@
             "representativeTitle": "Top news of the day: June 30, 2026 - The Hindu",
             "scoreBreakdown": {
               "angleDiversityScore": 0.25,
-              "eventImportanceScore": 0.83,
+              "eventImportanceScore": 0.71,
               "freshnessScore": 0.0,
               "noveltyDeltaScore": 0.44999999999999996,
               "sourceAuthorityScore": 0.38,
@@ -957,17 +846,16 @@
             "sourceGroups": [
               "google_news"
             ],
-            "storyCount": 4,
+            "storyCount": 3,
             "storyIds": [
               "fb6b647db876af8e",
               "b65533a7f527bd54",
-              "df71bc9e8f9d5353",
-              "bf952c0b99344c4d"
+              "df71bc9e8f9d5353"
             ],
             "topAngles": [
               {
                 "angle": "base_report",
-                "count": 4
+                "count": 3
               }
             ],
             "topTokens": [
@@ -982,19 +870,19 @@
             "weak child angle diversity",
             "one-source event candidate"
           ],
-          "score": 0.2021,
+          "score": 0.1885,
           "title": "Top news of the day: June 30, 2026 - The Hindu"
         }
       ],
       "rankingProfile": "insight-v2-event-angle-tree",
       "scoreBreakdown": {
         "angleDiversityScore": 0.25,
-        "eventImportanceScore": 0.6862,
+        "eventImportanceScore": 0.6757,
         "freshnessScore": 0.0,
-        "noveltyDeltaScore": 0.4625,
-        "sourceAuthorityScore": 0.41,
-        "sourceDiversityScore": 0.3963,
-        "temporalEvolutionScore": 0.385
+        "noveltyDeltaScore": 0.4643,
+        "sourceAuthorityScore": 0.4143,
+        "sourceDiversityScore": 0.4029,
+        "temporalEvolutionScore": 0.3871
       }
     },
     "localTravel": {
@@ -4585,7 +4473,7 @@
       }
     }
   },
-  "generatedAt": 1783970474873,
+  "generatedAt": 1783976149259,
   "implementedDestinations": [
     "upAhead",
     "buzz",
@@ -4619,7 +4507,7 @@
     ],
     "destinationScores": {
       "buzz": 0.0,
-      "insight": 0.37,
+      "insight": 0.3706,
       "localTravel": 0.0,
       "upAhead": 0.8572
     },
@@ -4629,7 +4517,7 @@
       "localTravel": "FAIL",
       "upAhead": "WARN"
     },
-    "overallScore": 0.3068,
+    "overallScore": 0.307,
     "overallStatus": "FAIL",
     "rankingProfiles": {
       "buzz": "buzz-v2-trend-local-travel",
