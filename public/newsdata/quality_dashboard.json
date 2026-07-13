@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1783976150602,
+  "generatedAt": 1783986791411,
   "windowDays": 7,
   "latest": {
-    "insightGrade": "C",
+    "insightGrade": "D",
     "insightScore": 0,
-    "totalStories": 612,
-    "usableStories36h": 604,
+    "totalStories": 582,
+    "usableStories36h": 567,
     "sourceGroups": 10,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.307,
+    "rankingOverallScore": 0.3036,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.307,
+    "overallScore": 0.3036,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1783976149259,
+    "generatedAt": 1783986790755,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.3706,
+      "insight": 0.3586,
       "localTravel": 0,
-      "upAhead": 0.8572
+      "upAhead": 0.8559
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.3706,
+        "score": 0.3586,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.8572,
+        "score": 0.8559,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -74,8 +74,8 @@
         "oneSourceCappedCount": 0
       },
       "insight": {
-        "parentClusters": 7,
-        "strongParents": 7,
+        "parentClusters": 6,
+        "strongParents": 6,
         "weakParentsDemoted": 0,
         "avgAnglesPerParent": 0,
         "baseReportHeavyParents": 1,
@@ -92,7 +92,7 @@
       },
       "upAhead": {
         "rankedItemCount": 30,
-        "suppressedItemCount": 7,
+        "suppressedItemCount": 8,
         "events": 0,
         "onlineOffers": 0,
         "offlineOffers": 0,
@@ -107,6 +107,8 @@
     "topFindings": [
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
       "This is exactly what you should be buying in the final hours of the Prime Day sale - Nine.com.au: location failed — offline/local item lacks configured location match",
+      "Chennai Corporation to replace wooden ramp on Marina Beach: futureValidity failed — expired display window",
+      "Chennai Corporation to replace wooden ramp on Marina Beach: alertUrgency failed — alert expired",
       "28-year-old man electrocuted in Neelankarai: futureValidity failed — expired display window",
       "28-year-old man electrocuted in Neelankarai: alertUrgency failed — alert expired",
       "State-level conference held on non-communicable diseases in Chennai: futureValidity failed — expired display window",
@@ -114,12 +116,10 @@
       "Association of private schools urges School Education Minister to institute Best Teacher Awards: futureValidity failed — expired display window",
       "Association of private schools urges School Education Minister to institute Best Teacher Awards: alertUrgency failed — alert expired",
       "Chief Minister to inaugurate Perambur MLA office on Monday: futureValidity failed — expired display window",
-      "Chief Minister to inaugurate Perambur MLA office on Monday: alertUrgency failed — alert expired",
-      "Assam man arrested for smuggling heroin to Chennai: futureValidity failed — expired display window",
-      "Assam man arrested for smuggling heroin to Chennai: alertUrgency failed — alert expired"
+      "Chief Minister to inaugurate Perambur MLA office on Monday: alertUrgency failed — alert expired"
     ],
     "actionRequired": [
-      "7 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "8 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no active offer items in ranked Up Ahead set",
       "no ranked Up Ahead item for muscat",
       "ranked Up Ahead set is category-dominated",
@@ -256,16 +256,16 @@
     },
     {
       "date": "2026-07-13",
-      "generatedAt": 1783976150602,
-      "insightGrade": "C",
+      "generatedAt": 1783986791411,
+      "insightGrade": "D",
       "insightScore": 0,
-      "totalStories": 612,
-      "usableStories36h": 604,
+      "totalStories": 582,
+      "usableStories36h": 567,
       "sourceGroups": 10,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.307,
+      "rankingOverallScore": 0.3036,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,
