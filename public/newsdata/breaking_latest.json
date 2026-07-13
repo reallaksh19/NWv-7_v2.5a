@@ -1,165 +1,71 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783918110320,
-  "contentHash": "398fd9beffc0",
+  "fetchedAt": 1783930449279,
+  "contentHash": "61c16144a431",
   "breaking": [
     {
-      "title": "At least 27 killed, eight critically injured in Bangkok bar fire",
-      "summary": "Firefighters arrived at the scene in the Chatuchak district to find patrons running through flames to escape.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783909715000,
-      "category": "world",
+      "title": "2,700 Killed By Heatwaves Across England Between May And June: Study",
+      "summary": "UK Health Security Agency will publish its official estimate of heat-related deaths in coming weeks",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/england-heatwaves-2-700-killed-by-heatwaves-across-england-between-may-and-june-study-11763461#publisher=newsstand",
+      "publishedAt": 1783925262000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "9748e80930f983d2",
+      "id": "d6cf4114722ba56f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 7.806,
+      "breakingScore": 4.38,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 4,
-      "allSources": [
-        "bbc",
-        "ndtv",
-        "the_hindu",
-        "times_of_india"
-      ],
-      "firstSeen": 1783904916000
-    },
-    {
-      "title": "British couple return to village at heart of deadly Spanish wildfire",
-      "summary": "At least 13 people, including five believed to be Britons, were killed by Thursday's wildfire in Spain's Almeria province.",
-      "source": "BBC",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cx24e09x79no?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783902561000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "741b79c5b8fe9d25",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 6.64,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1783902561000
-    },
-    {
-      "title": "Antony Waste shares fall 4% after 9 workers killed in Pune waste mound collapse; operations halted",
-      "summary": "Antony Waste shares dropped after a waste mound collapse killed nine workers. The incident occurred at the PCMC Waste-to-Energy plant following heavy rainfall. The company will cover all expenses for the injured and bereaved families. Operations at the plant are temporarily suspended for safety assessments. Municipal waste collection and transportation services remain unaffected by the event.",
-      "source": "Economic Times",
-      "sourceGroup": "economic_times",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/antony-waste-shares-in-focus-after-9-workers-killed-in-pune-waste-mound-collapse-operations-halted/articleshow/132355741.cms",
-      "publishedAt": 1783913588000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "46b29d0b976fcc70",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.395,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "economic_times"
-      ],
-      "firstSeen": 1783913588000
-    },
-    {
-      "title": "Iran Claims US Military's Drone Fleet In Bahrain Destroyed In Fresh Strikes",
-      "summary": "The US military began launching more strikes against Iran on Sunday, with US Central Command (Centcom) saying it hit \"dozens of targets at multiple locations with precision munitions to degrade Iran's ability to continue attacking international shipping flowing through the Strait of Hormuz\".",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/fresh-strikes-on-iran-diplomacy-rendered-futile-iran-reacts-after-one-killed-in-new-us-attacks-11763095#publisher=newsstand",
-      "publishedAt": 1783915128000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "95819db8105ec661",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.931,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1783915128000
-    },
-    {
-      "title": "Earthquake of magnitude 3.6 hits J&K’s Baramulla",
-      "summary": "There were no reports of any damage or casualties",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/earthquake-of-magnitude-36-hits-jks-baramulla/article71215787.ece",
-      "publishedAt": 1783904272000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "390df481d90cac21",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.68,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783904272000
-    },
-    {
-      "title": "Why is market falling today? Sensex plunges 700 points, Nifty tests 24,000. 6 key factors behind the selloff",
-      "summary": "Indian stock indices Sensex and Nifty experienced significant declines on Monday. Rising oil prices and Middle East tensions dampened investor sentiment across the market. Broader market indices also slipped into the red, reflecting widespread losses. Several major companies saw their share prices drop considerably during trading. The overall market breadth indicated a bearish trend with more stocks declining.",
-      "source": "Economic Times",
-      "sourceGroup": "economic_times",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-falling-today-sensex-plunges-700-points-nifty-tests-24000-key-factors-behind-the-selloff/articleshow/132355904.cms",
-      "publishedAt": 1783915006000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "ee7edc067868bbf6",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.928,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
       "sourceCount": 2,
       "allSources": [
-        "economic_times",
+        "bbc",
         "ndtv"
       ],
-      "firstSeen": 1783914527000
+      "firstSeen": 1783925128000
     },
     {
-      "title": "West Asia war LIVE: U.S. military bases in Jordan, Bahrain, Kuwait struck by IRGC",
-      "summary": "Iran's Revolutionary Guards said they had struck U.S. military targets and bases in Jordan, Bahrain and Kuwait, state media reported",
+      "title": "West Asia war LIVE: IRGC claims strikes against Oman and Bahrain",
+      "summary": "Iran’s Revolutionary Guards said they destroyed radar systems in Oman and targeted U.S. military facilities on the southern edge of Manama",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-missile-attacks-strait-of-hormuz-donald-trump-mojtaba-khamenei-cenctom-irgc-ceasefire-deal/article71215794.ece",
-      "publishedAt": 1783917341000,
+      "publishedAt": 1783929426000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "6c6c89021a844685",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.482,
+      "breakingScore": 3.976,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1783924000000
+    },
+    {
+      "title": "Efforts on to repatriate remains of three Andhra tourists killed in Vietnam boat accident",
+      "summary": "The remains of Nallapeta Adiseshaiah Ravi Teja, Gelli Jaya Lakshmi and Mudium Sreedhar are to be flown home; the injured Gelli Kishore remains critical and may be moved to Ho Chi Minh City",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/efforts-on-to-repatriate-remains-of-three-andhra-tourists-killed-in-vietnam-boat-accident/article71214189.ece",
+      "publishedAt": 1783929325000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "91a7b0141d058217",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.974,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -167,32 +73,123 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1783889143000
+      "firstSeen": 1783926906000
     },
     {
-      "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
-      "summary": "Within hours of fresh US attacks, Iran said it had struck US military bases in Kuwait, Jordan and Bahrain.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cevlr112pmgo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783917002000,
+      "title": "U.S. hits Iran as Gulf states targeted in flare-up over Hormuz",
+      "summary": "Iran responded to the latest U.S. attacks by targeting Gulf nations, with the powerful Revolutionary Guards announcing new strikes on Bahrain, Jordan and Kuwait, according to state media reports",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/us-hits-iran-as-gulf-states-targeted-in-flare-up-over-hormuz/article71216183.ece",
+      "publishedAt": 1783928694000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "40d3ff61c28ad487",
+      "id": "0b1baafd40c6f2b1",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.474,
+      "breakingScore": 3.959,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 3,
+      "sourceCount": 1,
       "allSources": [
-        "bbc",
-        "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1783900285000
+      "firstSeen": 1783928694000
+    },
+    {
+      "title": "When anti-cow slaughter mob tried to burn down Kamaraj’s house in New Delhi in 1966",
+      "summary": "The Congress national president was having a siesta when the mob, taking out a rally to Parliament, attacked his residence on Jantar Mantar Road in New Delhi on November 7. The house was partly burnt. His cook, Ambi, was attacked with sticks and injured in the face. Kamaraj escaped to the adjoining Vithalbhai Hostel for MPs",
+      "source": "The Hindu National",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/when-anti-cow-slaughter-mob-tried-to-burn-down-kamarajs-house-in-new-delhi/article69269863.ece",
+      "publishedAt": 1783928576000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "b2ea9b90b32211e9",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.957,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1783928576000
+    },
+    {
+      "title": "At least 27 killed, 22 critically injured in Bangkok bar fire",
+      "summary": "Firefighters arrived at the scene in the Chatuchak district to find patrons running through flames to escape.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783922837000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "9748e80930f983d2",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.824,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "times_of_india"
+      ],
+      "firstSeen": 1783908892000
+    },
+    {
+      "title": "Jordan says it shot down four missiles launched by Iran",
+      "summary": "Iran earlier had claimed an attack targeting Jordan, which hosts U.S. military forces",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/jordan-says-it-shot-down-four-missiles-launched-by-iran/article71216119.ece",
+      "publishedAt": 1783922068000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "b4695025858e77b1",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.806,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1783922068000
+    },
+    {
+      "title": "'We heard an explosion, then flames spread': Survivors recount Bangkok pub inferno that killed 27",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132356705.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />In a horrific incident, a raging fire swept through a crowded pub in Bangkok, resulting in the deaths of 27 individuals. Panic ensued as smoke enveloped the venue, with numerous victims cornered at the rear due to obstructed emergency exits. Eyewitnesses shared their desperate attempts to escape the chaos as the inferno blazed shortly before midnight.",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/we-heard-an-explosion-then-flames-spread-survivors-recount-bangkok-pub-inferno-that-killed-27/articleshow/132356705.cms",
+      "publishedAt": 1783917812000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "940e7b9065516c0b",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.707,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "times_of_india"
+      ],
+      "firstSeen": 1783917812000
     }
   ]
 }
