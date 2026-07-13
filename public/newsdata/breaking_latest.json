@@ -1,22 +1,45 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783899351346,
-  "contentHash": "a69c365cf37f",
+  "fetchedAt": 1783905203963,
+  "contentHash": "96eb73cfa1e5",
   "breaking": [
     {
-      "title": "At least 27 killed as fire breaks out at pub in Bangkok",
-      "summary": "Firefighters took about half an hour to bring the fire under control; cause of the fire is unknown and under investigation",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/bangkok-pub-fire-deaths-thailand-july-13-2026/article71215014.ece",
-      "publishedAt": 1783898719000,
+      "title": "British couple return to village at heart of deadly Spanish wildfire",
+      "summary": "At least 13 people, including five believed to be Britons, were killed by Thursday's wildfire in Spain's Almeria province.",
+      "source": "BBC",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cx24e09x79no?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783902561000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "7f893e6bc56287ac",
+      "id": "741b79c5b8fe9d25",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.485,
+      "breakingScore": 6.939,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1783902561000
+    },
+    {
+      "title": "Morning Digest: U.S. launches more strikes on Iran; 27 killed in Bangkok pub fire, and more",
+      "summary": "Here is a select list of stories to start the day",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/morning-digest-july-13-2026/article71215162.ece",
+      "publishedAt": 1783903286000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "fe1028a3bb31f2eb",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.956,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -26,101 +49,77 @@
         "bbc",
         "the_hindu"
       ],
-      "firstSeen": 1783897040000
+      "firstSeen": 1783898719000
     },
     {
-      "title": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
-      "summary": "Iranian forces earlier said the Strait was closed and launched wide-ranging attacks at US allies and bases in the region.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783894660000,
-      "category": "world",
+      "title": "West Asia war LIVE: U.S. strikes Iran as Gulf states targeted in flareup over Hormuz",
+      "summary": "The flare-up is the latest to undermine an interim agreement between Washington and Tehran aimed at ending their war, which has caused global economic shockwaves since it began in late February",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-missile-attacks-strait-of-hormuz-donald-trump-mojtaba-khamenei-cenctom-irgc-ceasefire-deal/article71215794.ece",
+      "publishedAt": 1783904940000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "a61b59bee6176398",
+      "id": "6c6c89021a844685",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.891,
+      "breakingScore": 3.994,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 2,
       "allSources": [
         "bbc",
-        "ndtv"
-      ],
-      "firstSeen": 1783865256000
-    },
-    {
-      "title": "West Asia war updates: Projectiles hit Iran's Gulf island of Qeshm, state media says",
-      "summary": "U.S. attacks Iran over ship being hit in Hormuz; Tehran responds by hitting Arab states",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-ceasefire-donald-trump-tehran-attacks-strait-of-hormuz-ships-live-updates-july-12-2026/article71212951.ece",
-      "publishedAt": 1783889143000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "75b9664bd9ea58c0",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.764,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
         "the_hindu"
       ],
       "firstSeen": 1783868778000
     },
     {
-      "title": "Major incident declared in Wales as firefighters tackle wildfires across UK",
-      "summary": "Residents near the Conwy fire have been evacuated, with at least 10 other fires across the UK this weekend.",
-      "source": "BBC",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cy8w67l642no?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1783882991000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "eea1fb76f89aa894",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.621,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1783882991000
-    },
-    {
-      "title": "3 Border Posts, Offshore Oil Platform Attacked In Kuwait, 1 Injured",
-      "summary": "0One person has been injured in the attack. (Image for representaton",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-update-3-border-posts-offshore-oil-platform-attacked-in-kuwait-1-injured-11762403#publisher=newsstand",
-      "publishedAt": 1783878597000,
+      "title": "Earthquake of magnitude 3.6 hits J&K’s Baramulla",
+      "summary": "There were no reports of any damage or casualties",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/earthquake-of-magnitude-36-hits-jks-baramulla/article71215787.ece",
+      "publishedAt": 1783904272000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "282e00a906c0056f",
+      "id": "390df481d90cac21",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.52,
+      "breakingScore": 3.978,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "ndtv"
+        "the_hindu"
       ],
-      "firstSeen": 1783878597000
+      "firstSeen": 1783904272000
+    },
+    {
+      "title": "Oil jumps 3% after US, Iran escalate strikes in Mideast",
+      "summary": "Oil prices climbed Monday as Iran expanded strikes on Gulf states.  U.S. West Texas Intermediate crude rose and Brent crude futures climbed.  Tehran extended strikes on Qatar and the United Arab Emirates over the weekend.  This cycle of attacks casts doubt on an interim U.S.-Iranian agreement.  Market analysts suggest the current flare-up represents an escalation within a fragile truce.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-jumps-3-after-us-iran-escalate-strikes-in-mideast/articleshow/132354187.cms",
+      "publishedAt": 1783902415000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "a5483ec1dd9f2ac8",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.935,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "economic_times"
+      ],
+      "firstSeen": 1783902415000
     },
     {
       "title": "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani dies aged 74",
@@ -135,7 +134,7 @@
       "id": "6427f7fe58dbdccb",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.417,
+      "breakingScore": 3.281,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -146,6 +145,29 @@
         "the_hindu"
       ],
       "firstSeen": 1783870159000
+    },
+    {
+      "title": "Global Market Today: Asian shares slip as oil jumps on Gulf attacks",
+      "summary": "Asian markets declined as intensified Gulf fighting and oil price surges rekindled inflation risks.  Oil prices climbed significantly, impacting global economic outlooks and investor sentiment.  Investors increased expectations for a Federal Reserve interest rate hike soon.  Major banks and tech companies are set to release their quarterly earnings reports.  South Korean chip stocks faced pressure, impacting the broader semiconductor sector globally.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-slip-as-oil-jumps-on-gulf-attacks/articleshow/132354226.cms",
+      "publishedAt": 1783903686000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "977a4b71a40d5145",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.465,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "economic_times"
+      ],
+      "firstSeen": 1783903686000
     },
     {
       "title": "Police say no suggestion of political motive in Widdecombe killing after new arrest",
@@ -160,7 +182,7 @@
       "id": "97504837eacf8c3d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.315,
+      "breakingScore": 2.18,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -169,29 +191,6 @@
         "bbc"
       ],
       "firstSeen": 1783891374000
-    },
-    {
-      "title": "Over a year on, transplanted trees at Raman Thangal Lake in Sholinganallur stand dead",
-      "summary": "",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/chennai/over-a-year-on-transplanted-trees-at-raman-thangal-lake-in-sholinganallur-stand-dead/article71213637.ece",
-      "publishedAt": 1783882792000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "e56c5f2077572c44",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.117,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783882792000
     }
   ]
 }
