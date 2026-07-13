@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783976293219,
-  "contentHash": "484d9be42cdf",
+  "fetchedAt": 1783980022079,
+  "contentHash": "b9995546e0fa",
   "breaking": [
     {
       "title": "Wildfire raging south of Paris could have been set deliberately, says minister",
@@ -16,7 +16,7 @@
       "id": "316aa6ad9b1b6235",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.94,
+      "breakingScore": 3.854,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -39,7 +39,7 @@
       "id": "d86e6ce60fa6a2da",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.912,
+      "breakingScore": 3.826,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -63,7 +63,7 @@
       "id": "c3f7283b7d2f33b4",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.816,
+      "breakingScore": 3.73,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -86,7 +86,7 @@
       "id": "9d7037570d137914",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.743,
+      "breakingScore": 3.656,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -109,7 +109,7 @@
       "id": "e91868b566205771",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.661,
+      "breakingScore": 3.574,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -119,6 +119,30 @@
         "the_hindu"
       ],
       "firstSeen": 1783955076000
+    },
+    {
+      "title": "Burnham cements Labour leadership with backing of 349 MPs",
+      "summary": "The MP for Makerfield is on track to become the prime minister next week after receiving the support of the vast majority of Labour MPs.",
+      "source": "BBC",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c05y3rj09qqo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783977068000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "58096a796b555400",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.932,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "the_hindu"
+      ],
+      "firstSeen": 1783973531000
     },
     {
       "title": "US judge voids Donald Trump's $1.8bn settlement with IRS that gave him immunity from tax audits",
@@ -133,7 +157,7 @@
       "id": "f97610cdc335e15f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.826,
+      "breakingScore": 2.739,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -143,30 +167,6 @@
         "times_of_india"
       ],
       "firstSeen": 1783963776000
-    },
-    {
-      "title": "Quote of the day by Dale Carnegie: \"Don't be afraid of enemies who attack you. Be afraid of…\" - why honest criticism is more valuable than praise",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132376174.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Dale Carnegie cautioned against trusting flattering friends more than open enemies.  He argued that sincere criticism offers valuable lessons for personal growth.  Flattery creates a false sense of security, hindering honest self-reflection.  As influence grows, people often avoid challenging powerful individuals.  Seeking truthful feedback remains crucial for lasting judgment and improvement.",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/us/quote-of-the-day-by-dale-carnegie-dont-be-afraid-of-enemies-who-attack-you-be-afraid-of-why-honest-criticism-is-more-valuable-than-praise/articleshow/132376174.cms",
-      "publishedAt": 1783974600000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "3d37a391cb9277b6",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.461,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "economic_times",
-        "times_of_india"
-      ],
-      "firstSeen": 1783945800000
     },
     {
       "title": "Red Fort blast case: Delhi court allows NIA to cremate  victims’ remains",
@@ -181,7 +181,7 @@
       "id": "6e49e9cf25fbc58e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.446,
+      "breakingScore": 2.36,
       "breakingReasons": [
         "severity_lexicon"
       ],
