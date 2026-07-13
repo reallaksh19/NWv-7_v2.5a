@@ -1,18 +1,18 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1783962742921,
-  "contentHash": "041f68715d9eef7a",
+  "generatedAt": 1783970474214,
+  "contentHash": "37ef05d2c019f76b",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 598,
-  "sourceGroupCount": 10,
+  "storyCount": 649,
+  "sourceGroupCount": 11,
   "grade": "C",
   "parentCount": 10,
   "avgAngles": 1.7,
-  "avgTemporalTiers": 1.9,
+  "avgTemporalTiers": 1.8,
   "avgEvolutionRoles": 1.8,
-  "baseReportShare": 0.2608695652173913,
+  "baseReportShare": 0.23809523809523808,
   "multiAngleCount": 7,
   "weakParentCount": 3,
   "runtimeQualityGate": {
@@ -23,103 +23,60 @@
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 60,
+      "signalScore": 56,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 545,
-      "risingCount": 2,
+      "storyCount": 590,
+      "risingCount": 1,
       "thinCount": 3,
       "multiAngleCount": 7,
       "lowAngleCount": 3,
       "strongAngleCount": 0,
       "avgAngles": 1.7,
-      "avgChildren": 2.3,
-      "avgScore": 0.6543998937961494,
+      "avgChildren": 2.1,
+      "avgScore": 0.6431183948816575,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 6,
+      "snapshotCoverage": 5,
       "coverageLabel": "7/10",
       "warnings": [
         "3 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "4 cluster(s) have weak snapshot coverage.",
+        "5 cluster(s) have weak snapshot coverage.",
         "3 cluster(s) are marked thin.",
-        "535 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "597 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 60,
+      "signalScore": 56,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 545,
-      "risingCount": 2,
+      "storyCount": 590,
+      "risingCount": 1,
       "thinCount": 3,
       "multiAngleCount": 7,
       "lowAngleCount": 3,
       "strongAngleCount": 0,
       "avgAngles": 1.7,
-      "avgChildren": 2.3,
-      "avgScore": 0.6543998937961494,
+      "avgChildren": 2.1,
+      "avgScore": 0.6431183948816575,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 6,
+      "snapshotCoverage": 5,
       "coverageLabel": "7/10",
       "warnings": [
         "3 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "4 cluster(s) have weak snapshot coverage.",
+        "5 cluster(s) have weak snapshot coverage.",
         "3 cluster(s) are marked thin.",
-        "535 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "597 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_143_5a6331f119a8599c",
-      "headline": "Senator Lindsey Graham died of aortic tear, examiner says",
-      "score": 0.6592239879583166,
-      "postTreeScore": 1.0992,
-      "childCount": 3,
-      "angles": [
-        "base_report",
-        "official_response"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "reaction",
-        "analysis"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "corroboration"
-      ],
-      "baseReportShare": 0.6666666666666666,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_449_45ab20ee7630e17c",
-      "headline": "Why US, EU and 13 nations are backing 2016 South China Sea ruling against Beijing's claims",
-      "score": 0.6732477209716007,
-      "postTreeScore": 1.0932,
-      "childCount": 3,
-      "angles": [
-        "fact_update",
-        "official_response"
-      ],
-      "temporalTiers": [
-        "developing",
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "corroboration",
-        "official_response"
-      ],
-      "baseReportShare": 0,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_9_336d2d3327fee82d",
+      "parentId": "cluster_48_336d2d3327fee82d",
       "headline": "12 districts in A.P. get new DMHOs",
       "score": 0.6807467197849983,
       "postTreeScore": 1.0607,
@@ -140,7 +97,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_72_a9aa40e88e47b9f7",
+      "parentId": "cluster_133_a9aa40e88e47b9f7",
       "headline": "Bodies of 15 Indian tourists killed in Vietnam boat accident flown home",
       "score": 0.636325001664982,
       "postTreeScore": 1.0563,
@@ -162,7 +119,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_86_b1cd83dcb701620a",
+      "parentId": "cluster_148_b1cd83dcb701620a",
       "headline": "BJP serves Omar ₹100-crore defamation notice; CM vows counter legal action",
       "score": 0.61151,
       "postTreeScore": 1.0115,
@@ -183,7 +140,28 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_295_3aa9ec374a310c94",
+      "parentId": "cluster_209_5a6331f119a8599c",
+      "headline": "Senator Lindsey Graham died of aortic tear, examiner says",
+      "score": 0.6112599999999999,
+      "postTreeScore": 1.0113,
+      "childCount": 2,
+      "angles": [
+        "base_report",
+        "official_response"
+      ],
+      "temporalTiers": [
+        "breaking",
+        "established"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "corroboration"
+      ],
+      "baseReportShare": 0.5,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_364_3aa9ec374a310c94",
       "headline": "Ex-MP H. Hanumanthappa passes away",
       "score": 0.6274820680115993,
       "postTreeScore": 1.0075,
@@ -204,7 +182,27 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_301_c088290ad7ac9af4",
+      "parentId": "cluster_520_45ab20ee7630e17c",
+      "headline": "Why US, EU and 13 nations are backing 2016 South China Sea ruling against Beijing's claims",
+      "score": 0.6752467197849983,
+      "postTreeScore": 1.0552,
+      "childCount": 2,
+      "angles": [
+        "fact_update",
+        "official_response"
+      ],
+      "temporalTiers": [
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "corroboration",
+        "official_response"
+      ],
+      "baseReportShare": 0,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_370_c088290ad7ac9af4",
       "headline": "Yastika century, seamers put India on the brink of historic win at Lord's",
       "score": 0.5530933333333333,
       "postTreeScore": 0.9531,
@@ -224,43 +222,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_146_fd7d7015a4c1241b",
-      "headline": "Puravankara Q1 sales bookings up 28% to Rs 1,439 cr on higher volumes, price growth",
-      "score": 0.7286266666666668,
-      "postTreeScore": 0.6386,
-      "childCount": 2,
-      "angles": [
-        "fact_update"
-      ],
-      "temporalTiers": [
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "fact_update"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_92_fa0038cd245316e4",
-      "headline": "Assam Rifles Jawan Killed In Action, 4 Injured In Suspected IED Blast In Nagaland",
-      "score": 0.6922467197849984,
-      "postTreeScore": 0.6022,
-      "childCount": 2,
-      "angles": [
-        "fact_update"
-      ],
-      "temporalTiers": [
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "fact_update"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_271_38501e60437c0699",
+      "parentId": "cluster_340_38501e60437c0699",
       "headline": "US strikes Iran after Strait of Hormuz ship attack; Tehran hits Gulf states",
       "score": 0.6814967197849984,
       "postTreeScore": 0.5715,
@@ -275,6 +237,43 @@
       "evolutionRoles": [
         "first_report",
         "corroboration"
+      ],
+      "baseReportShare": 0,
+      "weakTree": true
+    },
+    {
+      "parentId": "cluster_66_3c6f383194821119",
+      "headline": "Supreme Court stays Madras High Court order banning cow slaughter in Tamil Nadu",
+      "score": 0.59741,
+      "postTreeScore": 0.5074,
+      "childCount": 2,
+      "angles": [
+        "official_response"
+      ],
+      "temporalTiers": [
+        "breaking",
+        "established"
+      ],
+      "evolutionRoles": [
+        "official_response"
+      ],
+      "baseReportShare": 0,
+      "weakTree": true
+    },
+    {
+      "parentId": "cluster_213_fd7d7015a4c1241b",
+      "headline": "Puravankara Q1 sales bookings up 28% to Rs 1,439 cr on higher volumes, price growth",
+      "score": 0.7566133864516651,
+      "postTreeScore": 0.6466,
+      "childCount": 2,
+      "angles": [
+        "fact_update"
+      ],
+      "temporalTiers": [
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "fact_update"
       ],
       "baseReportShare": 0,
       "weakTree": true
@@ -309,7 +308,7 @@
       {
         "id": "avg-temporal-tier-count",
         "label": "Average temporal tier count",
-        "actual": 1.9,
+        "actual": 1.8,
         "required": ">= 1.8"
       },
       {
@@ -321,7 +320,7 @@
       {
         "id": "base-report-share",
         "label": "Base report share",
-        "actual": 0.261,
+        "actual": 0.238,
         "required": "<= 0.55"
       },
       {
@@ -339,7 +338,7 @@
       {
         "id": "top-parent-child-depth",
         "label": "Top parent child depth",
-        "actual": 3,
+        "actual": 2,
         "required": ">= 2"
       },
       {
@@ -353,16 +352,16 @@
     "summary": {
       "parentCount": 10,
       "avgAngles": 1.7,
-      "avgTemporalTiers": 1.9,
+      "avgTemporalTiers": 1.8,
       "avgEvolutionRoles": 1.8,
-      "baseReportShare": 0.261,
+      "baseReportShare": 0.238,
       "multiAngleCount": 7,
       "weakParentCount": 3,
       "weakParentRatio": 0.3,
       "topParentAngles": 2,
-      "topParentChildren": 3,
-      "storyCount": 598,
-      "sourceGroupCount": 10
+      "topParentChildren": 2,
+      "storyCount": 649,
+      "sourceGroupCount": 11
     }
   }
 }
