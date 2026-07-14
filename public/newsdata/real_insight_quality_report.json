@@ -1,12 +1,12 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1784003048230,
-  "contentHash": "24eba5f9177a9498",
+  "generatedAt": 1784010848477,
+  "contentHash": "28fca4e85eac6126",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 582,
-  "sourceGroupCount": 11,
+  "storyCount": 560,
+  "sourceGroupCount": 10,
   "grade": "D",
   "parentCount": 10,
   "avgAngles": 1.5,
@@ -26,7 +26,7 @@
       "signalScore": 38,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 538,
+      "storyCount": 532,
       "risingCount": 0,
       "thinCount": 5,
       "multiAngleCount": 5,
@@ -44,7 +44,7 @@
         "4 cluster(s) are below source-diversity target.",
         "7 cluster(s) have weak snapshot coverage.",
         "5 cluster(s) are marked thin.",
-        "441 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "281 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
@@ -54,7 +54,7 @@
       "signalScore": 38,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 538,
+      "storyCount": 532,
       "risingCount": 0,
       "thinCount": 5,
       "multiAngleCount": 5,
@@ -86,7 +86,7 @@
   },
   "parents": [
     {
-      "parentId": "cluster_35_e242e7469daf9d1a",
+      "parentId": "cluster_73_e242e7469daf9d1a",
       "headline": "TCS among 5 stocks showing bullish RSI upswing",
       "score": 0.712563386451665,
       "postTreeScore": 1.0926,
@@ -107,7 +107,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_297_5a6331f119a8599c",
+      "parentId": "cluster_338_5a6331f119a8599c",
       "headline": "Senator Lindsey Graham died of aortic tear, examiner says",
       "score": 0.6792467197849983,
       "postTreeScore": 1.0592,
@@ -128,7 +128,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_76_a7ee8c57da0b8d39",
+      "parentId": "cluster_115_a7ee8c57da0b8d39",
       "headline": "Vietnam boat capsize survivors recount harrowing moments",
       "score": 0.6192128795983323,
       "postTreeScore": 0.9592,
@@ -149,7 +149,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_467_c088290ad7ac9af4",
+      "parentId": "cluster_512_c088290ad7ac9af4",
       "headline": "Yastika century, seamers put India on the brink of historic win at Lord's",
       "score": 0.5530933333333333,
       "postTreeScore": 0.9531,
@@ -169,7 +169,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_219_a9aa40e88e47b9f7",
+      "parentId": "cluster_260_a9aa40e88e47b9f7",
       "headline": "Bodies of 15 Indian tourists killed in Vietnam boat accident flown home",
       "score": 0.557226159813334,
       "postTreeScore": 0.9172,
@@ -190,7 +190,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_301_fd7d7015a4c1241b",
+      "parentId": "cluster_342_fd7d7015a4c1241b",
       "headline": "Puravankara Q1 sales bookings up 28% to Rs 1,439 cr on higher volumes, price growth",
       "score": 0.7566133864516651,
       "postTreeScore": 0.6466,
@@ -208,7 +208,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_241_fa0038cd245316e4",
+      "parentId": "cluster_282_fa0038cd245316e4",
       "headline": "Assam Rifles Jawan Killed In Action, 4 Injured In Suspected IED Blast In Nagaland",
       "score": 0.6482467197849984,
       "postTreeScore": 0.5382,
@@ -226,7 +226,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_151_3c6f383194821119",
+      "parentId": "cluster_192_3c6f383194821119",
       "headline": "Supreme Court stays Madras High Court order banning cow slaughter in Tamil Nadu",
       "score": 0.58541,
       "postTreeScore": 0.4954,
@@ -245,8 +245,8 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_5_cf0deacfefbcff6e",
-      "headline": "ICICI Prudential AMC shares gain 2% after Q1 net profit rises 23% to Rs 965 crore. Here’s what brokerages say",
+      "parentId": "cluster_29_356796d6c83f5dad",
+      "headline": "Biocon shares jump 6% as Mylan likely exits drugmaker after Rs 3,481 crore stake sale",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
       "childCount": 1,
@@ -263,13 +263,13 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_6_dc496865d3e6db0e",
-      "headline": "HCL Tech shares fall 3% after Q1 results. What Nomura, Motilal Oswal & other brokerages suggest now",
+      "parentId": "cluster_33_c4d1033d1e68d5ff",
+      "headline": "Nuvoco Vistas shares rocket 14% after Q1 net profit jumps 20%; firm reports strongest EBITDA ever",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
       "childCount": 1,
       "angles": [
-        "market_reaction"
+        "fact_update"
       ],
       "temporalTiers": [
         "breaking"
@@ -371,8 +371,8 @@
       "weakParentRatio": 0.5,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 582,
-      "sourceGroupCount": 11
+      "storyCount": 560,
+      "sourceGroupCount": 10
     }
   }
 }

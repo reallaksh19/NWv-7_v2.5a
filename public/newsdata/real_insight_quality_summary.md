@@ -10,9 +10,9 @@
 - Base report share: `0.2222222222222222`
 - Multi-angle parents: `5`
 - Weak parents: `5`
-- Story count: `582`
-- Source groups: `11`
-- Content hash: `24eba5f9177a9498`
+- Story count: `560`
+- Source groups: `10`
+- Content hash: `28fca4e85eac6126`
 
 ## Top parents
 
@@ -26,8 +26,8 @@
 | 6 | Puravankara Q1 sales bookings up 28% to Rs 1,439 cr on higher volumes, price growth | 2 | fact_update | YES | 0.7566133864516651 |
 | 7 | Assam Rifles Jawan Killed In Action, 4 Injured In Suspected IED Blast In Nagaland | 2 | fact_update | YES | 0.6482467197849984 |
 | 8 | Supreme Court stays Madras High Court order banning cow slaughter in Tamil Nadu | 2 | official_response | YES | 0.58541 |
-| 9 | ICICI Prudential AMC shares gain 2% after Q1 net profit rises 23% to Rs 965 crore. Here’s what brokerages say | 1 | fact_update | YES | 0.7226911614783158 |
-| 10 | HCL Tech shares fall 3% after Q1 results. What Nomura, Motilal Oswal & other brokerages suggest now | 1 | market_reaction | YES | 0.7226911614783158 |
+| 9 | Biocon shares jump 6% as Mylan likely exits drugmaker after Rs 3,481 crore stake sale | 1 | fact_update | YES | 0.7226911614783158 |
+| 10 | Nuvoco Vistas shares rocket 14% after Q1 net profit jumps 20%; firm reports strongest EBITDA ever | 1 | fact_update | YES | 0.7226911614783158 |
 
 ## Warnings
 
