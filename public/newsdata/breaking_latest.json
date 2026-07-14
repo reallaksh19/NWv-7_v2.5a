@@ -1,22 +1,45 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784023761130,
-  "contentHash": "741a1a09a0b1",
+  "fetchedAt": 1784029427583,
+  "contentHash": "1409594a447d",
   "breaking": [
     {
-      "title": "Nagaland IED blast: NSCN vows to identify perpetrators of blast that killed Assam Rifles havildar",
-      "summary": "The armed group condemns the incident and says it will continue to honour the letter and spirit of the ceasefire ground rules",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/nagaland/nagaland-ied-blast-nscn-vows-to-identify-perpetrators-of-blast-that-killed-assam-rifles-havildar/article71220513.ece",
-      "publishedAt": 1784021564000,
-      "category": "india",
+      "title": "Yemen's Houthis launch missiles at Saudi Arabia after strikes on Sanaa airport",
+      "summary": "The Iran-backed Houthis blame Saudi Arabia for the attack in Yemen's capital and say they targeted Abha airport in response.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784023363000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "75856d3dd4a29b38",
+      "id": "504f83c3722788d0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.449,
+      "breakingScore": 5.36,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784023363000
+    },
+    {
+      "title": "West Asia war LIVE: Lebanon and Israel hold talks in Rome amid renewed West Asia fighting",
+      "summary": "MEA summons Iranian diplomats over killing of Indian sailor in Hormuz; U.S. strikes Iran for third night as Trump says deal still 'possible'",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-washington-strikes-tehran-donald-trump-peace-deal-strait-of-hormuz-live-updates-july-14-2026/article71219702.ece",
+      "publishedAt": 1784027551000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "e52eff54d3433ba8",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.957,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -24,30 +47,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784021564000
-    },
-    {
-      "title": "India's Strong Message To Iran After Sailor's Death In Hormuz Ship Strike",
-      "summary": "The attackkilledanIndiancrew member aboard the Mombasa",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/centre-summons-iranian-envoy-after-indian-killed-in-strikes-on-ship-in-hormuz-11768263#publisher=newsstand",
-      "publishedAt": 1784018457000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "393d3548b1c0c2c8",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.377,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784018457000
+      "firstSeen": 1784023258000
     },
     {
       "title": "Heavy rain collapses roof and kills 11 people in northwest Pakistan",
@@ -62,7 +62,7 @@
       "id": "da2511314f623c3b",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.941,
+      "breakingScore": 3.81,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -85,7 +85,7 @@
       "id": "28e845a18061220a",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.853,
+      "breakingScore": 3.722,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -108,7 +108,7 @@
       "id": "06bafcd165ba7dca",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.85,
+      "breakingScore": 3.719,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -119,76 +119,73 @@
       "firstSeen": 1784017279000
     },
     {
-      "title": "Madhya Pradesh Bhojshala complex: Supreme Court suggests temporary prayer space for Muslims until case decided",
-      "summary": "Supreme Court directed that the Archaeological Survey of India would not make any structural alterations to the disputed structure without leave of the apex court",
-      "source": "The Hindu National",
+      "title": "When debris came crushing: How rains and undisposed mud led to a disaster in Wayanad",
+      "summary": "A devastating mudslide in Wayanad, Kerala, was triggered by heavy rains and poor construction practices, resulting in multiple casualties.",
+      "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/supreme-court-hearing-on-madhya-pradesh-bhojshala-saraswati-temple-kamal-maula-mosque-complex/article71220469.ece",
-      "publishedAt": 1784021740000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "d7b6c59b94faa58c",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.953,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784018622000
-    },
-    {
-      "title": "Why is stock market falling today? Rising oil prices among key factors behind Rs 3 lakh crore wealth erosion",
-      "summary": "Benchmark indices Sensex and Nifty fell sharply on Tuesday as soaring crude oil prices, renewed rate hike fears, weak Q1 earnings from HCL Tech, a weaker rupee and fragile global cues triggered broad-based selling.",
-      "source": "Economic Times",
-      "sourceGroup": "economic_times",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-stock-market-falling-today-rising-oil-prices-among-key-factors-behind-rs-3-lakh-crore-wealth-erosion/articleshow/132386876.cms",
-      "publishedAt": 1784021485000,
+      "url": "https://www.thehindu.com/news/national/kerala/when-debris-came-crushing-how-rains-and-undisposed-mud-led-to-a-disaster-in-wayanad/article71218293.ece",
+      "publishedAt": 1784029254000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "af1eb0ba69426cf7",
+      "id": "82bed7bee15d01fa",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.947,
+      "breakingScore": 2.496,
       "breakingReasons": [
-        "multi_source_velocity"
+        "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "allSources": [
-        "economic_times",
-        "ndtv"
+        "the_hindu"
       ],
-      "firstSeen": 1784019147000
+      "firstSeen": 1784029254000
     },
     {
-      "title": "‘Pirates of Hormuz’: Brazil PM Lula attacks Trump's 20% shipping toll, calls it ‘piracy’",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132387808.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Brazilian President Luiz Inácio Lula da Silva has openly criticized Donald Trump's suggestion to impose a fee on ships traversing the Strait of Hormuz, branding the U.S. as a 'pirate state.' Trump claimed that the U.S. would assume the role of guardian over this vital waterway. This development emerges amid increased U.S.",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/pirates-of-hormuz-brazil-pm-lula-attacks-trumps-20-shipping-toll-calls-it-piracy/articleshow/132387808.cms",
-      "publishedAt": 1784023197000,
-      "category": "india",
+      "title": "T.N. teen tourist stabbed after late-night music dispute in Kerala’s Varkala; two arrested",
+      "summary": "",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/kerala/tn-teen-tourist-stabbed-after-late-night-music-dispute-in-keralas-varkala-two-arrested/article71220476.ece",
+      "publishedAt": 1784029154000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "dff3c90392b24b58",
+      "id": "ea6bd434a448de1c",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.494,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784029154000
+    },
+    {
+      "title": "Woman found dead in Adoor",
+      "summary": "Police have taken into custody a person who was present in the house at the time of the incident",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/kerala/woman-found-hanging-in-adoor/article71220860.ece",
+      "publishedAt": 1784028854000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "b4488f36f0477d67",
       "suppressionReason": null,
       "isBreaking": true,
       "breakingScore": 2.487,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "allSources": [
-        "the_hindu",
-        "times_of_india"
+        "the_hindu"
       ],
-      "firstSeen": 1784015980000
+      "firstSeen": 1784028854000
     }
   ]
 }
