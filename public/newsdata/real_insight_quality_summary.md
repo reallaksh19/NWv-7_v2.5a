@@ -5,14 +5,14 @@
 - Grade: `D`
 - Parents: `10`
 - Average angles: `1.4`
-- Average temporal tiers: `1.6`
+- Average temporal tiers: `1.4`
 - Average evolution roles: `1.7`
-- Base report share: `0.1`
+- Base report share: `0.10526315789473684`
 - Multi-angle parents: `4`
 - Weak parents: `6`
-- Story count: `784`
-- Source groups: `11`
-- Content hash: `ec7a3a91b943da9b`
+- Story count: `745`
+- Source groups: `10`
+- Content hash: `a497947761d37b31`
 
 ## Top parents
 
@@ -20,14 +20,14 @@
 |---:|---|---:|---|---|---:|
 | 1 | ‘Boat flipped in three minutes,’ recounts Vietnam crash survivor upon arrival in Chennai | 2 | official_response, regional_followup | NO | 0.6943967197849983 |
 | 2 | TVS Emerald inks Joint Development Agreement for four-acre land parcel in Noombal | 2 | base_report, fact_update | NO | 0.693213386451665 |
-| 3 | Bodies of 15 Indian tourists killed in Vietnam boat accident flown home | 2 | fact_update, regional_followup | NO | 0.6252128795983323 |
+| 3 | E Jean Carroll receives $5.6 million in sexual abuse case after years-long legal battle with Trump | 2 | fact_update, official_response | NO | 0.6243266666666667 |
 | 4 | India beat England in historic first women's test at Lord's - Reuters | 2 | regional_followup, base_report | NO | 0.5563433333333333 |
 | 5 | Puravankara Q1 sales bookings up 28% to Rs 1,439 cr on higher volumes, price growth | 2 | fact_update | YES | 0.7566133864516651 |
-| 6 | MEA summons Iranian deputy envoy, after Indian national killed in attack on ship | 3 | fact_update | YES | 0.6805487346782662 |
-| 7 | Supreme Court stays Madras High Court order banning cow slaughter in Tamil Nadu | 2 | official_response | YES | 0.6613967197849984 |
-| 8 | Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times - The Economic Times | 2 | fact_update | YES | 0.6564967197849982 |
-| 9 | Assam Rifles Jawan Killed In Action, 4 Injured In Suspected IED Blast In Nagaland | 2 | fact_update | YES | 0.6482467197849984 |
-| 10 | Anand Rathi Share Q1 results: Profit rises 71% to Rs 39 crore before one-time charge | 1 | fact_update | YES | 0.7226911614783158 |
+| 6 | Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times - The Economic Times | 2 | fact_update | YES | 0.6564967197849982 |
+| 7 | Assam Rifles Jawan Killed In Action, 4 Injured In Suspected IED Blast In Nagaland | 2 | fact_update | YES | 0.6482467197849984 |
+| 8 | MEA summons Iranian deputy envoy, after Indian national killed in attack on ship | 3 | fact_update | YES | 0.5805916683316485 |
+| 9 | Anand Rathi Share Q1 results: Profit rises 71% to Rs 39 crore before one-time charge | 1 | fact_update | YES | 0.7226911614783158 |
+| 10 | Equirus, Money Grow Asset, Amaltas, 7 others deliver up to 14% returns in June | 1 | regional_followup | YES | 0.7226911614783158 |
 
 ## Warnings
 
@@ -41,9 +41,9 @@
 - Score: `42`
 - Parents: `10`
 - Average angles: `1.4`
-- Average temporal tiers: `1.6`
+- Average temporal tiers: `1.4`
 - Average evolution roles: `1.7`
-- Base report share: `0.1`
+- Base report share: `0.105`
 - Multi-angle parents: `4`
 - Top parent angles: `2`
 - Top parent children: `2`
@@ -51,7 +51,7 @@
 ### Failed gates
 
 - **Real snapshot grade floor** — actual `D`, required `A/B/C`. Fix: Do not accept D/F real snapshot output. Improve child selection, parent rerank, or data intake.
-- **Average temporal tier count** — actual `1.6`, required `>= 1.8`. Fix: C+E output should cover multiple event-time tiers, not only source buckets.
+- **Average temporal tier count** — actual `1.4`, required `>= 1.8`. Fix: C+E output should cover multiple event-time tiers, not only source buckets.
 - **Weak parent ratio** — actual `0.6`, required `<= 0.5`. Fix: Too many weak trees remain. Repair or demote weak trees after diversity repair.
 
 ### Passed gates
@@ -59,7 +59,7 @@
 - Parent cluster count: `10` / `>= 3`
 - Average visible angle count: `1.4` / `>= 1.4`
 - Average evolution role count: `1.7` / `>= 1.6`
-- Base report share: `0.1` / `<= 0.55`
+- Base report share: `0.105` / `<= 0.55`
 - Multi-angle parent count: `4` / `>= 1`
 - Top parent angle count: `2` / `>= 2`
 - Top parent child depth: `2` / `>= 2`
