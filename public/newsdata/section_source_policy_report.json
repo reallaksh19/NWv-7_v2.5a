@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1784045496153,
+  "generatedAt": 1784051989233,
   "policyVersion": "section-source-policy-v1",
   "reportVersion": "section-source-policy-report-v1",
   "schemaVersion": 1,
@@ -16,11 +16,11 @@
       ],
       "topSources": [
         {
-          "count": 16,
+          "count": 17,
           "sourceGroup": "business_line"
         },
         {
-          "count": 11,
+          "count": 10,
           "sourceGroup": "economic_times"
         },
         {
@@ -62,12 +62,12 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 7,
-          "sourceGroup": "ndtv"
+          "count": 5,
+          "sourceGroup": "times_of_india"
         },
         {
-          "count": 3,
-          "sourceGroup": "times_of_india"
+          "count": 5,
+          "sourceGroup": "ndtv"
         }
       ]
     },
@@ -104,15 +104,15 @@
       ],
       "topSources": [
         {
-          "count": 12,
-          "sourceGroup": "the_hindu"
-        },
-        {
-          "count": 11,
+          "count": 13,
           "sourceGroup": "bbc"
         },
         {
-          "count": 7,
+          "count": 13,
+          "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 4,
           "sourceGroup": "google_news"
         }
       ]
@@ -129,15 +129,15 @@
       ],
       "topSources": [
         {
-          "count": 16,
+          "count": 15,
           "sourceGroup": "gadgets360"
         },
         {
-          "count": 9,
+          "count": 11,
           "sourceGroup": "google_news"
         },
         {
-          "count": 5,
+          "count": 4,
           "sourceGroup": "the_hindu"
         }
       ]
@@ -155,11 +155,11 @@
       "topSources": [
         {
           "count": 16,
-          "sourceGroup": "google_news"
+          "sourceGroup": "the_hindu"
         },
         {
           "count": 14,
-          "sourceGroup": "the_hindu"
+          "sourceGroup": "google_news"
         }
       ]
     },
@@ -179,12 +179,12 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 6,
-          "sourceGroup": "economic_times"
+          "count": 8,
+          "sourceGroup": "ndtv"
         },
         {
-          "count": 4,
-          "sourceGroup": "ndtv"
+          "count": 2,
+          "sourceGroup": "economic_times"
         }
       ]
     },
@@ -200,11 +200,11 @@
       ],
       "topSources": [
         {
-          "count": 19,
+          "count": 16,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 11,
+          "count": 14,
           "sourceGroup": "google_news"
         }
       ]
@@ -221,11 +221,11 @@
       ],
       "topSources": [
         {
-          "count": 17,
+          "count": 16,
           "sourceGroup": "bbc"
         },
         {
-          "count": 13,
+          "count": 14,
           "sourceGroup": "the_hindu"
         }
       ]
@@ -735,7 +735,7 @@
       "configuredFeeds": 1,
       "health": {
         "feedUrl": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
-        "items": 20,
+        "items": 19,
         "ok": true,
         "section": "india"
       },
