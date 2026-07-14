@@ -10,9 +10,9 @@
 - Base report share: `0.21052631578947367`
 - Multi-angle parents: `6`
 - Weak parents: `4`
-- Story count: `638`
-- Source groups: `11`
-- Content hash: `d3652d549e4c6d40`
+- Story count: `645`
+- Source groups: `10`
+- Content hash: `246770a4dc2fd701`
 
 ## Top parents
 
@@ -27,7 +27,7 @@
 | 7 | Puravankara Q1 sales bookings up 28% to Rs 1,439 cr on higher volumes, price growth | 2 | fact_update | YES | 0.7566133864516651 |
 | 8 | Supreme Court stays Madras High Court order banning cow slaughter in Tamil Nadu | 2 | official_response | YES | 0.6613967197849984 |
 | 9 | Assam Rifles Jawan Killed In Action, 4 Injured In Suspected IED Blast In Nagaland | 2 | fact_update | YES | 0.6482467197849984 |
-| 10 | Rekha Jhunjhunwala sells 1 crore Canara Bank shares in Q1. What's behind the move? | 1 | fact_update | YES | 0.7226911614783158 |
+| 10 | Equirus, Money Grow Asset, Amaltas, 7 others deliver up to 14% returns in June | 1 | regional_followup | YES | 0.7226911614783158 |
 
 ## Warnings
 
