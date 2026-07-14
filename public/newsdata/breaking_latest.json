@@ -1,32 +1,55 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1783984320249,
-  "contentHash": "09235cd7bca9",
+  "fetchedAt": 1783987654737,
+  "contentHash": "e0010bec2028",
   "breaking": [
     {
-      "title": "West Asia war LIVE: Trump says U.S. is reinstating maritime blockade on Iran",
+      "title": "West Asia war LIVE: Trump sends Congress formal notice that Iran conflict has resumed",
       "summary": "The United States used one-way attack sea drones in combat for the first time to strike the Iranian port of Bandar Abbas",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-missile-attacks-strait-of-hormuz-donald-trump-mojtaba-khamenei-cenctom-irgc-ceasefire-deal/article71215794.ece",
-      "publishedAt": 1783983905000,
+      "publishedAt": 1783985554000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "6c6c89021a844685",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.49,
+      "breakingScore": 7.451,
       "breakingReasons": [
+        "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 3,
+      "sourceCount": 2,
       "allSources": [
-        "bbc",
         "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1783956946000
+      "firstSeen": 1783983704000
+    },
+    {
+      "title": "Iran War: US Military Death Count Rises To 14, Over 400 Injured",
+      "summary": "The fragile ceasefire between the US and Iran has officially collapsed as both have resumed strikes.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-military-death-toll-in-iran-war-rises-to-14-after-navy-pilot-death-this-month-11767454#publisher=newsstand",
+      "publishedAt": 1783981765000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "2e4c6e9c5535dd3c",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 6.864,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1783981765000
     },
     {
       "title": "Series Of Blasts Heard In Kyiv After Missile Alert",
@@ -41,7 +64,7 @@
       "id": "0836757641f90593",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.396,
+      "breakingScore": 5.319,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -52,27 +75,28 @@
       "firstSeen": 1783979823000
     },
     {
-      "title": "US Launches Strikes On Iran For Third Consecutive Night",
-      "summary": "The US military said Monday it had launched a fresh salvo of attacks on Iran, marking the third night in a row that it had struck the country, as a deal to end the war falters.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-launches-strikes-on-iran-for-third-consecutive-night-11767407#publisher=newsstand",
-      "publishedAt": 1783977934000,
-      "category": "topStories",
+      "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
+      "summary": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the strait.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1783986144000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "cd217b44520ea4bf",
+      "id": "55cd49ab3980b141",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.352,
+      "breakingScore": 3.965,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
+        "bbc",
         "ndtv"
       ],
-      "firstSeen": 1783977934000
+      "firstSeen": 1783977992000
     },
     {
       "title": "Wildfire raging south of Paris could have been set deliberately, says minister",
@@ -87,7 +111,7 @@
       "id": "316aa6ad9b1b6235",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.754,
+      "breakingScore": 3.677,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -110,7 +134,7 @@
       "id": "d86e6ce60fa6a2da",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.727,
+      "breakingScore": 3.649,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -134,7 +158,7 @@
       "id": "c3f7283b7d2f33b4",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.63,
+      "breakingScore": 3.553,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -143,29 +167,6 @@
         "ndtv"
       ],
       "firstSeen": 1783968339000
-    },
-    {
-      "title": "EU, U.K. hit Russia with joint sanctions over cyber attacks",
-      "summary": "The move comes as Western officials warn Russia has stepped up its \"hybrid\" campaign to destabilise Europe over four years into the war on Ukraine.",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/eu-uk-hit-russia-with-joint-sanctions-over-cyber-attacks/article71218775.ece",
-      "publishedAt": 1783965173000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "9d7037570d137914",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.557,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1783965173000
     },
     {
       "title": "Burnham cements Labour leadership with backing of 349 MPs",
@@ -180,7 +181,7 @@
       "id": "58096a796b555400",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.832,
+      "breakingScore": 2.755,
       "breakingReasons": [
         "multi_source_velocity"
       ],
