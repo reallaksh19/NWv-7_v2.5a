@@ -1,20 +1,20 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1784033205836,
-  "contentHash": "96fcc9358a5996f5",
+  "generatedAt": 1784041748417,
+  "contentHash": "eb4d084d991d9705",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 704,
+  "storyCount": 735,
   "sourceGroupCount": 10,
   "grade": "C",
   "parentCount": 10,
-  "avgAngles": 1.7,
-  "avgTemporalTiers": 1.8,
-  "avgEvolutionRoles": 1.8,
-  "baseReportShare": 0.25,
-  "multiAngleCount": 7,
-  "weakParentCount": 3,
+  "avgAngles": 1.6,
+  "avgTemporalTiers": 1.7,
+  "avgEvolutionRoles": 1.7,
+  "baseReportShare": 0.2,
+  "multiAngleCount": 6,
+  "weakParentCount": 4,
   "runtimeQualityGate": {
     "attempted": false,
     "recovered": false,
@@ -23,62 +23,62 @@
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 50,
+      "signalScore": 45,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 655,
+      "storyCount": 678,
       "risingCount": 0,
-      "thinCount": 3,
-      "multiAngleCount": 7,
-      "lowAngleCount": 3,
+      "thinCount": 4,
+      "multiAngleCount": 6,
+      "lowAngleCount": 4,
       "strongAngleCount": 0,
-      "avgAngles": 1.7,
+      "avgAngles": 1.6,
       "avgChildren": 2,
-      "avgScore": 0.6424685971669992,
+      "avgScore": 0.6505839358121656,
       "sourceDiversityCoverage": 8,
-      "snapshotCoverage": 3,
-      "coverageLabel": "7/10",
+      "snapshotCoverage": 2,
+      "coverageLabel": "6/10",
       "warnings": [
-        "3 cluster(s) have fewer than two visible child angles.",
+        "4 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
         "2 cluster(s) are below source-diversity target.",
-        "7 cluster(s) have weak snapshot coverage.",
-        "3 cluster(s) are marked thin.",
-        "491 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "8 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) are marked thin.",
+        "571 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 50,
+      "signalScore": 45,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 655,
+      "storyCount": 678,
       "risingCount": 0,
-      "thinCount": 3,
-      "multiAngleCount": 7,
-      "lowAngleCount": 3,
+      "thinCount": 4,
+      "multiAngleCount": 6,
+      "lowAngleCount": 4,
       "strongAngleCount": 0,
-      "avgAngles": 1.7,
+      "avgAngles": 1.6,
       "avgChildren": 2,
-      "avgScore": 0.6424685971669992,
+      "avgScore": 0.6505839358121656,
       "sourceDiversityCoverage": 8,
-      "snapshotCoverage": 3,
-      "coverageLabel": "7/10",
+      "snapshotCoverage": 2,
+      "coverageLabel": "6/10",
       "warnings": [
-        "3 cluster(s) have fewer than two visible child angles.",
+        "4 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
         "2 cluster(s) are below source-diversity target.",
-        "7 cluster(s) have weak snapshot coverage.",
-        "3 cluster(s) are marked thin.",
-        "491 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "8 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) are marked thin.",
+        "571 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_222_e242e7469daf9d1a",
+      "parentId": "cluster_271_e242e7469daf9d1a",
       "headline": "TCS among 5 stocks showing bullish RSI upswing",
       "score": 0.712563386451665,
       "postTreeScore": 1.0926,
@@ -99,7 +99,28 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_497_5a6331f119a8599c",
+      "parentId": "cluster_190_4edf768fc45e7520",
+      "headline": "‘Boat flipped in three minutes,’ recounts Vietnam crash survivor upon arrival in Chennai",
+      "score": 0.6943967197849983,
+      "postTreeScore": 1.0744,
+      "childCount": 2,
+      "angles": [
+        "official_response",
+        "regional_followup"
+      ],
+      "temporalTiers": [
+        "breaking",
+        "developing"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "corroboration"
+      ],
+      "baseReportShare": 0,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_547_5a6331f119a8599c",
       "headline": "Senator Lindsey Graham died of aortic tear, examiner says",
       "score": 0.6792467197849983,
       "postTreeScore": 1.0592,
@@ -120,28 +141,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_142_4edf768fc45e7520",
-      "headline": "‘Boat flipped in three minutes,’ recounts Vietnam crash survivor upon arrival in Chennai",
-      "score": 0.6424100000000001,
-      "postTreeScore": 1.0424,
-      "childCount": 2,
-      "angles": [
-        "official_response",
-        "regional_followup"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "developing"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "corroboration"
-      ],
-      "baseReportShare": 0,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_417_a9aa40e88e47b9f7",
+      "parentId": "cluster_466_a9aa40e88e47b9f7",
       "headline": "Bodies of 15 Indian tourists killed in Vietnam boat accident flown home",
       "score": 0.6252128795983323,
       "postTreeScore": 0.9652,
@@ -162,28 +162,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_622_c088290ad7ac9af4",
-      "headline": "Bhatia century, seamers put India on the brink of historic win at Lord's",
-      "score": 0.5630933333333333,
-      "postTreeScore": 0.9631,
-      "childCount": 2,
-      "angles": [
-        "fact_update",
-        "base_report"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "established"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "corroboration"
-      ],
-      "baseReportShare": 0.5,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_269_a7ee8c57da0b8d39",
+      "parentId": "cluster_318_a7ee8c57da0b8d39",
       "headline": "Vietnam boat capsize survivors recount harrowing moments",
       "score": 0.6192128795983323,
       "postTreeScore": 0.9592,
@@ -204,7 +183,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_435_60e036be4eeb33ae",
+      "parentId": "cluster_484_60e036be4eeb33ae",
       "headline": "India beat England in historic first women's test at Lord's - Reuters",
       "score": 0.5323566135483351,
       "postTreeScore": 0.9324,
@@ -224,27 +203,25 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_10_34852fd2242cb42b",
-      "headline": "MEA summons Iranian deputy envoy, after Indian national killed in attack on ship",
-      "score": 0.6325800531183317,
-      "postTreeScore": 0.5226,
+      "parentId": "cluster_551_fd7d7015a4c1241b",
+      "headline": "Puravankara Q1 sales bookings up 28% to Rs 1,439 cr on higher volumes, price growth",
+      "score": 0.7566133864516651,
+      "postTreeScore": 0.6466,
       "childCount": 2,
       "angles": [
         "fact_update"
       ],
       "temporalTiers": [
-        "breaking",
-        "established"
+        "breaking"
       ],
       "evolutionRoles": [
-        "first_report",
-        "corroboration"
+        "fact_update"
       ],
       "baseReportShare": 0,
       "weakTree": true
     },
     {
-      "parentId": "cluster_349_3c6f383194821119",
+      "parentId": "cluster_398_3c6f383194821119",
       "headline": "Supreme Court stays Madras High Court order banning cow slaughter in Tamil Nadu",
       "score": 0.6613967197849984,
       "postTreeScore": 0.5514,
@@ -263,10 +240,10 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_501_fd7d7015a4c1241b",
-      "headline": "Puravankara Q1 sales bookings up 28% to Rs 1,439 cr on higher volumes, price growth",
-      "score": 0.7566133864516651,
-      "postTreeScore": 0.6466,
+      "parentId": "cluster_489_fa0038cd245316e4",
+      "headline": "Assam Rifles Jawan Killed In Action, 4 Injured In Suspected IED Blast In Nagaland",
+      "score": 0.6482467197849984,
+      "postTreeScore": 0.5382,
       "childCount": 2,
       "angles": [
         "fact_update"
@@ -279,15 +256,35 @@
       ],
       "baseReportShare": 0,
       "weakTree": true
+    },
+    {
+      "parentId": "cluster_55_34852fd2242cb42b",
+      "headline": "MEA summons Iranian deputy envoy, after Indian national killed in attack on ship",
+      "score": 0.5765933333333333,
+      "postTreeScore": 0.4866,
+      "childCount": 2,
+      "angles": [
+        "fact_update"
+      ],
+      "temporalTiers": [
+        "breaking",
+        "established"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "corroboration"
+      ],
+      "baseReportShare": 0,
+      "weakTree": true
     }
   ],
   "warnings": [],
   "errors": [],
   "ratchetGate": {
-    "status": "PASS",
+    "status": "FAIL",
     "gateVersion": "real-insight-snapshot-ratchet-v1",
     "grade": "C",
-    "score": 100,
+    "score": 76,
     "passed": [
       {
         "id": "grade-floor",
@@ -304,31 +301,25 @@
       {
         "id": "avg-angle-count",
         "label": "Average visible angle count",
-        "actual": 1.7,
+        "actual": 1.6,
         "required": ">= 1.4"
-      },
-      {
-        "id": "avg-temporal-tier-count",
-        "label": "Average temporal tier count",
-        "actual": 1.8,
-        "required": ">= 1.8"
       },
       {
         "id": "avg-evolution-role-count",
         "label": "Average evolution role count",
-        "actual": 1.8,
+        "actual": 1.7,
         "required": ">= 1.6"
       },
       {
         "id": "base-report-share",
         "label": "Base report share",
-        "actual": 0.25,
+        "actual": 0.2,
         "required": "<= 0.55"
       },
       {
         "id": "multi-angle-parent-count",
         "label": "Multi-angle parent count",
-        "actual": 7,
+        "actual": 6,
         "required": ">= 1"
       },
       {
@@ -346,23 +337,32 @@
       {
         "id": "weak-parent-ratio",
         "label": "Weak parent ratio",
-        "actual": 0.3,
+        "actual": 0.4,
         "required": "<= 0.5"
       }
     ],
-    "failed": [],
+    "failed": [
+      {
+        "id": "avg-temporal-tier-count",
+        "label": "Average temporal tier count",
+        "actual": 1.7,
+        "required": ">= 1.8",
+        "severity": "fail",
+        "fix": "C+E output should cover multiple event-time tiers, not only source buckets."
+      }
+    ],
     "summary": {
       "parentCount": 10,
-      "avgAngles": 1.7,
-      "avgTemporalTiers": 1.8,
-      "avgEvolutionRoles": 1.8,
-      "baseReportShare": 0.25,
-      "multiAngleCount": 7,
-      "weakParentCount": 3,
-      "weakParentRatio": 0.3,
+      "avgAngles": 1.6,
+      "avgTemporalTiers": 1.7,
+      "avgEvolutionRoles": 1.7,
+      "baseReportShare": 0.2,
+      "multiAngleCount": 6,
+      "weakParentCount": 4,
+      "weakParentRatio": 0.4,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 704,
+      "storyCount": 735,
       "sourceGroupCount": 10
     }
   }
