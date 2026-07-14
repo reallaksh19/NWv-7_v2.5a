@@ -1,18 +1,18 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1783986790077,
-  "contentHash": "b07ac3908d9d2f35",
+  "generatedAt": 1784003048230,
+  "contentHash": "24eba5f9177a9498",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
   "storyCount": 582,
-  "sourceGroupCount": 10,
+  "sourceGroupCount": 11,
   "grade": "D",
   "parentCount": 10,
   "avgAngles": 1.5,
-  "avgTemporalTiers": 1.6,
-  "avgEvolutionRoles": 1.6,
-  "baseReportShare": 0.21052631578947367,
+  "avgTemporalTiers": 1.5,
+  "avgEvolutionRoles": 1.5,
+  "baseReportShare": 0.2222222222222222,
   "multiAngleCount": 5,
   "weakParentCount": 5,
   "runtimeQualityGate": {
@@ -23,54 +23,54 @@
       "grade": "D",
       "tone": "danger",
       "title": "Weak insight signal",
-      "signalScore": 41,
+      "signalScore": 38,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 540,
+      "storyCount": 538,
       "risingCount": 0,
       "thinCount": 5,
       "multiAngleCount": 5,
       "lowAngleCount": 5,
       "strongAngleCount": 0,
       "avgAngles": 1.5,
-      "avgChildren": 1.9,
-      "avgScore": 0.6292343693578311,
-      "sourceDiversityCoverage": 7,
-      "snapshotCoverage": 5,
+      "avgChildren": 1.8,
+      "avgScore": 0.6556994908174959,
+      "sourceDiversityCoverage": 6,
+      "snapshotCoverage": 3,
       "coverageLabel": "5/10",
       "warnings": [
         "5 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "3 cluster(s) are below source-diversity target.",
-        "5 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) are below source-diversity target.",
+        "7 cluster(s) have weak snapshot coverage.",
         "5 cluster(s) are marked thin.",
-        "421 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "441 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "D",
       "tone": "danger",
       "title": "Weak insight signal",
-      "signalScore": 41,
+      "signalScore": 38,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 540,
+      "storyCount": 538,
       "risingCount": 0,
       "thinCount": 5,
       "multiAngleCount": 5,
       "lowAngleCount": 5,
       "strongAngleCount": 0,
       "avgAngles": 1.5,
-      "avgChildren": 1.9,
-      "avgScore": 0.6292343693578311,
-      "sourceDiversityCoverage": 7,
-      "snapshotCoverage": 5,
+      "avgChildren": 1.8,
+      "avgScore": 0.6556994908174959,
+      "sourceDiversityCoverage": 6,
+      "snapshotCoverage": 3,
       "coverageLabel": "5/10",
       "warnings": [
         "5 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "3 cluster(s) are below source-diversity target.",
-        "5 cluster(s) have weak snapshot coverage.",
+        "4 cluster(s) are below source-diversity target.",
+        "7 cluster(s) have weak snapshot coverage.",
         "5 cluster(s) are marked thin.",
         "1 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
@@ -86,7 +86,28 @@
   },
   "parents": [
     {
-      "parentId": "cluster_236_5a6331f119a8599c",
+      "parentId": "cluster_35_e242e7469daf9d1a",
+      "headline": "TCS among 5 stocks showing bullish RSI upswing",
+      "score": 0.712563386451665,
+      "postTreeScore": 1.0926,
+      "childCount": 2,
+      "angles": [
+        "base_report",
+        "market_reaction"
+      ],
+      "temporalTiers": [
+        "breaking",
+        "reaction"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "market_reaction"
+      ],
+      "baseReportShare": 0.5,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_297_5a6331f119a8599c",
       "headline": "Senator Lindsey Graham died of aortic tear, examiner says",
       "score": 0.6792467197849983,
       "postTreeScore": 1.0592,
@@ -107,28 +128,28 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_8_1695c14766415b07",
-      "headline": "Women's cricket shortchanged again as men's Test binfire sucks up the oxygen",
-      "score": 0.5570933333333334,
-      "postTreeScore": 0.9571,
+      "parentId": "cluster_76_a7ee8c57da0b8d39",
+      "headline": "Vietnam boat capsize survivors recount harrowing moments",
+      "score": 0.6192128795983323,
+      "postTreeScore": 0.9592,
       "childCount": 2,
       "angles": [
         "base_report",
-        "regional_followup"
+        "background_context"
       ],
       "temporalTiers": [
-        "breaking",
-        "reaction"
+        "reaction",
+        "breaking"
       ],
       "evolutionRoles": [
-        "first_report",
-        "corroboration"
+        "corroboration",
+        "cause_claim"
       ],
       "baseReportShare": 0.5,
       "weakTree": false
     },
     {
-      "parentId": "cluster_401_c088290ad7ac9af4",
+      "parentId": "cluster_467_c088290ad7ac9af4",
       "headline": "Yastika century, seamers put India on the brink of historic win at Lord's",
       "score": 0.5530933333333333,
       "postTreeScore": 0.9531,
@@ -148,7 +169,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_159_a9aa40e88e47b9f7",
+      "parentId": "cluster_219_a9aa40e88e47b9f7",
       "headline": "Bodies of 15 Indian tourists killed in Vietnam boat accident flown home",
       "score": 0.557226159813334,
       "postTreeScore": 0.9172,
@@ -169,28 +190,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_19_a7ee8c57da0b8d39",
-      "headline": "Vietnam boat capsize survivors recount harrowing moments",
-      "score": 0.5512261598133341,
-      "postTreeScore": 0.9112,
-      "childCount": 2,
-      "angles": [
-        "base_report",
-        "background_context"
-      ],
-      "temporalTiers": [
-        "reaction",
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "corroboration",
-        "cause_claim"
-      ],
-      "baseReportShare": 0.5,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_240_fd7d7015a4c1241b",
+      "parentId": "cluster_301_fd7d7015a4c1241b",
       "headline": "Puravankara Q1 sales bookings up 28% to Rs 1,439 cr on higher volumes, price growth",
       "score": 0.7566133864516651,
       "postTreeScore": 0.6466,
@@ -208,27 +208,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_370_38501e60437c0699",
-      "headline": "US strikes Iran after Strait of Hormuz ship attack; Tehran hits Gulf states",
-      "score": 0.6814967197849984,
-      "postTreeScore": 0.5715,
-      "childCount": 2,
-      "angles": [
-        "regional_followup"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "established"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "corroboration"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_180_fa0038cd245316e4",
+      "parentId": "cluster_241_fa0038cd245316e4",
       "headline": "Assam Rifles Jawan Killed In Action, 4 Injured In Suspected IED Blast In Nagaland",
       "score": 0.6482467197849984,
       "postTreeScore": 0.5382,
@@ -246,7 +226,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_92_3c6f383194821119",
+      "parentId": "cluster_151_3c6f383194821119",
       "headline": "Supreme Court stays Madras High Court order banning cow slaughter in Tamil Nadu",
       "score": 0.58541,
       "postTreeScore": 0.4954,
@@ -265,13 +245,31 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_222_74161a5da07c5e30",
-      "headline": "ICICI Prudential AMC Q1 Results: Net profit rises 23% YoY to Rs 965 crore; revenue up 18%",
+      "parentId": "cluster_5_cf0deacfefbcff6e",
+      "headline": "ICICI Prudential AMC shares gain 2% after Q1 net profit rises 23% to Rs 965 crore. Here’s what brokerages say",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
       "childCount": 1,
       "angles": [
         "fact_update"
+      ],
+      "temporalTiers": [
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "fact_update"
+      ],
+      "baseReportShare": 0,
+      "weakTree": true
+    },
+    {
+      "parentId": "cluster_6_dc496865d3e6db0e",
+      "headline": "HCL Tech shares fall 3% after Q1 results. What Nomura, Motilal Oswal & other brokerages suggest now",
+      "score": 0.7226911614783158,
+      "postTreeScore": 0.4227,
+      "childCount": 1,
+      "angles": [
+        "market_reaction"
       ],
       "temporalTiers": [
         "breaking"
@@ -291,7 +289,7 @@
     "status": "FAIL",
     "gateVersion": "real-insight-snapshot-ratchet-v1",
     "grade": "D",
-    "score": 52,
+    "score": 28,
     "passed": [
       {
         "id": "parent-count",
@@ -306,15 +304,9 @@
         "required": ">= 1.4"
       },
       {
-        "id": "avg-evolution-role-count",
-        "label": "Average evolution role count",
-        "actual": 1.6,
-        "required": ">= 1.6"
-      },
-      {
         "id": "base-report-share",
         "label": "Base report share",
-        "actual": 0.211,
+        "actual": 0.222,
         "required": "<= 0.55"
       },
       {
@@ -354,25 +346,33 @@
       {
         "id": "avg-temporal-tier-count",
         "label": "Average temporal tier count",
-        "actual": 1.6,
+        "actual": 1.5,
         "required": ">= 1.8",
         "severity": "fail",
         "fix": "C+E output should cover multiple event-time tiers, not only source buckets."
+      },
+      {
+        "id": "avg-evolution-role-count",
+        "label": "Average evolution role count",
+        "actual": 1.5,
+        "required": ">= 1.6",
+        "severity": "fail",
+        "fix": "C+E output should include distinct event evolution roles."
       }
     ],
     "summary": {
       "parentCount": 10,
       "avgAngles": 1.5,
-      "avgTemporalTiers": 1.6,
-      "avgEvolutionRoles": 1.6,
-      "baseReportShare": 0.211,
+      "avgTemporalTiers": 1.5,
+      "avgEvolutionRoles": 1.5,
+      "baseReportShare": 0.222,
       "multiAngleCount": 5,
       "weakParentCount": 5,
       "weakParentRatio": 0.5,
       "topParentAngles": 2,
       "topParentChildren": 2,
       "storyCount": 582,
-      "sourceGroupCount": 10
+      "sourceGroupCount": 11
     }
   }
 }
