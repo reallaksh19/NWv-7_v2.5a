@@ -1,8 +1,77 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784045474235,
-  "contentHash": "a29ba68065b9",
+  "fetchedAt": 1784050449804,
+  "contentHash": "82a31d1ed373",
   "breaking": [
+    {
+      "title": "Heavy rain collapses roof and kills 11 people in northwest Pakistan",
+      "summary": "Officials in northwest Pakistan say 11 people were killed overnight when heavy rain caused the roof of a mud-brick house to collapse",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/heavy-rain-collapses-roof-and-kills-11-people-in-northwest-pakistan/article71220527.ece",
+      "publishedAt": 1784049734000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "da2511314f623c3b",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.983,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784049734000
+    },
+    {
+      "title": "Israeli strike on police post in north Gaza kills seven, officials say",
+      "summary": "A senior officer in the Hamas-run police force was among those killed in the strike, which Israel's military says targeted \"terrorists\".",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784049207000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "b9f01e45f76e1ce7",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.971,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784049207000
+    },
+    {
+      "title": "Government summons Iran envoy after Indian national killed in attack on ship",
+      "summary": "External Affairs Ministry spokesperson Randhir Jaiswal said the Indian side conveyed “deepest concerns” about the incident in the Strait of Hormuz and urged for “de-escalation”",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/mea-summons-iranian-deputy-envoy-after-indian-national-killed-in-attack-on-ship/article71221170.ece",
+      "publishedAt": 1784047655000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "34852fd2242cb42b",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.935,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784047655000
+    },
     {
       "title": "Army Soldier, Father Killed By Cousin In Bihar After Fight Over Banana Tree",
       "summary": "Jagdish Rai allegedly shot dead Kumar and his father, Munarik Rai.",
@@ -16,7 +85,7 @@
       "id": "69bfe2986b91ea63",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.893,
+      "breakingScore": 3.777,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -39,7 +108,7 @@
       "id": "f5c50bd1744b73fe",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.885,
+      "breakingScore": 3.77,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -62,7 +131,7 @@
       "id": "a80d6348005f2ae2",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.842,
+      "breakingScore": 3.727,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -73,19 +142,43 @@
       "firstSeen": 1784038662000
     },
     {
-      "title": "Israeli strike on police post in north Gaza kills seven, officials say",
-      "summary": "A senior officer in the Hamas-run police force was among those killed in the strike, which Israel's military says targeted \"terrorists\".",
-      "source": "BBC World",
+      "title": "Incentives, warnings and assurances: how an Indian sailor transited Hormuz",
+      "summary": "Indian seafarer aboard oil tanker recalls incentives from his employer to make the risky transit via route near Oman, the threats from the Iranian side to stop, and encouragement from the U.S. Navy to move ahead",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/incentives-warnings-and-assurances-how-an-indian-sailor-transited-hormuz/article71222566.ece",
+      "publishedAt": 1784049831000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "beb191add85458f8",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.986,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784049322000
+    },
+    {
+      "title": "Probe into claims Southport victims' NHS records accessed",
+      "summary": "The father of one of the young girls who survived the attack says he is \"appalled\" by the possibility.",
+      "source": "BBC",
       "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784036774000,
+      "url": "https://www.bbc.co.uk/news/articles/c5yzy71p9zeo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784050018000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "b9f01e45f76e1ce7",
+      "id": "3f8c7c17168c5386",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.799,
+      "breakingScore": 2.49,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -93,100 +186,7 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1784036774000
-    },
-    {
-      "title": "MEA summons Iranian deputy envoy, after Indian national killed in attack on ship",
-      "summary": "MEA condemned the attacks on the commercial vessels MT Al Bahiyah and MT Mombasa, which had a total of 30 Indian seafarers onboard, and reiterated its call for an immediate cessation of violence and a return to dialogue and diplomacy to bring stability to West Asia",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/mea-summons-iranian-deputy-envoy-after-indian-national-killed-in-attack-on-ship/article71221170.ece",
-      "publishedAt": 1784035387000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "34852fd2242cb42b",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.766,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784035387000
-    },
-    {
-      "title": "Head Constable attacked by gang near Madurai",
-      "summary": "",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/Madurai/head-constable-attacked-by-gang-near-madurai/article71222507.ece",
-      "publishedAt": 1784044964000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "29aae60f74649b13",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.488,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784044964000
-    },
-    {
-      "title": "Minor fire breaks out at Anekal Government Hospital on Bengaluru outskirts, patients safely evacuated",
-      "summary": "",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/karnataka/minor-fire-breaks-out-at-anekal-government-hospital-on-bengaluru-outskirts-patients-safely-evacuated/article71222260.ece",
-      "publishedAt": 1784044941000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "254d2c99c044f4a2",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.488,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784044941000
-    },
-    {
-      "title": "Man who staged wife's suicide jailed for  murder",
-      "summary": "The couple's daughter tells the court her father is a \"jealous, conniving, narcissistic villain\".",
-      "source": "BBC",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c8626147e6no?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784044061000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "b4f9ca42b2e13a16",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.467,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "bbc",
-        "ndtv"
-      ],
-      "firstSeen": 1784037759000
+      "firstSeen": 1784050018000
     }
   ]
 }
