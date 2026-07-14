@@ -1,22 +1,118 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784050449804,
-  "contentHash": "82a31d1ed373",
+  "fetchedAt": 1784054828036,
+  "contentHash": "b3b9cd3dffbd",
   "breaking": [
+    {
+      "title": "E Jean Carroll receives $5.6 million in sexual abuse case after years-long legal battle with Trump",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132398267.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Writer E. Jean Carroll has received over $5.6 million in damages awarded in her civil case against US President Donald Trump after a federal court released funds held in escrow during the appeals process. The payment follows the US Supreme Court's decision to let the 2023 verdict stand. Trump continues to challenge the ruling and has filed further appeals.",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/us/e-jean-carroll-receives-5-6-million-in-sexual-abuse-case-after-years-long-legal-battle-with-trump/articleshow/132398267.cms",
+      "publishedAt": 1784051256000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "cdcf9781333b3ab9",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 4.417,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "times_of_india"
+      ],
+      "firstSeen": 1784048862000
+    },
+    {
+      "title": "Man killed, another injured after truck hits motorcycle at Suchitra",
+      "summary": "",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/man-killed-another-injured-after-truck-hits-motorcycle-at-suchitra/article71222171.ece",
+      "publishedAt": 1784052994000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "05da3a50ec0f30e5",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.958,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784038662000
+    },
+    {
+      "title": "Dental student killed, friend injured after car overturns on ORR",
+      "summary": "",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/dental-student-killed-friend-injured-after-car-overturns-on-orr/article71222132.ece",
+      "publishedAt": 1784052448000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "10d3cafaa6cb0853",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.945,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784040505000
+    },
+    {
+      "title": "Government summons Iran envoy after Indian national killed in attack on ship",
+      "summary": "External Affairs Ministry spokesperson Randhir Jaiswal said the Indian side conveyed “deepest concerns” about the incident in the Strait of Hormuz and urged for “de-escalation”",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/mea-summons-iranian-deputy-envoy-after-indian-national-killed-in-attack-on-ship/article71221170.ece",
+      "publishedAt": 1784050230000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "34852fd2242cb42b",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.894,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784050230000
+    },
     {
       "title": "Heavy rain collapses roof and kills 11 people in northwest Pakistan",
       "summary": "Officials in northwest Pakistan say 11 people were killed overnight when heavy rain caused the roof of a mud-brick house to collapse",
-      "source": "The Hindu",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/heavy-rain-collapses-roof-and-kills-11-people-in-northwest-pakistan/article71220527.ece",
       "publishedAt": 1784049734000,
-      "category": "topStories",
+      "category": "world",
       "region": "in",
       "language": "en",
       "id": "da2511314f623c3b",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.983,
+      "breakingScore": 3.882,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -39,7 +135,7 @@
       "id": "b9f01e45f76e1ce7",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.971,
+      "breakingScore": 3.87,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -48,29 +144,6 @@
         "bbc"
       ],
       "firstSeen": 1784049207000
-    },
-    {
-      "title": "Government summons Iran envoy after Indian national killed in attack on ship",
-      "summary": "External Affairs Ministry spokesperson Randhir Jaiswal said the Indian side conveyed “deepest concerns” about the incident in the Strait of Hormuz and urged for “de-escalation”",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/mea-summons-iranian-deputy-envoy-after-indian-national-killed-in-attack-on-ship/article71221170.ece",
-      "publishedAt": 1784047655000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "34852fd2242cb42b",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.935,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784047655000
     },
     {
       "title": "Army Soldier, Father Killed By Cousin In Bihar After Fight Over Banana Tree",
@@ -85,7 +158,7 @@
       "id": "69bfe2986b91ea63",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.777,
+      "breakingScore": 3.676,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -96,65 +169,19 @@
       "firstSeen": 1784040837000
     },
     {
-      "title": "3 Women Workers Killed, 6 Injured After Tractor Overturns In Bihar's Araria",
-      "summary": "Three women got trapped beneath the vehicle and died later.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/3-women-workers-killed-6-injured-after-tractor-overturns-in-bihars-araria-11770900#publisher=newsstand",
-      "publishedAt": 1784040505000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "f5c50bd1744b73fe",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.77,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784040505000
-    },
-    {
-      "title": "Cop Killed, 3 Injured After Police Van Rams Parked Truck In Jharkhand's Dhanbad",
-      "summary": "A constable died, while three others suffered injuries, police said.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/cop-killed-3-injured-after-police-van-rams-parked-truck-in-jharkhands-dhanbad-11769376#publisher=newsstand",
-      "publishedAt": 1784038662000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "a80d6348005f2ae2",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.727,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784038662000
-    },
-    {
       "title": "Incentives, warnings and assurances: how an Indian sailor transited Hormuz",
       "summary": "Indian seafarer aboard oil tanker recalls incentives from his employer to make the risky transit via route near Oman, the threats from the Iranian side to stop, and encouragement from the U.S. Navy to move ahead",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/national/incentives-warnings-and-assurances-how-an-indian-sailor-transited-hormuz/article71222566.ece",
-      "publishedAt": 1784049831000,
+      "publishedAt": 1784053551000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "beb191add85458f8",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.986,
+      "breakingScore": 2.97,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -164,29 +191,6 @@
         "the_hindu"
       ],
       "firstSeen": 1784049322000
-    },
-    {
-      "title": "Probe into claims Southport victims' NHS records accessed",
-      "summary": "The father of one of the young girls who survived the attack says he is \"appalled\" by the possibility.",
-      "source": "BBC",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c5yzy71p9zeo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784050018000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "3f8c7c17168c5386",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.49,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1784050018000
     }
   ]
 }
