@@ -15,7 +15,7 @@
 
 ## Findings
 
-- 7 invalid/expired/duplicate Up Ahead item(s) suppressed
+- 5 invalid/expired/duplicate Up Ahead item(s) suppressed
 - no active offer items in ranked Up Ahead set
 - no ranked Up Ahead item for muscat
 - no local Buzz item in ranked set
@@ -25,4 +25,4 @@
 - no ranked local/travel item for muscat
 - no ranked local/travel item for chennai
 - no ranked local/travel item for trichy
-- 2 base-report-heavy Insight parent(s) demoted
+- 1 base-report-heavy Insight parent(s) demoted
