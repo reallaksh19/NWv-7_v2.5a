@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784116611752,
-  "contentHash": "e423c0cb4b19",
+  "fetchedAt": 1784123046760,
+  "contentHash": "b5dc6b47e955",
   "breaking": [
     {
       "title": "West Asia War LIVE: Body of Indian sailor missing after Oman ship attack found",
@@ -9,14 +9,14 @@
       "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-washington-strikes-tehran-donald-trump-peace-deal-strait-of-hormuz-live-updates-july-15-2026/article71223849.ece",
-      "publishedAt": 1784114070000,
+      "publishedAt": 1784121291000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "45a5c9ca27dd40dc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.941,
+      "breakingScore": 6.959,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -24,47 +24,45 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784114070000
+      "firstSeen": 1784121291000
     },
     {
-      "title": "Two killed, 50 rescued in fire in building in Noida village, landlord arrested",
-      "summary": "The fire appears to have been sparked by an electric two-wheeler being charged inside the building; it spread to nearby petrol powered two-wheelers parked in the premises",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/uttar-pradesh/noida-village-fire-mamura-deaths-update/article71224887.ece",
-      "publishedAt": 1784114537000,
-      "category": "india",
+      "title": "6 Killed, 20 Injured As Russia Intensifies Strikes Against Ukraine",
+      "summary": "Russia has in recent months intensified bombardments of Ukrainian urban areas. (File)",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/russia-ukraine-war-6-killed-20-injured-as-russia-intensifies-strikes-against-ukraine-11774742#publisher=newsstand",
+      "publishedAt": 1784112851000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "36e66c5c8a884d44",
+      "id": "d271e8620c1ff611",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.952,
+      "breakingScore": 5.264,
       "breakingReasons": [
-        "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "allSources": [
-        "ndtv",
-        "the_hindu"
+        "ndtv"
       ],
-      "firstSeen": 1784109486000
+      "firstSeen": 1784112851000
     },
     {
-      "title": "Three killed as Russian bombing of Odesa continues",
-      "summary": "In recent days, Russia and Ukraine have launched attacks on each others' infrastructure for shipping goods.",
+      "title": "Russian attacks kill eight as Ukraine hits Black Sea oil tankers",
+      "summary": "Civilian casualties are reported in four Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea.",
       "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/c8929jv8kdzo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784110658000,
+      "publishedAt": 1784122325000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "8da2bbb7a374c8d5",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.362,
+      "breakingScore": 3.983,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -72,32 +70,76 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1784110658000
+      "firstSeen": 1784122325000
     },
     {
-      "title": "Madan Mitra leaves Mamata Banerjee, joins rebel Trinamool camp",
-      "summary": "Development comes a day after the Enforcement Directorate issued summons to him and his family members in the municipal recruitment scam; Mr. Mitra announced his resignation from all posts in the Mamata Banerjee-led Trinamool",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/madan-mitra-leaves-mamata-banerjee-joins-rebel-trinamool-camp/article71225122.ece",
-      "publishedAt": 1784114025000,
+      "title": "Reform UK proposes £100m 'round-the-clock' security plan for MPs",
+      "summary": "The policy was announced after police said party spokeswoman Ann Widdecombe was killed in a \"targeted attack\".",
+      "source": "BBC",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/clyey3re402o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784120162000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "635c09947552fc01",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.933,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784120162000
+    },
+    {
+      "title": "'Next week comes bridges, power plants': Trump says US strikes on Iran to escalate in three days",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132415858.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />President Trump convened a meeting to discuss expanding military operations against Iran. The United States is currently conducting strikes targeting Iranian air defense systems. Trump warned of intensified attacks on power plants and bridges if Iran does not negotiate. Washington is also monitoring a deeply buried site believed to be part of Iran's nuclear program. Iran has continued retaliatory attacks on US military bases in the region.",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/us/next-week-comes-bridges-power-plants-donald-trump-says-us-strikes-on-iran-to-escalate-in-three-days/articleshow/132415858.cms",
+      "publishedAt": 1784118460000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "fe7edcf88c15dbc8",
+      "id": "a5158db9e07144eb",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.44,
+      "breakingScore": 3.894,
       "breakingReasons": [
-        "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "allSources": [
-        "ndtv",
-        "the_hindu"
+        "times_of_india"
       ],
-      "firstSeen": 1784109044000
+      "firstSeen": 1784118460000
+    },
+    {
+      "title": "Seven Britons among those killed in Spain wildfires",
+      "summary": "Twelve of the 13 victims were foreign nationals, Spanish authorities said on Tuesday.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cp8l87784ngo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784118092000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "47a4dcda673c6b1c",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.885,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784118092000
     },
     {
       "title": "Sierra Leone drops treason charge against ex-president over attempted coup",
@@ -112,7 +154,7 @@
       "id": "a2baee7635dd1269",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.981,
+      "breakingScore": 3.832,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -123,74 +165,27 @@
       "firstSeen": 1784115795000
     },
     {
-      "title": "As Sonam Wangchuk hangs on to hunger strike, weight loss approaches 9 kg",
-      "summary": "On the eighteenth day, activist Sonam Wangchuk continued his hunger strike demanding the resignation of Education Minister Dharmendra Pradhan, even as his vital signs showed a worsening condition.",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/sonam-wangchuk-hunger-strike-cjp-protest-dharmendra-pradhan-resignation/article71225295.ece",
-      "publishedAt": 1784115194000,
+      "title": "US-Iran War News LIVE: US Military Says Launched 'Wave Of Strikes' On Iran",
+      "summary": "US-Iran War Live Updates: A fifth of all traded crude oil and natural gas passed through the Strait of Hormuz before the war, when it was open to all without tolls.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-iran-war-live-news-us-launches-fresh-strikes-on-iran-as-fighting-flares-around-strait-of-hormuz-global-oil-energy-prices-us-president-donald-trump-11762907#publisher=newsstand",
+      "publishedAt": 1784114169000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "2927964ec94a10b7",
+      "id": "287f07c12ee84038",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.967,
+      "breakingScore": 3.794,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "the_hindu"
+        "ndtv"
       ],
-      "firstSeen": 1784114186000
-    },
-    {
-      "title": "Air India crash report likely to be ready in October, say investigators",
-      "summary": "The crash killed 260 people, including 241 on board, with only one passenger surviving.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cjrgrgx2d9qo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784108721000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "8abe83b73c027dbd",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.817,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1784108721000
-    },
-    {
-      "title": "7 Britons among 13 killed in Spain wildfire; grieving family says 'heartbroken'",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132411729.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/uk/7-britons-among-13-killed-in-spains-deadly-wildfire-family-pays-emotional-tribute/articleshow/132411729.cms",
-      "publishedAt": 1784107763000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "70c56ee43a895139",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.795,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "bbc",
-        "times_of_india"
-      ],
-      "firstSeen": 1784077387000
+      "firstSeen": 1784114169000
     }
   ]
 }
