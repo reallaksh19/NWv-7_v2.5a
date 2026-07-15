@@ -1,22 +1,45 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784110762989,
-  "contentHash": "6ca989eefc62",
+  "fetchedAt": 1784116611752,
+  "contentHash": "e423c0cb4b19",
   "breaking": [
     {
-      "title": "Two killed, 50 rescued in Noida building fire; landlord arrested",
-      "summary": "Fire tenders, including a hydraulic platform, were rushed to the spot immediately after the blaze was reported and most residents were safely evacuated",
-      "source": "The Hindu",
+      "title": "West Asia War LIVE: Body of Indian sailor missing after Oman ship attack found",
+      "summary": "Over 260 people wounded in latest U.S. airstrikes on Iran; Tehran attacks Jordan as U.S. reimposes its blockade on Iran",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-washington-strikes-tehran-donald-trump-peace-deal-strait-of-hormuz-live-updates-july-15-2026/article71223849.ece",
+      "publishedAt": 1784114070000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "45a5c9ca27dd40dc",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 6.941,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784114070000
+    },
+    {
+      "title": "Two killed, 50 rescued in fire in building in Noida village, landlord arrested",
+      "summary": "The fire appears to have been sparked by an electric two-wheeler being charged inside the building; it spread to nearby petrol powered two-wheelers parked in the premises",
+      "source": "The Hindu National",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/national/uttar-pradesh/noida-village-fire-mamura-deaths-update/article71224887.ece",
-      "publishedAt": 1784110186000,
-      "category": "topStories",
+      "publishedAt": 1784114537000,
+      "category": "india",
       "region": "in",
       "language": "en",
       "id": "36e66c5c8a884d44",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 7.487,
+      "breakingScore": 5.952,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -26,22 +49,93 @@
         "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1784107451000
+      "firstSeen": 1784109486000
     },
     {
-      "title": "West Asia War LIVE: Body of Indian sailor missing after Oman ship attack found",
-      "summary": "Over 260 people wounded in latest U.S. airstrikes on Iran; Tehran attacks Jordan as U.S. reimposes its blockade on Iran",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-washington-strikes-tehran-donald-trump-peace-deal-strait-of-hormuz-live-updates-july-15-2026/article71223849.ece",
-      "publishedAt": 1784108749000,
+      "title": "Three killed as Russian bombing of Odesa continues",
+      "summary": "In recent days, Russia and Ukraine have launched attacks on each others' infrastructure for shipping goods.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c8929jv8kdzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784110658000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "45a5c9ca27dd40dc",
+      "id": "8da2bbb7a374c8d5",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.953,
+      "breakingScore": 5.362,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784110658000
+    },
+    {
+      "title": "Madan Mitra leaves Mamata Banerjee, joins rebel Trinamool camp",
+      "summary": "Development comes a day after the Enforcement Directorate issued summons to him and his family members in the municipal recruitment scam; Mr. Mitra announced his resignation from all posts in the Mamata Banerjee-led Trinamool",
+      "source": "The Hindu National",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/madan-mitra-leaves-mamata-banerjee-joins-rebel-trinamool-camp/article71225122.ece",
+      "publishedAt": 1784114025000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "fe7edcf88c15dbc8",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 4.44,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784109044000
+    },
+    {
+      "title": "Sierra Leone drops treason charge against ex-president over attempted coup",
+      "summary": "Ernest Bai Koroma was arrested in 2023 after gunmen broke into an armoury and some jails, freeing inmates.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cx2w2k3vklgo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784115795000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "a2baee7635dd1269",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.981,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784115795000
+    },
+    {
+      "title": "As Sonam Wangchuk hangs on to hunger strike, weight loss approaches 9 kg",
+      "summary": "On the eighteenth day, activist Sonam Wangchuk continued his hunger strike demanding the resignation of Education Minister Dharmendra Pradhan, even as his vital signs showed a worsening condition.",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/sonam-wangchuk-hunger-strike-cjp-protest-dharmendra-pradhan-resignation/article71225295.ece",
+      "publishedAt": 1784115194000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "2927964ec94a10b7",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.967,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -49,7 +143,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784108749000
+      "firstSeen": 1784114186000
     },
     {
       "title": "Air India crash report likely to be ready in October, say investigators",
@@ -64,7 +158,7 @@
       "id": "8abe83b73c027dbd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.953,
+      "breakingScore": 3.817,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -87,7 +181,7 @@
       "id": "70c56ee43a895139",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.931,
+      "breakingScore": 3.795,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -97,99 +191,6 @@
         "times_of_india"
       ],
       "firstSeen": 1784077387000
-    },
-    {
-      "title": "Engagement Called Off, Tamil Nadu Man Attacks Fiancee. Her Mother Dies Saving Her",
-      "summary": "The accused has been arrested.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/engagement-called-off-tamil-nadu-man-attacks-fiancee-her-mother-dies-saving-her-11773977#publisher=newsstand",
-      "publishedAt": 1784103744000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "4aad4a3d5d734c24",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.838,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784103744000
-    },
-    {
-      "title": "U.S. strikes Iran for third day, will reimpose blockade",
-      "summary": "President Trump said a deal with the Islamic Republic was still possible even as attacks were carried out, with Iran striking two ships in the strategic waterway and killing one crew member",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/us-strikes-iran-for-third-day-will-reimpose-blockade/article71220175.ece",
-      "publishedAt": 1784099836000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "28e845a18061220a",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.747,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784099836000
-    },
-    {
-      "title": "Midnight social media curfew proposed for UK teens aged 16 and 17 - but they can opt out",
-      "summary": "The government also wants 'addictive' app features such as auto-play and infinite scroll to be set to be disabled.",
-      "source": "BBC",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c982857nlrlo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784110287000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "0ff502daca04bc7e",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.989,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "bbc",
-        "times_of_india"
-      ],
-      "firstSeen": 1784106831000
-    },
-    {
-      "title": "Ayodhya incident hurt faith of Ram devotees: Uttar Pradesh Chief Minister Adityanath on donation theft issue",
-      "summary": "Uttar Pradesh Chief Minister Yogi Adityanath attacked the opposition parties, particularly the Samajwadi Party, accusing them of politicising matters of faith despite their past record",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/uttar-pradesh/ayodhya-incident-hurt-faith-of-ram-devotees-uttar-pradesh-chief-minister-adityanath-on-donation-theft-issue/article71224674.ece",
-      "publishedAt": 1784110322000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "85e4baf51f964d6c",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.49,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784110322000
     }
   ]
 }
