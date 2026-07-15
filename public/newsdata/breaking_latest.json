@@ -1,8 +1,33 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784150943182,
-  "contentHash": "e62b55dd0d50",
+  "fetchedAt": 1784154728379,
+  "contentHash": "3496eaa343b6",
   "breaking": [
+    {
+      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
+      "summary": "US President Donald Trump says he is yet to decide whether or not he will \"finish off\" Iran.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784152504000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "78b0f3cca7ef1adf",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 4.449,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "times_of_india"
+      ],
+      "firstSeen": 1784149794000
+    },
     {
       "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
       "summary": "Civilian casualties are reported in a number of Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea.",
@@ -16,7 +41,7 @@
       "id": "8da2bbb7a374c8d5",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.989,
+      "breakingScore": 3.902,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -39,7 +64,7 @@
       "id": "2927964ec94a10b7",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.827,
+      "breakingScore": 3.739,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -50,27 +75,28 @@
       "firstSeen": 1784143449000
     },
     {
-      "title": "Landslide Cuts Off Village Near China Border As Arunachal Floods Wreak Havoc",
-      "summary": "Mechuka is a globally known tourist spot, visited by hundreds of tourists.",
-      "source": "NDTV India",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/landslide-cuts-off-village-near-china-border-as-arunachal-floods-wreak-havoc-11776235#publisher=newsstand",
-      "publishedAt": 1784129867000,
-      "category": "india",
+      "title": "England vs Argentina, FIFA World Cup LIVE updates: Two late goals in testy contest takes Argentina into another final",
+      "summary": "Enzo Fernandez and Lautaro Martinez scored after the 85th minute, both assisted by Messi, sealing another comeback win for the reigning champions",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/sport/football/england-vs-argentina-fifa-world-cup-2026-semifinal-live-updates/article71227180.ece",
+      "publishedAt": 1784151189000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "4dfc0952b2baa204",
+      "id": "6d9c36c08f68e101",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.512,
+      "breakingScore": 2.918,
       "breakingReasons": [
-        "severity_lexicon"
+        "multi_source_velocity"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
-        "ndtv"
+        "bbc",
+        "the_hindu"
       ],
-      "firstSeen": 1784129867000
+      "firstSeen": 1784150172000
     },
     {
       "title": "Right to die: French Parliament approves assisted dying bill after years of debate",
@@ -85,7 +111,7 @@
       "id": "18169bc1875597af",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.697,
+      "breakingScore": 2.61,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -95,6 +121,29 @@
         "times_of_india"
       ],
       "firstSeen": 1784136566000
+    },
+    {
+      "title": "US Military Strikes Ship Trying To Breach Iran Port Blockade",
+      "summary": "It was the first time US has forcibly halted a vessel since reinstating the ports blockade on Tuesday.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/iran-war-us-military-strikes-ship-trying-to-breach-iran-port-blockade-in-strait-of-hormuz-11777212#publisher=newsstand",
+      "publishedAt": 1784150901000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "a9cb6b42a5cc7846",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.411,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784150901000
     },
     {
       "title": "Ukrainian Drone Kills Chief Engineer At Zaporizhzhia Nuclear Plant: Russia",
@@ -109,7 +158,7 @@
       "id": "46a576b2ce012ee0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.471,
+      "breakingScore": 2.383,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -120,42 +169,19 @@
       "firstSeen": 1784149683000
     },
     {
-      "title": "England vs Argentina, FIFA World Cup LIVE updates: Gordon breaks deadlock with long-awaited goal",
-      "summary": "A whopping 19 fouls were committed in the first half, reflecting how physical this contest has been",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/sport/football/england-vs-argentina-fifa-world-cup-2026-semifinal-live-updates/article71227180.ece",
-      "publishedAt": 1784147648000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "6d9c36c08f68e101",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.424,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784147648000
-    },
-    {
-      "title": "UK: Man charged with murder after Indian woman stabbed to death at home in London",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132424817.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />A 24-year-old Indian woman was fatally stabbed at her London home. A man has been charged with murder and attempted murder in connection with the incident. The victim's family alleges the attack was racially motivated and seeks government assistance. They had sold land to fund her education and future aspirations in the UK. British Sikh groups express concern over rising race-based attacks targeting vulnerable individuals.",
+      "title": "French prosecutors seek prison sentences and social media bans for streamers in Jean Pormanove case",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132424845.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />French prosecutors seek jail time and platform bans for two streamers.  They are accused of violent and humiliating online broadcasts involving Jean Pormanove.  The content allegedly showed repeated mistreatment and was not simple entertainment.  The streamers claim the videos were staged and agreed upon for viewers.  A verdict in this case is expected on August 5.",
       "source": "Times of India",
       "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/uk/uk-man-charged-with-murder-after-indian-woman-stabbed-to-death-at-home-in-london/articleshow/132424817.cms",
-      "publishedAt": 1784147326000,
+      "url": "https://timesofindia.indiatimes.com/world/us-streamers/french-prosecutors-seek-prison-sentences-and-social-media-bans-for-streamers-in-jean-pormanove-case/articleshow/132424845.cms",
+      "publishedAt": 1784147718000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "20f5d4e7a84246f9",
+      "id": "0cb152904917dd8b",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.416,
+      "breakingScore": 2.338,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -163,30 +189,7 @@
       "allSources": [
         "times_of_india"
       ],
-      "firstSeen": 1784147326000
-    },
-    {
-      "title": "Excise targets drug peddlers as ‘dead drop’ trend soars in Kochi",
-      "summary": "",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/kerala/excise-targets-drug-peddlers-as-dead-drop-trend-soars-in-kochi/article71226322.ece",
-      "publishedAt": 1784146823000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "770ee466a7762a49",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.405,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784146823000
+      "firstSeen": 1784147718000
     }
   ]
 }
