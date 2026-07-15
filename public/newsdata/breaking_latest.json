@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784154728379,
-  "contentHash": "3496eaa343b6",
+  "fetchedAt": 1784158816022,
+  "contentHash": "29270fbc7968",
   "breaking": [
     {
       "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
@@ -16,7 +16,7 @@
       "id": "78b0f3cca7ef1adf",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.449,
+      "breakingScore": 4.354,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -27,6 +27,29 @@
         "times_of_india"
       ],
       "firstSeen": 1784149794000
+    },
+    {
+      "title": "Families of 43 victims await verdict in Genoa bridge disaster",
+      "summary": "A large section of the giant Morandi motorway bridge crumbled and collapsed on to the railway tracks below.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c20y00712ezo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784156557000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "e9f5bfcfc97fed31",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.948,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784156557000
     },
     {
       "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
@@ -41,7 +64,7 @@
       "id": "8da2bbb7a374c8d5",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.902,
+      "breakingScore": 3.807,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -64,7 +87,7 @@
       "id": "2927964ec94a10b7",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.739,
+      "breakingScore": 3.644,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -75,19 +98,19 @@
       "firstSeen": 1784143449000
     },
     {
-      "title": "England vs Argentina, FIFA World Cup LIVE updates: Two late goals in testy contest takes Argentina into another final",
+      "title": "England vs Argentina, FIFA World Cup semifinal Highlights: Two late goals in testy contest take Argentina into another final",
       "summary": "Enzo Fernandez and Lautaro Martinez scored after the 85th minute, both assisted by Messi, sealing another comeback win for the reigning champions",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/sport/football/england-vs-argentina-fifa-world-cup-2026-semifinal-live-updates/article71227180.ece",
-      "publishedAt": 1784151189000,
+      "publishedAt": 1784155133000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "6d9c36c08f68e101",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.918,
+      "breakingScore": 2.915,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -111,7 +134,7 @@
       "id": "18169bc1875597af",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.61,
+      "breakingScore": 2.515,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -123,65 +146,42 @@
       "firstSeen": 1784136566000
     },
     {
-      "title": "US Military Strikes Ship Trying To Breach Iran Port Blockade",
-      "summary": "It was the first time US has forcibly halted a vessel since reinstating the ports blockade on Tuesday.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/iran-war-us-military-strikes-ship-trying-to-breach-iran-port-blockade-in-strait-of-hormuz-11777212#publisher=newsstand",
-      "publishedAt": 1784150901000,
+      "title": "EC extends SIR deadline in Delhi; final electoral roll to be out on October 19",
+      "summary": "As per the revised schedule for the exercise shared by the EC, the deadline for the month-long house-to-house verification that began on June 30 has been extended by 10 days",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/cities/Delhi/ec-extends-sir-deadline-final-electoral-roll-to-be-out-on-oct-19/article71226340.ece",
+      "publishedAt": 1784157079000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "a9cb6b42a5cc7846",
+      "id": "1652f0dbea3960e3",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.411,
+      "breakingScore": 2.46,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "ndtv"
+        "the_hindu"
       ],
-      "firstSeen": 1784150901000
+      "firstSeen": 1784157079000
     },
     {
-      "title": "Ukrainian Drone Kills Chief Engineer At Zaporizhzhia Nuclear Plant: Russia",
-      "summary": "The chief engineer at the Zaporizhzhia nuclear power plant has been killed by a Ukrainian drone.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/ukrainian-drone-kills-chief-engineer-at-zaporizhzhia-nuclear-plant-russia-11777181#publisher=newsstand",
-      "publishedAt": 1784149683000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "46a576b2ce012ee0",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.383,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784149683000
-    },
-    {
-      "title": "French prosecutors seek prison sentences and social media bans for streamers in Jean Pormanove case",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132424845.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />French prosecutors seek jail time and platform bans for two streamers.  They are accused of violent and humiliating online broadcasts involving Jean Pormanove.  The content allegedly showed repeated mistreatment and was not simple entertainment.  The streamers claim the videos were staged and agreed upon for viewers.  A verdict in this case is expected on August 5.",
+      "title": "Blake Neff blasts Candace Owens’ ‘Russian spy project’ claim, questions evidence behind TPUSA allegations",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132427069.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Candace Owens recently questioned alleged Russian and Eastern European connections within Turning Point USA, pointing to attendees at Charlie Kirk’s memorial event and several people linked to the organization. Blake Neff rejected those claims, arguing that Owens was connecting unrelated details without evidence. The allegations remain unverified, and the disagreement has added another public clash between the two conservative commentators.",
       "source": "Times of India",
       "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/us-streamers/french-prosecutors-seek-prison-sentences-and-social-media-bans-for-streamers-in-jean-pormanove-case/articleshow/132424845.cms",
-      "publishedAt": 1784147718000,
+      "url": "https://timesofindia.indiatimes.com/world/us-streamers/blake-neff-blasts-candace-owens-russian-spy-project-claim-questions-evidence-behind-tpusa-allegations/articleshow/132427069.cms",
+      "publishedAt": 1784156287000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "0cb152904917dd8b",
+      "id": "e7d9ac373581e6e1",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.338,
+      "breakingScore": 2.441,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -189,7 +189,7 @@
       "allSources": [
         "times_of_india"
       ],
-      "firstSeen": 1784147718000
+      "firstSeen": 1784156287000
     }
   ]
 }
