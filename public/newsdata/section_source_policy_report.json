@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1784127979422,
+  "generatedAt": 1784132330328,
   "policyVersion": "section-source-policy-v1",
   "reportVersion": "section-source-policy-report-v1",
   "schemaVersion": 1,
@@ -16,11 +16,11 @@
       ],
       "topSources": [
         {
-          "count": 17,
+          "count": 15,
           "sourceGroup": "business_line"
         },
         {
-          "count": 12,
+          "count": 14,
           "sourceGroup": "economic_times"
         },
         {
@@ -62,11 +62,11 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 7,
+          "count": 8,
           "sourceGroup": "times_of_india"
         },
         {
-          "count": 3,
+          "count": 2,
           "sourceGroup": "ndtv"
         }
       ]
@@ -104,16 +104,16 @@
       ],
       "topSources": [
         {
-          "count": 15,
+          "count": 11,
           "sourceGroup": "bbc"
+        },
+        {
+          "count": 11,
+          "sourceGroup": "google_news"
         },
         {
           "count": 8,
           "sourceGroup": "the_hindu"
-        },
-        {
-          "count": 7,
-          "sourceGroup": "google_news"
         }
       ]
     },
@@ -154,11 +154,11 @@
       ],
       "topSources": [
         {
-          "count": 19,
+          "count": 20,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 11,
+          "count": 10,
           "sourceGroup": "google_news"
         }
       ]
@@ -180,11 +180,11 @@
         },
         {
           "count": 7,
-          "sourceGroup": "ndtv"
+          "sourceGroup": "economic_times"
         },
         {
           "count": 3,
-          "sourceGroup": "economic_times"
+          "sourceGroup": "ndtv"
         }
       ]
     },
@@ -200,11 +200,11 @@
       ],
       "topSources": [
         {
-          "count": 17,
+          "count": 18,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 13,
+          "count": 12,
           "sourceGroup": "google_news"
         }
       ]
@@ -674,7 +674,7 @@
       "configuredFeeds": 1,
       "health": {
         "feedUrl": "https://www.moneycontrol.com/rss/latestnews.xml",
-        "items": 0,
+        "items": 15,
         "ok": true,
         "section": "business"
       },
