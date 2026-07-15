@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1784119853143,
+  "generatedAt": 1784128094517,
   "windowDays": 7,
   "latest": {
     "insightGrade": "C",
     "insightScore": 0,
-    "totalStories": 763,
-    "usableStories36h": 749,
+    "totalStories": 807,
+    "usableStories36h": 796,
     "sourceGroups": 9,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.3073,
+    "rankingOverallScore": 0.309,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.3073,
+    "overallScore": 0.309,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1784119851903,
+    "generatedAt": 1784128093140,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.3696,
+      "insight": 0.3753,
       "localTravel": 0,
-      "upAhead": 0.8595
+      "upAhead": 0.8606
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.3696,
+        "score": 0.3753,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.8595,
+        "score": 0.8606,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -74,11 +74,11 @@
         "oneSourceCappedCount": 0
       },
       "insight": {
-        "parentClusters": 12,
-        "strongParents": 12,
+        "parentClusters": 10,
+        "strongParents": 10,
         "weakParentsDemoted": 0,
         "avgAnglesPerParent": 0,
-        "baseReportHeavyParents": 2,
+        "baseReportHeavyParents": 1,
         "duplicateChildrenSuppressed": 0
       },
       "localTravel": {
@@ -108,15 +108,15 @@
       "Amazon Prime Day sale ends with mega deals - News.com.au: location failed — offline/local item lacks configured location match",
       "Deal | 34-inch 240 Hz LG OLED gaming monitor sees $500 discount in new Amazon sale - Notebookcheck: location failed — offline/local item lacks configured location match",
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
+      "IAGES signs LOI with Royal College of Surgeons of Edinburgh: futureValidity failed — expired display window",
+      "IAGES signs LOI with Royal College of Surgeons of Edinburgh: alertUrgency failed — alert expired",
       "Philippine Airlines Middle East Flight Sale - Nomad Lawyer: location failed — offline/local item lacks configured location match",
       "Best Fire TV Stick deal: Save $15 on Amazon Fire TV Stick HD - Mashable: location failed — offline/local item lacks configured location match",
-      "Goondas Act invoked against Arasakumar: futureValidity failed — expired display window",
-      "Goondas Act invoked against Arasakumar: alertUrgency failed — alert expired",
       "upAhead: Amazon Prime Day sale ends with mega deals - News.com.au: location failed — offline/local item lacks configured location match",
       "upAhead: Deal | 34-inch 240 Hz LG OLED gaming monitor sees $500 discount in new Amazon sale - Notebookcheck: location failed — offline/local item lacks configured location match",
       "upAhead: Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
-      "upAhead: Philippine Airlines Middle East Flight Sale - Nomad Lawyer: location failed — offline/local item lacks configured location match",
-      "upAhead: Best Fire TV Stick deal: Save $15 on Amazon Fire TV Stick HD - Mashable: location failed — offline/local item lacks configured location match"
+      "upAhead: IAGES signs LOI with Royal College of Surgeons of Edinburgh: futureValidity failed — expired display window",
+      "upAhead: IAGES signs LOI with Royal College of Surgeons of Edinburgh: alertUrgency failed — alert expired"
     ],
     "actionRequired": [
       "6 invalid/expired/duplicate Up Ahead item(s) suppressed",
@@ -129,7 +129,7 @@
       "no ranked local/travel item for muscat",
       "no ranked local/travel item for chennai",
       "no ranked local/travel item for trichy",
-      "2 base-report-heavy Insight parent(s) demoted",
+      "1 base-report-heavy Insight parent(s) demoted",
       "buzz: no local Buzz item in ranked set"
     ]
   },
@@ -256,16 +256,16 @@
     },
     {
       "date": "2026-07-15",
-      "generatedAt": 1784119853143,
+      "generatedAt": 1784128094517,
       "insightGrade": "C",
       "insightScore": 0,
-      "totalStories": 763,
-      "usableStories36h": 749,
+      "totalStories": 807,
+      "usableStories36h": 796,
       "sourceGroups": 9,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.3073,
+      "rankingOverallScore": 0.309,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,

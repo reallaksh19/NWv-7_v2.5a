@@ -1,18 +1,18 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1784119850685,
-  "contentHash": "a6d02b61a5e07fd7",
+  "generatedAt": 1784128091866,
+  "contentHash": "4b2e13985533d7c7",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 763,
+  "storyCount": 807,
   "sourceGroupCount": 9,
   "grade": "C",
   "parentCount": 10,
   "avgAngles": 1.5,
-  "avgTemporalTiers": 1.8,
-  "avgEvolutionRoles": 1.9,
-  "baseReportShare": 0.13636363636363635,
+  "avgTemporalTiers": 1.7,
+  "avgEvolutionRoles": 1.8,
+  "baseReportShare": 0.14285714285714285,
   "multiAngleCount": 5,
   "weakParentCount": 5,
   "runtimeQualityGate": {
@@ -23,60 +23,83 @@
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 49,
+      "signalScore": 48,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 693,
+      "storyCount": 732,
       "risingCount": 1,
       "thinCount": 5,
       "multiAngleCount": 5,
       "lowAngleCount": 5,
       "strongAngleCount": 0,
       "avgAngles": 1.5,
-      "avgChildren": 2.2,
-      "avgScore": 0.6194270053118331,
-      "sourceDiversityCoverage": 10,
+      "avgChildren": 2.1,
+      "avgScore": 0.6408391670724894,
+      "sourceDiversityCoverage": 9,
       "snapshotCoverage": 6,
       "coverageLabel": "5/10",
       "warnings": [
         "5 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
+        "1 cluster(s) are below source-diversity target.",
         "4 cluster(s) have weak snapshot coverage.",
         "5 cluster(s) are marked thin.",
-        "700 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "750 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 49,
+      "signalScore": 48,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 693,
+      "storyCount": 732,
       "risingCount": 1,
       "thinCount": 5,
       "multiAngleCount": 5,
       "lowAngleCount": 5,
       "strongAngleCount": 0,
       "avgAngles": 1.5,
-      "avgChildren": 2.2,
-      "avgScore": 0.6194270053118331,
-      "sourceDiversityCoverage": 10,
+      "avgChildren": 2.1,
+      "avgScore": 0.6408391670724894,
+      "sourceDiversityCoverage": 9,
       "snapshotCoverage": 6,
       "coverageLabel": "5/10",
       "warnings": [
         "5 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
+        "1 cluster(s) are below source-diversity target.",
         "4 cluster(s) have weak snapshot coverage.",
         "5 cluster(s) are marked thin.",
-        "700 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "750 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_558_4edf768fc45e7520",
+      "parentId": "cluster_292_9d05a83d16ce328d",
+      "headline": "Revised US Russia sanctions bill lowers proposed tariffs on China, India",
+      "score": 0.6893933333333335,
+      "postTreeScore": 1.0894,
+      "childCount": 2,
+      "angles": [
+        "base_report",
+        "correction"
+      ],
+      "temporalTiers": [
+        "breaking",
+        "established"
+      ],
+      "evolutionRoles": [
+        "first_report",
+        "corroboration"
+      ],
+      "baseReportShare": 0.5,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_627_4edf768fc45e7520",
       "headline": "‘Boat flipped in three minutes,’ recounts Vietnam crash survivor upon arrival in Chennai",
       "score": 0.6943967197849983,
       "postTreeScore": 1.0744,
@@ -97,51 +120,10 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_284_cdcf9781333b3ab9",
-      "headline": "E Jean Carroll receives $5.6 million in sexual abuse case after years-long legal battle with Trump",
-      "score": 0.6443266666666667,
-      "postTreeScore": 1.0443,
-      "childCount": 2,
-      "angles": [
-        "fact_update",
-        "official_response"
-      ],
-      "temporalTiers": [
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "fact_update",
-        "official_response"
-      ],
-      "baseReportShare": 0,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_226_9d05a83d16ce328d",
-      "headline": "Revised US Russia sanctions bill lowers proposed tariffs on China, India",
-      "score": 0.6334066135483352,
-      "postTreeScore": 1.0334,
-      "childCount": 2,
-      "angles": [
-        "base_report",
-        "correction"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "established"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "corroboration"
-      ],
-      "baseReportShare": 0.5,
-      "weakTree": false
-    },
-    {
-      "parentId": "cluster_114_029cb2be3dabfa1d",
+      "parentId": "cluster_178_029cb2be3dabfa1d",
       "headline": "NASA astronaut Anil Menon, two others reach International Space Station",
-      "score": 0.6063045986550673,
-      "postTreeScore": 1.0263,
+      "score": 0.6542583349983153,
+      "postTreeScore": 1.0743,
       "childCount": 3,
       "angles": [
         "base_report",
@@ -161,10 +143,30 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_72_c884c27f5f2504cb",
+      "parentId": "cluster_351_cdcf9781333b3ab9",
+      "headline": "E Jean Carroll receives $5.6 million in sexual abuse case after years-long legal battle with Trump",
+      "score": 0.6443266666666667,
+      "postTreeScore": 1.0443,
+      "childCount": 2,
+      "angles": [
+        "fact_update",
+        "official_response"
+      ],
+      "temporalTiers": [
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "fact_update",
+        "official_response"
+      ],
+      "baseReportShare": 0,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_135_c884c27f5f2504cb",
       "headline": "Files relating to India’s largest nuclear power plant Kudankulam exposed in data breach - Reuters",
-      "score": 0.5852732802150018,
-      "postTreeScore": 0.9853,
+      "score": 0.6292600000000002,
+      "postTreeScore": 1.0293,
       "childCount": 2,
       "angles": [
         "official_response",
@@ -181,27 +183,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_365_b590bcbb384b724e",
-      "headline": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times - The Economic Times",
-      "score": 0.6564967197849982,
-      "postTreeScore": 0.5465,
-      "childCount": 2,
-      "angles": [
-        "fact_update"
-      ],
-      "temporalTiers": [
-        "established",
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "fact_update",
-        "market_reaction"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_406_34852fd2242cb42b",
+      "parentId": "cluster_474_34852fd2242cb42b",
       "headline": "MEA summons Iranian deputy envoy, after Indian national killed in attack on ship",
       "score": 0.6365487346782661,
       "postTreeScore": 0.5465,
@@ -222,7 +204,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_353_1f0bfd6486d4ce6d",
+      "parentId": "cluster_421_1f0bfd6486d4ce6d",
       "headline": "Can’t English be considered an indigenous Indian language, asks SC",
       "score": 0.6365800531183317,
       "postTreeScore": 0.5266,
@@ -240,7 +222,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_419_2a0a04cd93c1cfff",
+      "parentId": "cluster_487_2a0a04cd93c1cfff",
       "headline": "India bans the import of goods made using forced labour, even as U.S. investigation is pending",
       "score": 0.5513433333333333,
       "postTreeScore": 0.4613,
@@ -259,7 +241,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_116_a0b145a58b31795e",
+      "parentId": "cluster_180_a0b145a58b31795e",
       "headline": "Nepal court jails two former Ministers, 14 others",
       "score": 0.5495933333333334,
       "postTreeScore": 0.4596,
@@ -276,15 +258,33 @@
       ],
       "baseReportShare": 0,
       "weakTree": true
+    },
+    {
+      "parentId": "cluster_41_b8a8d4c8a1c025a0",
+      "headline": "Union Bank Q1 Results: Profit rises over 27% to Rs 5,641 crore",
+      "score": 0.7226911614783158,
+      "postTreeScore": 0.4227,
+      "childCount": 1,
+      "angles": [
+        "fact_update"
+      ],
+      "temporalTiers": [
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "fact_update"
+      ],
+      "baseReportShare": 0,
+      "weakTree": true
     }
   ],
   "warnings": [],
   "errors": [],
   "ratchetGate": {
-    "status": "PASS",
+    "status": "FAIL",
     "gateVersion": "real-insight-snapshot-ratchet-v1",
     "grade": "C",
-    "score": 100,
+    "score": 76,
     "passed": [
       {
         "id": "grade-floor",
@@ -305,21 +305,15 @@
         "required": ">= 1.4"
       },
       {
-        "id": "avg-temporal-tier-count",
-        "label": "Average temporal tier count",
-        "actual": 1.8,
-        "required": ">= 1.8"
-      },
-      {
         "id": "avg-evolution-role-count",
         "label": "Average evolution role count",
-        "actual": 1.9,
+        "actual": 1.8,
         "required": ">= 1.6"
       },
       {
         "id": "base-report-share",
         "label": "Base report share",
-        "actual": 0.136,
+        "actual": 0.143,
         "required": "<= 0.55"
       },
       {
@@ -347,19 +341,28 @@
         "required": "<= 0.5"
       }
     ],
-    "failed": [],
+    "failed": [
+      {
+        "id": "avg-temporal-tier-count",
+        "label": "Average temporal tier count",
+        "actual": 1.7,
+        "required": ">= 1.8",
+        "severity": "fail",
+        "fix": "C+E output should cover multiple event-time tiers, not only source buckets."
+      }
+    ],
     "summary": {
       "parentCount": 10,
       "avgAngles": 1.5,
-      "avgTemporalTiers": 1.8,
-      "avgEvolutionRoles": 1.9,
-      "baseReportShare": 0.136,
+      "avgTemporalTiers": 1.7,
+      "avgEvolutionRoles": 1.8,
+      "baseReportShare": 0.143,
       "multiAngleCount": 5,
       "weakParentCount": 5,
       "weakParentRatio": 0.5,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 763,
+      "storyCount": 807,
       "sourceGroupCount": 9
     }
   }
