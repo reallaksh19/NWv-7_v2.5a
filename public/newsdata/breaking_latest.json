@@ -1,22 +1,45 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784146746683,
-  "contentHash": "54a7b02b43c8",
+  "fetchedAt": 1784150943182,
+  "contentHash": "e62b55dd0d50",
   "breaking": [
+    {
+      "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+      "summary": "Civilian casualties are reported in a number of Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c8929jv8kdzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784150479000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "8da2bbb7a374c8d5",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.989,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784150479000
+    },
     {
       "title": "As Sonam Wangchuk hangs on to hunger strike, weight loss approaches 9 kg",
       "summary": "On the 18th day, activist Sonam Wangchuk continued his hunger strike demanding the resignation of Education Minister Dharmendra Pradhan, even as his vital signs showed a worsening condition",
-      "source": "The Hindu",
+      "source": "The Hindu National",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/national/sonam-wangchuk-hunger-strike-cjp-protest-dharmendra-pradhan-resignation/article71225295.ece",
       "publishedAt": 1784143449000,
-      "category": "topStories",
+      "category": "india",
       "region": "in",
       "language": "en",
       "id": "2927964ec94a10b7",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.924,
+      "breakingScore": 3.827,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -39,7 +62,7 @@
       "id": "4dfc0952b2baa204",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.609,
+      "breakingScore": 3.512,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -62,7 +85,7 @@
       "id": "18169bc1875597af",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.794,
+      "breakingScore": 2.697,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -74,42 +97,19 @@
       "firstSeen": 1784136566000
     },
     {
-      "title": "Traffic head constable killed in hit-and-run at Singhu border",
-      "summary": "",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/Delhi/traffic-head-constable-killed-in-hit-and-run-at-singhu-border/article71227302.ece",
-      "publishedAt": 1784144693000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "82e00c994a3faaae",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.452,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784144693000
-    },
-    {
-      "title": "US Forces Launch New Wave Of Strikes Against Iran",
-      "summary": "The United States launched a new wave of strikes against Iran on Wednesday in a bid to curb Tehran's ability to threaten the Strait of Hormuz, the US military said.",
+      "title": "Ukrainian Drone Kills Chief Engineer At Zaporizhzhia Nuclear Plant: Russia",
+      "summary": "The chief engineer at the Zaporizhzhia nuclear power plant has been killed by a Ukrainian drone.",
       "source": "NDTV",
       "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-forces-launch-new-wave-of-strikes-against-iran-11777048#publisher=newsstand",
-      "publishedAt": 1784144192000,
+      "url": "https://www.ndtv.com/world-news/ukrainian-drone-kills-chief-engineer-at-zaporizhzhia-nuclear-plant-russia-11777181#publisher=newsstand",
+      "publishedAt": 1784149683000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "767e53b5c986dde9",
+      "id": "46a576b2ce012ee0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.441,
+      "breakingScore": 2.471,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -117,42 +117,19 @@
       "allSources": [
         "ndtv"
       ],
-      "firstSeen": 1784144192000
+      "firstSeen": 1784149683000
     },
     {
-      "title": "West Asia War LIVE: In essential and existential war with America, says Iran's top negotiator",
-      "summary": "\"If Iran is not going to benefit from the memorandum of understanding, we have no reason to adhere to it,\" says Iran's top negotiator Qalibaf",
+      "title": "England vs Argentina, FIFA World Cup LIVE updates: Gordon breaks deadlock with long-awaited goal",
+      "summary": "A whopping 19 fouls were committed in the first half, reflecting how physical this contest has been",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-washington-strikes-tehran-donald-trump-peace-deal-strait-of-hormuz-live-updates-july-15-2026/article71223849.ece",
-      "publishedAt": 1784143905000,
+      "url": "https://www.thehindu.com/sport/football/england-vs-argentina-fifa-world-cup-2026-semifinal-live-updates/article71227180.ece",
+      "publishedAt": 1784147648000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "45a5c9ca27dd40dc",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.434,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784143905000
-    },
-    {
-      "title": "Man arrested for ‘sexual harassment’ following swift intervention of Singappen force",
-      "summary": "",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/Coimbatore/man-arrested-for-sexual-harassment-following-swift-intervention-of-singappen-force/article71226974.ece",
-      "publishedAt": 1784143470000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "6b77d349bb530f67",
+      "id": "6d9c36c08f68e101",
       "suppressionReason": null,
       "isBreaking": true,
       "breakingScore": 2.424,
@@ -163,22 +140,45 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784143470000
+      "firstSeen": 1784147648000
     },
     {
-      "title": "Andhra Pradesh student dies in road accident in U.S.A.",
-      "summary": "Prasanna was travelling in a car which lost control and crashed into a tree, resulting in her death on the spot",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-student-dies-in-road-accident-in-usa/article71226667.ece",
-      "publishedAt": 1784143249000,
+      "title": "UK: Man charged with murder after Indian woman stabbed to death at home in London",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132424817.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />A 24-year-old Indian woman was fatally stabbed at her London home. A man has been charged with murder and attempted murder in connection with the incident. The victim's family alleges the attack was racially motivated and seeks government assistance. They had sold land to fund her education and future aspirations in the UK. British Sikh groups express concern over rising race-based attacks targeting vulnerable individuals.",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/uk/uk-man-charged-with-murder-after-indian-woman-stabbed-to-death-at-home-in-london/articleshow/132424817.cms",
+      "publishedAt": 1784147326000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "ceb93168aa53a8d7",
+      "id": "20f5d4e7a84246f9",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.419,
+      "breakingScore": 2.416,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "times_of_india"
+      ],
+      "firstSeen": 1784147326000
+    },
+    {
+      "title": "Excise targets drug peddlers as ‘dead drop’ trend soars in Kochi",
+      "summary": "",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/kerala/excise-targets-drug-peddlers-as-dead-drop-trend-soars-in-kochi/article71226322.ece",
+      "publishedAt": 1784146823000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "770ee466a7762a49",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.405,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -186,7 +186,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784143249000
+      "firstSeen": 1784146823000
     }
   ]
 }
