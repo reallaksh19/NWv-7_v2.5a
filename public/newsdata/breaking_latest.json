@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784213890137,
-  "contentHash": "17b573225657",
+  "fetchedAt": 1784218796342,
+  "contentHash": "3d737700e22a",
   "breaking": [
     {
       "title": "U.S. launches more strikes on Iran as standoff over Strait of Hormuz escalates",
@@ -16,7 +16,7 @@
       "id": "c994fc6c7af21eed",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 8.847,
+      "breakingScore": 8.733,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -41,7 +41,7 @@
       "id": "4a3aafaf79ec2f22",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.858,
+      "breakingScore": 6.745,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -52,42 +52,19 @@
       "firstSeen": 1784207770000
     },
     {
-      "title": "Texas floods: Evacuations begin across Hill Country as forecasters warn of 'deadly wave'",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132440595.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/us/texas-floods-evacuations-begin-across-hill-country-as-forecasters-warn-of-deadly-wave/articleshow/132440595.cms",
-      "publishedAt": 1784210302000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "5c10364f1f295cdf",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.417,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "times_of_india"
-      ],
-      "firstSeen": 1784210302000
-    },
-    {
       "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
       "summary": "The ex-head of Italy's motorway operator Giovanni Castellucci was handed a 12-year term over the 2018 bridge collapse.",
       "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784213833000,
+      "publishedAt": 1784218240000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "ef0e6cb97ca8bc92",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.999,
+      "breakingScore": 3.987,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -95,7 +72,7 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1784213833000
+      "firstSeen": 1784218240000
     },
     {
       "title": "Fresh Floods, Landslides Hit 5 Districts In Arunachal Pradesh",
@@ -110,7 +87,7 @@
       "id": "c173bdf64b41f244",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.946,
+      "breakingScore": 3.832,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -133,7 +110,7 @@
       "id": "00502e14377b2eee",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.912,
+      "breakingScore": 3.798,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -156,7 +133,7 @@
       "id": "f3b1a2502a6ba82b",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.89,
+      "breakingScore": 3.776,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -167,27 +144,50 @@
       "firstSeen": 1784209139000
     },
     {
-      "title": "Opinion: Opinion | Why Was A Russian Doomsday Plane In Iran Recently? Inside The 'Tu-214PU'",
-      "summary": "A Russian Tu-214PU aircraft took off from Moscow and landed in Tehran at around 10:10 am on July 13. The deployment coincided with escalating US and Israeli airstrikes on Iranian military infrastructure",
-      "source": "NDTV India",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/opinion/russia-has-sent-a-doomsday-plane-to-iran-heres-what-that-means-11780310#publisher=newsstand",
-      "publishedAt": 1784207716000,
-      "category": "india",
+      "title": "Iran threatens to block more vital seaways as Trump orders renewed Iran blockade",
+      "summary": "The ​latest threat to global shipping comes after ‌the U.S. military said it began a fresh round of strikes “to continue degrading Iranian capabilities used to attack commercial shipping in the Strait of Hormuz”",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/iran-threatens-to-block-more-vital-seaways-as-trump-orders-renewed-iran-blockade/article71224209.ece",
+      "publishedAt": 1784207656000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "0c61d6fd0238fdad",
+      "id": "4f6912eb352310e4",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.857,
+      "breakingScore": 3.742,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "ndtv"
+        "the_hindu"
       ],
-      "firstSeen": 1784207716000
+      "firstSeen": 1784207656000
+    },
+    {
+      "title": "What is Greater Tunb Island, the strategic point in the Strait of Hormuz targeted by U.S. airstrikes?",
+      "summary": "Greater Tunb is a small island in the Persian Gulf near the entrance to the Strait of Hormuz and is regarded as a strategically important location in the strait",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/what-is-greater-tunb-island-strategic-point-in-strait-of-hormuz-targeted-by-us-airstrikes/article71228406.ece",
+      "publishedAt": 1784207184000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "5036a00ae6c77198",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.731,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784207184000
     }
   ]
 }
