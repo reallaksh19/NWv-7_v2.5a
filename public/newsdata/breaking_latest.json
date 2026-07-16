@@ -1,22 +1,47 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784200286834,
-  "contentHash": "ee06c0aff7c7",
+  "fetchedAt": 1784206270085,
+  "contentHash": "e86e4d96a912",
   "breaking": [
     {
-      "title": "West Asia war LIVE: Iran slams 'barbaric' U.S. attack after hospital evacuated due to nearby strike",
-      "summary": "Mediator Pakistan says encouraging U.S. and Iran to resume talks",
-      "source": "The Hindu",
+      "title": "'Cowardly Crime Against Children': Iran Slams US Attack Near Cancer Hospital",
+      "summary": "The hospital which provided chemotherapy treatment for cancer patients had to be evacuated",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-iran-war-live-cowardly-crime-against-children-iran-slams-us-attack-near-cancer-hospital-11779812#publisher=newsstand",
+      "publishedAt": 1784202288000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "a421cca81c3fb2a3",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.908,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "times_of_india"
+      ],
+      "firstSeen": 1784200980000
+    },
+    {
+      "title": "West Asia war LIVE: Iran tells Houthis to close Red Sea gateway if U.S. hits power network, says report",
+      "summary": "A source close to the Houthis said the group had completed preparations to attack ‌shipping by deploying missiles and drones near Bab el-Mandeb strait, the gateway to the Red Sea, in Yemen’s highlands overlooking Hodeidah ‌and ⁠the Gulf of Aden and was awaiting the order to begin",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-washington-tehran-air-strikes-strait-of-hormuz-live-updates-july-16-2026/article71228351.ece",
-      "publishedAt": 1784198775000,
-      "category": "topStories",
+      "publishedAt": 1784206187000,
+      "category": "world",
       "region": "in",
       "language": "en",
       "id": "39170be933c7a713",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.965,
+      "breakingScore": 5.498,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -24,57 +49,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784198775000
-    },
-    {
-      "title": "New Zealand warns of tsunami threat after 5.9-magnitude quake",
-      "summary": "People in affected areas should make their way to the “nearest high ground, out of tsunami evacuation zones, or as far inland as possible”, the National Emergency Management Agency said.",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/new-zealand-earthquake-tsunami-warning/article71229406.ece",
-      "publishedAt": 1784198465000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "60ab77c810727388",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.958,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784198123000
-    },
-    {
-      "title": "TMC MP Koel Mallick resigns from Rajya Sabha",
-      "summary": "“I do hereby resign from the membership of Rajya Sabha, which may please be accepted with immediate effect,” Ms. Mallick said in her resignation letter.",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/west-bengal/tmc-mp-koel-mallick-resigns-from-rajya-sabha/article71229360.ece",
-      "publishedAt": 1784197097000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "aa20e33ff823a7b1",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.926,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784194480000
+      "firstSeen": 1784205282000
     },
     {
       "title": "Iran targets military bases as US launches wave of strikes",
@@ -82,14 +57,14 @@
       "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784197565000,
+      "publishedAt": 1784202529000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "ec7dfa3f5955ec4b",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.437,
+      "breakingScore": 5.413,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -97,70 +72,45 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1784197565000
+      "firstSeen": 1784202529000
     },
     {
-      "title": "Ukraine gets new PM: Parliament approves Serhii Koretskyi amid cabinet shuffle",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132435600.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Ukraine's parliament approved Serhii Koretskyi as the new prime minister on Thursday.  This appointment follows the resignation of former prime minister Yulia Svyrydenko.  President Zelenskyy cited Koretskyi's energy sector experience for winter preparations.  The government reshuffle includes other senior officials and aims to refresh leadership.  Mykhailo Fedorov's dismissal as defense minister sparked protests and criticism.",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/europe/ukraine-gets-new-pm-parliament-approves-serhii-koretskyi-amid-cabinet-shuffle/articleshow/132435600.cms",
-      "publishedAt": 1784196132000,
-      "category": "india",
+      "title": "US strikes oil tanker with missiles as it enforces new Iran blockade",
+      "summary": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
+      "source": "BBC",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784203766000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "d1ee91f5183ee7b0",
+      "id": "65c2dde99f5d933e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.404,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "the_hindu",
-        "times_of_india"
-      ],
-      "firstSeen": 1784195157000
-    },
-    {
-      "title": "Korean subscriber attacks stock YouTuber after losing money on investment",
-      "summary": "A South Korean man was arrested for allegedly attacking a stock YouTuber after reportedly suffering heavy investment losses from following the creator's recommendations. The incident has reignited concerns over the growing influence of online investment influencers and the risks of relying on unverified stock tips without independent research.",
-      "source": "Economic Times",
-      "sourceGroup": "economic_times",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/korean-subscriber-attacks-stock-youtuber-after-losing-money-on-investment/articleshow/132435719.cms",
-      "publishedAt": 1784195948000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "c1d6a699566411e3",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.9,
+      "breakingScore": 3.942,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "economic_times"
+        "bbc"
       ],
-      "firstSeen": 1784195948000
+      "firstSeen": 1784203766000
     },
     {
-      "title": "What is Greater Tunb Island, the strategic point in the Strait of Hormuz targeted by U.S. airstrikes?",
-      "summary": "Greater Tunb is a small island in the Persian Gulf near the entrance to the Strait of Hormuz and is regarded as a strategically important location in the strait",
+      "title": "New Zealand downgrades tsunami alert after quake",
+      "summary": "People in affected areas should make their way to the “nearest high ground, out of tsunami evacuation zones, or as far inland as possible”, the National Emergency Management Agency said.",
       "source": "The Hindu International",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/what-is-greater-tunb-island-strategic-point-in-strait-of-hormuz-targeted-by-us-airstrikes/article71228406.ece",
-      "publishedAt": 1784187826000,
+      "url": "https://www.thehindu.com/news/international/new-zealand-earthquake-tsunami-warning/article71229406.ece",
+      "publishedAt": 1784202350000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "5036a00ae6c77198",
+      "id": "60ab77c810727388",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.712,
+      "breakingScore": 3.909,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -168,31 +118,78 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784187826000
+      "firstSeen": 1784202350000
     },
     {
-      "title": "PM Modi to flag off India’s first hydrogen-powered train in Haryana",
-      "summary": "Unlike traditional trains, it generates its own electricity onboard through a chemical reaction between hydrogen and atmospheric oxygen, leaving behind water vapour; Mr. Modi will also inaugurate or lay the foundation for infrastructure worth over ₹25,000 crore during the day-long visit to Haryana and Punjab tomorrow",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/pm-modi-to-flag-off-indias-first-hydrogen-powered-train/article71229398.ece",
-      "publishedAt": 1784199937000,
+      "title": "New Zealand Issues Tsunami Warning After 6.3-Magnitude Earthquake",
+      "summary": "Authorities issued a tsunami warning.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/new-zealand-issues-tsunami-warning-after-6-3-magnitude-earthquake-11779435#publisher=newsstand",
+      "publishedAt": 1784198123000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "57c6a5f12bc61809",
+      "id": "f19e7ca933f2b5e7",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.992,
+      "breakingScore": 3.811,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784198123000
+    },
+    {
+      "title": "U.K. urges FIFA to investigate Argentina over Falklands banner at World Cup",
+      "summary": "On July 15, Argentina beat England 2-1 in a World Cup semifinal; during post-match celebrations, Argentine players held a banner handed over by fans in the stands, reading ‘Las Malvinas son Argentinas’— ‘The Malvinas are Argentine.’",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/sport/football/uk-urges-fifa-to-investigate-argentina-over-falklands-banner-at-world-cup/article71229384.ece",
+      "publishedAt": 1784205152000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "a815e34b902ac9f6",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.974,
       "breakingReasons": [
         "multi_source_velocity"
       ],
       "sourceCount": 2,
       "allSources": [
-        "ndtv",
+        "bbc",
         "the_hindu"
       ],
-      "firstSeen": 1784194537000
+      "firstSeen": 1784203297000
+    },
+    {
+      "title": "Quote of the day by Joel Greenblatt: \"When it comes to long-term investing, doing “less” is often “more”",
+      "summary": "Value investor Joel Greenblatt advises that less action yields more long-term investment gains. Patience and disciplined holding outperform frequent trading and market timing. Compounding wealth requires staying invested in strong businesses through market ups and downs. Avoiding emotional reactions to price swings is crucial for investment success. Resisting the urge to act and letting investments grow proves most rewarding.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/quote-of-the-day-by-joel-greenblatt-when-it-comes-to-long-term-investing-doing-less-is-often-more/articleshow/132428714.cms",
+      "publishedAt": 1784201356000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "7ba7c80e61feac63",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.886,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "economic_times",
+        "times_of_india"
+      ],
+      "firstSeen": 1784197752000
     }
   ]
 }
