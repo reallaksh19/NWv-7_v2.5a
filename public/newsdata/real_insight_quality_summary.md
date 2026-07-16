@@ -5,14 +5,14 @@
 - Grade: `D`
 - Parents: `10`
 - Average angles: `1.2`
-- Average temporal tiers: `1.7`
-- Average evolution roles: `1.4`
-- Base report share: `0.1111111111111111`
+- Average temporal tiers: `1.9`
+- Average evolution roles: `1.5`
+- Base report share: `0.2`
 - Multi-angle parents: `2`
 - Weak parents: `8`
-- Story count: `808`
+- Story count: `821`
 - Source groups: `9`
-- Content hash: `257a8ab1553ac744`
+- Content hash: `753c08d0fa93f56f`
 
 ## Top parents
 
@@ -25,9 +25,9 @@
 | 5 | Cabinet Approves Mobile Phone Manufacturing Scheme With Rs. 62,500 Crore Budget to Scale Domestic Production | 2 | fact_update | YES | 0.6442133864516649 |
 | 6 | Supreme Court voices concern over CBSE’s third language policy from Class 9 | 2 | official_response | YES | 0.5965100000000001 |
 | 7 | Nepal court jails two former Ministers, 14 others | 2 | investigative_detail | YES | 0.6055800531183317 |
-| 8 | Ukraine's Parliament approves Serhii Koretskyi as new Prime Minister | 2 | official_response | YES | 0.5375933333333334 |
-| 9 | BHEL shares jump 4% after Maharatna PSU posts net profit of Rs 377 crore in Q1, revenue jumps 40% | 1 | fact_update | YES | 0.7235911614783158 |
-| 10 | SBI Funds Management gets highest applications for any IPO this year, sees Rs 2.98 lakh crore investor rush | 1 | fact_update | YES | 0.7226911614783158 |
+| 8 | U.S. to change visa regulations for foreign students, journalists | 2 | base_report | YES | 0.5781232802150018 |
+| 9 | Indian court orders Maruti to replace car in first E20 fuel damage ruling - Reuters | 2 | official_response | YES | 0.5693433333333333 |
+| 10 | Ukraine's Parliament approves Serhii Koretskyi as new Prime Minister | 2 | official_response | YES | 0.5375933333333334 |
 
 ## Warnings
 
@@ -38,12 +38,12 @@
 - Status: **FAIL**
 - Gate version: `real-insight-snapshot-ratchet-v1`
 - Grade: `D`
-- Score: `0`
+- Score: `18`
 - Parents: `10`
 - Average angles: `1.2`
-- Average temporal tiers: `1.7`
-- Average evolution roles: `1.4`
-- Base report share: `0.111`
+- Average temporal tiers: `1.9`
+- Average evolution roles: `1.5`
+- Base report share: `0.2`
 - Multi-angle parents: `2`
 - Top parent angles: `2`
 - Top parent children: `2`
@@ -52,14 +52,14 @@
 
 - **Real snapshot grade floor** — actual `D`, required `A/B/C`. Fix: Do not accept D/F real snapshot output. Improve child selection, parent rerank, or data intake.
 - **Average visible angle count** — actual `1.2`, required `>= 1.4`. Fix: Angle-diverse child selection is not strong enough on real data.
-- **Average temporal tier count** — actual `1.7`, required `>= 1.8`. Fix: C+E output should cover multiple event-time tiers, not only source buckets.
-- **Average evolution role count** — actual `1.4`, required `>= 1.6`. Fix: C+E output should include distinct event evolution roles.
+- **Average evolution role count** — actual `1.5`, required `>= 1.6`. Fix: C+E output should include distinct event evolution roles.
 - **Weak parent ratio** — actual `0.8`, required `<= 0.5`. Fix: Too many weak trees remain. Repair or demote weak trees after diversity repair.
 
 ### Passed gates
 
 - Parent cluster count: `10` / `>= 3`
-- Base report share: `0.111` / `<= 0.55`
+- Average temporal tier count: `1.9` / `>= 1.8`
+- Base report share: `0.2` / `<= 0.55`
 - Multi-angle parent count: `2` / `>= 1`
 - Top parent angle count: `2` / `>= 2`
 - Top parent child depth: `2` / `>= 2`
