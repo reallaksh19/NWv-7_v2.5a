@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784175875192,
-  "contentHash": "33ff6ce68625",
+  "fetchedAt": 1784184071289,
+  "contentHash": "a9f5f6a0cba5",
   "breaking": [
     {
       "title": "West Asia war LIVE: U.S. airstrikes hit northern Iran as it disables ship trying to run blockade",
-      "summary": "Iran Army says targeted U.S. military facilities in Jordan",
+      "summary": "Iran's Amy says struck U.S. targets in Kuwait and Bahrain with drones",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-washington-tehran-air-strikes-strait-of-hormuz-live-updates-july-16-2026/article71228351.ece",
-      "publishedAt": 1784172603000,
+      "publishedAt": 1784183795000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "39170be933c7a713",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.424,
+      "breakingScore": 5.494,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -39,7 +39,7 @@
       "id": "bf8bce329aac6669",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.217,
+      "breakingScore": 5.028,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -50,19 +50,92 @@
       "firstSeen": 1784163661000
     },
     {
+      "title": "Delhi HC directs daily medical monitoring of Sonam Wangchuk amid indefinite hunger strike",
+      "summary": "The petition argued that the government could not remain a passive spectator, contending that failure to intervene could amount to “abetment of suicide” under Section 108 of the Bharatiya Nyaya Sanhita, 2023",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/delhi-hc-directs-daily-medical-monitoring-of-sonam-wangchuk-amid-indefinite-hunger-strike/article71228728.ece",
+      "publishedAt": 1784183662000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "8a21b083cc44d42f",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 4.491,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784180474000
+    },
+    {
+      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
+      "summary": "US President Donald Trump says he is yet to decide whether or not he will \"finish off\" Iran.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784174771000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "78b0f3cca7ef1adf",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 4.285,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "times_of_india"
+      ],
+      "firstSeen": 1784173920000
+    },
+    {
+      "title": "US-Iran War News LIVE: Jordan Says It Shot Down 8 Iranian Missiles",
+      "summary": "US-Iran War Live Updates: A fifth of all traded crude oil and natural gas passed through the Strait of Hormuz before the war, when it was open to all without tolls.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-iran-war-live-news-us-launches-fresh-strikes-on-iran-as-fighting-flares-around-strait-of-hormuz-global-oil-energy-prices-us-president-donald-trump-11762907#publisher=newsstand",
+      "publishedAt": 1784175475000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "287f07c12ee84038",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.801,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784175475000
+    },
+    {
       "title": "What is Greater Tunb Island, the strategic point in the Strait of Hormuz targeted by U.S. airstrikes?",
       "summary": "Greater Tunb is a small island in the Persian Gulf near the entrance to the Strait of Hormuz and is regarded as a strategically important location in the strait",
-      "source": "The Hindu",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/what-is-greater-tunb-island-strategic-point-in-strait-of-hormuz-targeted-by-us-airstrikes/article71228406.ece",
       "publishedAt": 1784174898000,
-      "category": "topStories",
+      "category": "world",
       "region": "in",
       "language": "en",
       "id": "5036a00ae6c77198",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.977,
+      "breakingScore": 3.788,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -85,7 +158,7 @@
       "id": "03c493a34f01d102",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.779,
+      "breakingScore": 3.589,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -96,99 +169,28 @@
       "firstSeen": 1784166331000
     },
     {
-      "title": "Families of 43 victims await verdict in Genoa bridge disaster",
-      "summary": "A large section of the giant Morandi motorway bridge crumbled and collapsed on to the railway tracks below.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c20y00712ezo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784156557000,
-      "category": "world",
+      "title": "State liable to pay compensation in manual scavenging deaths even if labourers were employed by private individuals: Bombay High Court",
+      "summary": "Bombay High Court directs Maharashtra to pay ₹30 lakh compensation for manual scavenging deaths",
+      "source": "The Hindu National",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/maharashtra/state-liable-to-pay-compensation-in-manual-scavenging-deaths-even-if-labourers-were-employed-by-private-individuals-bombay-high-court/article71226507.ece",
+      "publishedAt": 1784179503000,
+      "category": "india",
       "region": "in",
       "language": "en",
-      "id": "e9f5bfcfc97fed31",
+      "id": "1925ee2dd0665699",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.553,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1784156557000
-    },
-    {
-      "title": "US military to start screening for testosterone deficiency, Hegseth says",
-      "summary": "Hegseth says he is authorising hormone screening to ensure US troops \"operate at your absolute best\".",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784169220000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "160c8c3ee5158573",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.846,
+      "breakingScore": 2.894,
       "breakingReasons": [
         "multi_source_velocity"
       ],
       "sourceCount": 2,
       "allSources": [
-        "bbc",
-        "the_hindu"
-      ],
-      "firstSeen": 1784164153000
-    },
-    {
-      "title": "Gujarat announces rehabilitation package for Surat flood-affected traders",
-      "summary": "The package provides lump-sum financial assistance to street vendors, handcart operators and owners of small and large cabins to help resume business operations in the affected areas",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/gujarat/gujarat-announces-rehabilitation-package-for-surat-flood-affected-traders/article71226912.ece",
-      "publishedAt": 1784175260000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "fc5d42c8fc1b1f7d",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.486,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784175260000
-    },
-    {
-      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-      "summary": "US President Donald Trump says he is yet to decide whether or not he will \"finish off\" Iran.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784174771000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "78b0f3cca7ef1adf",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.474,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 3,
-      "allSources": [
-        "bbc",
         "ndtv",
-        "times_of_india"
+        "the_hindu"
       ],
-      "firstSeen": 1784149794000
+      "firstSeen": 1784177423000
     }
   ]
 }
