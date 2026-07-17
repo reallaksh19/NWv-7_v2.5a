@@ -1,12 +1,12 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1784283473154,
-  "contentHash": "5e41958519726eed",
+  "generatedAt": 1784289037452,
+  "contentHash": "7a30d64252393104",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 732,
-  "sourceGroupCount": 10,
+  "storyCount": 722,
+  "sourceGroupCount": 9,
   "grade": "D",
   "parentCount": 10,
   "avgAngles": 1.3,
@@ -26,7 +26,7 @@
       "signalScore": 32,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 659,
+      "storyCount": 657,
       "risingCount": 0,
       "thinCount": 7,
       "multiAngleCount": 3,
@@ -44,7 +44,7 @@
         "2 cluster(s) are below source-diversity target.",
         "7 cluster(s) have weak snapshot coverage.",
         "7 cluster(s) are marked thin.",
-        "734 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "654 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
@@ -54,7 +54,7 @@
       "signalScore": 32,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 659,
+      "storyCount": 657,
       "risingCount": 0,
       "thinCount": 7,
       "multiAngleCount": 3,
@@ -86,7 +86,7 @@
   },
   "parents": [
     {
-      "parentId": "cluster_40_6bae06d3d3bce83d",
+      "parentId": "cluster_59_6bae06d3d3bce83d",
       "headline": "What is testosterone screening, and why is the U.S. military introducing it? | Explained",
       "score": 0.6052599999999999,
       "postTreeScore": 1.0053,
@@ -107,7 +107,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_291_5bb2c2a63ad84a92",
+      "parentId": "cluster_311_5bb2c2a63ad84a92",
       "headline": "U.S. to change visa regulations for foreign students, journalists",
       "score": 0.6010239879583166,
       "postTreeScore": 1.001,
@@ -128,7 +128,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_56_c92fee49bdb9e33d",
+      "parentId": "cluster_75_c92fee49bdb9e33d",
       "headline": "US Senate Bill seeks 100% tariffs on India, China for buying Russian oil",
       "score": 0.5976566135483352,
       "postTreeScore": 0.9977,
@@ -148,7 +148,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_188_4702db0051724a4a",
+      "parentId": "cluster_207_4702db0051724a4a",
       "headline": "NEET UG 2026 results: Punjab’s Aryan Gupta, Haryana’s Panshul Bansal top; 11.21 lakh qualify",
       "score": 0.7065633864516649,
       "postTreeScore": 0.5966,
@@ -168,7 +168,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_452_568e429423135f58",
+      "parentId": "cluster_473_568e429423135f58",
       "headline": "Supreme Court voices concern over CBSE’s third language policy from Class 9",
       "score": 0.6604967197849982,
       "postTreeScore": 0.5505,
@@ -187,7 +187,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_200_14d779082de96b43",
+      "parentId": "cluster_219_14d779082de96b43",
       "headline": "US to revive rule of no green cards for those who use public benefits",
       "score": 0.6220800531183317,
       "postTreeScore": 0.5121,
@@ -207,7 +207,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_381_779729df50de6dc7",
+      "parentId": "cluster_401_779729df50de6dc7",
       "headline": "Ukraine's Parliament approves Serhii Koretskyi as new Prime Minister",
       "score": 0.6055800531183317,
       "postTreeScore": 0.4956,
@@ -226,7 +226,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_308_3f1aaf6f2e804218",
+      "parentId": "cluster_328_3f1aaf6f2e804218",
       "headline": "Indian court orders Maruti to replace car in first E20 fuel damage ruling - Reuters",
       "score": 0.5013566135483352,
       "postTreeScore": 0.3914,
@@ -245,7 +245,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_378_48e013d49647d59d",
+      "parentId": "cluster_398_48e013d49647d59d",
       "headline": "BHEL shares jump 4% after Maharatna PSU posts net profit of Rs 377 crore in Q1, revenue jumps 40%",
       "score": 0.7235911614783158,
       "postTreeScore": 0.4236,
@@ -263,8 +263,8 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_13_3168dad875aad345",
-      "headline": "JSW Steel Q1 Results: Net profit doubles to Rs 4,696 crore",
+      "parentId": "cluster_20_08560b80bb26b336",
+      "headline": "Rs 9,000 crore bet! Reliance Industries promoters increase stake by 0.5% in June quarter",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
       "childCount": 1,
@@ -375,8 +375,8 @@
       "weakParentRatio": 0.7,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 732,
-      "sourceGroupCount": 10
+      "storyCount": 722,
+      "sourceGroupCount": 9
     }
   }
 }
