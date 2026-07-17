@@ -1,23 +1,47 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784262227360,
-  "contentHash": "889e7b60313b",
+  "fetchedAt": 1784270199091,
+  "contentHash": "f83d633d9677",
   "breaking": [
     {
-      "title": "West Asia war LIVE: Seven people killed in U.S. strikes on bridges in southern Iranian city, says state media",
-      "summary": "U.S. projectiles struck Qeshm Island and near ‌Bandar ⁠Abbas — home to Iran's largest port and ⁠key navy and Revolutionary Guards facilities — both on the Strait of Hormuz on Thursday, July 16, evening",
+      "title": "West Asia war LIVE: China, Pakistan call on U.S. and Iran to resume talks",
+      "summary": "U.S. airstrikes appear to have damaged Chabahar port and Iran says at least seven people killed ⁠in ‌U.S. ‌attacks on ‌bridges ⁠",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/west-asia-war-us-iran-conflict-washington-strikes-tehran-donald-trump-strait-of-hormuz-live-updates-july-17-2026/article71232634.ece",
-      "publishedAt": 1784261267000,
+      "publishedAt": 1784269236000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "0849aee2fbe74846",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.478,
+      "breakingScore": 6.978,
       "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784269236000
+    },
+    {
+      "title": "Train collides with school van in West Bengal's Murshidabad, at least three dead",
+      "summary": "Two of the three deceased are minors; the injured survivors have admitted to Murshidabad Medical College and Hospital",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/west-bengal/school-students-dead-as-train-hits-pool-car-at-level-crossing-in-bengal/article71232738.ece",
+      "publishedAt": 1784268614000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "e3666576c5a97437",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.963,
+      "breakingReasons": [
+        "multi_source_velocity",
         "severity_lexicon"
       ],
       "sourceCount": 2,
@@ -25,7 +49,7 @@
         "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1784245053000
+      "firstSeen": 1784263225000
     },
     {
       "title": "Gangster Nitish Kaushal arrested in U.S.’s Vermont: FBI",
@@ -40,33 +64,32 @@
       "id": "c23abff12c2404f8",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.357,
+      "breakingScore": 4.172,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 3,
+      "sourceCount": 2,
       "allSources": [
-        "ndtv",
         "the_hindu",
         "times_of_india"
       ],
-      "firstSeen": 1784253277000
+      "firstSeen": 1784255125000
     },
     {
-      "title": "US Attacks Iran In Tit-For-Tat Strikes, Hits Airport, Railway Station, Bridges",
-      "summary": "According to Iranian media,  two people had died and four were injured in the attack.",
+      "title": "US Immigration Officer In Maine Shooting Has History Of Violent Behavio: Report",
+      "summary": "ICE officer accused of violent past shot and killed a Colombian man in Maine",
       "source": "NDTV",
       "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-strikes-hit-bridges-airport-in-iran-report-11782076#publisher=newsstand",
-      "publishedAt": 1784252573000,
+      "url": "https://www.ndtv.com/world-news/us-immigration-officer-in-maine-shooting-has-history-of-violent-behavio-report-11782489#publisher=newsstand",
+      "publishedAt": 1784267123000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "eb716b591ce3149d",
+      "id": "a8c95f7a79b17ae6",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.277,
+      "breakingScore": 3.929,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -74,91 +97,22 @@
       "allSources": [
         "ndtv"
       ],
-      "firstSeen": 1784252573000
+      "firstSeen": 1784267123000
     },
     {
-      "title": "Bahrain and Kuwait face Iranian fire as U.S. airstrikes expand to target more bridges",
-      "summary": "For the first time in this latest round of violence, strikes also reached into areas around Iran's capital, Tehran, showing a widening set of targets for the Americans",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/bahrain-and-kuwait-face-iranian-fire-as-us-airstrikes-expand-to-target-more-bridges/article71232551.ece",
-      "publishedAt": 1784252828000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "7dbd30c84250a5ef",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.782,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784252828000
-    },
-    {
-      "title": "Congress Worker At Rahul Gandhi's Dehradun Event Killed After Iron Rod Falls On Him",
-      "summary": "Congress worker Amar Mehta was rushed to a hospital, where doctors declared him dead. (Representational)",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/iron-rod-falls-on-congress-worker-at-rahul-gandhis-dehradun-event-dies-11782195#publisher=newsstand",
-      "publishedAt": 1784250590000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "6a077efbd430aa6f",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.731,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784250590000
-    },
-    {
-      "title": "Jantar Mantar protest: Sonam Wangchuk’s health condition entered critical stage, says doctor",
-      "summary": "Wangchuk has lost over 9 kg after starting hunger strike and his body is consuming muscles and his organs may be next, says doctor",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/sonam-wangchuk-hunger-strike-cjp-protest-in-delhi-jantar-mantar-cockroach-janta-party-live-updates-july-17-2026/article71232683.ece",
-      "publishedAt": 1784262030000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "1430393422a3e4f6",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.495,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784262030000
-    },
-    {
-      "title": "US launches fresh wave of strikes as Iran says civilian infrastructure hit",
-      "summary": "Iran says US strikes hit bridges in the country in an apparent escalation, while the US boards a ship in the Strait of Hormuz.",
+      "title": "School bus crash kills at least 20 pupils in Uganda",
+      "summary": "Dozens others, including school staff, were injured in the crash, suspected to have been caused by a mechanical fault.",
       "source": "BBC World",
       "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784260951000,
+      "url": "https://www.bbc.co.uk/news/articles/c151gegwqv1o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784266582000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "ed22d83270f65606",
+      "id": "bec2e390cf58ac2f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.47,
+      "breakingScore": 3.916,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -166,22 +120,22 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1784260951000
+      "firstSeen": 1784266582000
     },
     {
-      "title": "Avoid deploying Indian sailors on vessels moving via Strait of Hormuz: DGMA to shipping companies",
-      "summary": "The advisory came after the attacks this week on two vessels, in which 30 Indian seafarers were among a combined crew of 46",
-      "source": "The Hindu National",
+      "title": "Bahrain and Kuwait face Iranian fire as U.S. airstrikes expand to target more bridges",
+      "summary": "For the first time in this latest round of violence, strikes also reached into areas around Iran's capital, Tehran, showing a widening set of targets for the Americans",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/avoid-deploying-indian-sailors-on-vessels-moving-via-strait-of-hormuz-dgma-to-shipping-companies/article71231440.ece",
-      "publishedAt": 1784256221000,
-      "category": "india",
+      "url": "https://www.thehindu.com/news/international/bahrain-and-kuwait-face-iranian-fire-as-us-airstrikes-expand-to-target-more-bridges/article71232551.ece",
+      "publishedAt": 1784265751000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "34803fb1c5be4f9d",
+      "id": "7dbd30c84250a5ef",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.361,
+      "breakingScore": 3.897,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -189,7 +143,54 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784256221000
+      "firstSeen": 1784265751000
+    },
+    {
+      "title": "Olympic cyclist admits to driving despite ban after crash that killed wife",
+      "summary": "Rohan Dennis pleaded guilty to driving while disqualified after police pulled him over last month.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c62q3ywep1ro?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784264954000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "5a98e2793f0d0c03",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.879,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784264954000
+    },
+    {
+      "title": "Infosys, TCS, HCL Tech, other IT stocks rally up to 3%. 2 major reasons why",
+      "summary": "Indian IT stocks saw gains on Friday, led by Tech Mahindra's better-than-expected first quarter results. Infosys and HCL Tech also advanced, with HCL Tech securing a significant seven-year deal. Wipro shares declined more than three percent after reporting weak first-quarter performance. Brokerages offered positive outlooks for Tech Mahindra, increasing target prices for the stock. The Nifty IT index registered a notable increase, reflecting the broad-based gains.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/infosys-tcs-hcl-tech-other-it-stocks-rally-up-to-3-2-major-reasons-why/articleshow/132453255.cms",
+      "publishedAt": 1784265944000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "7f7701359fd0c223",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.902,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "economic_times",
+        "ndtv"
+      ],
+      "firstSeen": 1784264616000
     }
   ]
 }
