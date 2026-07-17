@@ -1,22 +1,70 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784278617988,
-  "contentHash": "6d0e080ef717",
+  "fetchedAt": 1784285258050,
+  "contentHash": "a1a7ebab21d4",
   "breaking": [
+    {
+      "title": "School bus crash kills at least 20 pupils in Uganda",
+      "summary": "Dozens others, including school staff, were injured in the crash, suspected to have been caused by a mechanical fault.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c151gegwqv1o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784282667000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "bec2e390cf58ac2f",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.94,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "the_hindu"
+      ],
+      "firstSeen": 1784278474000
+    },
+    {
+      "title": "US Immigration Officer In Maine Shooting Has History Of Violent Behaviour: Report",
+      "summary": "ICE officer accused of violent past shot and killed a Colombian man in Maine",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-immigration-officer-in-maine-shooting-has-history-of-violent-behavio-report-11782489#publisher=newsstand",
+      "publishedAt": 1784281409000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "a8c95f7a79b17ae6",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.911,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784281409000
+    },
     {
       "title": "West Asia war LIVE: Suspected Iranian attack on Kurdish dissident group in Iraq kills at least nine",
       "summary": "Iran did not immediately claim responsibility, but has repeatedly targeted Kurdish dissidents in Iraq ⁠",
-      "source": "The Hindu",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/west-asia-war-us-iran-conflict-washington-strikes-tehran-donald-trump-strait-of-hormuz-live-updates-july-17-2026/article71232634.ece",
-      "publishedAt": 1784276730000,
-      "category": "topStories",
+      "publishedAt": 1784281256000,
+      "category": "world",
       "region": "in",
       "language": "en",
       "id": "0849aee2fbe74846",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.956,
+      "breakingScore": 3.907,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -24,7 +72,30 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784276730000
+      "firstSeen": 1784281256000
+    },
+    {
+      "title": "US-Iran War News LIVE: Iran Says Struck US Aircraft In Jordan With Missiles, Drones",
+      "summary": "US-Iran War News LIVE: The US-Iran tensions have escalated in recent days",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-iran-war-news-live-donald-trump-strait-of-hormuz-mojtaba-khamenei-israel-netanyahu-middle-east-conflict-11783939#publisher=newsstand",
+      "publishedAt": 1784280813000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "68e3615a5bce8f2e",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.897,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784280813000
     },
     {
       "title": "Russian recruits survive just 20-30 minutes on Ukraine frontlines: CIA chief explains why",
@@ -39,7 +110,7 @@
       "id": "430cd95617a60cbc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.905,
+      "breakingScore": 3.751,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -48,52 +119,6 @@
         "times_of_india"
       ],
       "firstSeen": 1784274519000
-    },
-    {
-      "title": "Several trapped after landslide buries homes in China's Chongqing",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132455006.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />State broadcaster CCTV said a local community worker noticed rocks falling from a hillside at around 8 am local time and issued an emergency warning. Authorities immediately began evacuating more than 60 residents, but the landslide struck at 9.08 am, trapping several people before the evacuation could be completed. Footage aired by CCTV showed a section of the hillside collapsing onto a cluster of riverside homes.",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/china/several-trapped-after-landslide-buries-homes-in-chinas-chongqing/articleshow/132455006.cms",
-      "publishedAt": 1784272767000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "7943e5b4d78c4a90",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.865,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "times_of_india"
-      ],
-      "firstSeen": 1784272767000
-    },
-    {
-      "title": "School bus crash kills at least 20 pupils in Uganda",
-      "summary": "Dozens others, including school staff, were injured in the crash, suspected to have been caused by a mechanical fault.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c151gegwqv1o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784266582000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "bec2e390cf58ac2f",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.721,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1784266582000
     },
     {
       "title": "Olympic cyclist admits to driving despite ban after crash that killed wife",
@@ -108,7 +133,7 @@
       "id": "5a98e2793f0d0c03",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.684,
+      "breakingScore": 3.53,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -119,19 +144,19 @@
       "firstSeen": 1784264954000
     },
     {
-      "title": "Trump revives election fraud claims ahead of U.S. midterms",
-      "summary": "Mr. Trump portrayed the U.S. electoral system as dangerously exposed and urged lawmakers to adopt new restrictions on voting, despite scant appetite for the measures even within his own Republican Party",
-      "source": "The Hindu International",
+      "title": "Jantar Mantar protest LIVE: Sonam Wangchuk dehydrated; fasting student leaders advised not to walk",
+      "summary": "Delhi HC to hear PIL on July 20 over 'continuous, intrusive' police surveillance at Jantar Mantar protest",
+      "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/trump-revives-election-fraud-claims-ahead-of-us-midterms/article71232640.ece",
-      "publishedAt": 1784273905000,
-      "category": "world",
+      "url": "https://www.thehindu.com/news/national/sonam-wangchuk-hunger-strike-cjp-protest-in-delhi-jantar-mantar-cockroach-janta-party-live-updates-july-17-2026/article71232683.ece",
+      "publishedAt": 1784283535000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "2c2dcf7e17655bbc",
+      "id": "1430393422a3e4f6",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.891,
+      "breakingScore": 2.96,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -140,54 +165,30 @@
         "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1784268698000
+      "firstSeen": 1784282633000
     },
     {
-      "title": "Japan relaxes royal succession rules - but ban on female emperors remains",
-      "summary": "The law now allows the adoption of male distant relatives aged over 15 back into the imperial family.",
-      "source": "BBC World",
+      "title": "Wildfire still burning across four miles as helicopter waterbombs Cairngorms",
+      "summary": "Firefighters are still on the scene and an area commander says there are \"adequate resources\" to deal with the incident.",
+      "source": "BBC",
       "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cy07rz79zg9o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784265394000,
+      "url": "https://www.bbc.co.uk/news/articles/cr59ng05nngo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784284358000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "108b0c34ba06f19c",
+      "id": "fbbf596a06729462",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.694,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "bbc",
-        "times_of_india"
-      ],
-      "firstSeen": 1784261121000
-    },
-    {
-      "title": "Medical Body IMA Warns Maharashtra Hospitals' Shutdown Over Attack On Doctors",
-      "summary": "Shiv Sena corporator Ramesh Mhatre seen assaulting a doctor",
-      "source": "NDTV India",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/medical-body-ima-warns-maharashtra-hospitals-shutdown-over-attack-on-doctors-11783797#publisher=newsstand",
-      "publishedAt": 1784277954000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "2304c0f5a8bc5400",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.485,
+      "breakingScore": 2.479,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "ndtv"
+        "bbc"
       ],
-      "firstSeen": 1784277954000
+      "firstSeen": 1784284358000
     }
   ]
 }
