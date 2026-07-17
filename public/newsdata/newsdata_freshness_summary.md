@@ -6,5 +6,5 @@
 
 | Snapshot | Status | Age h | Stories | fetchedAt |
 |---|---|---:|---:|---:|
-| insight | PASS | 0.01 | 815 | 1784304714947 |
-| sections | PASS | 0.0 | 286 | 1784304724955 |
+| insight | PASS | 0.01 | 808 | 1784311364716 |
+| sections | PASS | 0.0 | 288 | 1784311378506 |
