@@ -1,45 +1,47 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784311346758,
-  "contentHash": "5a64a0a95c76",
+  "fetchedAt": 1784316705265,
+  "contentHash": "0f77929c63c3",
   "breaking": [
     {
-      "title": "7.4-Magnitude Earthquake Strikes Southern Mexico, Tsunami Alert Issued",
-      "summary": "People evacuate a building after a 7.4-magnitude earthquake struck off the coast of Mexico's Chiapas.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/7-4-magnitude-earthquake-strikes-southern-mexico-tsunami-alert-issued-11785957#publisher=newsstand",
-      "publishedAt": 1784306180000,
-      "category": "topStories",
+      "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
+      "summary": "The US Tsunami Warning Center issued a warning and has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cwyjv3815yxo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784311974000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "d08f6e21ec567657",
+      "id": "c511924f3fd5ccc3",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.88,
+      "breakingScore": 7.39,
       "breakingReasons": [
+        "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
-        "ndtv"
+        "bbc",
+        "the_hindu"
       ],
-      "firstSeen": 1784306180000
+      "firstSeen": 1784308882000
     },
     {
       "title": "Internet Suspended In J&K's Doda After Man Killed, 2 Injured In Shooting",
       "summary": "The victim's relatives also demanded a fair probe and justice.",
-      "source": "NDTV",
+      "source": "NDTV India",
       "sourceGroup": "ndtv",
       "url": "https://www.ndtv.com/india-news/internet-suspended-in-j-ks-doda-after-civilian-killed-11785769#publisher=newsstand",
       "publishedAt": 1784302113000,
-      "category": "topStories",
+      "category": "india",
       "region": "in",
       "language": "en",
       "id": "0dfa3db3356a7ef8",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.286,
+      "breakingScore": 5.162,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -62,7 +64,7 @@
       "id": "bec2e390cf58ac2f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.142,
+      "breakingScore": 5.018,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -74,42 +76,19 @@
       "firstSeen": 1784278474000
     },
     {
-      "title": "U.S. airstrikes on Iran appear to have damaged Chabahar port",
-      "summary": "Chabahar port has been a repeated target of American airstrikes. Iranian state media acknowledged a third round of strikes on the facility without immediately acknowledging the tower's collapse",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/us-airstrikes-on-iran-appear-to-have-damaged-chabahar-port/article71234235.ece",
-      "publishedAt": 1784295041000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "bf7b7a53ce514fbd",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.123,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784295041000
-    },
-    {
       "title": "Landslide in China's Chongqing city kills 8, leaves 34 missing",
       "summary": "Water, electricity and gas supplies were cut off within a 1-km (0.6-mile) radius of the landslide to prevent further disruptions. Over 800 rescuers were on the site",
-      "source": "The Hindu",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/china-landslide-chongqing-city-death-toll-updates/article71235660.ece",
       "publishedAt": 1784309581000,
-      "category": "topStories",
+      "category": "world",
       "region": "in",
       "language": "en",
       "id": "4ccfd1856327f78e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.459,
+      "breakingScore": 4.335,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -120,6 +99,52 @@
         "times_of_india"
       ],
       "firstSeen": 1784306442000
+    },
+    {
+      "title": "\"Trying To Find New Purpose\": Parents Of Boy Killed In Mumbai Tree Collapse",
+      "summary": "Vihaan Srivastav was killed when a tree fell on his school bus.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/vihaan-chembur-trying-to-find-new-purpose-parents-of-boy-killed-in-mumbai-tree-collapse-11786548#publisher=newsstand",
+      "publishedAt": 1784313459000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "8895633643ecaa0f",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.925,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784313459000
+    },
+    {
+      "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
+      "summary": "The US military says its attacks were intended to \"further degrade Iranian military capabilities\".",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784313192000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "ed22d83270f65606",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.919,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784313192000
     },
     {
       "title": "Air conditioner sparked deadly blaze at children's orphanage - police",
@@ -134,7 +159,7 @@
       "id": "fa0486d46f1ef42e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.859,
+      "breakingScore": 3.735,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -145,50 +170,28 @@
       "firstSeen": 1784305245000
     },
     {
-      "title": "Murshidabad Train Accident Updates: 3 Students Among 4 Killed In Train-Van Collision In West Bengal's Murshidabad",
-      "summary": "The injured students have been admitted to Murshidabad Medical College and Hospital.",
-      "source": "NDTV India",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/murshidabad-train-accident-live-updates-train-rams-school-van-in-west-bengals-murshidabad-several-students-injured-11782726#publisher=newsstand",
-      "publishedAt": 1784300278000,
+      "title": "Henry Nowak stabbing case: Vickrum Digwa's mother jailed for 3 years in UK for hiding murder weapon",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132466334.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/uk/henry-nowak-stabbing-case-vickrum-digwas-mother-jailed-for-3-years-in-uk-for-hiding-murder-weapon/articleshow/132466334.cms",
+      "publishedAt": 1784309920000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "091ecffd7f7d4122",
+      "id": "5107dab51d8ca182",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.744,
+      "breakingScore": 2.843,
       "breakingReasons": [
-        "severity_lexicon"
+        "multi_source_velocity"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
-        "ndtv"
+        "bbc",
+        "times_of_india"
       ],
-      "firstSeen": 1784300278000
-    },
-    {
-      "title": "West Asia war LIVE: Iran Guards say attack on U.S. base in Qatar meant to 'punish aggressor'",
-      "summary": "Iran did not immediately claim responsibility, but has repeatedly targeted Kurdish dissidents in Iraq ⁠",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/west-asia-war-us-iran-conflict-washington-strikes-tehran-donald-trump-strait-of-hormuz-live-updates-july-17-2026/article71232634.ece",
-      "publishedAt": 1784292690000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "0849aee2fbe74846",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.568,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784292690000
+      "firstSeen": 1784308968000
     }
   ]
 }
