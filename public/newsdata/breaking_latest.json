@@ -1,24 +1,46 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784289970403,
-  "contentHash": "74a4b404688a",
+  "fetchedAt": 1784296921458,
+  "contentHash": "660b7f8b6e66",
   "breaking": [
     {
-      "title": "School bus crash kills at least 20 pupils in Uganda",
-      "summary": "Dozens others, including school staff, were injured in the crash, suspected to have been caused by a mechanical fault.",
+      "title": "Nagaland Police offer ₹50K reward for leads in July 13 IED blast",
+      "summary": "An Assam Rifles havildar was killed, and four others were critically injured following a blast suspected to have been caused by an improvised explosive device (IED) at Khopanullah under Chümoukedima ‘A’ village",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/nagaland/nagaland-police-offer-50k-reward-for-leads-in-july-13-ied-blast/article71234094.ece",
+      "publishedAt": 1784296147000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "e73cc2cf955996e2",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.482,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784296147000
+    },
+    {
+      "title": "Uganda suspends school trips after 20 pupils die in bus crash",
+      "summary": "Thousands are killed on Uganda's roads each year but this is one of its deadliest accidents involving children.",
       "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/c151gegwqv1o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784282667000,
+      "publishedAt": 1784295902000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "bec2e390cf58ac2f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.831,
+      "breakingScore": 5.476,
       "breakingReasons": [
-        "multi_source_velocity",
         "severity_lexicon"
       ],
       "sourceCount": 2,
@@ -29,19 +51,19 @@
       "firstSeen": 1784278474000
     },
     {
-      "title": "West Asia war LIVE: Iran Guards say attack on U.S. base in Qatar meant to 'punish aggressor'",
-      "summary": "Iran did not immediately claim responsibility, but has repeatedly targeted Kurdish dissidents in Iraq ⁠",
-      "source": "The Hindu",
+      "title": "U.S. airstrikes on Iran appear to have damaged Chabahar port",
+      "summary": "Chabahar port has been a repeated target of American airstrikes. Iranian state media acknowledged a third round of strikes on the facility without immediately acknowledging the tower's collapse",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/west-asia-war-us-iran-conflict-washington-strikes-tehran-donald-trump-strait-of-hormuz-live-updates-july-17-2026/article71232634.ece",
-      "publishedAt": 1784289035000,
-      "category": "topStories",
+      "url": "https://www.thehindu.com/news/international/us-airstrikes-on-iran-appear-to-have-damaged-chabahar-port/article71234235.ece",
+      "publishedAt": 1784295041000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "0849aee2fbe74846",
+      "id": "bf7b7a53ce514fbd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.978,
+      "breakingScore": 5.456,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -49,22 +71,68 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784289035000
+      "firstSeen": 1784295041000
     },
     {
-      "title": "\"Tore It Up\": Mumbai Mayor Rejects Civic Body Report On Chembur Tree Collapse",
+      "title": "Two killed after crashing motorcycle into metro pillar in Kukatpally",
+      "summary": "",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/two-killed-after-crashing-motorcycle-into-metro-pillar-in-kukatpally/article71234269.ece",
+      "publishedAt": 1784296233000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "0b1788f1114e35f8",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.984,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784296233000
+    },
+    {
+      "title": "West Asia war LIVE: Iran Guards say attack on U.S. base in Qatar meant to 'punish aggressor'",
+      "summary": "Iran did not immediately claim responsibility, but has repeatedly targeted Kurdish dissidents in Iraq ⁠",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/west-asia-war-us-iran-conflict-washington-strikes-tehran-donald-trump-strait-of-hormuz-live-updates-july-17-2026/article71232634.ece",
+      "publishedAt": 1784292690000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "0849aee2fbe74846",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.902,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784292690000
+    },
+    {
+      "title": "\"Rs 7 Lakh Price Set For Lost Life\": Mumbai Mayor On Tree Collapse Report",
       "summary": "Vihaan Srivastav was killed when a tree fell on his school bus last month",
       "source": "NDTV",
       "sourceGroup": "ndtv",
       "url": "https://www.ndtv.com/india-news/tore-it-up-mumbai-mayor-ritu-tawde-rejects-civic-body-report-on-chembur-tree-collapse-11784552#publisher=newsstand",
-      "publishedAt": 1784288864000,
+      "publishedAt": 1784292654000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "f245511700b7f6e0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.974,
+      "breakingScore": 3.901,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -72,122 +140,55 @@
       "allSources": [
         "ndtv"
       ],
-      "firstSeen": 1784288864000
+      "firstSeen": 1784292654000
     },
     {
-      "title": "Key Accused Arrested In Assam Madrassa Sexual Abuse Case",
-      "summary": "Police are now also probing the financial trails of the madrassa.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/key-accused-arrested-in-assam-madrassa-sexual-abuse-case-11784663#publisher=newsstand",
-      "publishedAt": 1784289402000,
+      "title": "Quote of the day by Joel Tillinghast: \"People who have had success in other parts of their lives have difficulty accepting how much failure there is in the stock market\"",
+      "summary": "Joel Tillinghast notes successful individuals struggle with stock market losses.  The stock market involves uncertainty, economic cycles, and investor sentiment.  Even experienced investors face setbacks and must learn from mistakes.  Retail investors should embrace patience and diversification for wealth building.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/quote-of-the-day-by-joel-tillinghast-people-who-have-had-success-in-other-parts-of-their-lives-have-difficulty-accepting-how-much-failure-there-is-in-the-stock-market/articleshow/132459228.cms",
+      "publishedAt": 1784291791000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "130955ad305d3aa1",
+      "id": "f6d3bf17da87af24",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.487,
+      "breakingScore": 2.881,
       "breakingReasons": [
-        "severity_lexicon"
+        "multi_source_velocity"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784289402000
-    },
-    {
-      "title": "Five more arrested in Gujarat Anti-Terrorist Squad probe into alleged JeM module; total accused rises to 13",
-      "summary": "A court has remanded them to eight days of police custody to facilitate further investigation",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/gujarat/five-more-arrested-in-gujarat-anti-terrorist-squad-probe-into-alleged-jem-module-total-accused-rises-to-13/article71233601.ece",
-      "publishedAt": 1784288594000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "b0f035ff7d899c7c",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.468,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784288594000
-    },
-    {
-      "title": "India releases first anti-terror policy PRAHAAR",
-      "summary": "MHA policy emphasises that, in addition to terrorism sponsored from across the border, “criminal hackers and nation-states are targeting India with cyber-attacks”",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/india-releases-first-anti-terror-policy-prahaar/article70666292.ece",
-      "publishedAt": 1784288229000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "c76f1dc67b1a3e2c",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.46,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784288229000
-    },
-    {
-      "title": "Andy Burnham confirmed as new Labour leader, U.K. PM-designate",
-      "summary": "On Monday (July 20, 2026), Mr. Burnham will be invited by King Charles III to form a new government after outgoing PM Keir Starmer formally tenders his resignation to the monarch",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/andy-burnham-confirmed-as-new-labour-leader-uk-pm-designate/article71233876.ece",
-      "publishedAt": 1784288202000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "af0d0771a0e02cc1",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.459,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784288202000
-    },
-    {
-      "title": "US fugitive featured on 'America's Most Wanted' arrested after 20 years on the run",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132460065.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/us/us-fugitive-featured-on-americas-most-wanted-arrested-after-20-years-on-the-run/articleshow/132460065.cms",
-      "publishedAt": 1784287609000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "b2a64a4a639e4dbf",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.445,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
+        "economic_times",
         "times_of_india"
       ],
-      "firstSeen": 1784287609000
+      "firstSeen": 1784289856000
+    },
+    {
+      "title": "Andy Burnham To Take Oath As Britain's Prime Minister Next Week",
+      "summary": "Burnham will arrive in Downing Street largely unknown to voters outside Manchester.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/andy-burnham-to-take-oath-as-britains-prime-minister-next-week-11784744#publisher=newsstand",
+      "publishedAt": 1784291325000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "48d820b8a370c290",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.87,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "times_of_india"
+      ],
+      "firstSeen": 1784287737000
     }
   ]
 }
