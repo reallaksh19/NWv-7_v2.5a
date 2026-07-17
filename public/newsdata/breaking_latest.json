@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784323945644,
-  "contentHash": "732196ba3dae",
+  "fetchedAt": 1784327459773,
+  "contentHash": "7de15c45e827",
   "breaking": [
     {
       "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
@@ -16,7 +16,7 @@
       "id": "c511924f3fd5ccc3",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 7.223,
+      "breakingScore": 7.142,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -41,7 +41,7 @@
       "id": "9f031b9eca120680",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.423,
+      "breakingScore": 5.342,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -50,6 +50,52 @@
         "the_hindu"
       ],
       "firstSeen": 1784320614000
+    },
+    {
+      "title": "West Asia war updates: Iran Guards say attack on U.S. base in Qatar meant to 'punish aggressor'",
+      "summary": "Iran did not immediately claim responsibility, but has repeatedly targeted Kurdish dissidents in Iraq ⁠",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/west-asia-war-us-iran-conflict-washington-strikes-tehran-donald-trump-strait-of-hormuz-live-updates-july-17-2026/article71232634.ece",
+      "publishedAt": 1784324827000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "0849aee2fbe74846",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.939,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784324827000
+    },
+    {
+      "title": "Venezuela Earthquake: Death Count Rises To More Than 5,000",
+      "summary": "The 7.2 and 7.5 magnitude quakes that struck on June 24 killed 5,069 people.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/venezuela-earthquake-death-count-rises-to-more-than-5-000-11786786#publisher=newsstand",
+      "publishedAt": 1784322732000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "35d975d48c864cf6",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.891,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784322732000
     },
     {
       "title": "US-Iran War News LIVE: US Launches Fresh Strikes Against Iran As Hormuz Tensions Intensify",
@@ -64,7 +110,7 @@
       "id": "68e3615a5bce8f2e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.909,
+      "breakingScore": 3.828,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -87,7 +133,7 @@
       "id": "8895633643ecaa0f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.757,
+      "breakingScore": 3.676,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -110,7 +156,7 @@
       "id": "ed22d83270f65606",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.751,
+      "breakingScore": 3.67,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -119,29 +165,6 @@
         "bbc"
       ],
       "firstSeen": 1784313192000
-    },
-    {
-      "title": "Air conditioner sparked deadly blaze at children's orphanage - police",
-      "summary": "Eleven people, including children, died in the fire that also injured 19 others.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c9d8ylw60e9o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784305245000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "fa0486d46f1ef42e",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.567,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1784305245000
     },
     {
       "title": "Henry Nowak stabbing case: Vickrum Digwa's mother jailed for 3 years in UK for hiding murder weapon",
@@ -156,7 +179,7 @@
       "id": "5107dab51d8ca182",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.675,
+      "breakingScore": 2.594,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -166,29 +189,6 @@
         "times_of_india"
       ],
       "firstSeen": 1784308968000
-    },
-    {
-      "title": "Trump threatens to tariff Canada over wildfire smoke choking northern US cities",
-      "summary": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784322842000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "2407ca3b6fc854f1",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.474,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1784322842000
     }
   ]
 }
