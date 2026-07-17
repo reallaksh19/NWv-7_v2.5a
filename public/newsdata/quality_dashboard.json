@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1784321550387,
+  "generatedAt": 1784332316798,
   "windowDays": 7,
   "latest": {
     "insightGrade": "D",
     "insightScore": 0,
-    "totalStories": 784,
-    "usableStories36h": 756,
-    "sourceGroups": 10,
+    "totalStories": 698,
+    "usableStories36h": 673,
+    "sourceGroups": 9,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.3016,
+    "rankingOverallScore": 0.3027,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.3016,
+    "overallScore": 0.3027,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1784321549472,
+    "generatedAt": 1784332315561,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.3723,
+      "insight": 0.3757,
       "localTravel": 0,
-      "upAhead": 0.834
+      "upAhead": 0.835
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.3723,
+        "score": 0.3757,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.834,
+        "score": 0.835,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -74,8 +74,8 @@
         "oneSourceCappedCount": 0
       },
       "insight": {
-        "parentClusters": 10,
-        "strongParents": 10,
+        "parentClusters": 9,
+        "strongParents": 9,
         "weakParentsDemoted": 0,
         "avgAnglesPerParent": 0,
         "baseReportHeavyParents": 1,
@@ -257,16 +257,16 @@
     },
     {
       "date": "2026-07-17",
-      "generatedAt": 1784321550387,
+      "generatedAt": 1784332316798,
       "insightGrade": "D",
       "insightScore": 0,
-      "totalStories": 784,
-      "usableStories36h": 756,
-      "sourceGroups": 10,
+      "totalStories": 698,
+      "usableStories36h": 673,
+      "sourceGroups": 9,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.3016,
+      "rankingOverallScore": 0.3027,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,

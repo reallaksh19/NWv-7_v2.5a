@@ -60,7 +60,7 @@
       "gateResults": [
         {
           "details": {
-            "itemCount": 10
+            "itemCount": 9
           },
           "name": "insightEventPool",
           "reason": "rankable Insight event pool",
@@ -79,14 +79,14 @@
         "avgAnglesPerParent": 0.0,
         "baseReportHeavyParents": 1,
         "duplicateChildrenSuppressed": 0,
-        "inputCandidateCount": 10,
-        "parentClusters": 10,
-        "strongParents": 10,
+        "inputCandidateCount": 9,
+        "parentClusters": 9,
+        "strongParents": 9,
         "suppressedCandidateCount": 0,
         "weakParentsDemoted": 0
       },
       "qualityGrade": "F",
-      "qualityScore": 0.3723,
+      "qualityScore": 0.3757,
       "qualityStatus": "WARN",
       "rankedItems": [
         {
@@ -175,7 +175,7 @@
             "storyIds": [
               "90d917bf9ae536bc",
               "82ea0749d0de2b8d",
-              "a47f9861bbd2cc3a",
+              "4ee739c53b939a61",
               "86e809c754b9139e",
               "c0b89c693126f623"
             ],
@@ -191,7 +191,7 @@
               "updates",
               "july",
               "declares",
-              "operation",
+              "neelkanth",
               "brazil",
               "strong"
             ],
@@ -427,116 +427,6 @@
           ],
           "score": 0.401,
           "title": "Oceansat-3A likely to be launched by year-end, says NRSC Director"
-        },
-        {
-          "category": "insightEvent",
-          "gates": [
-            {
-              "details": {
-                "storyCount": 2
-              },
-              "name": "eventCoherence",
-              "reason": "event sketch has repeated story count",
-              "score": 0.62,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "baseReportRatio": 0.0,
-                "distinctAngles": 1
-              },
-              "name": "angleDiversity",
-              "reason": "weak child angle diversity",
-              "score": 0.25,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "sourceGroupCount": 1
-              },
-              "name": "sourceDiversity",
-              "reason": "one-source event candidate",
-              "score": 0.35,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "baseReportRatio": 0.0
-              },
-              "name": "baseReportCap",
-              "reason": "base-report ratio controlled",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "childCount": 2
-              },
-              "name": "weakTree",
-              "reason": "child tree has enough depth",
-              "score": 0.5,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "duplicateChildren",
-              "reason": "no child objects to dedup",
-              "score": 0.7,
-              "status": "PASS"
-            }
-          ],
-          "id": "sketch:fcde5c7120",
-          "item": {
-            "angleCount": 1,
-            "baseReportRatio": 0.0,
-            "childScores": [],
-            "id": "sketch:fcde5c7120",
-            "representativeId": "cefd0947496f8de7",
-            "representativeTitle": "Buy Bajaj Finance; target of Rs 9000: Emkay Global Financial",
-            "scoreBreakdown": {
-              "angleDiversityScore": 0.25,
-              "eventImportanceScore": 0.59,
-              "freshnessScore": 0.0,
-              "noveltyDeltaScore": 0.44999999999999996,
-              "sourceAuthorityScore": 0.38,
-              "sourceDiversityScore": 0.35,
-              "temporalEvolutionScore": 0.37
-            },
-            "slotCount": 1,
-            "slots": [
-              "minus24h"
-            ],
-            "sourceGroupCount": 1,
-            "sourceGroups": [
-              "moneycontrol"
-            ],
-            "storyCount": 2,
-            "storyIds": [
-              "cefd0947496f8de7",
-              "d0020e471404281a"
-            ],
-            "topAngles": [
-              {
-                "angle": "market_reaction",
-                "count": 2
-              }
-            ],
-            "topTokens": [
-              "bajaj",
-              "finance",
-              "target",
-              "emkay"
-            ],
-            "topicKey": "bajaj|finance|target"
-          },
-          "locationKey": "event",
-          "rankingReasons": [
-            "event sketch has repeated story count",
-            "weak child angle diversity",
-            "one-source event candidate"
-          ],
-          "score": 0.389,
-          "title": "Buy Bajaj Finance; target of Rs 9000: Emkay Global Financial"
         },
         {
           "category": "insightEvent",
@@ -1211,12 +1101,12 @@
       "rankingProfile": "insight-v2-event-angle-tree",
       "scoreBreakdown": {
         "angleDiversityScore": 0.25,
-        "eventImportanceScore": 0.626,
+        "eventImportanceScore": 0.63,
         "freshnessScore": 0.0,
-        "noveltyDeltaScore": 0.46,
-        "sourceAuthorityScore": 0.428,
-        "sourceDiversityScore": 0.424,
-        "temporalEvolutionScore": 0.418
+        "noveltyDeltaScore": 0.4611,
+        "sourceAuthorityScore": 0.4333,
+        "sourceDiversityScore": 0.4322,
+        "temporalEvolutionScore": 0.4233
       }
     },
     "localTravel": {
@@ -1351,7 +1241,7 @@
         "suppressedItemCount": 10
       },
       "qualityGrade": "B",
-      "qualityScore": 0.834,
+      "qualityScore": 0.835,
       "qualityStatus": "WARN",
       "rankedItems": [
         {
@@ -4112,6 +4002,121 @@
           "title": "Man beaten to death in Padappai, two persons surrender before police"
         },
         {
+          "category": "shopping",
+          "gates": [
+            {
+              "details": {
+                "dedupKey": "17a70f76d3ad7db3"
+              },
+              "name": "dedup",
+              "reason": "unique item",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "displayUntil": 1784416356000
+              },
+              "name": "futureValidity",
+              "reason": "valid undated item with active display window",
+              "score": 0.65,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "matchScore": 0.72,
+                "matchedLocation": "online",
+                "relevance": "onlineOnly",
+                "scope": "online"
+              },
+              "name": "location",
+              "reason": "online/global item allowed without city match",
+              "score": 0.72,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "hasPlace": false,
+                "hasTime": true
+              },
+              "name": "actionability",
+              "reason": "item has enough action fields",
+              "score": 0.85,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "hoursLeft": 23.34
+              },
+              "name": "offerValidity",
+              "reason": "offer expires soon",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "alertUrgency",
+              "reason": "not an alert",
+              "score": 0.6,
+              "status": "PASS"
+            }
+          ],
+          "id": "8980887c7978b794",
+          "item": {
+            "actionabilityScore": 0.65,
+            "category": "shopping",
+            "city": null,
+            "contentClass": "upahead_offer",
+            "dateConfidence": "unknown",
+            "dateSource": "none",
+            "eventEndAt": null,
+            "eventStartAt": null,
+            "expiryAt": 1784416356000,
+            "id": "8980887c7978b794",
+            "language": "en",
+            "lifecycle": {
+              "archiveUntil": 1785021156000,
+              "contentClass": "upahead_offer",
+              "displayUntil": 1784416356000,
+              "isActionValid": true,
+              "isVisible": true,
+              "plannerEligibleByLifecycle": true,
+              "plannerPastGraceHours": 6,
+              "retentionReason": "expiryAt",
+              "withinSevenDayHorizon": true
+            },
+            "localityScore": 0.3,
+            "normalizedCategory": "shopping",
+            "plannerEligible": true,
+            "publishedAt": 1784243556000,
+            "region": null,
+            "scoreBreakdown": {
+              "actionabilityScore": 0.8500000000000001,
+              "categoryPriorityScore": 0.68,
+              "lifecycleScore": 0.65,
+              "locationScore": 0.72,
+              "plannerFitScore": 1.0,
+              "sourceConfidenceScore": 0.58,
+              "urgencyOrExpiryScore": 1.0
+            },
+            "source": "Google News Shopping",
+            "sourceGroup": "google_news",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQTJGNnV2S0Z0OUlUc3lpeGJIUG1mdGpDM2txTUdwdHdRalBQZk80QXBzckh5dzJPUFdmbG4wU0F0SDN4MlllR1Btc29SQkJSNHhVRnBxaENhRFVrSDdBLUF2dDBpdk9TTTlMMlZPbmUyZXhvV1daalR5Q0dIaS16N2p4WmgxZm15UHBJ?oc=5\" target=\"_blank\">7 Best Kitchen Appliance Deals To Look For On Amazon In July 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Meal</font>",
+            "suppressionReason": null,
+            "title": "7 Best Kitchen Appliance Deals To Look For On Amazon In July 2026 - Daily Meal",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQTJGNnV2S0Z0OUlUc3lpeGJIUG1mdGpDM2txTUdwdHdRalBQZk80QXBzckh5dzJPUFdmbG4wU0F0SDN4MlllR1Btc29SQkJSNHhVRnBxaENhRFVrSDdBLUF2dDBpdk9TTTlMMlZPbmUyZXhvV1daalR5Q0dIaS16N2p4WmgxZm15UHBJ?oc=5"
+          },
+          "locationKey": "online",
+          "rankingReasons": [
+            "shopping",
+            "valid undated item with active display window",
+            "online/global item allowed without city match",
+            "planner advisory fit"
+          ],
+          "score": 0.744,
+          "title": "7 Best Kitchen Appliance Deals To Look For On Amazon In July 2026 - Daily Meal"
+        },
+        {
           "category": "alerts",
           "gates": [
             {
@@ -4270,7 +4275,7 @@
             },
             {
               "details": {
-                "hoursLeft": 34.72
+                "hoursLeft": 31.73
               },
               "name": "offerValidity",
               "reason": "offer active within three days",
@@ -4339,121 +4344,6 @@
           ],
           "score": 0.726,
           "title": "4 Mini Chainsaws On Amazon With Deep Discounts In July 2026 - SlashGear"
-        },
-        {
-          "category": "shopping",
-          "gates": [
-            {
-              "details": {
-                "dedupKey": "17a70f76d3ad7db3"
-              },
-              "name": "dedup",
-              "reason": "unique item",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "displayUntil": 1784416356000
-              },
-              "name": "futureValidity",
-              "reason": "valid undated item with active display window",
-              "score": 0.65,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "matchScore": 0.72,
-                "matchedLocation": "online",
-                "relevance": "onlineOnly",
-                "scope": "online"
-              },
-              "name": "location",
-              "reason": "online/global item allowed without city match",
-              "score": 0.72,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "hasPlace": false,
-                "hasTime": true
-              },
-              "name": "actionability",
-              "reason": "item has enough action fields",
-              "score": 0.85,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "hoursLeft": 26.34
-              },
-              "name": "offerValidity",
-              "reason": "offer active within three days",
-              "score": 0.82,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "alertUrgency",
-              "reason": "not an alert",
-              "score": 0.6,
-              "status": "PASS"
-            }
-          ],
-          "id": "8980887c7978b794",
-          "item": {
-            "actionabilityScore": 0.65,
-            "category": "shopping",
-            "city": null,
-            "contentClass": "upahead_offer",
-            "dateConfidence": "unknown",
-            "dateSource": "none",
-            "eventEndAt": null,
-            "eventStartAt": null,
-            "expiryAt": 1784416356000,
-            "id": "8980887c7978b794",
-            "language": "en",
-            "lifecycle": {
-              "archiveUntil": 1785021156000,
-              "contentClass": "upahead_offer",
-              "displayUntil": 1784416356000,
-              "isActionValid": true,
-              "isVisible": true,
-              "plannerEligibleByLifecycle": true,
-              "plannerPastGraceHours": 6,
-              "retentionReason": "expiryAt",
-              "withinSevenDayHorizon": true
-            },
-            "localityScore": 0.3,
-            "normalizedCategory": "shopping",
-            "plannerEligible": true,
-            "publishedAt": 1784243556000,
-            "region": null,
-            "scoreBreakdown": {
-              "actionabilityScore": 0.8500000000000001,
-              "categoryPriorityScore": 0.68,
-              "lifecycleScore": 0.65,
-              "locationScore": 0.72,
-              "plannerFitScore": 1.0,
-              "sourceConfidenceScore": 0.58,
-              "urgencyOrExpiryScore": 0.82
-            },
-            "source": "Google News Shopping",
-            "sourceGroup": "google_news",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQTJGNnV2S0Z0OUlUc3lpeGJIUG1mdGpDM2txTUdwdHdRalBQZk80QXBzckh5dzJPUFdmbG4wU0F0SDN4MlllR1Btc29SQkJSNHhVRnBxaENhRFVrSDdBLUF2dDBpdk9TTTlMMlZPbmUyZXhvV1daalR5Q0dIaS16N2p4WmgxZm15UHBJ?oc=5\" target=\"_blank\">7 Best Kitchen Appliance Deals To Look For On Amazon In July 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Meal</font>",
-            "suppressionReason": null,
-            "title": "7 Best Kitchen Appliance Deals To Look For On Amazon In July 2026 - Daily Meal",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQTJGNnV2S0Z0OUlUc3lpeGJIUG1mdGpDM2txTUdwdHdRalBQZk80QXBzckh5dzJPUFdmbG4wU0F0SDN4MlllR1Btc29SQkJSNHhVRnBxaENhRFVrSDdBLUF2dDBpdk9TTTlMMlZPbmUyZXhvV1daalR5Q0dIaS16N2p4WmgxZm15UHBJ?oc=5"
-          },
-          "locationKey": "online",
-          "rankingReasons": [
-            "shopping",
-            "valid undated item with active display window",
-            "online/global item allowed without city match",
-            "planner advisory fit"
-          ],
-          "score": 0.726,
-          "title": "7 Best Kitchen Appliance Deals To Look For On Amazon In July 2026 - Daily Meal"
         }
       ],
       "rankingProfile": "upAhead-v2-lifecycle-location-category",
@@ -4464,11 +4354,11 @@
         "locationScore": 0.9274,
         "plannerFitScore": 0.9259,
         "sourceConfidenceScore": 0.58,
-        "urgencyOrExpiryScore": 0.7911
+        "urgencyOrExpiryScore": 0.7978
       }
     }
   },
-  "generatedAt": 1784321549472,
+  "generatedAt": 1784332315561,
   "implementedDestinations": [
     "upAhead",
     "buzz",
@@ -4500,9 +4390,9 @@
     ],
     "destinationScores": {
       "buzz": 0.0,
-      "insight": 0.3723,
+      "insight": 0.3757,
       "localTravel": 0.0,
-      "upAhead": 0.834
+      "upAhead": 0.835
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -4510,7 +4400,7 @@
       "localTravel": "FAIL",
       "upAhead": "WARN"
     },
-    "overallScore": 0.3016,
+    "overallScore": 0.3027,
     "overallStatus": "FAIL",
     "rankingProfiles": {
       "buzz": "buzz-v2-trend-local-travel",
