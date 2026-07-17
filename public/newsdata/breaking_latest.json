@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784316705265,
-  "contentHash": "0f77929c63c3",
+  "fetchedAt": 1784320301047,
+  "contentHash": "023dbb4e785d",
   "breaking": [
     {
       "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
@@ -16,7 +16,7 @@
       "id": "c511924f3fd5ccc3",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 7.39,
+      "breakingScore": 7.307,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -41,7 +41,7 @@
       "id": "0dfa3db3356a7ef8",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.162,
+      "breakingScore": 5.079,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -50,55 +50,6 @@
         "ndtv"
       ],
       "firstSeen": 1784302113000
-    },
-    {
-      "title": "Uganda suspends school trips after 20 pupils die in bus crash",
-      "summary": "Thousands are killed on Uganda's roads each year but this is one of its deadliest accidents involving children.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c151gegwqv1o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784295902000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "bec2e390cf58ac2f",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.018,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "bbc",
-        "the_hindu"
-      ],
-      "firstSeen": 1784278474000
-    },
-    {
-      "title": "Landslide in China's Chongqing city kills 8, leaves 34 missing",
-      "summary": "Water, electricity and gas supplies were cut off within a 1-km (0.6-mile) radius of the landslide to prevent further disruptions. Over 800 rescuers were on the site",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/china-landslide-chongqing-city-death-toll-updates/article71235660.ece",
-      "publishedAt": 1784309581000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "4ccfd1856327f78e",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 4.335,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "the_hindu",
-        "times_of_india"
-      ],
-      "firstSeen": 1784306442000
     },
     {
       "title": "\"Trying To Find New Purpose\": Parents Of Boy Killed In Mumbai Tree Collapse",
@@ -113,7 +64,7 @@
       "id": "8895633643ecaa0f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.925,
+      "breakingScore": 3.842,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -136,7 +87,7 @@
       "id": "ed22d83270f65606",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.919,
+      "breakingScore": 3.835,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -159,7 +110,7 @@
       "id": "fa0486d46f1ef42e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.735,
+      "breakingScore": 3.651,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -182,7 +133,7 @@
       "id": "5107dab51d8ca182",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.843,
+      "breakingScore": 2.76,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -192,6 +143,52 @@
         "times_of_india"
       ],
       "firstSeen": 1784308968000
+    },
+    {
+      "title": "Jantar Mantar protest LIVE: Opposition support grows as Wangchuk’s hunger strike continues on day 20",
+      "summary": "“The medical team stated that Sonam Wangchuk continues to be under 24-hour medical vigilance, with his health being monitored closely,” the CJP said",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/sonam-wangchuk-hunger-strike-cjp-protest-in-delhi-jantar-mantar-cockroach-janta-party-live-updates-july-17-2026/article71232683.ece",
+      "publishedAt": 1784316837000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "1430393422a3e4f6",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.42,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784316837000
+    },
+    {
+      "title": "Middle East On Boil Again? Iran Threatens \"Zero Hour\", Trump Deploys Planes",
+      "summary": "Senior American and Israeli officials say that Trump could order the attacks in the coming days",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/middle-east-on-boil-again-iran-threatens-zero-hour-donald-trump-deploys-planes-11786235#publisher=newsstand",
+      "publishedAt": 1784311054000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "88dfb87e03ed3b89",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.286,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784311054000
     }
   ]
 }
