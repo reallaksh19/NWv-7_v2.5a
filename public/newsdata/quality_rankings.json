@@ -60,7 +60,7 @@
       "gateResults": [
         {
           "details": {
-            "itemCount": 6
+            "itemCount": 10
           },
           "name": "insightEventPool",
           "reason": "rankable Insight event pool",
@@ -79,14 +79,14 @@
         "avgAnglesPerParent": 0.0,
         "baseReportHeavyParents": 1,
         "duplicateChildrenSuppressed": 0,
-        "inputCandidateCount": 6,
-        "parentClusters": 6,
-        "strongParents": 6,
+        "inputCandidateCount": 10,
+        "parentClusters": 10,
+        "strongParents": 10,
         "suppressedCandidateCount": 0,
         "weakParentsDemoted": 0
       },
       "qualityGrade": "F",
-      "qualityScore": 0.3702,
+      "qualityScore": 0.3604,
       "qualityStatus": "WARN",
       "rankedItems": [
         {
@@ -190,6 +190,7 @@
               "live",
               "updates",
               "july",
+              "declares",
               "brazil",
               "strong",
               "govt"
@@ -373,6 +374,338 @@
               "status": "PASS"
             }
           ],
+          "id": "sketch:84476cc645",
+          "item": {
+            "angleCount": 1,
+            "baseReportRatio": 0.0,
+            "childScores": [],
+            "id": "sketch:84476cc645",
+            "representativeId": "cdc9d140efb3074e",
+            "representativeTitle": "NEET re-test results 2026: 12 students from Tamil Nadu score above 690",
+            "scoreBreakdown": {
+              "angleDiversityScore": 0.25,
+              "eventImportanceScore": 0.59,
+              "freshnessScore": 0.0,
+              "noveltyDeltaScore": 0.44999999999999996,
+              "sourceAuthorityScore": 0.38,
+              "sourceDiversityScore": 0.35,
+              "temporalEvolutionScore": 0.49
+            },
+            "slotCount": 2,
+            "slots": [
+              "minus4h",
+              "now"
+            ],
+            "sourceGroupCount": 1,
+            "sourceGroups": [
+              "the_hindu"
+            ],
+            "storyCount": 2,
+            "storyIds": [
+              "cdc9d140efb3074e",
+              "81f0d640344a0a48"
+            ],
+            "topAngles": [
+              {
+                "angle": "regional_followup",
+                "count": 2
+              }
+            ],
+            "topTokens": [
+              "neet",
+              "results",
+              "year",
+              "re-test"
+            ],
+            "topicKey": "neet|results|year"
+          },
+          "locationKey": "event",
+          "rankingReasons": [
+            "event sketch has repeated story count",
+            "weak child angle diversity",
+            "one-source event candidate"
+          ],
+          "score": 0.401,
+          "title": "NEET re-test results 2026: 12 students from Tamil Nadu score above 690"
+        },
+        {
+          "category": "insightEvent",
+          "gates": [
+            {
+              "details": {
+                "storyCount": 2
+              },
+              "name": "eventCoherence",
+              "reason": "event sketch has repeated story count",
+              "score": 0.62,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "baseReportRatio": 0.0,
+                "distinctAngles": 1
+              },
+              "name": "angleDiversity",
+              "reason": "weak child angle diversity",
+              "score": 0.25,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "sourceGroupCount": 1
+              },
+              "name": "sourceDiversity",
+              "reason": "one-source event candidate",
+              "score": 0.35,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "baseReportRatio": 0.0
+              },
+              "name": "baseReportCap",
+              "reason": "base-report ratio controlled",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "childCount": 2
+              },
+              "name": "weakTree",
+              "reason": "child tree has enough depth",
+              "score": 0.5,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "duplicateChildren",
+              "reason": "no child objects to dedup",
+              "score": 0.7,
+              "status": "PASS"
+            }
+          ],
+          "id": "sketch:fcde5c7120",
+          "item": {
+            "angleCount": 1,
+            "baseReportRatio": 0.0,
+            "childScores": [],
+            "id": "sketch:fcde5c7120",
+            "representativeId": "cefd0947496f8de7",
+            "representativeTitle": "Buy Bajaj Finance; target of Rs 9000: Emkay Global Financial",
+            "scoreBreakdown": {
+              "angleDiversityScore": 0.25,
+              "eventImportanceScore": 0.59,
+              "freshnessScore": 0.0,
+              "noveltyDeltaScore": 0.44999999999999996,
+              "sourceAuthorityScore": 0.38,
+              "sourceDiversityScore": 0.35,
+              "temporalEvolutionScore": 0.37
+            },
+            "slotCount": 1,
+            "slots": [
+              "minus24h"
+            ],
+            "sourceGroupCount": 1,
+            "sourceGroups": [
+              "moneycontrol"
+            ],
+            "storyCount": 2,
+            "storyIds": [
+              "cefd0947496f8de7",
+              "d0020e471404281a"
+            ],
+            "topAngles": [
+              {
+                "angle": "market_reaction",
+                "count": 2
+              }
+            ],
+            "topTokens": [
+              "bajaj",
+              "finance",
+              "target",
+              "emkay"
+            ],
+            "topicKey": "bajaj|finance|target"
+          },
+          "locationKey": "event",
+          "rankingReasons": [
+            "event sketch has repeated story count",
+            "weak child angle diversity",
+            "one-source event candidate"
+          ],
+          "score": 0.389,
+          "title": "Buy Bajaj Finance; target of Rs 9000: Emkay Global Financial"
+        },
+        {
+          "category": "insightEvent",
+          "gates": [
+            {
+              "details": {
+                "storyCount": 2
+              },
+              "name": "eventCoherence",
+              "reason": "event sketch has repeated story count",
+              "score": 0.62,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "baseReportRatio": 0.0,
+                "distinctAngles": 1
+              },
+              "name": "angleDiversity",
+              "reason": "weak child angle diversity",
+              "score": 0.25,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "sourceGroupCount": 1
+              },
+              "name": "sourceDiversity",
+              "reason": "one-source event candidate",
+              "score": 0.35,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "baseReportRatio": 0.0
+              },
+              "name": "baseReportCap",
+              "reason": "base-report ratio controlled",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "childCount": 2
+              },
+              "name": "weakTree",
+              "reason": "child tree has enough depth",
+              "score": 0.5,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "duplicateChildren",
+              "reason": "no child objects to dedup",
+              "score": 0.7,
+              "status": "PASS"
+            }
+          ],
+          "id": "sketch:08ce0ab641",
+          "item": {
+            "angleCount": 1,
+            "baseReportRatio": 0.0,
+            "childScores": [],
+            "id": "sketch:08ce0ab641",
+            "representativeId": "dd73fd9ace6cfe22",
+            "representativeTitle": "Caliber Mining & Logistics IPO Day 1: Issue subscribed 61% so far; GMP signals 25% listing gain",
+            "scoreBreakdown": {
+              "angleDiversityScore": 0.25,
+              "eventImportanceScore": 0.59,
+              "freshnessScore": 0.0,
+              "noveltyDeltaScore": 0.44999999999999996,
+              "sourceAuthorityScore": 0.38,
+              "sourceDiversityScore": 0.35,
+              "temporalEvolutionScore": 0.37
+            },
+            "slotCount": 1,
+            "slots": [
+              "now"
+            ],
+            "sourceGroupCount": 1,
+            "sourceGroups": [
+              "economic_times"
+            ],
+            "storyCount": 2,
+            "storyIds": [
+              "dd73fd9ace6cfe22",
+              "f981661c7b7e8db9"
+            ],
+            "topAngles": [
+              {
+                "angle": "market_reaction",
+                "count": 2
+              }
+            ],
+            "topTokens": [
+              "caliber",
+              "mining",
+              "logistics",
+              "issue",
+              "opens"
+            ],
+            "topicKey": "caliber|mining|logistics"
+          },
+          "locationKey": "event",
+          "rankingReasons": [
+            "event sketch has repeated story count",
+            "weak child angle diversity",
+            "one-source event candidate"
+          ],
+          "score": 0.389,
+          "title": "Caliber Mining & Logistics IPO Day 1: Issue subscribed 61% so far; GMP signals 25% listing gain"
+        },
+        {
+          "category": "insightEvent",
+          "gates": [
+            {
+              "details": {
+                "storyCount": 2
+              },
+              "name": "eventCoherence",
+              "reason": "event sketch has repeated story count",
+              "score": 0.62,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "baseReportRatio": 0.0,
+                "distinctAngles": 1
+              },
+              "name": "angleDiversity",
+              "reason": "weak child angle diversity",
+              "score": 0.25,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "sourceGroupCount": 1
+              },
+              "name": "sourceDiversity",
+              "reason": "one-source event candidate",
+              "score": 0.35,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "baseReportRatio": 0.0
+              },
+              "name": "baseReportCap",
+              "reason": "base-report ratio controlled",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "childCount": 2
+              },
+              "name": "weakTree",
+              "reason": "child tree has enough depth",
+              "score": 0.5,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "duplicateChildren",
+              "reason": "no child objects to dedup",
+              "score": 0.7,
+              "status": "PASS"
+            }
+          ],
           "id": "sketch:6490d07a5a",
           "item": {
             "angleCount": 1,
@@ -426,6 +759,116 @@
           ],
           "score": 0.389,
           "title": "Explained: Why ICICI Lombard shares tumbled 15% in their biggest fall since the COVID crash"
+        },
+        {
+          "category": "insightEvent",
+          "gates": [
+            {
+              "details": {
+                "storyCount": 2
+              },
+              "name": "eventCoherence",
+              "reason": "event sketch has repeated story count",
+              "score": 0.62,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "baseReportRatio": 0.0,
+                "distinctAngles": 1
+              },
+              "name": "angleDiversity",
+              "reason": "weak child angle diversity",
+              "score": 0.25,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "sourceGroupCount": 1
+              },
+              "name": "sourceDiversity",
+              "reason": "one-source event candidate",
+              "score": 0.35,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "baseReportRatio": 0.0
+              },
+              "name": "baseReportCap",
+              "reason": "base-report ratio controlled",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "childCount": 2
+              },
+              "name": "weakTree",
+              "reason": "child tree has enough depth",
+              "score": 0.5,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "duplicateChildren",
+              "reason": "no child objects to dedup",
+              "score": 0.7,
+              "status": "PASS"
+            }
+          ],
+          "id": "sketch:384d417f5f",
+          "item": {
+            "angleCount": 1,
+            "baseReportRatio": 0.0,
+            "childScores": [],
+            "id": "sketch:384d417f5f",
+            "representativeId": "8b4dafe2d70fc8a9",
+            "representativeTitle": "Is the AI stock boom losing steam after the latest chip selloff?",
+            "scoreBreakdown": {
+              "angleDiversityScore": 0.25,
+              "eventImportanceScore": 0.59,
+              "freshnessScore": 0.0,
+              "noveltyDeltaScore": 0.44999999999999996,
+              "sourceAuthorityScore": 0.38,
+              "sourceDiversityScore": 0.35,
+              "temporalEvolutionScore": 0.37
+            },
+            "slotCount": 1,
+            "slots": [
+              "now"
+            ],
+            "sourceGroupCount": 1,
+            "sourceGroups": [
+              "economic_times"
+            ],
+            "storyCount": 2,
+            "storyIds": [
+              "8b4dafe2d70fc8a9",
+              "c5a99e7b13b4c258"
+            ],
+            "topAngles": [
+              {
+                "angle": "market_reaction",
+                "count": 2
+              }
+            ],
+            "topTokens": [
+              "selloff",
+              "stock",
+              "boom",
+              "losing"
+            ],
+            "topicKey": "selloff|stock|boom"
+          },
+          "locationKey": "event",
+          "rankingReasons": [
+            "event sketch has repeated story count",
+            "weak child angle diversity",
+            "one-source event candidate"
+          ],
+          "score": 0.389,
+          "title": "Is the AI stock boom losing steam after the latest chip selloff?"
         },
         {
           "category": "insightEvent",
@@ -763,12 +1206,12 @@
       "rankingProfile": "insight-v2-event-angle-tree",
       "scoreBreakdown": {
         "angleDiversityScore": 0.25,
-        "eventImportanceScore": 0.67,
+        "eventImportanceScore": 0.638,
         "freshnessScore": 0.0,
         "noveltyDeltaScore": 0.45,
-        "sourceAuthorityScore": 0.42,
-        "sourceDiversityScore": 0.4117,
-        "temporalEvolutionScore": 0.39
+        "sourceAuthorityScore": 0.404,
+        "sourceDiversityScore": 0.387,
+        "temporalEvolutionScore": 0.394
       }
     },
     "localTravel": {
@@ -835,8 +1278,8 @@
       "destination": "upAhead",
       "diagnosticReasons": [
         "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
-        "What is the row over Karur ‘temple land’? | Explained: futureValidity failed — expired display window",
-        "What is the row over Karur ‘temple land’? | Explained: alertUrgency failed — alert expired",
+        "The composer in mridangist Arun Prakash takes centre stage: futureValidity failed — expired display window",
+        "The composer in mridangist Arun Prakash takes centre stage: alertUrgency failed — alert expired",
         "Amazon Prime Day sale ends with mega deals - News.com.au: location failed — offline/local item lacks configured location match"
       ],
       "gateResults": [
@@ -852,28 +1295,30 @@
         {
           "details": {
             "categoryCounts": {
-              "alerts": 29,
+              "alerts": 28,
+              "movies": 1,
               "weather_alerts": 1
             }
           },
           "name": "categoryCoverage",
           "reason": "category coverage available",
-          "score": 0.5,
+          "score": 0.75,
           "status": "PASS"
         }
       ],
       "gateSummary": {
-        "alerts": 30,
+        "alerts": 29,
         "categoryCounts": {
-          "alerts": 29,
+          "alerts": 28,
+          "movies": 1,
           "weather_alerts": 1
         },
-        "events": 0,
+        "events": 1,
         "festivals": 0,
-        "inputItemCount": 35,
+        "inputItemCount": 37,
         "locationCounts": {
-          "chennai": 21,
-          "trichy": 9
+          "chennai": 22,
+          "trichy": 8
         },
         "locationsCovered": [
           "chennai",
@@ -881,12 +1326,12 @@
         ],
         "offlineOffers": 0,
         "onlineOffers": 0,
-        "plannerAdvisoryItems": 30,
+        "plannerAdvisoryItems": 29,
         "rankedItemCount": 30,
         "suppressedItemCount": 3
       },
       "qualityGrade": "B",
-      "qualityScore": 0.8475,
+      "qualityScore": 0.8431,
       "qualityStatus": "WARN",
       "rankedItems": [
         {
@@ -1003,6 +1448,121 @@
           ],
           "score": 0.8485,
           "title": "2 held for abduction, assault of man over ₹15-lakh loan dispute"
+        },
+        {
+          "category": "alerts",
+          "gates": [
+            {
+              "details": {
+                "dedupKey": "b22ccb315be3986f"
+              },
+              "name": "dedup",
+              "reason": "unique item",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "displayUntil": 1784358881000
+              },
+              "name": "futureValidity",
+              "reason": "valid undated item with active display window",
+              "score": 0.65,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "matchScore": 1.0,
+                "matchedLocation": "chennai",
+                "relevance": "primary",
+                "scope": "exactCity"
+              },
+              "name": "location",
+              "reason": "location matches configured profile",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "hasPlace": true,
+                "hasTime": true
+              },
+              "name": "actionability",
+              "reason": "item has enough action fields",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "offerValidity",
+              "reason": "not an offer",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "severe": false
+              },
+              "name": "alertUrgency",
+              "reason": "active alert",
+              "score": 0.78,
+              "status": "PASS"
+            }
+          ],
+          "id": "582c1ae1f7746876",
+          "item": {
+            "actionabilityScore": 0.7,
+            "category": "alerts",
+            "city": "Chennai",
+            "contentClass": "upahead_alert",
+            "dateConfidence": "unknown",
+            "dateSource": "none",
+            "eventEndAt": null,
+            "eventStartAt": null,
+            "expiryAt": 1784358881000,
+            "id": "582c1ae1f7746876",
+            "language": "en",
+            "lifecycle": {
+              "archiveUntil": 1784963681000,
+              "contentClass": "upahead_alert",
+              "displayUntil": 1784358881000,
+              "isActionValid": true,
+              "isVisible": true,
+              "plannerEligibleByLifecycle": true,
+              "plannerPastGraceHours": 6,
+              "retentionReason": "expiryAt",
+              "withinSevenDayHorizon": true
+            },
+            "localityScore": 1.0,
+            "normalizedCategory": "alerts",
+            "plannerEligible": true,
+            "publishedAt": 1784272481000,
+            "region": "tn",
+            "scoreBreakdown": {
+              "actionabilityScore": 1.0,
+              "categoryPriorityScore": 1.0,
+              "lifecycleScore": 0.65,
+              "locationScore": 1.0,
+              "plannerFitScore": 1.0,
+              "sourceConfidenceScore": 0.58,
+              "urgencyOrExpiryScore": 0.78
+            },
+            "source": "The Hindu Chennai",
+            "sourceGroup": "the_hindu",
+            "summary": "Greater Chennai Corporation’s gym for women at 4th Trust Link Street promises to draw many fitness enthusiasts, for sure teachers of a neighbouring school",
+            "suppressionReason": null,
+            "title": "A new ‘hangout’ in Santhome",
+            "url": "https://www.thehindu.com/news/cities/chennai/a-new-hangout-in-santhome/article71210203.ece"
+          },
+          "locationKey": "chennai",
+          "rankingReasons": [
+            "alerts",
+            "valid undated item with active display window",
+            "location matches configured profile",
+            "planner advisory fit"
+          ],
+          "score": 0.8485,
+          "title": "A new ‘hangout’ in Santhome"
         },
         {
           "category": "alerts",
@@ -1463,121 +2023,6 @@
           ],
           "score": 0.8485,
           "title": "Chennai Corporation identifies 115 missing links in city’s drain network"
-        },
-        {
-          "category": "alerts",
-          "gates": [
-            {
-              "details": {
-                "dedupKey": "9d8900c0527de98d"
-              },
-              "name": "dedup",
-              "reason": "unique item",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "displayUntil": 1784275536000
-              },
-              "name": "futureValidity",
-              "reason": "valid undated item with active display window",
-              "score": 0.65,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "matchScore": 1.0,
-                "matchedLocation": "chennai",
-                "relevance": "primary",
-                "scope": "exactCity"
-              },
-              "name": "location",
-              "reason": "location matches configured profile",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "hasPlace": true,
-                "hasTime": true
-              },
-              "name": "actionability",
-              "reason": "item has enough action fields",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "offerValidity",
-              "reason": "not an offer",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "severe": false
-              },
-              "name": "alertUrgency",
-              "reason": "active alert",
-              "score": 0.78,
-              "status": "PASS"
-            }
-          ],
-          "id": "25b5a1cfc27e00fe",
-          "item": {
-            "actionabilityScore": 0.7,
-            "category": "alerts",
-            "city": "Chennai",
-            "contentClass": "upahead_alert",
-            "dateConfidence": "unknown",
-            "dateSource": "none",
-            "eventEndAt": null,
-            "eventStartAt": null,
-            "expiryAt": 1784275536000,
-            "id": "25b5a1cfc27e00fe",
-            "language": "en",
-            "lifecycle": {
-              "archiveUntil": 1784880336000,
-              "contentClass": "upahead_alert",
-              "displayUntil": 1784275536000,
-              "isActionValid": true,
-              "isVisible": true,
-              "plannerEligibleByLifecycle": true,
-              "plannerPastGraceHours": 6,
-              "retentionReason": "expiryAt",
-              "withinSevenDayHorizon": true
-            },
-            "localityScore": 1.0,
-            "normalizedCategory": "alerts",
-            "plannerEligible": true,
-            "publishedAt": 1784189136000,
-            "region": "tn",
-            "scoreBreakdown": {
-              "actionabilityScore": 1.0,
-              "categoryPriorityScore": 1.0,
-              "lifecycleScore": 0.65,
-              "locationScore": 1.0,
-              "plannerFitScore": 1.0,
-              "sourceConfidenceScore": 0.58,
-              "urgencyOrExpiryScore": 0.78
-            },
-            "source": "The Hindu Chennai",
-            "sourceGroup": "the_hindu",
-            "summary": "It will be opened when the stretch from Koyambedu to Chennai Trade Centre, a part of corridor 5, is completed.",
-            "suppressionReason": null,
-            "title": "Chennai Metro Rail’s major interchange station gets ready in Koyambedu",
-            "url": "https://www.thehindu.com/news/cities/chennai/koyambedu-chennai-metro-rails-major-interchange-station-gets-ready/article71225959.ece"
-          },
-          "locationKey": "chennai",
-          "rankingReasons": [
-            "alerts",
-            "valid undated item with active display window",
-            "location matches configured profile",
-            "planner advisory fit"
-          ],
-          "score": 0.8485,
-          "title": "Chennai Metro Rail’s major interchange station gets ready in Koyambedu"
         },
         {
           "category": "alerts",
@@ -2619,121 +3064,6 @@
           "gates": [
             {
               "details": {
-                "dedupKey": "5aa54426ee3b1499"
-              },
-              "name": "dedup",
-              "reason": "unique item",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "displayUntil": 1784274926000
-              },
-              "name": "futureValidity",
-              "reason": "valid undated item with active display window",
-              "score": 0.65,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "matchScore": 1.0,
-                "matchedLocation": "trichy",
-                "relevance": "primary",
-                "scope": "exactCity"
-              },
-              "name": "location",
-              "reason": "location matches configured profile",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "hasPlace": true,
-                "hasTime": true
-              },
-              "name": "actionability",
-              "reason": "item has enough action fields",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "offerValidity",
-              "reason": "not an offer",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "severe": false
-              },
-              "name": "alertUrgency",
-              "reason": "active alert",
-              "score": 0.78,
-              "status": "PASS"
-            }
-          ],
-          "id": "6aaec615303957e3",
-          "item": {
-            "actionabilityScore": 0.7,
-            "category": "alerts",
-            "city": "Trichy",
-            "contentClass": "upahead_alert",
-            "dateConfidence": "unknown",
-            "dateSource": "none",
-            "eventEndAt": null,
-            "eventStartAt": null,
-            "expiryAt": 1784274926000,
-            "id": "6aaec615303957e3",
-            "language": "en",
-            "lifecycle": {
-              "archiveUntil": 1784879726000,
-              "contentClass": "upahead_alert",
-              "displayUntil": 1784274926000,
-              "isActionValid": true,
-              "isVisible": true,
-              "plannerEligibleByLifecycle": true,
-              "plannerPastGraceHours": 6,
-              "retentionReason": "expiryAt",
-              "withinSevenDayHorizon": true
-            },
-            "localityScore": 0.9,
-            "normalizedCategory": "alerts",
-            "plannerEligible": true,
-            "publishedAt": 1784188526000,
-            "region": "tn",
-            "scoreBreakdown": {
-              "actionabilityScore": 1.0,
-              "categoryPriorityScore": 1.0,
-              "lifecycleScore": 0.65,
-              "locationScore": 1.0,
-              "plannerFitScore": 1.0,
-              "sourceConfidenceScore": 0.58,
-              "urgencyOrExpiryScore": 0.78
-            },
-            "source": "The Hindu Trichy",
-            "sourceGroup": "the_hindu",
-            "summary": "All is not well in the famed ‘Granary of South India’. Between a poor southwest  monsoon and lack of water in the Cauvery, crops and farmers are left high and dry. The kuruvai cultivation area in Thanjavur alone has dipped to around 89,000 acres this season from around 1,94,000 acres in the previous cultivation year.  This report describes the situation on the ground",
-            "suppressionReason": null,
-            "title": "Poor monsoon and no Cauvery water: distress in Tamil Nadu’s delta region",
-            "url": "https://www.thehindu.com/news/national/tamil-nadu/poor-monsoon-and-no-cauvery-water-distress-in-delta-region-of-tamil-nadu-2026-kharif-season/article71211621.ece"
-          },
-          "locationKey": "trichy",
-          "rankingReasons": [
-            "alerts",
-            "valid undated item with active display window",
-            "location matches configured profile",
-            "planner advisory fit"
-          ],
-          "score": 0.8485,
-          "title": "Poor monsoon and no Cauvery water: distress in Tamil Nadu’s delta region"
-        },
-        {
-          "category": "alerts",
-          "gates": [
-            {
-              "details": {
                 "dedupKey": "8b0cb630a2a2e4a8"
               },
               "name": "dedup",
@@ -3079,7 +3409,7 @@
           "gates": [
             {
               "details": {
-                "dedupKey": "d9f29847cf198059"
+                "dedupKey": "ae3e74276ff758ac"
               },
               "name": "dedup",
               "reason": "unique item",
@@ -3088,7 +3418,7 @@
             },
             {
               "details": {
-                "displayUntil": 1784280673000
+                "displayUntil": 1784360783000
               },
               "name": "futureValidity",
               "reason": "valid undated item with active display window",
@@ -3134,7 +3464,7 @@
               "status": "PASS"
             }
           ],
-          "id": "382b857faa40dea1",
+          "id": "10d695d9e5394fa6",
           "item": {
             "actionabilityScore": 0.7,
             "category": "alerts",
@@ -3144,13 +3474,13 @@
             "dateSource": "none",
             "eventEndAt": null,
             "eventStartAt": null,
-            "expiryAt": 1784280673000,
-            "id": "382b857faa40dea1",
+            "expiryAt": 1784360783000,
+            "id": "10d695d9e5394fa6",
             "language": "en",
             "lifecycle": {
-              "archiveUntil": 1784885473000,
+              "archiveUntil": 1784965583000,
               "contentClass": "upahead_alert",
-              "displayUntil": 1784280673000,
+              "displayUntil": 1784360783000,
               "isActionValid": true,
               "isVisible": true,
               "plannerEligibleByLifecycle": true,
@@ -3161,7 +3491,7 @@
             "localityScore": 1.0,
             "normalizedCategory": "alerts",
             "plannerEligible": true,
-            "publishedAt": 1784194273000,
+            "publishedAt": 1784274383000,
             "region": "tn",
             "scoreBreakdown": {
               "actionabilityScore": 1.0,
@@ -3174,10 +3504,10 @@
             },
             "source": "The Hindu Chennai",
             "sourceGroup": "the_hindu",
-            "summary": "The album Solladi Sivashakti, featuring Subramania Bharati’s songs, rendered by Bombay Jayashri, is his latest venture.",
+            "summary": "This increase will take the total number of MBBS seats in 78 colleges in the State to 13,999",
             "suppressionReason": null,
-            "title": "The composer in mridangist Arun Prakash takes centre stage",
-            "url": "https://www.thehindu.com/entertainment/music/the-composer-in-mridangist-arunprakash-takes-centre-stage/article71217259.ece"
+            "title": "Tamil Nadu adds 950 MBBS seats for 2026-27 academic year",
+            "url": "https://www.thehindu.com/news/cities/chennai/tamil-nadu-adds-950-mbbs-seats-for-2026-27-academic-year/article71226405.ece"
           },
           "locationKey": "chennai",
           "rankingReasons": [
@@ -3187,7 +3517,7 @@
             "planner advisory fit"
           ],
           "score": 0.8485,
-          "title": "The composer in mridangist Arun Prakash takes centre stage"
+          "title": "Tamil Nadu adds 950 MBBS seats for 2026-27 academic year"
         },
         {
           "category": "alerts",
@@ -3535,6 +3865,118 @@
           "title": "Monsoon 2026 Hits Kerala! IMD Issues Alert For Telangana, Tamil Nadu | Heavy Rain in Delhi Amid Yellow Alert - Goodreturns"
         },
         {
+          "category": "movies",
+          "gates": [
+            {
+              "details": {
+                "dedupKey": "e2023c32544bd0cb"
+              },
+              "name": "dedup",
+              "reason": "unique item",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "eventStartAt": 1784246400000
+              },
+              "name": "futureValidity",
+              "reason": "inside lifecycle horizon",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "matchScore": 0.72,
+                "matchedLocation": "chennai",
+                "relevance": "secondary",
+                "scope": "region"
+              },
+              "name": "location",
+              "reason": "location matches configured profile",
+              "score": 0.72,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "hasPlace": false,
+                "hasTime": true
+              },
+              "name": "actionability",
+              "reason": "item has enough action fields",
+              "score": 0.85,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "offerValidity",
+              "reason": "not an offer",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "alertUrgency",
+              "reason": "not an alert",
+              "score": 0.6,
+              "status": "PASS"
+            }
+          ],
+          "id": "c6966d4c7dff6a37",
+          "item": {
+            "actionabilityScore": 0.5,
+            "category": "movies",
+            "city": null,
+            "contentClass": "upahead_event",
+            "dateConfidence": "exact",
+            "dateSource": "title",
+            "eventEndAt": null,
+            "eventStartAt": 1784246400000,
+            "expiryAt": 1784332799000,
+            "id": "c6966d4c7dff6a37",
+            "language": "en",
+            "lifecycle": {
+              "archiveUntil": 1784937599000,
+              "contentClass": "upahead_event",
+              "displayUntil": 1784332799000,
+              "isActionValid": true,
+              "isVisible": true,
+              "plannerEligibleByLifecycle": false,
+              "plannerPastGraceHours": 6,
+              "retentionReason": "expiryAt",
+              "withinSevenDayHorizon": true
+            },
+            "localityScore": 0.5,
+            "normalizedCategory": "movies",
+            "plannerEligible": false,
+            "publishedAt": 1784241000000,
+            "region": "india",
+            "scoreBreakdown": {
+              "actionabilityScore": 0.8500000000000001,
+              "categoryPriorityScore": 0.76,
+              "lifecycleScore": 1.0,
+              "locationScore": 0.72,
+              "plannerFitScore": 0.0,
+              "sourceConfidenceScore": 0.58,
+              "urgencyOrExpiryScore": 1.0
+            },
+            "source": "Google News",
+            "sourceGroup": "google_news",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwJBVV95cUxNZzQ1WERCOEVnREF6QzZkeXpWcGZRTjNnTk5TVmx1WG9icThxb194WDhYZWc4RVI5bVVpMzY0aXpxXzExZXVOY1J6VGNrcVdnSDFtQm5Nbi1RdEpRdjZkekhObS0zXzhYVFlUVGxZaTNFMDVvSjd3NHNlWUREbG9RclAxQlFnbXJvZHlWNDZ0Z0xibXk3OUowTi13X3N1c0pSWE9hUElPV29xZHh1TGlCdEVZejMyUnlwdlh2Zkt3WkYxbWZpdnFPMkJpc3JVbjhRRHZadVdZTjUtUWdrZmFhWTJYb0xDV3kyanBXalZaV1Q5OS1OZjRlaU9EQW9UVTRkRXBaeDNzOS1mZ09GSTd0Ml9sX1BZYlU?oc=5\" target=\"_blank\">Friday OTT releases for this week (July 17, 2026): ‘Desire’, ‘Maa Inti Bangaaram’, 'The East Palace' lead the lineup</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times of India</font>",
+            "suppressionReason": null,
+            "title": "Friday OTT releases for this week (July 17, 2026): ‘Desire’, ‘Maa Inti Bangaaram’, 'The East Palace' lead the lineup - The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNZzQ1WERCOEVnREF6QzZkeXpWcGZRTjNnTk5TVmx1WG9icThxb194WDhYZWc4RVI5bVVpMzY0aXpxXzExZXVOY1J6VGNrcVdnSDFtQm5Nbi1RdEpRdjZkekhObS0zXzhYVFlUVGxZaTNFMDVvSjd3NHNlWUREbG9RclAxQlFnbXJvZHlWNDZ0Z0xibXk3OUowTi13X3N1c0pSWE9hUElPV29xZHh1TGlCdEVZejMyUnlwdlh2Zkt3WkYxbWZpdnFPMkJpc3JVbjhRRHZadVdZTjUtUWdrZmFhWTJYb0xDV3kyanBXalZaV1Q5OS1OZjRlaU9EQW9UVTRkRXBaeDNzOS1mZ09GSTd0Ml9sX1BZYlU?oc=5"
+          },
+          "locationKey": "chennai",
+          "rankingReasons": [
+            "movies",
+            "inside lifecycle horizon",
+            "location matches configured profile"
+          ],
+          "score": 0.7935,
+          "title": "Friday OTT releases for this week (July 17, 2026): ‘Desire’, ‘Maa Inti Bangaaram’, 'The East Palace' lead the lineup - The Times of India"
+        },
+        {
           "category": "alerts",
           "gates": [
             {
@@ -3648,6 +4090,121 @@
           ],
           "score": 0.7925,
           "title": "2024 Nellai Express cash seizure case: T.N. BJP president Nainar Nagenthran appears before court"
+        },
+        {
+          "category": "alerts",
+          "gates": [
+            {
+              "details": {
+                "dedupKey": "720bd6280ed2a72e"
+              },
+              "name": "dedup",
+              "reason": "unique item",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "displayUntil": 1784365064000
+              },
+              "name": "futureValidity",
+              "reason": "valid undated item with active display window",
+              "score": 0.65,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "matchScore": 0.72,
+                "matchedLocation": "online",
+                "relevance": "onlineOnly",
+                "scope": "online"
+              },
+              "name": "location",
+              "reason": "online/global item allowed without city match",
+              "score": 0.72,
+              "status": "WARN"
+            },
+            {
+              "details": {
+                "hasPlace": true,
+                "hasTime": true
+              },
+              "name": "actionability",
+              "reason": "item has enough action fields",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "offerValidity",
+              "reason": "not an offer",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "severe": false
+              },
+              "name": "alertUrgency",
+              "reason": "active alert",
+              "score": 0.78,
+              "status": "PASS"
+            }
+          ],
+          "id": "1c91c6fc74204f4d",
+          "item": {
+            "actionabilityScore": 0.5,
+            "category": "alerts",
+            "city": "Chennai",
+            "contentClass": "upahead_alert",
+            "dateConfidence": "unknown",
+            "dateSource": "none",
+            "eventEndAt": null,
+            "eventStartAt": null,
+            "expiryAt": 1784365064000,
+            "id": "1c91c6fc74204f4d",
+            "language": "en",
+            "lifecycle": {
+              "archiveUntil": 1784969864000,
+              "contentClass": "upahead_alert",
+              "displayUntil": 1784365064000,
+              "isActionValid": true,
+              "isVisible": true,
+              "plannerEligibleByLifecycle": true,
+              "plannerPastGraceHours": 6,
+              "retentionReason": "expiryAt",
+              "withinSevenDayHorizon": true
+            },
+            "localityScore": 1.0,
+            "normalizedCategory": "alerts",
+            "plannerEligible": true,
+            "publishedAt": 1784278664000,
+            "region": "tn",
+            "scoreBreakdown": {
+              "actionabilityScore": 1.0,
+              "categoryPriorityScore": 1.0,
+              "lifecycleScore": 0.65,
+              "locationScore": 0.72,
+              "plannerFitScore": 1.0,
+              "sourceConfidenceScore": 0.58,
+              "urgencyOrExpiryScore": 0.78
+            },
+            "source": "The Hindu Chennai",
+            "sourceGroup": "the_hindu",
+            "summary": "Through multimedia presentations, fusion bands and digital platforms, musicians are finding new ways to take the works of saint poets to contemporary audiences.",
+            "suppressionReason": null,
+            "title": "How musicians are reinventing the centuries-old abhang",
+            "url": "https://www.thehindu.com/entertainment/music/how-musicians-are-reinventing-the-centuries-old-abhang/article71224549.ece"
+          },
+          "locationKey": "chennai",
+          "rankingReasons": [
+            "alerts",
+            "valid undated item with active display window",
+            "online/global item allowed without city match",
+            "planner advisory fit"
+          ],
+          "score": 0.7925,
+          "title": "How musicians are reinventing the centuries-old abhang"
         },
         {
           "category": "alerts",
@@ -4223,136 +4780,21 @@
           ],
           "score": 0.7585,
           "title": "Four additional passenger boarding bridges commissioned at Tiruchi international airport"
-        },
-        {
-          "category": "alerts",
-          "gates": [
-            {
-              "details": {
-                "dedupKey": "55bc9024ceabfe6b"
-              },
-              "name": "dedup",
-              "reason": "unique item",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "displayUntil": 1784315801000
-              },
-              "name": "futureValidity",
-              "reason": "valid undated item with active display window",
-              "score": 0.65,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "matchScore": 0.55,
-                "matchedLocation": "global",
-                "relevance": "global",
-                "scope": "global"
-              },
-              "name": "location",
-              "reason": "online/global item allowed without city match",
-              "score": 0.55,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "hasPlace": true,
-                "hasTime": true
-              },
-              "name": "actionability",
-              "reason": "item has enough action fields",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "offerValidity",
-              "reason": "not an offer",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "severe": false
-              },
-              "name": "alertUrgency",
-              "reason": "active alert",
-              "score": 0.78,
-              "status": "PASS"
-            }
-          ],
-          "id": "71b93bd783c01664",
-          "item": {
-            "actionabilityScore": 0.7,
-            "category": "alerts",
-            "city": "Chennai",
-            "contentClass": "upahead_alert",
-            "dateConfidence": "unknown",
-            "dateSource": "none",
-            "eventEndAt": null,
-            "eventStartAt": null,
-            "expiryAt": 1784315801000,
-            "id": "71b93bd783c01664",
-            "language": "en",
-            "lifecycle": {
-              "archiveUntil": 1784920601000,
-              "contentClass": "upahead_alert",
-              "displayUntil": 1784315801000,
-              "isActionValid": true,
-              "isVisible": true,
-              "plannerEligibleByLifecycle": true,
-              "plannerPastGraceHours": 6,
-              "retentionReason": "expiryAt",
-              "withinSevenDayHorizon": true
-            },
-            "localityScore": 1.0,
-            "normalizedCategory": "alerts",
-            "plannerEligible": true,
-            "publishedAt": 1784229401000,
-            "region": "tn",
-            "scoreBreakdown": {
-              "actionabilityScore": 1.0,
-              "categoryPriorityScore": 1.0,
-              "lifecycleScore": 0.65,
-              "locationScore": 0.55,
-              "plannerFitScore": 1.0,
-              "sourceConfidenceScore": 0.58,
-              "urgencyOrExpiryScore": 0.78
-            },
-            "source": "The Hindu Chennai",
-            "sourceGroup": "the_hindu",
-            "summary": "Over 400 exhibitors from various parts of the country and also from Bhutan and Nepal showcase nearly 28 national and international destinations",
-            "suppressionReason": null,
-            "title": "Tourism Minister inaugurates 3-day ‘travel mart’ exhibition in Chennai",
-            "url": "https://www.thehindu.com/news/cities/chennai/tourism-minister-inaugurates-3-day-travel-mart-exhibition-in-chennai/article71229885.ece"
-          },
-          "locationKey": "chennai",
-          "rankingReasons": [
-            "alerts",
-            "valid undated item with active display window",
-            "online/global item allowed without city match",
-            "planner advisory fit"
-          ],
-          "score": 0.7585,
-          "title": "Tourism Minister inaugurates 3-day ‘travel mart’ exhibition in Chennai"
         }
       ],
       "rankingProfile": "upAhead-v2-lifecycle-location-category",
       "scoreBreakdown": {
-        "actionabilityScore": 1.0,
-        "categoryPriorityScore": 0.9993,
-        "lifecycleScore": 0.65,
-        "locationScore": 0.9233,
-        "plannerFitScore": 1.0,
+        "actionabilityScore": 0.995,
+        "categoryPriorityScore": 0.9913,
+        "lifecycleScore": 0.6617,
+        "locationScore": 0.9197,
+        "plannerFitScore": 0.9667,
         "sourceConfidenceScore": 0.58,
-        "urgencyOrExpiryScore": 0.78
+        "urgencyOrExpiryScore": 0.7873
       }
     }
   },
-  "generatedAt": 1784273570039,
+  "generatedAt": 1784283474109,
   "implementedDestinations": [
     "upAhead",
     "buzz",
@@ -4385,9 +4827,9 @@
     ],
     "destinationScores": {
       "buzz": 0.0,
-      "insight": 0.3702,
+      "insight": 0.3604,
       "localTravel": 0.0,
-      "upAhead": 0.8475
+      "upAhead": 0.8431
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -4395,7 +4837,7 @@
       "localTravel": "FAIL",
       "upAhead": "WARN"
     },
-    "overallScore": 0.3044,
+    "overallScore": 0.3009,
     "overallStatus": "FAIL",
     "rankingProfiles": {
       "buzz": "buzz-v2-trend-local-travel",
@@ -4405,8 +4847,8 @@
     },
     "topFindings": [
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
-      "What is the row over Karur ‘temple land’? | Explained: futureValidity failed — expired display window",
-      "What is the row over Karur ‘temple land’? | Explained: alertUrgency failed — alert expired",
+      "The composer in mridangist Arun Prakash takes centre stage: futureValidity failed — expired display window",
+      "The composer in mridangist Arun Prakash takes centre stage: alertUrgency failed — alert expired",
       "Amazon Prime Day sale ends with mega deals - News.com.au: location failed — offline/local item lacks configured location match"
     ]
   }
