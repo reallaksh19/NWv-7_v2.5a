@@ -10,9 +10,9 @@
 - Base report share: `0.16666666666666666`
 - Multi-angle parents: `3`
 - Weak parents: `7`
-- Story count: `722`
+- Story count: `789`
 - Source groups: `9`
-- Content hash: `7a30d64252393104`
+- Content hash: `1f5ef3fb9fe75ddc`
 
 ## Top parents
 
@@ -27,7 +27,7 @@
 | 7 | Ukraine's Parliament approves Serhii Koretskyi as new Prime Minister | 2 | official_response | YES | 0.6055800531183317 |
 | 8 | Indian court orders Maruti to replace car in first E20 fuel damage ruling - Reuters | 2 | official_response | YES | 0.5013566135483352 |
 | 9 | BHEL shares jump 4% after Maharatna PSU posts net profit of Rs 377 crore in Q1, revenue jumps 40% | 1 | fact_update | YES | 0.7235911614783158 |
-| 10 | Rs 9,000 crore bet! Reliance Industries promoters increase stake by 0.5% in June quarter | 1 | fact_update | YES | 0.7226911614783158 |
+| 10 | RIL Q1 Results: Revenue rises 25% YoY; profit falls 22% YoY to Rs 20,946 crore due to one-time effect | 1 | fact_update | YES | 0.7226911614783158 |
 
 ## Warnings
 
