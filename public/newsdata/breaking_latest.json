@@ -1,45 +1,22 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784306780453,
-  "contentHash": "1667b2ee7623",
+  "fetchedAt": 1784311346758,
+  "contentHash": "5a64a0a95c76",
   "breaking": [
     {
-      "title": "Watch: Deadly landslide strikes China, dozens remain missing",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132465086.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/china/watch-deadly-landslide-strikes-china-dozens-remain-missing/articleshow/132465086.cms",
-      "publishedAt": 1784306442000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "1d23f3971c4d33bd",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.492,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "times_of_india"
-      ],
-      "firstSeen": 1784306442000
-    },
-    {
       "title": "7.4-Magnitude Earthquake Strikes Southern Mexico, Tsunami Alert Issued",
-      "summary": "The quake was at a shallow depth of 10 km. (Image for representation)",
+      "summary": "People evacuate a building after a 7.4-magnitude earthquake struck off the coast of Mexico's Chiapas.",
       "source": "NDTV",
       "sourceGroup": "ndtv",
       "url": "https://www.ndtv.com/world-news/7-4-magnitude-earthquake-strikes-southern-mexico-tsunami-alert-issued-11785957#publisher=newsstand",
-      "publishedAt": 1784304212000,
+      "publishedAt": 1784306180000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "d08f6e21ec567657",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.441,
+      "breakingScore": 6.88,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -47,7 +24,7 @@
       "allSources": [
         "ndtv"
       ],
-      "firstSeen": 1784304212000
+      "firstSeen": 1784306180000
     },
     {
       "title": "Internet Suspended In J&K's Doda After Man Killed, 2 Injured In Shooting",
@@ -62,7 +39,7 @@
       "id": "0dfa3db3356a7ef8",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.392,
+      "breakingScore": 5.286,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -85,7 +62,7 @@
       "id": "bec2e390cf58ac2f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.248,
+      "breakingScore": 5.142,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -109,7 +86,7 @@
       "id": "bf7b7a53ce514fbd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.228,
+      "breakingScore": 5.123,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -120,19 +97,67 @@
       "firstSeen": 1784295041000
     },
     {
+      "title": "Landslide in China's Chongqing city kills 8, leaves 34 missing",
+      "summary": "Water, electricity and gas supplies were cut off within a 1-km (0.6-mile) radius of the landslide to prevent further disruptions. Over 800 rescuers were on the site",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/china-landslide-chongqing-city-death-toll-updates/article71235660.ece",
+      "publishedAt": 1784309581000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "4ccfd1856327f78e",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 4.459,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "the_hindu",
+        "times_of_india"
+      ],
+      "firstSeen": 1784306442000
+    },
+    {
+      "title": "Air conditioner sparked deadly blaze at children's orphanage - police",
+      "summary": "Eleven people, including children, died in the fire that also injured 19 others.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c9d8ylw60e9o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784305245000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "fa0486d46f1ef42e",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.859,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784305245000
+    },
+    {
       "title": "Murshidabad Train Accident Updates: 3 Students Among 4 Killed In Train-Van Collision In West Bengal's Murshidabad",
       "summary": "The injured students have been admitted to Murshidabad Medical College and Hospital.",
-      "source": "NDTV",
+      "source": "NDTV India",
       "sourceGroup": "ndtv",
       "url": "https://www.ndtv.com/india-news/murshidabad-train-accident-live-updates-train-rams-school-van-in-west-bengals-murshidabad-several-students-injured-11782726#publisher=newsstand",
       "publishedAt": 1784300278000,
-      "category": "topStories",
+      "category": "india",
       "region": "in",
       "language": "en",
       "id": "091ecffd7f7d4122",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.849,
+      "breakingScore": 3.744,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -155,7 +180,7 @@
       "id": "0849aee2fbe74846",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.674,
+      "breakingScore": 3.568,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -164,30 +189,6 @@
         "the_hindu"
       ],
       "firstSeen": 1784292690000
-    },
-    {
-      "title": "Garry Sobers, legendary West Indies cricketer, no more",
-      "summary": "First-ever batter to have hit six sixes in an over in First-Class cricket; In 383 first-class matches, he made more than 28,000 runs and took more than 1,000 wickets",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/sport/cricket/legendary-west-indies-cricketer-sir-garfield-sobers-no-more/article71235304.ece",
-      "publishedAt": 1784305558000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "aeaf390b6732bd0d",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.972,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "bbc",
-        "the_hindu"
-      ],
-      "firstSeen": 1784304955000
     }
   ]
 }
