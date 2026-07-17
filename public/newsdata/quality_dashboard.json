@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1784262997295,
+  "generatedAt": 1784273571156,
   "windowDays": 7,
   "latest": {
     "insightGrade": "D",
     "insightScore": 0,
-    "totalStories": 646,
-    "usableStories36h": 614,
-    "sourceGroups": 10,
+    "totalStories": 609,
+    "usableStories36h": 602,
+    "sourceGroups": 9,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.3065,
+    "rankingOverallScore": 0.3044,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.3065,
+    "overallScore": 0.3044,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1784262996585,
+    "generatedAt": 1784273570039,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.3743,
+      "insight": 0.3702,
       "localTravel": 0,
-      "upAhead": 0.8518
+      "upAhead": 0.8475
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.3743,
+        "score": 0.3702,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.8518,
+        "score": 0.8475,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -74,8 +74,8 @@
         "oneSourceCappedCount": 0
       },
       "insight": {
-        "parentClusters": 8,
-        "strongParents": 8,
+        "parentClusters": 6,
+        "strongParents": 6,
         "weakParentsDemoted": 0,
         "avgAnglesPerParent": 0,
         "baseReportHeavyParents": 1,
@@ -106,12 +106,12 @@
     },
     "topFindings": [
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
-      "Abnormal heatwave conditions to persist across Tamil Nadu till July 17; rainfall set to improve later this week: futureValidity failed — expired display window",
-      "Abnormal heatwave conditions to persist across Tamil Nadu till July 17; rainfall set to improve later this week: alertUrgency failed — alert expired",
+      "What is the row over Karur ‘temple land’? | Explained: futureValidity failed — expired display window",
+      "What is the row over Karur ‘temple land’? | Explained: alertUrgency failed — alert expired",
       "Amazon Prime Day sale ends with mega deals - News.com.au: location failed — offline/local item lacks configured location match",
       "upAhead: Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
-      "upAhead: Abnormal heatwave conditions to persist across Tamil Nadu till July 17; rainfall set to improve later this week: futureValidity failed — expired display window",
-      "upAhead: Abnormal heatwave conditions to persist across Tamil Nadu till July 17; rainfall set to improve later this week: alertUrgency failed — alert expired",
+      "upAhead: What is the row over Karur ‘temple land’? | Explained: futureValidity failed — expired display window",
+      "upAhead: What is the row over Karur ‘temple land’? | Explained: alertUrgency failed — alert expired",
       "upAhead: Amazon Prime Day sale ends with mega deals - News.com.au: location failed — offline/local item lacks configured location match"
     ],
     "actionRequired": [
@@ -252,16 +252,16 @@
     },
     {
       "date": "2026-07-17",
-      "generatedAt": 1784262997295,
+      "generatedAt": 1784273571156,
       "insightGrade": "D",
       "insightScore": 0,
-      "totalStories": 646,
-      "usableStories36h": 614,
-      "sourceGroups": 10,
+      "totalStories": 609,
+      "usableStories36h": 602,
+      "sourceGroups": 9,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.3065,
+      "rankingOverallScore": 0.3044,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,
