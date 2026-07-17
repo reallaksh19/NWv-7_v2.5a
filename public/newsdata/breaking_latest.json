@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784320301047,
-  "contentHash": "023dbb4e785d",
+  "fetchedAt": 1784323945644,
+  "contentHash": "732196ba3dae",
   "breaking": [
     {
       "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
-      "summary": "The US Tsunami Warning Center issued a warning and has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico.",
+      "summary": "The US Tsunami Warning Center has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico after the quake.",
       "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/cwyjv3815yxo?at_medium=RSS&at_campaign=rss",
@@ -16,7 +16,7 @@
       "id": "c511924f3fd5ccc3",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 7.307,
+      "breakingScore": 7.223,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -29,19 +29,42 @@
       "firstSeen": 1784308882000
     },
     {
-      "title": "Internet Suspended In J&K's Doda After Man Killed, 2 Injured In Shooting",
-      "summary": "The victim's relatives also demanded a fair probe and justice.",
-      "source": "NDTV India",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/internet-suspended-in-j-ks-doda-after-civilian-killed-11785769#publisher=newsstand",
-      "publishedAt": 1784302113000,
-      "category": "india",
+      "title": "In Gurugram, 60 rounds, 120 seconds",
+      "summary": "On July 9, a gunfight in Gurugram’s upscale Sushant Lok left four alleged shooters dead and three policemen injured. Police said gangster Deepak Nandal ordered the attack on businessman Vishal Berry over a ₹5 crore extortion demand. Among the dead were two minors from Rohtak’s Bhalaut village with no criminal record. Ashok Kumar finds that the incident has raised questions over crime, drug use, and policing",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/haryana/in-gurugram-60-rounds-120-seconds/article71233904.ece",
+      "publishedAt": 1784320614000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "0dfa3db3356a7ef8",
+      "id": "9f031b9eca120680",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.079,
+      "breakingScore": 5.423,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784320614000
+    },
+    {
+      "title": "US-Iran War News LIVE: US Launches Fresh Strikes Against Iran As Hormuz Tensions Intensify",
+      "summary": "US-Iran War News LIVE: The US-Iran tensions have escalated in recent days",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-iran-war-news-live-donald-trump-strait-of-hormuz-mojtaba-khamenei-israel-netanyahu-middle-east-conflict-11783939#publisher=newsstand",
+      "publishedAt": 1784320035000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "68e3615a5bce8f2e",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.909,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -49,7 +72,7 @@
       "allSources": [
         "ndtv"
       ],
-      "firstSeen": 1784302113000
+      "firstSeen": 1784320035000
     },
     {
       "title": "\"Trying To Find New Purpose\": Parents Of Boy Killed In Mumbai Tree Collapse",
@@ -64,7 +87,7 @@
       "id": "8895633643ecaa0f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.842,
+      "breakingScore": 3.757,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -87,7 +110,7 @@
       "id": "ed22d83270f65606",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.835,
+      "breakingScore": 3.751,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -110,7 +133,7 @@
       "id": "fa0486d46f1ef42e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.651,
+      "breakingScore": 3.567,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -133,7 +156,7 @@
       "id": "5107dab51d8ca182",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.76,
+      "breakingScore": 2.675,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -145,50 +168,27 @@
       "firstSeen": 1784308968000
     },
     {
-      "title": "Jantar Mantar protest LIVE: Opposition support grows as Wangchuk’s hunger strike continues on day 20",
-      "summary": "“The medical team stated that Sonam Wangchuk continues to be under 24-hour medical vigilance, with his health being monitored closely,” the CJP said",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/sonam-wangchuk-hunger-strike-cjp-protest-in-delhi-jantar-mantar-cockroach-janta-party-live-updates-july-17-2026/article71232683.ece",
-      "publishedAt": 1784316837000,
-      "category": "topStories",
+      "title": "Trump threatens to tariff Canada over wildfire smoke choking northern US cities",
+      "summary": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784322842000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "1430393422a3e4f6",
+      "id": "2407ca3b6fc854f1",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.42,
+      "breakingScore": 2.474,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "the_hindu"
+        "bbc"
       ],
-      "firstSeen": 1784316837000
-    },
-    {
-      "title": "Middle East On Boil Again? Iran Threatens \"Zero Hour\", Trump Deploys Planes",
-      "summary": "Senior American and Israeli officials say that Trump could order the attacks in the coming days",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/middle-east-on-boil-again-iran-threatens-zero-hour-donald-trump-deploys-planes-11786235#publisher=newsstand",
-      "publishedAt": 1784311054000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "88dfb87e03ed3b89",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.286,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784311054000
+      "firstSeen": 1784322842000
     }
   ]
 }
