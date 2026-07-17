@@ -1,30 +1,78 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784296921458,
-  "contentHash": "660b7f8b6e66",
+  "fetchedAt": 1784302720824,
+  "contentHash": "7b766111b7f5",
   "breaking": [
     {
-      "title": "Nagaland Police offer ₹50K reward for leads in July 13 IED blast",
-      "summary": "An Assam Rifles havildar was killed, and four others were critically injured following a blast suspected to have been caused by an improvised explosive device (IED) at Khopanullah under Chümoukedima ‘A’ village",
+      "title": "Five dead after train collides with car in West Bengal’s Murshidabad; 4 children among deceased",
+      "summary": "Railway gateman arrested; CM Suvendu Adhikari offers condolences; Opposition raises systematic failure issue; Congress leader Adhir Ranjan Chowdhury visited the accident site",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/nagaland/nagaland-police-offer-50k-reward-for-leads-in-july-13-ied-blast/article71234094.ece",
-      "publishedAt": 1784296147000,
+      "url": "https://www.thehindu.com/news/national/west-bengal/school-students-dead-as-train-hits-pool-car-at-level-crossing-in-bengal/article71232738.ece",
+      "publishedAt": 1784302119000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "e73cc2cf955996e2",
+      "id": "e3666576c5a97437",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.482,
+      "breakingScore": 5.986,
+      "breakingReasons": [
+        "multi_source_velocity",
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784300278000
+    },
+    {
+      "title": "Internet Suspended In J&K's Doda After Man Killed, 2 Injured In Shooting",
+      "summary": "The victim's relatives also demanded a fair probe and justice.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/internet-suspended-in-j-ks-doda-after-civilian-killed-11785769#publisher=newsstand",
+      "publishedAt": 1784302113000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "0dfa3db3356a7ef8",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.486,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "the_hindu"
+        "ndtv"
       ],
-      "firstSeen": 1784296147000
+      "firstSeen": 1784302113000
+    },
+    {
+      "title": "Kuwait Says Army Personnel Injured In Iranian Drone Attack",
+      "summary": "Iran had earlier said it had struck Kuwait.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/kuwait-says-army-personnel-injured-in-iranian-drone-attack-11785290#publisher=newsstand",
+      "publishedAt": 1784296782000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "fa77072448483c21",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.363,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784296782000
     },
     {
       "title": "Uganda suspends school trips after 20 pupils die in bus crash",
@@ -39,7 +87,7 @@
       "id": "bec2e390cf58ac2f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.476,
+      "breakingScore": 5.342,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -63,7 +111,7 @@
       "id": "bf7b7a53ce514fbd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.456,
+      "breakingScore": 5.322,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -74,47 +122,26 @@
       "firstSeen": 1784295041000
     },
     {
-      "title": "Two killed after crashing motorcycle into metro pillar in Kukatpally",
-      "summary": "",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/Hyderabad/two-killed-after-crashing-motorcycle-into-metro-pillar-in-kukatpally/article71234269.ece",
-      "publishedAt": 1784296233000,
+      "title": "Iran Strikes US Airbase In Qatar \"To Punish The Aggressor\"",
+      "summary": "US-Iran strikes have erupted again. (Image for representation)",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/iran-strikes-us-airbase-in-qatar-to-punish-the-aggressor-11785273#publisher=newsstand",
+      "publishedAt": 1784296687000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "0b1788f1114e35f8",
+      "id": "0374407daee4861e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.984,
+      "breakingScore": 4.36,
       "breakingReasons": [
+        "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784296233000
-    },
-    {
-      "title": "West Asia war LIVE: Iran Guards say attack on U.S. base in Qatar meant to 'punish aggressor'",
-      "summary": "Iran did not immediately claim responsibility, but has repeatedly targeted Kurdish dissidents in Iraq ⁠",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/west-asia-war-us-iran-conflict-washington-strikes-tehran-donald-trump-strait-of-hormuz-live-updates-july-17-2026/article71232634.ece",
-      "publishedAt": 1784292690000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "0849aee2fbe74846",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.902,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
+        "ndtv",
         "the_hindu"
       ],
       "firstSeen": 1784292690000
@@ -122,17 +149,17 @@
     {
       "title": "\"Rs 7 Lakh Price Set For Lost Life\": Mumbai Mayor On Tree Collapse Report",
       "summary": "Vihaan Srivastav was killed when a tree fell on his school bus last month",
-      "source": "NDTV",
+      "source": "NDTV India",
       "sourceGroup": "ndtv",
       "url": "https://www.ndtv.com/india-news/tore-it-up-mumbai-mayor-ritu-tawde-rejects-civic-body-report-on-chembur-tree-collapse-11784552#publisher=newsstand",
       "publishedAt": 1784292654000,
-      "category": "topStories",
+      "category": "india",
       "region": "in",
       "language": "en",
       "id": "f245511700b7f6e0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.901,
+      "breakingScore": 3.767,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -143,52 +170,28 @@
       "firstSeen": 1784292654000
     },
     {
-      "title": "Quote of the day by Joel Tillinghast: \"People who have had success in other parts of their lives have difficulty accepting how much failure there is in the stock market\"",
-      "summary": "Joel Tillinghast notes successful individuals struggle with stock market losses.  The stock market involves uncertainty, economic cycles, and investor sentiment.  Even experienced investors face setbacks and must learn from mistakes.  Retail investors should embrace patience and diversification for wealth building.",
+      "title": "Apple unseats Nvidia to become world's most valuable company as AI bets shift",
+      "summary": "In a remarkable turn of events, Apple has dethroned Nvidia to reclaim its status as the world's most valuable company. This change underscores a significant recalibration of investor perspectives regarding the artificial intelligence landscape, highlighting a shift in focus. With Apple's market value hitting $4.88 trillion compared to Nvidia's $4.86 trillion, this milestone marks a pivotal moment reflecting a wider investor interest beyond solely AI sectors.",
       "source": "Economic Times",
       "sourceGroup": "economic_times",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/quote-of-the-day-by-joel-tillinghast-people-who-have-had-success-in-other-parts-of-their-lives-have-difficulty-accepting-how-much-failure-there-is-in-the-stock-market/articleshow/132459228.cms",
-      "publishedAt": 1784291791000,
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/apple-unseats-nvidia-to-become-worlds-most-valuable-company-as-ai-bets-shift/articleshow/132464148.cms",
+      "publishedAt": 1784300161000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "f6d3bf17da87af24",
+      "id": "07748f6e2d7a554e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.881,
+      "breakingScore": 2.941,
       "breakingReasons": [
         "multi_source_velocity"
       ],
       "sourceCount": 2,
       "allSources": [
         "economic_times",
-        "times_of_india"
+        "ndtv"
       ],
-      "firstSeen": 1784289856000
-    },
-    {
-      "title": "Andy Burnham To Take Oath As Britain's Prime Minister Next Week",
-      "summary": "Burnham will arrive in Downing Street largely unknown to voters outside Manchester.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/andy-burnham-to-take-oath-as-britains-prime-minister-next-week-11784744#publisher=newsstand",
-      "publishedAt": 1784291325000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "48d820b8a370c290",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.87,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "times_of_india"
-      ],
-      "firstSeen": 1784287737000
+      "firstSeen": 1784298074000
     }
   ]
 }
