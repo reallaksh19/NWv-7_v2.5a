@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1784311491944,
+  "generatedAt": 1784321550387,
   "windowDays": 7,
   "latest": {
     "insightGrade": "D",
     "insightScore": 0,
-    "totalStories": 808,
-    "usableStories36h": 789,
-    "sourceGroups": 9,
+    "totalStories": 784,
+    "usableStories36h": 756,
+    "sourceGroups": 10,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.3065,
+    "rankingOverallScore": 0.3016,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.3065,
+    "overallScore": 0.3016,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1784311491201,
+    "generatedAt": 1784321549472,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.3779,
+      "insight": 0.3723,
       "localTravel": 0,
-      "upAhead": 0.848
+      "upAhead": 0.834
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.3779,
+        "score": 0.3723,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.848,
+        "score": 0.834,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -74,8 +74,8 @@
         "oneSourceCappedCount": 0
       },
       "insight": {
-        "parentClusters": 8,
-        "strongParents": 8,
+        "parentClusters": 10,
+        "strongParents": 10,
         "weakParentsDemoted": 0,
         "avgAnglesPerParent": 0,
         "baseReportHeavyParents": 1,
@@ -91,28 +91,36 @@
         "locationsCovered": []
       },
       "upAhead": {
-        "rankedItemCount": 30,
-        "suppressedItemCount": 2,
+        "rankedItemCount": 27,
+        "suppressedItemCount": 10,
         "events": 1,
-        "onlineOffers": 0,
-        "offlineOffers": 0,
-        "alerts": 29,
+        "onlineOffers": 1,
+        "offlineOffers": 1,
+        "alerts": 24,
         "festivals": 0,
         "locationsCovered": [
           "chennai",
+          "online",
           "trichy"
         ]
       }
     },
     "topFindings": [
       "LG TV deals: Buy an OLED, QNED, or RGB TV on sale, get up to $200 in DoorDash or Uber Eats credit - Mashable: location failed — offline/local item lacks configured location match",
-      "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
-      "upAhead: LG TV deals: Buy an OLED, QNED, or RGB TV on sale, get up to $200 in DoorDash or Uber Eats credit - Mashable: location failed — offline/local item lacks configured location match",
-      "upAhead: Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match"
+      "Southern Railway announces safety drive for loco pilots: futureValidity failed — expired display window",
+      "Southern Railway announces safety drive for loco pilots: alertUrgency failed — alert expired",
+      "Tourism Minister inaugurates 3-day ‘travel mart’ exhibition in Chennai: futureValidity failed — expired display window",
+      "Tourism Minister inaugurates 3-day ‘travel mart’ exhibition in Chennai: alertUrgency failed — alert expired",
+      "School bus catches fire in Velachery; no staff, students on board: futureValidity failed — expired display window",
+      "School bus catches fire in Velachery; no staff, students on board: alertUrgency failed — alert expired",
+      "2 held for abduction, assault of man over ₹15-lakh loan dispute: futureValidity failed — expired display window",
+      "2 held for abduction, assault of man over ₹15-lakh loan dispute: alertUrgency failed — alert expired",
+      "No meetings held since forming new panel for children in conflict with law: futureValidity failed — expired display window",
+      "No meetings held since forming new panel for children in conflict with law: alertUrgency failed — alert expired",
+      "Chennai Corporation identifies 115 missing links in city’s drain network: futureValidity failed — expired display window"
     ],
     "actionRequired": [
-      "2 invalid/expired/duplicate Up Ahead item(s) suppressed",
-      "no active offer items in ranked Up Ahead set",
+      "10 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no ranked Up Ahead item for muscat",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
@@ -122,7 +130,8 @@
       "no ranked local/travel item for chennai",
       "no ranked local/travel item for trichy",
       "1 base-report-heavy Insight parent(s) demoted",
-      "buzz: no local Buzz item in ranked set"
+      "buzz: no local Buzz item in ranked set",
+      "buzz: no travel Buzz item in ranked set"
     ]
   },
   "sourceHealth": {
@@ -248,16 +257,16 @@
     },
     {
       "date": "2026-07-17",
-      "generatedAt": 1784311491944,
+      "generatedAt": 1784321550387,
       "insightGrade": "D",
       "insightScore": 0,
-      "totalStories": 808,
-      "usableStories36h": 789,
-      "sourceGroups": 9,
+      "totalStories": 784,
+      "usableStories36h": 756,
+      "sourceGroups": 10,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.3065,
+      "rankingOverallScore": 0.3016,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,

@@ -1,20 +1,20 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1784311490471,
-  "contentHash": "556d45c4c41e5588",
+  "generatedAt": 1784321548660,
+  "contentHash": "4613578d167193bb",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 808,
-  "sourceGroupCount": 9,
+  "storyCount": 784,
+  "sourceGroupCount": 10,
   "grade": "D",
   "parentCount": 10,
-  "avgAngles": 1.4,
+  "avgAngles": 1.5,
   "avgTemporalTiers": 1.8,
-  "avgEvolutionRoles": 1.5,
+  "avgEvolutionRoles": 1.6,
   "baseReportShare": 0.2,
-  "multiAngleCount": 3,
-  "weakParentCount": 7,
+  "multiAngleCount": 4,
+  "weakParentCount": 6,
   "runtimeQualityGate": {
     "attempted": true,
     "recovered": false,
@@ -23,53 +23,53 @@
       "grade": "D",
       "tone": "danger",
       "title": "Weak insight signal",
-      "signalScore": 37,
+      "signalScore": 41,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 733,
+      "storyCount": 702,
       "risingCount": 1,
-      "thinCount": 7,
-      "multiAngleCount": 3,
-      "lowAngleCount": 7,
+      "thinCount": 6,
+      "multiAngleCount": 4,
+      "lowAngleCount": 6,
       "strongAngleCount": 1,
-      "avgAngles": 1.4,
+      "avgAngles": 1.5,
       "avgChildren": 2,
-      "avgScore": 0.640795550968161,
+      "avgScore": 0.6417238843014943,
       "sourceDiversityCoverage": 8,
       "snapshotCoverage": 3,
-      "coverageLabel": "3/10",
+      "coverageLabel": "4/10",
       "warnings": [
-        "7 cluster(s) have fewer than two visible child angles.",
+        "6 cluster(s) have fewer than two visible child angles.",
         "2 cluster(s) are below source-diversity target.",
         "7 cluster(s) have weak snapshot coverage.",
-        "7 cluster(s) are marked thin.",
-        "753 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "6 cluster(s) are marked thin.",
+        "823 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "D",
       "tone": "danger",
       "title": "Weak insight signal",
-      "signalScore": 37,
+      "signalScore": 41,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 733,
+      "storyCount": 702,
       "risingCount": 1,
-      "thinCount": 7,
-      "multiAngleCount": 3,
-      "lowAngleCount": 7,
+      "thinCount": 6,
+      "multiAngleCount": 4,
+      "lowAngleCount": 6,
       "strongAngleCount": 1,
-      "avgAngles": 1.4,
+      "avgAngles": 1.5,
       "avgChildren": 2,
-      "avgScore": 0.640795550968161,
+      "avgScore": 0.6417238843014943,
       "sourceDiversityCoverage": 8,
       "snapshotCoverage": 3,
-      "coverageLabel": "3/10",
+      "coverageLabel": "4/10",
       "warnings": [
-        "7 cluster(s) have fewer than two visible child angles.",
+        "6 cluster(s) have fewer than two visible child angles.",
         "2 cluster(s) are below source-diversity target.",
         "7 cluster(s) have weak snapshot coverage.",
-        "7 cluster(s) are marked thin.",
+        "6 cluster(s) are marked thin.",
         "2 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
@@ -84,7 +84,7 @@
   },
   "parents": [
     {
-      "parentId": "cluster_86_24ad4691e9c67ac0",
+      "parentId": "cluster_124_24ad4691e9c67ac0",
       "headline": "PM launches India’s first hydrogen-powered train",
       "score": 0.6349290394116662,
       "postTreeScore": 1.2649,
@@ -107,7 +107,28 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_219_c92fee49bdb9e33d",
+      "parentId": "cluster_11_532e90073384d905",
+      "headline": "DCET results announced",
+      "score": 0.6697800531183317,
+      "postTreeScore": 1.0498,
+      "childCount": 2,
+      "angles": [
+        "official_response",
+        "fact_update"
+      ],
+      "temporalTiers": [
+        "established",
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "corroboration",
+        "fact_update"
+      ],
+      "baseReportShare": 0,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_257_c92fee49bdb9e33d",
       "headline": "US Senate Bill seeks 100% tariffs on India, China for buying Russian oil",
       "score": 0.6296433333333333,
       "postTreeScore": 1.0296,
@@ -127,7 +148,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_456_5bb2c2a63ad84a92",
+      "parentId": "cluster_497_5bb2c2a63ad84a92",
       "headline": "U.S. to change visa regulations for foreign students, journalists",
       "score": 0.6010239879583166,
       "postTreeScore": 1.001,
@@ -148,7 +169,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_349_4702db0051724a4a",
+      "parentId": "cluster_389_4702db0051724a4a",
       "headline": "NEET UG 2026 results: Punjab’s Aryan Gupta, Haryana’s Panshul Bansal top; 11.21 lakh qualify",
       "score": 0.7065633864516649,
       "postTreeScore": 0.5966,
@@ -168,26 +189,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_621_568e429423135f58",
-      "headline": "Supreme Court voices concern over CBSE’s third language policy from Class 9",
-      "score": 0.6604967197849982,
-      "postTreeScore": 0.5505,
-      "childCount": 2,
-      "angles": [
-        "official_response"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "developing"
-      ],
-      "evolutionRoles": [
-        "official_response"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_363_14d779082de96b43",
+      "parentId": "cluster_403_14d779082de96b43",
       "headline": "US to revive rule of no green cards for those who use public benefits",
       "score": 0.6220800531183317,
       "postTreeScore": 0.5121,
@@ -207,7 +209,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_546_779729df50de6dc7",
+      "parentId": "cluster_589_779729df50de6dc7",
       "headline": "Ukraine's Parliament approves Serhii Koretskyi as new Prime Minister",
       "score": 0.6055800531183317,
       "postTreeScore": 0.4956,
@@ -226,7 +228,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_473_3f1aaf6f2e804218",
+      "parentId": "cluster_514_3f1aaf6f2e804218",
       "headline": "Indian court orders Maruti to replace car in first E20 fuel damage ruling - Reuters",
       "score": 0.5013566135483352,
       "postTreeScore": 0.3914,
@@ -245,7 +247,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_543_48e013d49647d59d",
+      "parentId": "cluster_586_48e013d49647d59d",
       "headline": "BHEL shares jump 4% after Maharatna PSU posts net profit of Rs 377 crore in Q1, revenue jumps 40%",
       "score": 0.7235911614783158,
       "postTreeScore": 0.4236,
@@ -263,7 +265,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_61_96d0a00bcf22171c",
+      "parentId": "cluster_99_96d0a00bcf22171c",
       "headline": "Zepto IPO anchor book nears closure; Norges, Motilal Oswal may take 40-45%",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -289,7 +291,7 @@
     "status": "FAIL",
     "gateVersion": "real-insight-snapshot-ratchet-v1",
     "grade": "D",
-    "score": 42,
+    "score": 66,
     "passed": [
       {
         "id": "parent-count",
@@ -300,7 +302,7 @@
       {
         "id": "avg-angle-count",
         "label": "Average visible angle count",
-        "actual": 1.4,
+        "actual": 1.5,
         "required": ">= 1.4"
       },
       {
@@ -308,6 +310,12 @@
         "label": "Average temporal tier count",
         "actual": 1.8,
         "required": ">= 1.8"
+      },
+      {
+        "id": "avg-evolution-role-count",
+        "label": "Average evolution role count",
+        "actual": 1.6,
+        "required": ">= 1.6"
       },
       {
         "id": "base-report-share",
@@ -318,7 +326,7 @@
       {
         "id": "multi-angle-parent-count",
         "label": "Multi-angle parent count",
-        "actual": 3,
+        "actual": 4,
         "required": ">= 1"
       },
       {
@@ -344,17 +352,9 @@
         "fix": "Do not accept D/F real snapshot output. Improve child selection, parent rerank, or data intake."
       },
       {
-        "id": "avg-evolution-role-count",
-        "label": "Average evolution role count",
-        "actual": 1.5,
-        "required": ">= 1.6",
-        "severity": "fail",
-        "fix": "C+E output should include distinct event evolution roles."
-      },
-      {
         "id": "weak-parent-ratio",
         "label": "Weak parent ratio",
-        "actual": 0.7,
+        "actual": 0.6,
         "required": "<= 0.5",
         "severity": "warn",
         "fix": "Too many weak trees remain. Repair or demote weak trees after diversity repair."
@@ -362,17 +362,17 @@
     ],
     "summary": {
       "parentCount": 10,
-      "avgAngles": 1.4,
+      "avgAngles": 1.5,
       "avgTemporalTiers": 1.8,
-      "avgEvolutionRoles": 1.5,
+      "avgEvolutionRoles": 1.6,
       "baseReportShare": 0.2,
-      "multiAngleCount": 3,
-      "weakParentCount": 7,
-      "weakParentRatio": 0.7,
+      "multiAngleCount": 4,
+      "weakParentCount": 6,
+      "weakParentRatio": 0.6,
       "topParentAngles": 3,
       "topParentChildren": 4,
-      "storyCount": 808,
-      "sourceGroupCount": 9
+      "storyCount": 784,
+      "sourceGroupCount": 10
     }
   }
 }
