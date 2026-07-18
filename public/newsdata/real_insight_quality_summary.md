@@ -4,15 +4,15 @@
 - Reason: -
 - Grade: `C`
 - Parents: `10`
-- Average angles: `1.7`
+- Average angles: `1.8`
 - Average temporal tiers: `1.8`
 - Average evolution roles: `2`
-- Base report share: `0.13636363636363635`
-- Multi-angle parents: `6`
-- Weak parents: `4`
-- Story count: `610`
+- Base report share: `0.13043478260869565`
+- Multi-angle parents: `7`
+- Weak parents: `3`
+- Story count: `639`
 - Source groups: `9`
-- Content hash: `04919f171d00a00e`
+- Content hash: `2fdb8566e24dddd2`
 
 ## Top parents
 
@@ -24,10 +24,10 @@
 | 4 | DCET results announced | 2 | official_response, fact_update | NO | 0.6697800531183317 |
 | 5 | US prosecutor says Justice Department made call to drop Gautam Adani case | 2 | expert_analysis, fact_update | NO | 0.6005899468816684 |
 | 6 | CJP founder Abhijit Dipke begins indefinite hunger strike after Wangchuk shifted to hospital | 2 | official_response, reaction_public | NO | 0.59551 |
-| 7 | Sonam Wangchuk’s wife breaks silence after Delhi Police shift him to hospital, warns authorities against brea - India.Com | 3 | official_response | YES | 0.6365487346782661 |
-| 8 | Wangchuk shifted to hospital; Abhijeet Dipke under detention, says Delhi Police | 2 | official_response | YES | 0.59551 |
-| 9 | A 7.3-magnitude earthquake hits Mexico-Guatemala border; no damage reported so far | 2 | official_response | YES | 0.5935232802150019 |
-| 10 | ICICI Bank Q1 Results: Profit jumps 16% YoY to Rs 14,805 crore; NII rises 13% as margins expand | 1 | fact_update | YES | 0.7226911614783158 |
+| 7 | Vikram-1 Lifts Off Skyroot Launches India's First Private Rocket Into Orbit Successfully / News18 - News18 | 2 | investigative_detail, fact_update | NO | 0.5593433333333333 |
+| 8 | Sonam Wangchuk’s wife breaks silence after Delhi Police shift him to hospital, warns authorities against brea - India.Com | 3 | official_response | YES | 0.6365487346782661 |
+| 9 | Wangchuk shifted to hospital; Abhijeet Dipke under detention, says Delhi Police | 2 | official_response | YES | 0.59551 |
+| 10 | A 7.3-magnitude earthquake hits Mexico-Guatemala border; no damage reported so far | 2 | official_response | YES | 0.5935232802150019 |
 
 ## Real Snapshot Ratchet Gate
 
@@ -36,11 +36,11 @@
 - Grade: `C`
 - Score: `100`
 - Parents: `10`
-- Average angles: `1.7`
+- Average angles: `1.8`
 - Average temporal tiers: `1.8`
 - Average evolution roles: `2`
-- Base report share: `0.136`
-- Multi-angle parents: `6`
+- Base report share: `0.13`
+- Multi-angle parents: `7`
 - Top parent angles: `3`
 - Top parent children: `3`
 
@@ -52,11 +52,11 @@
 
 - Real snapshot grade floor: `C` / `A/B/C`
 - Parent cluster count: `10` / `>= 3`
-- Average visible angle count: `1.7` / `>= 1.4`
+- Average visible angle count: `1.8` / `>= 1.4`
 - Average temporal tier count: `1.8` / `>= 1.8`
 - Average evolution role count: `2` / `>= 1.6`
-- Base report share: `0.136` / `<= 0.55`
-- Multi-angle parent count: `6` / `>= 1`
+- Base report share: `0.13` / `<= 0.55`
+- Multi-angle parent count: `7` / `>= 1`
 - Top parent angle count: `3` / `>= 2`
 - Top parent child depth: `3` / `>= 2`
-- Weak parent ratio: `0.4` / `<= 0.5`
+- Weak parent ratio: `0.3` / `<= 0.5`

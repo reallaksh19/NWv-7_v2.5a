@@ -1,28 +1,28 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1784368482913,
+  "generatedAt": 1784374197748,
   "windowDays": 7,
   "latest": {
     "insightGrade": "C",
     "insightScore": 0,
-    "totalStories": 610,
-    "usableStories36h": 598,
+    "totalStories": 639,
+    "usableStories36h": 616,
     "sourceGroups": 9,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.306,
+    "rankingOverallScore": 0.3064,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.306,
+    "overallScore": 0.3064,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1784368481613,
+    "generatedAt": 1784374196514,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.3833,
+      "insight": 0.3848,
       "localTravel": 0,
       "upAhead": 0.8408
     },
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.3833,
+        "score": 0.3848,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -92,7 +92,7 @@
       },
       "upAhead": {
         "rankedItemCount": 30,
-        "suppressedItemCount": 7,
+        "suppressedItemCount": 5,
         "events": 0,
         "onlineOffers": 1,
         "offlineOffers": 2,
@@ -110,18 +110,16 @@
       "Amazon Mega Electronic Days Sale: Deals on laptops, tablets and more - FoneArena.com: location failed — offline/local item lacks configured location match",
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
       "Amazon just dropped a bunch of great UGREEN NAS deals — including a hefty discount on the 'best starter NAS' we've tested - Android Central: location failed — offline/local item lacks configured location match",
-      "Oil marketing companies yet to issue new LPG connections to domestic consumers in Chennai: futureValidity failed — expired display window",
-      "Oil marketing companies yet to issue new LPG connections to domestic consumers in Chennai: alertUrgency failed — alert expired",
-      "Third Master Plan for Chennai may take at least 6 months to be finalised: CMDA: futureValidity failed — expired display window",
-      "Third Master Plan for Chennai may take at least 6 months to be finalised: CMDA: alertUrgency failed — alert expired",
       "LG TV deals: Buy an OLED, QNED, or RGB TV on sale, get up to $200 in DoorDash or Uber Eats credit - Mashable: location failed — offline/local item lacks configured location match",
       "Go big with the 45-inch LG Ultragear curved gaming monitor, now on sale for $654 off at Amazon - Mashable: location failed — offline/local item lacks configured location match",
       "upAhead: Amazon Mega Electronic Days Sale: Deals on laptops, tablets and more - FoneArena.com: location failed — offline/local item lacks configured location match",
       "upAhead: Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
-      "upAhead: Amazon just dropped a bunch of great UGREEN NAS deals — including a hefty discount on the 'best starter NAS' we've tested - Android Central: location failed — offline/local item lacks configured location match"
+      "upAhead: Amazon just dropped a bunch of great UGREEN NAS deals — including a hefty discount on the 'best starter NAS' we've tested - Android Central: location failed — offline/local item lacks configured location match",
+      "upAhead: LG TV deals: Buy an OLED, QNED, or RGB TV on sale, get up to $200 in DoorDash or Uber Eats credit - Mashable: location failed — offline/local item lacks configured location match",
+      "upAhead: Go big with the 45-inch LG Ultragear curved gaming monitor, now on sale for $654 off at Amazon - Mashable: location failed — offline/local item lacks configured location match"
     ],
     "actionRequired": [
-      "7 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "5 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
       "no active local/travel disruption item",
@@ -258,16 +256,16 @@
     },
     {
       "date": "2026-07-18",
-      "generatedAt": 1784368482913,
+      "generatedAt": 1784374197748,
       "insightGrade": "C",
       "insightScore": 0,
-      "totalStories": 610,
-      "usableStories36h": 598,
+      "totalStories": 639,
+      "usableStories36h": 616,
       "sourceGroups": 9,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.306,
+      "rankingOverallScore": 0.3064,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,
