@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1784348449797,
+  "generatedAt": 1784356103804,
   "policyVersion": "section-source-policy-v1",
   "reportVersion": "section-source-policy-report-v1",
   "schemaVersion": 1,
   "sectionQuality": {
     "business": {
-      "sourceGroupCount": 3,
+      "sourceGroupCount": 2,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -16,35 +16,21 @@
       ],
       "topSources": [
         {
-          "count": 17,
-          "sourceGroup": "business_line"
-        },
-        {
-          "count": 10,
+          "count": 20,
           "sourceGroup": "economic_times"
         },
         {
-          "count": 3,
-          "sourceGroup": "google_news"
+          "count": 10,
+          "sourceGroup": "business_line"
         }
       ]
     },
     "entertainment": {
-      "sourceGroupCount": 1,
-      "storyCount": 15,
+      "sourceGroupCount": 0,
+      "storyCount": 0,
       "thin": true,
-      "topCategories": [
-        {
-          "category": "entertainment",
-          "count": 15
-        }
-      ],
-      "topSources": [
-        {
-          "count": 15,
-          "sourceGroup": "google_news"
-        }
-      ]
+      "topCategories": [],
+      "topSources": []
     },
     "india": {
       "sourceGroupCount": 3,
@@ -58,11 +44,11 @@
       ],
       "topSources": [
         {
-          "count": 16,
+          "count": 19,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 13,
+          "count": 10,
           "sourceGroup": "ndtv"
         },
         {
@@ -72,28 +58,24 @@
       ]
     },
     "muscat": {
-      "sourceGroupCount": 2,
-      "storyCount": 30,
-      "thin": false,
+      "sourceGroupCount": 1,
+      "storyCount": 20,
+      "thin": true,
       "topCategories": [
         {
           "category": "muscat",
-          "count": 30
+          "count": 20
         }
       ],
       "topSources": [
         {
           "count": 20,
           "sourceGroup": "times_of_oman"
-        },
-        {
-          "count": 10,
-          "sourceGroup": "google_news_oman"
         }
       ]
     },
     "sports": {
-      "sourceGroupCount": 3,
+      "sourceGroupCount": 2,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -104,21 +86,17 @@
       ],
       "topSources": [
         {
-          "count": 12,
+          "count": 16,
           "sourceGroup": "bbc"
         },
         {
-          "count": 10,
+          "count": 14,
           "sourceGroup": "the_hindu"
-        },
-        {
-          "count": 8,
-          "sourceGroup": "google_news"
         }
       ]
     },
     "technology": {
-      "sourceGroupCount": 3,
+      "sourceGroupCount": 2,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -129,37 +107,29 @@
       ],
       "topSources": [
         {
-          "count": 15,
+          "count": 20,
           "sourceGroup": "gadgets360"
         },
         {
           "count": 10,
-          "sourceGroup": "google_news"
-        },
-        {
-          "count": 5,
           "sourceGroup": "the_hindu"
         }
       ]
     },
     "tn": {
-      "sourceGroupCount": 2,
-      "storyCount": 30,
-      "thin": false,
+      "sourceGroupCount": 1,
+      "storyCount": 19,
+      "thin": true,
       "topCategories": [
         {
           "category": "tn",
-          "count": 30
+          "count": 19
         }
       ],
       "topSources": [
         {
-          "count": 16,
+          "count": 19,
           "sourceGroup": "the_hindu"
-        },
-        {
-          "count": 14,
-          "sourceGroup": "google_news"
         }
       ]
     },
@@ -175,36 +145,36 @@
       ],
       "topSources": [
         {
-          "count": 18,
+          "count": 20,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 8,
+          "count": 7,
           "sourceGroup": "ndtv"
         },
         {
-          "count": 4,
+          "count": 3,
           "sourceGroup": "economic_times"
         }
       ]
     },
     "trichy": {
-      "sourceGroupCount": 2,
-      "storyCount": 16,
-      "thin": false,
+      "sourceGroupCount": 1,
+      "storyCount": 10,
+      "thin": true,
       "topCategories": [
         {
           "category": "trichy",
-          "count": 16
+          "count": 9
+        },
+        {
+          "category": "tn",
+          "count": 1
         }
       ],
       "topSources": [
         {
-          "count": 8,
-          "sourceGroup": "google_news"
-        },
-        {
-          "count": 8,
+          "count": 10,
           "sourceGroup": "the_hindu"
         }
       ]
@@ -581,9 +551,10 @@
     {
       "configuredFeeds": 9,
       "health": {
+        "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=en-IN&gl=IN&ceid=IN:en",
         "feedUrl": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=en-IN&gl=IN&ceid=IN:en",
-        "items": 18,
-        "ok": true,
+        "items": 0,
+        "ok": false,
         "section": "entertainment"
       },
       "sections": [
@@ -615,9 +586,10 @@
     {
       "configuredFeeds": 1,
       "health": {
+        "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Trichy+Tamil+Nadu+today&hl=en-IN&gl=IN&ceid=IN:en",
         "feedUrl": "https://news.google.com/rss/search?q=Trichy+Tamil+Nadu+today&hl=en-IN&gl=IN&ceid=IN:en",
-        "items": 20,
-        "ok": true,
+        "items": 0,
+        "ok": false,
         "section": "trichy"
       },
       "sections": [
@@ -633,9 +605,10 @@
     {
       "configuredFeeds": 1,
       "health": {
+        "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Oman+news&hl=en-IN&gl=IN&ceid=IN:en",
         "feedUrl": "https://news.google.com/rss/search?q=Oman+news&hl=en-IN&gl=IN&ceid=IN:en",
-        "items": 20,
-        "ok": true,
+        "items": 0,
+        "ok": false,
         "section": "muscat"
       },
       "sections": [

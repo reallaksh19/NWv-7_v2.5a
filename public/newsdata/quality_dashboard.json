@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1784348515548,
+  "generatedAt": 1784356145375,
   "windowDays": 7,
   "latest": {
     "insightGrade": "D",
     "insightScore": 0,
-    "totalStories": 629,
-    "usableStories36h": 586,
-    "sourceGroups": 10,
+    "totalStories": 579,
+    "usableStories36h": 578,
+    "sourceGroups": 9,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.307,
+    "rankingOverallScore": 0.3094,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.307,
+    "overallScore": 0.3094,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1784348514822,
+    "generatedAt": 1784356144287,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.3747,
+      "insight": 0.387,
       "localTravel": 0,
-      "upAhead": 0.8532
+      "upAhead": 0.8507
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.3747,
+        "score": 0.387,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.8532,
+        "score": 0.8507,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -74,11 +74,11 @@
         "oneSourceCappedCount": 0
       },
       "insight": {
-        "parentClusters": 12,
-        "strongParents": 12,
+        "parentClusters": 8,
+        "strongParents": 8,
         "weakParentsDemoted": 0,
         "avgAnglesPerParent": 0,
-        "baseReportHeavyParents": 1,
+        "baseReportHeavyParents": 0,
         "duplicateChildrenSuppressed": 0
       },
       "localTravel": {
@@ -92,14 +92,15 @@
       },
       "upAhead": {
         "rankedItemCount": 30,
-        "suppressedItemCount": 3,
+        "suppressedItemCount": 4,
         "events": 0,
-        "onlineOffers": 0,
+        "onlineOffers": 1,
         "offlineOffers": 0,
-        "alerts": 30,
+        "alerts": 29,
         "festivals": 0,
         "locationsCovered": [
           "chennai",
+          "online",
           "trichy"
         ]
       }
@@ -108,15 +109,17 @@
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
       "Amazon just dropped a bunch of great UGREEN NAS deals — including a hefty discount on the 'best starter NAS' we've tested - Android Central: location failed — offline/local item lacks configured location match",
       "LG TV deals: Buy an OLED, QNED, or RGB TV on sale, get up to $200 in DoorDash or Uber Eats credit - Mashable: location failed — offline/local item lacks configured location match",
+      "Chennai’s House of Venu Krishna serves Andhra meals in a restored 120-year-old George Town landmark: futureValidity failed — expired display window",
+      "Chennai’s House of Venu Krishna serves Andhra meals in a restored 120-year-old George Town landmark: alertUrgency failed — alert expired",
       "upAhead: Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
       "upAhead: Amazon just dropped a bunch of great UGREEN NAS deals — including a hefty discount on the 'best starter NAS' we've tested - Android Central: location failed — offline/local item lacks configured location match",
-      "upAhead: LG TV deals: Buy an OLED, QNED, or RGB TV on sale, get up to $200 in DoorDash or Uber Eats credit - Mashable: location failed — offline/local item lacks configured location match"
+      "upAhead: LG TV deals: Buy an OLED, QNED, or RGB TV on sale, get up to $200 in DoorDash or Uber Eats credit - Mashable: location failed — offline/local item lacks configured location match",
+      "upAhead: Chennai’s House of Venu Krishna serves Andhra meals in a restored 120-year-old George Town landmark: futureValidity failed — expired display window",
+      "upAhead: Chennai’s House of Venu Krishna serves Andhra meals in a restored 120-year-old George Town landmark: alertUrgency failed — alert expired"
     ],
     "actionRequired": [
-      "3 invalid/expired/duplicate Up Ahead item(s) suppressed",
-      "no active offer items in ranked Up Ahead set",
+      "4 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no ranked Up Ahead item for muscat",
-      "ranked Up Ahead set is category-dominated",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
       "no active local/travel disruption item",
@@ -124,7 +127,9 @@
       "no ranked local/travel item for muscat",
       "no ranked local/travel item for chennai",
       "no ranked local/travel item for trichy",
-      "1 base-report-heavy Insight parent(s) demoted"
+      "Insight event/angle ranking has no critical demotion finding",
+      "buzz: no local Buzz item in ranked set",
+      "buzz: no travel Buzz item in ranked set"
     ]
   },
   "sourceHealth": {
@@ -250,16 +255,16 @@
     },
     {
       "date": "2026-07-18",
-      "generatedAt": 1784348515548,
+      "generatedAt": 1784356145375,
       "insightGrade": "D",
       "insightScore": 0,
-      "totalStories": 629,
-      "usableStories36h": 586,
-      "sourceGroups": 10,
+      "totalStories": 579,
+      "usableStories36h": 578,
+      "sourceGroups": 9,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.307,
+      "rankingOverallScore": 0.3094,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,
