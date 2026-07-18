@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784385297005,
-  "contentHash": "7fea9e8823a3",
+  "fetchedAt": 1784389039340,
+  "contentHash": "1e19baee4902",
   "breaking": [
     {
       "title": "Seven killed, more than 50 wounded in Ukrainian drone attack on Russian regions",
@@ -16,7 +16,7 @@
       "id": "fa0447a27022f46d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.817,
+      "breakingScore": 6.73,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -27,19 +27,19 @@
       "firstSeen": 1784377391000
     },
     {
-      "title": "West Asia war LIVE: U.S.-Iran fighting escalates with infrastructure targeted",
-      "summary": "The United States and Iran exchanged strikes aimed at infrastructure and military targets, while GCC head condemned the recent Iranian attacks, labelling them as  “war crimes”",
-      "source": "The Hindu",
+      "title": "West Asia war LIVE: Iran attack sparks two fires in Kuwait, firefighters injured",
+      "summary": "The United States and Iran exchanged strikes aimed at infrastructure and military targets on Saturday, July 18, as their battle over the Strait of Hormuz intensified",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-tehran-hits-usa-military-sites-in-kuwait-jordan-live-updates-july-18-2026/article71236973.ece",
-      "publishedAt": 1784384324000,
-      "category": "topStories",
+      "publishedAt": 1784372172000,
+      "category": "world",
       "region": "in",
       "language": "en",
       "id": "e87ee6965b31f4bc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.477,
+      "breakingScore": 6.61,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -50,25 +50,26 @@
       "firstSeen": 1784359982000
     },
     {
-      "title": "8 Killed, 9 Injured In Blast Inside Illegal Ahmedabad Firecracker Factory",
-      "summary": "The injured have been rushed to the civil hospital and LG Hospital",
-      "source": "NDTV India",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/8-killed-9-injured-in-blast-inside-illegal-ahmedabad-firecracker-factory-11788790#publisher=newsstand",
-      "publishedAt": 1784377732000,
+      "title": "At least nine dead in blast and fire at illegal firecracker unit in Ahmedabad",
+      "summary": "Six others injured; Gujarat CM and PM Modi announce ex-gratia",
+      "source": "The Hindu National",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/gujarat/ahmedabad-illegal-firecracker-unit-blast-fire-death-toll-updates/article71238010.ece",
+      "publishedAt": 1784387636000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "eb4df879d2cb131d",
+      "id": "9641f31fa3566b29",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.325,
+      "breakingScore": 5.468,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
-        "ndtv"
+        "ndtv",
+        "the_hindu"
       ],
       "firstSeen": 1784377732000
     },
@@ -85,7 +86,7 @@
       "id": "c2b96fd6cb23ebd7",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.911,
+      "breakingScore": 3.824,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -109,7 +110,7 @@
       "id": "8d93bde61d9b38dd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.877,
+      "breakingScore": 3.79,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -120,67 +121,19 @@
       "firstSeen": 1784379985000
     },
     {
-      "title": "Former Prime Minister H.D. Deve Gowda’s wife Chennamma passes away",
-      "summary": "She had been admitted to Manipal Hospital in Bengaluru with breathing complications, chest congestion and other age-related complications",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/karnataka/former-prime-minister-hd-deve-gowda-wife-chennamma-passes-away/article71237856.ece",
-      "publishedAt": 1784384162000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "c1b5d88491d8a15f",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.974,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784381061000
-    },
-    {
-      "title": "Sonam Wangchuk hunger strike LIVE: CJP's Dipke says Delhi Police planning overnight 'crackdown' on Jantar Mantar protest, calls for night vigil",
-      "summary": "Sonam Wangchuk continues to refuse medical intervention as wife Gitanjali alleges 'lack of transparency' at hospital",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/cjp-students-protest-at-delhi-jantar-mantar-sonam-wangchuk-hunger-strike-day-21-live-updates-july-18-2026/article71236930.ece",
-      "publishedAt": 1784384854000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "c409952f529b73c1",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.49,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784372660000
-    },
-    {
-      "title": "Over 77,500 sedative tablets, 170 cough syrup bottles seized in Hyderabad, two arrested",
+      "title": "14 injured after APSRTC bus overturns in Prakasam district",
       "summary": "",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/Hyderabad/over-77500-sedative-tablets-170-cough-syrup-bottles-seized-in-hyderabad-two-arrested/article71238311.ece",
-      "publishedAt": 1784384739000,
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/14-injured-after-apsrtc-bus-overturns-in-prakasam-district/article71238585.ece",
+      "publishedAt": 1784388685000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "9b6bd045b24c3852",
+      "id": "bd08905ca1358838",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.487,
+      "breakingScore": 2.492,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -188,7 +141,53 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784384739000
+      "firstSeen": 1784388685000
+    },
+    {
+      "title": "Sonam Wangchuk hunger strike LIVE: CJP's Dipke says Delhi Police planning overnight 'crackdown' on Jantar Mantar protest, calls for night vigil",
+      "summary": "Sonam Wangchuk continues to refuse medical intervention as wife Gitanjali alleges 'lack of transparency' at hospital",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/cjp-students-protest-at-delhi-jantar-mantar-sonam-wangchuk-hunger-strike-day-21-live-updates-july-18-2026/article71236930.ece",
+      "publishedAt": 1784388380000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "c409952f529b73c1",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.485,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784388380000
+    },
+    {
+      "title": "German politician resigns over surrogacy child controversy",
+      "summary": "Jens Spahn faced criticism over his use of a surrogate, a ban on which he previously backed.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cq56e9n1ddzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784388211000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "99c86078aebc5d4d",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.481,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784388211000
     }
   ]
 }
