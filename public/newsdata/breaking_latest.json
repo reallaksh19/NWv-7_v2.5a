@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784368476949,
-  "contentHash": "45b14c97665b",
+  "fetchedAt": 1784372376949,
+  "contentHash": "b57539ba9f44",
   "breaking": [
     {
       "title": "West Asia war LIVE: Iran attack sparks two fires in Kuwait, firefighters injured",
@@ -9,14 +9,14 @@
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-tehran-hits-usa-military-sites-in-kuwait-jordan-live-updates-july-18-2026/article71236973.ece",
-      "publishedAt": 1784368137000,
+      "publishedAt": 1784372172000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "e87ee6965b31f4bc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.992,
+      "breakingScore": 6.995,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -24,7 +24,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784352298000
+      "firstSeen": 1784359982000
     },
     {
       "title": "Venezuela earthquake death toll exceeds 5,000 as IMF releases funds",
@@ -39,7 +39,7 @@
       "id": "c070c0beba184c7a",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.771,
+      "breakingScore": 6.68,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -48,6 +48,29 @@
         "the_hindu"
       ],
       "firstSeen": 1784358574000
+    },
+    {
+      "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
+      "summary": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\".",
+      "source": "BBC",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784372352000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "8d93bde61d9b38dd",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.999,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784372352000
     },
     {
       "title": "Flash flood kills 4, leaves 4 others missing in Vietnam",
@@ -62,7 +85,7 @@
       "id": "b654aa24ad0e23dd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.783,
+      "breakingScore": 3.692,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -73,43 +96,67 @@
       "firstSeen": 1784359090000
     },
     {
-      "title": "\"3...2...1...Lift Off\": Moment India's 1st Private Space Rocket Took Off. Watch",
-      "summary": "Vikram-1 is India's first privately developed rocket.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/skyroot-vikram-1-launch-3-2-1-lift-off-moment-indias-1st-private-space-rocket-took-off-watch-11787637#publisher=newsstand",
-      "publishedAt": 1784360225000,
+      "title": "Ahead of FIFA World Cup final, Kozhikode police announce public safety measures",
+      "summary": "Kozhikode City police said dangerous bike racing, stunt riding, drunk driving, speeding, traffic violations, bursting of firecrackers in a manner that causes public nuisance, raising provocative or hate-filled slogans, and any other activities that disturb public peace have been prohibited",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/kerala/ahead-of-fifa-world-cup-final-kozhikode-police-announce-public-safety-measures/article71237543.ece",
+      "publishedAt": 1784370776000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "5f958293fe465067",
+      "id": "0fa65ce4be591139",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.809,
+      "breakingScore": 2.963,
       "breakingReasons": [
         "multi_source_velocity"
       ],
       "sourceCount": 2,
       "allSources": [
-        "bbc",
-        "ndtv"
+        "the_hindu",
+        "times_of_india"
       ],
-      "firstSeen": 1784358319000
+      "firstSeen": 1784370242000
     },
     {
-      "title": "Sonam Wangchuk hunger strike LIVE: Wangchuk's wife asks for activist to be shifted from Safdarjung; Dipke begins indefinite hunger strike at Jantar Mantar",
-      "summary": "Even if Sonam can't join the July 20 march to Parliament, I will represent him and lead that march, says wife Gitanjali Angmo",
+      "title": "What makes Skyroot’s Vikram-1 launch unique? | Explained",
+      "summary": "Skyroot’s Vikram-1 has made India only the third country where a private company has independently placed payloads in orbit. Here’s what makes the mission significant",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/what-makes-skyroots-vikram-1-launch-unique-explained/article71237592.ece",
+      "publishedAt": 1784370374000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "51a55daca0e28736",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.954,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784367549000
+    },
+    {
+      "title": "Sonam Wangchuk hunger strike LIVE: Wangchuk refuses medical intervention at hospital; Dipke holds indefinite hunger strike at Jantar Mantar",
+      "summary": "Even if Sonam can't join the July 20 march to Parliament, I will represent him and lead that march, says wife Gitanjali Angmo, also asking for the activist to be shifted from the Safdarjung Hospital",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/national/cjp-students-protest-at-delhi-jantar-mantar-sonam-wangchuk-hunger-strike-day-21-live-updates-july-18-2026/article71236930.ece",
-      "publishedAt": 1784368065000,
+      "publishedAt": 1784372142000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "c409952f529b73c1",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.49,
+      "breakingScore": 2.495,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -122,73 +169,28 @@
       "firstSeen": 1784354328000
     },
     {
-      "title": "Toxic Gas, Bomb Tests: Arrested Jaish Terrorists In Gujarat Underwent Special Training",
-      "summary": "The alleged Jaish-e-Mohammed terrorists were trained in biochemical tactics.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/toxic-gas-bomb-tests-arrested-jaish-e-mohammed-terrorists-in-gujarat-underwent-special-training-11788142#publisher=newsstand",
-      "publishedAt": 1784366335000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "678f6bb4cc41bfc2",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.45,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784366335000
-    },
-    {
-      "title": "Woman assaulted and disrobed on roads in A.P.’s Guntur, accused arrested",
-      "summary": "Andhra Pradesh Chief Minister N. Chandrababu Naidu termed the incident “deeply disturbing,” asserting that the humiliation of any woman is unacceptable and assuring that no one would receive protection because of political affiliation",
-      "source": "The Hindu",
+      "title": "Trump threatens to increase Canada tariffs over wildfire smoke pollution",
+      "summary": "President Donald Trump accused Canada of ‘not properly maintaining’ their forests, failing to carry out ‘basic Forest Management and Debris Removal’",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/woman-assaulted-and-disrobed-on-roads-accused-arrested-in-andhra-pradeshs-guntur/article71237385.ece",
-      "publishedAt": 1784366234000,
-      "category": "topStories",
+      "url": "https://www.thehindu.com/news/international/trump-threatens-to-increase-canada-tariffs-over-wildfire-smoke-pollution/article71237257.ece",
+      "publishedAt": 1784369247000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "1aef9a36542e28e0",
+      "id": "ea4a6ef14b2f7fbc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.448,
+      "breakingScore": 2.428,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
+        "bbc",
         "the_hindu"
       ],
-      "firstSeen": 1784366234000
-    },
-    {
-      "title": "Infiltration Bid Foiled In J&K, Heavy Firing Along LoC In Rajouri",
-      "summary": "There were no reports of any casualties.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/infiltration-bid-foiled-in-j-k-heavy-firing-along-loc-in-rajouri-11788023#publisher=newsstand",
-      "publishedAt": 1784364121000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "557fdcd83ef2c2af",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.399,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784364121000
+      "firstSeen": 1784338187000
     }
   ]
 }
