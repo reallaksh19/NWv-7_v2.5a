@@ -1,33 +1,8 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784327459773,
-  "contentHash": "7de15c45e827",
+  "fetchedAt": 1784336728910,
+  "contentHash": "1940213bd0c4",
   "breaking": [
-    {
-      "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
-      "summary": "The US Tsunami Warning Center has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico after the quake.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cwyjv3815yxo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784311974000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "c511924f3fd5ccc3",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 7.142,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "bbc",
-        "the_hindu"
-      ],
-      "firstSeen": 1784308882000
-    },
     {
       "title": "In Gurugram, 60 rounds, 120 seconds",
       "summary": "On July 9, a gunfight in Gurugram’s upscale Sushant Lok left four alleged shooters dead and three policemen injured. Police said gangster Deepak Nandal ordered the attack on businessman Vishal Berry over a ₹5 crore extortion demand. Among the dead were two minors from Rohtak’s Bhalaut village with no criminal record. Ashok Kumar finds that the incident has raised questions over crime, drug use, and policing",
@@ -41,7 +16,7 @@
       "id": "9f031b9eca120680",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.342,
+      "breakingScore": 5.127,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -64,7 +39,7 @@
       "id": "0849aee2fbe74846",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.939,
+      "breakingScore": 3.724,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -87,7 +62,7 @@
       "id": "35d975d48c864cf6",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.891,
+      "breakingScore": 3.676,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -110,7 +85,7 @@
       "id": "68e3615a5bce8f2e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.828,
+      "breakingScore": 3.614,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -121,50 +96,28 @@
       "firstSeen": 1784320035000
     },
     {
-      "title": "\"Trying To Find New Purpose\": Parents Of Boy Killed In Mumbai Tree Collapse",
-      "summary": "Vihaan Srivastav was killed when a tree fell on his school bus.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/vihaan-chembur-trying-to-find-new-purpose-parents-of-boy-killed-in-mumbai-tree-collapse-11786548#publisher=newsstand",
-      "publishedAt": 1784313459000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "8895633643ecaa0f",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.676,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784313459000
-    },
-    {
-      "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
-      "summary": "The US military says its attacks were intended to \"further degrade Iranian military capabilities\".",
+      "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
+      "summary": "The US Tsunami Warning Center has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico after the quake.",
       "source": "BBC World",
       "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784313192000,
+      "url": "https://www.bbc.co.uk/news/articles/cwyjv3815yxo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784311974000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "ed22d83270f65606",
+      "id": "c511924f3fd5ccc3",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.67,
+      "breakingScore": 2.427,
       "breakingReasons": [
-        "severity_lexicon"
+        "multi_source_velocity"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
-        "bbc"
+        "bbc",
+        "the_hindu"
       ],
-      "firstSeen": 1784313192000
+      "firstSeen": 1784308882000
     },
     {
       "title": "Henry Nowak stabbing case: Vickrum Digwa's mother jailed for 3 years in UK for hiding murder weapon",
@@ -179,7 +132,7 @@
       "id": "5107dab51d8ca182",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.594,
+      "breakingScore": 2.379,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -189,6 +142,52 @@
         "times_of_india"
       ],
       "firstSeen": 1784308968000
+    },
+    {
+      "title": "US Hits Iran 7th Night In Row, Tehran Replies With \"No Border Safe\" Warning",
+      "summary": "US said that strikes against Iran were designed to \"continue degrading Iranian military capabilities.\"",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-strikes-iran-again-now-7-nights-in-a-row-11786666#publisher=newsstand",
+      "publishedAt": 1784330762000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "50cae665c82192ea",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.362,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784320859000
+    },
+    {
+      "title": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
+      "summary": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784330110000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "2407ca3b6fc854f1",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.347,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784330110000
     }
   ]
 }
