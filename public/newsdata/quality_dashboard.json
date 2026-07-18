@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1784383009777,
+  "generatedAt": 1784390081010,
   "windowDays": 7,
   "latest": {
     "insightGrade": "C",
     "insightScore": 0,
-    "totalStories": 656,
-    "usableStories36h": 644,
+    "totalStories": 671,
+    "usableStories36h": 645,
     "sourceGroups": 9,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.3046,
+    "rankingOverallScore": 0.3101,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.3046,
+    "overallScore": 0.3101,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1784383008432,
+    "generatedAt": 1784390079876,
     "destinationScores": {
       "buzz": 0,
       "insight": 0.3833,
       "localTravel": 0,
-      "upAhead": 0.8351
+      "upAhead": 0.8572
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.8351,
+        "score": 0.8572,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -91,37 +91,36 @@
         "locationsCovered": []
       },
       "upAhead": {
-        "rankedItemCount": 28,
-        "suppressedItemCount": 8,
+        "rankedItemCount": 30,
+        "suppressedItemCount": 6,
         "events": 0,
-        "onlineOffers": 1,
-        "offlineOffers": 4,
-        "alerts": 23,
+        "onlineOffers": 0,
+        "offlineOffers": 1,
+        "alerts": 29,
         "festivals": 0,
         "locationsCovered": [
           "chennai",
           "muscat",
-          "online",
           "trichy"
         ]
       }
     },
     "topFindings": [
+      "Amazon’s $25 Billion Bond Sale Created 3 More Reasons for Me to Keep Buying - 24/7 Wall St.: location failed — offline/local item lacks configured location match",
+      "Amazon beauty sale 2026 makes high-end beauty affordable - international quality, Indian pricing - MSN: location failed — offline/local item lacks configured location match",
       "Amazon Mega Electronic Days Sale: Deals on laptops, tablets and more - FoneArena.com: location failed — offline/local item lacks configured location match",
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
       "Amazon just dropped a bunch of great UGREEN NAS deals — including a hefty discount on the 'best starter NAS' we've tested - Android Central: location failed — offline/local item lacks configured location match",
-      "IIT-M holds awareness programme for school heads in Thanjavur: futureValidity failed — expired display window",
-      "IIT-M holds awareness programme for school heads in Thanjavur: alertUrgency failed — alert expired",
-      "Private hospital in Chennai launches laser angioplasty technology: futureValidity failed — expired display window",
-      "Private hospital in Chennai launches laser angioplasty technology: alertUrgency failed — alert expired",
-      "Circular bus service introduced in Kumbakonam: futureValidity failed — expired display window",
-      "Circular bus service introduced in Kumbakonam: alertUrgency failed — alert expired",
       "LG TV deals: Buy an OLED, QNED, or RGB TV on sale, get up to $200 in DoorDash or Uber Eats credit - Mashable: location failed — offline/local item lacks configured location match",
-      "Go big with the 45-inch LG Ultragear curved gaming monitor, now on sale for $654 off at Amazon - Mashable: location failed — offline/local item lacks configured location match",
-      "upAhead: Amazon Mega Electronic Days Sale: Deals on laptops, tablets and more - FoneArena.com: location failed — offline/local item lacks configured location match"
+      "upAhead: Amazon’s $25 Billion Bond Sale Created 3 More Reasons for Me to Keep Buying - 24/7 Wall St.: location failed — offline/local item lacks configured location match",
+      "upAhead: Amazon beauty sale 2026 makes high-end beauty affordable - international quality, Indian pricing - MSN: location failed — offline/local item lacks configured location match",
+      "upAhead: Amazon Mega Electronic Days Sale: Deals on laptops, tablets and more - FoneArena.com: location failed — offline/local item lacks configured location match",
+      "upAhead: Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
+      "upAhead: Amazon just dropped a bunch of great UGREEN NAS deals — including a hefty discount on the 'best starter NAS' we've tested - Android Central: location failed — offline/local item lacks configured location match",
+      "upAhead: LG TV deals: Buy an OLED, QNED, or RGB TV on sale, get up to $200 in DoorDash or Uber Eats credit - Mashable: location failed — offline/local item lacks configured location match"
     ],
     "actionRequired": [
-      "8 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "6 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
       "no active local/travel disruption item",
@@ -258,16 +257,16 @@
     },
     {
       "date": "2026-07-18",
-      "generatedAt": 1784383009777,
+      "generatedAt": 1784390081010,
       "insightGrade": "C",
       "insightScore": 0,
-      "totalStories": 656,
-      "usableStories36h": 644,
+      "totalStories": 671,
+      "usableStories36h": 645,
       "sourceGroups": 9,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.3046,
+      "rankingOverallScore": 0.3101,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,
