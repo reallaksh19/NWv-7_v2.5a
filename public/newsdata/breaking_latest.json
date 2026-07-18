@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784362643018,
-  "contentHash": "5a4a0bc441a8",
+  "fetchedAt": 1784368476949,
+  "contentHash": "45b14c97665b",
   "breaking": [
+    {
+      "title": "West Asia war LIVE: Iran attack sparks two fires in Kuwait, firefighters injured",
+      "summary": "The United States and Iran exchanged strikes aimed at infrastructure and military targets on Saturday, July 18, as their battle over the Strait of Hormuz intensified",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-tehran-hits-usa-military-sites-in-kuwait-jordan-live-updates-july-18-2026/article71236973.ece",
+      "publishedAt": 1784368137000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "e87ee6965b31f4bc",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 6.992,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784352298000
+    },
     {
       "title": "Venezuela earthquake death toll exceeds 5,000 as IMF releases funds",
       "summary": "The disasters killed 5,069 people, National Assembly chief Jorge Rodriguez posted on Telegram, with most casualties occurring in the coastal region.",
@@ -16,7 +39,7 @@
       "id": "c070c0beba184c7a",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.906,
+      "breakingScore": 6.771,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -25,29 +48,6 @@
         "the_hindu"
       ],
       "firstSeen": 1784358574000
-    },
-    {
-      "title": "West Asia war LIVE: Iran claims strikes on U.S. targets in Kuwait, Jordan",
-      "summary": "Iran accused U.S. forces of targeting civilian infrastructure, including an airport, a railway station and two bridges, and said it had struck U.S. assets across the region.",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-tehran-hits-usa-military-sites-in-kuwait-jordan-live-updates-july-18-2026/article71236973.ece",
-      "publishedAt": 1784360634000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "e87ee6965b31f4bc",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.953,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784324827000
     },
     {
       "title": "Flash flood kills 4, leaves 4 others missing in Vietnam",
@@ -62,7 +62,7 @@
       "id": "b654aa24ad0e23dd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.918,
+      "breakingScore": 3.783,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -73,90 +73,68 @@
       "firstSeen": 1784359090000
     },
     {
-      "title": "Vikram-1, country’s first private orbital-class rocket, successfully places tech payloads, postcards into orbit",
-      "summary": "Dubbed ‘Mission Aagaman’ (meaning arrival), the successful launch of Skyroot Aerospace’s Vikram-1 marks India’s entry into an elite group of nations with private orbital launch capability",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/sci-tech/science/vikram-1-indias-first-privately-developed-orbital-class-rocket-launch-updates/article71237224.ece",
-      "publishedAt": 1784362196000,
-      "category": "india",
+      "title": "\"3...2...1...Lift Off\": Moment India's 1st Private Space Rocket Took Off. Watch",
+      "summary": "Vikram-1 is India's first privately developed rocket.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/skyroot-vikram-1-launch-3-2-1-lift-off-moment-indias-1st-private-space-rocket-took-off-watch-11787637#publisher=newsstand",
+      "publishedAt": 1784360225000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "525d0cdeac499b78",
+      "id": "5f958293fe465067",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.99,
+      "breakingScore": 2.809,
       "breakingReasons": [
         "multi_source_velocity"
       ],
       "sourceCount": 2,
       "allSources": [
         "bbc",
-        "the_hindu"
+        "ndtv"
       ],
       "firstSeen": 1784358319000
     },
     {
-      "title": "Iran's Guards say two oil tankers explode after hitting mines in Hormuz",
-      "summary": "The Guards said separately on Saturday (July 18) that they had \"stopped\" four ships trying to transit the Strait of Hormuz",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/irans-guards-say-two-oil-tankers-explode-after-hitting-mines-in-hormuz/article71236907.ece",
-      "publishedAt": 1784358478000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "058360b675c3380e",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.904,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784356306000
-    },
-    {
-      "title": "Wangchuk’s removal from Jantar Mantar: Congress accuses govt of crushing peaceful protest",
-      "summary": "Attacking the BJP, the Opposition party also said it was a shame that the world's largest democracy was being \"ruled\" by the most undemocratic and anti-democratic political party in the world",
+      "title": "Sonam Wangchuk hunger strike LIVE: Wangchuk's wife asks for activist to be shifted from Safdarjung; Dipke begins indefinite hunger strike at Jantar Mantar",
+      "summary": "Even if Sonam can't join the July 20 march to Parliament, I will represent him and lead that march, says wife Gitanjali Angmo",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/wangchuks-removal-from-jantar-mantar-congress-accuses-govt-of-crushing-peaceful-protest/article71237368.ece",
-      "publishedAt": 1784362074000,
+      "url": "https://www.thehindu.com/news/national/cjp-students-protest-at-delhi-jantar-mantar-sonam-wangchuk-hunger-strike-day-21-live-updates-july-18-2026/article71236930.ece",
+      "publishedAt": 1784368065000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "67914e58fda1a054",
+      "id": "c409952f529b73c1",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.487,
+      "breakingScore": 2.49,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 1,
+      "sourceCount": 3,
       "allSources": [
+        "bbc",
+        "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1784360999000
+      "firstSeen": 1784354328000
     },
     {
-      "title": "Sonam Wangchuk Hospitalised Live Updates: Sonam Wangchuk's Wife Appeals To Shift Him To Another Hospital For Treatment",
-      "summary": "Sonam Wangchuk was on an an indefinite hunger strike for over 20 days.",
+      "title": "Toxic Gas, Bomb Tests: Arrested Jaish Terrorists In Gujarat Underwent Special Training",
+      "summary": "The alleged Jaish-e-Mohammed terrorists were trained in biochemical tactics.",
       "source": "NDTV",
       "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/sonam-wangchuk-latest-news-live-updates-sonam-wangchuk-hunger-strike-hospitalised-cjp-protest-11787071#publisher=newsstand",
-      "publishedAt": 1784362058000,
+      "url": "https://www.ndtv.com/india-news/toxic-gas-bomb-tests-arrested-jaish-e-mohammed-terrorists-in-gujarat-underwent-special-training-11788142#publisher=newsstand",
+      "publishedAt": 1784366335000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "b0f2a36393de8db7",
+      "id": "678f6bb4cc41bfc2",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.486,
+      "breakingScore": 2.45,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -164,22 +142,22 @@
       "allSources": [
         "ndtv"
       ],
-      "firstSeen": 1784362058000
+      "firstSeen": 1784366335000
     },
     {
-      "title": "Sharad Pawar slams Centre over ‘irresponsible’ handling of Wangchuk's hunger strike",
-      "summary": "Mr. Pawar asserted that while the government moved to hospitalise Mr. Wangchuk as the situation became \"uncontrollable\", the protest would continue regardless of the action against the activist",
+      "title": "Woman assaulted and disrobed on roads in A.P.’s Guntur, accused arrested",
+      "summary": "Andhra Pradesh Chief Minister N. Chandrababu Naidu termed the incident “deeply disturbing,” asserting that the humiliation of any woman is unacceptable and assuring that no one would receive protection because of political affiliation",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/sharad-pawar-slams-centre-over-irresponsible-handling-of-wangchuks-hunger-strike/article71237166.ece",
-      "publishedAt": 1784360431000,
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/woman-assaulted-and-disrobed-on-roads-accused-arrested-in-andhra-pradeshs-guntur/article71237385.ece",
+      "publishedAt": 1784366234000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "c3273fc741c118d6",
+      "id": "1aef9a36542e28e0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.449,
+      "breakingScore": 2.448,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -187,7 +165,30 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784359560000
+      "firstSeen": 1784366234000
+    },
+    {
+      "title": "Infiltration Bid Foiled In J&K, Heavy Firing Along LoC In Rajouri",
+      "summary": "There were no reports of any casualties.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/infiltration-bid-foiled-in-j-k-heavy-firing-along-loc-in-rajouri-11788023#publisher=newsstand",
+      "publishedAt": 1784364121000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "557fdcd83ef2c2af",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.399,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784364121000
     }
   ]
 }
