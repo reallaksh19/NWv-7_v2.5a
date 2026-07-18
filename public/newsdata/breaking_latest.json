@@ -1,33 +1,8 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784381243031,
-  "contentHash": "a13417372ef0",
+  "fetchedAt": 1784385297005,
+  "contentHash": "7fea9e8823a3",
   "breaking": [
-    {
-      "title": "At least four dead, many injured in blast-fire at illegal Ahmedabad firecracker unit",
-      "summary": "The unit, set up on an open farm, was operating without a valid licence, Joint Commissioner of Police Jaipal Singh Rathore said",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/gujarat/ahmedabad-illegal-firecracker-unit-blast-fire-death-toll-updates/article71238010.ece",
-      "publishedAt": 1784379900000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "9641f31fa3566b29",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 7.469,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784377432000
-    },
     {
       "title": "Seven killed, more than 50 wounded in Ukrainian drone attack on Russian regions",
       "summary": "Ukrainian special operations also conducted strikes against targets in the Sea of Azov and in occupied territory, Mr. Zelenskyy said",
@@ -41,7 +16,7 @@
       "id": "fa0447a27022f46d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.911,
+      "breakingScore": 6.817,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -52,19 +27,19 @@
       "firstSeen": 1784377391000
     },
     {
-      "title": "West Asia war LIVE: Iran attack sparks two fires in Kuwait, firefighters injured",
-      "summary": "The United States and Iran exchanged strikes aimed at infrastructure and military targets on Saturday, July 18, as their battle over the Strait of Hormuz intensified",
-      "source": "The Hindu International",
+      "title": "West Asia war LIVE: U.S.-Iran fighting escalates with infrastructure targeted",
+      "summary": "The United States and Iran exchanged strikes aimed at infrastructure and military targets, while GCC head condemned the recent Iranian attacks, labelling them as  “war crimes”",
+      "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-tehran-hits-usa-military-sites-in-kuwait-jordan-live-updates-july-18-2026/article71236973.ece",
-      "publishedAt": 1784372172000,
-      "category": "world",
+      "publishedAt": 1784384324000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "e87ee6965b31f4bc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.79,
+      "breakingScore": 5.477,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -73,6 +48,53 @@
         "the_hindu"
       ],
       "firstSeen": 1784359982000
+    },
+    {
+      "title": "8 Killed, 9 Injured In Blast Inside Illegal Ahmedabad Firecracker Factory",
+      "summary": "The injured have been rushed to the civil hospital and LG Hospital",
+      "source": "NDTV India",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/8-killed-9-injured-in-blast-inside-illegal-ahmedabad-firecracker-factory-11788790#publisher=newsstand",
+      "publishedAt": 1784377732000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "eb4df879d2cb131d",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.325,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784377732000
+    },
+    {
+      "title": "Confusion, lack of equipment hindered Venezuela's response to earthquake that killed over 5,000: Report",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132480638.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Venezuelan military response to earthquakes faced significant delays. Poor coordination and delayed deployment orders slowed rescue efforts. Essential equipment shortages further hampered the armed forces' capabilities. Civilians and international teams performed initial rescue work. Economic crisis years eroded the military's operational readiness.",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/confusion-lack-of-equipment-hindered-venezuelas-earthquake-response-report/articleshow/132480638.cms",
+      "publishedAt": 1784381435000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "c2b96fd6cb23ebd7",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.911,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "the_hindu",
+        "times_of_india"
+      ],
+      "firstSeen": 1784358574000
     },
     {
       "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
@@ -87,7 +109,7 @@
       "id": "8d93bde61d9b38dd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.971,
+      "breakingScore": 3.877,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -98,42 +120,67 @@
       "firstSeen": 1784379985000
     },
     {
-      "title": "KSRTC staff arrested on charge of sexually assaulting woman passenger",
-      "summary": "",
-      "source": "The Hindu",
+      "title": "Former Prime Minister H.D. Deve Gowda’s wife Chennamma passes away",
+      "summary": "She had been admitted to Manipal Hospital in Bengaluru with breathing complications, chest congestion and other age-related complications",
+      "source": "The Hindu National",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/kerala/ksrtc-staff-arrested-on-charge-of-sexually-assaulting-woman-passenger/article71237901.ece",
-      "publishedAt": 1784380789000,
-      "category": "topStories",
+      "url": "https://www.thehindu.com/news/national/karnataka/former-prime-minister-hd-deve-gowda-wife-chennamma-passes-away/article71237856.ece",
+      "publishedAt": 1784384162000,
+      "category": "india",
       "region": "in",
       "language": "en",
-      "id": "fdbfc2cabc425ccf",
+      "id": "c1b5d88491d8a15f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.489,
+      "breakingScore": 2.974,
       "breakingReasons": [
-        "severity_lexicon"
+        "multi_source_velocity"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
+        "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1784380789000
+      "firstSeen": 1784381061000
     },
     {
-      "title": "Sonam Wangchuk hunger strike LIVE: Wangchuk refuses medical intervention; Govt. should not test his limits, Anna Hazare says",
-      "summary": "Wife Gitanjali alleges 'lack of transparency' at hospital; CJP founder Dipke is on an indefinite fast at Jantar Mantar",
+      "title": "Sonam Wangchuk hunger strike LIVE: CJP's Dipke says Delhi Police planning overnight 'crackdown' on Jantar Mantar protest, calls for night vigil",
+      "summary": "Sonam Wangchuk continues to refuse medical intervention as wife Gitanjali alleges 'lack of transparency' at hospital",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/national/cjp-students-protest-at-delhi-jantar-mantar-sonam-wangchuk-hunger-strike-day-21-live-updates-july-18-2026/article71236930.ece",
-      "publishedAt": 1784380587000,
+      "publishedAt": 1784384854000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "c409952f529b73c1",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.485,
+      "breakingScore": 2.49,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784372660000
+    },
+    {
+      "title": "Over 77,500 sedative tablets, 170 cough syrup bottles seized in Hyderabad, two arrested",
+      "summary": "",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/over-77500-sedative-tablets-170-cough-syrup-bottles-seized-in-hyderabad-two-arrested/article71238311.ece",
+      "publishedAt": 1784384739000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "9b6bd045b24c3852",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.487,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -141,53 +188,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784380587000
-    },
-    {
-      "title": "Why was Ice Poseidon’s Indian VISA revoked? Streamer says it was linked to fellow Kick creator",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132479941.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Kick streamer Ice Poseidon's planned India trip was cancelled after his visa was revoked.  He learned his visa was denied due to his contact, Deepak, who has alleged criminal issues.  Authorities reportedly stated they would not accept him into India based on Deepak's information.  Deepak was allegedly involved in a fireworks incident where a girl was injured.  Ice Poseidon presented this gathered information as his reason for denial.",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/us-streamers/why-was-ice-poseidons-indian-visa-revoked-streamer-claims-revoked-visa-was-linked-to-fellow-kick-creator/articleshow/132479941.cms",
-      "publishedAt": 1784377504000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "ca87d86bc50118ea",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.413,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "times_of_india"
-      ],
-      "firstSeen": 1784377504000
-    },
-    {
-      "title": "Sonam Wangchuk Hospitalised Live Updates: Hospital Says Sonam Wangchuk Refusing IV Fluids, Medication",
-      "summary": "Sonam Wangchuk was on an an indefinite hunger strike for over 20 days.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/sonam-wangchuk-latest-news-live-updates-sonam-wangchuk-hunger-strike-hospitalised-cjp-protest-11787071#publisher=newsstand",
-      "publishedAt": 1784376376000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "b0f2a36393de8db7",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.387,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784369480000
+      "firstSeen": 1784384739000
     }
   ]
 }
