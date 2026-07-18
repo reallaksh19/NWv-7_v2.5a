@@ -60,7 +60,7 @@
       "gateResults": [
         {
           "details": {
-            "itemCount": 12
+            "itemCount": 10
           },
           "name": "insightEventPool",
           "reason": "rankable Insight event pool",
@@ -79,14 +79,14 @@
         "avgAnglesPerParent": 0.0,
         "baseReportHeavyParents": 0,
         "duplicateChildrenSuppressed": 0,
-        "inputCandidateCount": 12,
-        "parentClusters": 12,
-        "strongParents": 12,
+        "inputCandidateCount": 10,
+        "parentClusters": 10,
+        "strongParents": 10,
         "suppressedCandidateCount": 0,
         "weakParentsDemoted": 0
       },
       "qualityGrade": "F",
-      "qualityScore": 0.3848,
+      "qualityScore": 0.3883,
       "qualityStatus": "WARN",
       "rankedItems": [
         {
@@ -317,123 +317,6 @@
           ],
           "score": 0.4925,
           "title": "Sonam Wangchuk’s wife breaks silence after Delhi Police shift him to hospital, warns authorities against brea - India.Com"
-        },
-        {
-          "category": "insightEvent",
-          "gates": [
-            {
-              "details": {
-                "storyCount": 5
-              },
-              "name": "eventCoherence",
-              "reason": "event sketch has repeated story count",
-              "score": 0.62,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "baseReportRatio": 0.0,
-                "distinctAngles": 1
-              },
-              "name": "angleDiversity",
-              "reason": "weak child angle diversity",
-              "score": 0.25,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "sourceGroupCount": 1
-              },
-              "name": "sourceDiversity",
-              "reason": "one-source event candidate",
-              "score": 0.35,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "baseReportRatio": 0.0
-              },
-              "name": "baseReportCap",
-              "reason": "base-report ratio controlled",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "childCount": 5
-              },
-              "name": "weakTree",
-              "reason": "child tree has enough depth",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "duplicateChildren",
-              "reason": "no child objects to dedup",
-              "score": 0.7,
-              "status": "PASS"
-            }
-          ],
-          "id": "sketch:313fbb8095",
-          "item": {
-            "angleCount": 1,
-            "baseReportRatio": 0.0,
-            "childScores": [],
-            "id": "sketch:313fbb8095",
-            "representativeId": "90d917bf9ae536bc",
-            "representativeTitle": "Breaking news live updates, July 17: 'China stole voter data of 220m Americans' - Trump blames Beijing for 2020 election interference - The Times of India",
-            "scoreBreakdown": {
-              "angleDiversityScore": 0.25,
-              "eventImportanceScore": 0.95,
-              "freshnessScore": 0.0,
-              "noveltyDeltaScore": 0.44999999999999996,
-              "sourceAuthorityScore": 0.38,
-              "sourceDiversityScore": 0.35,
-              "temporalEvolutionScore": 0.37
-            },
-            "slotCount": 1,
-            "slots": [
-              "now"
-            ],
-            "sourceGroupCount": 1,
-            "sourceGroups": [
-              "google_news"
-            ],
-            "storyCount": 5,
-            "storyIds": [
-              "90d917bf9ae536bc",
-              "82ea0749d0de2b8d",
-              "4ee739c53b939a61",
-              "86e809c754b9139e",
-              "c0b89c693126f623"
-            ],
-            "topAngles": [
-              {
-                "angle": "fact_update",
-                "count": 5
-              }
-            ],
-            "topTokens": [
-              "breaking",
-              "live",
-              "updates",
-              "july",
-              "declares",
-              "neelkanth",
-              "brazil",
-              "strong"
-            ],
-            "topicKey": "breaking|live|updates"
-          },
-          "locationKey": "event",
-          "rankingReasons": [
-            "event sketch has repeated story count",
-            "weak child angle diversity",
-            "one-source event candidate"
-          ],
-          "score": 0.479,
-          "title": "Breaking news live updates, July 17: 'China stole voter data of 220m Americans' - Trump blames Beijing for 2020 election interference - The Times of India"
         },
         {
           "category": "insightEvent",
@@ -1046,116 +929,6 @@
               "status": "PASS"
             }
           ],
-          "id": "sketch:768c327fc1",
-          "item": {
-            "angleCount": 1,
-            "baseReportRatio": 0.0,
-            "childScores": [],
-            "id": "sketch:768c327fc1",
-            "representativeId": "3ebc80c15ea13c87",
-            "representativeTitle": "India news Live Updates, 17 July 2026: Congress leader Pawan Khera meets Sonam Wangchuk - The Indian Express",
-            "scoreBreakdown": {
-              "angleDiversityScore": 0.25,
-              "eventImportanceScore": 0.59,
-              "freshnessScore": 0.0,
-              "noveltyDeltaScore": 0.44999999999999996,
-              "sourceAuthorityScore": 0.38,
-              "sourceDiversityScore": 0.35,
-              "temporalEvolutionScore": 0.37
-            },
-            "slotCount": 1,
-            "slots": [
-              "now"
-            ],
-            "sourceGroupCount": 1,
-            "sourceGroups": [
-              "google_news"
-            ],
-            "storyCount": 2,
-            "storyIds": [
-              "3ebc80c15ea13c87",
-              "c70e8d70a297d2f1"
-            ],
-            "topAngles": [
-              {
-                "angle": "fact_update",
-                "count": 2
-              }
-            ],
-            "topTokens": [
-              "india",
-              "live",
-              "updates",
-              "july"
-            ],
-            "topicKey": "india|live|updates"
-          },
-          "locationKey": "event",
-          "rankingReasons": [
-            "event sketch has repeated story count",
-            "weak child angle diversity",
-            "one-source event candidate"
-          ],
-          "score": 0.389,
-          "title": "India news Live Updates, 17 July 2026: Congress leader Pawan Khera meets Sonam Wangchuk - The Indian Express"
-        },
-        {
-          "category": "insightEvent",
-          "gates": [
-            {
-              "details": {
-                "storyCount": 2
-              },
-              "name": "eventCoherence",
-              "reason": "event sketch has repeated story count",
-              "score": 0.62,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "baseReportRatio": 0.0,
-                "distinctAngles": 1
-              },
-              "name": "angleDiversity",
-              "reason": "weak child angle diversity",
-              "score": 0.25,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "sourceGroupCount": 1
-              },
-              "name": "sourceDiversity",
-              "reason": "one-source event candidate",
-              "score": 0.35,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "baseReportRatio": 0.0
-              },
-              "name": "baseReportCap",
-              "reason": "base-report ratio controlled",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "childCount": 2
-              },
-              "name": "weakTree",
-              "reason": "child tree has enough depth",
-              "score": 0.5,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "duplicateChildren",
-              "reason": "no child objects to dedup",
-              "score": 0.7,
-              "status": "PASS"
-            }
-          ],
           "id": "sketch:384d417f5f",
           "item": {
             "angleCount": 1,
@@ -1439,13 +1212,13 @@
       ],
       "rankingProfile": "insight-v2-event-angle-tree",
       "scoreBreakdown": {
-        "angleDiversityScore": 0.2942,
-        "eventImportanceScore": 0.62,
+        "angleDiversityScore": 0.303,
+        "eventImportanceScore": 0.59,
         "freshnessScore": 0.0,
-        "noveltyDeltaScore": 0.4667,
-        "sourceAuthorityScore": 0.44,
-        "sourceDiversityScore": 0.4425,
-        "temporalEvolutionScore": 0.43
+        "noveltyDeltaScore": 0.47,
+        "sourceAuthorityScore": 0.452,
+        "sourceDiversityScore": 0.461,
+        "temporalEvolutionScore": 0.442
       }
     },
     "localTravel": {
@@ -1505,13 +1278,17 @@
     },
     "upAhead": {
       "actionableFindings": [
-        "5 invalid/expired/duplicate Up Ahead item(s) suppressed"
+        "7 invalid/expired/duplicate Up Ahead item(s) suppressed"
       ],
       "destination": "upAhead",
       "diagnosticReasons": [
         "Amazon Mega Electronic Days Sale: Deals on laptops, tablets and more - FoneArena.com: location failed — offline/local item lacks configured location match",
         "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
         "Amazon just dropped a bunch of great UGREEN NAS deals — including a hefty discount on the 'best starter NAS' we've tested - Android Central: location failed — offline/local item lacks configured location match",
+        "Man beaten to death in Padappai, two persons surrender before police: futureValidity failed — expired display window",
+        "Man beaten to death in Padappai, two persons surrender before police: alertUrgency failed — alert expired",
+        "How musicians are reinventing the centuries-old abhang: futureValidity failed — expired display window",
+        "How musicians are reinventing the centuries-old abhang: alertUrgency failed — alert expired",
         "LG TV deals: Buy an OLED, QNED, or RGB TV on sale, get up to $200 in DoorDash or Uber Eats credit - Mashable: location failed — offline/local item lacks configured location match",
         "Go big with the 45-inch LG Ultragear curved gaming monitor, now on sale for $654 off at Amazon - Mashable: location failed — offline/local item lacks configured location match"
       ],
@@ -1528,8 +1305,8 @@
         {
           "details": {
             "categoryCounts": {
-              "alerts": 27,
-              "shopping": 3
+              "alerts": 25,
+              "shopping": 5
             }
           },
           "name": "categoryCoverage",
@@ -1539,10 +1316,10 @@
         }
       ],
       "gateSummary": {
-        "alerts": 27,
+        "alerts": 25,
         "categoryCounts": {
-          "alerts": 27,
-          "shopping": 3
+          "alerts": 25,
+          "shopping": 5
         },
         "events": 0,
         "festivals": 0,
@@ -1559,14 +1336,14 @@
           "online",
           "trichy"
         ],
-        "offlineOffers": 2,
+        "offlineOffers": 4,
         "onlineOffers": 1,
         "plannerAdvisoryItems": 29,
         "rankedItemCount": 30,
-        "suppressedItemCount": 5
+        "suppressedItemCount": 7
       },
       "qualityGrade": "B",
-      "qualityScore": 0.8408,
+      "qualityScore": 0.8367,
       "qualityStatus": "WARN",
       "rankedItems": [
         {
@@ -4144,7 +3921,7 @@
             },
             {
               "details": {
-                "hoursLeft": 41.47
+                "hoursLeft": 40.75
               },
               "name": "offerValidity",
               "reason": "offer active within three days",
@@ -4334,236 +4111,6 @@
           "gates": [
             {
               "details": {
-                "dedupKey": "720bd6280ed2a72e"
-              },
-              "name": "dedup",
-              "reason": "unique item",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "displayUntil": 1784374802000
-              },
-              "name": "futureValidity",
-              "reason": "valid undated item with active display window",
-              "score": 0.65,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "matchScore": 0.72,
-                "matchedLocation": "online",
-                "relevance": "onlineOnly",
-                "scope": "online"
-              },
-              "name": "location",
-              "reason": "online/global item allowed without city match",
-              "score": 0.72,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "hasPlace": true,
-                "hasTime": true
-              },
-              "name": "actionability",
-              "reason": "item has enough action fields",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "offerValidity",
-              "reason": "not an offer",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "severe": false
-              },
-              "name": "alertUrgency",
-              "reason": "active alert",
-              "score": 0.78,
-              "status": "PASS"
-            }
-          ],
-          "id": "1c91c6fc74204f4d",
-          "item": {
-            "actionabilityScore": 0.5,
-            "category": "alerts",
-            "city": "Chennai",
-            "contentClass": "upahead_alert",
-            "dateConfidence": "unknown",
-            "dateSource": "none",
-            "eventEndAt": null,
-            "eventStartAt": null,
-            "expiryAt": 1784374802000,
-            "id": "1c91c6fc74204f4d",
-            "language": "en",
-            "lifecycle": {
-              "archiveUntil": 1784979602000,
-              "contentClass": "upahead_alert",
-              "displayUntil": 1784374802000,
-              "isActionValid": true,
-              "isVisible": true,
-              "plannerEligibleByLifecycle": true,
-              "plannerPastGraceHours": 6,
-              "retentionReason": "expiryAt",
-              "withinSevenDayHorizon": true
-            },
-            "localityScore": 1.0,
-            "normalizedCategory": "alerts",
-            "plannerEligible": true,
-            "publishedAt": 1784288402000,
-            "region": "tn",
-            "scoreBreakdown": {
-              "actionabilityScore": 1.0,
-              "categoryPriorityScore": 1.0,
-              "lifecycleScore": 0.65,
-              "locationScore": 0.72,
-              "plannerFitScore": 1.0,
-              "sourceConfidenceScore": 0.58,
-              "urgencyOrExpiryScore": 0.78
-            },
-            "source": "The Hindu Chennai",
-            "sourceGroup": "the_hindu",
-            "summary": "Through multimedia presentations, fusion bands and digital platforms, musicians are finding new ways to take the works of saint-poets to contemporary audiences.",
-            "suppressionReason": null,
-            "title": "How musicians are reinventing the centuries-old abhang",
-            "url": "https://www.thehindu.com/entertainment/music/how-musicians-are-reinventing-the-centuries-old-abhang/article71224549.ece"
-          },
-          "locationKey": "chennai",
-          "rankingReasons": [
-            "alerts",
-            "valid undated item with active display window",
-            "online/global item allowed without city match",
-            "planner advisory fit"
-          ],
-          "score": 0.7925,
-          "title": "How musicians are reinventing the centuries-old abhang"
-        },
-        {
-          "category": "alerts",
-          "gates": [
-            {
-              "details": {
-                "dedupKey": "42dd6abea50c5daa"
-              },
-              "name": "dedup",
-              "reason": "unique item",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "displayUntil": 1784376714000
-              },
-              "name": "futureValidity",
-              "reason": "valid undated item with active display window",
-              "score": 0.65,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "matchScore": 0.72,
-                "matchedLocation": "online",
-                "relevance": "onlineOnly",
-                "scope": "online"
-              },
-              "name": "location",
-              "reason": "online/global item allowed without city match",
-              "score": 0.72,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "hasPlace": true,
-                "hasTime": true
-              },
-              "name": "actionability",
-              "reason": "item has enough action fields",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "offerValidity",
-              "reason": "not an offer",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "severe": false
-              },
-              "name": "alertUrgency",
-              "reason": "active alert",
-              "score": 0.78,
-              "status": "PASS"
-            }
-          ],
-          "id": "1ec72349ad083e92",
-          "item": {
-            "actionabilityScore": 0.7,
-            "category": "alerts",
-            "city": "Chennai",
-            "contentClass": "upahead_alert",
-            "dateConfidence": "unknown",
-            "dateSource": "none",
-            "eventEndAt": null,
-            "eventStartAt": null,
-            "expiryAt": 1784376714000,
-            "id": "1ec72349ad083e92",
-            "language": "en",
-            "lifecycle": {
-              "archiveUntil": 1784981514000,
-              "contentClass": "upahead_alert",
-              "displayUntil": 1784376714000,
-              "isActionValid": true,
-              "isVisible": true,
-              "plannerEligibleByLifecycle": true,
-              "plannerPastGraceHours": 6,
-              "retentionReason": "expiryAt",
-              "withinSevenDayHorizon": true
-            },
-            "localityScore": 1.0,
-            "normalizedCategory": "alerts",
-            "plannerEligible": true,
-            "publishedAt": 1784290314000,
-            "region": "tn",
-            "scoreBreakdown": {
-              "actionabilityScore": 1.0,
-              "categoryPriorityScore": 1.0,
-              "lifecycleScore": 0.65,
-              "locationScore": 0.72,
-              "plannerFitScore": 1.0,
-              "sourceConfidenceScore": 0.58,
-              "urgencyOrExpiryScore": 0.78
-            },
-            "source": "The Hindu Chennai",
-            "sourceGroup": "the_hindu",
-            "summary": "They told the police that they had killed him in a fit of rage after he allegedly made obscene remarks while intoxicated",
-            "suppressionReason": null,
-            "title": "Man beaten to death in Padappai, two persons surrender before police",
-            "url": "https://www.thehindu.com/news/cities/chennai/man-beaten-to-death-in-padappai-two-persons-surrender-before-police/article71229766.ece"
-          },
-          "locationKey": "chennai",
-          "rankingReasons": [
-            "alerts",
-            "valid undated item with active display window",
-            "online/global item allowed without city match",
-            "planner advisory fit"
-          ],
-          "score": 0.7925,
-          "title": "Man beaten to death in Padappai, two persons surrender before police"
-        },
-        {
-          "category": "alerts",
-          "gates": [
-            {
-              "details": {
                 "dedupKey": "b440211a3ae11a83"
               },
               "name": "dedup",
@@ -4719,7 +4266,7 @@
             },
             {
               "details": {
-                "hoursLeft": 20.1
+                "hoursLeft": 19.39
               },
               "name": "offerValidity",
               "reason": "offer expires soon",
@@ -4834,7 +4381,7 @@
             },
             {
               "details": {
-                "hoursLeft": 11.71
+                "hoursLeft": 11.0
               },
               "name": "offerValidity",
               "reason": "offer expires soon",
@@ -5017,21 +4564,251 @@
           ],
           "score": 0.7425,
           "title": "Madras High Court dismisses plea for CBI probe into the alleged bid to bribe TVK MLA"
+        },
+        {
+          "category": "shopping",
+          "gates": [
+            {
+              "details": {
+                "dedupKey": "2236b05e29dbf056"
+              },
+              "name": "dedup",
+              "reason": "unique item",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "displayUntil": 1784512444000
+              },
+              "name": "futureValidity",
+              "reason": "valid undated item with active display window",
+              "score": 0.65,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "matchScore": 0.72,
+                "matchedLocation": "chennai",
+                "relevance": "secondary",
+                "scope": "region"
+              },
+              "name": "location",
+              "reason": "location matches configured profile",
+              "score": 0.72,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "hasPlace": false,
+                "hasTime": true
+              },
+              "name": "actionability",
+              "reason": "item has enough action fields",
+              "score": 0.85,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "hoursLeft": 37.69
+              },
+              "name": "offerValidity",
+              "reason": "offer active within three days",
+              "score": 0.82,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "alertUrgency",
+              "reason": "not an alert",
+              "score": 0.6,
+              "status": "PASS"
+            }
+          ],
+          "id": "b4833126b67b5624",
+          "item": {
+            "actionabilityScore": 0.65,
+            "category": "shopping",
+            "city": null,
+            "contentClass": "upahead_offer",
+            "dateConfidence": "unknown",
+            "dateSource": "none",
+            "eventEndAt": null,
+            "eventStartAt": null,
+            "expiryAt": 1784512444000,
+            "id": "b4833126b67b5624",
+            "language": "en",
+            "lifecycle": {
+              "archiveUntil": 1785117244000,
+              "contentClass": "upahead_offer",
+              "displayUntil": 1784512444000,
+              "isActionValid": true,
+              "isVisible": true,
+              "plannerEligibleByLifecycle": true,
+              "plannerPastGraceHours": 6,
+              "retentionReason": "expiryAt",
+              "withinSevenDayHorizon": true
+            },
+            "localityScore": 0.3,
+            "normalizedCategory": "shopping",
+            "plannerEligible": true,
+            "publishedAt": 1784339644000,
+            "region": null,
+            "scoreBreakdown": {
+              "actionabilityScore": 0.8500000000000001,
+              "categoryPriorityScore": 0.68,
+              "lifecycleScore": 0.65,
+              "locationScore": 0.72,
+              "plannerFitScore": 1.0,
+              "sourceConfidenceScore": 0.58,
+              "urgencyOrExpiryScore": 0.82
+            },
+            "source": "Google News Shopping",
+            "sourceGroup": "google_news",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPV29MZG1sZEk4ZVFTNEJScW9yeVA5VWpvZWRReUF4cFYwUkVGeVNOT0k2cXpsbjgyZlo0aVl3UFNXNFFzbnBsMW1GSG1jM01FbWVXUjZvZ190RlVUUHRqS29EQ3ZQaWdQOWlJYlB4NjBWSTJZOUQ3eFhKbnByYTBJcDJPQl9sUHdXVWdwaXJrczE?oc=5\" target=\"_blank\">Amazon Kindle Sale at Target from July 19th to 25th</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Good e-Reader</font>",
+            "suppressionReason": null,
+            "title": "Amazon Kindle Sale at Target from July 19th to 25th - Good e-Reader",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPV29MZG1sZEk4ZVFTNEJScW9yeVA5VWpvZWRReUF4cFYwUkVGeVNOT0k2cXpsbjgyZlo0aVl3UFNXNFFzbnBsMW1GSG1jM01FbWVXUjZvZ190RlVUUHRqS29EQ3ZQaWdQOWlJYlB4NjBWSTJZOUQ3eFhKbnByYTBJcDJPQl9sUHdXVWdwaXJrczE?oc=5"
+          },
+          "locationKey": "chennai",
+          "rankingReasons": [
+            "shopping",
+            "valid undated item with active display window",
+            "location matches configured profile",
+            "planner advisory fit"
+          ],
+          "score": 0.726,
+          "title": "Amazon Kindle Sale at Target from July 19th to 25th - Good e-Reader"
+        },
+        {
+          "category": "shopping",
+          "gates": [
+            {
+              "details": {
+                "dedupKey": "e522bdb29df330af"
+              },
+              "name": "dedup",
+              "reason": "unique item",
+              "score": 1.0,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "displayUntil": 1784493608000
+              },
+              "name": "futureValidity",
+              "reason": "valid undated item with active display window",
+              "score": 0.65,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "matchScore": 0.72,
+                "matchedLocation": "chennai",
+                "relevance": "secondary",
+                "scope": "region"
+              },
+              "name": "location",
+              "reason": "location matches configured profile",
+              "score": 0.72,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "hasPlace": false,
+                "hasTime": true
+              },
+              "name": "actionability",
+              "reason": "item has enough action fields",
+              "score": 0.85,
+              "status": "PASS"
+            },
+            {
+              "details": {
+                "hoursLeft": 32.46
+              },
+              "name": "offerValidity",
+              "reason": "offer active within three days",
+              "score": 0.82,
+              "status": "PASS"
+            },
+            {
+              "details": {},
+              "name": "alertUrgency",
+              "reason": "not an alert",
+              "score": 0.6,
+              "status": "PASS"
+            }
+          ],
+          "id": "557fb8c398cd9ed3",
+          "item": {
+            "actionabilityScore": 0.45,
+            "category": "shopping",
+            "city": null,
+            "contentClass": "upahead_offer",
+            "dateConfidence": "unknown",
+            "dateSource": "none",
+            "eventEndAt": null,
+            "eventStartAt": null,
+            "expiryAt": 1784493608000,
+            "id": "557fb8c398cd9ed3",
+            "language": "en",
+            "lifecycle": {
+              "archiveUntil": 1785098408000,
+              "contentClass": "upahead_offer",
+              "displayUntil": 1784493608000,
+              "isActionValid": true,
+              "isVisible": true,
+              "plannerEligibleByLifecycle": true,
+              "plannerPastGraceHours": 6,
+              "retentionReason": "expiryAt",
+              "withinSevenDayHorizon": true
+            },
+            "localityScore": 0.3,
+            "normalizedCategory": "shopping",
+            "plannerEligible": true,
+            "publishedAt": 1784320808000,
+            "region": null,
+            "scoreBreakdown": {
+              "actionabilityScore": 0.8500000000000001,
+              "categoryPriorityScore": 0.68,
+              "lifecycleScore": 0.65,
+              "locationScore": 0.72,
+              "plannerFitScore": 1.0,
+              "sourceConfidenceScore": 0.58,
+              "urgencyOrExpiryScore": 0.82
+            },
+            "source": "Google News Shopping",
+            "sourceGroup": "google_news",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPSWJkczk1bWxjd21EYk95aHR0TVo0SmVYcUI0Z2ZYSmJpTnpYb3FHUFJBT3BhYjkzZUNUM2hHZ2VGdHBDZmJxUmNOUmtaSlJDbHBxN0F6RWxjTjFoYjhDdEdYT0tUQzQ0azdmTC05TVE5RkZNNzlFbFRWYnE1SmlZRA?oc=5\" target=\"_blank\">Here’s how you can get three months of Audible for free</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>",
+            "suppressionReason": null,
+            "title": "Here’s how you can get three months of Audible for free - NBC News",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSWJkczk1bWxjd21EYk95aHR0TVo0SmVYcUI0Z2ZYSmJpTnpYb3FHUFJBT3BhYjkzZUNUM2hHZ2VGdHBDZmJxUmNOUmtaSlJDbHBxN0F6RWxjTjFoYjhDdEdYT0tUQzQ0azdmTC05TVE5RkZNNzlFbFRWYnE1SmlZRA?oc=5"
+          },
+          "locationKey": "chennai",
+          "rankingReasons": [
+            "shopping",
+            "valid undated item with active display window",
+            "location matches configured profile",
+            "planner advisory fit"
+          ],
+          "score": 0.726,
+          "title": "Here’s how you can get three months of Audible for free - NBC News"
         }
       ],
       "rankingProfile": "upAhead-v2-lifecycle-location-category",
       "scoreBreakdown": {
-        "actionabilityScore": 0.99,
-        "categoryPriorityScore": 0.968,
+        "actionabilityScore": 0.98,
+        "categoryPriorityScore": 0.9467,
         "lifecycleScore": 0.65,
         "locationScore": 0.9347,
         "plannerFitScore": 0.9667,
         "sourceConfidenceScore": 0.58,
-        "urgencyOrExpiryScore": 0.796
+        "urgencyOrExpiryScore": 0.7987
       }
     }
   },
-  "generatedAt": 1784374196514,
+  "generatedAt": 1784376769915,
   "implementedDestinations": [
     "upAhead",
     "buzz",
@@ -5050,7 +4827,7 @@
   "schemaVersion": 1,
   "summary": {
     "actionRequired": [
-      "5 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "7 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
       "no active local/travel disruption item",
@@ -5062,9 +4839,9 @@
     ],
     "destinationScores": {
       "buzz": 0.0,
-      "insight": 0.3848,
+      "insight": 0.3883,
       "localTravel": 0.0,
-      "upAhead": 0.8408
+      "upAhead": 0.8367
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -5072,7 +4849,7 @@
       "localTravel": "FAIL",
       "upAhead": "WARN"
     },
-    "overallScore": 0.3064,
+    "overallScore": 0.3063,
     "overallStatus": "FAIL",
     "rankingProfiles": {
       "buzz": "buzz-v2-trend-local-travel",
@@ -5084,6 +4861,10 @@
       "Amazon Mega Electronic Days Sale: Deals on laptops, tablets and more - FoneArena.com: location failed — offline/local item lacks configured location match",
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
       "Amazon just dropped a bunch of great UGREEN NAS deals — including a hefty discount on the 'best starter NAS' we've tested - Android Central: location failed — offline/local item lacks configured location match",
+      "Man beaten to death in Padappai, two persons surrender before police: futureValidity failed — expired display window",
+      "Man beaten to death in Padappai, two persons surrender before police: alertUrgency failed — alert expired",
+      "How musicians are reinventing the centuries-old abhang: futureValidity failed — expired display window",
+      "How musicians are reinventing the centuries-old abhang: alertUrgency failed — alert expired",
       "LG TV deals: Buy an OLED, QNED, or RGB TV on sale, get up to $200 in DoorDash or Uber Eats credit - Mashable: location failed — offline/local item lacks configured location match",
       "Go big with the 45-inch LG Ultragear curved gaming monitor, now on sale for $654 off at Amazon - Mashable: location failed — offline/local item lacks configured location match"
     ]
