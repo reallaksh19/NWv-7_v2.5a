@@ -1,33 +1,53 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784348043389,
-  "contentHash": "ddb2d7df8778",
+  "fetchedAt": 1784355651801,
+  "contentHash": "05bc76be8845",
   "breaking": [
     {
-      "title": "Indian activist on hunger strike for 20 days forcibly taken to hospital",
-      "summary": "Sonam Wangchuk had urged people to join a protest march to parliament on 20 July.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784346891000,
-      "category": "world",
+      "title": "At least five injured in blast at sponge iron factory in West Bengal",
+      "summary": "Another police officer said the temperature around the furnace shot up to several degrees Celsius after the blast, making rescue operations extremely difficult",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/west-bengal/at-least-five-injured-in-blast-at-sponge-iron-factory-in-west-bengal/article71237201.ece",
+      "publishedAt": 1784354958000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "bbfc45ff5d5a7fba",
+      "id": "0ed2d4416ea3c614",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.473,
+      "breakingScore": 3.984,
       "breakingReasons": [
-        "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 3,
+      "sourceCount": 1,
       "allSources": [
-        "bbc",
-        "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1784343570000
+      "firstSeen": 1784354958000
+    },
+    {
+      "title": "\"Sonam Wangchuk Is Stable But Requires Continuous Observation\": Delhi Hospital",
+      "summary": "Wangchuk had been on a hunger strike for 20 days demanding Education Minister Dharmendra Pradhan's resignation over NEET paper leak.",
+      "source": "NDTV India",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/sonam-wangchuk-is-weak-due-to-fasting-needs-monitoring-safdarjung-hospital-gives-health-update-11787382#publisher=newsstand",
+      "publishedAt": 1784353671000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "674a4bb01b9ad905",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.954,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784351210000
     },
     {
       "title": "West Asia war LIVE: Iran claims strikes on U.S. targets in Kuwait, Jordan",
@@ -35,14 +55,14 @@
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-tehran-hits-usa-military-sites-in-kuwait-jordan-live-updates-july-18-2026/article71236973.ece",
-      "publishedAt": 1784345338000,
+      "publishedAt": 1784353390000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "e87ee6965b31f4bc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.937,
+      "breakingScore": 3.948,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -59,14 +79,14 @@
       "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784343721000,
+      "publishedAt": 1784349611000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "3af74f14ed48f0c8",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.9,
+      "breakingScore": 3.86,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -74,124 +94,100 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1784343721000
+      "firstSeen": 1784349611000
     },
     {
-      "title": "Investors take to gold dip as Mideast war rages on",
-      "summary": "Gold prices are experiencing their steepest weekly decline in six weeks. This drop has encouraged investors to return to the yellow metal. Consumers are also returning to jewelry stores after recent price reductions. Investors are showing caution towards silver, reducing their exposure. Gold remains a preferred core portfolio asset for many investors.",
-      "source": "Economic Times",
-      "sourceGroup": "economic_times",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/investors-take-to-gold-dip-as-mideast-war-rages-on/articleshow/132473460.cms",
-      "publishedAt": 1784346847000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "396b29d14c7b8861",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.472,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "economic_times"
-      ],
-      "firstSeen": 1784346847000
-    },
-    {
-      "title": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
-      "summary": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784338187000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "2407ca3b6fc854f1",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.272,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1784338187000
-    },
-    {
-      "title": "Morning Digest: Opposition support grows as Wangchuk’s hunger strike conntinues; Centre orders stricter scrutiny of digitised birth and death records, and more",
-      "summary": "Here is a select list of stories to start the day",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/morning-digest-july-18-2026/article71236008.ece",
-      "publishedAt": 1784337344000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "2985bc9f9920b7fb",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.252,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784337344000
-    },
-    {
-      "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
-      "summary": "The US Tsunami Warning Center has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico after the quake.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cwyjv3815yxo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784311974000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "c511924f3fd5ccc3",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.165,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "bbc",
-        "the_hindu"
-      ],
-      "firstSeen": 1784308882000
-    },
-    {
-      "title": "Henry Nowak stabbing case: Vickrum Digwa's mother jailed for 3 years in UK for hiding murder weapon",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132466334.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
-      "source": "Times of India",
-      "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/uk/henry-nowak-stabbing-case-vickrum-digwas-mother-jailed-for-3-years-in-uk-for-hiding-murder-weapon/articleshow/132466334.cms",
-      "publishedAt": 1784309920000,
+      "title": "Sonam Wangchuk Hospitalised, His Wife Says No Treatment Without Her Consent",
+      "summary": "Sonam Wangchuk, who had been on a hunger strike demanding the resignation of Education Minister Dharmendra Pradhan over alleged NEET paper leak, appeared fine on Friday, his wife said, questioning the need to hospitalise her husband.",
+      "source": "NDTV India",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/sonam-wangchuk-hospitalised-his-wife-gitanjali-angmo-says-no-treatment-without-her-consent-11787224#publisher=newsstand",
+      "publishedAt": 1784349465000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "5107dab51d8ca182",
+      "id": "1f8112ded7c01c51",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.118,
+      "breakingScore": 3.857,
       "breakingReasons": [
-        "multi_source_velocity"
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784349465000
+    },
+    {
+      "title": "Sonam Wangchuk hunger strike LIVE: Police hospitalise Wangchuk; CJP's Dipke begins indefinite hunger strike at Jantar Mantar",
+      "summary": "Nothing should be administered to Sonam Wangchuk without my consent, says wife Gitanjali Angmo, as activist removed from Jantar Mantar protest site",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/cjp-students-protest-at-delhi-jantar-mantar-sonam-wangchuk-hunger-strike-day-21-live-updates-july-18-2026/article71236930.ece",
+      "publishedAt": 1784355365000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "c409952f529b73c1",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.493,
+      "breakingReasons": [
+        "severity_lexicon"
       ],
       "sourceCount": 2,
       "allSources": [
-        "bbc",
-        "times_of_india"
+        "ndtv",
+        "the_hindu"
       ],
-      "firstSeen": 1784308968000
+      "firstSeen": 1784347848000
+    },
+    {
+      "title": "Indian activist on hunger strike for 20 days forcibly taken to hospital",
+      "summary": "Cockroach Janta Party founder Abhijeet Dipke has now begun an indefinite fast in Sonam Wangchuk's place.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784354328000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "bbfc45ff5d5a7fba",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.469,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784354328000
+    },
+    {
+      "title": "Punjab Cop Who Extorted Rs 4 Crore From Family And Was Wanted By US Arrested",
+      "summary": "Gurinderjit Singh Nagra was the station house officer at the Tanda police station",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/punjab-cop-gurinderjit-singh-nagra-arrested-after-us-charges-him-in-case-linked-to-jaggu-bhagwanpuria-gang-11787425#publisher=newsstand",
+      "publishedAt": 1784353920000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "1df89247604adeb2",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.46,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784353920000
     }
   ]
 }
