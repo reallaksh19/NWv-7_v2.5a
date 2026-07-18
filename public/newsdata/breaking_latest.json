@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784389039340,
-  "contentHash": "1e19baee4902",
+  "fetchedAt": 1784392542090,
+  "contentHash": "948fc48ba290",
   "breaking": [
     {
       "title": "Seven killed, more than 50 wounded in Ukrainian drone attack on Russian regions",
@@ -16,7 +16,7 @@
       "id": "fa0447a27022f46d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.73,
+      "breakingScore": 6.649,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -27,19 +27,19 @@
       "firstSeen": 1784377391000
     },
     {
-      "title": "West Asia war LIVE: Iran attack sparks two fires in Kuwait, firefighters injured",
-      "summary": "The United States and Iran exchanged strikes aimed at infrastructure and military targets on Saturday, July 18, as their battle over the Strait of Hormuz intensified",
-      "source": "The Hindu International",
+      "title": "West Asia war LIVE: Iranian Supreme Leader's message to be released shortly",
+      "summary": "The United States and Iran exchanged strikes aimed at infrastructure and military targets, while GCC head condemned the recent Iranian attacks, labelling them as  “war crimes”",
+      "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-tehran-hits-usa-military-sites-in-kuwait-jordan-live-updates-july-18-2026/article71236973.ece",
-      "publishedAt": 1784372172000,
-      "category": "world",
+      "publishedAt": 1784391683000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "e87ee6965b31f4bc",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.61,
+      "breakingScore": 5.48,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -47,31 +47,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784359982000
-    },
-    {
-      "title": "At least nine dead in blast and fire at illegal firecracker unit in Ahmedabad",
-      "summary": "Six others injured; Gujarat CM and PM Modi announce ex-gratia",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/gujarat/ahmedabad-illegal-firecracker-unit-blast-fire-death-toll-updates/article71238010.ece",
-      "publishedAt": 1784387636000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "9641f31fa3566b29",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.468,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784377732000
+      "firstSeen": 1784391683000
     },
     {
       "title": "Confusion, lack of equipment hindered Venezuela's response to earthquake that killed over 5,000: Report",
@@ -86,7 +62,7 @@
       "id": "c2b96fd6cb23ebd7",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.824,
+      "breakingScore": 3.743,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -110,7 +86,7 @@
       "id": "8d93bde61d9b38dd",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.79,
+      "breakingScore": 3.709,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -121,65 +97,43 @@
       "firstSeen": 1784379985000
     },
     {
-      "title": "14 injured after APSRTC bus overturns in Prakasam district",
-      "summary": "",
-      "source": "The Hindu",
+      "title": "CBSE declares class 10 second board exam results",
+      "summary": "The results for the Class 10 Second Board Exams can be accessed by students through their DigiLocker Results Portal on results.digilocker.gov.in",
+      "source": "The Hindu National",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/14-injured-after-apsrtc-bus-overturns-in-prakasam-district/article71238585.ece",
-      "publishedAt": 1784388685000,
-      "category": "topStories",
+      "url": "https://www.thehindu.com/education/cbse-declares-class-10-second-board-exam-results/article71238792.ece",
+      "publishedAt": 1784390518000,
+      "category": "india",
       "region": "in",
       "language": "en",
-      "id": "bd08905ca1358838",
+      "id": "82dc8cb9252015e0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.492,
+      "breakingScore": 2.953,
       "breakingReasons": [
-        "severity_lexicon"
+        "multi_source_velocity"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "allSources": [
+        "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1784388685000
+      "firstSeen": 1784389347000
     },
     {
-      "title": "Sonam Wangchuk hunger strike LIVE: CJP's Dipke says Delhi Police planning overnight 'crackdown' on Jantar Mantar protest, calls for night vigil",
-      "summary": "Sonam Wangchuk continues to refuse medical intervention as wife Gitanjali alleges 'lack of transparency' at hospital",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/cjp-students-protest-at-delhi-jantar-mantar-sonam-wangchuk-hunger-strike-day-21-live-updates-july-18-2026/article71236930.ece",
-      "publishedAt": 1784388380000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "c409952f529b73c1",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.485,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784388380000
-    },
-    {
-      "title": "German politician resigns over surrogacy child controversy",
-      "summary": "Jens Spahn faced criticism over his use of a surrogate, a ban on which he previously backed.",
+      "title": "US strikes hit Iran for seventh consecutive night",
+      "summary": "Iran has retaliated against US allies in the region, with Kuwait reporting that a power and water plant had been hit.",
       "source": "BBC World",
       "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cq56e9n1ddzo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784388211000,
+      "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784391965000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "99c86078aebc5d4d",
+      "id": "3af74f14ed48f0c8",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.481,
+      "breakingScore": 2.487,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -187,7 +141,53 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1784388211000
+      "firstSeen": 1784391965000
+    },
+    {
+      "title": "Sonam Wangchuk hunger strike LIVE: CJP's Dipke says Delhi Police planning overnight 'crackdown' on Jantar Mantar protest, calls for night vigil",
+      "summary": "An independent expert from AIIMS has concurred with the treating team that Sonam Wangchuk needs \"immediate medical intervention\", hospital said in its latest bulletin",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/cjp-students-protest-at-delhi-jantar-mantar-sonam-wangchuk-hunger-strike-day-21-live-updates-july-18-2026/article71236930.ece",
+      "publishedAt": 1784391542000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "c409952f529b73c1",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.477,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784391542000
+    },
+    {
+      "title": "\"Us, Blade, Your Throat\": Iran Hardliners Turn On Leaders Amid Coup Claims",
+      "summary": "The anger on display at Khamenei's funeral has now spilt into Iran's political establishment",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/us-blade-your-throat-iran-hardliners-turn-on-leaders-amid-coup-claims-11789349#publisher=newsstand",
+      "publishedAt": 1784389014000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "b2e92d14f48c9fd8",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.418,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784389014000
     }
   ]
 }
