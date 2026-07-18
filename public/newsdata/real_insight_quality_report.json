@@ -1,11 +1,11 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1784376769055,
-  "contentHash": "23dae5249b3d49be",
+  "generatedAt": 1784383007163,
+  "contentHash": "e55acfd6f1bad211",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 623,
+  "storyCount": 656,
   "sourceGroupCount": 9,
   "grade": "C",
   "parentCount": 10,
@@ -26,7 +26,7 @@
       "signalScore": 60,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 573,
+      "storyCount": 599,
       "risingCount": 2,
       "thinCount": 3,
       "multiAngleCount": 7,
@@ -34,7 +34,7 @@
       "strongAngleCount": 1,
       "avgAngles": 1.8,
       "avgChildren": 2.3,
-      "avgScore": 0.6228111453984886,
+      "avgScore": 0.6264098173769883,
       "sourceDiversityCoverage": 10,
       "snapshotCoverage": 6,
       "coverageLabel": "7/10",
@@ -42,7 +42,7 @@
         "3 cluster(s) have fewer than two visible child angles.",
         "4 cluster(s) have weak snapshot coverage.",
         "3 cluster(s) are marked thin.",
-        "500 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "570 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
@@ -52,7 +52,7 @@
       "signalScore": 60,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 573,
+      "storyCount": 599,
       "risingCount": 2,
       "thinCount": 3,
       "multiAngleCount": 7,
@@ -60,7 +60,7 @@
       "strongAngleCount": 1,
       "avgAngles": 1.8,
       "avgChildren": 2.3,
-      "avgScore": 0.6228111453984886,
+      "avgScore": 0.6264098173769883,
       "sourceDiversityCoverage": 10,
       "snapshotCoverage": 6,
       "coverageLabel": "7/10",
@@ -68,16 +68,16 @@
         "3 cluster(s) have fewer than two visible child angles.",
         "4 cluster(s) have weak snapshot coverage.",
         "3 cluster(s) are marked thin.",
-        "500 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "570 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_53_525d0cdeac499b78",
+      "parentId": "cluster_77_525d0cdeac499b78",
       "headline": "Vikram-1, country’s first private orbital-class rocket, successfully places tech payloads, postcards into orbit",
-      "score": 0.5989283316683515,
-      "postTreeScore": 1.2089,
+      "score": 0.5789283316683514,
+      "postTreeScore": 1.1889,
       "childCount": 3,
       "angles": [
         "market_reaction",
@@ -97,7 +97,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_281_24ad4691e9c67ac0",
+      "parentId": "cluster_305_24ad4691e9c67ac0",
       "headline": "PM launches India’s first hydrogen-powered train",
       "score": 0.6807477209716007,
       "postTreeScore": 1.1007,
@@ -119,7 +119,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_422_c92fee49bdb9e33d",
+      "parentId": "cluster_446_c92fee49bdb9e33d",
       "headline": "US Senate Bill seeks 100% tariffs on India, China for buying Russian oil",
       "score": 0.6976300531183317,
       "postTreeScore": 1.0776,
@@ -139,7 +139,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_159_532e90073384d905",
+      "parentId": "cluster_183_532e90073384d905",
       "headline": "DCET results announced",
       "score": 0.6697800531183317,
       "postTreeScore": 1.0498,
@@ -160,7 +160,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_118_df2f1212e0a72ed9",
+      "parentId": "cluster_142_df2f1212e0a72ed9",
       "headline": "US prosecutor says Justice Department made call to drop Gautam Adani case",
       "score": 0.6005899468816684,
       "postTreeScore": 1.0006,
@@ -181,7 +181,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_98_6710aa41f6cc91d4",
+      "parentId": "cluster_122_6710aa41f6cc91d4",
       "headline": "CJP founder Abhijit Dipke begins indefinite hunger strike after Wangchuk shifted to hospital",
       "score": 0.59551,
       "postTreeScore": 0.9955,
@@ -201,7 +201,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_70_cd758e07c4f4301a",
+      "parentId": "cluster_94_cd758e07c4f4301a",
       "headline": "Vikram-1 Lifts Off Skyroot Launches India's First Private Rocket Into Orbit Successfully | News18 - News18",
       "score": 0.5593433333333333,
       "postTreeScore": 0.9593,
@@ -220,7 +220,27 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_80_22a846e147c63d2a",
+      "parentId": "cluster_152_cd5003f05158dbbb",
+      "headline": "A 7.3-magnitude earthquake hits Mexico-Guatemala border; no damage reported so far",
+      "score": 0.64951,
+      "postTreeScore": 0.5595,
+      "childCount": 2,
+      "angles": [
+        "official_response"
+      ],
+      "temporalTiers": [
+        "established",
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "corroboration",
+        "cause_claim"
+      ],
+      "baseReportShare": 0,
+      "weakTree": true
+    },
+    {
+      "parentId": "cluster_104_22a846e147c63d2a",
       "headline": "Sonam Wangchuk’s wife breaks silence after Delhi Police shift him to hospital, warns authorities against brea - India.Com",
       "score": 0.6365487346782661,
       "postTreeScore": 0.5465,
@@ -241,7 +261,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_115_c409952f529b73c1",
+      "parentId": "cluster_139_c409952f529b73c1",
       "headline": "Wangchuk shifted to hospital; Abhijeet Dipke under detention, says Delhi Police",
       "score": 0.59551,
       "postTreeScore": 0.5055,
@@ -255,26 +275,6 @@
       "evolutionRoles": [
         "official_response",
         "public_reaction"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_128_cd5003f05158dbbb",
-      "headline": "A 7.3-magnitude earthquake hits Mexico-Guatemala border; no damage reported so far",
-      "score": 0.5935232802150019,
-      "postTreeScore": 0.5035,
-      "childCount": 2,
-      "angles": [
-        "official_response"
-      ],
-      "temporalTiers": [
-        "established",
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "corroboration",
-        "cause_claim"
       ],
       "baseReportShare": 0,
       "weakTree": true
@@ -361,7 +361,7 @@
       "weakParentRatio": 0.3,
       "topParentAngles": 3,
       "topParentChildren": 3,
-      "storyCount": 623,
+      "storyCount": 656,
       "sourceGroupCount": 9
     }
   }
