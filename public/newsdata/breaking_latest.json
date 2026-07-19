@@ -1,164 +1,118 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784435637185,
-  "contentHash": "13128e001343",
+  "fetchedAt": 1784445302218,
+  "contentHash": "7c448cf10a44",
   "breaking": [
     {
-      "title": "US Launches New Strikes To \"Swiftly Punish\" Iran After 2 Troops Killed In War",
-      "summary": "US and Iran have resumed trading strikes after signing a deal last month",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-us-launches-new-strikes-to-swiftly-punish-iran-after-2-troops-killed-in-middle-east-war-mojtaba-khamenei-warns-donald-trump-11790543#publisher=newsstand",
-      "publishedAt": 1784433987000,
+      "title": "Jammu and Kashmir rains LIVE: Flash floods, landslips wreak havoc in Poonch-Rajouri; eight dead, six missing",
+      "summary": "Union Home Minister Amit Shah spoke to Jammu and Kashmir L-G Manoj Sinha and CM Omar Abdullah to take stock of the flood situation in Rajouri district.",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/amarnath-yatra-2026-live-updates-temporary-suspension-pahalgam-baltal-routes-jammu-and-kashmir-heavy-rains/article71240667.ece",
+      "publishedAt": 1784443427000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "0aa958e1bb3561b8",
+      "id": "b6a0993adb1993c9",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.462,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 3,
-      "allSources": [
-        "ndtv",
-        "the_hindu",
-        "times_of_india"
-      ],
-      "firstSeen": 1784416215000
-    },
-    {
-      "title": "Two US troops killed and one missing after Iranian attack in Jordan",
-      "summary": "Iran and the US have traded strikes as hostilities re-escalated this week, with Tehran targeting US military facilities across the Gulf region.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784420327000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "6c9cec0ea3c5ca63",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.146,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1784420327000
-    },
-    {
-      "title": "Andrew Tate and brother arrested in US after more charges laid against them in UK",
-      "summary": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are \"innocent\".",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784427427000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "627dff61d27f1768",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 4.31,
+      "breakingScore": 5.957,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
       ],
       "sourceCount": 2,
       "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784438969000
+    },
+    {
+      "title": "Iran's Supreme Leader says U.S. breaches show Trump's signature is 'worthless'",
+      "summary": "Washington ‌and Tehran have ​exchanged strikes after a ceasefire ⁠agreement fell apart last week, ‌raising fears of a return to all-out war",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/irans-supreme-leader-says-us-breaches-show-trumps-signature-is-worthless/article71240498.ece",
+      "publishedAt": 1784429980000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "1996112cce593b8f",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.145,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784429980000
+    },
+    {
+      "title": "Earthquake of magnitude 5.6 strikes central Peru, EMSC says",
+      "summary": "Magnitude 5.6 earthquake hits central Peru, prompting safety concerns",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/earthquake-of-magnitude-56-strikes-central-peru/article71240668.ece",
+      "publishedAt": 1784439847000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "9a1005488443763d",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.874,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784439847000
+    },
+    {
+      "title": "US and Iran exchange strikes after two US soldiers killed in Jordan",
+      "summary": "US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784437857000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "6f9ed026414bb927",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.828,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 3,
+      "allSources": [
         "bbc",
-        "ndtv"
-      ],
-      "firstSeen": 1784423150000
-    },
-    {
-      "title": "\"He's War Criminal\": Zohran Mamdani Wants To Arrest Netanyahu During New York Trip",
-      "summary": "Mamdani had earlier pledged to arrest Netanyahu during his campaign for mayor.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/zohran-mamdani-wants-to-get-benjamin-netanyahu-arrested-israeli-pm-says-he-hates-america-11790595#publisher=newsstand",
-      "publishedAt": 1784434399000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "dc9f5e16c6bd7313",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.471,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784434399000
-    },
-    {
-      "title": "How the second phase of the Iran-U.S. war started and why it is raging | Explained",
-      "summary": "The MoU, signed on June 14, stipulated Iran would allow ships to pass “with no charge for 60 days only,” and that Iran would work with Oman to “define the future administration and maritime services” in the Strait of Hormuz",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/business/how-the-second-phase-of-the-iran-us-war-started-and-why-it-is-raging-explained/article71234575.ece",
-      "publishedAt": 1784434345000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "485211c95de8797d",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.47,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
+        "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1784434345000
+      "firstSeen": 1784431248000
     },
     {
-      "title": "Sonam Wangchuk hunger strike LIVE: Sonam Wangchuk urges protesters to make the march to Parliament 'big success'",
-      "summary": "CJP, students continue protests at Jantar Mantar as Wangchuk refuses treatment",
-      "source": "The Hindu",
+      "title": "U.S. military launches new airstrikes to ‘swiftly punish’ Iran for deaths of U.S. troops",
+      "summary": "The strikes were designed to further degrade Iran's ability to restrict the traffic of oil tankers through the Strait of Hormuz, U.S. Central Command said",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/cjp-sonam-wangchuk-2026-protest-cockroach-janata-party-abhijeet-dipke-hunger-strike-july-19-2026-updates/article71240515.ece",
-      "publishedAt": 1784434250000,
-      "category": "topStories",
+      "url": "https://www.thehindu.com/news/international/us-military-launches-new-airstrikes-to-swiftly-punish-iran-for-deaths-of-us-troops/article71240534.ece",
+      "publishedAt": 1784426026000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "edbdfd3ac39fc545",
+      "id": "043c3dabe5a78b5f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.468,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784423953000
-    },
-    {
-      "title": "West Asia war updates: Supreme leader says Iran will teach U.S. 'unforgettable lessons'",
-      "summary": "Iran's Supreme Leader Mojtaba Khamenei says the U.S. President's signature is 'worthless and invalid'",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-tehran-hits-usa-military-sites-in-kuwait-jordan-live-updates-july-18-2026/article71236973.ece",
-      "publishedAt": 1784433909000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "e87ee6965b31f4bc",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.46,
+      "breakingScore": 3.554,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -167,22 +121,22 @@
         "the_hindu",
         "times_of_india"
       ],
-      "firstSeen": 1784396267000
+      "firstSeen": 1784416215000
     },
     {
-      "title": "Flash floods hit J&K’s Rajouri town, hundreds shifted to safer places amid heavy rainfall",
-      "summary": "Dozens of vehicles were swept away or submerged after overflowing rivers breached their banks, causing widespread disruption, the officials said",
+      "title": "West Asia war LIVE: Iran targets U.S. military bases in Kuwait",
+      "summary": "Iran’s supreme leader vowed to teach the U.S. “unforgettable lessons” on Saturday (July 18, 2026), as Washington reported its first military deaths since renewing hostilities with the Islamic republic",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/flash-floods-hit-jks-rajouri-town-hundreds-shifted-to-safer-places-amid-heavy-rainfall/article71240596.ece",
-      "publishedAt": 1784433247000,
+      "url": "https://www.thehindu.com/news/international/iran-israel-war-july-19-2026-live-updates-kuwait-us/article71240587.ece",
+      "publishedAt": 1784444670000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "c4a5b8d8e1e5af2d",
+      "id": "fdf4b9661bd5bf56",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.445,
+      "breakingScore": 2.485,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -190,7 +144,54 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784433247000
+      "firstSeen": 1784433909000
+    },
+    {
+      "title": "Sonam Wangchuk hunger strike LIVE: Gitanjali Angmo moves Delhi HC to shift husband Sonam Wangchuk from Safdarjung hospital",
+      "summary": "Sonam Wangchuk urges protesters to make the march to Parliament 'big success'",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/cjp-sonam-wangchuk-2026-protest-cockroach-janata-party-abhijeet-dipke-hunger-strike-july-19-2026-updates/article71240515.ece",
+      "publishedAt": 1784444384000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "edbdfd3ac39fc545",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.479,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784434716000
+    },
+    {
+      "title": "How the second phase of the Iran-U.S. war started and why it is raging | Explained",
+      "summary": "The MoU, signed on June 14, stipulated Iran would allow ships to pass “with no charge for 60 days only,” and that Iran would work with Oman to “define the future administration and maritime services” in the Strait of Hormuz",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/business/how-the-second-phase-of-the-iran-us-war-started-and-why-it-is-raging-explained/article71234575.ece",
+      "publishedAt": 1784439406000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "485211c95de8797d",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.364,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784439406000
     }
   ]
 }
