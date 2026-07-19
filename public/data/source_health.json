@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-19T06:35:20.400246Z",
+  "generatedAt": "2026-07-19T09:57:00.154685Z",
   "sections": {
     "indices": {
       "status": "ok",
@@ -85,16 +85,16 @@
       "notes": []
     },
     "mutualFunds": {
-      "status": "failed",
+      "status": "ok",
       "freshnessMs": 0,
-      "winner": "none",
+      "winner": "amfi_navall",
       "providersTried": [
         {
           "provider": "amfi_navall",
-          "status": "failed",
+          "status": "ok",
           "latencyMs": null,
-          "count": 0,
-          "message": "HTTPSConnectionPool(host='www.amfiindia.com', port=443): Max retries exceeded with url: /spages/NAVAll.txt (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.amfiindia.com', port=443) at 0x7fe19c3cec10>, 'Connection to www.amfiindia.com timed out. (connect timeout=14)'))"
+          "count": 14227,
+          "message": "14227 AMFI NAV rows parsed; 300 selected"
         }
       ],
       "notes": []
