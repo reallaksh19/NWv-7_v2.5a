@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.0.0",
-  "generatedAt": "2026-07-19T03:17:15.346078Z",
-  "generated_at": "2026-07-19T03:17:15.346086Z",
-  "fetchedAt": 1784431035346,
+  "generatedAt": "2026-07-19T06:35:20.400262Z",
+  "generated_at": "2026-07-19T06:35:20.400272Z",
+  "fetchedAt": 1784442920400,
   "sourceMode": "snapshot-worker-v2",
   "indices": [
     {
@@ -49,8 +49,8 @@
       "name": "NIFTY AUTO",
       "symbol": "^CNXAUTO",
       "value": "27,099.75",
-      "change": "0.00",
-      "changePercent": "0.00",
+      "change": "332.20",
+      "changePercent": "1.24",
       "direction": "up",
       "currency": "₹",
       "sourceMode": "yahoo-yfinance"
@@ -209,8 +209,8 @@
       "name": "NIFTY AUTO",
       "symbol": "^CNXAUTO",
       "value": "27,099.75",
-      "change": "0.00",
-      "changePercent": "0.00",
+      "change": "332.20",
+      "changePercent": "1.24",
       "direction": "up",
       "currency": "₹",
       "sourceMode": "yahoo-yfinance"
@@ -230,60 +230,47 @@
     {
       "name": "Silver",
       "symbol": "SI=F",
-      "value": "$56.04",
+      "value": "$56.33",
       "unit": "$/oz",
-      "change": "0.14",
-      "changePercent": "0.25",
-      "direction": "up",
-      "source": "yahoo-yfinance"
-    },
-    {
-      "name": "Gold",
-      "symbol": "GC=F",
-      "value": "$4012.70",
-      "unit": "$/oz",
-      "change": "27.10",
-      "changePercent": "0.68",
+      "change": "0.43",
+      "changePercent": "0.77",
       "direction": "up",
       "source": "yahoo-yfinance"
     },
     {
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "value": "$82.49",
+      "value": "$81.78",
       "unit": "$/bbl",
-      "change": "3.54",
-      "changePercent": "4.48",
+      "change": "2.83",
+      "changePercent": "3.58",
+      "direction": "up",
+      "source": "yahoo-yfinance"
+    },
+    {
+      "name": "Gold",
+      "symbol": "GC=F",
+      "value": "$4018.80",
+      "unit": "$/oz",
+      "change": "33.20",
+      "changePercent": "0.83",
       "direction": "up",
       "source": "yahoo-yfinance"
     }
   ],
   "currencies": [
     {
-      "name": "GBP/INR",
-      "pair": "GBPINR",
-      "symbol": "GBPINR=X",
-      "value": "₹129.5255",
-      "rate": 129.52549743652344,
-      "change": "-0.7062",
-      "changePercent": "-0.54",
+      "name": "USD/INR",
+      "pair": "USDINR",
+      "symbol": "USDINR=X",
+      "value": "₹96.2800",
+      "rate": 96.27999877929688,
+      "change": "-0.3722",
+      "changePercent": "-0.39",
       "direction": "down",
       "source": "yahoo-yfinance",
       "mode": "fallback-intraday",
-      "asOf": "2026-07-19T03:15:25.131746Z"
-    },
-    {
-      "name": "EUR/INR",
-      "pair": "EURINR",
-      "symbol": "EURINR=X",
-      "value": "₹110.1154",
-      "rate": 110.11540222167969,
-      "change": "-0.0716",
-      "changePercent": "-0.06",
-      "direction": "down",
-      "source": "yahoo-yfinance",
-      "mode": "fallback-intraday",
-      "asOf": "2026-07-19T03:15:25.148375Z"
+      "asOf": "2026-07-19T06:33:27.659498Z"
     },
     {
       "name": "OMR/INR",
@@ -296,7 +283,7 @@
       "direction": "up",
       "source": "yahoo-yfinance",
       "mode": "fallback-intraday",
-      "asOf": "2026-07-19T03:15:25.205610Z"
+      "asOf": "2026-07-19T06:33:27.664975Z"
     },
     {
       "name": "JPY/INR",
@@ -309,20 +296,33 @@
       "direction": "down",
       "source": "yahoo-yfinance",
       "mode": "fallback-intraday",
-      "asOf": "2026-07-19T03:15:25.242922Z"
+      "asOf": "2026-07-19T06:33:27.671203Z"
     },
     {
-      "name": "USD/INR",
-      "pair": "USDINR",
-      "symbol": "USDINR=X",
-      "value": "₹96.2800",
-      "rate": 96.27999877929688,
-      "change": "-0.3722",
-      "changePercent": "-0.39",
+      "name": "GBP/INR",
+      "pair": "GBPINR",
+      "symbol": "GBPINR=X",
+      "value": "₹129.5255",
+      "rate": 129.52549743652344,
+      "change": "-0.7062",
+      "changePercent": "-0.54",
       "direction": "down",
       "source": "yahoo-yfinance",
       "mode": "fallback-intraday",
-      "asOf": "2026-07-19T03:15:25.298837Z"
+      "asOf": "2026-07-19T06:33:27.676588Z"
+    },
+    {
+      "name": "EUR/INR",
+      "pair": "EURINR",
+      "symbol": "EURINR=X",
+      "value": "₹110.1154",
+      "rate": 110.11540222167969,
+      "change": "-0.0716",
+      "changePercent": "-0.06",
+      "direction": "down",
+      "source": "yahoo-yfinance",
+      "mode": "fallback-intraday",
+      "asOf": "2026-07-19T06:33:27.722363Z"
     }
   ],
   "mutualFunds": [
@@ -1233,7 +1233,7 @@
     "recent": []
   },
   "nfo": [],
-  "ipoLastCheckedAt": "2026-07-19T03:15:30.342498+00:00",
+  "ipoLastCheckedAt": "2026-07-19T06:34:04.123371+00:00",
   "marketNews": [],
   "stockCategories": {
     "highs": [],
@@ -1277,10 +1277,10 @@
       "message": "RBI reference scrape failed: unknown; 5 FX pairs fetched from Yahoo fallback"
     },
     "mutualFunds": {
-      "status": "ok",
-      "provider": "amfi_navall",
-      "mode": "ok",
-      "message": "14227 AMFI NAV rows parsed; 300 selected"
+      "status": "stale",
+      "provider": "previous-snapshot",
+      "mode": "stale",
+      "message": "mutualFunds carried forward from previous snapshot because new worker run had no data."
     },
     "eodBhavcopy": {
       "status": "failed",
