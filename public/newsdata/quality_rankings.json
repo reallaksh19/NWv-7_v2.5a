@@ -53,14 +53,14 @@
     },
     "insight": {
       "actionableFindings": [
-        "2 base-report-heavy Insight parent(s) demoted"
+        "1 base-report-heavy Insight parent(s) demoted"
       ],
       "destination": "insight",
       "diagnosticReasons": [],
       "gateResults": [
         {
           "details": {
-            "itemCount": 7
+            "itemCount": 6
           },
           "name": "insightEventPool",
           "reason": "rankable Insight event pool",
@@ -77,16 +77,16 @@
       ],
       "gateSummary": {
         "avgAnglesPerParent": 0.0,
-        "baseReportHeavyParents": 2,
+        "baseReportHeavyParents": 1,
         "duplicateChildrenSuppressed": 0,
-        "inputCandidateCount": 7,
-        "parentClusters": 7,
-        "strongParents": 7,
+        "inputCandidateCount": 6,
+        "parentClusters": 6,
+        "strongParents": 6,
         "suppressedCandidateCount": 0,
         "weakParentsDemoted": 0
       },
       "qualityGrade": "F",
-      "qualityScore": 0.3935,
+      "qualityScore": 0.4021,
       "qualityStatus": "WARN",
       "rankedItems": [
         {
@@ -211,7 +211,7 @@
           "gates": [
             {
               "details": {
-                "storyCount": 3
+                "storyCount": 4
               },
               "name": "eventCoherence",
               "reason": "event sketch has repeated story count",
@@ -248,11 +248,11 @@
             },
             {
               "details": {
-                "childCount": 3
+                "childCount": 4
               },
               "name": "weakTree",
               "reason": "child tree has enough depth",
-              "score": 0.75,
+              "score": 1.0,
               "status": "PASS"
             },
             {
@@ -269,11 +269,11 @@
             "baseReportRatio": 0.0,
             "childScores": [],
             "id": "sketch:313fbb8095",
-            "representativeId": "82ea0749d0de2b8d",
-            "representativeTitle": "Breaking News Live Updates: NTA declares NEET UG 2026 results; over 11.21 lakh qualify - The Times of India",
+            "representativeId": "c049c67dbddb0f12",
+            "representativeTitle": "Breaking news live updates, July 18: Former PM HD Deve Gowda's wife Chennamma dies after cardiac arrest - The Times of India",
             "scoreBreakdown": {
               "angleDiversityScore": 0.25,
-              "eventImportanceScore": 0.71,
+              "eventImportanceScore": 0.83,
               "freshnessScore": 0.0,
               "noveltyDeltaScore": 0.44999999999999996,
               "sourceAuthorityScore": 0.38,
@@ -288,8 +288,9 @@
             "sourceGroups": [
               "google_news"
             ],
-            "storyCount": 3,
+            "storyCount": 4,
             "storyIds": [
+              "c049c67dbddb0f12",
               "82ea0749d0de2b8d",
               "ff468e02cc84fa44",
               "4ee739c53b939a61"
@@ -297,15 +298,15 @@
             "topAngles": [
               {
                 "angle": "fact_update",
-                "count": 3
+                "count": 4
               }
             ],
             "topTokens": [
               "breaking",
               "live",
               "updates",
-              "declares",
               "july",
+              "declares",
               "neelkanth"
             ],
             "topicKey": "breaking|live|updates"
@@ -316,8 +317,8 @@
             "weak child angle diversity",
             "one-source event candidate"
           ],
-          "score": 0.419,
-          "title": "Breaking News Live Updates: NTA declares NEET UG 2026 results; over 11.21 lakh qualify - The Times of India"
+          "score": 0.449,
+          "title": "Breaking news live updates, July 18: Former PM HD Deve Gowda's wife Chennamma dies after cardiac arrest - The Times of India"
         },
         {
           "category": "insightEvent",
@@ -763,128 +764,17 @@
           ],
           "score": 0.1885,
           "title": "Top news of the day | July 5, 2026 - The Hindu"
-        },
-        {
-          "category": "insightEvent",
-          "gates": [
-            {
-              "details": {
-                "storyCount": 2
-              },
-              "name": "eventCoherence",
-              "reason": "event sketch has repeated story count",
-              "score": 0.62,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "baseReportRatio": 1.0,
-                "distinctAngles": 0
-              },
-              "name": "angleDiversity",
-              "reason": "weak child angle diversity",
-              "score": 0.25,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "sourceGroupCount": 1
-              },
-              "name": "sourceDiversity",
-              "reason": "one-source event candidate",
-              "score": 0.35,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "baseReportRatio": 1.0
-              },
-              "name": "baseReportCap",
-              "reason": "base-report dominated event candidate",
-              "score": 0.25,
-              "status": "WARN"
-            },
-            {
-              "details": {
-                "childCount": 2
-              },
-              "name": "weakTree",
-              "reason": "child tree has enough depth",
-              "score": 0.5,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "duplicateChildren",
-              "reason": "no child objects to dedup",
-              "score": 0.7,
-              "status": "PASS"
-            }
-          ],
-          "id": "sketch:764d6b093f",
-          "item": {
-            "angleCount": 1,
-            "baseReportRatio": 1.0,
-            "childScores": [],
-            "id": "sketch:764d6b093f",
-            "representativeId": "01e4793e816e878a",
-            "representativeTitle": "What makes Skyroot’s Vikram-1 launch unique? | Explained",
-            "scoreBreakdown": {
-              "angleDiversityScore": 0.25,
-              "eventImportanceScore": 0.59,
-              "freshnessScore": 0.0,
-              "noveltyDeltaScore": 0.44999999999999996,
-              "sourceAuthorityScore": 0.38,
-              "sourceDiversityScore": 0.35,
-              "temporalEvolutionScore": 0.49
-            },
-            "slotCount": 2,
-            "slots": [
-              "minus4h",
-              "now"
-            ],
-            "sourceGroupCount": 1,
-            "sourceGroups": [
-              "the_hindu"
-            ],
-            "storyCount": 2,
-            "storyIds": [
-              "01e4793e816e878a",
-              "51a55daca0e28736"
-            ],
-            "topAngles": [
-              {
-                "angle": "base_report",
-                "count": 2
-              }
-            ],
-            "topTokens": [
-              "what",
-              "makes",
-              "skyroot",
-              "vikram-1"
-            ],
-            "topicKey": "what|makes|skyroot"
-          },
-          "locationKey": "event",
-          "rankingReasons": [
-            "event sketch has repeated story count",
-            "weak child angle diversity",
-            "one-source event candidate"
-          ],
-          "score": 0.1805,
-          "title": "What makes Skyroot’s Vikram-1 launch unique? | Explained"
         }
       ],
       "rankingProfile": "insight-v2-event-angle-tree",
       "scoreBreakdown": {
-        "angleDiversityScore": 0.3257,
-        "eventImportanceScore": 0.6243,
+        "angleDiversityScore": 0.3383,
+        "eventImportanceScore": 0.65,
         "freshnessScore": 0.0,
-        "noveltyDeltaScore": 0.4786,
-        "sourceAuthorityScore": 0.4486,
-        "sourceDiversityScore": 0.4557,
-        "temporalEvolutionScore": 0.4214
+        "noveltyDeltaScore": 0.4833,
+        "sourceAuthorityScore": 0.46,
+        "sourceDiversityScore": 0.4733,
+        "temporalEvolutionScore": 0.41
       }
     },
     "localTravel": {
@@ -944,7 +834,7 @@
     },
     "upAhead": {
       "actionableFindings": [
-        "20 invalid/expired/duplicate Up Ahead item(s) suppressed"
+        "21 invalid/expired/duplicate Up Ahead item(s) suppressed"
       ],
       "destination": "upAhead",
       "diagnosticReasons": [
@@ -972,7 +862,7 @@
       "gateResults": [
         {
           "details": {
-            "itemCount": 23
+            "itemCount": 22
           },
           "name": "upAheadPool",
           "reason": "rankable Up Ahead pool",
@@ -983,7 +873,7 @@
           "details": {
             "categoryCounts": {
               "alerts": 14,
-              "shopping": 7,
+              "shopping": 6,
               "weather_alerts": 2
             }
           },
@@ -997,14 +887,14 @@
         "alerts": 16,
         "categoryCounts": {
           "alerts": 14,
-          "shopping": 7,
+          "shopping": 6,
           "weather_alerts": 2
         },
         "events": 0,
         "festivals": 0,
         "inputItemCount": 43,
         "locationCounts": {
-          "chennai": 16,
+          "chennai": 15,
           "muscat": 2,
           "online": 1,
           "trichy": 4
@@ -1015,14 +905,14 @@
           "online",
           "trichy"
         ],
-        "offlineOffers": 6,
+        "offlineOffers": 5,
         "onlineOffers": 1,
-        "plannerAdvisoryItems": 23,
-        "rankedItemCount": 23,
-        "suppressedItemCount": 20
+        "plannerAdvisoryItems": 22,
+        "rankedItemCount": 22,
+        "suppressedItemCount": 21
       },
       "qualityGrade": "B",
-      "qualityScore": 0.836,
+      "qualityScore": 0.8384,
       "qualityStatus": "WARN",
       "rankedItems": [
         {
@@ -2680,7 +2570,7 @@
             },
             {
               "details": {
-                "hoursLeft": 8.25
+                "hoursLeft": 5.05
               },
               "name": "offerValidity",
               "reason": "offer expires soon",
@@ -2795,7 +2685,7 @@
             },
             {
               "details": {
-                "hoursLeft": 31.06
+                "hoursLeft": 27.86
               },
               "name": "offerValidity",
               "reason": "offer active within three days",
@@ -3140,7 +3030,7 @@
             },
             {
               "details": {
-                "hoursLeft": 5.19
+                "hoursLeft": 1.99
               },
               "name": "offerValidity",
               "reason": "offer expires soon",
@@ -3255,7 +3145,7 @@
             },
             {
               "details": {
-                "hoursLeft": 16.72
+                "hoursLeft": 13.52
               },
               "name": "offerValidity",
               "reason": "offer expires soon",
@@ -3370,7 +3260,7 @@
             },
             {
               "details": {
-                "hoursLeft": 14.28
+                "hoursLeft": 11.08
               },
               "name": "offerValidity",
               "reason": "offer expires soon",
@@ -3485,7 +3375,7 @@
             },
             {
               "details": {
-                "hoursLeft": 12.28
+                "hoursLeft": 9.08
               },
               "name": "offerValidity",
               "reason": "offer expires soon",
@@ -3554,136 +3444,21 @@
           ],
           "score": 0.744,
           "title": "Prime Day MacBook deals guide 2026: Save up to $850 on Amazon vs. Apple - Mashable"
-        },
-        {
-          "category": "shopping",
-          "gates": [
-            {
-              "details": {
-                "dedupKey": "06a146a7d5d6f0aa"
-              },
-              "name": "dedup",
-              "reason": "unique item",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "displayUntil": 1784496600000
-              },
-              "name": "futureValidity",
-              "reason": "valid undated item with active display window",
-              "score": 0.65,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "matchScore": 0.72,
-                "matchedLocation": "chennai",
-                "relevance": "secondary",
-                "scope": "region"
-              },
-              "name": "location",
-              "reason": "location matches configured profile",
-              "score": 0.72,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "hasPlace": false,
-                "hasTime": true
-              },
-              "name": "actionability",
-              "reason": "item has enough action fields",
-              "score": 0.85,
-              "status": "PASS"
-            },
-            {
-              "details": {
-                "hoursLeft": 0.78
-              },
-              "name": "offerValidity",
-              "reason": "offer expires soon",
-              "score": 1.0,
-              "status": "PASS"
-            },
-            {
-              "details": {},
-              "name": "alertUrgency",
-              "reason": "not an alert",
-              "score": 0.6,
-              "status": "PASS"
-            }
-          ],
-          "id": "d23febf4a4c1a8b9",
-          "item": {
-            "actionabilityScore": 0.65,
-            "category": "shopping",
-            "city": null,
-            "contentClass": "upahead_offer",
-            "dateConfidence": "unknown",
-            "dateSource": "none",
-            "eventEndAt": null,
-            "eventStartAt": null,
-            "expiryAt": 1784496600000,
-            "id": "d23febf4a4c1a8b9",
-            "language": "en",
-            "lifecycle": {
-              "archiveUntil": 1785101400000,
-              "contentClass": "upahead_offer",
-              "displayUntil": 1784496600000,
-              "isActionValid": true,
-              "isVisible": true,
-              "plannerEligibleByLifecycle": true,
-              "plannerPastGraceHours": 6,
-              "retentionReason": "expiryAt",
-              "withinSevenDayHorizon": true
-            },
-            "localityScore": 0.3,
-            "normalizedCategory": "shopping",
-            "plannerEligible": true,
-            "publishedAt": 1784323800000,
-            "region": null,
-            "scoreBreakdown": {
-              "actionabilityScore": 0.8500000000000001,
-              "categoryPriorityScore": 0.68,
-              "lifecycleScore": 0.65,
-              "locationScore": 0.72,
-              "plannerFitScore": 1.0,
-              "sourceConfidenceScore": 0.58,
-              "urgencyOrExpiryScore": 1.0
-            },
-            "source": "Google News Deals",
-            "sourceGroup": "google_news",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUm1tbk44dTdEQVk1OEJzQTNNNTJSdDJ4V3dwMlZFTHM2a0F5clZwc1BRLVUzbDhYSTMtOVg4WWhOcVlJcml0LWlLUUFHM1g2NV9zOHZmbTdlQ2VTaFYzeE42VDJfVzNUMlU5TzFzSDFNVXJsSG04N0NHVG1TalNSV2REVE83SlpT?oc=5\" target=\"_blank\">Walmart Promo Codes And Coupons: Air Purifiers Are Up To 25% Off</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>",
-            "suppressionReason": null,
-            "title": "Walmart Promo Codes And Coupons: Air Purifiers Are Up To 25% Off - Forbes",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUm1tbk44dTdEQVk1OEJzQTNNNTJSdDJ4V3dwMlZFTHM2a0F5clZwc1BRLVUzbDhYSTMtOVg4WWhOcVlJcml0LWlLUUFHM1g2NV9zOHZmbTdlQ2VTaFYzeE42VDJfVzNUMlU5TzFzSDFNVXJsSG04N0NHVG1TalNSV2REVE83SlpT?oc=5"
-          },
-          "locationKey": "chennai",
-          "rankingReasons": [
-            "shopping",
-            "valid undated item with active display window",
-            "location matches configured profile",
-            "planner advisory fit"
-          ],
-          "score": 0.744,
-          "title": "Walmart Promo Codes And Coupons: Air Purifiers Are Up To 25% Off - Forbes"
         }
       ],
       "rankingProfile": "upAhead-v2-lifecycle-location-category",
       "scoreBreakdown": {
-        "actionabilityScore": 0.9674,
-        "categoryPriorityScore": 0.9009,
+        "actionabilityScore": 0.9727,
+        "categoryPriorityScore": 0.9109,
         "lifecycleScore": 0.65,
-        "locationScore": 0.9148,
+        "locationScore": 0.9236,
         "plannerFitScore": 1.0,
         "sourceConfidenceScore": 0.58,
-        "urgencyOrExpiryScore": 0.8391
+        "urgencyOrExpiryScore": 0.8318
       }
     }
   },
-  "generatedAt": 1784493774508,
+  "generatedAt": 1784505294512,
   "implementedDestinations": [
     "upAhead",
     "buzz",
@@ -3702,7 +3477,7 @@
   "schemaVersion": 1,
   "summary": {
     "actionRequired": [
-      "20 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "21 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
       "no active local/travel disruption item",
@@ -3710,13 +3485,13 @@
       "no ranked local/travel item for muscat",
       "no ranked local/travel item for chennai",
       "no ranked local/travel item for trichy",
-      "2 base-report-heavy Insight parent(s) demoted"
+      "1 base-report-heavy Insight parent(s) demoted"
     ],
     "destinationScores": {
       "buzz": 0.0,
-      "insight": 0.3935,
+      "insight": 0.4021,
       "localTravel": 0.0,
-      "upAhead": 0.836
+      "upAhead": 0.8384
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -3724,7 +3499,7 @@
       "localTravel": "FAIL",
       "upAhead": "WARN"
     },
-    "overallScore": 0.3074,
+    "overallScore": 0.3101,
     "overallStatus": "FAIL",
     "rankingProfiles": {
       "buzz": "buzz-v2-trend-local-travel",

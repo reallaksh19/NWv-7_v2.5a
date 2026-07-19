@@ -1,11 +1,11 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1784493773295,
-  "contentHash": "d68eb48ca299fe14",
+  "generatedAt": 1784505293828,
+  "contentHash": "7a9f90e50f41c206",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 477,
+  "storyCount": 459,
   "sourceGroupCount": 9,
   "grade": "D",
   "parentCount": 10,
@@ -26,7 +26,7 @@
       "signalScore": 40,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 430,
+      "storyCount": 418,
       "risingCount": 0,
       "thinCount": 5,
       "multiAngleCount": 5,
@@ -43,7 +43,7 @@
         "4 cluster(s) are below source-diversity target.",
         "7 cluster(s) have weak snapshot coverage.",
         "5 cluster(s) are marked thin.",
-        "470 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "410 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
@@ -53,7 +53,7 @@
       "signalScore": 40,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 430,
+      "storyCount": 418,
       "risingCount": 0,
       "thinCount": 5,
       "multiAngleCount": 5,
@@ -83,7 +83,7 @@
   },
   "parents": [
     {
-      "parentId": "cluster_154_76627092be3888f3",
+      "parentId": "cluster_164_76627092be3888f3",
       "headline": "Sonam Wangchuk’s wife moves Delhi HC, seeks his transfer to private hospital",
       "score": 0.691508740197415,
       "postTreeScore": 1.3415,
@@ -107,7 +107,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_198_b12f5624c7f1acd1",
+      "parentId": "cluster_209_b12f5624c7f1acd1",
       "headline": "Safdarjung Hospital",
       "score": 0.6874967197849983,
       "postTreeScore": 1.0675,
@@ -128,7 +128,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_190_598db3ebd1de122e",
+      "parentId": "cluster_201_598db3ebd1de122e",
       "headline": "US military launches new airstrikes to 'swiftly punish' Iran for deaths of US troops",
       "score": 0.6724967197849983,
       "postTreeScore": 1.0525,
@@ -149,7 +149,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_315_794c69e445c3ad02",
+      "parentId": "cluster_331_794c69e445c3ad02",
       "headline": "Indian-origin woman jailed in UK for more than 2 years over Rs 2.8 crore Covid loan fraud",
       "score": 0.6502967197849984,
       "postTreeScore": 1.0303,
@@ -170,7 +170,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_214_1996112cce593b8f",
+      "parentId": "cluster_226_1996112cce593b8f",
       "headline": "Iran's Supreme Leader says U.S. breaches show Trump's signature is 'worthless'",
       "score": 0.5585933333333333,
       "postTreeScore": 0.9586,
@@ -191,7 +191,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_84_3ed883c752d20d1e",
+      "parentId": "cluster_93_3ed883c752d20d1e",
       "headline": "IMA suspends July 20 strike after Bombay HC stays Shiv Sena corporator's bail",
       "score": 0.59651,
       "postTreeScore": 0.5065,
@@ -210,7 +210,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_186_4853e68ae61898c0",
+      "parentId": "cluster_197_4853e68ae61898c0",
       "headline": "Axis Bank Standalone Profit Soars 23% in Q1",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -228,7 +228,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_191_43646db53b043a00",
+      "parentId": "cluster_202_43646db53b043a00",
       "headline": "ICICI Bank net profit jumps 16% YoY to Rs 14,805 crore",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -246,7 +246,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_355_352dcb79aeece722",
+      "parentId": "cluster_370_352dcb79aeece722",
       "headline": "Lohia Corp IPO opens on July 23: Here’s all you need to know",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -264,7 +264,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_356_411ca18304fb39e0",
+      "parentId": "cluster_371_411ca18304fb39e0",
       "headline": "JK Cement Q1 profit drops 15.3% YoY to Rs 274.62 crore",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -370,7 +370,7 @@
       "weakParentRatio": 0.5,
       "topParentAngles": 3,
       "topParentChildren": 4,
-      "storyCount": 477,
+      "storyCount": 459,
       "sourceGroupCount": 9
     }
   }
