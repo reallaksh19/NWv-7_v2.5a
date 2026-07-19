@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784458328542,
-  "contentHash": "c732f6597a82",
+  "fetchedAt": 1784462061144,
+  "contentHash": "34a28bdb817b",
   "breaking": [
+    {
+      "title": "Russia launches major ballistic missile attack on Ukrainian cities",
+      "summary": "Four people are killed and at least 36 injured as Ukraine's two largest cities are targeted, as Kyiv continues its own assault on Russian infrastructure.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784460504000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "d59cb8f5e7f843a3",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 6.964,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784460504000
+    },
     {
       "title": "Russian missiles strike Kyiv killing one, wounding 13",
       "summary": "A series of powerful explosions thundered in the ‌night, as Ukraine’s air force warned of a ballistic missile threat; Several non-residential buildings and warehouses were struck in the attack, ​while parked cars ‌and office buildings were on fire in several districts, Kyiv Mayor said",
@@ -16,7 +39,7 @@
       "id": "0370221ba7b14501",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.717,
+      "breakingScore": 6.63,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -25,6 +48,29 @@
         "the_hindu"
       ],
       "firstSeen": 1784446096000
+    },
+    {
+      "title": "4 Killed In Massive Landslide In Nagaland, More Feared Dead",
+      "summary": "",
+      "source": "NDTV India",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/india-news/4-killed-in-massive-landslide-in-nagaland-more-feared-dead-11791967#publisher=newsstand",
+      "publishedAt": 1784461081000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "2f677b66d485792a",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.477,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784461081000
     },
     {
       "title": "Ukraine Release Video Of Bombing In Monaco That Injured Tycoon, His Family",
@@ -39,7 +85,7 @@
       "id": "9cfa6bb119ba8baf",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.331,
+      "breakingScore": 5.245,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -55,14 +101,14 @@
       "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784457851000,
+      "publishedAt": 1784459440000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "6f9ed026414bb927",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.989,
+      "breakingScore": 3.939,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -72,53 +118,6 @@
         "the_hindu"
       ],
       "firstSeen": 1784431248000
-    },
-    {
-      "title": "Jammu and Kashmir rains LIVE: 10 feared dead, houses damaged in flash floods in J&K",
-      "summary": "Union Home Minister Amit Shah spoke to Jammu and Kashmir L-G Manoj Sinha and CM Omar Abdullah to take stock of the flood situation in Rajouri district.",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/amarnath-yatra-2026-live-updates-temporary-suspension-pahalgam-baltal-routes-jammu-and-kashmir-heavy-rains/article71240667.ece",
-      "publishedAt": 1784455457000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "b6a0993adb1993c9",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.934,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784448305000
-    },
-    {
-      "title": "Russia launches major ballistic missile attack on Kyiv",
-      "summary": "One death is reported in what President Zelensky calls \"one of the most massive ballistic attacks\" on Ukraine's capital.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784454890000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "d59cb8f5e7f843a3",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.92,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1784454890000
     },
     {
       "title": "16,000 hectares burned, over 1,100 evacuated: Spain's largest wildfire rages on",
@@ -133,7 +132,7 @@
       "id": "435b43d7fa393a8d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.902,
+      "breakingScore": 3.816,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -144,42 +143,19 @@
       "firstSeen": 1784454104000
     },
     {
-      "title": "Earthquake of magnitude 5.6 strikes central Peru, EMSC says",
-      "summary": "Magnitude 5.6 earthquake hits central Peru, prompting safety concerns",
-      "source": "The Hindu International",
+      "title": "Can’t Govt. intervene democratically, asks Wangchuk’s wife Gitanjali after Delhi HC refuses interim relief on hospital transfer",
+      "summary": "Gitanjali Angmo said the PIL was “wrongly interpreted” and that they will file another petition on July 20",
+      "source": "The Hindu National",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/earthquake-of-magnitude-56-strikes-central-peru/article71240668.ece",
-      "publishedAt": 1784439847000,
-      "category": "world",
+      "url": "https://www.thehindu.com/news/national/sonam-wangchuk-gitanjali-angmo-wife-remarks-after-delhi-hc-refuses-relief-hospital-transfer-delhi/article71241233.ece",
+      "publishedAt": 1784462005000,
+      "category": "india",
       "region": "in",
       "language": "en",
-      "id": "9a1005488443763d",
+      "id": "a2a8ed13dce63692",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.572,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784439847000
-    },
-    {
-      "title": "Madhya Pradesh Cabinet approves UCC draft bill for presentation in State Assembly",
-      "summary": "The bill seeks to completely prohibit polygamy and multiple marriages across all communities, while also declaring practices like nikaha halala as illegal and punishable offences",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/madhya-pradesh/madhya-pradesh-cabinet-approves-ucc-draft-bill-for-presentation-in-state-assembly/article71241011.ece",
-      "publishedAt": 1784455580000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "9a6ac3808a1f9d9a",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.936,
+      "breakingScore": 2.999,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -188,7 +164,30 @@
         "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1784450324000
+      "firstSeen": 1784460825000
+    },
+    {
+      "title": "West Asia war LIVE: Iran targets U.S. military bases in Kuwait",
+      "summary": "Iran’s supreme leader vowed to teach the U.S. “unforgettable lessons” on Saturday (July 18, 2026), as Washington reported its first military deaths since renewing hostilities with the Islamic republic",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/iran-israel-war-july-19-2026-live-updates-kuwait-us/article71240587.ece",
+      "publishedAt": 1784461912000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "fdf4b9661bd5bf56",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.497,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784433909000
     }
   ]
 }
