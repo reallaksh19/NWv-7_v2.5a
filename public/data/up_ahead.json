@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784453344762,
-  "contentHash": "febaf4cff5a8",
+  "fetchedAt": 1784458663698,
+  "contentHash": "cab95f0f03db",
   "items": [
     {
       "title": "Key link road behind DMS Metro in Teynampet leading to Gopalapuram hit by ‘blocks’",
@@ -1534,40 +1534,6 @@
       }
     },
     {
-      "title": "Chennai’s mini Brazil has a World Cup dream",
-      "summary": "Ahead of the FIFA World Cup final, Vyasarpadi residents share their hopes and dreams for Indian football",
-      "url": "https://www.thehindu.com/life-and-style/chennais-mini-brazil-has-a-world-cup-dream/article71237173.ece",
-      "source": "The Hindu Chennai",
-      "sourceGroup": "the_hindu",
-      "category": "alerts",
-      "publishedAt": 1784371149000,
-      "eventStartAt": null,
-      "eventEndAt": null,
-      "expiryAt": 1784457549000,
-      "dateConfidence": "unknown",
-      "dateSource": "none",
-      "city": "Chennai",
-      "region": "tn",
-      "localityScore": 1.0,
-      "language": "en",
-      "id": "1438258555622823",
-      "suppressionReason": null,
-      "actionabilityScore": 0.7,
-      "plannerEligible": true,
-      "contentClass": "upahead_alert",
-      "lifecycle": {
-        "contentClass": "upahead_alert",
-        "displayUntil": 1784457549000,
-        "archiveUntil": 1785062349000,
-        "retentionReason": "expiryAt",
-        "isVisible": true,
-        "isActionValid": true,
-        "withinSevenDayHorizon": true,
-        "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": true
-      }
-    },
-    {
       "title": "Prime Day MacBook deals guide 2026: Save up to $850 on Amazon vs. Apple - Mashable",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5fNE1BWjJiT3NkZWZkdE5xTmpmX0xlRzlwNXdFYzJVS1k1V2FxeGR0NFhOa282RzFRU3Q5R3QwYzlYN3V2YzNsMnRvTm1zR21KMC1PUXFpdEVGaDM5cnpKakJTbl9qVXZ4MFFvR3ZNLWF3R3JFUWpDemljYw?oc=5\" target=\"_blank\">Prime Day MacBook deals guide 2026: Save up to $850 on Amazon vs. Apple</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mashable</font>",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5fNE1BWjJiT3NkZWZkdE5xTmpmX0xlRzlwNXdFYzJVS1k1V2FxeGR0NFhOa282RzFRU3Q5R3QwYzlYN3V2YzNsMnRvTm1zR21KMC1PUXFpdEVGaDM5cnpKakJTbl9qVXZ4MFFvR3ZNLWF3R3JFUWpDemljYw?oc=5",
@@ -1807,7 +1773,7 @@
     }
   ],
   "contractVersion": "upahead-lifecycle-v1",
-  "generatedAt": 1784453344762,
+  "generatedAt": 1784458663698,
   "horizon": {
     "lookaheadDays": 7,
     "eventPastGraceHours": 24,
@@ -1816,20 +1782,20 @@
     "offerFallbackHours": 48
   },
   "lifecycleSummary": {
-    "itemCount": 53,
-    "visibleItemCount": 53,
-    "plannerEligibleByLifecycleCount": 53,
+    "itemCount": 52,
+    "visibleItemCount": 52,
+    "plannerEligibleByLifecycleCount": 52,
     "categoryCounts": {
-      "alerts": 39,
+      "alerts": 38,
       "shopping": 13,
       "weather_alerts": 1
     },
     "contentClassCounts": {
-      "upahead_alert": 40,
+      "upahead_alert": 39,
       "upahead_offer": 13
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": []
   },
-  "lifecyclePrunedCount": 284
+  "lifecyclePrunedCount": 286
 }
