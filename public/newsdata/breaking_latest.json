@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784482870735,
-  "contentHash": "5dbdbd01d5c6",
+  "fetchedAt": 1784486321541,
+  "contentHash": "6d575fce420c",
   "breaking": [
+    {
+      "title": "Russia launches major ballistic missile attack on Ukrainian cities",
+      "summary": "Eight people die and dozens are injured as several cities are hit by missile and drone attacks, while Kyiv continues its own assault on Russian infrastructure.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784485540000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "d59cb8f5e7f843a3",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 6.982,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
+      ],
+      "firstSeen": 1784485540000
+    },
     {
       "title": "US and Iran trade fire after two US soldiers killed in Jordan",
       "summary": "Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant.",
@@ -16,7 +39,7 @@
       "id": "6f9ed026414bb927",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.474,
+      "breakingScore": 5.394,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -40,7 +63,7 @@
       "id": "0370221ba7b14501",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.435,
+      "breakingScore": 5.355,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -51,44 +74,19 @@
       "firstSeen": 1784480064000
     },
     {
-      "title": "CJP march call: Section 163 imposed; security tightened in Delhi ahead of Monsoon Session",
-      "summary": "The heightened vigil comes as the CJP announced the march in protest against alleged NEET irregularities and to demand the resignation of Union Education Minister Dharmendra Pradhan",
-      "source": "The Hindu National",
+      "title": "Petrol attack at Vembayam bar leaves four with burn injuries",
+      "summary": "The injured have been admitted to the Government Medical College Hospital here",
+      "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/security-intensified-in-delhi-ahead-of-parliament-session-cjps-march-call/article71241235.ece",
-      "publishedAt": 1784479454000,
-      "category": "india",
+      "url": "https://www.thehindu.com/news/national/kerala/petrol-attack-at-vembayam-bar-leaves-four-with-burn-injuries/article71242572.ece",
+      "publishedAt": 1784485731000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "dfba5a54dd4a1064",
+      "id": "d8d245a3d5f8f616",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.421,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784474886000
-    },
-    {
-      "title": "Jammu and Kashmir rains updates: At least 11 dead, several missing in flash floods; rescue ops. under way",
-      "summary": "Home Minister Amit Shah assured the L-G and the CM of all possible assistance from the Centre for the safety and security of the affected people, officials said",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/amarnath-yatra-2026-live-updates-temporary-suspension-pahalgam-baltal-routes-jammu-and-kashmir-heavy-rains/article71240667.ece",
-      "publishedAt": 1784482609000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "b6a0993adb1993c9",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.994,
+      "breakingScore": 3.986,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -96,22 +94,45 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784481558000
+      "firstSeen": 1784485731000
+    },
+    {
+      "title": "At least 50 Malian soldiers killed in rebel-jihadist attack",
+      "summary": "The attack on the Army convoy leaving Anefis occurred on July 18, following weeks of fighting with both sides attempting to take control",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/several-malian-soldiers-killed-in-rebel-jihadist-attack/article71242501.ece",
+      "publishedAt": 1784482883000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "45a51d6d472fc201",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.92,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784482883000
     },
     {
       "title": "West Asia war LIVE: Iranian missile hits Jordan's Aqaba Airport, reports Iran state media",
       "summary": "The Israeli military said it had identified and intercepted missiles launched from Iran towards Aqaba in Jordan",
-      "source": "The Hindu",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/iran-israel-war-july-19-2026-live-updates-kuwait-us/article71240587.ece",
       "publishedAt": 1784481270000,
-      "category": "topStories",
+      "category": "world",
       "region": "in",
       "language": "en",
       "id": "fdf4b9661bd5bf56",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.963,
+      "breakingScore": 3.883,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -120,29 +141,6 @@
         "the_hindu"
       ],
       "firstSeen": 1784481270000
-    },
-    {
-      "title": "Roads turn death traps for gig workers in Kerala",
-      "summary": "Over 30 such workers, mostly food delivery personnel, have been killed in road accidents in the State in the past one year, as per informal data collected by a union. Time constraints coupled with heavy traffic often contribute to the higher number of fatalities, those involved in the sector say",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/kerala/roads-turn-death-traps-for-gig-workers-in-kerala/article71241918.ece",
-      "publishedAt": 1784480092000,
-      "category": "india",
-      "region": "in",
-      "language": "en",
-      "id": "98c3a99a9a99004c",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.936,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784480092000
     },
     {
       "title": "Couple, Son, Killed After Car Rams Their Motorcycle In Madhya Pradesh",
@@ -157,7 +155,7 @@
       "id": "eab8914e8c41f769",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.894,
+      "breakingScore": 3.814,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -180,7 +178,7 @@
       "id": "c1c9df1a2f0bbfb1",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.752,
+      "breakingScore": 3.672,
       "breakingReasons": [
         "severity_lexicon"
       ],
