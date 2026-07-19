@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784452763680,
-  "contentHash": "56e4fc3924de",
+  "fetchedAt": 1784458328542,
+  "contentHash": "c732f6597a82",
   "breaking": [
     {
       "title": "Russian missiles strike Kyiv killing one, wounding 13",
@@ -16,7 +16,7 @@
       "id": "0370221ba7b14501",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.846,
+      "breakingScore": 6.717,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -27,21 +27,67 @@
       "firstSeen": 1784446096000
     },
     {
+      "title": "Ukraine Release Video Of Bombing In Monaco That Injured Tycoon, His Family",
+      "summary": "The June 30 attack deeply shook the discreet and ultra-wealthy principality on the Mediterranean coast.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/ukraine-release-video-of-bombing-in-monaco-that-injured-tycoon-vadym-yermolaiev-his-family-11791395#publisher=newsstand",
+      "publishedAt": 1784451045000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "9cfa6bb119ba8baf",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.331,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "ndtv"
+      ],
+      "firstSeen": 1784451045000
+    },
+    {
+      "title": "US and Iran exchange strikes after two US soldiers killed in Jordan",
+      "summary": "US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784457851000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "6f9ed026414bb927",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.989,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "bbc",
+        "the_hindu"
+      ],
+      "firstSeen": 1784431248000
+    },
+    {
       "title": "Jammu and Kashmir rains LIVE: 10 feared dead, houses damaged in flash floods in J&K",
       "summary": "Union Home Minister Amit Shah spoke to Jammu and Kashmir L-G Manoj Sinha and CM Omar Abdullah to take stock of the flood situation in Rajouri district.",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/amarnath-yatra-2026-live-updates-temporary-suspension-pahalgam-baltal-routes-jammu-and-kashmir-heavy-rains/article71240667.ece",
-      "publishedAt": 1784450049000,
+      "publishedAt": 1784455457000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "b6a0993adb1993c9",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.937,
+      "breakingScore": 3.934,
       "breakingReasons": [
-        "multi_source_velocity",
         "severity_lexicon"
       ],
       "sourceCount": 2,
@@ -52,44 +98,19 @@
       "firstSeen": 1784448305000
     },
     {
-      "title": "Sonam Wangchuk hunger strike LIVE: Delhi HC agrees to urgently hear plea by Wangchuk’s wife to shift activist from Safdarjung Hospital",
-      "summary": "Sonam Wangchuk urges protesters to make the march to Parliament 'big success'",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/cjp-sonam-wangchuk-2026-protest-cockroach-janata-party-abhijeet-dipke-hunger-strike-july-19-2026-updates/article71240515.ece",
-      "publishedAt": 1784451178000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "edbdfd3ac39fc545",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 4.463,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784446500000
-    },
-    {
       "title": "Russia launches major ballistic missile attack on Kyiv",
       "summary": "One death is reported in what President Zelensky calls \"one of the most massive ballistic attacks\" on Ukraine's capital.",
       "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784450268000,
+      "publishedAt": 1784454890000,
       "category": "world",
       "region": "in",
       "language": "en",
       "id": "d59cb8f5e7f843a3",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.942,
+      "breakingScore": 3.92,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -97,32 +118,30 @@
       "allSources": [
         "bbc"
       ],
-      "firstSeen": 1784450268000
+      "firstSeen": 1784454890000
     },
     {
-      "title": "U.S. military says two troops dead, one missing after Iran attacks base in Jordan",
-      "summary": "Minutes before the announcement, Iran's supreme leader warned of “unforgettable lessons” if the U.S. keeps attacking the Islamic Republic",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/us-military-says-two-troops-dead-one-missing-after-iran-attacks-base-in-jordan/article71240883.ece",
-      "publishedAt": 1784445667000,
-      "category": "world",
+      "title": "16,000 hectares burned, over 1,100 evacuated: Spain's largest wildfire rages on",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132492416.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/europe/16000-hectares-burned-over-1100-evacuated-spains-largest-wildfire-rages-on/articleshow/132492416.cms",
+      "publishedAt": 1784454104000,
+      "category": "india",
       "region": "in",
       "language": "en",
-      "id": "69b588a1ac852f29",
+      "id": "435b43d7fa393a8d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.836,
+      "breakingScore": 3.902,
       "breakingReasons": [
         "severity_lexicon"
       ],
-      "sourceCount": 3,
+      "sourceCount": 1,
       "allSources": [
-        "bbc",
-        "the_hindu",
         "times_of_india"
       ],
-      "firstSeen": 1784416215000
+      "firstSeen": 1784454104000
     },
     {
       "title": "Earthquake of magnitude 5.6 strikes central Peru, EMSC says",
@@ -137,7 +156,7 @@
       "id": "9a1005488443763d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.701,
+      "breakingScore": 3.572,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -148,19 +167,19 @@
       "firstSeen": 1784439847000
     },
     {
-      "title": "Opposition walks out of all-party meeting over presence of rebel Trinamool faction",
-      "summary": "The breakaway TMC faction claims to have joined the Nationalist Citizens Party of India; the government is expected to outline its legislative agenda during the meeting",
-      "source": "The Hindu National",
+      "title": "Madhya Pradesh Cabinet approves UCC draft bill for presentation in State Assembly",
+      "summary": "The bill seeks to completely prohibit polygamy and multiple marriages across all communities, while also declaring practices like nikaha halala as illegal and punishable offences",
+      "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/opposition-walks-out-of-all-party-meeting-parliament-monsoon-session/article71240813.ece",
-      "publishedAt": 1784447090000,
-      "category": "india",
+      "url": "https://www.thehindu.com/news/national/madhya-pradesh/madhya-pradesh-cabinet-approves-ucc-draft-bill-for-presentation-in-state-assembly/article71241011.ece",
+      "publishedAt": 1784455580000,
+      "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "755f71c7df0cfb90",
+      "id": "9a6ac3808a1f9d9a",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.869,
+      "breakingScore": 2.936,
       "breakingReasons": [
         "multi_source_velocity"
       ],
@@ -169,30 +188,7 @@
         "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1784444591000
-    },
-    {
-      "title": "West Asia war LIVE: Iran targets U.S. military bases in Kuwait",
-      "summary": "Iran’s supreme leader vowed to teach the U.S. “unforgettable lessons” on Saturday (July 18, 2026), as Washington reported its first military deaths since renewing hostilities with the Islamic republic",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/iran-israel-war-july-19-2026-live-updates-kuwait-us/article71240587.ece",
-      "publishedAt": 1784452352000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "fdf4b9661bd5bf56",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.49,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784433909000
+      "firstSeen": 1784450324000
     }
   ]
 }
