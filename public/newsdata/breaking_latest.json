@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784496902245,
-  "contentHash": "46a805278766",
+  "fetchedAt": 1784504365565,
+  "contentHash": "2371e4a63545",
   "breaking": [
     {
       "title": "Russia launches major ballistic missile attack on Ukrainian cities",
@@ -16,7 +16,7 @@
       "id": "d59cb8f5e7f843a3",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 6.737,
+      "breakingScore": 6.564,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -39,7 +39,7 @@
       "id": "fdf4b9661bd5bf56",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.956,
+      "breakingScore": 5.783,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -64,7 +64,7 @@
       "id": "6f9ed026414bb927",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.347,
+      "breakingScore": 5.175,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -77,17 +77,17 @@
     {
       "title": "At least eight dead, 15 hurt in Nagaland landslide",
       "summary": "Heavy incessant rainfall and a cloudburst caused widespread destruction at various locations in and around Mon town; State announces ex-gratia of ₹4 lakh for kin of deceased, ₹74,000 for each of the injured",
-      "source": "The Hindu",
+      "source": "The Hindu National",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/national/nagaland/nagaland-landslide-death-toll/article71241782.ece",
       "publishedAt": 1784488407000,
-      "category": "topStories",
+      "category": "india",
       "region": "in",
       "language": "en",
       "id": "d6ba95430f7f64fa",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.303,
+      "breakingScore": 5.131,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -96,29 +96,6 @@
         "the_hindu"
       ],
       "firstSeen": 1784488407000
-    },
-    {
-      "title": "Russian attacks kill six in Kyiv, other cities; expose gaps in Ukraine’s air defences",
-      "summary": "Moscow has in recent weeks stepped up its use of ballistic missiles as it seeks to choke off Ukrainian strikes on oil facilities deep inside Russia that have caused critical fuel shortages affecting both the military and the civilian population.",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/russia-ukraine-war-missile-attack-on-kyiv-death-toll-injuries/article71240891.ece",
-      "publishedAt": 1784480064000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "0370221ba7b14501",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.11,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784480064000
     },
     {
       "title": "Petrol attack at Vembayam bar leaves four with burn injuries",
@@ -133,7 +110,7 @@
       "id": "d8d245a3d5f8f616",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.789,
+      "breakingScore": 3.616,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -156,7 +133,7 @@
       "id": "c1c9df1a2f0bbfb1",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.741,
+      "breakingScore": 3.568,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -179,7 +156,7 @@
       "id": "68e3615a5bce8f2e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.727,
+      "breakingScore": 3.554,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -188,6 +165,29 @@
         "ndtv"
       ],
       "firstSeen": 1784485111000
+    },
+    {
+      "title": "At least 50 Malian soldiers killed in rebel-jihadist attack",
+      "summary": "The attack on the Army convoy leaving Anefis occurred on July 18, following weeks of fighting with both sides attempting to take control",
+      "source": "The Hindu International",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/international/several-malian-soldiers-killed-in-rebel-jihadist-attack/article71242501.ece",
+      "publishedAt": 1784482883000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "45a51d6d472fc201",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.503,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784482883000
     }
   ]
 }
