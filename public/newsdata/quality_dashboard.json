@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1784476531529,
+  "generatedAt": 1784483837262,
   "windowDays": 7,
   "latest": {
-    "insightGrade": "B",
+    "insightGrade": "C",
     "insightScore": 0,
-    "totalStories": 474,
-    "usableStories36h": 461,
+    "totalStories": 509,
+    "usableStories36h": 475,
     "sourceGroups": 9,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
-    "rankingOverallScore": 0.3134,
+    "rankingOverallScore": 0.3095,
     "rankingOverallStatus": "FAIL"
   },
   "rankingAudit": {
     "status": "FAIL",
-    "overallScore": 0.3134,
+    "overallScore": 0.3095,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1784476530195,
+    "generatedAt": 1784483836494,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.4108,
+      "insight": 0.391,
       "localTravel": 0,
-      "upAhead": 0.8427
+      "upAhead": 0.8472
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.4108,
+        "score": 0.391,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.8427,
+        "score": 0.8472,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -92,11 +92,11 @@
       },
       "upAhead": {
         "rankedItemCount": 30,
-        "suppressedItemCount": 12,
+        "suppressedItemCount": 9,
         "events": 0,
         "onlineOffers": 0,
-        "offlineOffers": 5,
-        "alerts": 25,
+        "offlineOffers": 4,
+        "alerts": 26,
         "festivals": 0,
         "locationsCovered": [
           "chennai",
@@ -109,18 +109,18 @@
       "Back-to-school shopping just got more affordable— Target is offering up to 76% off right now - NBC News: location failed — offline/local item lacks configured location match",
       "Ready for a patio refresh? Wayfair is offering up to 71% off outdoor furniture this weekend — here’s what to shop - NBC News: location failed — offline/local item lacks configured location match",
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
-      "Woman, daughter killed as container lorry crashes into two-wheeler: futureValidity failed — expired display window",
-      "Woman, daughter killed as container lorry crashes into two-wheeler: alertUrgency failed — alert expired",
-      "Man, two-year-old boy killed in road accidents in Tiruchi: futureValidity failed — expired display window",
-      "Man, two-year-old boy killed in road accidents in Tiruchi: alertUrgency failed — alert expired",
-      "High-rise building constructed with structural steel technology inaugurated: futureValidity failed — expired display window",
-      "High-rise building constructed with structural steel technology inaugurated: alertUrgency failed — alert expired",
-      "Evening clinics to be announced in budget: T.N. Health Minister: futureValidity failed — expired display window",
-      "Evening clinics to be announced in budget: T.N. Health Minister: alertUrgency failed — alert expired",
-      "Amazon’s $25 Billion Bond Sale Created 3 More Reasons for Me to Keep Buying - 24/7 Wall St.: location failed — offline/local item lacks configured location match"
+      "Lorry runs over elderly man while reversing onto Vanagaram-Poonamallee service road: futureValidity failed — expired display window",
+      "Lorry runs over elderly man while reversing onto Vanagaram-Poonamallee service road: alertUrgency failed — alert expired",
+      "Chennai needs expanded airport, has limited direct flights to Europe: NITI Aayog: futureValidity failed — expired display window",
+      "Chennai needs expanded airport, has limited direct flights to Europe: NITI Aayog: alertUrgency failed — alert expired",
+      "Amazon’s $25 Billion Bond Sale Created 3 More Reasons for Me to Keep Buying - 24/7 Wall St.: location failed — offline/local item lacks configured location match",
+      "Amazon beauty sale 2026 makes high-end beauty affordable - international quality, Indian pricing - MSN: location failed — offline/local item lacks configured location match",
+      "Amazon Mega Electronic Days Sale: Deals on laptops, tablets and more - FoneArena.com: location failed — offline/local item lacks configured location match",
+      "Pact Promo Codes: Get 15% Off Your Order With These Verified Offers - Forbes: location failed — offline/local item lacks configured location match",
+      "upAhead: Back-to-school shopping just got more affordable— Target is offering up to 76% off right now - NBC News: location failed — offline/local item lacks configured location match"
     ],
     "actionRequired": [
-      "12 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "9 invalid/expired/duplicate Up Ahead item(s) suppressed",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
       "no active local/travel disruption item",
@@ -257,16 +257,16 @@
     },
     {
       "date": "2026-07-19",
-      "generatedAt": 1784476531529,
-      "insightGrade": "B",
+      "generatedAt": 1784483837262,
+      "insightGrade": "C",
       "insightScore": 0,
-      "totalStories": 474,
-      "usableStories36h": 461,
+      "totalStories": 509,
+      "usableStories36h": 475,
       "sourceGroups": 9,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
-      "rankingOverallScore": 0.3134,
+      "rankingOverallScore": 0.3095,
       "rankingOverallStatus": "FAIL",
       "sourceUptimePercent": 0,
       "angleDiversityScore": 0,
