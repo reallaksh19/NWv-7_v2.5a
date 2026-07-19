@@ -6,13 +6,13 @@
 - Parents: `10`
 - Average angles: `1.9`
 - Average temporal tiers: `1.8`
-- Average evolution roles: `1.9`
-- Base report share: `0.045454545454545456`
+- Average evolution roles: `2`
+- Base report share: `0.043478260869565216`
 - Multi-angle parents: `7`
 - Weak parents: `3`
-- Story count: `478`
-- Source groups: `10`
-- Content hash: `97a6b7881d3169eb`
+- Story count: `408`
+- Source groups: `9`
+- Content hash: `ab495fac3404e251`
 
 ## Top parents
 
@@ -26,8 +26,8 @@
 | 6 | Vikram-1 Lifts Off Skyroot Launches India's First Private Rocket Into Orbit Successfully / News18 - News18 | 2 | investigative_detail, fact_update | NO | 0.5593433333333333 |
 | 7 | Iran's Supreme Leader says U.S. breaches show Trump's signature is 'worthless' | 2 | market_reaction, official_response | NO | 0.5385933333333333 |
 | 8 | India's Axis Bank report 23% rise in Q1 net profit, beating estimates - Reuters | 2 | fact_update | YES | 0.6954600000000002 |
-| 9 | A 7.3-magnitude earthquake hits Mexico-Guatemala border; no damage reported so far | 2 | official_response | YES | 0.6934967197849984 |
-| 10 | Wangchuk shifted to hospital; Abhijeet Dipke under detention, says Delhi Police | 2 | official_response | YES | 0.6714967197849984 |
+| 9 | Wangchuk shifted to hospital; Abhijeet Dipke under detention, says Delhi Police | 2 | official_response | YES | 0.6714967197849984 |
+| 10 | Sonam Wangchuk’s wife breaks silence after Delhi Police shift him to hospital, warns authorities against brea - India.Com | 3 | official_response | YES | 0.6365487346782661 |
 
 ## Real Snapshot Ratchet Gate
 
@@ -38,8 +38,8 @@
 - Parents: `10`
 - Average angles: `1.9`
 - Average temporal tiers: `1.8`
-- Average evolution roles: `1.9`
-- Base report share: `0.045`
+- Average evolution roles: `2`
+- Base report share: `0.043`
 - Multi-angle parents: `7`
 - Top parent angles: `3`
 - Top parent children: `3`
@@ -54,8 +54,8 @@
 - Parent cluster count: `10` / `>= 3`
 - Average visible angle count: `1.9` / `>= 1.4`
 - Average temporal tier count: `1.8` / `>= 1.8`
-- Average evolution role count: `1.9` / `>= 1.6`
-- Base report share: `0.045` / `<= 0.55`
+- Average evolution role count: `2` / `>= 1.6`
+- Base report share: `0.043` / `<= 0.55`
 - Multi-angle parent count: `7` / `>= 1`
 - Top parent angle count: `3` / `>= 2`
 - Top parent child depth: `3` / `>= 2`
