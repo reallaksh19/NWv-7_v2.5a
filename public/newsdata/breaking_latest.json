@@ -1,82 +1,76 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784552590000,
-  "contentHash": "5e06727326ad",
+  "fetchedAt": 1784560837284,
+  "contentHash": "17243b5266aa",
   "breaking": [
     {
-      "title": "US Identifies 2 Soldiers Killed In Iran Strike On Jordan. One Of Them Was 19",
-      "summary": "The US military has said the total number of deaths in the war with Iran is 17.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-identifies-2-soldiers-killed-in-iran-strike-on-jordan-one-of-them-was-19-11796204#publisher=newsstand",
-      "publishedAt": 1784547729000,
-      "category": "topStories",
+      "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
+      "summary": "Russian strikes on the Odesa region have killed 28 people in July alone, local authorities say.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784556848000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "3ac4865986dc5846",
+      "id": "255f40d04d59e960",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 7.387,
+      "breakingScore": 5.408,
       "breakingReasons": [
-        "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "allSources": [
-        "bbc",
-        "ndtv"
+        "bbc"
+      ],
+      "firstSeen": 1784556848000
+    },
+    {
+      "title": "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
+      "summary": "Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/cly52xzjd3qo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784546320000,
+      "category": "world",
+      "region": "in",
+      "language": "en",
+      "id": "584023c69bf42fd0",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 5.164,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "bbc"
       ],
       "firstSeen": 1784546320000
     },
     {
-      "title": "CJP protest in Delhi LIVE: Govt reaches out to CJP amid raging protest; several injured, detained as police crack down",
-      "summary": "Teargas and lathi-charges as CJP protesters storm into central Delhi",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/cjp-protest-july-20-2026-cockroach-janata-party-jantar-mantar-parliament-march-sonam-wangchuk/article71242448.ece",
-      "publishedAt": 1784551995000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "9f5e4c2aa837e7b9",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 4.486,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784550758000
-    },
-    {
-      "title": "Andy Burnham takes charge as U.K.’s new Prime Minister",
-      "summary": "King Charles III invited the 56-year-old former Mayor of Greater Manchester to form a new government following the resignation of Keir Starmer moments earlier to mark the formal handover of power",
+      "title": "West Asia war LIVE: Tehran says diplomatic exchanges with U.S. ongoing despite U.S. strikes",
+      "summary": "The Islamic Revolutionary Guard ​Corps said that ‌two oil tankers ​had exploded ⁠and been immobilised after attempting to transit what it ‌described as an unsafe southern route ‌through the Strait ‌of Hormuz",
       "source": "The Hindu International",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/andy-burnham-takes-charge-as-united-kingdom-new-prime-minister/article71245043.ece",
-      "publishedAt": 1784549734000,
+      "url": "https://www.thehindu.com/news/international/iran-israel-war-live-updates-july-20-2026-marco-rubio-strait-of-hormuz-us-donald-trump/article71243740.ece",
+      "publishedAt": 1784555006000,
       "category": "world",
       "region": "in",
       "language": "en",
-      "id": "24e476342fcb0edc",
+      "id": "c44f8164c5a2df65",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.434,
+      "breakingScore": 3.865,
       "breakingReasons": [
-        "multi_source_velocity",
         "severity_lexicon"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "allSources": [
-        "ndtv",
         "the_hindu"
       ],
-      "firstSeen": 1784548231000
+      "firstSeen": 1784555006000
     },
     {
       "title": "Utah firefighter and four family members killed in flash flooding",
@@ -91,7 +85,7 @@
       "id": "b83d7622dcdefed9",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.932,
+      "breakingScore": 3.741,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -100,29 +94,6 @@
         "bbc"
       ],
       "firstSeen": 1784549638000
-    },
-    {
-      "title": "West Asia war LIVE: Tehran says diplomatic exchanges with U.S. ongoing despite U.S. strikes",
-      "summary": "The Islamic Revolutionary Guard ​Corps said that ‌two oil tankers ​had exploded ⁠and been immobilised after attempting to transit what it ‌described as an unsafe southern route ‌through the Strait ‌of Hormuz",
-      "source": "The Hindu International",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/iran-israel-war-live-updates-july-20-2026-marco-rubio-strait-of-hormuz-us-donald-trump/article71243740.ece",
-      "publishedAt": 1784546359000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "c44f8164c5a2df65",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.856,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "the_hindu"
-      ],
-      "firstSeen": 1784546359000
     },
     {
       "title": "Boy, 13, dies during World Cup celebrations in Spain",
@@ -137,7 +108,7 @@
       "id": "371a5d056e33c487",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.749,
+      "breakingScore": 3.558,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -148,51 +119,74 @@
       "firstSeen": 1784541764000
     },
     {
-      "title": "Khalil Al-Hayya Named New Hamas Chief 2 Years After Yahya Sinwar's Death",
-      "summary": "Hayya defeated Khaled Meshaal in the leadership contest.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/israel-gaza-khalil-al-hayya-new-hamas-chief-nearly-2-years-after-yahya-sinwars-death-11796342#publisher=newsstand",
-      "publishedAt": 1784550911000,
-      "category": "topStories",
+      "title": "Key takeaways as Andy Burnham becomes PM",
+      "summary": "The new Labour leader has formally taken office and set out his priorities for power in No 10.",
+      "source": "BBC",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c80nln7zgp7o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784558062000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "72b814ef1b971e2c",
+      "id": "b88f3aa2a689f83e",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.961,
+      "breakingScore": 2.936,
       "breakingReasons": [
         "multi_source_velocity"
       ],
       "sourceCount": 2,
       "allSources": [
-        "ndtv",
-        "times_of_india"
+        "bbc",
+        "the_hindu"
       ],
-      "firstSeen": 1784546352000
+      "firstSeen": 1784554029000
     },
     {
-      "title": "\"Violent, Aggressive\": China Coast Guard Attack On Filipino Sailor Caught On Camera",
-      "summary": "Chinese coast guard inflatable boat carrying eight personnel deployed from a ship. (Representational)",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/philippines-philippines-slams-china-coast-guard-after-filipino-sailor-injured-at-disputed-shoal-11796523#publisher=newsstand",
-      "publishedAt": 1784551672000,
+      "title": "Fishers allege Mamallan reservoir plan ignores tidal inundation risks",
+      "summary": "They argued that the WRD’s proposal and the technical assessment by the IIT-M, had not adequately assessed this risk; they further said that converting the marsh into a reservoir would eliminate about 4,375 acres of natural flood storage, increasing flood risk in nearby areas",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/fishers-allege-mamallan-reservoir-plan-ignores-tidal-inundation-risks/article71245614.ece",
+      "publishedAt": 1784560678000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "1b402479d233c8d8",
+      "id": "b8b522674810cf8d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.479,
+      "breakingScore": 2.496,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "ndtv"
+        "the_hindu"
       ],
-      "firstSeen": 1784551672000
+      "firstSeen": 1784560678000
+    },
+    {
+      "title": "60-year-old pedestrian killed in Venur",
+      "summary": "",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/cities/Mangalore/60-year-old-pedestrian-killed-in-venur/article71246176.ece",
+      "publishedAt": 1784560544000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "518bbd8d0ee5ff83",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.493,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784560544000
     }
   ]
 }
