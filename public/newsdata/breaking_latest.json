@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784534177229,
-  "contentHash": "f17a6378a842",
+  "fetchedAt": 1784544615860,
+  "contentHash": "8ae714bb54a1",
   "breaking": [
     {
       "title": "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
       "summary": "Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz.",
-      "source": "BBC",
+      "source": "BBC World",
       "sourceGroup": "bbc",
       "url": "https://www.bbc.co.uk/news/articles/cly52xzjd3qo?at_medium=RSS&at_campaign=rss",
       "publishedAt": 1784529115000,
@@ -16,7 +16,7 @@
       "id": "584023c69bf42fd0",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.383,
+      "breakingScore": 5.141,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -27,19 +27,19 @@
       "firstSeen": 1784529115000
     },
     {
-      "title": "One dead and seven injured in BEST bus accident",
-      "summary": "",
+      "title": "When a 16-day strike by transport employees and a bus accident on Deepavali shook Tamil Nadu in 2001",
+      "summary": "In November 2001, transport corporation employees’ unions struck work demanding the Tamil Nadu government to increase annual bonus to 20%. During the strike, 28 persons were killed in Thoothukudi district in an accident involving a TNSTC bus allegedly driven by a temporary casual labourer.",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/cities/mumbai/one-dead-and-seven-injured-in-best-bus-accident/article71244162.ece",
-      "publishedAt": 1784533819000,
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/when-a-16-day-strike-by-transport-employees-and-a-bus-accident-on-deepavali-shook-tamil-nadu-in-2001/article70670217.ece",
+      "publishedAt": 1784543650000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "98296ef1a851e9fe",
+      "id": "cda50cd8e623d78f",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.992,
+      "breakingScore": 3.978,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -47,94 +47,46 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784533819000
+      "firstSeen": 1784543650000
     },
     {
-      "title": "CJP protest in Delhi LIVE: Protesters start marching towards Parliament; tear gas shells fired near Press Club of India",
-      "summary": "CJP spokespersons Ashutosh Ranka and Sourav Das to meet Health Minister J.P. Nadda; Sonam Wangchuk wrote to Safdarjung Hospital, saying he wanted to join Parliament March",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/cjp-protest-july-20-2026-cockroach-janata-party-jantar-mantar-parliament-march-sonam-wangchuk/article71242448.ece",
-      "publishedAt": 1784533941000,
-      "category": "topStories",
+      "title": "Boy, 13, dies during World Cup celebrations in Spain",
+      "summary": "Two other young people were injured after a fountain partially collapsed in Salamanca's Ciudad Rodrigo.",
+      "source": "BBC World",
+      "sourceGroup": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/c0qvdy0jv05o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": 1784541764000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "9f5e4c2aa837e7b9",
+      "id": "371a5d056e33c487",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.995,
+      "breakingScore": 3.934,
       "breakingReasons": [
-        "multi_source_velocity"
+        "severity_lexicon"
       ],
       "sourceCount": 2,
       "allSources": [
-        "ndtv",
-        "the_hindu"
+        "bbc",
+        "ndtv"
       ],
-      "firstSeen": 1784529518000
+      "firstSeen": 1784507330000
     },
     {
-      "title": "Sonam Wangchuk seeks temporary discharge from Safdarjung Hospital to take part in CJP march to Parliament",
-      "summary": "Safdarjung Hospital, in a bulletin, stated that “continued medical intervention and uninterrupted clinical monitoring remain necessary” for the activist",
-      "source": "The Hindu",
+      "title": "West Asia war LIVE: Tehran says diplomatic exchanges with U.S. ongoing despite U.S. strikes",
+      "summary": "The Islamic Revolutionary Guard ​Corps said that ‌two oil tankers ​had exploded ⁠and been immobilised after attempting to transit what it ‌described as an unsafe southern route ‌through the Strait ‌of Hormuz",
+      "source": "The Hindu International",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/sonam-wangchuk-temporary-discharge-request-safadarjung-hospital-cjp-protest/article71244254.ece",
-      "publishedAt": 1784533774000,
-      "category": "topStories",
+      "url": "https://www.thehindu.com/news/international/iran-israel-war-live-updates-july-20-2026-marco-rubio-strait-of-hormuz-us-donald-trump/article71243740.ece",
+      "publishedAt": 1784538512000,
+      "category": "world",
       "region": "in",
       "language": "en",
-      "id": "564f393db655681d",
+      "id": "c44f8164c5a2df65",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.991,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784530118000
-    },
-    {
-      "title": "Parliament Monsoon Session LIVE: Repeated adjournments disrupt both Houses; no business conducted so far",
-      "summary": "Opposition parties are protesting for a discussion on question paper leaks and the student protests in Delhi's Jantar Mantar",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/monsoon-session-parliament-monday-july-20-live-updates-lok-sabha-rajya-sabha-cjp-protest/article71243745.ece",
-      "publishedAt": 1784532918000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "8ef0243a13ff642d",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.971,
-      "breakingReasons": [
-        "multi_source_velocity"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784531650000
-    },
-    {
-      "title": "Vilathikulam DMK MLA arrested for remarks against T.N. CM Vijay",
-      "summary": "In a post on X, the DMK’s deputy general secretary Kanimozhi Karunanidhi strongly condemned the TVK government’s action on the MLA and termed it “high-handed”",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/vilathikulam-dmk-mla-arrested-for-remarks-against-tn-cm-vijay/article71243773.ece",
-      "publishedAt": 1784533538000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "495ad97547195377",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 2.485,
+      "breakingScore": 3.859,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -142,22 +94,45 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784533538000
+      "firstSeen": 1784519850000
     },
     {
-      "title": "Chinese woman declared dead and nearly cremated in 1995 was saved by a funeral home worker's last-second discovery; today, she is an award-winning artist",
-      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132508415.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
+      "title": "Congress slams Centre over handling Wangchuk, exam issues; opposes Higher Education Bill",
+      "summary": "The Congress leader alleged that despite repeated question paper leaks, Mr. Pradhan continued in office and remained “unperturbed,” while the protesters were demanding his resignation",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/congress-slams-centre-over-handling-wangchuk-exam-issues-opposes-higher-education-bill/article71244202.ece",
+      "publishedAt": 1784543705000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "fd2ccf2f5a90511b",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.479,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784543705000
+    },
+    {
+      "title": "Indian-origin scientist Satchin Panda resigns from California's Salk institute amid sexual misconduct probe",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132512151.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />",
       "source": "Times of India",
       "sourceGroup": "times_of_india",
-      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/chinese-woman-declared-dead-and-nearly-cremated-in-1995-was-saved-by-a-funeral-home-workers-last-second-discovery-today-she-is-an-award-winning-artist/articleshow/132508415.cms",
-      "publishedAt": 1784532600000,
+      "url": "https://timesofindia.indiatimes.com/world/us/indian-origin-scientist-satchin-panda-resigns-from-californias-salk-institute-amid-sexual-misconduct-probe/articleshow/132512151.cms",
+      "publishedAt": 1784542236000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "e330d0f8d81fd309",
+      "id": "62000fc7100e08d3",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.463,
+      "breakingScore": 2.445,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -165,22 +140,45 @@
       "allSources": [
         "times_of_india"
       ],
-      "firstSeen": 1784532600000
+      "firstSeen": 1784542236000
     },
     {
-      "title": "Canada Defies UN Advice, Bans Visitors From Congo Amid Ebola Outbreak",
-      "summary": "The UN health agency said travel restrictions create stigma",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/canada-defies-un-advice-bans-visitors-from-congo-amid-ebola-outbreak-11794095#publisher=newsstand",
-      "publishedAt": 1784532532000,
+      "title": "Is Korean stock market turning into open casino? How retail leverage is fueling wild swings",
+      "summary": "Memory chip bellwethers SK Hynix and Samsung Electronics make up just over half of the benchmark Kospi. Much of the stock market’s previous rally was related to the sharp surge in the share prices of these two chipmakers. These two stocks have now crashed more than 30% each in just a month, leading to the sharp downtrend in the market.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/is-korean-stock-market-turning-into-open-casino-how-retail-leverage-is-fueling-wild-swings/articleshow/132512407.cms",
+      "publishedAt": 1784542148000,
       "category": "topStories",
       "region": "in",
       "language": "en",
-      "id": "e753bedadec95a32",
+      "id": "f6c1cb411440ff51",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 2.462,
+      "breakingScore": 2.443,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "economic_times"
+      ],
+      "firstSeen": 1784542148000
+    },
+    {
+      "title": "Drunk Man Strangles Wife To Death After Fight Over Dinner In Gurugram: Police",
+      "summary": "The woman was found dead on July 16 in the shanties near Badshahpur vegetable market. (Representational)",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/gurgaon-news/drunk-man-strangles-wife-to-death-after-fight-over-dinner-in-gurugram-police-11795567#publisher=newsstand",
+      "publishedAt": 1784541363000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "690799353a4cbe68",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.425,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -188,7 +186,7 @@
       "allSources": [
         "ndtv"
       ],
-      "firstSeen": 1784532532000
+      "firstSeen": 1784541363000
     }
   ]
 }
