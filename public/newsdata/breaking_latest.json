@@ -1,34 +1,8 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784583662917,
-  "contentHash": "2929c9545fb0",
+  "fetchedAt": 1784587139067,
+  "contentHash": "25d5dde1800d",
   "breaking": [
-    {
-      "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for death of soldiers",
-      "summary": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784581771000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "64402e9729b7d3a2",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 6.956,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 3,
-      "allSources": [
-        "bbc",
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784578517000
-    },
     {
       "title": "20 Killed, 100 Missing In Afghanistan Flooding",
       "summary": "Twenty bodies have been recovered so far, while over 80 were injured.",
@@ -42,7 +16,7 @@
       "id": "1b087ffa2c9d1944",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.263,
+      "breakingScore": 5.182,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -65,7 +39,7 @@
       "id": "c7c9a0ad0e86b492",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.221,
+      "breakingScore": 5.141,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -74,29 +48,6 @@
         "ndtv"
       ],
       "firstSeen": 1784571609000
-    },
-    {
-      "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
-      "summary": "Russian strikes on the Odesa region have killed 28 people in July alone, local authorities say.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784563838000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "255f40d04d59e960",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.041,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1784563838000
     },
     {
       "title": "Netanyahu Won't Be Arrested In Any Shape Or Form: Trump After Mamdani Threat",
@@ -111,7 +62,7 @@
       "id": "2c5b292836483f5d",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.262,
+      "breakingScore": 4.181,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -136,7 +87,7 @@
       "id": "e5c7805814e4a4ee",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.951,
+      "breakingScore": 3.871,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -159,7 +110,7 @@
       "id": "843df7342d67c109",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.889,
+      "breakingScore": 3.809,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -182,7 +133,7 @@
       "id": "5ea400a98fdc803b",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.662,
+      "breakingScore": 3.582,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -191,6 +142,53 @@
         "the_hindu"
       ],
       "firstSeen": 1784569069000
+    },
+    {
+      "title": "Several hurt in crackdown on CJP Parliament march",
+      "summary": "Scores hospitalised with fractures, head and eye injuries; CJP leaders meet Nadda, demand Pradhan’s ouster; Wangchuk cites ‘brutality’, says will continue fast till MPs meet ‘youth leaders’ or him",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/government-cracks-down-on-cockroach-janta-party-protest-in-delhi-net-snapped/article71246087.ece",
+      "publishedAt": 1784577184000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "cc7fd8e3713161dc",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.77,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784573144000
+    },
+    {
+      "title": "BMC BJP corporator demands regular audit of the birth registration",
+      "summary": "Several corporators highlighted that the delay in birthday certificates is derailing study-abroad plans, visa applications for scores of residents, and document problems",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/cities/mumbai/bmc-bjp-corporator-demands-regular-audit-of-the-birth-registration/article71246434.ece",
+      "publishedAt": 1784585859000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "586e3e7e8306dab2",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.47,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784585859000
     }
   ]
 }
