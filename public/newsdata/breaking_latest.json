@@ -1,31 +1,8 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784504365565,
-  "contentHash": "2371e4a63545",
+  "fetchedAt": 1784510003217,
+  "contentHash": "4aa8e3bada18",
   "breaking": [
-    {
-      "title": "Russia launches major ballistic missile attack on Ukrainian cities",
-      "summary": "Eight people die and dozens are injured as several cities are hit by missile and drone attacks, while Kyiv continues its own assault on Russian infrastructure.",
-      "source": "BBC World",
-      "sourceGroup": "bbc",
-      "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": 1784485540000,
-      "category": "world",
-      "region": "in",
-      "language": "en",
-      "id": "d59cb8f5e7f843a3",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 6.564,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "bbc"
-      ],
-      "firstSeen": 1784485540000
-    },
     {
       "title": "West Asia war LIVE: Iranian missile hits Jordan's Aqaba Airport, reports Iran state media",
       "summary": "The Israeli military said it had identified and intercepted missiles launched from Iran towards Aqaba in Jordan",
@@ -39,7 +16,7 @@
       "id": "fdf4b9661bd5bf56",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.783,
+      "breakingScore": 5.652,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -64,7 +41,7 @@
       "id": "6f9ed026414bb927",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.175,
+      "breakingScore": 5.044,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -87,7 +64,7 @@
       "id": "d6ba95430f7f64fa",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.131,
+      "breakingScore": 5.0,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -98,88 +75,65 @@
       "firstSeen": 1784488407000
     },
     {
-      "title": "Petrol attack at Vembayam bar leaves four with burn injuries",
-      "summary": "The injured have been admitted to the Government Medical College Hospital here",
-      "source": "The Hindu National",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/kerala/petrol-attack-at-vembayam-bar-leaves-four-with-burn-injuries/article71242572.ece",
-      "publishedAt": 1784487778000,
+      "title": "Alphabet, Intel in focus as US earnings season gathers steam",
+      "summary": "Corporate earnings season is gathering steam with key updates expected soon.  Alphabet and Intel reports will influence the market-leading artificial intelligence trade.  High profit expectations and Iran war uncertainty are currently impacting investor sentiment.  The S&amp;P 500 saw a weekly decline, driven by semiconductor share pullbacks.  However, the benchmark index remains significantly up for the year.",
+      "source": "Economic Times",
+      "sourceGroup": "economic_times",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/alphabet-intel-in-focus-as-us-earnings-rev-up/articleshow/132503648.cms",
+      "publishedAt": 1784505517000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "5f25d92111d5af0e",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.396,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "economic_times"
+      ],
+      "firstSeen": 1784505517000
+    },
+    {
+      "title": "Larry Ellison once struggled to pay his electricity bills. Now, he has written a $300 million cheque to...",
+      "summary": "<img align=\"left\" border=\"0\" hspace=\"10\" src=\"https://timesofindia.indiatimes.com/photo/132500377.cms\" style=\"margin-top: 3px; margin-right: 5px;\" />Once grappling with utility bills for his workshop, tech magnate Larry Ellison transformed his fortunes by acquiring 98 percent of a Hawaiian island for a staggering $300 million. Now residing full-time on Lanai, he envisions a luxury destination coupled with a sustainable community. Despite fluctuations in his wealth driven by market trends, Oracle's cloud operations showcase remarkable strength amid ongoing challenges.",
+      "source": "Times of India",
+      "sourceGroup": "times_of_india",
+      "url": "https://timesofindia.indiatimes.com/world/us/billionaire-larry-ellison-once-struggled-to-pay-his-electricity-bills-to-keep-his-computer-running-now-the-oracle-co-founder-has-written-a-300-million-cheque-to-buy-a-hawaiian-island-three-times-the-size-of-san-francisco/articleshow/132500377.cms",
+      "publishedAt": 1784489496000,
       "category": "india",
       "region": "in",
       "language": "en",
-      "id": "d8d245a3d5f8f616",
+      "id": "a0d86f4d571571e6",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.616,
+      "breakingScore": 2.025,
       "breakingReasons": [
         "severity_lexicon"
       ],
       "sourceCount": 1,
       "allSources": [
-        "the_hindu"
+        "times_of_india"
       ],
-      "firstSeen": 1784487778000
+      "firstSeen": 1784486046000
     },
     {
-      "title": "Sirens, Strikes, Shattered Deal: Middle East On Edge As US, Iran Trade Blows",
-      "summary": "Behind this latest flare-up lies a collapsed peace effort.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-khamenei-trump-strait-of-hormuz-us-military-sirens-strikes-shattered-deal-middle-east-on-edge-as-us-iran-trade-blows-11792544#publisher=newsstand",
-      "publishedAt": 1784485692000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "c1c9df1a2f0bbfb1",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.568,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784485692000
-    },
-    {
-      "title": "US-Iran War News LIVE: India Issues Travel Advisory As US Strikes Iran For 8th Straight Day",
-      "summary": "US-Iran War News LIVE: The US-Iran tensions have escalated in recent days",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-news-live-donald-trump-strait-of-hormuz-mojtaba-khamenei-israel-netanyahu-middle-east-conflict-11783939#publisher=newsstand",
-      "publishedAt": 1784485111000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "68e3615a5bce8f2e",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 3.554,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784485111000
-    },
-    {
-      "title": "At least 50 Malian soldiers killed in rebel-jihadist attack",
-      "summary": "The attack on the Army convoy leaving Anefis occurred on July 18, following weeks of fighting with both sides attempting to take control",
-      "source": "The Hindu International",
+      "title": "Bihar CM opens ₹130.88-cr. link to divert floodwaters, enhance farm productivity",
+      "summary": "The link, part of a river interlinking project, will reduce intensity of floods in northern Bihar, says Choudhary; he also inaugurates 551 schools, lists measures to improve education infrastructure",
+      "source": "The Hindu National",
       "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/international/several-malian-soldiers-killed-in-rebel-jihadist-attack/article71242501.ece",
-      "publishedAt": 1784482883000,
-      "category": "world",
+      "url": "https://www.thehindu.com/news/national/bihar/bihar-cm-opens-13088-cr-link-to-divert-floodwaters-enhance-farm-productivity/article71241474.ece",
+      "publishedAt": 1784488435000,
+      "category": "india",
       "region": "in",
       "language": "en",
-      "id": "45a51d6d472fc201",
+      "id": "1d5e1b4f771dfb8c",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.503,
+      "breakingScore": 2.001,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -187,7 +141,7 @@
       "allSources": [
         "the_hindu"
       ],
-      "firstSeen": 1784482883000
+      "firstSeen": 1784488435000
     }
   ]
 }
