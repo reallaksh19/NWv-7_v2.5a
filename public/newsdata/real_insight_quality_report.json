@@ -1,18 +1,18 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1784553835023,
-  "contentHash": "a34b22069e8adf84",
+  "generatedAt": 1784561224699,
+  "contentHash": "df419bca05a56cd5",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 526,
-  "sourceGroupCount": 9,
+  "storyCount": 589,
+  "sourceGroupCount": 10,
   "grade": "D",
   "parentCount": 10,
-  "avgAngles": 1.3,
-  "avgTemporalTiers": 1.6,
-  "avgEvolutionRoles": 1.5,
-  "baseReportShare": 0.1111111111111111,
+  "avgAngles": 1.2,
+  "avgTemporalTiers": 1.5,
+  "avgEvolutionRoles": 1.3,
+  "baseReportShare": 0.0625,
   "multiAngleCount": 2,
   "weakParentCount": 8,
   "runtimeQualityGate": {
@@ -23,52 +23,54 @@
       "grade": "D",
       "tone": "danger",
       "title": "Weak insight signal",
-      "signalScore": 29,
+      "signalScore": 25,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 476,
+      "storyCount": 526,
       "risingCount": 1,
       "thinCount": 8,
       "multiAngleCount": 2,
       "lowAngleCount": 8,
-      "strongAngleCount": 1,
-      "avgAngles": 1.3,
-      "avgChildren": 1.8,
-      "avgScore": 0.6868111891608004,
-      "sourceDiversityCoverage": 6,
-      "snapshotCoverage": 2,
+      "strongAngleCount": 0,
+      "avgAngles": 1.2,
+      "avgChildren": 1.6,
+      "avgScore": 0.6939859243273732,
+      "sourceDiversityCoverage": 5,
+      "snapshotCoverage": 1,
       "coverageLabel": "2/10",
       "warnings": [
         "8 cluster(s) have fewer than two visible child angles.",
-        "4 cluster(s) are below source-diversity target.",
-        "8 cluster(s) have weak snapshot coverage.",
+        "No cluster currently exposes three or more visible child angles.",
+        "5 cluster(s) are below source-diversity target.",
+        "9 cluster(s) have weak snapshot coverage.",
         "8 cluster(s) are marked thin.",
-        "500 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "630 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "D",
       "tone": "danger",
       "title": "Weak insight signal",
-      "signalScore": 29,
+      "signalScore": 25,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 476,
+      "storyCount": 526,
       "risingCount": 1,
       "thinCount": 8,
       "multiAngleCount": 2,
       "lowAngleCount": 8,
-      "strongAngleCount": 1,
-      "avgAngles": 1.3,
-      "avgChildren": 1.8,
-      "avgScore": 0.6868111891608004,
-      "sourceDiversityCoverage": 6,
-      "snapshotCoverage": 2,
+      "strongAngleCount": 0,
+      "avgAngles": 1.2,
+      "avgChildren": 1.6,
+      "avgScore": 0.6939859243273732,
+      "sourceDiversityCoverage": 5,
+      "snapshotCoverage": 1,
       "coverageLabel": "2/10",
       "warnings": [
         "8 cluster(s) have fewer than two visible child angles.",
-        "4 cluster(s) are below source-diversity target.",
-        "8 cluster(s) have weak snapshot coverage.",
+        "No cluster currently exposes three or more visible child angles.",
+        "5 cluster(s) are below source-diversity target.",
+        "9 cluster(s) have weak snapshot coverage.",
         "8 cluster(s) are marked thin."
       ]
     },
@@ -83,30 +85,28 @@
   },
   "parents": [
     {
-      "parentId": "cluster_392_76627092be3888f3",
+      "parentId": "cluster_445_76627092be3888f3",
       "headline": "Sonam Wangchuk’s wife moves Delhi HC, seeks his transfer to private hospital",
-      "score": 0.7174037530064112,
-      "postTreeScore": 1.3274,
-      "childCount": 4,
+      "score": 0.6959699431938229,
+      "postTreeScore": 1.116,
+      "childCount": 3,
       "angles": [
-        "base_report",
         "official_response",
         "investigative_detail"
       ],
       "temporalTiers": [
         "breaking",
-        "reaction"
+        "developing"
       ],
       "evolutionRoles": [
-        "first_report",
         "official_response",
         "legal_or_regulatory"
       ],
-      "baseReportShare": 0.25,
+      "baseReportShare": 0,
       "weakTree": false
     },
     {
-      "parentId": "cluster_12_dc455a7b60cfe897",
+      "parentId": "cluster_60_dc455a7b60cfe897",
       "headline": "Samsung's 'Back to School' Sale Brings Discounts on Galaxy S26 Series, Galaxy Book 6 Pro, Galaxy Tab S11 Ultra and More",
       "score": 0.5580933333333333,
       "postTreeScore": 0.9581,
@@ -127,10 +127,10 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_27_9c11cfb600470ccb",
+      "parentId": "cluster_78_9c11cfb600470ccb",
       "headline": "Meghna Infracon Infrastructure expects Rs 300cr revenue from new commercial project",
-      "score": 0.7086266666666667,
-      "postTreeScore": 0.6186,
+      "score": 0.760613386451665,
+      "postTreeScore": 0.6506,
       "childCount": 2,
       "angles": [
         "fact_update"
@@ -146,27 +146,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_208_5f7d36e1c4905315",
-      "headline": "US launches ninth consecutive day of strikes on Iran as another American confirmed killed",
-      "score": 0.6814967197849984,
-      "postTreeScore": 0.5715,
-      "childCount": 2,
-      "angles": [
-        "official_response"
-      ],
-      "temporalTiers": [
-        "breaking",
-        "analysis"
-      ],
-      "evolutionRoles": [
-        "first_report",
-        "official_response"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
-    },
-    {
-      "parentId": "cluster_316_3ed883c752d20d1e",
+      "parentId": "cluster_369_3ed883c752d20d1e",
       "headline": "IMA suspends July 20 strike after Bombay HC stays Shiv Sena corporator's bail",
       "score": 0.6724967197849983,
       "postTreeScore": 0.5625,
@@ -185,7 +165,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_115_3ddc32a97ca5c0b8",
+      "parentId": "cluster_167_3ddc32a97ca5c0b8",
       "headline": "India's 'Cockroach' movement supporters clash with Delhi police - 朝日新聞",
       "score": 0.6392300531183316,
       "postTreeScore": 0.5292,
@@ -205,7 +185,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_75_e139990f1c2635bb",
+      "parentId": "cluster_127_e139990f1c2635bb",
       "headline": "Som Distilleries shares jump 14% as ace investor Prashant Jain buys 25 lakh shares in Q1. What is he seeing?",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -223,7 +203,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_96_7b593abf31a84bd3",
+      "parentId": "cluster_148_7b593abf31a84bd3",
       "headline": "UltraTech Cement Q1 Results: Cons profit jumps 17% YoY to Rs 2,599 crore; revenue rises 16%",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -241,7 +221,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_132_928cb7e52f35baca",
+      "parentId": "cluster_184_928cb7e52f35baca",
       "headline": "History test! What last 12 billion-dollar IPO listing gains indicate about SBI MF's Rs 9,813 crore debut",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -259,13 +239,31 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_161_75b3f978140e641c",
+      "parentId": "cluster_213_75b3f978140e641c",
       "headline": "PC Jeweller shares jump 6%: What’s driving the rally after 220% gains in 3 years?",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
       "childCount": 1,
       "angles": [
         "market_reaction"
+      ],
+      "temporalTiers": [
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "fact_update"
+      ],
+      "baseReportShare": 0,
+      "weakTree": true
+    },
+    {
+      "parentId": "cluster_214_c7a2ae026ca0a0de",
+      "headline": "Oberoi Realty Q1 Results: Profit rises 29% to ₹544.71 crore",
+      "score": 0.7226911614783158,
+      "postTreeScore": 0.4227,
+      "childCount": 1,
+      "angles": [
+        "fact_update"
       ],
       "temporalTiers": [
         "breaking"
@@ -296,7 +294,7 @@
       {
         "id": "base-report-share",
         "label": "Base report share",
-        "actual": 0.111,
+        "actual": 0.063,
         "required": "<= 0.55"
       },
       {
@@ -308,13 +306,13 @@
       {
         "id": "top-parent-angle-count",
         "label": "Top parent angle count",
-        "actual": 3,
+        "actual": 2,
         "required": ">= 2"
       },
       {
         "id": "top-parent-child-depth",
         "label": "Top parent child depth",
-        "actual": 4,
+        "actual": 3,
         "required": ">= 2"
       }
     ],
@@ -330,7 +328,7 @@
       {
         "id": "avg-angle-count",
         "label": "Average visible angle count",
-        "actual": 1.3,
+        "actual": 1.2,
         "required": ">= 1.4",
         "severity": "fail",
         "fix": "Angle-diverse child selection is not strong enough on real data."
@@ -338,7 +336,7 @@
       {
         "id": "avg-temporal-tier-count",
         "label": "Average temporal tier count",
-        "actual": 1.6,
+        "actual": 1.5,
         "required": ">= 1.8",
         "severity": "fail",
         "fix": "C+E output should cover multiple event-time tiers, not only source buckets."
@@ -346,7 +344,7 @@
       {
         "id": "avg-evolution-role-count",
         "label": "Average evolution role count",
-        "actual": 1.5,
+        "actual": 1.3,
         "required": ">= 1.6",
         "severity": "fail",
         "fix": "C+E output should include distinct event evolution roles."
@@ -362,17 +360,17 @@
     ],
     "summary": {
       "parentCount": 10,
-      "avgAngles": 1.3,
-      "avgTemporalTiers": 1.6,
-      "avgEvolutionRoles": 1.5,
-      "baseReportShare": 0.111,
+      "avgAngles": 1.2,
+      "avgTemporalTiers": 1.5,
+      "avgEvolutionRoles": 1.3,
+      "baseReportShare": 0.063,
       "multiAngleCount": 2,
       "weakParentCount": 8,
       "weakParentRatio": 0.8,
-      "topParentAngles": 3,
-      "topParentChildren": 4,
-      "storyCount": 526,
-      "sourceGroupCount": 9
+      "topParentAngles": 2,
+      "topParentChildren": 3,
+      "storyCount": 589,
+      "sourceGroupCount": 10
     }
   }
 }

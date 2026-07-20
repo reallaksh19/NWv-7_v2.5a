@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": 1784553836427,
+  "generatedAt": 1784561226191,
   "windowDays": 7,
   "latest": {
     "insightGrade": "D",
     "insightScore": 0,
-    "totalStories": 526,
-    "usableStories36h": 512,
-    "sourceGroups": 9,
+    "totalStories": 589,
+    "usableStories36h": 559,
+    "sourceGroups": 10,
     "angleHintCoverage": 1,
     "sectionsTotalStories": 0,
     "sectionsCount": 10,
@@ -19,12 +19,12 @@
     "overallScore": 0.3103,
     "overallGrade": "F",
     "rankingVersion": "tab-specific-quality-ranking-v1",
-    "generatedAt": 1784553835726,
+    "generatedAt": 1784561225420,
     "destinationScores": {
       "buzz": 0,
-      "insight": 0.3916,
+      "insight": 0.3814,
       "localTravel": 0,
-      "upAhead": 0.8496
+      "upAhead": 0.8596
     },
     "destinationStatuses": {
       "buzz": "FAIL",
@@ -48,7 +48,7 @@
       {
         "destination": "insight",
         "status": "WARN",
-        "score": 0.3916,
+        "score": 0.3814,
         "profile": "insight-v2-event-angle-tree"
       },
       {
@@ -60,7 +60,7 @@
       {
         "destination": "upAhead",
         "status": "WARN",
-        "score": 0.8496,
+        "score": 0.8596,
         "profile": "upAhead-v2-lifecycle-location-category"
       }
     ],
@@ -92,15 +92,14 @@
       },
       "upAhead": {
         "rankedItemCount": 30,
-        "suppressedItemCount": 7,
+        "suppressedItemCount": 9,
         "events": 0,
         "onlineOffers": 0,
-        "offlineOffers": 1,
-        "alerts": 29,
+        "offlineOffers": 0,
+        "alerts": 30,
         "festivals": 0,
         "locationsCovered": [
           "chennai",
-          "muscat",
           "trichy"
         ]
       }
@@ -108,19 +107,22 @@
     "topFindings": [
       "Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
       "Amazon (NASDAQ: AMZN) $25 Billion Bond Sale Signals Three Compelling Reasons To Buy The Stock - foreignpolicyjournal.com: location failed — offline/local item lacks configured location match",
-      "Vijay congratulates National Film Award winners from Tamil movie industry: futureValidity failed — expired display window",
-      "Vijay congratulates National Film Award winners from Tamil movie industry: alertUrgency failed — alert expired",
+      "Keeladi, a treasure to be preserved and promoted, says Tamil Development Minister: futureValidity failed — expired display window",
+      "Keeladi, a treasure to be preserved and promoted, says Tamil Development Minister: alertUrgency failed — alert expired",
+      "Aadi Natya Festival inaugurated: futureValidity failed — expired display window",
+      "Aadi Natya Festival inaugurated: alertUrgency failed — alert expired",
+      "24-hour water supply scheme to be commissioned in some areas of Tiruchi before July 31: futureValidity failed — expired display window",
+      "24-hour water supply scheme to be commissioned in some areas of Tiruchi before July 31: alertUrgency failed — alert expired",
+      "Thirumudivakkam police shoot history-sheeter and apprehend him: futureValidity failed — expired display window",
+      "Thirumudivakkam police shoot history-sheeter and apprehend him: alertUrgency failed — alert expired",
       "Back-to-school shopping just got more affordable— Target is offering up to 76% off right now - NBC News: location failed — offline/local item lacks configured location match",
-      "Ready for a patio refresh? Wayfair is offering up to 71% off outdoor furniture this weekend — here’s what to shop - NBC News: location failed — offline/local item lacks configured location match",
-      "Call for action against private mini bus operators for collecting excess fares from the public: futureValidity failed — expired display window",
-      "Call for action against private mini bus operators for collecting excess fares from the public: alertUrgency failed — alert expired",
-      "Amazon’s $25 Billion Bond Sale Created 3 More Reasons for Me to Keep Buying - 24/7 Wall St.: location failed — offline/local item lacks configured location match",
-      "upAhead: Prime Day Is Over, But 62 of Our Favorite Deals Are Still Available - WIRED: location failed — offline/local item lacks configured location match",
-      "upAhead: Amazon (NASDAQ: AMZN) $25 Billion Bond Sale Signals Three Compelling Reasons To Buy The Stock - foreignpolicyjournal.com: location failed — offline/local item lacks configured location match",
-      "upAhead: Vijay congratulates National Film Award winners from Tamil movie industry: futureValidity failed — expired display window"
+      "Ready for a patio refresh? Wayfair is offering up to 71% off outdoor furniture this weekend — here’s what to shop - NBC News: location failed — offline/local item lacks configured location match"
     ],
     "actionRequired": [
-      "7 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "9 invalid/expired/duplicate Up Ahead item(s) suppressed",
+      "no active offer items in ranked Up Ahead set",
+      "no ranked Up Ahead item for muscat",
+      "ranked Up Ahead set is category-dominated",
       "no local Buzz item in ranked set",
       "no travel Buzz item in ranked set",
       "no active local/travel disruption item",
@@ -128,10 +130,7 @@
       "no ranked local/travel item for muscat",
       "no ranked local/travel item for chennai",
       "no ranked local/travel item for trichy",
-      "3 base-report-heavy Insight parent(s) demoted",
-      "buzz: no local Buzz item in ranked set",
-      "buzz: no travel Buzz item in ranked set",
-      "insight: 3 base-report-heavy Insight parent(s) demoted"
+      "3 base-report-heavy Insight parent(s) demoted"
     ]
   },
   "sourceHealth": {
@@ -257,12 +256,12 @@
     },
     {
       "date": "2026-07-20",
-      "generatedAt": 1784553836427,
+      "generatedAt": 1784561226191,
       "insightGrade": "D",
       "insightScore": 0,
-      "totalStories": 526,
-      "usableStories36h": 512,
-      "sourceGroups": 9,
+      "totalStories": 589,
+      "usableStories36h": 559,
+      "sourceGroups": 10,
       "angleHintCoverage": 1,
       "sectionsTotalStories": 0,
       "sectionsCount": 10,
