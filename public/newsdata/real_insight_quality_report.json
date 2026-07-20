@@ -1,12 +1,12 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1784561224699,
-  "contentHash": "df419bca05a56cd5",
+  "generatedAt": 1784564696207,
+  "contentHash": "59b56f678897908e",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 589,
-  "sourceGroupCount": 10,
+  "storyCount": 547,
+  "sourceGroupCount": 9,
   "grade": "D",
   "parentCount": 10,
   "avgAngles": 1.2,
@@ -26,7 +26,7 @@
       "signalScore": 25,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 526,
+      "storyCount": 504,
       "risingCount": 1,
       "thinCount": 8,
       "multiAngleCount": 2,
@@ -44,7 +44,7 @@
         "5 cluster(s) are below source-diversity target.",
         "9 cluster(s) have weak snapshot coverage.",
         "8 cluster(s) are marked thin.",
-        "630 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "430 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
@@ -54,7 +54,7 @@
       "signalScore": 25,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 526,
+      "storyCount": 504,
       "risingCount": 1,
       "thinCount": 8,
       "multiAngleCount": 2,
@@ -85,7 +85,7 @@
   },
   "parents": [
     {
-      "parentId": "cluster_445_76627092be3888f3",
+      "parentId": "cluster_447_76627092be3888f3",
       "headline": "Sonam Wangchuk’s wife moves Delhi HC, seeks his transfer to private hospital",
       "score": 0.6959699431938229,
       "postTreeScore": 1.116,
@@ -146,7 +146,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_369_3ed883c752d20d1e",
+      "parentId": "cluster_370_3ed883c752d20d1e",
       "headline": "IMA suspends July 20 strike after Bombay HC stays Shiv Sena corporator's bail",
       "score": 0.6724967197849983,
       "postTreeScore": 0.5625,
@@ -165,7 +165,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_167_3ddc32a97ca5c0b8",
+      "parentId": "cluster_168_3ddc32a97ca5c0b8",
       "headline": "India's 'Cockroach' movement supporters clash with Delhi police - 朝日新聞",
       "score": 0.6392300531183316,
       "postTreeScore": 0.5292,
@@ -185,7 +185,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_127_e139990f1c2635bb",
+      "parentId": "cluster_128_e139990f1c2635bb",
       "headline": "Som Distilleries shares jump 14% as ace investor Prashant Jain buys 25 lakh shares in Q1. What is he seeing?",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -203,7 +203,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_148_7b593abf31a84bd3",
+      "parentId": "cluster_149_7b593abf31a84bd3",
       "headline": "UltraTech Cement Q1 Results: Cons profit jumps 17% YoY to Rs 2,599 crore; revenue rises 16%",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -221,7 +221,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_184_928cb7e52f35baca",
+      "parentId": "cluster_185_928cb7e52f35baca",
       "headline": "History test! What last 12 billion-dollar IPO listing gains indicate about SBI MF's Rs 9,813 crore debut",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -239,7 +239,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_213_75b3f978140e641c",
+      "parentId": "cluster_214_75b3f978140e641c",
       "headline": "PC Jeweller shares jump 6%: What’s driving the rally after 220% gains in 3 years?",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -257,7 +257,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_214_c7a2ae026ca0a0de",
+      "parentId": "cluster_215_c7a2ae026ca0a0de",
       "headline": "Oberoi Realty Q1 Results: Profit rises 29% to ₹544.71 crore",
       "score": 0.7226911614783158,
       "postTreeScore": 0.4227,
@@ -369,8 +369,8 @@
       "weakParentRatio": 0.8,
       "topParentAngles": 2,
       "topParentChildren": 3,
-      "storyCount": 589,
-      "sourceGroupCount": 10
+      "storyCount": 547,
+      "sourceGroupCount": 9
     }
   }
 }
