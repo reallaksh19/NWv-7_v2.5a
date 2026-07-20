@@ -1,35 +1,44 @@
 {
-  "contentHash": "dc0b19cc0059",
+  "contentHash": "d9474c67b604",
   "errors": [],
-  "fetchedAt": 1784564551694,
-  "generatedAt": 1784564640477,
+  "fetchedAt": 1784573476618,
+  "generatedAt": 1784573487243,
   "schemaVersion": 2,
   "sectionCount": 10,
   "sectionHealth": {
     "business": {
-      "qualitySourceGroupCount": 2,
+      "qualitySourceGroupCount": 3,
       "qualityStoryCount": 30,
-      "sourceGroupCount": 2,
+      "sourceGroupCount": 3,
       "storyCount": 30,
       "thin": false,
       "topSources": [
         {
-          "count": 20,
+          "count": 17,
           "sourceGroup": "business_line"
         },
         {
-          "count": 10,
+          "count": 9,
           "sourceGroup": "economic_times"
+        },
+        {
+          "count": 4,
+          "sourceGroup": "google_news"
         }
       ]
     },
     "entertainment": {
-      "qualitySourceGroupCount": 0,
-      "qualityStoryCount": 0,
-      "sourceGroupCount": 0,
-      "storyCount": 0,
+      "qualitySourceGroupCount": 1,
+      "qualityStoryCount": 16,
+      "sourceGroupCount": 1,
+      "storyCount": 16,
       "thin": true,
-      "topSources": []
+      "topSources": [
+        {
+          "count": 16,
+          "sourceGroup": "google_news"
+        }
+      ]
     },
     "india": {
       "qualitySourceGroupCount": 3,
@@ -43,29 +52,54 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 5,
-          "sourceGroup": "times_of_india"
+          "count": 7,
+          "sourceGroup": "ndtv"
         },
         {
-          "count": 5,
-          "sourceGroup": "ndtv"
+          "count": 3,
+          "sourceGroup": "times_of_india"
         }
       ]
     },
     "muscat": {
-      "qualitySourceGroupCount": 1,
-      "qualityStoryCount": 20,
-      "sourceGroupCount": 1,
-      "storyCount": 20,
-      "thin": true,
+      "qualitySourceGroupCount": 2,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
       "topSources": [
         {
           "count": 20,
           "sourceGroup": "times_of_oman"
+        },
+        {
+          "count": 10,
+          "sourceGroup": "google_news_oman"
         }
       ]
     },
     "sports": {
+      "qualitySourceGroupCount": 3,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 3,
+      "storyCount": 30,
+      "thin": false,
+      "topSources": [
+        {
+          "count": 14,
+          "sourceGroup": "bbc"
+        },
+        {
+          "count": 11,
+          "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 5,
+          "sourceGroup": "google_news"
+        }
+      ]
+    },
+    "technology": {
       "qualitySourceGroupCount": 2,
       "qualityStoryCount": 30,
       "sourceGroupCount": 2,
@@ -74,41 +108,28 @@
       "topSources": [
         {
           "count": 16,
-          "sourceGroup": "bbc"
-        },
-        {
-          "count": 14,
-          "sourceGroup": "the_hindu"
-        }
-      ]
-    },
-    "technology": {
-      "qualitySourceGroupCount": 2,
-      "qualityStoryCount": 26,
-      "sourceGroupCount": 2,
-      "storyCount": 26,
-      "thin": false,
-      "topSources": [
-        {
-          "count": 20,
           "sourceGroup": "gadgets360"
         },
         {
-          "count": 6,
-          "sourceGroup": "the_hindu"
+          "count": 14,
+          "sourceGroup": "google_news"
         }
       ]
     },
     "tn": {
-      "qualitySourceGroupCount": 1,
-      "qualityStoryCount": 20,
-      "sourceGroupCount": 1,
-      "storyCount": 20,
-      "thin": true,
+      "qualitySourceGroupCount": 2,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
       "topSources": [
         {
           "count": 20,
           "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 10,
+          "sourceGroup": "google_news"
         }
       ]
     },
@@ -124,25 +145,29 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 5,
-          "sourceGroup": "economic_times"
+          "count": 8,
+          "sourceGroup": "ndtv"
         },
         {
-          "count": 5,
-          "sourceGroup": "ndtv"
+          "count": 2,
+          "sourceGroup": "economic_times"
         }
       ]
     },
     "trichy": {
-      "qualitySourceGroupCount": 1,
-      "qualityStoryCount": 19,
-      "sourceGroupCount": 1,
-      "storyCount": 19,
-      "thin": true,
+      "qualitySourceGroupCount": 2,
+      "qualityStoryCount": 30,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
       "topSources": [
         {
-          "count": 19,
+          "count": 18,
           "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 12,
+          "sourceGroup": "google_news"
         }
       ]
     },
@@ -154,19 +179,19 @@
       "thin": false,
       "topSources": [
         {
-          "count": 20,
+          "count": 19,
           "sourceGroup": "bbc"
         },
         {
-          "count": 10,
+          "count": 11,
           "sourceGroup": "the_hindu"
         }
       ]
     }
   },
-  "sourceGroupCount": 8,
+  "sourceGroupCount": 10,
   "status": "WARN",
-  "storyCount": 235,
+  "storyCount": 286,
   "thresholds": {
     "expectedRetainHours": 36,
     "minSectionSourceGroups": 2,
@@ -186,13 +211,10 @@
     ]
   },
   "warnings": [
-    "Section tn has weak source diversity: 1 source group(s)",
-    "Section trichy has weak source diversity: 1 source group(s)",
-    "Section muscat has weak source diversity: 1 source group(s)",
-    "Section entertainment has zero stories"
+    "Section entertainment has weak source diversity: 1 source group(s)"
   ],
   "window": {
-    "cutoffAt": 1784434951694,
+    "cutoffAt": 1784443876618,
     "retainHours": 36
   }
 }

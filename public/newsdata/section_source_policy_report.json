@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1784564640400,
+  "generatedAt": 1784573487180,
   "policyVersion": "section-source-policy-v1",
   "reportVersion": "section-source-policy-report-v1",
   "schemaVersion": 1,
   "sectionQuality": {
     "business": {
-      "sourceGroupCount": 2,
+      "sourceGroupCount": 3,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -16,21 +16,35 @@
       ],
       "topSources": [
         {
-          "count": 20,
+          "count": 17,
           "sourceGroup": "business_line"
         },
         {
-          "count": 10,
+          "count": 9,
           "sourceGroup": "economic_times"
+        },
+        {
+          "count": 4,
+          "sourceGroup": "google_news"
         }
       ]
     },
     "entertainment": {
-      "sourceGroupCount": 0,
-      "storyCount": 0,
+      "sourceGroupCount": 1,
+      "storyCount": 16,
       "thin": true,
-      "topCategories": [],
-      "topSources": []
+      "topCategories": [
+        {
+          "category": "entertainment",
+          "count": 16
+        }
+      ],
+      "topSources": [
+        {
+          "count": 16,
+          "sourceGroup": "google_news"
+        }
+      ]
     },
     "india": {
       "sourceGroupCount": 3,
@@ -48,34 +62,38 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 5,
-          "sourceGroup": "times_of_india"
+          "count": 7,
+          "sourceGroup": "ndtv"
         },
         {
-          "count": 5,
-          "sourceGroup": "ndtv"
+          "count": 3,
+          "sourceGroup": "times_of_india"
         }
       ]
     },
     "muscat": {
-      "sourceGroupCount": 1,
-      "storyCount": 20,
-      "thin": true,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
       "topCategories": [
         {
           "category": "muscat",
-          "count": 20
+          "count": 30
         }
       ],
       "topSources": [
         {
           "count": 20,
           "sourceGroup": "times_of_oman"
+        },
+        {
+          "count": 10,
+          "sourceGroup": "google_news_oman"
         }
       ]
     },
     "sports": {
-      "sourceGroupCount": 2,
+      "sourceGroupCount": 3,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -86,50 +104,58 @@
       ],
       "topSources": [
         {
-          "count": 16,
+          "count": 14,
           "sourceGroup": "bbc"
         },
         {
-          "count": 14,
+          "count": 11,
           "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 5,
+          "sourceGroup": "google_news"
         }
       ]
     },
     "technology": {
       "sourceGroupCount": 2,
-      "storyCount": 26,
+      "storyCount": 30,
       "thin": false,
       "topCategories": [
         {
           "category": "technology",
-          "count": 26
+          "count": 30
         }
       ],
       "topSources": [
         {
-          "count": 20,
+          "count": 16,
           "sourceGroup": "gadgets360"
         },
         {
-          "count": 6,
-          "sourceGroup": "the_hindu"
+          "count": 14,
+          "sourceGroup": "google_news"
         }
       ]
     },
     "tn": {
-      "sourceGroupCount": 1,
-      "storyCount": 20,
-      "thin": true,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
       "topCategories": [
         {
           "category": "tn",
-          "count": 20
+          "count": 30
         }
       ],
       "topSources": [
         {
           "count": 20,
           "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 10,
+          "sourceGroup": "google_news"
         }
       ]
     },
@@ -149,29 +175,33 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 5,
-          "sourceGroup": "economic_times"
+          "count": 8,
+          "sourceGroup": "ndtv"
         },
         {
-          "count": 5,
-          "sourceGroup": "ndtv"
+          "count": 2,
+          "sourceGroup": "economic_times"
         }
       ]
     },
     "trichy": {
-      "sourceGroupCount": 1,
-      "storyCount": 19,
-      "thin": true,
+      "sourceGroupCount": 2,
+      "storyCount": 30,
+      "thin": false,
       "topCategories": [
         {
           "category": "trichy",
-          "count": 19
+          "count": 30
         }
       ],
       "topSources": [
         {
-          "count": 19,
+          "count": 18,
           "sourceGroup": "the_hindu"
+        },
+        {
+          "count": 12,
+          "sourceGroup": "google_news"
         }
       ]
     },
@@ -187,11 +217,11 @@
       ],
       "topSources": [
         {
-          "count": 20,
+          "count": 19,
           "sourceGroup": "bbc"
         },
         {
-          "count": 10,
+          "count": 11,
           "sourceGroup": "the_hindu"
         }
       ]
@@ -547,10 +577,9 @@
     {
       "configuredFeeds": 9,
       "health": {
-        "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=en-IN&gl=IN&ceid=IN:en",
         "feedUrl": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=en-IN&gl=IN&ceid=IN:en",
-        "items": 0,
-        "ok": false,
+        "items": 16,
+        "ok": true,
         "section": "entertainment"
       },
       "sections": [
@@ -582,10 +611,9 @@
     {
       "configuredFeeds": 1,
       "health": {
-        "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Trichy+Tamil+Nadu+today&hl=en-IN&gl=IN&ceid=IN:en",
         "feedUrl": "https://news.google.com/rss/search?q=Trichy+Tamil+Nadu+today&hl=en-IN&gl=IN&ceid=IN:en",
-        "items": 0,
-        "ok": false,
+        "items": 20,
+        "ok": true,
         "section": "trichy"
       },
       "sections": [
@@ -601,10 +629,9 @@
     {
       "configuredFeeds": 1,
       "health": {
-        "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Oman+news&hl=en-IN&gl=IN&ceid=IN:en",
         "feedUrl": "https://news.google.com/rss/search?q=Oman+news&hl=en-IN&gl=IN&ceid=IN:en",
-        "items": 0,
-        "ok": false,
+        "items": 20,
+        "ok": true,
         "section": "muscat"
       },
       "sections": [

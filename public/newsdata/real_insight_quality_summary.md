@@ -7,22 +7,22 @@
 - Average angles: `1.2`
 - Average temporal tiers: `1.5`
 - Average evolution roles: `1.3`
-- Base report share: `0.0625`
+- Base report share: `0.13333333333333333`
 - Multi-angle parents: `2`
 - Weak parents: `8`
-- Story count: `547`
+- Story count: `610`
 - Source groups: `9`
-- Content hash: `59b56f678897908e`
+- Content hash: `1315d457541102bf`
 
 ## Top parents
 
 | # | Headline | Children | Angles | Weak | Score |
 |---:|---|---:|---|---|---:|
-| 1 | Sonam Wangchuk’s wife moves Delhi HC, seeks his transfer to private hospital | 3 | official_response, investigative_detail | NO | 0.6959699431938229 |
+| 1 | Hamas names Khalil al-Hayya as new overall leader | 2 | base_report, fact_update | NO | 0.6112599999999999 |
 | 2 | Samsung's 'Back to School' Sale Brings Discounts on Galaxy S26 Series, Galaxy Book 6 Pro, Galaxy Tab S11 Ultra and More | 2 | base_report, fact_update | NO | 0.5580933333333333 |
 | 3 | Meghna Infracon Infrastructure expects Rs 300cr revenue from new commercial project | 2 | fact_update | YES | 0.760613386451665 |
 | 4 | IMA suspends July 20 strike after Bombay HC stays Shiv Sena corporator's bail | 2 | official_response | YES | 0.6724967197849983 |
-| 5 | India's 'Cockroach' movement supporters clash with Delhi police - 朝日新聞 | 2 | official_response | YES | 0.6392300531183316 |
+| 5 | India's 'Cockroach' movement supporters clash with Delhi police - 朝日新聞 | 2 | official_response | YES | 0.5712433333333332 |
 | 6 | Som Distilleries shares jump 14% as ace investor Prashant Jain buys 25 lakh shares in Q1. What is he seeing? | 1 | fact_update | YES | 0.7226911614783158 |
 | 7 | UltraTech Cement Q1 Results: Cons profit jumps 17% YoY to Rs 2,599 crore; revenue rises 16% | 1 | fact_update | YES | 0.7226911614783158 |
 | 8 | History test! What last 12 billion-dollar IPO listing gains indicate about SBI MF's Rs 9,813 crore debut | 1 | fact_update | YES | 0.7226911614783158 |
@@ -43,10 +43,10 @@
 - Average angles: `1.2`
 - Average temporal tiers: `1.5`
 - Average evolution roles: `1.3`
-- Base report share: `0.063`
+- Base report share: `0.133`
 - Multi-angle parents: `2`
 - Top parent angles: `2`
-- Top parent children: `3`
+- Top parent children: `2`
 
 ### Failed gates
 
@@ -59,7 +59,7 @@
 ### Passed gates
 
 - Parent cluster count: `10` / `>= 3`
-- Base report share: `0.063` / `<= 0.55`
+- Base report share: `0.133` / `<= 0.55`
 - Multi-angle parent count: `2` / `>= 1`
 - Top parent angle count: `2` / `>= 2`
-- Top parent child depth: `3` / `>= 2`
+- Top parent child depth: `2` / `>= 2`
