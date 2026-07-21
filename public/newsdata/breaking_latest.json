@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1784590790051,
-  "contentHash": "924c66f60189",
+  "fetchedAt": 1784596102428,
+  "contentHash": "157c4f47eadd",
   "breaking": [
     {
       "title": "Mediators propose 10-day truce to revive interim deal: Iran official",
@@ -16,7 +16,7 @@
       "id": "0640eead6c896f24",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 5.458,
+      "breakingScore": 5.335,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -27,90 +27,19 @@
       "firstSeen": 1784588990000
     },
     {
-      "title": "20 Killed, 100 Missing In Afghanistan Flooding",
-      "summary": "Twenty bodies have been recovered so far, while over 80 were injured.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/20-killed-100-missing-in-afghanistan-flooding-11798219#publisher=newsstand",
-      "publishedAt": 1784573403000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "1b087ffa2c9d1944",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.098,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784573403000
-    },
-    {
-      "title": "10 Dead, 3.62 Lakh Affected As Assam Flood Situation Worsen",
-      "summary": "With these latest casualties, the death count in this year's floods in Assam has risen to 10.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/india-news/10-dead-3-62-lakh-affected-as-assam-flood-situation-worsen-11798152#publisher=newsstand",
-      "publishedAt": 1784571609000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "c7c9a0ad0e86b492",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 5.056,
-      "breakingReasons": [
-        "severity_lexicon"
-      ],
-      "sourceCount": 1,
-      "allSources": [
-        "ndtv"
-      ],
-      "firstSeen": 1784571609000
-    },
-    {
-      "title": "CJP protest in Delhi LIVE: Dipke, protesters reclaim dismantled Jantar Mantar protest site, as CJP awaits Govt response to demands",
-      "summary": "Teargas and lathi-charges as CJP protesters storm into central Delhi; several injured, detained",
-      "source": "The Hindu",
-      "sourceGroup": "the_hindu",
-      "url": "https://www.thehindu.com/news/national/cjp-protest-july-20-2026-cockroach-janata-party-jantar-mantar-parliament-march-sonam-wangchuk/article71242448.ece",
-      "publishedAt": 1784587215000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "9f5e4c2aa837e7b9",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 4.417,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "the_hindu"
-      ],
-      "firstSeen": 1784585884000
-    },
-    {
       "title": "West Asia war LIVE: Trump says Iran 'will pay' for killing U.S. soldiers",
       "summary": "The Islamic Revolutionary Guard ​Corps said that ‌two oil tankers ​had exploded ⁠and been immobilised after attempting to transit what it ‌described as an unsafe southern route ‌through the Strait ‌of Hormuz",
       "source": "The Hindu",
       "sourceGroup": "the_hindu",
       "url": "https://www.thehindu.com/news/international/iran-israel-war-live-updates-july-20-2026-marco-rubio-strait-of-hormuz-us-donald-trump/article71243740.ece",
-      "publishedAt": 1784582558000,
+      "publishedAt": 1784592977000,
       "category": "topStories",
       "region": "in",
       "language": "en",
       "id": "c44f8164c5a2df65",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 4.309,
+      "breakingScore": 4.428,
       "breakingReasons": [
         "multi_source_velocity",
         "severity_lexicon"
@@ -120,32 +49,7 @@
         "bbc",
         "the_hindu"
       ],
-      "firstSeen": 1784581771000
-    },
-    {
-      "title": "Netanyahu Won't Be Arrested In Any Shape Or Form: Trump After Mamdani Threat",
-      "summary": "The New York City mayor said that the legal department is actively considering what the law might allow.",
-      "source": "NDTV",
-      "sourceGroup": "ndtv",
-      "url": "https://www.ndtv.com/world-news/netanyahu-wont-be-arrested-in-any-shape-or-form-trump-after-mamdani-threat-11798218#publisher=newsstand",
-      "publishedAt": 1784573370000,
-      "category": "topStories",
-      "region": "in",
-      "language": "en",
-      "id": "2c5b292836483f5d",
-      "suppressionReason": null,
-      "isBreaking": true,
-      "breakingScore": 4.097,
-      "breakingReasons": [
-        "multi_source_velocity",
-        "severity_lexicon"
-      ],
-      "sourceCount": 2,
-      "allSources": [
-        "ndtv",
-        "times_of_india"
-      ],
-      "firstSeen": 1784569259000
+      "firstSeen": 1784592867000
     },
     {
       "title": "Six killed in floods, landslips in Northeast",
@@ -160,7 +64,7 @@
       "id": "bbb51127f13e5cc8",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.921,
+      "breakingScore": 3.798,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -183,7 +87,7 @@
       "id": "e5c7805814e4a4ee",
       "suppressionReason": null,
       "isBreaking": true,
-      "breakingScore": 3.786,
+      "breakingScore": 3.663,
       "breakingReasons": [
         "severity_lexicon"
       ],
@@ -192,6 +96,100 @@
         "ndtv"
       ],
       "firstSeen": 1784568112000
+    },
+    {
+      "title": "7 killed in landslide in Jammu and Kashmir as rain toll hits 21",
+      "summary": "The J&amp;K Police actively participated in the rescue operation at Domail Dhok after a tragic landslide hit a mud house, claiming seven lives; rescue efforts are continuing in coordination with all agencies concerned, said the police",
+      "source": "The Hindu National",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/heavy-downpour-slows-search-and-rescue-efforts-in-flood-hit-jk-death-toll-reaches-12/article71243803.ece",
+      "publishedAt": 1784578882000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "843df7342d67c109",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 3.601,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784578882000
+    },
+    {
+      "title": "Several hurt in crackdown on CJP Parliament march",
+      "summary": "Scores hospitalised with fractures, head and eye injuries; CJP leaders meet Nadda, demand Pradhan’s ouster; Wangchuk cites ‘brutality’, says will continue fast till MPs meet ‘youth leaders’ or him",
+      "source": "The Hindu National",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/national/government-cracks-down-on-cockroach-janta-party-protest-in-delhi-net-snapped/article71246087.ece",
+      "publishedAt": 1784577184000,
+      "category": "india",
+      "region": "in",
+      "language": "en",
+      "id": "cc7fd8e3713161dc",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.562,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "the_hindu"
+      ],
+      "firstSeen": 1784573144000
+    },
+    {
+      "title": "Morning Digest: Four Indian seafarers killed near Ukrainian port Odessa; Sonam Wangchuk to continue fast, cites police action against protesters, and more",
+      "summary": "Here is a select list of stories to start the day.",
+      "source": "The Hindu",
+      "sourceGroup": "the_hindu",
+      "url": "https://www.thehindu.com/news/morning-digest-july-21-2026/article71247179.ece",
+      "publishedAt": 1784595180000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "23365d61e71eed60",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.479,
+      "breakingReasons": [
+        "severity_lexicon"
+      ],
+      "sourceCount": 1,
+      "allSources": [
+        "the_hindu"
+      ],
+      "firstSeen": 1784577822000
+    },
+    {
+      "title": "Netanyahu Won't Be Arrested In Any Shape Or Form: Trump After Mamdani Threat",
+      "summary": "The New York City mayor said that the legal department is actively considering what the law might allow.",
+      "source": "NDTV",
+      "sourceGroup": "ndtv",
+      "url": "https://www.ndtv.com/world-news/netanyahu-wont-be-arrested-in-any-shape-or-form-trump-after-mamdani-threat-11798218#publisher=newsstand",
+      "publishedAt": 1784573370000,
+      "category": "topStories",
+      "region": "in",
+      "language": "en",
+      "id": "2c5b292836483f5d",
+      "suppressionReason": null,
+      "isBreaking": true,
+      "breakingScore": 2.474,
+      "breakingReasons": [
+        "multi_source_velocity"
+      ],
+      "sourceCount": 2,
+      "allSources": [
+        "ndtv",
+        "times_of_india"
+      ],
+      "firstSeen": 1784569259000
     }
   ]
 }
