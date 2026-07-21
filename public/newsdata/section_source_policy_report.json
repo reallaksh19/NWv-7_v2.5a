@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1784591714255,
+  "generatedAt": 1784608897804,
   "policyVersion": "section-source-policy-v1",
   "reportVersion": "section-source-policy-report-v1",
   "schemaVersion": 1,
@@ -16,32 +16,32 @@
       ],
       "topSources": [
         {
-          "count": 15,
-          "sourceGroup": "business_line"
-        },
-        {
-          "count": 8,
+          "count": 20,
           "sourceGroup": "economic_times"
         },
         {
           "count": 7,
+          "sourceGroup": "business_line"
+        },
+        {
+          "count": 3,
           "sourceGroup": "google_news"
         }
       ]
     },
     "entertainment": {
       "sourceGroupCount": 1,
-      "storyCount": 15,
+      "storyCount": 18,
       "thin": true,
       "topCategories": [
         {
           "category": "entertainment",
-          "count": 15
+          "count": 18
         }
       ],
       "topSources": [
         {
-          "count": 15,
+          "count": 18,
           "sourceGroup": "google_news"
         }
       ]
@@ -58,16 +58,16 @@
       ],
       "topSources": [
         {
-          "count": 19,
+          "count": 18,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 10,
-          "sourceGroup": "times_of_india"
+          "count": 11,
+          "sourceGroup": "ndtv"
         },
         {
           "count": 1,
-          "sourceGroup": "ndtv"
+          "sourceGroup": "times_of_india"
         }
       ]
     },
@@ -104,21 +104,21 @@
       ],
       "topSources": [
         {
-          "count": 16,
+          "count": 15,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 11,
+          "count": 10,
           "sourceGroup": "bbc"
         },
         {
-          "count": 3,
+          "count": 5,
           "sourceGroup": "google_news"
         }
       ]
     },
     "technology": {
-      "sourceGroupCount": 2,
+      "sourceGroupCount": 3,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -129,12 +129,16 @@
       ],
       "topSources": [
         {
-          "count": 15,
+          "count": 14,
           "sourceGroup": "google_news"
         },
         {
-          "count": 15,
+          "count": 13,
           "sourceGroup": "gadgets360"
+        },
+        {
+          "count": 3,
+          "sourceGroup": "the_hindu"
         }
       ]
     },
@@ -150,11 +154,11 @@
       ],
       "topSources": [
         {
-          "count": 17,
+          "count": 18,
           "sourceGroup": "google_news"
         },
         {
-          "count": 13,
+          "count": 12,
           "sourceGroup": "the_hindu"
         }
       ]
@@ -171,36 +175,36 @@
       ],
       "topSources": [
         {
-          "count": 20,
+          "count": 19,
           "sourceGroup": "the_hindu"
         },
         {
           "count": 9,
-          "sourceGroup": "ndtv"
+          "sourceGroup": "economic_times"
         },
         {
-          "count": 1,
-          "sourceGroup": "economic_times"
+          "count": 2,
+          "sourceGroup": "ndtv"
         }
       ]
     },
     "trichy": {
       "sourceGroupCount": 2,
-      "storyCount": 30,
+      "storyCount": 28,
       "thin": false,
       "topCategories": [
         {
           "category": "trichy",
-          "count": 30
+          "count": 28
         }
       ],
       "topSources": [
         {
-          "count": 17,
+          "count": 16,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 13,
+          "count": 12,
           "sourceGroup": "google_news"
         }
       ]
@@ -217,11 +221,11 @@
       ],
       "topSources": [
         {
-          "count": 20,
+          "count": 19,
           "sourceGroup": "bbc"
         },
         {
-          "count": 10,
+          "count": 11,
           "sourceGroup": "the_hindu"
         }
       ]
@@ -578,7 +582,7 @@
       "configuredFeeds": 9,
       "health": {
         "feedUrl": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=en-IN&gl=IN&ceid=IN:en",
-        "items": 17,
+        "items": 19,
         "ok": true,
         "section": "entertainment"
       },
