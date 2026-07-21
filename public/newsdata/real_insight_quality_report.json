@@ -1,91 +1,82 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1784638362655,
-  "contentHash": "d5ac0e714650cc5c",
+  "generatedAt": 1784647378106,
+  "contentHash": "4a0c5a6a0d70df9c",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 701,
-  "sourceGroupCount": 9,
-  "grade": "D",
+  "storyCount": 749,
+  "sourceGroupCount": 10,
+  "grade": "C",
   "parentCount": 10,
-  "avgAngles": 1.4,
-  "avgTemporalTiers": 1.9,
-  "avgEvolutionRoles": 1.4,
-  "baseReportShare": 0.05,
-  "multiAngleCount": 4,
-  "weakParentCount": 6,
+  "avgAngles": 1.5,
+  "avgTemporalTiers": 2,
+  "avgEvolutionRoles": 1.6,
+  "baseReportShare": 0.09523809523809523,
+  "multiAngleCount": 5,
+  "weakParentCount": 5,
   "runtimeQualityGate": {
-    "attempted": true,
+    "attempted": false,
     "recovered": false,
-    "reason": "relaxed-tree recovery could not produce acceptable output",
+    "reason": "first-pass acceptable",
     "before": {
-      "grade": "D",
-      "tone": "danger",
-      "title": "Weak insight signal",
-      "signalScore": 42,
+      "grade": "C",
+      "tone": "warn",
+      "title": "Thin but usable signal",
+      "signalScore": 48,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 631,
+      "storyCount": 666,
       "risingCount": 0,
-      "thinCount": 6,
-      "multiAngleCount": 4,
-      "lowAngleCount": 6,
+      "thinCount": 5,
+      "multiAngleCount": 5,
+      "lowAngleCount": 5,
       "strongAngleCount": 0,
-      "avgAngles": 1.4,
-      "avgChildren": 2,
-      "avgScore": 0.6465627531013849,
-      "sourceDiversityCoverage": 9,
+      "avgAngles": 1.5,
+      "avgChildren": 2.1,
+      "avgScore": 0.6471686419323902,
+      "sourceDiversityCoverage": 10,
       "snapshotCoverage": 6,
-      "coverageLabel": "4/10",
+      "coverageLabel": "5/10",
       "warnings": [
-        "6 cluster(s) have fewer than two visible child angles.",
+        "5 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "1 cluster(s) are below source-diversity target.",
         "4 cluster(s) have weak snapshot coverage.",
-        "6 cluster(s) are marked thin.",
-        "700 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "5 cluster(s) are marked thin.",
+        "830 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
-      "grade": "D",
-      "tone": "danger",
-      "title": "Weak insight signal",
-      "signalScore": 42,
+      "grade": "C",
+      "tone": "warn",
+      "title": "Thin but usable signal",
+      "signalScore": 48,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 631,
+      "storyCount": 666,
       "risingCount": 0,
-      "thinCount": 6,
-      "multiAngleCount": 4,
-      "lowAngleCount": 6,
+      "thinCount": 5,
+      "multiAngleCount": 5,
+      "lowAngleCount": 5,
       "strongAngleCount": 0,
-      "avgAngles": 1.4,
-      "avgChildren": 2,
-      "avgScore": 0.6465627531013849,
-      "sourceDiversityCoverage": 9,
+      "avgAngles": 1.5,
+      "avgChildren": 2.1,
+      "avgScore": 0.6471686419323902,
+      "sourceDiversityCoverage": 10,
       "snapshotCoverage": 6,
-      "coverageLabel": "4/10",
+      "coverageLabel": "5/10",
       "warnings": [
-        "6 cluster(s) have fewer than two visible child angles.",
+        "5 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "1 cluster(s) are below source-diversity target.",
         "4 cluster(s) have weak snapshot coverage.",
-        "6 cluster(s) are marked thin."
+        "5 cluster(s) are marked thin.",
+        "830 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
-    },
-    "recoveryConfig": {
-      "MIN_CHILD_INFO_GAIN": 0.08,
-      "WEAK_TREE_CHILD_MIN": 2,
-      "MIN_SOURCES_PER_TREE": 2,
-      "MAX_PER_SOURCE_GROUP": 3,
-      "MAX_PER_ANGLE": 4,
-      "TIER_D_EXCLUDE": false
     }
   },
   "parents": [
     {
-      "parentId": "cluster_166_1520f3935bbcd953",
+      "parentId": "cluster_212_1520f3935bbcd953",
       "headline": "Karur Vysya Bank shares soar 11% after stellar Q1 results. What investors should know",
       "score": 0.7666133864516651,
       "postTreeScore": 1.1466,
@@ -105,13 +96,13 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_13_6096b3d02444660b",
-      "headline": "India's Rahul, Priyanka Gandhi protest outside Modi's house - Reuters",
-      "score": 0.5758462101805386,
-      "postTreeScore": 1.0158,
+      "parentId": "cluster_32_1ed1b4dde181c630",
+      "headline": "Rahul, Priyanka, Akhilesh detained during protest outside PM Modi’s residence",
+      "score": 0.6673495401839085,
+      "postTreeScore": 1.1273,
       "childCount": 3,
       "angles": [
-        "regional_followup",
+        "official_response",
         "reaction_public"
       ],
       "temporalTiers": [
@@ -119,6 +110,7 @@
         "breaking"
       ],
       "evolutionRoles": [
+        "official_response",
         "public_reaction",
         "accountability"
       ],
@@ -126,7 +118,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_354_eb4f0a52ef4e72df",
+      "parentId": "cluster_401_eb4f0a52ef4e72df",
       "headline": "Hamas names Khalil al-Hayya as new overall leader",
       "score": 0.6112599999999999,
       "postTreeScore": 1.0113,
@@ -147,7 +139,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_86_4bfcfd2365993b28",
+      "parentId": "cluster_132_4bfcfd2365993b28",
       "headline": "India's 'cockroach' protest continues a day after police crackdown",
       "score": 0.5962599999999999,
       "postTreeScore": 0.9963,
@@ -167,7 +159,28 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_410_9c11cfb600470ccb",
+      "parentId": "cluster_33_9d14dbc2aae9e693",
+      "headline": "US army veteran carrying 'ICE off our streets' sign sets fire outside NYC federal building",
+      "score": 0.5852600000000001,
+      "postTreeScore": 0.9853,
+      "childCount": 2,
+      "angles": [
+        "base_report",
+        "official_response"
+      ],
+      "temporalTiers": [
+        "established",
+        "breaking"
+      ],
+      "evolutionRoles": [
+        "corroboration",
+        "official_response"
+      ],
+      "baseReportShare": 0.5,
+      "weakTree": false
+    },
+    {
+      "parentId": "cluster_457_9c11cfb600470ccb",
       "headline": "Meghna Infracon Infrastructure expects Rs 300cr revenue from new commercial project",
       "score": 0.760613386451665,
       "postTreeScore": 0.6506,
@@ -186,10 +199,10 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_80_3ffc11542796e8b5",
-      "headline": "London Stock Exchange to roll out overnight trading exchange LSE 24 in 2027",
-      "score": 0.6694266666666667,
-      "postTreeScore": 0.5794,
+      "parentId": "cluster_35_31635b4a60944d3a",
+      "headline": "London Stock Exchange to launch round-the-clock trading next year",
+      "score": 0.721413386451665,
+      "postTreeScore": 0.6114,
       "childCount": 2,
       "angles": [
         "market_reaction"
@@ -205,7 +218,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_219_3c61daaa22380271",
+      "parentId": "cluster_265_3c61daaa22380271",
       "headline": "Seafarer from Kasaragod killed in attack on cargo ship off Ukraine",
       "score": 0.6392300531183316,
       "postTreeScore": 0.5292,
@@ -225,7 +238,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_262_bfd6e8bac89b23c2",
+      "parentId": "cluster_308_bfd6e8bac89b23c2",
       "headline": "India’s youth-led 'cockroach movement' clashes with police in New Delhi - Reuters",
       "score": 0.5723433333333332,
       "postTreeScore": 0.4823,
@@ -245,7 +258,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_72_a97194039fd07285",
+      "parentId": "cluster_118_a97194039fd07285",
       "headline": "Delhi High Court allows Sonam Wangchuk to shift to private hospital",
       "score": 0.5513433333333333,
       "postTreeScore": 0.4613,
@@ -262,36 +275,22 @@
       ],
       "baseReportShare": 0,
       "weakTree": true
-    },
-    {
-      "parentId": "cluster_16_f58cab0617e9a583",
-      "headline": "Bandhan Bank Q1 profit jumps 35% as provisions decline sharply",
-      "score": 0.7226911614783158,
-      "postTreeScore": 0.4227,
-      "childCount": 1,
-      "angles": [
-        "fact_update"
-      ],
-      "temporalTiers": [
-        "breaking"
-      ],
-      "evolutionRoles": [
-        "fact_update"
-      ],
-      "baseReportShare": 0,
-      "weakTree": true
     }
   ],
-  "warnings": [
-    "Real snapshot still produces low Insight grade."
-  ],
+  "warnings": [],
   "errors": [],
   "ratchetGate": {
-    "status": "FAIL",
+    "status": "PASS",
     "gateVersion": "real-insight-snapshot-ratchet-v1",
-    "grade": "D",
-    "score": 42,
+    "grade": "C",
+    "score": 100,
     "passed": [
+      {
+        "id": "grade-floor",
+        "label": "Real snapshot grade floor",
+        "actual": "C",
+        "required": "A/B/C"
+      },
       {
         "id": "parent-count",
         "label": "Parent cluster count",
@@ -301,25 +300,31 @@
       {
         "id": "avg-angle-count",
         "label": "Average visible angle count",
-        "actual": 1.4,
+        "actual": 1.5,
         "required": ">= 1.4"
       },
       {
         "id": "avg-temporal-tier-count",
         "label": "Average temporal tier count",
-        "actual": 1.9,
+        "actual": 2,
         "required": ">= 1.8"
+      },
+      {
+        "id": "avg-evolution-role-count",
+        "label": "Average evolution role count",
+        "actual": 1.6,
+        "required": ">= 1.6"
       },
       {
         "id": "base-report-share",
         "label": "Base report share",
-        "actual": 0.05,
+        "actual": 0.095,
         "required": "<= 0.55"
       },
       {
         "id": "multi-angle-parent-count",
         "label": "Multi-angle parent count",
-        "actual": 4,
+        "actual": 5,
         "required": ">= 1"
       },
       {
@@ -333,47 +338,28 @@
         "label": "Top parent child depth",
         "actual": 2,
         "required": ">= 2"
-      }
-    ],
-    "failed": [
-      {
-        "id": "grade-floor",
-        "label": "Real snapshot grade floor",
-        "actual": "D",
-        "required": "A/B/C",
-        "severity": "fail",
-        "fix": "Do not accept D/F real snapshot output. Improve child selection, parent rerank, or data intake."
-      },
-      {
-        "id": "avg-evolution-role-count",
-        "label": "Average evolution role count",
-        "actual": 1.4,
-        "required": ">= 1.6",
-        "severity": "fail",
-        "fix": "C+E output should include distinct event evolution roles."
       },
       {
         "id": "weak-parent-ratio",
         "label": "Weak parent ratio",
-        "actual": 0.6,
-        "required": "<= 0.5",
-        "severity": "warn",
-        "fix": "Too many weak trees remain. Repair or demote weak trees after diversity repair."
+        "actual": 0.5,
+        "required": "<= 0.5"
       }
     ],
+    "failed": [],
     "summary": {
       "parentCount": 10,
-      "avgAngles": 1.4,
-      "avgTemporalTiers": 1.9,
-      "avgEvolutionRoles": 1.4,
-      "baseReportShare": 0.05,
-      "multiAngleCount": 4,
-      "weakParentCount": 6,
-      "weakParentRatio": 0.6,
+      "avgAngles": 1.5,
+      "avgTemporalTiers": 2,
+      "avgEvolutionRoles": 1.6,
+      "baseReportShare": 0.095,
+      "multiAngleCount": 5,
+      "weakParentCount": 5,
+      "weakParentRatio": 0.5,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 701,
-      "sourceGroupCount": 9
+      "storyCount": 749,
+      "sourceGroupCount": 10
     }
   }
 }
