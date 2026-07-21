@@ -1,12 +1,12 @@
 {
   "status": "PASS",
   "benchmarkVersion": "real-insight-snapshot-quality-v1",
-  "generatedAt": 1784647378106,
-  "contentHash": "4a0c5a6a0d70df9c",
+  "generatedAt": 1784650971245,
+  "contentHash": "4d52bbd9df8f6fe0",
   "schemaVersion": 3,
   "collectorVersion": "insight-collector-json-v4",
-  "storyCount": 749,
-  "sourceGroupCount": 10,
+  "storyCount": 708,
+  "sourceGroupCount": 9,
   "grade": "C",
   "parentCount": 10,
   "avgAngles": 1.5,
@@ -23,10 +23,10 @@
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 48,
+      "signalScore": 47,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 666,
+      "storyCount": 643,
       "risingCount": 0,
       "thinCount": 5,
       "multiAngleCount": 5,
@@ -34,26 +34,26 @@
       "strongAngleCount": 0,
       "avgAngles": 1.5,
       "avgChildren": 2.1,
-      "avgScore": 0.6471686419323902,
+      "avgScore": 0.6539673139108899,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 6,
+      "snapshotCoverage": 5,
       "coverageLabel": "5/10",
       "warnings": [
         "5 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "4 cluster(s) have weak snapshot coverage.",
+        "5 cluster(s) have weak snapshot coverage.",
         "5 cluster(s) are marked thin.",
-        "830 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "650 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     },
     "after": {
       "grade": "C",
       "tone": "warn",
       "title": "Thin but usable signal",
-      "signalScore": 48,
+      "signalScore": 47,
       "sourceLabel": "Live",
       "rankedCount": 10,
-      "storyCount": 666,
+      "storyCount": 643,
       "risingCount": 0,
       "thinCount": 5,
       "multiAngleCount": 5,
@@ -61,22 +61,22 @@
       "strongAngleCount": 0,
       "avgAngles": 1.5,
       "avgChildren": 2.1,
-      "avgScore": 0.6471686419323902,
+      "avgScore": 0.6539673139108899,
       "sourceDiversityCoverage": 10,
-      "snapshotCoverage": 6,
+      "snapshotCoverage": 5,
       "coverageLabel": "5/10",
       "warnings": [
         "5 cluster(s) have fewer than two visible child angles.",
         "No cluster currently exposes three or more visible child angles.",
-        "4 cluster(s) have weak snapshot coverage.",
+        "5 cluster(s) have weak snapshot coverage.",
         "5 cluster(s) are marked thin.",
-        "830 duplicate/near-duplicate item(s) were hidden or downgraded."
+        "650 duplicate/near-duplicate item(s) were hidden or downgraded."
       ]
     }
   },
   "parents": [
     {
-      "parentId": "cluster_212_1520f3935bbcd953",
+      "parentId": "cluster_221_1520f3935bbcd953",
       "headline": "Karur Vysya Bank shares soar 11% after stellar Q1 results. What investors should know",
       "score": 0.7666133864516651,
       "postTreeScore": 1.1466,
@@ -96,7 +96,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_32_1ed1b4dde181c630",
+      "parentId": "cluster_36_1ed1b4dde181c630",
       "headline": "Rahul, Priyanka, Akhilesh detained during protest outside PM Modi’s residence",
       "score": 0.6673495401839085,
       "postTreeScore": 1.1273,
@@ -118,10 +118,10 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_401_eb4f0a52ef4e72df",
+      "parentId": "cluster_412_eb4f0a52ef4e72df",
       "headline": "Hamas names Khalil al-Hayya as new overall leader",
-      "score": 0.6112599999999999,
-      "postTreeScore": 1.0113,
+      "score": 0.6792467197849983,
+      "postTreeScore": 1.0592,
       "childCount": 2,
       "angles": [
         "base_report",
@@ -139,7 +139,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_132_4bfcfd2365993b28",
+      "parentId": "cluster_139_4bfcfd2365993b28",
       "headline": "India's 'cockroach' protest continues a day after police crackdown",
       "score": 0.5962599999999999,
       "postTreeScore": 0.9963,
@@ -159,7 +159,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_33_9d14dbc2aae9e693",
+      "parentId": "cluster_37_9d14dbc2aae9e693",
       "headline": "US army veteran carrying 'ICE off our streets' sign sets fire outside NYC federal building",
       "score": 0.5852600000000001,
       "postTreeScore": 0.9853,
@@ -180,7 +180,7 @@
       "weakTree": false
     },
     {
-      "parentId": "cluster_457_9c11cfb600470ccb",
+      "parentId": "cluster_468_9c11cfb600470ccb",
       "headline": "Meghna Infracon Infrastructure expects Rs 300cr revenue from new commercial project",
       "score": 0.760613386451665,
       "postTreeScore": 0.6506,
@@ -199,7 +199,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_35_31635b4a60944d3a",
+      "parentId": "cluster_39_31635b4a60944d3a",
       "headline": "London Stock Exchange to launch round-the-clock trading next year",
       "score": 0.721413386451665,
       "postTreeScore": 0.6114,
@@ -218,7 +218,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_265_3c61daaa22380271",
+      "parentId": "cluster_276_3c61daaa22380271",
       "headline": "Seafarer from Kasaragod killed in attack on cargo ship off Ukraine",
       "score": 0.6392300531183316,
       "postTreeScore": 0.5292,
@@ -238,7 +238,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_308_bfd6e8bac89b23c2",
+      "parentId": "cluster_319_bfd6e8bac89b23c2",
       "headline": "India’s youth-led 'cockroach movement' clashes with police in New Delhi - Reuters",
       "score": 0.5723433333333332,
       "postTreeScore": 0.4823,
@@ -258,7 +258,7 @@
       "weakTree": true
     },
     {
-      "parentId": "cluster_118_a97194039fd07285",
+      "parentId": "cluster_125_a97194039fd07285",
       "headline": "Delhi High Court allows Sonam Wangchuk to shift to private hospital",
       "score": 0.5513433333333333,
       "postTreeScore": 0.4613,
@@ -358,8 +358,8 @@
       "weakParentRatio": 0.5,
       "topParentAngles": 2,
       "topParentChildren": 2,
-      "storyCount": 749,
-      "sourceGroupCount": 10
+      "storyCount": 708,
+      "sourceGroupCount": 9
     }
   }
 }

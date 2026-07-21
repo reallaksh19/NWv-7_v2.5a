@@ -10,9 +10,9 @@
 - Base report share: `0.09523809523809523`
 - Multi-angle parents: `5`
 - Weak parents: `5`
-- Story count: `749`
-- Source groups: `10`
-- Content hash: `4a0c5a6a0d70df9c`
+- Story count: `708`
+- Source groups: `9`
+- Content hash: `4d52bbd9df8f6fe0`
 
 ## Top parents
 
@@ -20,7 +20,7 @@
 |---:|---|---:|---|---|---:|
 | 1 | Karur Vysya Bank shares soar 11% after stellar Q1 results. What investors should know | 2 | fact_update, market_reaction | NO | 0.7666133864516651 |
 | 2 | Rahul, Priyanka, Akhilesh detained during protest outside PM Modi’s residence | 3 | official_response, reaction_public | NO | 0.6673495401839085 |
-| 3 | Hamas names Khalil al-Hayya as new overall leader | 2 | base_report, fact_update | NO | 0.6112599999999999 |
+| 3 | Hamas names Khalil al-Hayya as new overall leader | 2 | base_report, fact_update | NO | 0.6792467197849983 |
 | 4 | India's 'cockroach' protest continues a day after police crackdown | 2 | reaction_public, official_response | NO | 0.5962599999999999 |
 | 5 | US army veteran carrying 'ICE off our streets' sign sets fire outside NYC federal building | 2 | base_report, official_response | NO | 0.5852600000000001 |
 | 6 | Meghna Infracon Infrastructure expects Rs 300cr revenue from new commercial project | 2 | fact_update | YES | 0.760613386451665 |
